@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>基础算法之-递归算法-斐波那契数列</title>
+</head>
+<body>
+长度为<input id="inputVal" oninput="clickVal()" />的斐波那契数列
+<br/>
+<textarea id="outputVal"></textarea>
+
+<script>
+  function fbncVal(n) {
+    if (n === 1) return 1;
+    if (n === 2) return 2;
+    return fbncVal(n - 1) + fbncVal(n - 2);
+  }
+  function fbncLen(l) {
+    if (l === 1 || l === 2) return 1;
+    return fbncVal(l - 1) + fbncVal(l - 2);
+  }
+  function clickVal() {
+    const v = document.querySelector("#inputVal").value;
+    if (Number(v)) {
+      let rel = [];
+      for (let i = 1; i <= Number(v); i++) {
+        rel.push(fbncLen(i));
+      }
+      document.querySelector("#outputVal").value = rel.join(" ");
+    }
+  }
+</script>
+</body>
+</html>

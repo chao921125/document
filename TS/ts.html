@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <a href="https://www.tslang.cn/docs/home.html">官方文档</a>
+    <div>
+        <h1>TS自身特性（相对于JS）：</h1>
+        <p>明确的类型区分：</p>
+        <p>类型注解：</p>
+        <p>提供了缺省参数值：</p>
+        <p>类型注解：</p>
+        <p>接口/类等：</p>
+        <p>模块化：</p>
+    </div>
+    <div>
+        <h1>基础类型：</h1>
+        <p>布尔值：boolean true/false</p>
+        <p>数字：number TypeScript里的所有数字都是浮点数， 除了支持十进制和十六进制字面量，TypeScript还支持ECMAScript 2015中引入的二进制和八进制字面量</p>
+        <p>字符串：string 使用双引号（ "）或单引号（'）表示</p>
+        <p>字符串：string 模版字符串`${ name }`</p>
+        <p>数组：[] 元素类型[]；Array
+            <元素类型 />
+        </p>
+        <p>元组 Tuple：name: [元素类型, ...元素类型]</p>
+        <p>枚举：enum enum Enum {Column, ...Column=0}</p>
+        <p>Any：any 不清楚类型的变量指定一个类型</p>
+        <p>Void：void 只能赋予undefined和null</p>
+        <p>Never：永不存在的值的类型</p>
+        <p>Object：object 除number，string，boolean，symbol，null或undefined之外的类型</p>
+        <p>类型断言：
+            <元素类型 />元素 / 元素 as 元素类型</p>
+    </div>
+    <div>
+        <h1>变量：</h1>
+        <p>let const 解决js的var的变量提升问题。作用域更加明显。const声明的变量不能够直接使用=修改</p>
+        <p>展开操作符：[...arr]{...obj}，仅限于浅拷贝，对象不能够拷贝其内部方法</p>
+    </div>
+    <div>
+        <h1>接口：</h1>
+        <p>interface </p>
+        <p>interface I { column: columnType }</p>
+        <p>interface I { readonly prop: value }， 此时调用I.prop不可重新赋值</p>
+    </div>
+    <div>
+        <h1>类：</h1>
+        <p>class </p>
+        <p>内部本身的构造方法：constructor</p>
+        <p>继承：class Classa extends Classb</p>
+        <p>作用域：public protected private， 属性的readonly</p>
+    </div>
+    <div>
+        <h1>函数：</h1>
+        <p>函数类型：function F(): type {}</p>
+        <p>参数类型期望：function F(params: paramsType[string, number, ...]) {}</p>
+        <p>参数可选：function F(params?: type): type {}</p>
+        <p>参数默认值：function F(params = defaultValue): type {}</p>
+        <p>不固定参数：function F(params1, ...params) {}</p>
+    </div>
+    <div>
+        <h1>泛型：</h1>
+        <p>函数类型：function F
+            &lt;T&gt;(): T {}</p>
+        <p>函数类型：function F
+            &lt;T, U&gt;(arg: T, arg1: U): T {}</p>
+        <p>函数类型：function F
+            &lt;T = string&gt;(): T {}</p>
+        <p>函数类型：function F
+            &lt;T extends OT&gt;(): T {}</p>
+    </div>
+    <div>
+        <h1>枚举：</h1>
+        <p>enum E { E1, E2 = value }</p>
+    </div>
+    <div>
+        <h1>类型推论：</h1>
+    </div>
+    <div>
+        <h1>类型兼容性：</h1>
+        <p>支持由少比多，实际开发积累</p>
+    </div>
+    <div>
+        <h1>高级类型：</h1>
+        <p>交叉类型（Intersection Types）</p>
+        <p>联合类型（Union Types）</p>
+        <p>类型保护与区分类型（Type Guards and Differentiating Types）</p>
+        <p>instanceof类型保护</p>
+    </div>
+    <div>
+        <h1>Symbols：</h1>
+        <p>不可改变且唯一的</p>
+    </div>
+    <div>
+        <h1>迭代器和生成器：</h1>
+        <p>for..of 仅限于集合（List/Array/Map/Set）迭代对象本身</p>
+        <p>for..in限于集合（List/Array/Map/Set/Object）迭代对象索引</p>
+    </div>
+    <div>
+        <h1>模块：</h1>
+        <p>export import</p>
+        <p>export = 和 import = require()</p>
+    </div>
+    <div>
+        <h1>命名空间：</h1>
+        <p>namespace NS{}</p>
+    </div>
+    <div>
+        <h1>声明合并：</h1>
+        <p>namespace NS{}</p>
+    </div>
+
+    <script>
+        (function() {
+            // TODO 做一个网站，上传下载（大文件切片处理），登录
+            // 在不同的浏览器中setTimeout/setInterval的执行间隔为0的时候，执行时间会有差异。
+            // setTimeout(() => {
+            //     console.log(1);
+            // }, 0);
+            // setInterval(() => {
+            //     console.log(1);
+            // }, 0);
+
+            // 期望需要立即执行且正确的结果时，需要添加立即执行函数
+            // for (var i = 0; i < 10; i++) {
+            //     // (function(i) { // 0 1 2 3 4 5 6 7 8 9
+            //     setTimeout(function() {
+            //         console.log(i);
+            //     }, 100 * i); // 10 10 10 10 10 10 10 10 10 10
+            //     // })(i);
+            // }
+            // for (let i = 0; i < 10; i++) {
+            //     console.time("start");
+            //     setTimeout(() => {
+            //         console.timeEnd("end")
+            //         console.log(i);
+            //     }, 100 * i);
+            // }
+
+            // const 不能直接用 = 修改值，运行会报错
+            // const name = "name";
+            // name = "names"; // Uncaught TypeError: Assignment to constant variable.
+            // const obj =  new Object();
+            // obj.a = 1; // {a: 1}
+            // obj = 1; // Uncaught TypeError: Assignment to constant variable.
+
+            // js 计算数值是将其转为二进制然后再转为十进制，这样就会导致失去精度
+            // console.log(0.1 + 0.2);
+            // 解决方案1 val.toFixed(1);
+
+            // TODO js 沙箱实现
+            // proxy iframe with
+
+            // TODO js java 实现大文件分割上传下载
+
+            // 进制
+            // 十转二：整数部分除二余数排列，小数部分乘二取整（循环结果值至为零）
+            // 二转十：整数部分从右往左依次为x*2^0+x*2^1+...，小数部分从左往右依次为x*2^-1+x*2^-2+...
+
+            // javascript this // es6保存函数创建时的this值
+            // 当函数没有被调用的时候，this指向window，严格来说指向undefined
+            // function Fn1() {
+            //     this.name = "name";
+            //     console.log(this);
+            // }
+            // let f = Fn1();
+            // console.log(f.name);
+
+            // function Fn() {
+            //     this.name = "name";
+            //     return "1";
+            // }
+            // let a = new Fn();
+            // console.log(a.name);
+        })();
+        (function() {
+            let deck = {
+                suits: ["hearts", "spades", "clubs", "diamonds"],
+                cards: Array(52),
+                createCardPicker: function() {
+                    // NOTE: the line below is now an arrow function, allowing us to capture 'this' right here
+                    return () => {
+                        let pickedCard = Math.floor(Math.random() * 52);
+                        let pickedSuit = Math.floor(pickedCard / 13);
+                        console.log(this);
+                        return {
+                            suit: this.suits[pickedSuit],
+                            card: pickedCard % 13
+                        };
+                    }
+
+                    // return function() {
+                    //     let pickedCard = Math.floor(Math.random() * 52);
+                    //     let pickedSuit = Math.floor(pickedCard / 13);
+                    //     console.log(this);
+                    //     return {
+                    //         suit: this.suits[pickedSuit],
+                    //         card: pickedCard % 13
+                    //     };
+                    // }
+                }
+            }
+
+            let cardPicker = deck.createCardPicker();
+            let pickedCard = cardPicker();
+
+            // alert("card: " + pickedCard.card + " of " + pickedCard.suit);
+
+        })();
+    </script>
+</body>
+
+</html>
