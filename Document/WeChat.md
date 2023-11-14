@@ -4,7 +4,7 @@ wechat
 https://developers.weixin.qq.com/doc/aispeech/platform/get-start.html
 
 nodejs
-https://developers.weixin.qq.com/doc/aispeech/platform/get-start.html
+https://wechaty.gitbook.io/wechaty/v/zh/
 
 
 ```
