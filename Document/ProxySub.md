@@ -8,7 +8,7 @@
 | MacOS                                                                                                  |
 | clashX Pro 已删库[](https://install.appcenter.ms/users/clashx/apps/clashx-pro/distribution_groups/public) |
 | clashX 已删库[](https://github.com/yichengchen/clashX)                                                    |
-| [ClashX.Meta](https://github.com/MetaCubeX/ClashX.Meta)                                                |
+| [ClashX.Meta 已归档](https://github.com/MetaCubeX/ClashX.Meta)                                            |
 | [ShadowsocksX-NG](https://github.com/shadowsocks/ShadowsocksX-NG/releases)                             |
 | Windows                                                                                                |
 | [v2rayN 👍推荐](https://github.com/2dust/v2rayN)                                                         |
