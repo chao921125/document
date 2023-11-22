@@ -24,7 +24,8 @@
 
 | Android                                                                            |
 |------------------------------------------------------------------------------------|
-| [v2rayNG](https://github.com/2dust/v2rayNG)                                        |
+| [v2rayNG 👍推荐](https://github.com/2dust/v2rayNG)                                   |
+| [v2flyNG 👍推荐](https://github.com/2dust/v2flyNG)                                   |
 | Clash For Android 已删库[](https://github.com/Kr328/ClashForAndroid)                  |
 | [ClashMetaForAndroid](https://github.com/xhaylon/ClashMetaForAndroid)              |
 | [shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android/releases) |
@@ -152,6 +153,9 @@ https://getafreenode.com/
 
 需要对cloudflare进行一些操作：(👍强烈推荐，完全免费)
 https://1.1.1.1/
+
+# subconverter
+[subconverter](https://github.com/tindy2013/subconverter)
 
 # 论坛
 | 综合推荐                                                                               |
