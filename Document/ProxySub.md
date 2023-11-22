@@ -12,7 +12,6 @@
 | [ClashX.Meta 已归档](https://github.com/MetaCubeX/ClashX.Meta)                                            |
 | [V2rayU](https://github.com/yanue/V2rayU/releases)                                                     |
 | [ShadowsocksX-NG](https://github.com/shadowsocks/ShadowsocksX-NG/releases)                             |
-| [stash](https://stash.ws/)                                                                             |
 
 | Windows                                                            |
 |--------------------------------------------------------------------|
@@ -42,7 +41,6 @@
 | [QuantumultX GitHub](https://github.com/crossutility/Quantumult-X)       |
 | [QuantumultX 美](https://apps.apple.com/us/app/quantumult-x/id1443988620) |
 | [QuantumultX 港](https://apps.apple.com/hk/app/quantumult-x/id1443988620) |
-| [stash](https://stash.ws/)                                               |
 | [loon](https://apps.apple.com/us/app/loon/id1373567447)                  |
 
 | 路由器                                                                  |
