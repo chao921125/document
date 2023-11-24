@@ -4,6 +4,7 @@
 |-------------------------------------------------------------------------------|
 | clash_for_windows_pkg 已删库[](https://github.com/Fndroid/clash_for_windows_pkg) |
 | [clash-verge 已归档](https://github.com/zzzgydi/clash-verge)                     |
+https://github.com/shadowsocks
 
 | MacOS                                                                                                  |
 |--------------------------------------------------------------------------------------------------------|
