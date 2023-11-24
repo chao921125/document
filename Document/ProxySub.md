@@ -1,4 +1,5 @@
 # google inurl:clash/proxies
+https://getafreenode.com/subscribe/?uuid=1BFA7541-FA10-46A5-8CB9-1A78B08A2CBA
 
 | MacOS & Windows Client                                                        |
 |-------------------------------------------------------------------------------|
