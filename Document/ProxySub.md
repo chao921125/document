@@ -2,35 +2,36 @@
 
 | MacOS & Windows Client                                                        |
 |-------------------------------------------------------------------------------|
-| clash_for_windows_pkg 已删库[](https://github.com/Fndroid/clash_for_windows_pkg) |
+| [hiddify-next 👍推荐](https://github.com/hiddify/hiddify-next)                   |
+| [sing-box](https://github.com/SagerNet/sing-box)                                |
+| [shadowsocks](https://github.com/shadowsocks)                                   |
 | [clash-verge 已归档](https://github.com/zzzgydi/clash-verge)                     |
-https://github.com/shadowsocks
+| clash_for_windows_pkg 已删库[](https://github.com/Fndroid/clash_for_windows_pkg) |
 
 | MacOS                                                                                                  |
 |--------------------------------------------------------------------------------------------------------|
-| clashX Pro 已删库[](https://install.appcenter.ms/users/clashx/apps/clashx-pro/distribution_groups/public) |
-| clashX 已删库[](https://github.com/yichengchen/clashX)                                                    |
-| [ClashX.Meta 已归档](https://github.com/MetaCubeX/ClashX.Meta)                                            |
 | [V2rayU](https://github.com/yanue/V2rayU/releases)                                                     |
 | [ShadowsocksX-NG](https://github.com/shadowsocks/ShadowsocksX-NG/releases)                             |
+| [ClashX.Meta 已归档](https://github.com/MetaCubeX/ClashX.Meta)                                            |
+| clashX Pro 已删库[](https://install.appcenter.ms/users/clashx/apps/clashx-pro/distribution_groups/public) |
+| clashX 已删库[](https://github.com/yichengchen/clashX)                                                    |
 
 | Windows                                                            |
 |--------------------------------------------------------------------|
 | [v2rayN 👍推荐](https://github.com/2dust/v2rayN)                     |
 | [clashN](https://github.com/2dust/clashN)                          |
-| [clash_meta 已归档](https://github.com/kayaladream/Clash-Core-Change) |
 | [nekoray](https://github.com/MatsuriDayo/nekoray/releases)         |
-| [metacubexd](https://github.com/MetaCubeX/metacubexd/releases)     |
+| [clash_meta 已归档](https://github.com/kayaladream/Clash-Core-Change) |
 | clash 已删库[](https://github.com/Dreamacro/clash)                    |
 
 | Android                                                                            |
 |------------------------------------------------------------------------------------|
 | [v2rayNG 👍推荐](https://github.com/2dust/v2rayNG)                                   |
 | [v2flyNG 👍推荐](https://github.com/2dust/v2flyNG)                                   |
-| Clash For Android 已删库[](https://github.com/Kr328/ClashForAndroid)                  |
 | [ClashMetaForAndroid](https://github.com/xhaylon/ClashMetaForAndroid)              |
 | [shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android/releases) |
 | [ClashYou](https://github.com/Yos-X/ClashYou)                                      |
+| Clash For Android 已删库[](https://github.com/Kr328/ClashForAndroid)                  |
 
 | IOS                                                                      |
 |--------------------------------------------------------------------------|
