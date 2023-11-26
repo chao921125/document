@@ -67,13 +67,13 @@ https://getafreenode.com/subscribe/?uuid=1BFA7541-FA10-46A5-8CB9-1A78B08A2CBA
 
 [部分失效资源下载](https://github.com/chao921125/software/releases/)
 
-# github订阅骗赞项目
+# github订阅，骗赞项目！！！
 [ermaozi](https://github.com/ermaozi/get_subscribe) \
 [ermaozi01](https://github.com/ermaozi01/free_clash_vpn) \
 [aiboboxx](https://github.com/aiboboxx/clashfree) \
 [yaney01](https://github.com/yaney01/get_subscribe) \
-[iosoledad](https://github.com/iosoledad/soledadys) \
 [Jsnzkpg](https://github.com/Jsnzkpg/Jsnzkpg) \
+[ts-sf](https://github.com/ts-sf/fly) \
 []()
 
 # 订阅地址
@@ -81,9 +81,6 @@ https://getafreenode.com/subscribe/?uuid=1BFA7541-FA10-46A5-8CB9-1A78B08A2CBA
 |---------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
 | [github ripaojiedian](https://github.com/ripaojiedian/freenode)           | 【Clash】https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash                     |
 |                                                                           | 【V2ray】https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub                       |
-|                                                                           |                                                                                               |
-| [github tbbatbb](https://github.com/tbbatbb/Proxy)                        | 【Clash】https://raw.githubusercontent.com/tbbatbb/Proxy/master/dist/clash.config.yaml          |
-|                                                                           | 【V2ray】https://raw.githubusercontent.com/tbbatbb/Proxy/master/dist/v2ray.config.txt           |
 |                                                                           |                                                                                               |
 | [tt.vg](https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash)          | 【Clash】https://tt.vg/freeclash                                                                |
 |                                                                           | 【V2ray】https://tt.vg/freev2                                                                   |
@@ -115,20 +112,7 @@ https://getafreenode.com/subscribe/?uuid=1BFA7541-FA10-46A5-8CB9-1A78B08A2CBA
 |                                                                           | 【备用】https://ghproxy.net/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt |
 |                                                                           | 【备用】https://fastly.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.txt                        |
 |                                                                           |                                                                                               |
-| [*github ts-sf](https://github.com/ts-sf/fly)                             | 【Clash】https://raw.githubusercontent.com/ts-sf/fly/main/clash                                 |
-|                                                                           | 【备用】https://raw.fastgit.org/ts-sf/fly/main/clash                                              |
-|                                                                           | 【备用】https://raw.fgit.ml/ts-sf/fly/main/clash                                                  |
-|                                                                           | 【V2ray】https://raw.githubusercontent.com/ts-sf/fly/main/v2                                    |
-|                                                                           | 【备用】https://raw.fastgit.org/ts-sf/fly/main/v2                                                 |
-|                                                                           | 【备用】https://raw.fgit.ml/ts-sf/fly/main/v2                                                     |
-|                                                                           |                                                                                               |
 | [*github zhangkaiitugithub](https://github.com/zhangkaiitugithub/passcro) | 【Clash】https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml       |
-|                                                                           |                                                                                               |
-|                                                                           |                                                                                               |
-|                                                                           |                                                                                               |
-|                                                                           |                                                                                               |
-|                                                                           |                                                                                               |
-|                                                                           |                                                                                               |
 |                                                                           |                                                                                               |
 
 [CN|HK|TW|香港|北京|天津|江苏|山东|安徽|福建|浙江|广东|广西|澳门]
