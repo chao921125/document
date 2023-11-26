@@ -1,5 +1,4 @@
 # google inurl:clash/proxies
-https://getafreenode.com/subscribe/?uuid=1BFA7541-FA10-46A5-8CB9-1A78B08A2CBA
 
 | MacOS & Windows Client                                                        |
 |-------------------------------------------------------------------------------|
@@ -76,7 +75,7 @@ https://getafreenode.com/subscribe/?uuid=1BFA7541-FA10-46A5-8CB9-1A78B08A2CBA
 [ts-sf](https://github.com/ts-sf/fly) \
 []()
 
-# 订阅地址
+# 订阅地址（免费可用，请勿扩散，网络收集）
 | Clash&V2ray                                                               | 订阅地址                                                                                          |
 |---------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
 | [github ripaojiedian](https://github.com/ripaojiedian/freenode)           | 【Clash】https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash                     |
