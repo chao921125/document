@@ -78,3 +78,14 @@ Web-Knowledge
 └── TS                          ts知识总结
 ```
 免费的API调用：https://api.aa1.cn/
+
+https://github.com/liu673cn/box
+
+https://github.com/o0HalfLife0o/TVBoxOSC
+https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/ZY-Player/ZY-Player-PC.json
+https://freed.yuanhsing.cf/TVBox/meowcf.json
+
+
+
+
+
