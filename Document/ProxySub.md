@@ -215,6 +215,7 @@ https://1.1.1.1/
 | https://www.duyaoss.com/                                                           |
 | https://52nav.icu/                                                                 |
 | https://github.com/Z-Siqi/Clash-for-Windows_Chinese/releases                       |
+| https://freenode.openrunner.net/                                                   |
 
 # 在线工具
 [v-c 订阅 官方](https://acl4ssr-sub.github.io/)
