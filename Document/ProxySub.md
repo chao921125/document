@@ -1,18 +1,19 @@
-# google inurl:clash/proxies
-
+# 客户端
+###### [内核](https://github.com/DustinWin/clash-tools)
 | MacOS & Windows Client                                                        |
 |-------------------------------------------------------------------------------|
-| [hiddify-next 👍推荐](https://github.com/hiddify/hiddify-next)                   |
-| [sing-box](https://github.com/SagerNet/sing-box)                                |
-| [shadowsocks](https://github.com/shadowsocks)                                   |
-| [clash-verge 已归档](https://github.com/zzzgydi/clash-verge)                     |
+| [hiddify-next 👍推荐](https://github.com/hiddify/hiddify-next)                  |
+| [sing-box](https://github.com/SagerNet/sing-box)                              |
+| [shadowsocks](https://github.com/shadowsocks)                                 |
+| [clash-nyanpasu 类似verge](https://github.com/keiko233/clash-nyanpasu)          |
+| clash-verge 已归档[](https://github.com/zzzgydi/clash-verge)                     |
 | clash_for_windows_pkg 已删库[](https://github.com/Fndroid/clash_for_windows_pkg) |
 
 | MacOS                                                                                                  |
 |--------------------------------------------------------------------------------------------------------|
 | [V2rayU](https://github.com/yanue/V2rayU/releases)                                                     |
 | [ShadowsocksX-NG](https://github.com/shadowsocks/ShadowsocksX-NG/releases)                             |
-| [ClashX.Meta 已归档](https://github.com/MetaCubeX/ClashX.Meta)                                            |
+| ClashX.Meta 已归档[](https://github.com/MetaCubeX/ClashX.Meta)                                            |
 | clashX Pro 已删库[](https://install.appcenter.ms/users/clashx/apps/clashx-pro/distribution_groups/public) |
 | clashX 已删库[](https://github.com/yichengchen/clashX)                                                    |
 
@@ -21,7 +22,7 @@
 | [v2rayN 👍推荐](https://github.com/2dust/v2rayN)                     |
 | [clashN](https://github.com/2dust/clashN)                          |
 | [nekoray](https://github.com/MatsuriDayo/nekoray/releases)         |
-| [clash_meta 已归档](https://github.com/kayaladream/Clash-Core-Change) |
+| clash_meta 已归档[](https://github.com/kayaladream/Clash-Core-Change) |
 | clash 已删库[](https://github.com/Dreamacro/clash)                    |
 
 | Android                                                                            |
@@ -66,7 +67,7 @@
 
 [部分失效资源下载](https://github.com/chao921125/software/releases/)
 
-# github订阅，骗赞项目！！！
+# 以下项目，订阅不可用
 [ermaozi](https://github.com/ermaozi/get_subscribe) \
 [ermaozi01](https://github.com/ermaozi01/free_clash_vpn) \
 [aiboboxx](https://github.com/aiboboxx/clashfree) \
@@ -76,6 +77,12 @@
 []()
 
 # 订阅地址（免费可用，请勿扩散，网络收集）
+[](https://github.com/peasoft/NoMoreWalls)
+[](https://github.com/snakem982/proxypool)
+[](https://github.com/ZywChannel/free)
+[](https://github.com/mfuu/v2ray)
+[](https://github.com/Flik6/getNode)
+
 | Clash&V2ray                                                               | 订阅地址                                                                                          |
 |---------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
 | [github ripaojiedian](https://github.com/ripaojiedian/freenode)           | 【Clash】https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash                     |
