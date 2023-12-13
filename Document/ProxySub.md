@@ -20,6 +20,7 @@
 | Windows                                                            |
 |--------------------------------------------------------------------|
 | [v2rayN 👍推荐](https://github.com/2dust/v2rayN)                     |
+| [v2rayA](https://github.com/v2rayA/v2rayA)                         |
 | [clashN](https://github.com/2dust/clashN)                          |
 | [nekoray](https://github.com/MatsuriDayo/nekoray/releases)         |
 | clash_meta 已归档[](https://github.com/kayaladream/Clash-Core-Change) |
@@ -56,6 +57,7 @@
 | [OpenWrt-SSRPLUS](https://github.com/WangWenBin2017/OpenWrt-SSRPLUS) |
 | [openwrt-passwall](https://github.com/xiaorouji/openwrt-passwall)    |
 | [ShellCrash](https://github.com/juewuy/ShellCrash/tree/master)       |
+| [v2ray-core](https://github.com/hq450/fancyss)                       |
 
 | 浏览器插件                                                                                                  |
 |--------------------------------------------------------------------------------------------------------|
@@ -64,6 +66,13 @@
 | 规则                                                                                                     |
 |--------------------------------------------------------------------------------------------------------|
 | [clash-rules](https://github.com/Loyalsoldier/clash-rules)                                             |
+
+| Core                                              |
+|---------------------------------------------------|
+| [v2ray-core](https://github.com/v2fly/v2ray-core) |
+
+[Other Client](https://github.com/Alvin9999/new-pac)
+[Other Client](https://github.com/bannedbook/fanqiang)
 
 [部分失效资源下载](https://github.com/chao921125/software/releases/)
 
@@ -82,6 +91,7 @@
 [](https://github.com/ZywChannel/free)
 [](https://github.com/mfuu/v2ray)
 [](https://github.com/Flik6/getNode)
+[](https://v2ray.neocities.org/v2ray.txt)
 
 | Clash&V2ray                                                               | 订阅地址                                                                                          |
 |---------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
