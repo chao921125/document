@@ -68,6 +68,7 @@ GDY6J-QPA0M-CG3AT-NZ2XV-8CAY5
 # JetBrains
 [jetbra](https://3.jetbra.in/)
 [jetbra code](http://jets.idejihuo.com/)
+[jetbra code new](http://jets.idejihuo.com/v2/)
 
 # Office
 https://github.com/OdysseusYuan/LKY_OfficeTools
