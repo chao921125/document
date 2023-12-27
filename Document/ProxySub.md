@@ -177,7 +177,7 @@ https://1.1.1.1/
 | 自己动手搭建                                                                             |
 | https://shluqu.github.io/                                                          |
 | 应急临时节点 每日一更                                                                        |
-| [灯云1](https://58dengyun.com/) [灯云2](https://92deng.com/)                           |
+| [灯云](https://92deng.com/)                                                          |
 | [一灯不是和尚](https://iyideng.vip/)                                                     |
 | [选梯子](https://www.xuantizi.com/)                                                   |
 | [科学上网](https://www.oaoy.net/)                                                      |
