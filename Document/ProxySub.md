@@ -1,13 +1,14 @@
 # 客户端
 ###### [内核](https://github.com/DustinWin/clash-tools)
-| MacOS & Windows Client                                                        |
-|-------------------------------------------------------------------------------|
-| [hiddify-next 👍推荐](https://github.com/hiddify/hiddify-next)                  |
-| [sing-box](https://github.com/SagerNet/sing-box)                              |
-| [shadowsocks](https://github.com/shadowsocks)                                 |
-| [clash-nyanpasu 类似verge](https://github.com/keiko233/clash-nyanpasu)          |
-| clash-verge 已归档[](https://github.com/zzzgydi/clash-verge)                     |
-| clash_for_windows_pkg 已删库[](https://github.com/Fndroid/clash_for_windows_pkg) |
+| MacOS & Windows Client                                                           |
+|----------------------------------------------------------------------------------|
+| [hiddify-next 👍推荐](https://github.com/hiddify/hiddify-next)                     |
+| [sing-box](https://github.com/SagerNet/sing-box)                                 |
+| [shadowsocks](https://github.com/shadowsocks)                                    |
+| [clash-nyanpasu](https://github.com/keiko233/clash-nyanpasu)                     |
+| [clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev)            |
+| clash-verge 已归档[](https://github.com/zzzgydi/clash-verge)                        |
+| clash_for_windows_pkg 已删库[](https://github.com/Fndroid/clash_for_windows_pkg)    |
 
 | MacOS                                                                                                  |
 |--------------------------------------------------------------------------------------------------------|
@@ -71,6 +72,15 @@
 |---------------------------------------------------|
 | [v2ray-core](https://github.com/v2fly/v2ray-core) |
 
+# 其他
+【节点池收集】https://github.com/Leon406/SubCrawler
+
+【发布页】https://github.com/H4Ha/jichangfenxiangzhan
+
+【发布页】https://github.com/WilliamStar007/ClashX-V2Ray-TopFreeProxy
+
+【发布页】https://github.com/dongyubin/Free-AppleId-Serve
+
 [Other Client](https://github.com/Alvin9999/new-pac)
 [Other Client](https://github.com/bannedbook/fanqiang)
 
@@ -112,6 +122,10 @@ https://soft.ozc.me/
 | [github ermaozi](https://github.com/ermaozi)1-3                                                     |                                                                                                    |
 | https://git.io/emzclash                                                                             | https://git.io/emzv2ray                                                                            |
 |                                                                                                     |                                                                                                    |
+| [github mahdibland](https://github.com/mahdibland/V2RayAggregator)3-1                               |                                                                                                    |
+| https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.yml              | https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity                 |
+| https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_yaml.yml             | https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_base64.txt          |
+|                                                                                                     |                                                                                                    |
 | [github ts-sf](https://github.com/ts-sf/fly)3-3                                                     |                                                                                                    |
 | https://raw.fgit.cf/ts-sf/fly/main/clash                                                            | https://raw.fastgit.org/ts-sf/fly/main/v2                                                          |
 | https://raw.githubusercontent.com/ts-sf/fly/main/clash                                              | https://raw.githubusercontent.com/ts-sf/fly/main/v2                                                |
@@ -136,13 +150,6 @@ https://soft.ozc.me/
 | [github Flik6](https://github.com/Flik6/getNode)68-30                                               |                                                                                                    |
 | https://raw.githubusercontent.com/Flik6/getNode/main/clash.yaml                                     | https://raw.githubusercontent.com/Flik6/getNode/main/v2ray.txt                                     |
 |                                                                                                     |                                                                                                    |
-
-# 其他
-【节点池收集】https://github.com/Leon406/SubCrawler
-
-【发布页】https://github.com/H4Ha/jichangfenxiangzhan
-
-【发布页】https://github.com/WilliamStar007/ClashX-V2Ray-TopFreeProxy
 
 # clash.meta
 https://gitlab.com/free9999/ipupdate
