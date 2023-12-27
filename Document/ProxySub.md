@@ -82,17 +82,17 @@ https://soft.ozc.me/
 |-----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
 |                                                                                                     | https://v2ray.neocities.org/v2ray.txt                                                              |
 |                                                                                                     |                                                                                                    |
-| [github Pawdroid](https://github.com/Pawdroid/Free-servers)                                         |                                                                                                    |
+| [github Pawdroid](https://github.com/Pawdroid/Free-servers)2-19                                     |                                                                                                    |
 |                                                                                                     | https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub                                   |
 |                                                                                                     | https://ghproxy.com/https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub               |
 |                                                                                                     |                                                                                                    |
-| [github ZywChannel](https://github.com/ZywChannel/free)                                             |                                                                                                    |
-|                                                                                                     | https://raw.githubusercontent.com/ZywChannel/free/main/sub                                         |
-|                                                                                                     | https://raw.fastgit.org/ZywChannel/free/main/sub                                                   |
-|                                                                                                     |                                                                                                    |
-| [github freefq](https://github.com/freefq/free)                                                     |                                                                                                    |
+| [github freefq](https://github.com/freefq/free)5-18                                                 |                                                                                                    |
 |                                                                                                     | https://raw.githubusercontent.com/freefq/free/master/v2                                            |
 |                                                                                                     | https://bulinkbulink.com/freefq/free/master/v2                                                     |
+|                                                                                                     |                                                                                                    |
+| [github ZywChannel](https://github.com/ZywChannel/free)11-18                                        |                                                                                                    |
+|                                                                                                     | https://raw.githubusercontent.com/ZywChannel/free/main/sub                                         |
+|                                                                                                     | https://raw.fastgit.org/ZywChannel/free/main/sub                                                   |
 |                                                                                                     |                                                                                                    |
 | [github anaer](https://github.com/anaer/Sub)1-8                                                     |                                                                                                    |
 | https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml                                         |                                                                                                    |
