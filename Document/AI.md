@@ -4,6 +4,8 @@ https://github.com/karpathy/llama2.c
 https://github.com/FlagAlpha/Llama2-Chinese
 
 https://firefly.adobe.com/inspire/images
+
+https://www.ai-art-generator.net/
 # 自行搭建
 | github                                                                            |
 |-----------------------------------------------------------------------------------|

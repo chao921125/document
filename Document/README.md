@@ -22,3 +22,8 @@
 | 删除   | remove | delete     |
 
 https://www.developers.pub/
+
+浏览器插件：
+GreaseMonkey（油猴）
+TamperMonkey（捣蛋猴）
+ViolentMonkey（暴力猴）
