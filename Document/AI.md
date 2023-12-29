@@ -6,6 +6,19 @@ https://github.com/FlagAlpha/Llama2-Chinese
 https://firefly.adobe.com/inspire/images
 
 https://www.ai-art-generator.net/
+
+
+# 免费 CodeAI
+| 工具            | Visual Studio | JetBrains |
+|---------------|---------------|-----------|
+| IntelliCode   |               | X         |
+| CodeWhisperer |               |           |
+| Codeium       |               |           |
+| CodeGeeX      |               |           |
+| Cody          |               |           |
+| 通义灵码          |               |           |
+| codefuse      |               |           |
+
 # 自行搭建
 | github                                                                            |
 |-----------------------------------------------------------------------------------|
