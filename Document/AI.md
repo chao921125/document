@@ -20,12 +20,14 @@ https://www.ai-art-generator.net/
 | codefuse      |               |           |
 
 # 自行搭建
-| github                                                                            |
-|-----------------------------------------------------------------------------------|
-| [stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) |
-| [stable-diffusion](https://github.com/CompVis/stable-diffusion)                   |
-| [stablediffusion](https://github.com/Stability-AI/stablediffusion)                |
-| [ml-stable-diffusion](https://github.com/apple/ml-stable-diffusion)               |
+| github                                                                               |
+|--------------------------------------------------------------------------------------|
+| [stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)    |
+| [stable-diffusion](https://github.com/CompVis/stable-diffusion)                      |
+| [stablediffusion](https://github.com/Stability-AI/stablediffusion)                   |
+| [ml-stable-diffusion](https://github.com/apple/ml-stable-diffusion)                  |
+| [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)                           |
+| [ChatGPT-Next-Web](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web)               |
 
 # 真-免费AI
 | 名称                 | 地址                                                                      |
