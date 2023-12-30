@@ -65,6 +65,8 @@ GDY6J-QPA0M-CG3AT-NZ2XV-8CAY5
 # Adobe
 [adobe-genp](https://www.cybermania.ws/apps/adobe-genp/)
 
+magnet:?xt=urn:btih:8662DA3BA33842ABDE663D9248261C0970DCD1F3&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann%3Fmagnet&dn=%5BRUS%5D%20Adobe%20Photoshop%20for%20Mac%202024%20v.%2025.3.1%20%5BIntel%2FApple%5D%20%5BPatch%5D
+
 # JetBrains
 [jetbra](https://3.jetbra.in/)
 [jetbra code](http://jets.idejihuo.com/)
@@ -74,4 +76,5 @@ GDY6J-QPA0M-CG3AT-NZ2XV-8CAY5
 https://github.com/OdysseusYuan/LKY_OfficeTools
 
 https://github.com/massgravel/Microsoft-Activation-Scripts
-
+# Soft Crack
+https://haxnode.net/
