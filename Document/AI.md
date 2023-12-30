@@ -20,14 +20,17 @@ https://www.ai-art-generator.net/
 | codefuse      |               |           |
 
 # 自行搭建
-| github                                                                               |
-|--------------------------------------------------------------------------------------|
-| [stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)    |
-| [stable-diffusion](https://github.com/CompVis/stable-diffusion)                      |
-| [stablediffusion](https://github.com/Stability-AI/stablediffusion)                   |
-| [ml-stable-diffusion](https://github.com/apple/ml-stable-diffusion)                  |
-| [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)                           |
-| [ChatGPT-Next-Web](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web)               |
+| github                                                                            |
+|-----------------------------------------------------------------------------------|
+| [stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) |
+| [stable-diffusion](https://github.com/CompVis/stable-diffusion)                   |
+| [stablediffusion](https://github.com/Stability-AI/stablediffusion)                |
+| [ml-stable-diffusion](https://github.com/apple/ml-stable-diffusion)               |
+| [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)                        |
+| [ChatGPT-Next-Web](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web)            |
+| [GPT4All 官网](https://gpt4all.io/index.html)                                       |
+| [GPT4All GitHub](https://github.com/nomic-ai/gpt4all)                             |
+| [GPT4All 中文模型](https://gpt4all.io/models/gguf/mistral-7b-openorca.Q4_0.gguf)      |
 
 # 真-免费AI
 | 名称                 | 地址                                                                      |
