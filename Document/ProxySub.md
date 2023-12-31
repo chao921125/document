@@ -2,12 +2,12 @@
 | 内核 Core                                                               |
 |-----------------------------------------------------------------------|
 | [v2ray-core](https://github.com/v2fly/v2ray-core)                     |
-| [clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) |
 | [clash all](https://github.com/DustinWin/clash-tools)                 |
 
 | MacOS & Windows Client                                                        |
 |-------------------------------------------------------------------------------|
 | [clash-nyanpasu 👍推荐](https://github.com/keiko233/clash-nyanpasu)             |
+| [clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev)         |
 | [hiddify-next](https://github.com/hiddify/hiddify-next)                       |
 | [sing-box](https://github.com/SagerNet/sing-box)                              |
 | [shadowsocks](https://github.com/shadowsocks)                                 |
