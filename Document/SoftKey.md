@@ -78,3 +78,4 @@ https://github.com/OdysseusYuan/LKY_OfficeTools
 https://github.com/massgravel/Microsoft-Activation-Scripts
 # Soft Crack
 https://haxnode.net/
+https://positiverecords.ru/
