@@ -4,16 +4,16 @@
 | [v2ray-core](https://github.com/v2fly/v2ray-core)                     |
 | [clash all](https://github.com/DustinWin/clash-tools)                 |
 
-| MacOS & Windows Client                                                        |
-|-------------------------------------------------------------------------------|
-| [clash-verge-rev 👍推荐](https://github.com/clash-verge-rev/clash-verge-rev)    |
+| MacOS & Windows Client                                                                                |
+|-------------------------------------------------------------------------------------------------------|
+| [clash-verge-rev 👍推荐](https://github.com/clash-verge-rev/clash-verge-rev)                            |
 | clash-verge-rev 注意 Apple 芯片下需要执行：sudo xattr -r -d com.apple.quarantine /Applications/Clash\ Verge.app |
-| [clash-nyanpasu 各种闪退，不推荐](https://github.com/keiko233/clash-nyanpasu)         |
-| [hiddify-next](https://github.com/hiddify/hiddify-next)                       |
-| [sing-box](https://github.com/SagerNet/sing-box)                              |
-| [shadowsocks](https://github.com/shadowsocks)                                 |
-| clash-verge 已归档[](https://github.com/zzzgydi/clash-verge)                     |
-| clash_for_windows_pkg 已删库[](https://github.com/Fndroid/clash_for_windows_pkg) |
+| [clash-nyanpasu 各种闪退，不推荐](https://github.com/keiko233/clash-nyanpasu)                                 |
+| [hiddify-next](https://github.com/hiddify/hiddify-next)                                               |
+| [sing-box](https://github.com/SagerNet/sing-box)                                                      |
+| [shadowsocks](https://github.com/shadowsocks)                                                         |
+| clash-verge 已归档[](https://github.com/zzzgydi/clash-verge)                                             |
+| clash_for_windows_pkg 已删库[](https://github.com/Fndroid/clash_for_windows_pkg)                         |
 
 | MacOS                                                                                                  |
 |--------------------------------------------------------------------------------------------------------|
