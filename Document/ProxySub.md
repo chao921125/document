@@ -1,8 +1,9 @@
 # 客户端
-| 内核 Core                                                               |
-|-----------------------------------------------------------------------|
-| [v2ray-core](https://github.com/v2fly/v2ray-core)                     |
-| [clash all](https://github.com/DustinWin/clash-tools)                 |
+| 内核 Core                                               |
+|-------------------------------------------------------|
+| [v2ray-core](https://github.com/v2fly/v2ray-core)     |
+| [clash all](https://github.com/DustinWin/clash-tools) |
+| [mihomo](https://github.com/MetaCubeX/mihomo)         |
 
 | MacOS & Windows Client                                                                                |
 |-------------------------------------------------------------------------------------------------------|
