@@ -1,3 +1,6 @@
+https://fliki.ai/blog/google-videopoet
+
+
 https://github.com/hpcaitech/ColossalAI
 
 https://github.com/karpathy/llama2.c
