@@ -130,8 +130,8 @@ https://soft.ozc.me/
 | https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_yaml.yml   | https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_base64.txt          |
 |                                                                                           |                                                                                                    |
 | [github ts-sf](https://github.com/ts-sf/fly)3-3                                           |                                                                                                    |
-| https://raw.fgit.cf/ts-sf/fly/main/clash                                                  | https://raw.fastgit.org/ts-sf/fly/main/v2                                                          |
 | https://raw.githubusercontent.com/ts-sf/fly/main/clash                                    | https://raw.githubusercontent.com/ts-sf/fly/main/v2                                                |
+| https://raw.fgit.cf/ts-sf/fly/main/clash                                                  | https://raw.fastgit.org/ts-sf/fly/main/v2                                                          |
 |                                                                                           |                                                                                                    |
 | [github ripaojiedian](https://github.com/ripaojiedian/freenode)8-5                        |                                                                                                    |
 | https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash                        | https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub                                   |
