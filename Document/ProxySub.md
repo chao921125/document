@@ -146,11 +146,11 @@ Clash Clash-2: https://sub.xeton.dev/sub?target=clash&new_name=true&url=https%3A
 | https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash                        | https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub                          |
 |                                                                                           |                                                                                           |
 |                                                                                           |                                                                                           |
-| [github zhangkaiitugithub](https://github.com/zhangkaiitugithub/passcro) *                |                                                                                           |
-| https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml          |                                                                                           |
-|                                                                                           |                                                                                           |
 | [github Flik6](https://github.com/Flik6/getNode) clash 请直接使用                              |                                                                                           |
 | https://raw.githubusercontent.com/Flik6/getNode/main/clash.yaml                           | https://raw.githubusercontent.com/Flik6/getNode/main/v2ray.txt                            |
+|                                                                                           |                                                                                           |
+| [github zhangkaiitugithub](https://github.com/zhangkaiitugithub/passcro) *                |                                                                                           |
+| https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml          |                                                                                           |
 |                                                                                           |                                                                                           |
 | [github peasoft](https://github.com/peasoft/NoMoreWalls) clash 请直接使用                      |                                                                                           |
 | https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml                     | https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt                     |
