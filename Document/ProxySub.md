@@ -5,16 +5,22 @@
 | [clash all](https://github.com/DustinWin/clash-tools) |
 | [mihomo](https://github.com/MetaCubeX/mihomo)         |
 
-| MacOS & Windows Client                                                                                |
-|-------------------------------------------------------------------------------------------------------|
-| [clash-verge-rev 👍推荐](https://github.com/clash-verge-rev/clash-verge-rev)                            |
-| clash-verge-rev 注意 Apple 芯片下需要执行：sudo xattr -r -d com.apple.quarantine /Applications/Clash\ Verge.app |
-| [clash-nyanpasu 各种闪退，不推荐](https://github.com/keiko233/clash-nyanpasu)                                 |
-| [hiddify-next](https://github.com/hiddify/hiddify-next)                                               |
-| [sing-box](https://github.com/SagerNet/sing-box)                                                      |
-| [shadowsocks](https://github.com/shadowsocks)                                                         |
-| clash-verge 已归档[](https://github.com/zzzgydi/clash-verge)                                             |
-| clash_for_windows_pkg 已删库[](https://github.com/Fndroid/clash_for_windows_pkg)                         |
+| 规则                                                                                                     |
+|--------------------------------------------------------------------------------------------------------|
+| [clash-rules](https://github.com/Loyalsoldier/clash-rules)                                             |
+
+| MacOS & Windows Client                                                                                    |
+|-----------------------------------------------------------------------------------------------------------|
+| [clash-verge-rev 👍推荐](https://github.com/clash-verge-rev/clash-verge-rev)                                |
+| clash-verge-rev 注意 Mac Apple 芯片下需要执行：sudo xattr -r -d com.apple.quarantine /Applications/Clash\ Verge.app |
+| [clash-nyanpasu](https://github.com/keiko233/clash-nyanpasu)                                              |
+| [hiddify 官网 全平台支持](https://hiddify.com/)                                                                  |
+| [hiddify-next](https://github.com/hiddify/hiddify-next)                                                   |
+| [sing-box 官网 不支持 IOS](https://sing-box.sagernet.org/zh/)                                                  |
+| [sing-box](https://github.com/SagerNet/sing-box)                                                          |
+| [shadowsocks](https://github.com/shadowsocks)                                                             |
+| clash-verge 已归档[](https://github.com/zzzgydi/clash-verge)                                                 |
+| clash_for_windows_pkg 已删库[](https://github.com/Fndroid/clash_for_windows_pkg)                             |
 
 | MacOS                                                                                                  |
 |--------------------------------------------------------------------------------------------------------|
@@ -36,7 +42,6 @@
 | Android                                                                            |
 |------------------------------------------------------------------------------------|
 | [v2rayNG 👍推荐](https://github.com/2dust/v2rayNG)                                   |
-| [v2flyNG 👍推荐](https://github.com/2dust/v2flyNG)                                   |
 | [ClashMetaForAndroid](https://github.com/xhaylon/ClashMetaForAndroid)              |
 | [shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android/releases) |
 | [ClashYou](https://github.com/Yos-X/ClashYou)                                      |
@@ -69,10 +74,6 @@
 | 浏览器插件                                                                                                  |
 |--------------------------------------------------------------------------------------------------------|
 | [SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega/releases)                                    |
-
-| 规则                                                                                                     |
-|--------------------------------------------------------------------------------------------------------|
-| [clash-rules](https://github.com/Loyalsoldier/clash-rules)                                             |
 
 # 其他
 【节点池收集】https://github.com/Leon406/SubCrawler
