@@ -202,7 +202,6 @@ https://1.1.1.1/
 | 【发布页】https://clashxpro.org/                                                        |
 | [clashsub](https://clashsub.com/) [Clash Node](https://clashnode.xyz/)             |
 | [clash](https://www.clash.la/)                                                     |
-| [免费党](https://www.mfdang.com/)                                                     |
 | [优质](https://fanqiang.network/)                                                    |
 | [ialtone](https://ialtone.xyz/)                                                    |
 | [v2ray免费 输入邮箱订阅](https://www.v2mj.com/) [v2ray免费节点](https://www.v2rayfree.eu.org/) |
