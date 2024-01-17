@@ -1,16 +1,4 @@
 https://fliki.ai/blog/google-videopoet
-
-
-https://github.com/hpcaitech/ColossalAI
-
-https://github.com/karpathy/llama2.c
-https://github.com/FlagAlpha/Llama2-Chinese
-
-https://firefly.adobe.com/inspire/images
-
-https://www.ai-art-generator.net/
-
-
 # 免费 CodeAI
 | 工具            | Visual Studio | JetBrains |
 |---------------|---------------|-----------|
@@ -34,6 +22,9 @@ https://www.ai-art-generator.net/
 | [GPT4All 官网](https://gpt4all.io/index.html)                                       |
 | [GPT4All GitHub](https://github.com/nomic-ai/gpt4all)                             |
 | [GPT4All 中文模型](https://gpt4all.io/models/gguf/mistral-7b-openorca.Q4_0.gguf)      |
+| [ColossalAI](https://github.com/hpcaitech/ColossalAI)                             |
+| [llama2 图片](https://github.com/karpathy/llama2.c)                                 |
+| [llama2 中文模型](https://github.com/FlagAlpha/Llama2-Chinese)                        |
 
 # 真-免费AI
 | 名称                 | 地址                                                                      |
@@ -47,6 +38,7 @@ https://www.ai-art-generator.net/
 | 图 修复 高清            | [访问地址](https://huggingface.co/spaces/sczhou/CodeFormer)                 |
 |                    | [访问地址]()                                                                |
 | 视频 3秒              | [访问地址](https://huggingface.co/spaces/hysts/zeroscope-v2)                |
+| adobe 画图           | [访问地址](https://firefly.adobe.com/inspire/images)                        |
 
 # OpenAI 注册教程
 [ChatGPT 手机号接收验证码网站](https://sms-activate.org/cn/info/ChatGPT)
@@ -98,6 +90,7 @@ https://www.ai-art-generator.net/
 | 绘图                                                  |
 |-----------------------------------------------------|
 | [aiask 发布页](https://ailink.icu/)                    |
+| [图片生成](https://www.ai-art-generator.net/)           |
 | [dreamstudio](https://beta.dreamstudio.ai/generate) |
 
 | 文字生成图片                                                                                                                                                            |
