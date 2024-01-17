@@ -1,4 +1,32 @@
 # Git使用
+```shell
+# 删除历史记录，并重新推送
+git checkout --orphan latest_branch
+
+git add -A
+
+git commit -am "First Commit"
+
+git branch -D master
+
+git branch -m master
+
+git push -f origin master
+# 解决部分GitHub项目过大，无法下载问题
+
+# 这个可以省略
+git config --global http.postBuffer 524288000
+
+git clone --depth=1 https://github.com/chao921125/knowledge.git
+
+cd knowledge
+
+git fetch --unshallow
+
+git remote set-branches origin "*"
+
+git fetch -v
+```
 
 ```text
 1、git基础服务，点击 https://git-scm.com/ 下载对应的服务包即可
