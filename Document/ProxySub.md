@@ -79,7 +79,6 @@
 
 | V2ray V                                                                              |
 |--------------------------------------------------------------------------------------|
-| https://www.xrayvip.com/free.txt                                                     |
 | https://jiang.netlify.app/                                                           |
 |                                                                                      |
 | https://muma16fx.netlify.app/                                                        |
@@ -100,7 +99,6 @@ https://sub.xeton.dev/sub?target=clash&new_name=true&url=https%3A%2F%2Fwww.xrayv
 
 | Clash C                                                              |
 |----------------------------------------------------------------------|
-| https://www.xrayvip.com/free.yaml                                    |
 |                                                                      |
 | [github anaer](https://github.com/anaer/Sub)                         |
 | https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml          |
@@ -112,6 +110,9 @@ https://sub.xeton.dev/sub?target=clash&new_name=true&url=https%3A%2F%2Fwww.xrayv
 
 | Clash C & V2ray V                                                                           |
 |---------------------------------------------------------------------------------------------|
+| https://www.xrayvip.com/free.txt                                                            |
+| https://www.xrayvip.com/free.yaml                                                           |
+|                                                                                             |
 | [github ts-sf](https://github.com/ts-sf/fly)                                                |
 | C https://raw.githubusercontent.com/ts-sf/fly/main/clash                                    |
 | C https://raw.fgit.cf/ts-sf/fly/main/clash                                                  |
