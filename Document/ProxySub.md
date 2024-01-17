@@ -96,6 +96,8 @@
 | https://raw.githubusercontent.com/ZywChannel/free/main/sub                           |
 | https://raw.fastgit.org/ZywChannel/free/main/sub                                     |
 
+https://sub.xeton.dev/sub?target=clash&new_name=true&url=https%3A%2F%2Fwww.xrayvip.com%2Ffree.txt%7Chttps%3A%2F%2Fjiang.netlify.app%2F%7Chttps%3A%2F%2Fraw.githubusercontent.com%2FPawdroid%2FFree-servers%2Fmain%2Fsub%7Chttps%3A%2F%2Fraw.githubusercontent.com%2FZywChannel%2Ffree%2Fmain%2Fsub%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Ffreefq%2Ffree%2Fmaster%2Fv2&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini
+
 | Clash C                                                              |
 |----------------------------------------------------------------------|
 | https://www.xrayvip.com/free.yaml                                    |
