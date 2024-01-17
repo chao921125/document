@@ -80,10 +80,9 @@
 | V2ray V                                                                              |
 |--------------------------------------------------------------------------------------|
 | https://www.xrayvip.com/free.txt                                                     |
+| https://jiang.netlify.app/                                                           |
 |                                                                                      |
 | https://muma16fx.netlify.app/                                                        |
-| https://www.liesauer.net/yogurt/subscribe?ACCESS_TOKEN=DAYxR3mMaZAsaqUb              |
-| https://jiang.netlify.app/                                                           |
 |                                                                                      |
 | [github Pawdroid](https://github.com/Pawdroid/Free-servers)                          |
 | https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub                     |
