@@ -19,6 +19,22 @@
 | [html5up](https://html5up.net/)            |
 | [不错吧](https://www.bucuoba.com/)            |
 
+# 各种网站推荐
+|                                               |
+|-----------------------------------------------|
+| [临时邮箱](https://www.linshi-email.com/)         |
+| [临时邮箱](https://temp-mail.org/)                |
+| [临时邮箱](https://www.guerrillamail.com/)        |
+| [临时手短信](https://www.storytrain.info/)         |
+| [临时手短信](https://yunduanxin.net/)              |
+| [临时手短信](https://www.supercloudsms.com/zh/)    |
+| [临时手短信](https://www.yunjiema.top/zh/)         |
+| [临时手短信](https://www.yunduanxin.xyz/zh/)       |
+| [临时手短信](https://www.free-sms-receive.com/zh/) |
+| [临时手短信](https://www.sms-receive-online.com/)  |
+| [TYB字幕下载](https://addyoutube.com/)            |
+| [电影、电视配乐](https://www.tunefind.com/)          |
+
 # OCR
 | 图片识别文字                                    |
 |-------------------------------------------|
