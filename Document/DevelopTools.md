@@ -27,6 +27,18 @@ JAVA_HOME path
 CALSSPATH 
 Path 
 ```
+```shell
+# ENV JDK mac os 下多版本配置
+export JAVA8_HOME=/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
+export JAVA_HOME=$JAVA_HOME
+alias jdk8="export JAVA_HOME=$JAVA8_HOME"
+alias jdk="export JAVA_HOME=$JAVA_HOME"
+# ENV Python
+alias python=/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11
+# ENV Flutter
+export PATH="$PATH:/Users/huangchao/WorkSoft/flutter/bin"
+```
 [NodeJS 下载](https://nodejs.org/en/download/) |
 [NodeJS多版本管理 nvm MacOS](https://github.com/nvm-sh/nvm/) [nvm Windows](https://github.com/nvm-sh/nvm#install--update-script) |
 [pnpm 包管理](https://www.pnpm.cn/installation/)

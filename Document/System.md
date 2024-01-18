@@ -136,16 +136,3 @@ http://bbs.wuyou.net/forum.php?mod=viewthread&tid=349965
 http://bbs.wuyou.net/forum.php?mod=viewthread&tid=370573
 11,雷电PE
 http://bbs.c3.wuyou.net/forum.php?mod=viewthread&tid=426252&extra=&page=1
-
-[//]: # (
-# ENV JDK
-export JAVA8_HOME=/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
-export JAVA_HOME=$JAVA_HOME
-alias jdk8="export JAVA_HOME=$JAVA8_HOME"
-alias jdk="export JAVA_HOME=$JAVA_HOME"
-# ENV Python
-alias python=/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11
-# ENV Flutter
-export PATH="$PATH:/Users/huangchao/WorkSoft/flutter/bin"
-)
