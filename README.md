@@ -25,14 +25,3 @@
 | [知识汇总](./Knowledge/README.md)                    |
 | [Linux 下载及命令使用](./Linux/README.md)               |
 
-
-https://github.com/liu673cn/box
-
-https://github.com/o0HalfLife0o/TVBoxOSC
-https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/ZY-Player/ZY-Player-PC.json
-https://freed.yuanhsing.cf/TVBox/meowcf.json
-
-
-
-
-

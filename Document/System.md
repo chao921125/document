@@ -2,6 +2,12 @@
 |                                                     |
 |-----------------------------------------------------|
 | [Win+Mac 哇哦菌](https://www.waodown.com/category/mac) |
+| [安卓视频](https://github.com/o0HalfLife0o/TVBoxOSC)    |
+
+# 音乐视频源
+|                                                                                |
+|--------------------------------------------------------------------------------|
+| https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/ZY-Player/ZY-Player-PC.json |
 
 # 工具箱网站
 |                                            |
