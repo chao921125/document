@@ -163,8 +163,6 @@
 | https://ghproxy.net/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt |
 | https://fastly.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.txt                        |
 
-https://sub.xeton.dev/sub?target=clash&new_name=true&url=https%3A%2F%2Fjiang.netlify.app%2F%7Chttps%3A%2F%2Fwww.xrayvip.com%2Ffree.txt%7Chttps%3A%2F%2Fv2ray.neocities.org%2Fv2ray.txt%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fripaojiedian%2Ffreenode%2Fmain%2Fsub%7Chttps%3A%2F%2Fraw.githubusercontent.com%2FFlik6%2FgetNode%2Fmain%2Fv2ray.txt%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fpeasoft%2FNoMoreWalls%2Fmaster%2Flist.txt&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini
-
 # clash.meta
 https://gitlab.com/free9999/ipupdate
 
