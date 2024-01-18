@@ -26,6 +26,13 @@ https://fliki.ai/blog/google-videopoet
 | [llama2 图片](https://github.com/karpathy/llama2.c)                                 |
 | [llama2 中文模型](https://github.com/FlagAlpha/Llama2-Chinese)                        |
 
+# AI 整理
+|                                                     |
+|-----------------------------------------------------|
+| 腾讯 AI 图片合成 https://github.com/TencentARC/PhotoMaker |
+| OCR 本地文本识别 https://github.com/VikParuchuri/surya    |
+| AI 赚钱 https://github.com/bleedline/aimoneyhunter    |
+
 # 真-免费AI
 | 名称                 | 地址                                                                      |
 |--------------------|-------------------------------------------------------------------------|
