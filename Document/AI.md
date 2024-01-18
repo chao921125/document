@@ -31,6 +31,7 @@ https://fliki.ai/blog/google-videopoet
 |-----------------------------------------------------|
 | 腾讯 AI 图片合成 https://github.com/TencentARC/PhotoMaker |
 | OCR 本地文本识别 https://github.com/VikParuchuri/surya    |
+| AI 赚钱 https://github.com/bleedline/aimoneyhunter    |
 
 # 真-免费AI
 | 名称                 | 地址                                                                      |
