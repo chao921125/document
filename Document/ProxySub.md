@@ -196,7 +196,7 @@ https://1.1.1.1/
 
 [【发布页】](https://github.com/bannedbook/fanqiang)
 
-[部分失效资源下载](https://github.com/chao921125/software/releases/)
+[失效代理客户端备份](https://github.com/chao921125/software/releases/)
 
 | 综合推荐                                                                               |
 |------------------------------------------------------------------------------------|
