@@ -11,27 +11,32 @@ https://fliki.ai/blog/google-videopoet
 | codefuse      |               |           |
 
 # 自行搭建
-| github                                                                            |
-|-----------------------------------------------------------------------------------|
-| [stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) |
-| [stable-diffusion](https://github.com/CompVis/stable-diffusion)                   |
-| [stablediffusion](https://github.com/Stability-AI/stablediffusion)                |
-| [ml-stable-diffusion](https://github.com/apple/ml-stable-diffusion)               |
-| [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)                        |
-| [ChatGPT-Next-Web](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web)            |
-| [GPT4All 官网](https://gpt4all.io/index.html)                                       |
-| [GPT4All GitHub](https://github.com/nomic-ai/gpt4all)                             |
-| [GPT4All 中文模型](https://gpt4all.io/models/gguf/mistral-7b-openorca.Q4_0.gguf)      |
-| [ColossalAI](https://github.com/hpcaitech/ColossalAI)                             |
-| [llama2 图片](https://github.com/karpathy/llama2.c)                                 |
-| [llama2 中文模型](https://github.com/FlagAlpha/Llama2-Chinese)                        |
+| github                                                                                  |
+|-----------------------------------------------------------------------------------------|
+| [stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)       |
+| [stable-diffusion](https://github.com/CompVis/stable-diffusion)                         |
+| [stablediffusion](https://github.com/Stability-AI/stablediffusion)                      |
+| [ml-stable-diffusion](https://github.com/apple/ml-stable-diffusion)                     |
+| [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)                              |
+| [ChatGPT-Next-Web](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web)                  |
+| [GPT4All 官网](https://gpt4all.io/index.html)                                             |
+| [GPT4All GitHub](https://github.com/nomic-ai/gpt4all)                                   |
+| [GPT4All 中文模型](https://gpt4all.io/models/gguf/mistral-7b-openorca.Q4_0.gguf)            |
+| [ColossalAI](https://github.com/hpcaitech/ColossalAI)                                   |
+| [llama2 图片](https://github.com/karpathy/llama2.c)                                       |
+| [llama2 中文模型](https://github.com/FlagAlpha/Llama2-Chinese)                              |
+| [chatbot-ui](https://github.com/mckaywrigley/chatbot-ui)                                |
+| [GeminiProChat](https://github.com/babaohuang/GeminiProChat)                            |
 
 # AI 整理
-|                                                     |
-|-----------------------------------------------------|
-| 腾讯 AI 图片合成 https://github.com/TencentARC/PhotoMaker |
-| OCR 本地文本识别 https://github.com/VikParuchuri/surya    |
-| AI 赚钱 https://github.com/bleedline/aimoneyhunter    |
+|                                                         |
+|---------------------------------------------------------|
+| 腾讯 AI 图片合成 https://github.com/TencentARC/PhotoMaker     |
+| OCR 本地文本识别 https://github.com/VikParuchuri/surya        |
+| AI 赚钱 https://github.com/bleedline/aimoneyhunter        |
+| AI 提示词 https://github.com/friuns2/Leaked-GPTs           |
+| 音色录制，文字生成语音 https://github.com/jianchang512/clone-voice |
+| one-api 多模型部署 https://github.com/songquanpeng/one-api   |
 
 # 真-免费AI
 | 名称                 | 地址                                                                      |
