@@ -197,11 +197,9 @@ https://1.1.1.1/
 |------------------------------------------------------------------------------------------------------------|
 | [1/月-50G/月 性价比](https://a.xn--6nq44r2uh9rhj7f.com/#/register?code=6v77KWIz)                                |
 | [12/年-500G/月 一元](https://xn--4gq62f52gdss.art/#/register?code=y2BjORPu)                                    |
+| [12.99/月-50G/月起 签到送流量](https://feijiyun911.com/auth/register?code=XFbr)                                    |
 | [15/月-100G/月起 龙猫](https://lmspeedapp.com/#/register?code=8JnnPAyd)                                         |
 | [19.99/月-100G/月起 签到送流量](https://suyunti668.xyz/auth/register?code=TMGb) [//]: # (https://suyunti.net/user) |
-| []()                                                                                                       |
-| []()                                                                                                       |
-| []()                                                                                                       |
 | []()                                                                                                       |
 
 | 免费试用机场                                                                             |
