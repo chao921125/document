@@ -1,4 +1,3 @@
-https://fliki.ai/blog/google-videopoet
 # 免费 CodeAI
 | 工具            | Visual Studio | JetBrains |
 |---------------|---------------|-----------|
@@ -37,6 +36,7 @@ https://fliki.ai/blog/google-videopoet
 | AI 提示词 https://github.com/friuns2/Leaked-GPTs           |
 | 音色录制，文字生成语音 https://github.com/jianchang512/clone-voice |
 | one-api 多模型部署 https://github.com/songquanpeng/one-api   |
+| 根据文本或者图片生成视频 https://github.com/AILab-CVC/VideoCrafter  |
 
 # 真-免费AI
 | 名称                 | 地址                                                                      |
