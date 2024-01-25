@@ -1,4 +1,3 @@
-https://fliki.ai/blog/google-videopoet
 # 免费 CodeAI
 | 工具            | Visual Studio | JetBrains |
 |---------------|---------------|-----------|
