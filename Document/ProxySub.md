@@ -193,15 +193,16 @@ https://1.1.1.1/
 | [【发布页】](https://github.com/bannedbook/fanqiang)                        |
 | [clashsub](https://clashsub.com/) [Clash Node](https://clashnode.xyz/) |
 
-| 机场推荐（限制设备的根据需要自行选择，不在这里推荐）                                              |
-|-------------------------------------------------------------------------|
-| [12/年-500G/月 一元](https://xn--4gq62f52gdss.art/#/register?code=y2BjORPu) |
-| [15/月-100G/月起 龙猫](https://lmspeedapp.com/#/register?code=8JnnPAyd)      |
-| [19.99/月-100G/月起 签到送流量](https://suyunti668.xyz/auth/register?code=TMGb) |
-| []()                                                                    |
-| []()                                                                    |
-| []()                                                                    |
-| []()                                                                    |
+| 机场推荐（限制设备的根据需要自行选择，不在这里推荐）                                                                                 |
+|------------------------------------------------------------------------------------------------------------|
+| [1/月-50G/月 性价比](https://a.xn--6nq44r2uh9rhj7f.com/#/register?code=6v77KWIz)                                |
+| [12/年-500G/月 一元](https://xn--4gq62f52gdss.art/#/register?code=y2BjORPu)                                    |
+| [15/月-100G/月起 龙猫](https://lmspeedapp.com/#/register?code=8JnnPAyd)                                         |
+| [19.99/月-100G/月起 签到送流量](https://suyunti668.xyz/auth/register?code=TMGb) [//]: # (https://suyunti.net/user) |
+| []()                                                                                                       |
+| []()                                                                                                       |
+| []()                                                                                                       |
+| []()                                                                                                       |
 
 | 免费试用机场                                                                             |
 |------------------------------------------------------------------------------------|
@@ -225,19 +226,21 @@ https://1.1.1.1/
 | [米贝](https://www.mibei77.com/)                                          |
 | [分享](https://freenode.openrunner.net/)                                  |
 
-| 推荐机场的博客                                     |
-|---------------------------------------------|
-| [666vpn](http://666vpn.com/)                |
-| [灯云](https://92deng.com/)                   |
-| [一灯不是和尚](https://iyideng.vip/)              |
-| [选梯子](https://www.xuantizi.com/)            |
-| [clashx](https://clashx.pro/)               |
-| [limbopro](https://limbopro.com/)           |
-| [runtufenxiang](https://runtufenxiang.com/) |
-| [shadowrocket](https://shadowrocket.one/)   |
-| [xuanjichang](https://www.xuanjichang.com/) |
-| [clashios](https://clashios.com/)           |
-| [kerrynotes](https://kerrynotes.com/)       |
+| 推荐机场的博客                                                           |
+|-------------------------------------------------------------------|
+| [666vpn](http://666vpn.com/)                                      |
+| [灯云](https://92deng.com/)                                         |
+| [一灯不是和尚](https://iyideng.vip/)                                    |
+| [选梯子](https://www.xuantizi.com/)                                  |
+| [clashx](https://clashx.pro/)                                     |
+| [毒奶](https://limbopro.com/)                                       |
+| [闰土](https://runtufenxiang.com/)                                  |
+| [shadowrocket](https://shadowrocket.one/)                         |
+| [xuanjichang](https://www.xuanjichang.com/)                       |
+| [clashios](https://clashios.com/)                                 |
+| [kerrynotes](https://kerrynotes.com/)                             |
+| [爱机场](https://aijichang.com/)                                     |
+| [honven](https://sites.google.com/view/honven/%E9%A6%96%E9%A1%B5) |
 
 [CN|HK|TW|香港|北京|天津|江苏|山东|安徽|福建|浙江|广东|广西|澳门]
 # 在线工具
