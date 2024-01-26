@@ -33,6 +33,7 @@
 |------------------------------------------------------------------------------------|
 | [v2rayNG 👍推荐](https://github.com/2dust/v2rayNG)                                   |
 | [ClashMetaForAndroid](https://github.com/xhaylon/ClashMetaForAndroid)              |
+| [ClashMetaForAndroid](https://github.com/MetaCubeX/ClashMetaForAndroid/releases)   |
 | [shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android/releases) |
 | [ClashYou](https://github.com/Yos-X/ClashYou)                                      |
 | Clash For Android 已删库[](https://github.com/Kr328/ClashForAndroid)                  |
@@ -247,6 +248,7 @@ https://1.1.1.1/
 
 [CN|HK|TW|香港|北京|天津|江苏|山东|安徽|福建|浙江|广东|广西|澳门]
 # 在线工具
+[v-c 订阅本地搭建](https://github.com/tindy2013/subconverter)
 [v-c 订阅 官方](https://acl4ssr-sub.github.io/)
 [v-c 订阅 不良林](https://psub.888005.xyz/)
 [v-c 订阅](https://bianyuan.xyz/)
