@@ -9,34 +9,26 @@
 | [sing-box 官网 不支持 IOS](https://sing-box.sagernet.org/zh/)                                                  |
 | [sing-box](https://github.com/SagerNet/sing-box)                                                          |
 | [shadowsocks](https://github.com/shadowsocks)                                                             |
-| clash-verge 已归档[](https://github.com/zzzgydi/clash-verge)                                                 |
-| clash_for_windows_pkg 已删库[](https://github.com/Fndroid/clash_for_windows_pkg)                             |
 
-| MacOS                                                                                                  |
-|--------------------------------------------------------------------------------------------------------|
-| [V2rayU](https://github.com/yanue/V2rayU/releases)                                                     |
-| [ShadowsocksX-NG](https://github.com/shadowsocks/ShadowsocksX-NG/releases)                             |
-| ClashX.Meta 已归档[](https://github.com/MetaCubeX/ClashX.Meta)                                            |
-| clashX Pro 已删库[](https://install.appcenter.ms/users/clashx/apps/clashx-pro/distribution_groups/public) |
-| clashX 已删库[](https://github.com/yichengchen/clashX)                                                    |
+| MacOS                                                                      |
+|----------------------------------------------------------------------------|
+| [ClashX.Meta](https://github.com/MetaCubeX/ClashX.Meta/tree/meta)          |
+| [V2rayU](https://github.com/yanue/V2rayU/releases)                         |
+| [ShadowsocksX-NG](https://github.com/shadowsocks/ShadowsocksX-NG/releases) |
 
-| Windows                                                            |
-|--------------------------------------------------------------------|
-| [v2rayN 👍推荐](https://github.com/2dust/v2rayN)                     |
-| [v2rayA](https://github.com/v2rayA/v2rayA)                         |
-| [clashN](https://github.com/2dust/clashN)                          |
-| [nekoray](https://github.com/MatsuriDayo/nekoray/releases)         |
-| clash_meta 已归档[](https://github.com/kayaladream/Clash-Core-Change) |
-| clash 已删库[](https://github.com/Dreamacro/clash)                    |
+| Windows                                                    |
+|------------------------------------------------------------|
+| [v2rayN 👍推荐](https://github.com/2dust/v2rayN)             |
+| [clashN](https://github.com/2dust/clashN)                  |
+| [v2rayA](https://github.com/v2rayA/v2rayA)                 |
+| [nekoray](https://github.com/MatsuriDayo/nekoray/releases) |
 
 | Android                                                                            |
 |------------------------------------------------------------------------------------|
 | [v2rayNG 👍推荐](https://github.com/2dust/v2rayNG)                                   |
-| [ClashMetaForAndroid](https://github.com/xhaylon/ClashMetaForAndroid)              |
 | [ClashMetaForAndroid](https://github.com/MetaCubeX/ClashMetaForAndroid/releases)   |
 | [shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android/releases) |
 | [ClashYou](https://github.com/Yos-X/ClashYou)                                      |
-| Clash For Android 已删库[](https://github.com/Kr328/ClashForAndroid)                  |
 
 | IOS                                                                      |
 |--------------------------------------------------------------------------|
@@ -72,9 +64,15 @@
 | [clash all](https://github.com/DustinWin/clash-tools) |
 | [mihomo](https://github.com/MetaCubeX/mihomo)         |
 
-| 规则                                                                                                     |
-|--------------------------------------------------------------------------------------------------------|
-| [clash-rules](https://github.com/Loyalsoldier/clash-rules)                                             |
+| 规则                                                         |
+|------------------------------------------------------------|
+| [clash-rules](https://github.com/Loyalsoldier/clash-rules) |
+| [rules](https://github.com/Hackl0us/SS-Rule-Snippet)       |
+| [ip database](https://github.com/Hackl0us/GeoIP2-CN)       |
+
+| 订阅转换                                                  |
+|-------------------------------------------------------|
+| [订阅转换本地搭建](https://github.com/tindy2013/subconverter) |
 
 # 订阅地址（免费可用，请勿扩散，网络收集）
 
@@ -208,11 +206,14 @@ https://1.1.1.1/
 | [49/月-120G/月 自行搜索 WgetCloud]()                                                                            |
 | [42/月-120G/月 自行搜索 CyberGuard]()                                                                           |
 
-| 免费试用机场                                                                             |
-|------------------------------------------------------------------------------------|
-| [okokcloud 注册试用 7 天](https://okokcloud.net/#/login)                                |
-| [v2ray免费 输入邮箱订阅](https://www.v2mj.com/) [v2ray免费节点](https://www.v2rayfree.eu.org/) |
-| [维尼兔 输入邮箱订阅](https://www.v2v0.com/)                                                |
+| 免费试用机场                                                                                    |
+|-------------------------------------------------------------------------------------------|
+| [okokcloud 注册试用 7 天](https://okokcloud.net/#/login)                                       |
+| [v2ray免费 输入邮箱订阅](https://www.v2mj.com/) [v2ray免费节点](https://www.v2rayfree.eu.org/)        |
+| [维尼兔 输入邮箱订阅](https://www.v2v0.com/)                                                       |
+| []()                                                                                      |
+| [10/月-100G/月 限制 2 台设备 注册送 888GB 墙了个墙](https://www.qlgq.top/auth/register?code=bfaaa4eb65) |
+| [12/月-300G/月 限制 5 台设备 注册送 50GB ikuku](https://ikuuu.me/auth/register?code=FOhN)           |
 
 | 搭建VPS教程                                                                        |
 |--------------------------------------------------------------------------------|
@@ -248,7 +249,6 @@ https://1.1.1.1/
 
 [CN|HK|TW|香港|北京|天津|江苏|山东|安徽|福建|浙江|广东|广西|澳门]
 # 在线工具
-[v-c 订阅本地搭建](https://github.com/tindy2013/subconverter)
 [v-c 订阅 官方](https://acl4ssr-sub.github.io/)
 [v-c 订阅 不良林](https://psub.888005.xyz/)
 [v-c 订阅](https://bianyuan.xyz/)
