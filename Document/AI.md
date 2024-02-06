@@ -27,7 +27,7 @@
 | [chatbot-ui](https://github.com/mckaywrigley/chatbot-ui)                                |
 | [GeminiProChat](https://github.com/babaohuang/GeminiProChat)                            |
 
-# AI 整理
+# AI 整理 https://www.youtube.com/watch?v=5KC4wFTLq3E
 |                                                         |
 |---------------------------------------------------------|
 | 腾讯 AI 图片合成 https://github.com/TencentARC/PhotoMaker     |
@@ -37,6 +37,19 @@
 | 音色录制，文字生成语音 https://github.com/jianchang512/clone-voice |
 | one-api 多模型部署 https://github.com/songquanpeng/one-api   |
 | 根据文本或者图片生成视频 https://github.com/AILab-CVC/VideoCrafter  |
+
+# Free
+|                                              |
+|----------------------------------------------|
+| PPT https://gamma.app/?lng=zh-TW             |
+| 火山写作 https://www.writingo.net/               |
+| 即创 https://aic.oceanengine.com/login         |
+| 绘画 换脸 https://clipdrop.co/                   |
+| 搜索 AI https://www.perplexity.ai/             |
+| 插图 绘画 https://www.capcut.cn/ai-tool/platform |
+| 插图 绘画 https://tensor.art/                    |
+| 插图 绘画 https://www.yunjie.art/register        |
+| 文字 https://claude.ai/login?returnTo=%2F      |
 
 # 真-免费AI
 | 名称                 | 地址                                                                      |
