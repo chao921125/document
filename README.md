@@ -25,3 +25,12 @@
 | [知识汇总](./Knowledge/README.md)                    |
 | [Linux 下载及命令使用](./Linux/README.md)               |
 
+https://guucube.com/
+https://github.com/hdgc/advokate-nft-h5
+
+https://test-manage.metagaia.io/
+https://manage.metagaia.io/
+https://github.com/hdgc/advokate-metagaia-admin
+
+https://www.advokategroup.io/index
+https://github.com/hdgc/advokate-meta-web
