@@ -28,6 +28,8 @@
 | [GeminiProChat](https://github.com/babaohuang/GeminiProChat)                            |
 
 # AI 整理 https://www.youtube.com/watch?v=5KC4wFTLq3E
+https://github.com/showlab/Awesome-Video-Diffusion?tab=readme-ov-file
+
 |                                                         |
 |---------------------------------------------------------|
 | 腾讯 AI 图片合成 https://github.com/TencentARC/PhotoMaker     |
