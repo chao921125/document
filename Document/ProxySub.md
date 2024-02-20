@@ -76,15 +76,9 @@
 
 # 订阅地址（免费可用，请勿扩散，网络收集）
 
-| V2ray V                                                                              |
+| V2ray                                                                                |
 |--------------------------------------------------------------------------------------|
-| 1 https://jiang.netlify.app/                                                         |
-|                                                                                      |
-| https://muma16fx.netlify.app/                                                        |
-|                                                                                      |
-| [github Pawdroid](https://github.com/Pawdroid/Free-servers)                          |
-| https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub                     |
-| https://ghproxy.com/https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub |
+| X https://jiang.netlify.app/                                                         |
 |                                                                                      |
 | [github freefq](https://github.com/freefq/free)                                      |
 | https://raw.githubusercontent.com/freefq/free/master/v2                              |
@@ -93,74 +87,85 @@
 | [github ZywChannel](https://github.com/ZywChannel/free)                              |
 | https://raw.githubusercontent.com/ZywChannel/free/main/sub                           |
 | https://raw.fastgit.org/ZywChannel/free/main/sub                                     |
+|                                                                                      |
+| M [github Pawdroid](https://github.com/Pawdroid/Free-servers)                        |
+| https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub                     |
+| https://ghproxy.com/https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub |
 
-| Clash C                                                              |
-|----------------------------------------------------------------------|
-|                                                                      |
-| [github anaer](https://github.com/anaer/Sub)                         |
-| https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml          |
-| https://anaer.github.io/Sub/clash.yaml                               |
-| https://cdn.jsdelivr.net/gh/anaer/Sub@main/clash.yaml                |
-|                                                                      |
-| [github aiboboxx](https://github.com/aiboboxx)                       |
-| https://raw.githubusercontent.com/aiboboxx/clashfree/main/clash.yml  |
-
-| Clash C & V2ray V                                                                           |
+| Clash                                                                                       |
 |---------------------------------------------------------------------------------------------|
-| 1 https://www.xrayvip.com/free.txt                                                          |
-| 1 https://www.xrayvip.com/free.yaml                                                         |
+| [github vxiaov](https://github.com/vxiaov/free_proxy_ss) Clash 单独订阅失败                       |
+| https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/clash.provider.yaml |
+| https://cdn.jsdelivr.net/gh/learnhard-cn/free_proxy_ss@main/clash/clash.provider.yaml       |
 |                                                                                             |
-| [github ts-sf](https://github.com/ts-sf/fly)                                                |
-| C https://raw.githubusercontent.com/ts-sf/fly/main/clash                                    |
-| C https://raw.fgit.cf/ts-sf/fly/main/clash                                                  |
-| V https://raw.githubusercontent.com/ts-sf/fly/main/v2                                       |
-| V https://raw.fastgit.org/ts-sf/fly/main/v2                                                 |
+| [github aiboboxx](https://github.com/aiboboxx)                                              |
+| https://raw.githubusercontent.com/aiboboxx/clashfree/main/clash.yml                         |
 |                                                                                             |
-| 1 [tt.vg](https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash) clash 请直接使用              |
-| C https://tt.vg/freeclash                                                                   |
-| V https://tt.vg/freev2                                                                      |
-| V https://v2ray.neocities.org/v2ray.txt                                                     |
+| [github anaer](https://github.com/anaer/Sub)                                                |
+| https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml                                 |
+| https://anaer.github.io/Sub/clash.yaml                                                      |
+| https://cdn.jsdelivr.net/gh/anaer/Sub@main/clash.yaml                                       |
 |                                                                                             |
-| [github mfuu](https://github.com/mfuu/v2ray) Clash 单独订阅失败                                   |
-| C https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml                            |
-| C https://gitlab.com/mfuu/v2ray/-/raw/master/clash.yaml                                     |
-| V https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray                                 |
-| V https://gitlab.com/mfuu/v2ray/-/raw/master/v2ray                                          |
-|                                                                                             |
-| [github ermaozi](https://github.com/ermaozi/get_subscribe)                                  |
-| C https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml          |
-| C https://git.io/emzclash                                                                   |
-| V https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt          |
-| V https://git.io/emzv2ray                                                                   |
-|                                                                                             |                                                                                           |
-| 0 [github mahdibland](https://github.com/mahdibland/V2RayAggregator)                        |                                                                                           |
-| C https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.yml    |
-| C https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_yaml.yml   |
-| V https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity        |
-| V https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_base64.txt |
-|                                                                                             |                                                                                           |
-| 1 [github ripaojiedian](https://github.com/ripaojiedian/freenode)                           |                                                                                           |
-| C https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash                        |
-| V https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub                          |
 
-| Clash C & V2ray V *                                                                       |
-|-------------------------------------------------------------------------------------------|
-| 1 [github Flik6](https://github.com/Flik6/getNode) clash 请直接使用                            |
-| https://raw.githubusercontent.com/Flik6/getNode/main/clash.yaml                           |
-| https://raw.githubusercontent.com/Flik6/getNode/main/v2ray.txt                            |
-|                                                                                           |
-| [github zhangkaiitugithub](https://github.com/zhangkaiitugithub/passcro)                  |
-| https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml          |
-|                                                                                           |
-| 1 [github peasoft](https://github.com/peasoft/NoMoreWalls) clash 请直接使用                    |
-| https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml                     |
-| https://ghproxy.com/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml |
-| https://ghproxy.net/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml |
-| https://fastly.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.yml                        |
-| https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt                     |
-| https://ghproxy.com/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt |
-| https://ghproxy.net/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt |
-| https://fastly.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.txt                        |
+| Clash  & V2ray                                                                               |
+|----------------------------------------------------------------------------------------------|
+| [github mfuu](https://github.com/mfuu/v2ray) Clash 单独订阅失败                                    |
+| C https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml                             |
+| C https://gitlab.com/mfuu/v2ray/-/raw/master/clash.yaml                                      |
+| V https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray                                  |
+| V https://gitlab.com/mfuu/v2ray/-/raw/master/v2ray                                           |
+|                                                                                              |
+| [github ermaozi](https://github.com/ermaozi/get_subscribe)                                   |
+| C https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml           |
+| C https://git.io/emzclash                                                                    |
+| V https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt           |
+| V https://git.io/emzv2ray                                                                    |
+|                                                                                              |
+| [xrayvip](https://www.xrayvip.com/)                                                          |
+| C https://www.xrayvip.com/free.yaml                                                          |
+| V https://www.xrayvip.com/free.txt                                                           |
+|                                                                                              |
+| [github ts-sf](https://github.com/ts-sf/fly)                                                 |
+| C https://raw.githubusercontent.com/ts-sf/fly/main/clash                                     |
+| C https://raw.fgit.cf/ts-sf/fly/main/clash                                                   |
+| V https://raw.githubusercontent.com/ts-sf/fly/main/v2                                        |
+| V https://raw.fastgit.org/ts-sf/fly/main/v2                                                  |
+|                                                                                              |
+| M [tt.vg](https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash) clash 请直接使用               |
+| C https://tt.vg/freeclash                                                                    |
+| V https://tt.vg/freev2                                                                       |
+| V https://v2ray.neocities.org/v2ray.txt                                                      |
+|                                                                                              |
+| M [github mahdibland](https://github.com/mahdibland/V2RayAggregator)                         |
+| C https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.yml     |
+| C https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_yaml.yml    |
+| V https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity         |
+| V https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_base64.txt  |
+|                                                                                              |
+| M [github ripaojiedian](https://github.com/ripaojiedian/freenode)                            |
+| C https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash                         |
+| V https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub                           |
+|                                                                                              |
+| M [github chengaopan](https://github.com/chengaopan/AutoMergePublicNodes?tab=readme-ov-file) |
+| C https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml          |
+| V https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.txt          |
+|                                                                                              |
+| M* [github Flik6](https://github.com/Flik6/getNode) clash 请直接使用                              |
+| https://raw.githubusercontent.com/Flik6/getNode/main/clash.yaml                              |
+| https://raw.githubusercontent.com/Flik6/getNode/main/v2ray.txt                               |
+|                                                                                              |
+| M* [github zhangkaiitugithub](https://github.com/zhangkaiitugithub/passcro)                  |
+| https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml             |
+|                                                                                              |
+| M* [github peasoft](https://github.com/peasoft/NoMoreWalls) clash 请直接使用                      |
+| https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml                        |
+| https://ghproxy.com/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml    |
+| https://ghproxy.net/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml    |
+| https://fastly.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.yml                           |
+| https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt                        |
+| https://ghproxy.com/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt    |
+| https://ghproxy.net/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt    |
+| https://fastly.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.txt                           |
 
 # clash.meta
 https://gitlab.com/free9999/ipupdate
