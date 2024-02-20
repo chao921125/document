@@ -94,7 +94,7 @@
 
 | Clash                                                                                       |
 |---------------------------------------------------------------------------------------------|
-| [github vxiaov](https://github.com/vxiaov/free_proxy_ss) Clash 单独订阅失败                       |
+| X [github vxiaov](https://github.com/vxiaov/free_proxy_ss) Clash 单独订阅失败                     |
 | https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/clash.provider.yaml |
 | https://cdn.jsdelivr.net/gh/learnhard-cn/free_proxy_ss@main/clash/clash.provider.yaml       |
 |                                                                                             |
@@ -109,7 +109,7 @@
 
 | Clash  & V2ray                                                                               |
 |----------------------------------------------------------------------------------------------|
-| [github mfuu](https://github.com/mfuu/v2ray) Clash 单独订阅失败                                    |
+| X [github mfuu](https://github.com/mfuu/v2ray)                                               |
 | C https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml                             |
 | C https://gitlab.com/mfuu/v2ray/-/raw/master/clash.yaml                                      |
 | V https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray                                  |
