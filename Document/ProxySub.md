@@ -2,7 +2,6 @@
 | MacOS & Windows Client                                                                                    |
 |-----------------------------------------------------------------------------------------------------------|
 | [clash-verge-rev 👍推荐](https://github.com/clash-verge-rev/clash-verge-rev)                                |
-| clash-verge-rev 注意 Mac Apple 芯片下需要执行：sudo xattr -r -d com.apple.quarantine /Applications/Clash\ Verge.app |
 | [clash-nyanpasu](https://github.com/keiko233/clash-nyanpasu)                                              |
 | [hiddify 官网 全平台支持](https://hiddify.com/)                                                                  |
 | [hiddify-next](https://github.com/hiddify/hiddify-next)                                                   |
@@ -69,6 +68,7 @@
 | [clash-rules](https://github.com/Loyalsoldier/clash-rules) |
 | [rules](https://github.com/Hackl0us/SS-Rule-Snippet)       |
 | [ip database](https://github.com/Hackl0us/GeoIP2-CN)       |
+| [去广告](https://github.com/ACL4SSR/ACL4SSR/tree/master)      |
 
 | 订阅转换                                                  |
 |-------------------------------------------------------|
@@ -180,12 +180,12 @@ https://neko-warp.nloli.xyz/
 
 https://getafreenode.com/
 
-需要对cloudflare进行一些操作：(👍强烈推荐，完全免费)
-https://1.1.1.1/
+[需要对cloudflare进行一些操作：(👍强烈推荐，完全免费)](https://1.1.1.1/)
 
 [失效代理客户端备份 1](https://github.com/chao921125/software/releases/)
 [失效代理客户端备份 2](https://github.com/Z-Siqi/Clash-for-Windows_Chinese/releases)
 
+[TG 群组](https://cn.tgstat.com/)
 # 论坛
 | 发布页                                                                    |
 |------------------------------------------------------------------------|
@@ -296,6 +296,3 @@ https://1.1.1.1/
 [v-c 订阅](https://sub.v1.mk/)
 [v-c 订阅](https://sub-zh.vercel.app/)
 [v-c 订阅](https://v2tun.vercel.app/)
-
-[//]: # (TG 群组 https://cn.tgstat.com/)
-[//]: # (https://github.com/ACL4SSR/ACL4SSR/tree/master)
