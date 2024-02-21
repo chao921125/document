@@ -131,31 +131,32 @@
 | V https://raw.githubusercontent.com/ts-sf/fly/main/v2                                        |
 | V https://raw.fastgit.org/ts-sf/fly/main/v2                                                  |
 |                                                                                              |
-| M [tt.vg](https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash) clash 请直接使用               |
-| C https://tt.vg/freeclash                                                                    |
-| V https://tt.vg/freev2                                                                       |
-| V https://v2ray.neocities.org/v2ray.txt                                                      |
+| [github ripaojiedian](https://github.com/ripaojiedian/freenode)                              |
+| C https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash                         |
+| V https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub                           |
 |                                                                                              |
+| Only Subscribe                                                                               |
 | M [github mahdibland](https://github.com/mahdibland/V2RayAggregator)                         |
 | C https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.yml     |
 | C https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_yaml.yml    |
 | V https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity         |
 | V https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_base64.txt  |
 |                                                                                              |
-| M [github ripaojiedian](https://github.com/ripaojiedian/freenode)                            |
-| C https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash                         |
-| V https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub                           |
+| M [tt.vg](https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash) clash 请直接使用               |
+| C https://tt.vg/freeclash                                                                    |
+| V https://tt.vg/freev2                                                                       |
+| V https://v2ray.neocities.org/v2ray.txt                                                      |
 |                                                                                              |
 | M [github chengaopan](https://github.com/chengaopan/AutoMergePublicNodes?tab=readme-ov-file) |
 | C https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml          |
 | V https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.txt          |
 |                                                                                              |
+| M* [github zhangkaiitugithub](https://github.com/zhangkaiitugithub/passcro)                  |
+| https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml             |
+|                                                                                              |
 | M* [github Flik6](https://github.com/Flik6/getNode) clash 请直接使用                              |
 | https://raw.githubusercontent.com/Flik6/getNode/main/clash.yaml                              |
 | https://raw.githubusercontent.com/Flik6/getNode/main/v2ray.txt                               |
-|                                                                                              |
-| M* [github zhangkaiitugithub](https://github.com/zhangkaiitugithub/passcro)                  |
-| https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml             |
 |                                                                                              |
 | M* [github peasoft](https://github.com/peasoft/NoMoreWalls) clash 请直接使用                      |
 | https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml                        |
