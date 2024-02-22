@@ -1,13 +1,13 @@
 # 客户端
-| MacOS & Windows Client                                                                                    |
-|-----------------------------------------------------------------------------------------------------------|
-| [clash-verge-rev 👍推荐](https://github.com/clash-verge-rev/clash-verge-rev)                                |
-| [clash-nyanpasu](https://github.com/keiko233/clash-nyanpasu)                                              |
-| [hiddify 官网 全平台支持](https://hiddify.com/)                                                                  |
-| [hiddify-next](https://github.com/hiddify/hiddify-next)                                                   |
-| [sing-box 官网 不支持 IOS](https://sing-box.sagernet.org/zh/)                                                  |
-| [sing-box](https://github.com/SagerNet/sing-box)                                                          |
-| [shadowsocks](https://github.com/shadowsocks)                                                             |
+| MacOS & Windows Client                                                     |
+|----------------------------------------------------------------------------|
+| [clash-verge-rev 👍推荐](https://github.com/clash-verge-rev/clash-verge-rev) |
+| [clash-nyanpasu](https://github.com/keiko233/clash-nyanpasu)               |
+| [hiddify 官网 全平台支持](https://hiddify.com/)                                   |
+| [hiddify-next](https://github.com/hiddify/hiddify-next)                    |
+| [sing-box 官网 不支持 IOS](https://sing-box.sagernet.org/zh/)                   |
+| [sing-box](https://github.com/SagerNet/sing-box)                           |
+| [shadowsocks](https://github.com/shadowsocks)                              |
 
 | MacOS                                                                      |
 |----------------------------------------------------------------------------|
@@ -53,9 +53,9 @@
 | [ShellCrash](https://github.com/juewuy/ShellCrash/tree/master)       |
 | [v2ray-core](https://github.com/hq450/fancyss)                       |
 
-| 浏览器插件                                                                                                  |
-|--------------------------------------------------------------------------------------------------------|
-| [SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega/releases)                                    |
+| 浏览器插件                                                               |
+|---------------------------------------------------------------------|
+| [SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega/releases) |
 
 | 内核 Core                                               |
 |-------------------------------------------------------|
