@@ -106,6 +106,9 @@
 | M- [github zhangkaiitugithub](https://github.com/zhangkaiitugithub/passcro)                 |
 | https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml            |
 |                                                                                             |
+| M- [github freenodes](https://github.com/freenodes/freenodes)                               |
+| https://raw.githubusercontent.com/freenodes/freenodes/main/clash.yaml                       |
+|                                                                                             |
 
 | Clash  & V2ray                                                                                |
 |-----------------------------------------------------------------------------------------------|
