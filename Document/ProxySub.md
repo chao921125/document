@@ -94,7 +94,7 @@
 
 | Clash                                                                                       |
 |---------------------------------------------------------------------------------------------|
-| X [github vxiaov](https://github.com/vxiaov/free_proxy_ss) Clash 单独订阅失败                     |
+| X [github vxiaov](https://github.com/vxiaov/free_proxy_ss)                                  |
 | https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/clash.provider.yaml |
 | https://cdn.jsdelivr.net/gh/learnhard-cn/free_proxy_ss@main/clash/clash.provider.yaml       |
 |                                                                                             |
