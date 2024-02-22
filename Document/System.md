@@ -43,6 +43,8 @@
 | [临时手短信](https://www.yunduanxin.xyz/zh/)       |
 | [临时手短信](https://www.free-sms-receive.com/zh/) |
 | [临时手短信](https://www.sms-receive-online.com/)  |
+| [临时手短信](https://www.materialtools.com/)       |
+| [临时手短信](https://sms-activate.org/cn)          |
 | [TYB字幕下载](https://addyoutube.com/)            |
 | [电影、电视配乐](https://www.tunefind.com/)          |
 
