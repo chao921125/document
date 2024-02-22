@@ -223,21 +223,21 @@ https://getafreenode.com/
 | [10/月-100G/月 限制 2 台设备 注册送 888GB 墙了个墙](https://www.qlgq.top/auth/register?code=bfaaa4eb65) |
 | [12/月-300G/月 限制 5 台设备 注册送 50GB ikuku](https://ikuuu.me/auth/register?code=FOhN)           |
 
-| 搭建VPS教程                                                                        |
-|--------------------------------------------------------------------------------|
-| https://shluqu.github.io/                                                      |
+| 搭建VPS教程                   |
+|---------------------------|
+| https://shluqu.github.io/ |
 
-| 应急临时节点 每日一更                                                             |
-|-------------------------------------------------------------------------|
-| [freefq](https://freefq.com/)                                           |
-| [长风分享](https://www.cfmem.com/)                                          |
-| [v2rayshare](https://v2rayshare.com/)                                   |
-| [nodefree](https://nodefree.org/)                                       |
-| [clashnode](https://clashnode.com/)                                     |
-| [玉豆分享](https://www.yudou66.com/)                                        |
-| [freenode](https://freenode.me/)                                        |
-| [米贝](https://www.mibei77.com/)                                          |
-| [分享](https://freenode.openrunner.net/)                                  |
+| 应急临时节点 每日一更                            |
+|----------------------------------------|
+| [freefq](https://freefq.com/)          |
+| [长风分享](https://www.cfmem.com/)         |
+| [v2rayshare](https://v2rayshare.com/)  |
+| [nodefree](https://nodefree.org/)      |
+| [clashnode](https://clashnode.com/)    |
+| [玉豆分享](https://www.yudou66.com/)       |
+| [freenode](https://freenode.me/)       |
+| [米贝](https://www.mibei77.com/)         |
+| [分享](https://freenode.openrunner.net/) |
 
 | 推荐机场的博客                                                           |
 |-------------------------------------------------------------------|
