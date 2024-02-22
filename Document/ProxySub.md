@@ -98,7 +98,7 @@
 | https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/clash.provider.yaml |
 | https://cdn.jsdelivr.net/gh/learnhard-cn/free_proxy_ss@main/clash/clash.provider.yaml       |
 |                                                                                             |
-| [github anaer](https://github.com/anaer/Sub)                                                |
+| M- [github anaer](https://github.com/anaer/Sub)                                             |
 | https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml                                 |
 | https://anaer.github.io/Sub/clash.yaml                                                      |
 | https://cdn.jsdelivr.net/gh/anaer/Sub@main/clash.yaml                                       |
@@ -109,17 +109,17 @@
 
 | Clash  & V2ray                                                                                |
 |-----------------------------------------------------------------------------------------------|
-| [github mfuu](https://github.com/mfuu/v2ray)                                                  |
+| - [github mfuu](https://github.com/mfuu/v2ray)                                                |
 | C https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml                              |
 | C https://gitlab.com/mfuu/v2ray/-/raw/master/clash.yaml                                       |
 | V https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray                                   |
 | V https://gitlab.com/mfuu/v2ray/-/raw/master/v2ray                                            |
 |                                                                                               |
-| [github aiboboxx](https://github.com/aiboboxx)                                                |
+| - [github aiboboxx](https://github.com/aiboboxx)                                              |
 | C https://raw.githubusercontent.com/aiboboxx/clashfree/main/clash.yml                         |
 | V https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2                                |
 |                                                                                               |
-| [github ts-sf](https://github.com/ts-sf/fly)                                                  |
+| - [github ts-sf](https://github.com/ts-sf/fly)                                                |
 | C https://raw.githubusercontent.com/ts-sf/fly/main/clash                                      |
 | C https://raw.fgit.cf/ts-sf/fly/main/clash                                                    |
 | V https://raw.githubusercontent.com/ts-sf/fly/main/v2                                         |
