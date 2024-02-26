@@ -259,6 +259,8 @@ https://getafreenode.com/
 | [honven](https://sites.google.com/view/honven/%E9%A6%96%E9%A1%B5) |
 
 [CN|HK|TW|香港|北京|天津|江苏|山东|安徽|福建|浙江|广东|广西|澳门]
+# 转短链接
+[tt.vg](https://tt.vg/)
 # 在线工具
 [v-c 订阅 官方](https://acl4ssr-sub.github.io/)
 [v-c 订阅 不良林](https://psub.888005.xyz/)
