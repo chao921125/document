@@ -9,6 +9,17 @@
 | 通义灵码          |               |           |
 | codefuse      |               |           |
 
+# AI Free
+|                                                        |
+|--------------------------------------------------------|
+| [copilot](https://copilot.microsoft.com/)              |
+| [紫东太初 中科院](https://taichu-web.ia.ac.cn/)               |
+| [x](https://grok.x.ai/)                                |
+| [通义千问 阿里](https://qianwen.aliyun.com/)                 |
+| [豆包 字节](https://www.doubao.com/?utm_source=ai-bot.cn)  |
+| [讯飞星火](https://xinghuo.xfyun.cn/?utm_source=ai-bot.cn) |
+| []()                                                   |
+
 [//]: # (https://ai-bot.cn/)
 # 自行搭建
 | github                                                                                  |
