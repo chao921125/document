@@ -43,9 +43,15 @@ export PATH="$PATH:/Users/huangchao/WorkSoft/flutter/bin"
 [NodeJS多版本管理 nvm MacOS](https://github.com/nvm-sh/nvm/) [nvm Windows](https://github.com/nvm-sh/nvm#install--update-script) |
 [pnpm 包管理](https://www.pnpm.cn/installation/)
 ```text
-多版本nodejs推荐使用nvm管理
+多版本nodejs推荐使用nvm管理（安装前请查看最新版本）
 nvm安装 https://github.com/nvm-sh/nvm
-Mac: wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.4/install.sh | bash
+Mac: （~/.zshrc）
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+    wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+
 Win: https://github.com/nvm-sh/nvm#install--update-script
 Windows 请注意：安装的nvm路径可以随意，但后面的node路径请勿放系统盘
 安装指定的NodeJS版本：nvm install x.x.x
