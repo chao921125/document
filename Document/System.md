@@ -9,6 +9,17 @@
 |--------------------------------------------------------------------------------|
 | https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/ZY-Player/ZY-Player-PC.json |
 
+# 短链接
+|                                   |
+|-----------------------------------|
+| https://www.shorturl.at/          |
+| https://free-url-shortener.rb.gy/ |
+| https://bitly.com/                |
+| https://n9.cl/zh                  |
+|                                   |
+| https://tiny.cc/                  |
+| https://cutt.ly/pro-pricing       |
+
 # 工具箱网站
 |                                            |
 |--------------------------------------------|
