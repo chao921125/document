@@ -203,26 +203,33 @@ https://getafreenode.com/
 | [【发布页】](https://github.com/bannedbook/fanqiang)                        |
 | [clashsub](https://clashsub.com/) [Clash Node](https://clashnode.xyz/) |
 
-| 机场推荐（限制设备的请自行搜索，不在这里推荐，建议按月购买）                                                                                   |
-|------------------------------------------------------------------------------------------------------------------|
-| [******小机场 高性价比 适合一些轻度用户******]()                                                                                |
-| [1/月-50G/月 性价比](https://a.xn--6nq44r2uh9rhj7f.com/#/register?code=6v77KWIz)                                      |
-| [12/年-500G/月 一元](https://xn--4gq62f52gdss.art/#/register?code=y2BjORPu)                                          |
-| [4.99/月-500G/月 流量光](https://llgjc.top/#/register?code=K0w7xpKk)                                                  |
-| [******中型机场 适合对网络稍微有要求的******]()                                                                                 |
-| [12.99/月-50G/月 飞机云 签到送流量](https://feijiyun911.com/auth/register?code=XFbr)                                       |
-| [15/月-100G/月 龙猫云](https://lmspeedapp.com/#/register?code=8JnnPAyd)                                               |
-| [14.9/月-130/月 魔戒](https://mojie.app/register?aff=Gu3iS0ty)                                                       |
-| [15/月-100G/月 飞鸟](https://fbaff02.flyb-aff01.com/auth/register?code=GXsW) [//]: # (https://flyingbird.cc)         |
-| [20/月-100G/月 闪电猫](https://scaff01.scvipaff.com/auth/register?code=U6L9)                                          |
-| [******大机场 适合企业及个人需要长期稳定的******]()                                                                               |
-| [49/月-120G/月 自行搜索 WgetCloud]()                                                                                   |
-| [42/月-120G/月 自行搜索 CyberGuard]()                                                                                  |
-| []()                                                                                                             |
-| [24.9/月-100G/月 tomatocloud](https://tomatocloud.me/)                                                             |
-| [24.9/月-100G/月 web3vpn](https://web3vpn.net/)                                                                    |
-| [71/月-50G/月 Nexitally](https://nxboom.com/index.aspx)                                                            |
-| [260/年-50G/月 Amy](https://www.amysecure.com/index.php)                                                           |
+| 机场推荐（限制设备的请自行搜索，不在这里推荐，建议按月购买）                                                                           |
+|----------------------------------------------------------------------------------------------------------|
+| [******小机场 高性价比 适合一些轻度用户******]()                                                                        |
+| [1/月-50G/月 性价比](https://a.xn--6nq44r2uh9rhj7f.com/#/register?code=6v77KWIz)                              |
+| [12/年-500G/月 一元](https://xn--4gq62f52gdss.art/#/register?code=y2BjORPu)                                  |
+| [4.99/月-500G/月 流量光](https://llgjc.top/#/register?code=K0w7xpKk)                                          |
+| [******中型机场 适合对网络稍微有要求的******]()                                                                         |
+| [12.99/月-50G/月 飞机云 签到送流量](https://feijiyun911.com/auth/register?code=XFbr)                               |
+| [15/月-100G/月 龙猫云](https://lmspeedapp.com/#/register?code=8JnnPAyd)                                       |
+| [14.9/月-130/月 魔戒](https://mojie.app/register?aff=Gu3iS0ty)                                               |
+| [15/月-100G/月 飞鸟](https://fbaff02.flyb-aff01.com/auth/register?code=GXsW) [//]: # (https://flyingbird.cc) |
+| [20/月-100G/月 闪电猫](https://scaff01.scvipaff.com/auth/register?code=U6L9)                                  |
+| [******大机场 适合企业及个人需要长期稳定的******]()                                                                       |
+| [25/月-150G/月 SSRDOG](https://go.ssrdog.com/?code=D24biOV4)                                               |                                                               
+| [13.8/月-100G/月 Anyland](https://any66.cc/#/register?code=xvfqFY02)                                       |
+| [24.9/月-100G/月 tomatocloud](https://tomatocloud.me/)                                                     |
+| [20/月-100G/月 fastlink](https://fastlink.ws/auth/register)                                                |
+| [19.9/月-100G/月 桔子云](https://juzicloud.net/auth/register)                                                 |
+| [15/月-100G/月 白月光](https://bygcloud.com/#/home)                                                           |
+| [24.9/月-100G/月 web3vpn](https://web3vpn.net/)                                                            |
+| [23/月-388G/月 奈云](https://www.v2ny.com/#/register) [奈云](https://www.naiun.cc/#/register)                  |
+| []()                                                                                                     |
+| [49/月-120G/月 WgetCloud](https://invite.wgetcloud.ltd/auth/register?code=Y7ytZ1)                          |
+| [42/月-120G/月 CyberGuard](https://cyberguard.best/index.php#/register?code=HsiGRr69)                      |
+| [52/月-200G/月 库洛米](https://www.kuromis.com/)                                                              |
+| [71/月-50G/月 Nexitally](https://nxboom.com/index.aspx)                                                    |
+| [260/年-50G/月 Amy](https://www.amysecure.com/index.php)                                                   |
 
 | 免费试用机场                                                                                    |
 |-------------------------------------------------------------------------------------------|
