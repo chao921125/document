@@ -56,6 +56,8 @@ https://github.com/showlab/Awesome-Video-Diffusion?tab=readme-ov-file
 
 https://github.com/zhayujie/chatgpt-on-wechat
 
+https://github.com/opentdp/wechat-rest
+
 # Free
 |                                              |
 |----------------------------------------------|
