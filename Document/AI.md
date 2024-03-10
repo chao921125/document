@@ -54,6 +54,10 @@ https://github.com/showlab/Awesome-Video-Diffusion?tab=readme-ov-file
 | one-api 多模型部署 https://github.com/songquanpeng/one-api   |
 | 根据文本或者图片生成视频 https://github.com/AILab-CVC/VideoCrafter  |
 
+https://github.com/zhayujie/chatgpt-on-wechat
+
+https://github.com/opentdp/wechat-rest
+
 # Free
 |                                              |
 |----------------------------------------------|
