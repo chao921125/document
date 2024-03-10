@@ -171,36 +171,6 @@
 | https://raw.githubusercontent.com/Flik6/getNode/main/v2ray.txt                                |
 |                                                                                               |
 
-# clash.meta
-https://gitlab.com/free9999/ipupdate
-
-https://github.com/Alvin9999/pac2
-
-https://github.com/vveg26/chromego_merge
-
-# 免费
-https://neko-warp.nloli.xyz/
-
-https://getafreenode.com/
-
-[需要对cloudflare进行一些操作：(👍强烈推荐，完全免费)](https://1.1.1.1/)
-
-[失效代理客户端备份 1](https://github.com/chao921125/software/releases/)
-[失效代理客户端备份 2](https://github.com/Z-Siqi/Clash-for-Windows_Chinese/releases)
-
-[TG 群组](https://cn.tgstat.com/)
-# 论坛
-| 发布页                                                                    |
-|------------------------------------------------------------------------|
-| [【节点池收集】](https://github.com/Leon406/SubCrawler)                       |
-| [【发布页】](https://github.com/H4Ha/jichangfenxiangzhan)                   |
-| [【发布页】](https://github.com/WilliamStar007/ClashX-V2Ray-TopFreeProxy)   |
-| [【发布页】](https://github.com/dongyubin/Free-AppleId-Serve)               |
-| [【发布页】](https://github.com/snakem982/proxypool)                        |
-| [【发布页】](https://github.com/Alvin9999/new-pac)                          |
-| [【发布页】](https://github.com/bannedbook/fanqiang)                        |
-| [clashsub](https://clashsub.com/) [Clash Node](https://clashnode.xyz/) |
-
 | 机场推荐（限制设备的请自行搜索，不在这里推荐，建议按月购买）                                                                           |
 |----------------------------------------------------------------------------------------------------------|
 | [******小机场 高性价比 适合一些轻度用户******]()                                                                        |
@@ -270,6 +240,36 @@ https://getafreenode.com/
 | [爱机场](https://aijichang.com/)                                     |
 | [honven](https://sites.google.com/view/honven/%E9%A6%96%E9%A1%B5) |
 
+# 论坛
+| 发布页                                                                    |
+|------------------------------------------------------------------------|
+| [【节点池收集】](https://github.com/Leon406/SubCrawler)                       |
+| [【发布页】](https://github.com/H4Ha/jichangfenxiangzhan)                   |
+| [【发布页】](https://github.com/WilliamStar007/ClashX-V2Ray-TopFreeProxy)   |
+| [【发布页】](https://github.com/dongyubin/Free-AppleId-Serve)               |
+| [【发布页】](https://github.com/snakem982/proxypool)                        |
+| [【发布页】](https://github.com/Alvin9999/new-pac)                          |
+| [【发布页】](https://github.com/bannedbook/fanqiang)                        |
+| [clashsub](https://clashsub.com/) [Clash Node](https://clashnode.xyz/) |
+
+# clash.meta
+https://gitlab.com/free9999/ipupdate
+
+https://github.com/Alvin9999/pac2
+
+https://github.com/vveg26/chromego_merge
+
+# 免费
+https://neko-warp.nloli.xyz/
+
+https://getafreenode.com/
+
+[需要对cloudflare进行一些操作：(👍强烈推荐，完全免费)](https://1.1.1.1/)
+
+[失效代理客户端备份 1](https://github.com/chao921125/software/releases/)
+[失效代理客户端备份 2](https://github.com/Z-Siqi/Clash-for-Windows_Chinese/releases)
+
+[TG 群组](https://cn.tgstat.com/)
 [CN|HK|TW|香港|北京|天津|江苏|山东|安徽|福建|浙江|广东|广西|澳门]
 # 转短链接
 [tt.vg](https://tt.vg/)
