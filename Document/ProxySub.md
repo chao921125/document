@@ -27,7 +27,7 @@
 | [shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android/releases) |
 | [ClashYou](https://github.com/Yos-X/ClashYou)                                      |
 
-| IOS                                                                      |
+| IOS （免费的自行查找）                                                            |
 |--------------------------------------------------------------------------|
 | [Shadowrocket GitHub](https://github.com/Shadowrocket)                   |
 | [Shadowrocket 美](https://apps.apple.com/us/app/shadowrocket/id932747118) |
@@ -49,7 +49,7 @@
 | [OpenWrt-SSRPLUS](https://github.com/WangWenBin2017/OpenWrt-SSRPLUS) |
 | [openwrt-passwall](https://github.com/xiaorouji/openwrt-passwall)    |
 | [ShellCrash](https://github.com/juewuy/ShellCrash/tree/master)       |
-| [v2ray-core](https://github.com/hq450/fancyss)                       |
+| [fancyss](https://github.com/hq450/fancyss)                          |
 
 | 浏览器插件                                                               |
 |---------------------------------------------------------------------|
@@ -74,7 +74,7 @@
 
 [失效代理客户端备份](https://github.com/Z-Siqi/Clash-for-Windows_Chinese/releases)
 
-# 订阅地址（免费可用，请勿扩散，网络收集）求稳定去[付费的看看](#付费稳定)
+# 订阅地址（免费可用，请勿扩散，网络收集）求稳定去[付费的看看](#付费)
 
 | V2ray                                                                                |
 |--------------------------------------------------------------------------------------|
@@ -173,7 +173,7 @@
 | https://raw.githubusercontent.com/Flik6/getNode/main/v2ray.txt                                |
 |                                                                                               |
 
-# 付费稳定
+# 付费
 | 机场推荐（限制设备的请自行搜索，不在这里推荐，建议按月购买）                                                                           |
 |----------------------------------------------------------------------------------------------------------|
 | [******小机场 高性价比 适合一些轻度用户******]()                                                                        |
@@ -254,13 +254,6 @@
 | [【发布页】](https://github.com/Alvin9999/new-pac)                          |
 | [【发布页】](https://github.com/bannedbook/fanqiang)                        |
 | [clashsub](https://clashsub.com/) [Clash Node](https://clashnode.xyz/) |
-
-# clash.meta
-https://gitlab.com/free9999/ipupdate
-
-https://github.com/Alvin9999/pac2
-
-https://github.com/vveg26/chromego_merge
 
 # 免费
 【复制地址到客户端即可】https://neko-warp.nloli.xyz/
