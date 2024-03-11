@@ -1,13 +1,11 @@
 # 客户端
-| MacOS & Windows Client                                                     |
-|----------------------------------------------------------------------------|
-| [clash-verge-rev 👍推荐](https://github.com/clash-verge-rev/clash-verge-rev) |
-| [clash-nyanpasu](https://github.com/keiko233/clash-nyanpasu)               |
-| [hiddify 官网 全平台支持](https://hiddify.com/)                                   |
-| [hiddify-next](https://github.com/hiddify/hiddify-next)                    |
-| [sing-box 官网 不支持 IOS](https://sing-box.sagernet.org/zh/)                   |
-| [sing-box](https://github.com/SagerNet/sing-box)                           |
-| [shadowsocks](https://github.com/shadowsocks)                              |
+| MacOS & Windows Client                                                                                    |
+|-----------------------------------------------------------------------------------------------------------|
+| [clash-verge-rev 👍推荐](https://github.com/clash-verge-rev/clash-verge-rev)                                |
+| [clash-nyanpasu](https://github.com/keiko233/clash-nyanpasu)                                              |
+| [hiddify-next](https://github.com/hiddify/hiddify-next) [hiddify 官网 全平台支持](https://hiddify.com/)          |
+| [sing-box](https://github.com/SagerNet/sing-box) [sing-box 官网 不支持 IOS](https://sing-box.sagernet.org/zh/) |
+| [shadowsocks](https://github.com/shadowsocks)                                                             |
 
 | MacOS                                                                      |
 |----------------------------------------------------------------------------|
