@@ -12,13 +12,15 @@
 | [ClashX.Meta](https://github.com/MetaCubeX/ClashX.Meta/tree/meta)          |
 | [V2rayU](https://github.com/yanue/V2rayU/releases)                         |
 | [ShadowsocksX-NG](https://github.com/shadowsocks/ShadowsocksX-NG/releases) |
+| [Surge 付费](https://nssurge.com/)                                           |
 
-| Windows                                                    |
-|------------------------------------------------------------|
-| [v2rayN 👍推荐](https://github.com/2dust/v2rayN)             |
-| [clashN](https://github.com/2dust/clashN)                  |
-| [v2rayA](https://github.com/v2rayA/v2rayA)                 |
-| [nekoray](https://github.com/MatsuriDayo/nekoray/releases) |
+| Windows                                                        |
+|----------------------------------------------------------------|
+| [v2rayN 👍推荐](https://github.com/2dust/v2rayN)                 |
+| [clashN](https://github.com/2dust/clashN)                      |
+| [v2rayA](https://github.com/v2rayA/v2rayA)                     |
+| [nekoray](https://github.com/MatsuriDayo/nekoray/releases)     |
+| [sing-box 全新协议](https://github.com/SagerNet/sing-box/releases) |
 
 | Android                                                                            |
 |------------------------------------------------------------------------------------|
@@ -26,8 +28,10 @@
 | [ClashMetaForAndroid](https://github.com/MetaCubeX/ClashMetaForAndroid/releases)   |
 | [shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android/releases) |
 | [ClashYou](https://github.com/Yos-X/ClashYou)                                      |
+| [NekoBoxForAndroid](https://github.com/MatsuriDayo/NekoBoxForAndroid)              |
+| [surfboard](https://github.com/getsurfboard/surfboard/releases)                    |
 
-| IOS （免费的自行查找）                                                            |
+| IOS （付费）                                                                 |
 |--------------------------------------------------------------------------|
 | [Shadowrocket GitHub](https://github.com/Shadowrocket)                   |
 | [Shadowrocket 美](https://apps.apple.com/us/app/shadowrocket/id932747118) |
@@ -174,7 +178,7 @@
 |                                                                                               |
 
 # 付费
-| 机场推荐（限制设备的请自行搜索，不在这里推荐，建议按月购买）                                                                           |
+| 机场推荐                                                                                                     |
 |----------------------------------------------------------------------------------------------------------|
 | [******小机场 高性价比 适合一些轻度用户******]()                                                                        |
 | [1/月-50G/月 性价比](https://a.xn--6nq44r2uh9rhj7f.com/#/register?code=6v77KWIz)                              |
@@ -195,12 +199,15 @@
 | [15/月-100G/月 白月光](https://bygcloud.com/#/home)                                                           |
 | [24.9/月-100G/月 web3vpn](https://web3vpn.net/)                                                            |
 | [23/月-388G/月 奈云](https://www.v2ny.com/#/register) [奈云](https://www.naiun.cc/#/register)                  |
-| []()                                                                                                     |
+| [限制设备******靠谱]()                                                                                         |
+| [9.9/月-80G/月 WgetCloud](https://beibeicloud.shop/#/register)                                             |
 | [49/月-120G/月 WgetCloud](https://invite.wgetcloud.ltd/auth/register?code=Y7ytZ1)                          |
 | [42/月-120G/月 CyberGuard](https://cyberguard.best/index.php#/register?code=HsiGRr69)                      |
 | [52/月-200G/月 库洛米](https://www.kuromis.com/)                                                              |
 | [71/月-50G/月 Nexitally](https://nxboom.com/index.aspx)                                                    |
 | [260/年-50G/月 Amy](https://www.amysecure.com/index.php)                                                   |
+| [29/月-200G/月 自行搜索 悠兔]()                                                                                  |
+| [176/季-250G/月 自行搜索 TAG]()                                                                                |
 
 | 免费试用机场                                                                                    |
 |-------------------------------------------------------------------------------------------|
