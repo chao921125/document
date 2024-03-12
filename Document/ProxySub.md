@@ -184,8 +184,9 @@
 | [1/月-50G/月 性价比](https://a.xn--6nq44r2uh9rhj7f.com/#/register?code=6v77KWIz)                              |
 | [12/年-500G/月 一元](https://xn--4gq62f52gdss.art/#/register?code=y2BjORPu)                                  |
 | [4.99/月-500G/月 流量光](https://llgjc.top/#/register?code=K0w7xpKk)                                          |
+| [8.9/月-50G/月 海獭](https://haita.io/register)                                                              |
 | [******中型机场 适合对网络稍微有要求的******]()                                                                         |
-| [* 15/月-100G/月 龙猫云](https://lmspeedapp.com/#/register?code=8JnnPAyd)                                     |
+| [15/月-100G/月 龙猫云](https://lmspeedapp.com/#/register?code=8JnnPAyd)                                       |
 | [12.99/月-50G/月 飞机云 签到送流量](https://feijiyun911.com/auth/register?code=XFbr)                               |
 | [14.9/月-130/月 魔戒](https://mojie.app/register?aff=Gu3iS0ty)                                               |
 | [15/月-100G/月 飞鸟](https://fbaff02.flyb-aff01.com/auth/register?code=GXsW) [//]: # (https://flyingbird.cc) |
@@ -199,15 +200,19 @@
 | [15/月-100G/月 白月光](https://bygcloud.com/#/home)                                                           |
 | [24.9/月-100G/月 web3vpn](https://web3vpn.net/)                                                            |
 | [23/月-388G/月 奈云](https://www.v2ny.com/#/register) [奈云](https://www.naiun.cc/#/register)                  |
+| [33/月-150G/月 Sayss](https://www.epaybc.com/#/register)                                                   |
 | [限制设备******靠谱]()                                                                                         |
 | [9.9/月-80G/月 贝贝云](https://beibeicloud.shop/#/register)                                                   |
-| [* 49/月-120G/月 WgetCloud](https://invite.wgetcloud.ltd/auth/register?code=Y7ytZ1)                        |
+| [15/月-50G/月 老猫云](https://laomaoyun.net/#/register)                                                       |
+| [12.8/月-88G/月 纷达](https://fenda.cloud/auth/register)                                                     |
+| [20/月-160G/月 青森云](https://sub.cccc.gg/auth/register)                                                     |
+| [49/月-120G/月 WgetCloud](https://invite.wgetcloud.ltd/auth/register?code=Y7ytZ1)                          |
 | [42/月-120G/月 CyberGuard](https://cyberguard.best/index.php#/register?code=HsiGRr69)                      |
 | [52/月-200G/月 库洛米](https://www.kuromis.com/)                                                              |
-| [* 71/月-50G/月 Nexitally](https://nxboom.com/index.aspx)                                                  |
+| [71/月-50G/月 Nexitally](https://nxboom.com/index.aspx)                                                    |
 | [260/年-50G/月 Amy](https://www.amysecure.com/index.php)                                                   |
-| [* 29/月-200G/月 自行搜索 悠兔]()                                                                                |
-| [* 176/季-250G/月 自行搜索 TAG]()                                                                              |
+| [29/月-200G/月 自行搜索 悠兔]()                                                                                  |
+| [176/季-250G/月 自行搜索 TAG]()                                                                                |
 
 | 免费试用机场                                                                                    |
 |-------------------------------------------------------------------------------------------|
