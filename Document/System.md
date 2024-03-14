@@ -86,20 +86,12 @@
 
 ## 无需自己操作，直接申请即可
 
-阿里云、腾讯云、华为云、CloudFlare、滴滴云、百度云
-
-## [1年]()
-
-[lookssl](https://www.lookssl.com/) |
-[chinaz](http://aq.chinaz.com/SSL) |
-[青云SSL](https://www.qingcloud.com/pricing#/SSLCertificate)
+阿里云（90天）、腾讯云、华为云、CloudFlare、滴滴云、百度云
 
 ## [90天]()
-
 [FreeSSL 推荐](https://freessl.org/) |
 [FreeSSL 推荐](https://freessl.cn/) |
 [sslforfree](https://www.sslforfree.com/) |
-[letsencrypt](https://letsencrypt.org/) |
 [ssl](https://www.ssl.com/certificates/free/) |
 [cloudflare](https://www.cloudflare.com/zh-cn/ssl/) |
 [secure](https://secure.ssl.com/certificates/free/buy) |
@@ -109,11 +101,12 @@
 [mianfeissl](https://www.mianfeissl.com/) |
 [letsencrypt](https://letsencrypt.osfipin.com/) |
 [lookssl](https://www.lookssl.com/) |
-[certbot](https://certbot.eff.org/) |
 [freesslcertificate](https://www.freesslcertificate.org/) |
 [Comodo 超市](https://www.sslchaoshi.com/ssl/brand/5) |
 [又拍云](https://www.upyun.com/products/ssl) |
 [七牛云](https://www.qiniu.com/products/ssl) |
+[青云SSL](https://www.qingcloud.com/pricing#/SSLCertificate) |
+[chinaz](http://aq.chinaz.com/SSL) |
 [奇安信 不推荐，相当繁琐](https://wangzhan.qianxin.com/) |
 
 ## [30天]()
@@ -124,6 +117,8 @@
 
 ## [自己操作]()
 
+[letsencrypt](https://letsencrypt.org/) |
+[certbot](https://certbot.eff.org/) |
 [acme.sh](https://github.com/acmesh-official/acme.sh) |
 [gethttpsforfree](https://gethttpsforfree.com/)
 
