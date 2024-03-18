@@ -82,8 +82,6 @@
 
 | V2ray                                                                                |
 |--------------------------------------------------------------------------------------|
-| X https://jiang.netlify.app/                                                         |
-|                                                                                      |
 | [github freefq](https://github.com/freefq/free)                                      |
 | https://raw.githubusercontent.com/freefq/free/master/v2                              |
 | https://bulinkbulink.com/freefq/free/master/v2                                       |
