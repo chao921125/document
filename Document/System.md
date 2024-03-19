@@ -97,10 +97,9 @@
 [secure](https://secure.ssl.com/certificates/free/buy) |
 [gogetssl](https://www.gogetssl.com/sslcerts/free-ssl/) |
 [zerossl](https://zerossl.com/) |
-[ohttps](https://ohttps.com/) |
+[ohttps 支持自动部署](https://ohttps.com/) |
 [mianfeissl](https://www.mianfeissl.com/) |
 [letsencrypt](https://letsencrypt.osfipin.com/) |
-[lookssl](https://www.lookssl.com/) |
 [freesslcertificate](https://www.freesslcertificate.org/) |
 [Comodo 超市](https://www.sslchaoshi.com/ssl/brand/5) |
 [又拍云](https://www.upyun.com/products/ssl) |
@@ -109,16 +108,10 @@
 [chinaz](http://aq.chinaz.com/SSL) |
 [奇安信 不推荐，相当繁琐](https://wangzhan.qianxin.com/) |
 
-## [30天]()
-
-[pianyissl](https://www.pianyissl.com/) |
-[trustico](https://www.trustico.com.hk/dv/comodo/trial/free-comodo-trial-certificate.php) |
-[tmdhosting](https://www.tmdhosting.com/ssl-certificates.html)
-
 ## [自己操作]()
 
 [letsencrypt](https://letsencrypt.org/) |
-[certbot](https://certbot.eff.org/) |
+[certbot 推荐👍](https://certbot.eff.org/) |
 [acme.sh](https://github.com/acmesh-official/acme.sh) |
 [gethttpsforfree](https://gethttpsforfree.com/)
 
