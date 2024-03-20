@@ -26,3 +26,5 @@
 | [Linux 下载及命令使用](./Linux/README.md)               |
 
 https://macmiao.lanzouj.com/iWCvF1nht9qb
+
+https://shorturl.at/uANP7
