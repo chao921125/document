@@ -21,6 +21,7 @@ https://www.linuxcool.com/
 yum -y install openssl openssl-devel gcc openssl11 openssl11-devel
 yum -y install zlib*
 yum install readline-devel
+# https://www.tcl.tk/software/tcltk/
 ```
 
 # 常用命令
@@ -41,6 +42,8 @@ CenterOs 6 是 service；
 CenterOs 7 是 systemctl
 
 ```shell
+# 设置防火墙
+systemctl start firewalld.service
 # 设置防火墙
 systemctl stop firewalld.service && systemctl disable firewalled;
 # 开放端口

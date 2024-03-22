@@ -18,6 +18,12 @@ sudo snap install --classic certbot
 
 sudo ln -s /snap/bin/certbot /usr/bin/certbot
 
+sudo yum install certbot python3-certbot-nginx
+sudo yum install certbot python2-certbot-nginx
+
+ln -s /usr/local/nginx/sbin/nginx /usr/bin/nginx
+ln -s /usr/local/nginx/conf/ /etc/nginx
+
 # 在 nginx 启动的前提下执行命令，自动配置 nginx
 sudo certbot --nginx
 # 或者，手动配置 nginx
@@ -29,4 +35,11 @@ sudo certbot renew --dry-run
 # /etc/crontab/
 # /etc/cron.*/*
 # systemctl list-timers
+
+# 系统自动更新证书
+0 0 1 * * certbot renew
+10 0 1 * * systemctl restart nginx
+
+# 新证书安装
+sudo certbot run --nginx
 ```
