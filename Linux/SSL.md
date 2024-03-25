@@ -31,6 +31,8 @@ sudo certbot certonly --nginx
 
 # 自动续订
 sudo certbot renew --dry-run
+sudo certbot renew --pre-hook "service nginx stop" --post-hook "service nginx start" --dry-run
+
 # 续订 certbot 的命令安装在以下位置之一：
 # /etc/crontab/
 # /etc/cron.*/*
