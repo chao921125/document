@@ -164,3 +164,11 @@ http://bbs.wuyou.net/forum.php?mod=viewthread&tid=349965
 http://bbs.wuyou.net/forum.php?mod=viewthread&tid=370573
 11,雷电PE
 http://bbs.c3.wuyou.net/forum.php?mod=viewthread&tid=426252&extra=&page=1
+
+# 娱乐视频
+|                                                                                          |
+|------------------------------------------------------------------------------------------|
+| [APTV 源 YanG-1989 成人](https://raw.githubusercontent.com/YanG-1989/m3u/main/Adult.m3u)    |
+| [APTV 源 YueChan](https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u)           |
+| [APTV 源 Kimentanm](https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u) |
+| [APTV 源 baoge](https://baoge.vip/247.html)                                               |
