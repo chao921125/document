@@ -166,9 +166,19 @@ http://bbs.wuyou.net/forum.php?mod=viewthread&tid=370573
 http://bbs.c3.wuyou.net/forum.php?mod=viewthread&tid=426252&extra=&page=1
 
 # 娱乐视频
-|                                                                                          |
+| 软件和源                                                                                     |
 |------------------------------------------------------------------------------------------|
+| [iina](https://github.com/iina/iina/releases)                                            |
+| [iina-plus](https://github.com/xjbeta/iina-plus/releases)                                |
+| [VLC 全平台](https://www.videolan.org/)                                                     |
+| [potplayer 仅支持 win](https://potplayer.tv/?lang=zh_CN)                                    |
+| [tvbox 仅支持 安卓 停更](https://github.com/windwang/tvbox?tab=readme-ov-file)                  |
+| [直播源]()                                                                                  |
 | [APTV 源 YanG-1989 成人](https://raw.githubusercontent.com/YanG-1989/m3u/main/Adult.m3u)    |
 | [APTV 源 YueChan](https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u)           |
 | [APTV 源 Kimentanm](https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u) |
+| [APTV 源 fanmingming](https://live.fanmingming.com/tv/m3u/ipv6.m3u)                       |
+| [合集]()                                                                                   |
 | [APTV 源 baoge](https://baoge.vip/247.html)                                               |
+| [APTV 源 fanmingming](https://lqtv.github.io/)                                            |
+| [APTV 源 fanmingming](https://github.com/tongxunlu/LIVEALL-2024-03-20)                    |
