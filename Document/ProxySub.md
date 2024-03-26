@@ -180,6 +180,11 @@
 |----------------------------------------------------------------------------------------------------------|
 | [*不限制设备-小机场-高性价比-适合一些轻度用户-不保证稳定性*]()                                                                     |
 | [1/月-50G/月 性价比](https://a.xn--6nq44r2uh9rhj7f.com/#/register?code=6v77KWIz)                              |
+| [1/月-100G/月 便宜](https://xn--wtq35pfyd55o.com/#/register)                                                 |
+| [1/月-100G/月 一分](https://xn--4gqx1hgtfdmt.com/#/register)                                                 |
+| [3/年-100G/月 三毛](https://xn--ehqx7tcnnope.com/#/register)                                                 |
+| [6/年-100G/月 顶级](https://xn--mes358a9urctx.com/#/register)                                                |
+| [6/年-100G/月 极速](https://xn--mes358acgm99l.com/#/register)                                                |
 | [12/年-500G/月 一元](https://xn--4gq62f52gdss.art/#/register?code=y2BjORPu)                                  |
 | [4.99/月-500G/月 流量光](https://llgjc.top/#/register?code=K0w7xpKk)                                          |
 | [8.9/月-50G/月 海獭](https://haita.io/register)                                                              |
