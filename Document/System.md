@@ -172,6 +172,7 @@ http://bbs.c3.wuyou.net/forum.php?mod=viewthread&tid=426252&extra=&page=1
 | [iina-plus](https://github.com/xjbeta/iina-plus/releases)                                |
 | [VLC 全平台](https://www.videolan.org/)                                                     |
 | [potplayer 仅支持 win](https://potplayer.tv/?lang=zh_CN)                                    |
+| [my-tv](https://github.com/lizongying/my-tv)                                             |
 | [tvbox 仅支持 安卓 停更](https://github.com/windwang/tvbox?tab=readme-ov-file)                  |
 | [直播源]()                                                                                  |
 | [APTV 源 YanG-1989 成人](https://raw.githubusercontent.com/YanG-1989/m3u/main/Adult.m3u)    |
@@ -182,3 +183,6 @@ http://bbs.c3.wuyou.net/forum.php?mod=viewthread&tid=426252&extra=&page=1
 | [APTV 源 baoge](https://baoge.vip/247.html)                                               |
 | [APTV 源 fanmingming](https://lqtv.github.io/)                                            |
 | [APTV 源 fanmingming](https://github.com/tongxunlu/LIVEALL-2024-03-20)                    |
+| [APTV 源 imDazui](https://github.com/imDazui/Tvlist-awesome-m3u-m3u8)                     |
+| [APTV 源 joevess](https://github.com/joevess/IPTV)                                        |
+| [APTV 源 iptv-org](https://github.com/iptv-org/iptv)                                      |
