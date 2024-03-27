@@ -180,19 +180,22 @@
 |----------------------------------------------------------------------------------------------------------|
 | [*不限制设备-小机场-高性价比-适合一些轻度用户-不保证稳定性*]()                                                                     |
 | [1/月-50G/月 性价比](https://a.xn--6nq44r2uh9rhj7f.com/#/register?code=6v77KWIz)                              |
-| [1/月-100G/月 便宜](https://xn--wtq35pfyd55o.com/#/register)                                                 |
-| [1/月-100G/月 一分](https://xn--4gqx1hgtfdmt.com/#/register)                                                 |
-| [3/年-100G/月 三毛](https://xn--ehqx7tcnnope.com/#/register)                                                 |
-| [6/年-100G/月 顶级](https://xn--mes358a9urctx.com/#/register)                                                |
-| [6/年-100G/月 极速](https://xn--mes358acgm99l.com/#/register)                                                |
+| [11/年-500G/月 便宜](https://xn--wtq35pfyd55o.com/#/register?code=PRskobJz)                                  |
+| [1/月-100G/月 一分](https://xn--4gqx1hgtfdmt.com/#/register?code=lfaWMQVc)                                   |
+| [9.99/年-100G/月 三毛](https://xn--ehqx7tcnnope.com/#/register?code=XdDsSqdo)                                |
+| [12/年-200G/月 顶级](https://xn--mes358a9urctx.com/#/register?code=dhhw9jqv)                                 |
+| [12/年-200G/月 极速](https://xn--mes358acgm99l.com/#/register?code=G4hn1jDg)                                 |
 | [12/年-500G/月 一元](https://xn--4gq62f52gdss.art/#/register?code=y2BjORPu)                                  |
+| [12/年-500G/月 免费](https://w.xn--94q57lcvpw50b.com/#/register?code=SCbFIcCw)                               |
 | [4.99/月-500G/月 流量光](https://llgjc.top/#/register?code=K0w7xpKk)                                          |
-| [8.9/月-50G/月 海獭](https://haita.io/register)                                                              |
+| [20/年-200G/月 廉价](https://xn--6nq44r2pg9mj.com/#/register?code=FeiARV4a)                                  |
+| [12/年-500G/月 一分](https://xn--4gqx1hgtfdmt.com/#/login)                                                   |
 | [*不限制设备-中型机场-适合对网络稍微有要求的*]()                                                                             |
 | [15/月-100G/月 龙猫云](https://lmspeedapp.com/#/register?code=8JnnPAyd)                                       |
 | [12.99/月-50G/月 飞机云 签到送流量](https://feijiyun911.com/auth/register?code=XFbr)                               |
 | [14.9/月-130/月 魔戒](https://mojie.app/register?aff=Gu3iS0ty)                                               |
 | [15/月-100G/月 飞鸟](https://fbaff02.flyb-aff01.com/auth/register?code=GXsW) [//]: # (https://flyingbird.cc) |
+| [15.99/月-100G/月 海獭](https://haita.io/register?aff=DERuAJGA)                                              |
 | [20/月-100G/月 闪电猫](https://scaff01.scvipaff.com/auth/register?code=U6L9)                                  |
 | [*不限制设备-大机场-适合企业及个人需要长期稳定的*]()                                                                           |
 | [25/月-150G/月 SSRDOG](https://go.ssrdog.com/?code=D24biOV4)                                               |                                                               
