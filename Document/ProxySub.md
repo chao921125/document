@@ -219,15 +219,15 @@
 | [29/月-200G/月 自行搜索 悠兔]()                                                                                  |
 | [176/季-250G/月 自行搜索 TAG]()                                                                                |
 
-| 免费试用机场                                                                                    |
-|-------------------------------------------------------------------------------------------|
-| [okokcloud 注册试用 7 天](https://okokcloud.net/#/login)                                       |
-| [v2ray免费 输入邮箱订阅](https://www.v2mj.com/) [v2ray免费节点](https://www.v2rayfree.eu.org/)        |
-| [维尼兔 输入邮箱订阅](https://www.v2v0.com/)                                                       |
-| []()                                                                                      |
-| [20/年-200G/月 廉价 不限制](https://xn--6nq44r2pg9mj.com/#/register?code=FeiARV4a)               |
-| [10/月-100G/月 限制 2 台设备 注册送 888GB 墙了个墙](https://www.qlgq.top/auth/register?code=bfaaa4eb65) |
-| [12/月-300G/月 限制 5 台设备 注册送 50GB ikuku](https://ikuuu.me/auth/register?code=FOhN)           |
+| 免费试用机场                                                                                       |
+|----------------------------------------------------------------------------------------------|
+| [okokcloud 注册试用 7 天](https://okokcloud.net/#/login)                                          |
+| [v2ray免费 输入邮箱订阅](https://www.v2mj.com/) [v2ray免费节点](https://www.v2rayfree.eu.org/)           |
+| [维尼兔 输入邮箱订阅](https://www.v2v0.com/)                                                          |
+| []()                                                                                         |
+| [20/年-200G/月 不限制 注册送 20G 一年 廉价](https://xn--6nq44r2pg9mj.com/#/register?code=FeiARV4a)       |
+| [10/月-100G/月 限制 2 台设备 注册送 888GB 一周 墙了个墙](https://www.qlgq.top/auth/register?code=bfaaa4eb65) |
+| [12/月-300G/月 限制 5 台设备 注册送 50GB 一周 ikuku](https://ikuuu.me/auth/register?code=FOhN)           |
 
 | 搭建VPS教程                   |
 |---------------------------|
