@@ -5,9 +5,12 @@
 | [安卓视频](https://github.com/o0HalfLife0o/TVBoxOSC)    |
 
 # 音乐视频源
-|                                                                                |
-|--------------------------------------------------------------------------------|
-| https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/ZY-Player/ZY-Player-PC.json |
+|                                                                                                      |
+|------------------------------------------------------------------------------------------------------|
+| [软件 lx-music](https://github.com/lyswhut/lx-music-desktop/releases) [官网](https://lxmusic.toside.cn/) |
+| [源 lx-music 自建音源](https://github.com/lxmusics/lx-music-api-server-python)                            |
+| [软件 方格 安卓&Windows](http://morin.vin/)                                                                |
+| [源 视频](https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/ZY-Player/ZY-Player-PC.json)               |
 
 # 短链接
 |                                   |
