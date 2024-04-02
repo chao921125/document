@@ -193,9 +193,9 @@
 | [12/年-200G/月 极速 有专属客户端](https://xn--mes358acgm99l.com/#/register?code=G4hn1jDg)                                      |
 | [12/年-500G/月 一分 有专属客户端 1/月-100G/月](https://xn--4gqx1hgtfdmt.com/#/register?code=lfaWMQVc)                            |
 | [*不限制设备-中型机场-适合对网络稍微有要求的*]()                                                                                         |
-| [15/月-100G/月 龙猫云](https://lmspeedapp.com/#/register?code=8JnnPAyd)                                                   |
-| [12.99/月-50G/月 飞机云 签到送流量](https://feijiyun911.com/auth/register?code=XFbr)                                           |
+| [14.99/月-50G/月 飞机云 签到送流量](https://feijiyun911.com/auth/register?code=XFbr)                                           |
 | [14.9/月-130/月 魔戒](https://mojie.app/register?aff=Gu3iS0ty)                                                           |
+| [15/月-100G/月 龙猫云](https://lmspeedapp.com/#/register?code=8JnnPAyd)                                                   |
 | [15/月-100G/月 飞鸟](https://fbaff02.flyb-aff01.com/auth/register?code=GXsW) [](https://flyingbird.cc)                   |
 | [15.99/月-100G/月 海獭](https://haita.io/register?aff=DERuAJGA)                                                          |
 | [20/月-100G/月 闪电猫](https://scaff01.scvipaff.com/auth/register?code=U6L9)                                              |
