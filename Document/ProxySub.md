@@ -210,12 +210,12 @@
 | [23/月-388G/月 奈云](https://www.v2ny.com/#/register) [奈云](https://www.naiun.cc/#/register)                              |
 | [33/月-150G/月 Sayss](https://www.epaybc.com/#/register)                                                               |
 | [*限制设备*]()                                                                                                           |
-| [1/月-100G/月 超级机场 限制 3 台设备](https://www.chaojicloud.com/#/register?code=HjSkVbyA)                                     |
+| [1/月-100G/月 限制 3 台设备 超级机场](https://www.chaojicloud.com/#/register?code=HjSkVbyA)                                     |
 | [12/年-500G/月 限制 3 台设备 注册送 5G 2天 免费](https://w.xn--94q57lcvpw50b.com/#/register?code=SCbFIcCw)                        |
 | [10/月-100G/月 限制 2 台设备 注册送 888GB 一周 墙了个墙](https://www.qlgq.top/auth/register?code=bfaaa4eb65)                         |
-| [12.8/月-88G/月 纷达](https://fenda.cloud/auth/register)                                                                 |
-| [19.9/月-100G/月 桔子云](https://juzicloud.net/auth/register)                                                             |
-| [20/月-160G/月 青森云](https://sub.cccc.gg/auth/register)                                                                 |
+| [12.8/月-88G/月 限制 3 台设备 纷达](https://fenda.cloud/auth/register)                                                        |
+| [19.9/月-100G/月 限制 3 台设备 桔子云](https://juzicloud.net/auth/register)                                                    |
+| [20/月-160G/月 限制 3 台设备 青森云](https://sub.cccc.gg/auth/register)                                                        |
 | []()                                                                                                                 |
 | [6/月-50G/月 RioLU精灵学院](https://ooo.riolu.ooo/)                                                                        |
 | [49/月-120G/月 WgetCloud](https://invite.wgetcloud.ltd/auth/register?code=Y7ytZ1)                                      |
