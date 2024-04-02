@@ -181,6 +181,7 @@
 |----------------------------------------------------------------------------------------------------------------------|
 | [*不限制设备-小机场-高性价比-适合一些轻度用户-不保证稳定性*]()                                                                                 |
 | [1/月-50G/月 性价比](https://a.xn--6nq44r2uh9rhj7f.com/#/register?code=6v77KWIz) [](https://xingjiabijichang.vip/#/login) |
+| [10.8/月-120G/月 okokcloud 注册试用 7 天](https://okokcloud.com/index.php#/register)                                        |
 | [13/年-100G/月 fscloud](https://dcanp4109.fsc.fscloud.cc/#/register?code=1umqePA4) [](https://fscloud.vip/)            |
 | [20/年-200G/月 不限制 注册送 20G 一年 廉价](https://lianjiajichang.com/#/register?code=FeiARV4a)                                 |
 | [12/年-500G/月 一元](https://xn--4gq62f52gdss.art/#/register?code=y2BjORPu)                                              |
@@ -210,11 +211,8 @@
 | [33/月-150G/月 Sayss](https://www.epaybc.com/#/register)                                                               |
 | [*限制设备*]()                                                                                                           |
 | [1/月-100G/月 超级机场 限制 3 台设备](https://www.chaojicloud.com/#/register?code=HjSkVbyA)                                     |
-| [9.9/月-80G/月 贝贝云](https://beibeicloud.shop/#/register)                                                               |
 | [12/年-500G/月 限制 3 台设备 注册送 5G 2天 免费](https://w.xn--94q57lcvpw50b.com/#/register?code=SCbFIcCw)                        |
 | [10/月-100G/月 限制 2 台设备 注册送 888GB 一周 墙了个墙](https://www.qlgq.top/auth/register?code=bfaaa4eb65)                         |
-| [12/月-300G/月 限制 5 台设备 注册送 50GB 一周 ikuku](https://ikuuu.me/auth/register?code=FOhN)                                   |
-| [15/月-50G/月 老猫云](https://laomaoyun.net/#/register)                                                                   |
 | [12.8/月-88G/月 纷达](https://fenda.cloud/auth/register)                                                                 |
 | [19.9/月-100G/月 桔子云](https://juzicloud.net/auth/register)                                                             |
 | [20/月-160G/月 青森云](https://sub.cccc.gg/auth/register)                                                                 |
@@ -228,13 +226,12 @@
 | [29/月-200G/月 自行搜索 悠兔](https://youtu.shop/)                                                                           |
 | [176/季-250G/月 自行搜索 TAG](https://tagss04.pro/)                                                                        |
 
-[//]: # https://github.com/winston779()
+[//]: # (https://github.com/winston779)
 
-| 免费试用机场                                                                                       |
-|----------------------------------------------------------------------------------------------|
-| [okokcloud 注册试用 7 天](https://okokcloud.net/#/login)                                          |
-| [v2ray免费 输入邮箱订阅](https://www.v2mj.com/) [v2ray免费节点](https://www.v2rayfree.eu.org/)           |
-| [维尼兔 输入邮箱订阅](https://www.v2v0.com/)                                                          |
+| 免费订阅                                                                               |
+|------------------------------------------------------------------------------------|
+| [v2ray免费 输入邮箱订阅](https://www.v2mj.com/) [v2ray免费节点](https://www.v2rayfree.eu.org/) |
+| [维尼兔 输入邮箱订阅](https://www.v2v0.com/)                                                |
 
 | 搭建VPS教程                   |
 |---------------------------|
