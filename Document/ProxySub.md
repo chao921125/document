@@ -179,7 +179,7 @@
 # 付费机场
 | 机场推荐                                                                                                                 |
 |----------------------------------------------------------------------------------------------------------------------|
-| [*不限制设备-小机场-高性价比-适合一些轻度用户-不保证稳定性*]()                                                                                 |
+| [*不限制设备-高性价比-适合一些轻度用户-不保证稳定性*]()                                                                                     |
 | [1/月-50G/月 性价比](https://a.xn--6nq44r2uh9rhj7f.com/#/register?code=6v77KWIz) [](https://xingjiabijichang.vip/#/login) |
 | [10.8/月-120G/月 okokcloud 注册试用 7 天](https://okokcloud.com/index.php#/register)                                        |
 | [13/年-100G/月 fscloud](https://dcanp4109.fsc.fscloud.cc/#/register?code=1umqePA4) [](https://fscloud.vip/)            |
@@ -193,14 +193,13 @@
 | [12/年-200G/月 顶级 有专属客户端](https://xn--mes358a9urctx.com/#/register?code=dhhw9jqv)                                      |
 | [12/年-200G/月 极速 有专属客户端](https://xn--mes358acgm99l.com/#/register?code=G4hn1jDg)                                      |
 | [12/年-500G/月 一分 有专属客户端 1/月-100G/月](https://xn--4gqx1hgtfdmt.com/#/register?code=lfaWMQVc)                            |
-| [*不限制设备-中型机场-适合对网络稍微有要求的*]()                                                                                         |
+| [*不限制设备-适合对网络稍微有要求的*]()                                                                                              |
 | [14.99/月-50G/月 飞机云 签到送流量](https://feijiyun911.com/auth/register?code=XFbr)                                           |
 | [14.9/月-130/月 魔戒](https://mojie.app/register?aff=Gu3iS0ty)                                                           |
 | [15/月-100G/月 龙猫云](https://lmspeedapp.com/#/register?code=8JnnPAyd)                                                   |
 | [15/月-100G/月 飞鸟](https://fbaff02.flyb-aff01.com/auth/register?code=GXsW) [](https://flyingbird.cc)                   |
 | [15.99/月-100G/月 海獭](https://haita.io/register?aff=DERuAJGA)                                                          |
 | [20/月-100G/月 闪电猫](https://scaff01.scvipaff.com/auth/register?code=U6L9)                                              |
-| [*不限制设备-大机场-适合企业及个人需要长期稳定的*]()                                                                                       |
 | [25/月-150G/月 SSRDOG](https://go.ssrdog.com/?code=D24biOV4)                                                           |                                                               
 | [13.8/月-100G/月 Anyland](https://any66.cc/#/register?code=xvfqFY02)                                                   |
 | [15/月-100G/月 白月光](https://bygcloud.com/#/home)                                                                       |
