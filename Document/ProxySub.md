@@ -272,7 +272,6 @@
 | 发布页                                                                    |
 |------------------------------------------------------------------------|
 | [【节点池收集】](https://github.com/Leon406/SubCrawler)                       |
-| [【发布页】](https://github.com/H4Ha/jichangfenxiangzhan)                   |
 | [【发布页】](https://github.com/WilliamStar007/ClashX-V2Ray-TopFreeProxy)   |
 | [【发布页】](https://github.com/dongyubin/Free-AppleId-Serve)               |
 | [【发布页】](https://github.com/snakem982/proxypool)                        |
