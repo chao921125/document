@@ -21,7 +21,7 @@
 | https://free-url-shortener.rb.gy/ |
 | https://bitly.com/                |
 | https://n9.cl/zh                  |
-|                                   |
+| [tt.vg](https://tt.vg/)           |
 | https://tiny.cc/                  |
 | https://cutt.ly/pro-pricing       |
 
