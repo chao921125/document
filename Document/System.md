@@ -1,8 +1,10 @@
 # 软件
-|                                                     |
-|-----------------------------------------------------|
-| [Win+Mac 哇哦菌](https://www.waodown.com/category/mac) |
-| [安卓视频](https://github.com/o0HalfLife0o/TVBoxOSC)    |
+|                                                                  |
+|------------------------------------------------------------------|
+| [Win+Mac 哇哦菌](https://www.waodown.com/category/mac)              |
+| [安卓视频](https://github.com/o0HalfLife0o/TVBoxOSC)                 |
+| [YTB 下载 Hitomi](https://github.com/KurtBestor/Hitomi-Downloader) |
+| [视频 下载 Lux](https://github.com/iawia002/lux)                     |
 
 # 音乐视频源
 |                                                                                                      |
@@ -79,10 +81,33 @@
 | [upe](https://www.upe.net/)            |
 | [wepe](https://www.wepe.com.cn/)       |
 
+# 娱乐视频
+| 软件和源                                                                                     |
+|------------------------------------------------------------------------------------------|
+| [iina](https://github.com/iina/iina/releases)                                            |
+| [iina-plus](https://github.com/xjbeta/iina-plus/releases)                                |
+| [VLC 全平台](https://www.videolan.org/)                                                     |
+| [potplayer 仅支持 win](https://potplayer.tv/?lang=zh_CN)                                    |
+| [my-tv](https://github.com/lizongying/my-tv)                                             |
+| [tvbox 仅支持 安卓 停更](https://github.com/windwang/tvbox?tab=readme-ov-file)                  |
+| [直播源]()                                                                                  |
+| [APTV 源 YanG-1989 成人](https://raw.githubusercontent.com/YanG-1989/m3u/main/Adult.m3u)    |
+| [APTV 源 YueChan](https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u)           |
+| [APTV 源 Kimentanm](https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u) |
+| [APTV 源 fanmingming](https://live.fanmingming.com/tv/m3u/ipv6.m3u)                       |
+| [合集]()                                                                                   |
+| [APTV 源 baoge](https://baoge.vip/247.html)                                               |
+| [APTV 源 fanmingming](https://lqtv.github.io/)                                            |
+| [APTV 源 fanmingming](https://github.com/tongxunlu/LIVEALL-2024-03-20)                    |
+| [APTV 源 imDazui](https://github.com/imDazui/Tvlist-awesome-m3u-m3u8)                     |
+| [APTV 源 joevess](https://github.com/joevess/IPTV)                                        |
+| [APTV 源 iptv-org](https://github.com/iptv-org/iptv)                                      |
+
 # 代码托管
 | 源码                                                  |
 |-----------------------------------------------------|
 | [codefever](https://github.com/PGYER/codefever)     |
+
 # SSL证书 免费及收费
 
 ### 一般来说国内的SSL需要实名认证，大家根据需要自行选择
@@ -128,64 +153,42 @@
 []()
 
 # 网站托管（免费）
-[wordpress](https://wordpress.com/zh-cn/)
-[wix](https://www.wix.com/)
-[weebly](https://www.weebly.com/)
-[awardspace](https://www.awardspace.com/)
-[infinityfree](https://www.infinityfree.net/)
+[wordpress](https://wordpress.com/zh-cn/) |
+[wix](https://www.wix.com/) |
+[weebly](https://www.weebly.com/) |
+[awardspace](https://www.awardspace.com/) |
+[infinityfree](https://www.infinityfree.net/) |
 [freehostia](https://www.freehostia.com/)
 
 ## 通过GitHub直接自动部署
-[vercel 限额](https://vercel.com/)
-[netlify 限额](https://app.netlify.com/)
-[cloudflare 限额](https://dash.cloudflare.com/)
-[SurgeHandbook 限额](https://github.com/FlintyLemming/SurgeHandbook)
+[vercel 限额](https://vercel.com/) |
+[netlify 限额](https://app.netlify.com/) |
+[cloudflare 限额](https://dash.cloudflare.com/) |
+[SurgeHandbook 限额](https://github.com/FlintyLemming/SurgeHandbook) |
 软硬路由
 https://www.lucky666.cn/
 
 系统激活：https://massgrave.dev/index.html
 
 1,微PE工具箱
-https://www.wepe.com.cn/
+https://www.wepe.com.cn/ \
 2,Edgeless
-https://home.edgeless.top/
+https://home.edgeless.top/ \
 3,FirPE Project
-https://www.firpe.cn/
+https://www.firpe.cn/ \
 4,HotPE
-https://www.hotpe.top/
+https://www.hotpe.top/ \
 5,杏雨梨云启动维护系统
-https://www.xyboot.com/
+https://www.xyboot.com/ \
 6,优启通
-https://www.itsk.com/
+https://www.itsk.com/ \
 7,U盘魔术师
-https://www.sysceo.com/usm
+https://www.sysceo.com/usm \
 8,冰封PE
-http://www.bfgho.com/
+http://www.bfgho.com/ \
 9,USBOS V3.0
-http://bbs.wuyou.net/forum.php?mod=viewthread&tid=349965
+http://bbs.wuyou.net/forum.php?mod=viewthread&tid=349965 \
 10,H3集成PE系统最新发布
-http://bbs.wuyou.net/forum.php?mod=viewthread&tid=370573
+http://bbs.wuyou.net/forum.php?mod=viewthread&tid=370573 \
 11,雷电PE
 http://bbs.c3.wuyou.net/forum.php?mod=viewthread&tid=426252&extra=&page=1
-
-# 娱乐视频
-| 软件和源                                                                                     |
-|------------------------------------------------------------------------------------------|
-| [iina](https://github.com/iina/iina/releases)                                            |
-| [iina-plus](https://github.com/xjbeta/iina-plus/releases)                                |
-| [VLC 全平台](https://www.videolan.org/)                                                     |
-| [potplayer 仅支持 win](https://potplayer.tv/?lang=zh_CN)                                    |
-| [my-tv](https://github.com/lizongying/my-tv)                                             |
-| [tvbox 仅支持 安卓 停更](https://github.com/windwang/tvbox?tab=readme-ov-file)                  |
-| [直播源]()                                                                                  |
-| [APTV 源 YanG-1989 成人](https://raw.githubusercontent.com/YanG-1989/m3u/main/Adult.m3u)    |
-| [APTV 源 YueChan](https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u)           |
-| [APTV 源 Kimentanm](https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u) |
-| [APTV 源 fanmingming](https://live.fanmingming.com/tv/m3u/ipv6.m3u)                       |
-| [合集]()                                                                                   |
-| [APTV 源 baoge](https://baoge.vip/247.html)                                               |
-| [APTV 源 fanmingming](https://lqtv.github.io/)                                            |
-| [APTV 源 fanmingming](https://github.com/tongxunlu/LIVEALL-2024-03-20)                    |
-| [APTV 源 imDazui](https://github.com/imDazui/Tvlist-awesome-m3u-m3u8)                     |
-| [APTV 源 joevess](https://github.com/joevess/IPTV)                                        |
-| [APTV 源 iptv-org](https://github.com/iptv-org/iptv)                                      |
