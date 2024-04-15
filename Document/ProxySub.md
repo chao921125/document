@@ -81,42 +81,44 @@
 # 免费订阅地址
 # 求稳定去[付费机场](#付费机场)
 
-| V2ray                                                                                |
-|--------------------------------------------------------------------------------------|
-| [github freefq](https://github.com/freefq/free)                                      |
+| V2ray                                                                                  |
+|----------------------------------------------------------------------------------------|
+| [github freefq](https://github.com/freefq/free)                                        |
 | V https://raw.githubusercontent.com/freefq/free/master/v2                              |
 | V https://bulinkbulink.com/freefq/free/master/v2                                       |
-|                                                                                      |
-| [github ZywChannel](https://github.com/ZywChannel/free)                              |
+|                                                                                        |
+| [github ZywChannel](https://github.com/ZywChannel/free)                                |
 | V https://raw.githubusercontent.com/ZywChannel/free/main/sub                           |
 | V https://raw.fastgit.org/ZywChannel/free/main/sub                                     |
-|                                                                                      |
-| [github Pawdroid](https://github.com/Pawdroid/Free-servers)                          |
+|                                                                                        |
+| [github Pawdroid](https://github.com/Pawdroid/Free-servers)                            |
 | V https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub                     |
 | V https://ghproxy.com/https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub |
-|                                                                                      |
-|                                                                                      |
-| [github mfuu](https://github.com/mfuu/v2ray)                                         |
-| C https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml                     |
-| C https://gitlab.com/mfuu/v2ray/-/raw/master/clash.yaml                              |
-| V https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray                          |
-| V https://gitlab.com/mfuu/v2ray/-/raw/master/v2ray                                   |
-|                                                                                      |
-| [github aiboboxx](https://github.com/aiboboxx)                                       |
-| C https://raw.githubusercontent.com/aiboboxx/clashfree/main/clash.yml                |
-| V https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2                       |
-|                                                                                      |
-| [github ts-sf](https://github.com/ts-sf/fly)                                         |
-| C https://raw.githubusercontent.com/ts-sf/fly/main/clash                             |
-| C https://raw.fgit.cf/ts-sf/fly/main/clash                                           |
-| V https://raw.githubusercontent.com/ts-sf/fly/main/v2                                |
-| V https://raw.fastgit.org/ts-sf/fly/main/v2                                          |
-|                                                                                      |
-| [github ermaozi](https://github.com/ermaozi/get_subscribe)                           |
-| C https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml   |
-| C https://git.io/emzclash                                                            |
-| V https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt   |
-| V https://git.io/emzv2ray                                                            |
+|                                                                                        |
+| [github barry-far](https://github.com/barry-far/V2ray-Configs)                         |
+|                                                                                        |
+|                                                                                        |
+| [github mfuu](https://github.com/mfuu/v2ray)                                           |
+| C https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml                       |
+| C https://gitlab.com/mfuu/v2ray/-/raw/master/clash.yaml                                |
+| V https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray                            |
+| V https://gitlab.com/mfuu/v2ray/-/raw/master/v2ray                                     |
+|                                                                                        |
+| [github aiboboxx](https://github.com/aiboboxx)                                         |
+| C https://raw.githubusercontent.com/aiboboxx/clashfree/main/clash.yml                  |
+| V https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2                         |
+|                                                                                        |
+| [github ts-sf](https://github.com/ts-sf/fly)                                           |
+| C https://raw.githubusercontent.com/ts-sf/fly/main/clash                               |
+| C https://raw.fgit.cf/ts-sf/fly/main/clash                                             |
+| V https://raw.githubusercontent.com/ts-sf/fly/main/v2                                  |
+| V https://raw.fastgit.org/ts-sf/fly/main/v2                                            |
+|                                                                                        |
+| [github ermaozi](https://github.com/ermaozi/get_subscribe)                             |
+| C https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml     |
+| C https://git.io/emzclash                                                              |
+| V https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt     |
+| V https://git.io/emzv2ray                                                              |
 
 | Clash                                                                                         |
 |-----------------------------------------------------------------------------------------------|
