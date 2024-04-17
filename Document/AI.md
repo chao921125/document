@@ -9,6 +9,16 @@
 | 通义灵码          |               |           |
 | codefuse      |               |           |
 # [最强聚合 AI](https://github.com/lobehub)
+
+综合小平台
+https://quillbot.com/
+绘画
+https://www.cutout.pro/
+绘画
+https://www.midjourney.com/home
+文字转语音
+https://elevenlabs.io/
+
 # AI Free
 |                                                        |
 |--------------------------------------------------------|
