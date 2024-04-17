@@ -34,6 +34,7 @@ https://elevenlabs.io/
 | [seaart 配合 tensor](https://www.seaart.ai/zhCN)         |
 
 [//]: # (https://ai-bot.cn/)
+[//]: # (https://www.aihub.cn/)
 # 自行搭建
 | github                                                                                  |
 |-----------------------------------------------------------------------------------------|
