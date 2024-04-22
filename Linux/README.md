@@ -1,6 +1,7 @@
 # 服务器首选推荐
 debian 官网：https://www.debian.org/ \
 ubuntu 官网：https://ubuntu.com/ \
+
 rocky 官网：https://rockylinux.org/ \
 oracle 官网：https://www.oracle.com/cn/linux/ \
 alma 官网：https://almalinux.org/
@@ -17,6 +18,12 @@ https://www.linuxcool.com/
 
 # 基本的依赖 yum/wget/openssl/rpm 建议装上，后续装服务的时候这些依赖不需要装了
 ```shell
+# Ubuntu
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt update
+apt-get install build-essential
+
 # 安装 openssl
 yum -y install openssl openssl-devel gcc openssl11 openssl11-devel
 yum -y install zlib*
@@ -41,6 +48,9 @@ CenterOs 7 是 firewalld
 CenterOs 6 是 service；
 CenterOs 7 是 systemctl
 
+### Debian 相关
+sudo apt-get install ufw
+sudo ufw status
 ```shell
 # 设置防火墙
 systemctl start firewalld.service
