@@ -18,11 +18,10 @@ https://www.linuxcool.com/
 
 # 基本的依赖 yum/wget/openssl/rpm 建议装上，后续装服务的时候这些依赖不需要装了
 ```shell
-# Ubuntu
-sudo apt-get update
-sudo apt-get upgrade
-sudo apt update
-apt-get install build-essential
+# 升级所有包同时也升级软件和系统内核
+yum -y update
+# 只升级所有包，不升级软件和系统内核
+yum upgrade
 
 # 安装 openssl
 yum -y install openssl openssl-devel gcc openssl11 openssl11-devel
@@ -85,3 +84,9 @@ scp /Users/huangchao/Downloads/jdk-21_linux-x64_bin.rpm root@114.55.34.64:/usr/l
 
 [//]: # (sourcecode /usr/local/src)
 [//]: # (file /usr/local/file)
+
+# Debian & Ubuntu
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt update
+apt-get install build-essential
