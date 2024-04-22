@@ -1,22 +1,89 @@
-# 服务器首选推荐
-debian 官网：https://www.debian.org/ \
+# 下载 及 文档
+## 服务器（免费）首选推荐 CenterOS 不再推荐使用
 ubuntu 官网：https://ubuntu.com/ \
+debian 官网：https://www.debian.org/
 
-rocky 官网：https://rockylinux.org/ \
+fedora 官网：https://fedoraproject.org/ \
+opensuse 官网：https://www.opensuse.org/ \
 oracle 官网：https://www.oracle.com/cn/linux/ \
-alma 官网：https://almalinux.org/
-# 桌面首选推荐
-ubuntu 官网：https://ubuntu.com/ \
+alma 官网：https://almalinux.org/ \
+rocky 官网：https://rockylinux.org/
+
+## 桌面首选推荐
+ubuntu 官网：https://ubuntu.com/
+
 fedora 官网：https://fedoraproject.org/
-# 其他
-linux 社区：https://www.linux.org/pages/download/
+## 其他
+[linux 社区](https://www.linux.org/pages/download/)
+[最全系统下载](https://www.linux.org/pages/download/)
+[Linux 知识网站](https://www.linuxcool.com/)
 
-# Linux 知识网站
-https://www.linuxcool.com/
+# 常用命令
+mac下查看端口 nc -vz -w 2 116.14.73.138 3306
 
-# [最全系统下载](https://www.linux.org/pages/download/)
+## 本地/服务器文件互传
+```shell
+# 下载
+scp root@ip:/path /path/local
+# 上传
+scp /path/local root@ip:/path
+scp /Users/huangchao/Downloads/jdk-8u401-linux-x64.rpm root@114.55.34.64:/usr/local/file
+scp /Users/huangchao/Downloads/jdk-21_linux-x64_bin.rpm root@114.55.34.64:/usr/local/file
+```
 
-# 基本的依赖 yum/wget/openssl/rpm 建议装上，后续装服务的时候这些依赖不需要装了
+## 修改权限
+chmod -R 777
+
+# Debian｜Ubuntu 分支相关 基本的依赖 wget/openssl/rpm 建议装上，后续装服务的时候这些依赖不需要装了
+[//]: # (sourcecode /usr/local/src)
+[//]: # (file /usr/local/file)
+```shell
+sudo apt-get install -y wget
+sudo apt-get install -y rpm
+
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt update
+apt-get install build-essential
+
+# 安装 openssl
+sudo apt-get install -y libssl-dev
+sudo apt-get install -y openssl gcc
+sudo apt-get install -y zlib*
+sudo apt-get install libreadline-dev
+# https://www.tcl.tk/software/tcltk/
+```
+
+## 防火墙设置：
+```shell
+# 安装防火墙
+sudo apt-get install ufw
+
+# 开启防火墙
+sudo ufw enable
+# 关闭防火墙
+sudo ufw disable
+# 开放端口
+sudo ufw allow 22/tcp
+sudo ufw allow 80/tcp
+sudo ufw allow 443/tcp
+sudo ufw allow 3306/tcp
+# 删除端口
+sudo ufw delete allow 22/tcp
+sudo ufw delete allow 80/tcp
+sudo ufw delete allow 443/tcp
+sudo ufw delete allow 3306/tcp
+# 重启防火墙
+sudo ufw reload
+# 查看防火墙状态
+sudo ufw status
+sudo ufw status verbose
+# 查看监听的端口
+sudo apt-get install -y net-tools
+netstat -lnpt
+sudo netstat -tunlp | grep 22
+```
+# CenterOS 基本的依赖 yum/wget/openssl/rpm 建议装上，后续装服务的时候这些依赖不需要装了
 ```shell
 # 升级所有包同时也升级软件和系统内核
 yum -y update
@@ -24,17 +91,11 @@ yum -y update
 yum upgrade
 
 # 安装 openssl
-yum -y install openssl openssl-devel gcc openssl11 openssl11-devel
-yum -y install zlib*
+yum install -y openssl openssl-devel gcc openssl11 openssl11-devel
+yum install -y zlib*
 yum install readline-devel
 # https://www.tcl.tk/software/tcltk/
 ```
-
-# 常用命令
-mac下查看端口 nc -vz -w 2 116.14.73.138 3306
-
-## 修改权限
-chmod -R 777
 
 ## 防火墙设置：
 启动服务名称：
@@ -47,9 +108,6 @@ CenterOs 7 是 firewalld
 CenterOs 6 是 service；
 CenterOs 7 是 systemctl
 
-### Debian 相关
-sudo apt-get install ufw
-sudo ufw status
 ```shell
 # 设置防火墙
 systemctl start firewalld.service
@@ -71,22 +129,3 @@ firewall-cmd --state
 yum install -y net-tools
 netstat -lnpt
 ```
-
-## 本地/服务器文件互传
-```shell
-# 下载
-scp root@ip:/path /path/local
-# 上传
-scp /path/local root@ip:/path
-scp /Users/huangchao/Downloads/jdk-8u401-linux-x64.rpm root@114.55.34.64:/usr/local/file
-scp /Users/huangchao/Downloads/jdk-21_linux-x64_bin.rpm root@114.55.34.64:/usr/local/file
-```
-
-[//]: # (sourcecode /usr/local/src)
-[//]: # (file /usr/local/file)
-
-# Debian & Ubuntu
-sudo apt-get update
-sudo apt-get upgrade
-sudo apt update
-apt-get install build-essential
