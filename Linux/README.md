@@ -49,6 +49,7 @@ systemctl stop firewalld.service && systemctl disable firewalled;
 # 开放端口
 firewall-cmd --zone=public --add-port=3306/tcp --permanent
 firewall-cmd --zone=public --add-port=80/tcp --permanent
+firewall-cmd --zone=public --add-port=443/tcp --permanent
 # 关闭端口
 firewall-cmd --zone=public --remove-port=3306/tcp --permanent
 # 配置立即生效

@@ -92,4 +92,6 @@ setenforce 0
 cp -rf /var/lib/mysql /usr/local/mysql/data/mysql
 
 # 退出 mysql \q 或者 quit;
+
+# mysql.sock
 ```
