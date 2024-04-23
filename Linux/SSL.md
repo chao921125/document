@@ -46,7 +46,7 @@ sudo certbot run --nginx
 # 安装 snap
 sudo yum install epel-release
 
-sudo yum install snapd
+sudo yum install -y snapd
 
 sudo systemctl enable --now snapd.socket
 
@@ -63,8 +63,8 @@ sudo snap install --classic certbot
 
 sudo ln -s /snap/bin/certbot /usr/bin/certbot
 
-sudo yum install certbot python3-certbot-nginx
-sudo yum install certbot python2-certbot-nginx
+sudo yum install -y certbot python3-certbot-nginx
+sudo yum install -y certbot python2-certbot-nginx
 
 ln -s /usr/local/nginx/sbin/nginx /usr/bin/nginx
 ln -s /usr/local/nginx/conf/ /etc/nginx

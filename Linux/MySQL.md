@@ -29,20 +29,21 @@ chkconfig --del mysqld
 # wget 安装
 wget -i -c http://dev.mysql.com/get/mysql80-community-release-el7-11.noarch.rpm
 rpm -ivh mysql80-community-release-el7-11.noarch.rpm
-yum -y install mysql80-community-release-el7-11.noarch.rpm
-yum -y install mysql-community-server
-# 在 /etc/my.cnf 中添加 skip-grant-tables 临时免密码登录
-#plugin-load-add=validate_password.so
-#validate-password=FORCE_PLUS_PERMANENT
-#validate_password.policy=LOW
-#validate_password_policy=LOW
-#validate_password.length=1
-#validate_password_length=1
+yum install -y mysql80-community-release-el7-11.noarch.rpm
+yum install -y mysql-community-server
 
-#character-set-server=utf8mb4
-#default_authentication_plugin=mysql_native_password
-#lower_case_table_names=1
-#sql_mode=STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+# 在 /etc/my.cnf 中添加 skip-grant-tables 临时免密码登录
+plugin-load-add=validate_password.so
+validate-password=FORCE_PLUS_PERMANENT
+validate_password.policy=LOW
+validate_password_policy=LOW
+validate_password.length=1
+validate_password_length=1
+
+character-set-server=utf8mb4
+default_authentication_plugin=mysql_native_password
+lower_case_table_names=1
+sql_mode=STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
 
 # 启动如果报错 请安装一下 mariadb相关
 yum install mariadb mariadb-server mariadb-embedded mariadb-libs mariadb-bench
@@ -57,17 +58,21 @@ grep "password is" /var/log/mysqld.log
 mysql -uroot -p
 mysql -uroot -p -h127.0.0.1
 # 设置密码，如果不允许设计弱密码，先设置强类型密码，再修改弱密码
-ALTER USER 'root'@'localhost' identified WITH mysql_native_password BY 'admin123';
+alter user 'root'@'localhost' identified with mysql_native_password by 'Admin123.';
 # 刷新权限
 flush privileges;
 
 # 修改弱类型密码操作步骤
+# 5.x 版本
 select @@validate_password_policy;
-show variables like 'validate_password%';
-set global validate_password.policy=0;
-set global validate_password_policy=0;
-set global validate_password.length=1;
+set global validate_password_policy=LOW;
 set global validate_password_length=1;
+# 8.x 版本
+select @@validate_password.policy;
+set global validate_password.policy=LOW;
+set global validate_password.length=1;
+
+show variables like 'validate_password%';
 alter user 'root'@'localhost' identified with mysql_native_password by '123456';
 flush privileges;
 
@@ -76,7 +81,7 @@ use mysql;
 select host,user from user;
 update user set host='%' where user='root';
 flush privileges;
-alter user 'root'@'%' identified with mysql_native_password by 'admin123';
+alter user 'root'@'%' identified with mysql_native_password by 'Admin123.';
 
 
 # 将数据库迁移到指定目录
