@@ -1,4 +1,4 @@
-# CenterOS 7 /usr/local
+# RHEL /usr/local
 ```shell
 # 检查是否已经安装 mysql
 rpm -qa|grep -i mysql

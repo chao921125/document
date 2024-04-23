@@ -1,4 +1,4 @@
-# CenterOS 7 /usr/local
+# RHEL /usr/local
 ```shell
 # 安装 tcl
 # http://prdownloads.sourceforge.net/tcl/tcl8.6.14-src.tar.gz

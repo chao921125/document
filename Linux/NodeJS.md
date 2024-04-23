@@ -1,4 +1,4 @@
-# CenterOS 7 /usr/local
+# RHEL /usr/local
 ```shell
 # 查看并清理
 node -v

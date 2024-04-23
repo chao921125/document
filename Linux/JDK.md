@@ -2,22 +2,11 @@
 ```shell
 # 检查系统是否已经存在 Java 环境
 java -version
-sudo add-apt-repository ppa:linuxuprising/java
-
-rpm -qa|grep [java][jdk][gcj]
-# 删除
-rpm -e --nodeps *
-# 或者使用
-yum list installed | grep [java][jdk]
-yum remove "openjdk"
 
 # 安装 JDK
-# 进入指定目录下 rpm 默认安装 /usr/java
-rpm -ivh *.rpm
-# 进入指定目录下 tar
-tar -zxvf *.tar.*
-mkdir /usr/java
-mv /path/jdk* /usr/java
+sudo add-apt-repository ppa:linuxuprising/java
+sudo apt-get update
+sudo apt install oracle-java11-installer-local
 
 # 设置默认
 sudo update-alternatives --config java
@@ -40,7 +29,7 @@ yum search java | grep -i --color jdk
 yum install -y java-1.8.0-openjdk*
 ```
 
-# CenterOS /usr/local
+# RHEL /usr/local
 ```shell
 # 检查系统是否已经存在 Java 环境
 java -version

@@ -1,22 +1,27 @@
 # 下载 及 文档
-## 服务器（免费）首选推荐 CenterOS 不再推荐使用
-ubuntu 官网：https://ubuntu.com/ \
-debian 官网：https://www.debian.org/
+## 服务器（免费）首选推荐
+| 服务器 & 桌面*                                        |                  |
+|--------------------------------------------------|------------------|
+| [ubuntu *](https://ubuntu.com/)                  | Debian           |
+| [debian](https://www.debian.org/)                | Debian           |
+| [mint](https://www.linuxmint.com/)               | Debian           |
+|                                                  |                  |
+| [fedora *](https://fedoraproject.org/)           | RHEL             |
+| [alma](https://almalinux.org/)                   | RHEL CenterOS 替代 |
+| [rocky](https://rockylinux.org/)                 | RHEL CenterOS 替代 |
+| [oracle](https://www.oracle.com/cn/linux/)       | RHEL             |
+|                                                  |                  |
+| [opensuse](https://www.opensuse.org/)            | SLS              |
+|                                                  |                  |
+| [arch](https://archlinux.org/)                   |                  |
+|                                                  |                  |
+| [slackware](http://www.slackware.com/index.html) | Slackware        |
 
-fedora 官网：https://fedoraproject.org/ \
-opensuse 官网：https://www.opensuse.org/ \
-oracle 官网：https://www.oracle.com/cn/linux/ \
-alma 官网：https://almalinux.org/ \
-rocky 官网：https://rockylinux.org/
-
-## 桌面首选推荐
-ubuntu 官网：https://ubuntu.com/
-
-fedora 官网：https://fedoraproject.org/
 ## 其他
 [linux 社区](https://www.linux.org/pages/download/)
 [最全系统下载](https://www.linux.org/pages/download/)
 [Linux 知识网站](https://www.linuxcool.com/)
+[Linux 关系图](https://upload.wikimedia.org/wikipedia/commons/1/1b/Linux_Distribution_Timeline.svg)
 
 # 常用命令
 mac下查看端口 nc -vz -w 2 116.14.73.138 3306
@@ -83,7 +88,7 @@ sudo apt-get install -y net-tools
 netstat -lnpt
 sudo netstat -tunlp | grep 22
 ```
-# CenterOS 基本的依赖 yum/wget/openssl/rpm 建议装上，后续装服务的时候这些依赖不需要装了
+# RHEL 基本的依赖 yum/wget/openssl/rpm 建议装上，后续装服务的时候这些依赖不需要装了
 ```shell
 # 升级所有包同时也升级软件和系统内核
 yum -y update
@@ -100,13 +105,13 @@ yum install readline-devel
 ## 防火墙设置：
 启动服务名称：
 
-CenterOs 6 是 iptables；
-CenterOs 7 是 firewalld
+RHEL 6 是 iptables；
+RHEL 7 是 firewalld
 
 启动服务命令：
 
-CenterOs 6 是 service；
-CenterOs 7 是 systemctl
+RHEL 6 是 service；
+RHEL 7 是 systemctl
 
 ```shell
 # 设置防火墙

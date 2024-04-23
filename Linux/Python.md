@@ -1,4 +1,4 @@
-# CenterOS 7 /usr/local
+# RHEL /usr/local
 ```shell
 # 查看默认版本
 python --version

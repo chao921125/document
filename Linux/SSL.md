@@ -41,7 +41,7 @@ sudo certbot renew --pre-hook "service nginx stop" --post-hook "service nginx st
 sudo certbot run --nginx
 ```
 
-# CenterOS /usr/local
+# RHEL /usr/local
 ```shell
 # 安装 snap
 sudo yum install epel-release
