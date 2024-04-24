@@ -168,6 +168,9 @@
 软硬路由
 https://www.lucky666.cn/
 
+GoogleTranslateCheck
+https://github.com/Ponderfly/GoogleTranslateIpCheck
+
 系统激活：https://massgrave.dev/index.html
 
 1,微PE工具箱
