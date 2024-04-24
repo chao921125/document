@@ -220,34 +220,22 @@
 
 [//]: # (https://github.com/winston779)
 
-| 免费订阅                                                                               |
-|------------------------------------------------------------------------------------|
-| [v2ray免费 输入邮箱订阅](https://www.v2mj.com/) [v2ray免费节点](https://www.v2rayfree.eu.org/) |
-| [维尼兔 输入邮箱订阅](https://www.v2v0.com/)                                                |
-| [复制地址到客户端即可](https://neko-warp.nloli.xyz/)                                         |
-| [打开链接获取地址](https://getafreenode.com/)                                              |
-| [需要对cloudflare进行一些操作：(👍强烈推荐，完全免费)](https://1.1.1.1/)                              |
-| [TG 群组](https://cn.tgstat.com/)                                                    |
+| 免费订阅                                                                                |
+|-------------------------------------------------------------------------------------|
+| [v2ray免费 输入邮箱订阅](https://www.v2mj.com/) [v2ray免费节点](https://www.v2rayfree.eu.org/)  |
+| [维尼兔 输入邮箱订阅](https://www.v2v0.com/)                                                 |
+| [复制地址到客户端即可](https://neko-warp.nloli.xyz/)                                          |
+| [打开链接获取地址](https://getafreenode.com/)                                               |
+| [需要对cloudflare进行一些操作：(👍强烈推荐，完全免费)](https://1.1.1.1/)                               |
+| [TG 群组](https://cn.tgstat.com/)                                                     |
+| [0/月-200G/月 Free 必须使用当前 CODE 注册](https://zero.76898102.xyz/auth/register?code=QAJI) |
+| [0/月-无限/月 Free](https://links.bocchi2b.top/clash)                                   |
+| [0/月-无限/月 Free](https://sub.5112233.xyz/auto)                                       |
 
-| 搭建VPS教程                   |
-|---------------------------|
-| https://shluqu.github.io/ |
-
-| 推荐机场的博客                                                           |
-|-------------------------------------------------------------------|
-| [666vpn](http://666vpn.com/)                                      |
-| [灯云](https://92deng.com/)                                         |
-| [一灯不是和尚](https://iyideng.vip/)                                    |
-| [选梯子](https://www.xuantizi.com/)                                  |
-| [clashx](https://clashx.pro/)                                     |
-| [毒奶](https://limbopro.com/)                                       |
-| [闰土](https://runtufenxiang.com/)                                  |
-| [shadowrocket](https://shadowrocket.one/)                         |
-| [xuanjichang](https://www.xuanjichang.com/)                       |
-| [clashios](https://clashios.com/)                                 |
-| [kerrynotes](https://kerrynotes.com/)                             |
-| [爱机场](https://aijichang.com/)                                     |
-| [honven](https://sites.google.com/view/honven/%E9%A6%96%E9%A1%B5) |
+| 自行搭建                                                       |
+|------------------------------------------------------------|
+| https://shluqu.github.io/                                  |
+| [WARP 本地或公网搭建](https://github.com/vvbbnn00/WARP-Clash-API) |
 
 # 论坛
 | 发布页                                                                    |
@@ -258,6 +246,7 @@
 | [【发布页】](https://github.com/snakem982/proxypool)                        |
 | [【发布页】](https://github.com/Alvin9999/new-pac)                          |
 | [【发布页】](https://github.com/bannedbook/fanqiang)                        |
+| [【发布页】](https://github.com/hwanz/SSR-V2ray-Trojan-vpn)                 |
 | [clashsub](https://clashsub.com/) [Clash Node](https://clashnode.xyz/) |
 
 # 订阅转换地址
