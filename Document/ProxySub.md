@@ -226,9 +226,9 @@
 | [0/月-200G/月 Free 必须使用当前 CODE 注册](https://zero.76898102.xyz/auth/register?code=QAJI) |
 | [输入邮箱订阅](https://www.v2rayfree.eu.org/)                                             |
 | [打开链接获取地址](https://getafreenode.com/)                                               |
-| [复制地址到客户端即可](https://neko-warp.nloli.xyz/)                                          |
-| [复制地址到客户端即可](https://links.bocchi2b.top/clash)                                      |
-| [复制地址到客户端即可](https://sub.5112233.xyz/auto)                                          |
+| [复制地址到客户端即可 -](https://neko-warp.nloli.xyz/)                                        |
+| [复制地址到客户端即可 +](https://links.bocchi2b.top/clash)                                    |
+| [复制地址到客户端即可 +](https://sub.5112233.xyz/auto)                                        |
 
 | 自行搭建                                                       |
 |------------------------------------------------------------|
