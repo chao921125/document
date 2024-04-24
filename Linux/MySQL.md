@@ -1,5 +1,20 @@
 # RHEL /usr/local
 ```shell
+sudo apt-get install mysql-server
+
+sudo systemctl mysql-server
+# 自启动 mysql 服务
+sudo systemctl enable mysqld.service
+# 启动 mysql 服务
+sudo systemctl start mysqld.service
+# 关闭 mysql 服务
+sudo systemctl stop mysqld.service
+# 查看状态
+sudo systemctl status mysqld.service
+```
+
+# RHEL /usr/local
+```shell
 # 检查是否已经安装 mysql
 rpm -qa|grep -i mysql
 # 删除

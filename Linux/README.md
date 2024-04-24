@@ -88,6 +88,8 @@ sudo ufw reload
 # 查看防火墙状态
 sudo ufw status
 sudo ufw status verbose
+# 查看防火墙应用级
+sudo ufw app list
 # 查看监听的端口
 sudo apt-get install -y net-tools
 netstat -lnpt

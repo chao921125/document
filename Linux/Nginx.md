@@ -1,3 +1,38 @@
+# Debian｜Ubuntu /usr/local
+```shell
+sudo apt-get install nginx
+sudo ufw allow "Nginx HTTP"
+sudo ufw allow "Nginx Full"
+
+# 默认 html /var/www/
+cd /var/www/html
+cp index.nginx-debian.html index.html
+
+sudo mkdir -p /usr/local/src/domain/html
+sudo chown -R $USER:$USER /usr/local/src/domain/html
+sudo chmod -R 755 /usr/local/src/domain
+
+vim /etc/nginx/nginx.conf
+
+# 检验配置文件是否正确
+/usr/sbin/nginx -t
+
+# 启动 Nginx 服务
+sudo systemctl start nginx
+# 设置开机自启动
+sudo systemctl enable nginx
+# 取消开机自启动
+sudo systemctl disabled nginx
+# 检查 Nginx 状态
+sudo systemctl status nginx
+# 停止 Nginx 服务
+sudo systemctl stop nginx
+# 重启 Nginx 服务
+sudo systemctl restart nginx
+# 只是进行配置更改
+sudo systemctl reload nginx
+```
+
 # RHEL /usr/local
 ```shell
 wget -i -c http://nginx.org/download/nginx-1.24.0.tar.gz
@@ -27,6 +62,10 @@ PrivateTmp=true
 WantedBy=multi-user.target
 
 systemctl daemon-reload
+
+# 检验配置文件是否正确
+/usr/local/nginx/sbin/nginx -t
+
 # 启动 Nginx 服务
 systemctl start nginx
 # 设置开机自启动
