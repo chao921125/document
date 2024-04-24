@@ -8,12 +8,17 @@ sudo add-apt-repository ppa:linuxuprising/java
 sudo apt-get update
 sudo apt install oracle-java11-installer-local
 
+# 进入指定目录下 tar
+tar -zxvf *.tar.*
+mkdir /usr/local/java
+mv /path/jdk*/* /usr/local/java
+
 # 设置默认
 sudo update-alternatives --config java
 # 设置环境变量 优先使用
-sudo nano /etc/profile
+sudo vi /etc/profile
 # 次级使用
-sudo nano /etc/environment
+sudo vi /etc/environment
 
 export JAVA_HOME="/usr/local/java/jdk1.8.0-x64"
 export JRE_HOME=${JAVA_HOME}/jre
@@ -23,11 +28,6 @@ export PATH=$PATH:${JAVA_PATH}
 
 # 及时生效
 source /etc/profile
-
-# Open-JDK
-# 查看可以安装的列表
-yum search java | grep -i --color jdk
-yum install -y java-1.8.0-openjdk*
 ```
 
 # RHEL /usr/local
@@ -47,7 +47,7 @@ rpm -ivh *.rpm
 # 进入指定目录下 tar
 tar -zxvf *.tar.*
 mkdir /usr/local/java
-mv /path/jdk* /usr/local/java
+mv /path/jdk*/* /usr/local/java
 
 # 设置环境变量 用户 bashrc 系统 profile
 vi /etc/profile

@@ -45,8 +45,6 @@ vim
 chmod -R 777
 
 # Debian｜Ubuntu 分支相关 基本的依赖 wget/openssl/rpm 建议装上，后续装服务的时候这些依赖不需要装了
-[//]: # (sourcecode /usr/local/src)
-[//]: # (file /usr/local/file)
 ```shell
 sudo apt-get install -y wget
 sudo apt-get install -y rpm
@@ -60,7 +58,9 @@ apt-get install build-essential
 sudo apt-get install -y libssl-dev
 sudo apt-get install -y openssl gcc
 sudo apt-get install -y zlib*
-sudo apt-get install libreadline-dev
+sudo apt-get install -y libreadline-dev
+
+sudo apt-get install -y ca-certificates apt-transport-https software-properties-common lsb-release zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libffi-dev
 # https://www.tcl.tk/software/tcltk/
 ```
 
