@@ -208,6 +208,7 @@
 | [12.8/月-88G/月 限制 3 台设备 纷达](https://fenda.cloud/auth/register)                                                        |
 | [19.9/月-100G/月 限制 3 台设备 桔子云](https://juzicloud.net/auth/register)                                                    |
 | [20/月-160G/月 限制 3 台设备 青森云](https://sub.cccc.gg/auth/register)                                                        |
+| [12/月-300G/月 限制 5 台设备 ikuuu](https://ikuuu.pw/)                                                                      |
 | [*老牌机场*]()                                                                                                           |
 | [6/月-50G/月 RioLU精灵学院](https://ooo.riolu.ooo/)                                                                        |
 | [49/月-120G/月 WgetCloud](https://invite.wgetcloud.ltd/auth/register?code=Y7ytZ1)                                      |
