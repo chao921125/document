@@ -238,12 +238,12 @@
 # 论坛
 | 发布页                                                                                  |
 |--------------------------------------------------------------------------------------|
+| [github bannedbook](https://github.com/bannedbook/fanqiang)                          |
+| [github dongyubin](https://github.com/dongyubin/Free-AppleId-Serve)                  |
+| [github Alvin9999](https://github.com/Alvin9999/new-pac)                             |
 | [github Leon406](https://github.com/Leon406/SubCrawler)                              |
 | [github WilliamStar007](https://github.com/WilliamStar007/ClashX-V2Ray-TopFreeProxy) |
-| [github dongyubin](https://github.com/dongyubin/Free-AppleId-Serve)                  |
 | [github snakem982](https://github.com/snakem982/proxypool)                           |
-| [github Alvin9999](https://github.com/Alvin9999/new-pac)                             |
-| [github bannedbook](https://github.com/bannedbook/fanqiang)                          |
 | [github hwanz](https://github.com/hwanz/SSR-V2ray-Trojan-vpn)                        |
 | [clashsub](https://clashsub.com/)                                                    |
 | [Clash Node](https://clashnode.xyz/)                                                 |
