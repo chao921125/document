@@ -1,12 +1,13 @@
 # 下载 及 文档
 ## 服务器（免费）首选推荐
-| 服务器 & 桌面*                                        |                     |
+| 服务器 & 桌面                                         |                     |
 |--------------------------------------------------|---------------------|
-| [ubuntu *](https://ubuntu.com/)                  | Debian              |
+| [ubuntu](https://ubuntu.com/)                    | Debian              |
 | [debian](https://www.debian.org/)                | Debian              |
 | [mint](https://www.linuxmint.com/)               | Debian              |
 |                                                  |                     |
-| [fedora *](https://fedoraproject.org/)           | RHEL 上游分支更新频率快      |
+| [centos stream](https://www.centos.org/)         | RHEL 上游分支更新频率 适中    |
+| [fedora](https://fedoraproject.org/)             | RHEL 上游分支更新频率快      |
 | [alma](https://almalinux.org/)                   | RHEL CenterOS 替代 社区 |
 | [rocky](https://rockylinux.org/)                 | RHEL CenterOS 替代 企业 |
 | [oracle](https://www.oracle.com/cn/linux/)       | RHEL                |
