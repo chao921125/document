@@ -6,11 +6,11 @@ npm cache clean -f
 npm install -g n
 
 # 下载最后一个长期版本
-sudo apt-get install -y nodejs npm
+sudo apt install -y nodejs npm
 # 下载指定版本，必须LTS 才可以，比如 10 12 20
 curl -sL https://deb.nodesource.com/setup_20.x | sudo -E bash -
-sudo apt-get install -y nodejs
-# 执行以上 apt-get 可能会报错，请执行一下代码后继续执行，后面的路径是报错的路径
+sudo apt install -y nodejs
+# 执行以上 apt 可能会报错，请执行一下代码后继续执行，后面的路径是报错的路径
 sudo dpkg -i --force-overwrite /path/*.deb
 # 设置环境变量 用户 bashrc 系统 profile
 vi /etc/profile

@@ -2,19 +2,19 @@
 # Debian｜Ubuntu /usr/local
 ```shell
 # 安装 snap
-sudo apt-get install -y snapd
+sudo apt install -y snapd
 
 # 已经存在 删除
-sudo apt-get remove certbot
+sudo apt remove certbot
 
 # 继续
 sudo snap install --classic certbot
 
 sudo ln -s /snap/bin/certbot /usr/bin/certbot
 
-sudo apt-get install certbot python3-certbot-nginx
+sudo apt install certbot python3-certbot-nginx
 # 这个一般不需要安装
-sudo apt-get install certbot python2-certbot-nginx
+sudo apt install certbot python2-certbot-nginx
 
 ln -s /usr/local/nginx/sbin/nginx /usr/bin/nginx
 ln -s /usr/local/nginx/conf/ /etc/nginx

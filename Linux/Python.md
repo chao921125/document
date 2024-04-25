@@ -5,9 +5,9 @@ python --version
 python3 --version
 
 sudo add-apt-repository ppa:deadsnakes/ppa
-sudo apt-get update
+sudo apt update
 # 获取最新的版本 https://www.python.org/ftp/python/
-sudo apt-get install -y python3
+sudo apt install -y python3
 # 自行解压安装
 wget https://www.python.org/ftp/python/3.12.3/Python-3.12.3.tgz
 mkdir /usr/local/python

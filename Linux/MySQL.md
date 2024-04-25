@@ -1,16 +1,38 @@
 # RHEL /usr/local
 ```shell
-sudo apt-get install mysql-server
+sudo apt install -y mysql-server
 
-sudo systemctl mysql-server
+sudo /etc/init.d/mysql start
+
+# 验证 mysql 是否正确安装
+mysql --version
+
+# 安全
+sudo mysql_secure_installation
+
+# 进入
+sudo mysql
+SELECT user,authentication_string,plugin,host FROM mysql.user;
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'Admin123.';
+FLUSH PRIVILEGES;
+
+mysql -u root -p
+
+# 允许远程
+sudo ufw allow mysql
+sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf
+bind-address = 0.0.0.0
+
 # 自启动 mysql 服务
-sudo systemctl enable mysqld.service
+sudo systemctl enable mysql
 # 启动 mysql 服务
-sudo systemctl start mysqld.service
+sudo systemctl start mysql
 # 关闭 mysql 服务
-sudo systemctl stop mysqld.service
+sudo systemctl stop mysql
+# 重启 mysql 服务
+sudo systemctl restart mysql
 # 查看状态
-sudo systemctl status mysqld.service
+sudo systemctl status mysql
 ```
 
 # RHEL /usr/local

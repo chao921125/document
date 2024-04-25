@@ -5,7 +5,7 @@ java -version
 
 # 安装 JDK
 sudo add-apt-repository ppa:linuxuprising/java
-sudo apt-get update
+sudo apt update
 sudo apt install oracle-java11-installer-local
 
 # 进入指定目录下 tar

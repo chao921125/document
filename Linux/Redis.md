@@ -2,11 +2,11 @@
 ```shell
 # 安装 tcl https://tcl.tk/software/tcltk/
 # http://prdownloads.sourceforge.net/tcl/tcl8.6.14-src.tar.gz
-sudo apt-get full-upgrade
-sudo apt-get install -y build-essential tcl
+sudo apt full-upgrade
+sudo apt install -y build-essential tcl
 
 # http://download.redis.io/releases/
-sudo apt-get install -y redis-server
+sudo apt install -y redis-server
 
 # 修改配置 /key 查找指定的内容
 vi /etc/redis/redis.conf

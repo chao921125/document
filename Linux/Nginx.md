@@ -1,6 +1,6 @@
 # Debian｜Ubuntu /usr/local
 ```shell
-sudo apt-get install nginx
+sudo apt install -y nginx
 sudo ufw allow "Nginx HTTP"
 sudo ufw allow "Nginx Full"
 

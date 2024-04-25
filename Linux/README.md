@@ -45,29 +45,39 @@ vim
 chmod -R 777
 
 # Debian｜Ubuntu 分支相关 基本的依赖 wget/openssl/rpm 建议装上，后续装服务的时候这些依赖不需要装了
+# apt 安装后目录为
+```text
+下载的软件的存放位置：/var/cache/apt/archives
+安装后软件的默认位置：/usr/share
+可执行文件位置：/usr/bin
+配置文件位置：/etc
+lib文件位置：/usr/lib
+```
 ```shell
-sudo apt-get install -y wget
-sudo apt-get install -y rpm
-
+sudo apt install -y wget
+sudo apt install -y rpm
+# 推荐使用 apt
+sudo apt update
+sudo apt -y upgrade
+# 执行脚本请使用 apt-get
 sudo apt-get update
 sudo apt-get upgrade
-sudo apt update
-apt-get install build-essential
 
 # 安装 openssl
-sudo apt-get install -y libssl-dev
-sudo apt-get install -y openssl gcc
-sudo apt-get install -y zlib*
-sudo apt-get install -y libreadline-dev
+sudo apt install build-essential
+sudo apt install -y libssl-dev
+sudo apt install -y openssl gcc
+sudo apt install -y zlib*
+sudo apt install -y libreadline-dev
 
-sudo apt-get install -y ca-certificates apt-transport-https software-properties-common lsb-release zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libffi-dev
+sudo apt install -y ca-certificates apt-transport-https software-properties-common lsb-release zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libffi-dev
 # https://www.tcl.tk/software/tcltk/
 ```
 
 ## 防火墙设置：
 ```shell
 # 安装防火墙
-sudo apt-get install ufw
+sudo apt install ufw
 
 # 开启防火墙
 sudo ufw enable
@@ -91,7 +101,7 @@ sudo ufw status verbose
 # 查看防火墙应用级
 sudo ufw app list
 # 查看监听的端口
-sudo apt-get install -y net-tools
+sudo apt install -y net-tools
 netstat -lnpt
 sudo netstat -tunlp | grep 22
 ```
