@@ -127,10 +127,7 @@
 | C https://anaer.github.io/Sub/clash.yaml                                                      |
 | C https://cdn.jsdelivr.net/gh/anaer/Sub@main/clash.yaml                                       |
 |                                                                                               |
-| M+ [github zhangkaiitugithub](https://github.com/zhangkaiitugithub/passcro)                   |
-| C https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml            |
-|                                                                                               |
-| M+ [github freenodes](https://github.com/freenodes/freenodes)                                 |
+| M- [github freenodes](https://github.com/freenodes/freenodes)                                 |
 | C https://raw.githubusercontent.com/freenodes/freenodes/main/clash.yaml                       |
 |                                                                                               |
 |                                                                                               |
@@ -149,9 +146,16 @@
 | C https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash                          |
 | V https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub                            |
 |                                                                                               |
+| M+ [github Flik6](https://github.com/Flik6/getNode)                                           |
+| C https://raw.githubusercontent.com/Flik6/getNode/main/clash.yaml                             |
+| V https://raw.githubusercontent.com/Flik6/getNode/main/v2ray.txt                              |
+|                                                                                               |
 | M+ [github chengaopan](https://github.com/chengaopan/AutoMergePublicNodes?tab=readme-ov-file) |
 | C https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml           |
 | V https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.txt           |
+|                                                                                               |
+| M* [github zhangkaiitugithub](https://github.com/zhangkaiitugithub/passcro)                   |
+| C https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml            |
 |                                                                                               |
 | M* [github peasoft](https://github.com/peasoft/NoMoreWalls)                                   |
 | C https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml                       |
@@ -162,10 +166,6 @@
 | V https://ghproxy.com/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt   |
 | V https://ghproxy.net/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt   |
 | V https://fastly.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.txt                          |
-|                                                                                               |
-| M* [github Flik6](https://github.com/Flik6/getNode)                                           |
-| C https://raw.githubusercontent.com/Flik6/getNode/main/clash.yaml                             |
-| V https://raw.githubusercontent.com/Flik6/getNode/main/v2ray.txt                              |
 |                                                                                               |
 
 # 付费订阅
