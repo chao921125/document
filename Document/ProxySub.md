@@ -81,92 +81,91 @@
 # 免费订阅地址
 ## [稳定付费订阅](#付费订阅)
 
-| V2ray                                                                                  |
-|----------------------------------------------------------------------------------------|
-| [github freefq](https://github.com/freefq/free)                                        |
-| V https://raw.githubusercontent.com/freefq/free/master/v2                              |
-| V https://bulinkbulink.com/freefq/free/master/v2                                       |
-|                                                                                        |
-| [github ZywChannel](https://github.com/ZywChannel/free)                                |
-| V https://raw.githubusercontent.com/ZywChannel/free/main/sub                           |
-| V https://raw.fastgit.org/ZywChannel/free/main/sub                                     |
-|                                                                                        |
-| [github Pawdroid](https://github.com/Pawdroid/Free-servers)                            |
-| V https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub                     |
-| V https://ghproxy.com/https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub |
-|                                                                                        |
-| [github barry-far](https://github.com/barry-far/V2ray-Configs)                         |
-|                                                                                        |
-|                                                                                        |
-| [github mfuu](https://github.com/mfuu/v2ray)                                           |
-| C https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml                       |
-| C https://gitlab.com/mfuu/v2ray/-/raw/master/clash.yaml                                |
-| V https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray                            |
-| V https://gitlab.com/mfuu/v2ray/-/raw/master/v2ray                                     |
-|                                                                                        |
-| [github aiboboxx](https://github.com/aiboboxx)                                         |
-| C https://raw.githubusercontent.com/aiboboxx/clashfree/main/clash.yml                  |
-| V https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2                         |
-|                                                                                        |
-| [github ts-sf](https://github.com/ts-sf/fly)                                           |
-| C https://raw.githubusercontent.com/ts-sf/fly/main/clash                               |
-| C https://raw.fgit.cf/ts-sf/fly/main/clash                                             |
-| V https://raw.githubusercontent.com/ts-sf/fly/main/v2                                  |
-| V https://raw.fastgit.org/ts-sf/fly/main/v2                                            |
-|                                                                                        |
-| [github ermaozi](https://github.com/ermaozi/get_subscribe)                             |
-| C https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml     |
-| C https://git.io/emzclash                                                              |
-| V https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt     |
-| V https://git.io/emzv2ray                                                              |
-
-| Clash                                                                                         |
-|-----------------------------------------------------------------------------------------------|
-| M- [github anaer](https://github.com/anaer/Sub)                                               |
-| C https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml                                 |
-| C https://anaer.github.io/Sub/clash.yaml                                                      |
-| C https://cdn.jsdelivr.net/gh/anaer/Sub@main/clash.yaml                                       |
-|                                                                                               |
-| M- [github freenodes](https://github.com/freenodes/freenodes)                                 |
-| C https://raw.githubusercontent.com/freenodes/freenodes/main/clash.yaml                       |
-|                                                                                               |
-|                                                                                               |
-| M- [xrayvip](https://www.xrayvip.com/)                                                        |
-| C https://www.xrayvip.com/free.yaml                                                           |
-| V https://www.xrayvip.com/free.txt                                                            |
-| V https://v2ray.neocities.org/v2ray.txt                                                       |
-|                                                                                               |
-| M+ [github mahdibland](https://github.com/mahdibland/V2RayAggregator)                         |
-| C https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.yml      |
-| C https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_yaml.yml     |
-| V https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity          |
-| V https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_base64.txt   |
-|                                                                                               |
-| M+ [github ripaojiedian](https://github.com/ripaojiedian/freenode)                            |
-| C https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash                          |
-| V https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub                            |
-|                                                                                               |
-| M+ [github Flik6](https://github.com/Flik6/getNode)                                           |
-| C https://raw.githubusercontent.com/Flik6/getNode/main/clash.yaml                             |
-| V https://raw.githubusercontent.com/Flik6/getNode/main/v2ray.txt                              |
-|                                                                                               |
-| M+ [github chengaopan](https://github.com/chengaopan/AutoMergePublicNodes?tab=readme-ov-file) |
-| C https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml           |
-| V https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.txt           |
-|                                                                                               |
-| M* [github zhangkaiitugithub](https://github.com/zhangkaiitugithub/passcro)                   |
-| C https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml            |
-|                                                                                               |
-| M* [github peasoft](https://github.com/peasoft/NoMoreWalls)                                   |
-| C https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml                       |
-| C https://ghproxy.com/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml   |
-| C https://ghproxy.net/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml   |
-| C https://fastly.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.yml                          |
-| V https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt                       |
-| V https://ghproxy.com/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt   |
-| V https://ghproxy.net/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt   |
-| V https://fastly.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.txt                          |
-|                                                                                               |
+| V2ray                                                                                       |
+|---------------------------------------------------------------------------------------------|
+| [github barry-far](https://github.com/barry-far/V2ray-Configs)                              |
+|                                                                                             |
+| [github freefq](https://github.com/freefq/free)                                             |
+| V https://raw.githubusercontent.com/freefq/free/master/v2                                   |
+| V https://bulinkbulink.com/freefq/free/master/v2                                            |
+|                                                                                             |
+| [github ZywChannel](https://github.com/ZywChannel/free)                                     |
+| V https://raw.githubusercontent.com/ZywChannel/free/main/sub                                |
+| V https://raw.fastgit.org/ZywChannel/free/main/sub                                          |
+|                                                                                             |
+| [github Pawdroid](https://github.com/Pawdroid/Free-servers)                                 |
+| V https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub                          |
+| V https://ghproxy.com/https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub      |
+|                                                                                             |
+| [github ts-sf](https://github.com/ts-sf/fly)                                                |
+| C https://raw.githubusercontent.com/ts-sf/fly/main/clash                                    |
+| C https://raw.fgit.cf/ts-sf/fly/main/clash                                                  |
+| V https://raw.githubusercontent.com/ts-sf/fly/main/v2                                       |
+| V https://raw.fastgit.org/ts-sf/fly/main/v2                                                 |
+|                                                                                             |
+| [github anaer](https://github.com/anaer/Sub)                                                |
+| C https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml                               |
+| C https://anaer.github.io/Sub/clash.yaml                                                    |
+| C https://cdn.jsdelivr.net/gh/anaer/Sub@main/clash.yaml                                     |
+|                                                                                             |
+| [github aiboboxx](https://github.com/aiboboxx)                                              |
+| C https://raw.githubusercontent.com/aiboboxx/clashfree/main/clash.yml                       |
+| V https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2                              |
+|                                                                                             |
+|                                                                                             |
+| [xrayvip](https://www.xrayvip.com/)                                                         |
+| C https://www.xrayvip.com/free.yaml                                                         |
+| V https://www.xrayvip.com/free.txt                                                          |
+| V https://v2ray.neocities.org/v2ray.txt                                                     |
+|                                                                                             |
+| [github mfuu](https://github.com/mfuu/v2ray)                                                |
+| C https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml                            |
+| C https://gitlab.com/mfuu/v2ray/-/raw/master/clash.yaml                                     |
+| V https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray                                 |
+| V https://gitlab.com/mfuu/v2ray/-/raw/master/v2ray                                          |
+|                                                                                             |
+| [github ermaozi](https://github.com/ermaozi/get_subscribe)                                  |
+| C https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml          |
+| C https://git.io/emzclash                                                                   |
+| V https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt          |
+| V https://git.io/emzv2ray                                                                   |
+|                                                                                             |
+| [github mahdibland](https://github.com/mahdibland/V2RayAggregator)                          |
+| C https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.yml    |
+| C https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_yaml.yml   |
+| V https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity        |
+| V https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_base64.txt |
+|                                                                                             |
+| [github ripaojiedian](https://github.com/ripaojiedian/freenode)                             |
+| C https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash                        |
+| V https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub                          |
+|                                                                                             |
+| [github Flik6](https://github.com/Flik6/getNode)                                            |
+| C https://raw.githubusercontent.com/Flik6/getNode/main/clash.yaml                           |
+| V https://raw.githubusercontent.com/Flik6/getNode/main/v2ray.txt                            |
+|                                                                                             |
+| [github chengaopan](https://github.com/chengaopan/AutoMergePublicNodes?tab=readme-ov-file)  |
+| C https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml         |
+| V https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.txt         |
+|                                                                                             |
+|                                                                                             |
+| [github freenodes](https://github.com/freenodes/freenodes)                                  |
+| C https://raw.githubusercontent.com/freenodes/freenodes/main/clash.yaml                     |
+|                                                                                             |
+|                                                                                             |
+| [github zhangkaiitugithub](https://github.com/zhangkaiitugithub/passcro)                    |
+| C https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml          |
+|                                                                                             |
+| [github peasoft](https://github.com/peasoft/NoMoreWalls)                                    |
+| C https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml                     |
+| C https://ghproxy.com/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml |
+| C https://ghproxy.net/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml |
+| C https://fastly.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.yml                        |
+| V https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt                     |
+| V https://ghproxy.com/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt |
+| V https://ghproxy.net/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt |
+| V https://fastly.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.txt                        |
+|                                                                                             |
 
 # 付费订阅
 ###### 机场推荐 以解锁 NF、AI 等等作为需求
@@ -248,15 +247,15 @@
 
 [//]: # (https://github.com/winston779)
 
-| 免费订阅                                                                                                                              |
-|-----------------------------------------------------------------------------------------------------------------------------------|
-| [👍强烈推荐WARP(需要对cloudflare进行一些操作)](https://1.1.1.1/) [](https://one.one.one.one/)                                                  |
-| [0/月-200G/月 Free 必须使用当前 CODE 注册](https://zero.76898102.xyz/auth/register?code=QAJI) [](https://2c.lol/) [](https://zero.2c.lol/)  |
-| [输入邮箱订阅](https://www.v2rayfree.eu.org/)                                                                                           |
-| [打开链接获取地址](https://getafreenode.com/)                                                                                             |
-| [复制地址到客户端即可 -](https://neko-warp.nloli.xyz/)                                                                                      |
-| [复制地址到客户端即可 +](https://links.bocchi2b.top/clash)                                                                                  |
-| [复制地址到客户端即可 +](https://sub.5112233.xyz/auto)                                                                                      |
+| 免费订阅                                                                                                                             |
+|----------------------------------------------------------------------------------------------------------------------------------|
+| [打开链接获取地址](https://getafreenode.com/)                                                                                            |
+| [输入邮箱订阅](https://www.v2rayfree.eu.org/)                                                                                          |
+| [👍强烈推荐WARP(需要对cloudflare进行一些操作)](https://1.1.1.1/) [](https://one.one.one.one/)                                                 |
+| [0/月-200G/月 Free 必须使用当前 CODE 注册](https://zero.76898102.xyz/auth/register?code=QAJI) [](https://2c.lol/) [](https://zero.2c.lol/) |
+| [复制地址到客户端即可](https://neko-warp.nloli.xyz/)                                                                                       |
+| [复制地址到客户端即可](https://links.bocchi2b.top/clash)                                                                                   |
+| [复制地址到客户端即可](https://sub.5112233.xyz/auto)                                                                                       |
 
 | 自行搭建                                                       |
 |------------------------------------------------------------|
