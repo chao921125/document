@@ -3,7 +3,6 @@
 |----------------------------------|
 | [🔥 Open AI 汇总 ChatGPT](./AI.md) |
 | [代理工具及订阅地址](./ProxySub.md)       |
-| [订阅地址转换合集](./ProxySubUrl.md)     |
 | [IPTV 视频直播](./IPTV.md)           |
 | [软件破解](./SoftKey.md)             |
 | [软件合集](./System.md)              |
