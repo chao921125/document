@@ -167,6 +167,23 @@
 | V https://fastly.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.txt                        |
 |                                                                                             |
 
+[//]: # (https://github.com/winston779)
+
+| 免费订阅                                                                                                                             |
+|----------------------------------------------------------------------------------------------------------------------------------|
+| [打开链接获取地址](https://getafreenode.com/)                                                                                            |
+| [输入邮箱订阅](https://www.v2rayfree.eu.org/)                                                                                          |
+| [👍强烈推荐WARP(需要对cloudflare进行一些操作)](https://1.1.1.1/) [](https://one.one.one.one/)                                                 |
+| [0/月-200G/月 Free 必须使用当前 CODE 注册](https://zero.76898102.xyz/auth/register?code=QAJI) [](https://2c.lol/) [](https://zero.2c.lol/) |
+| [复制地址到客户端即可](https://neko-warp.nloli.xyz/)                                                                                       |
+| [复制地址到客户端即可](https://links.bocchi2b.top/clash)                                                                                   |
+| [复制地址到客户端即可](https://sub.5112233.xyz/auto)                                                                                       |
+
+| 自行搭建                                                       |
+|------------------------------------------------------------|
+| https://shluqu.github.io/                                  |
+| [WARP 本地或公网搭建](https://github.com/vvbbnn00/WARP-Clash-API) |
+
 # 付费订阅
 ###### 机场推荐 以解锁 NF、AI 等等作为需求
 | [*不限制设备 不限时长*]()                                                                                                     |
@@ -244,23 +261,6 @@
 | [52/月-200G/月 限制 2 台设备 库洛米](https://www.kuromis.com/)                                                                 |
 | [117.46/月-50G/月 限制 2 台设备 Nexitally](https://nxboom.com/index.aspx)                                                   |
 | [273/年-50G/月 限制 1 台设备 Amy](https://www.amysecure.com/index.php)                                                      |
-
-[//]: # (https://github.com/winston779)
-
-| 免费订阅                                                                                                                             |
-|----------------------------------------------------------------------------------------------------------------------------------|
-| [打开链接获取地址](https://getafreenode.com/)                                                                                            |
-| [输入邮箱订阅](https://www.v2rayfree.eu.org/)                                                                                          |
-| [👍强烈推荐WARP(需要对cloudflare进行一些操作)](https://1.1.1.1/) [](https://one.one.one.one/)                                                 |
-| [0/月-200G/月 Free 必须使用当前 CODE 注册](https://zero.76898102.xyz/auth/register?code=QAJI) [](https://2c.lol/) [](https://zero.2c.lol/) |
-| [复制地址到客户端即可](https://neko-warp.nloli.xyz/)                                                                                       |
-| [复制地址到客户端即可](https://links.bocchi2b.top/clash)                                                                                   |
-| [复制地址到客户端即可](https://sub.5112233.xyz/auto)                                                                                       |
-
-| 自行搭建                                                       |
-|------------------------------------------------------------|
-| https://shluqu.github.io/                                  |
-| [WARP 本地或公网搭建](https://github.com/vvbbnn00/WARP-Clash-API) |
 
 # 论坛
 | 发布页                                                                                  |
