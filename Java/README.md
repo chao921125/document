@@ -1,5 +1,5 @@
 # Java相关实战
-[点击查看 Java实战项目及推荐组件](https://github.com/chao921125/java)
+https://github.com/macrozheng/mall
 # 新手项目
 ###### 遇到登录页
 ```text
