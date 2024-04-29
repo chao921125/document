@@ -6,13 +6,47 @@
 | [YTB 下载 Hitomi](https://github.com/KurtBestor/Hitomi-Downloader) |
 | [视频 下载 Lux](https://github.com/iawia002/lux)                     |
 
-# 音乐视频源
-|                                                                                                      |
-|------------------------------------------------------------------------------------------------------|
-| [软件 lx-music](https://github.com/lyswhut/lx-music-desktop/releases) [官网](https://lxmusic.toside.cn/) |
-| [源 lx-music 自建音源](https://github.com/lxmusics/lx-music-api-server-python)                            |
-| [软件 方格 安卓&Windows](http://morin.vin/)                                                                |
-| [源 视频](https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/ZY-Player/ZY-Player-PC.json)               |
+# 音乐视频图书漫画
+| 大合集，请仔细看分类                                                                                             |
+|--------------------------------------------------------------------------------------------------------|
+| 音乐                                                                                                     |
+| [软件 lx-music](https://github.com/lyswhut/lx-music-desktop/releases) [官网](https://lxmusic.toside.cn/)   |
+| [服务 lx-music 自建音源服务](https://github.com/lxmusics/lx-music-api-server-python)                           |
+| [软件 方格 安卓&Windows](http://morin.vin/)                                                                  |
+| 视频                                                                                                     |
+| [软件 iina](https://github.com/iina/iina/releases)                                                       |
+| [软件 iina-plus](https://github.com/xjbeta/iina-plus/releases)                                           |
+| [软件 VLC 全平台](https://www.videolan.org/)                                                                |
+| [软件 potplayer 仅支持 win](https://potplayer.tv/?lang=zh_CN)                                               |
+| [软件 my-tv](https://github.com/lizongying/my-tv)                                                        |
+| [软件 tvbox 仅支持 安卓 停更](https://github.com/windwang/tvbox?tab=readme-ov-file)                             |
+| [直播源 APTV]()                                                                                           |
+| [源 YanG-1989 成人](https://raw.githubusercontent.com/YanG-1989/m3u/main/Adult.m3u)                       |
+| [源 YueChan](https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u)                              |
+| [源 Kimentanm](https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u)                    |
+| [源 fanmingming](https://live.fanmingming.com/tv/m3u/ipv6.m3u)                                          |
+| [合集 APTV]()                                                                                            |
+| [源 baoge](https://baoge.vip/247.html)                                                                  |
+| [源 fanmingming](https://lqtv.github.io/)                                                               |
+| [源 fanmingming](https://github.com/tongxunlu/LIVEALL-2024-03-20)                                       |
+| [源 imDazui](https://github.com/imDazui/Tvlist-awesome-m3u-m3u8)                                        |
+| [源 joevess](https://github.com/joevess/IPTV)                                                           |
+| [源 iptv-org](https://github.com/iptv-org/iptv)                                                         |
+| [软件 ZY-Player](https://github.com/Hunlongyu/ZY-Player)                                                 |
+| [源 视频](https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/ZY-Player/ZY-Player-PC.json)                 |
+| 图书                                                                                                     |
+| [软件 阅读 APP](https://github.com/gedoor/legado) [](https://gedoor.github.io/)                            |
+| [源 喵公子](https://legado.aoaostar.com/)                                                                  |
+| [源 喵公子](https://dy.mgz6.cc/)                                                                           |
+| [源 合集](https://www.e-yck.top/yuedu/shuyuans/index.html)                                                |
+| [源 合集](https://github.com/XIU2/yuedu/)                                                                 |
+| [源 合集](http://yuedu.miaogongzi.net/gx.html)                                                            |
+| 漫画                                                                                                     |
+| [异次元漫画 APP](https://www.e-yck.top/yiciyuan/index/index.html)                                           |
+| [源 合集](https://www.e-yck.top/yiciyuan/tuyuans/index.html)                                              |
+| [源 带图标版本](https://www.yckceo.com/yiciyuan/tuyuans/json/id/9.json)                                      |
+| [源 带图标版本](https://gcore.jsdelivr.net/gh/mumuceo/file01/202304/8_48b379e784839ec40c69221615038ba6.json) |
+| [源 带图标版本](https://www.e-yck.top/yiciyuan/tuyuans/index.html)                                           |
 
 # 短链接
 |                                   |
@@ -80,28 +114,6 @@
 | [hotpe](https://www.hotpe.top/)        |
 | [upe](https://www.upe.net/)            |
 | [wepe](https://www.wepe.com.cn/)       |
-
-# 娱乐视频
-| 软件和源                                                                                     |
-|------------------------------------------------------------------------------------------|
-| [iina](https://github.com/iina/iina/releases)                                            |
-| [iina-plus](https://github.com/xjbeta/iina-plus/releases)                                |
-| [VLC 全平台](https://www.videolan.org/)                                                     |
-| [potplayer 仅支持 win](https://potplayer.tv/?lang=zh_CN)                                    |
-| [my-tv](https://github.com/lizongying/my-tv)                                             |
-| [tvbox 仅支持 安卓 停更](https://github.com/windwang/tvbox?tab=readme-ov-file)                  |
-| [直播源]()                                                                                  |
-| [APTV 源 YanG-1989 成人](https://raw.githubusercontent.com/YanG-1989/m3u/main/Adult.m3u)    |
-| [APTV 源 YueChan](https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u)           |
-| [APTV 源 Kimentanm](https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u) |
-| [APTV 源 fanmingming](https://live.fanmingming.com/tv/m3u/ipv6.m3u)                       |
-| [合集]()                                                                                   |
-| [APTV 源 baoge](https://baoge.vip/247.html)                                               |
-| [APTV 源 fanmingming](https://lqtv.github.io/)                                            |
-| [APTV 源 fanmingming](https://github.com/tongxunlu/LIVEALL-2024-03-20)                    |
-| [APTV 源 imDazui](https://github.com/imDazui/Tvlist-awesome-m3u-m3u8)                     |
-| [APTV 源 joevess](https://github.com/joevess/IPTV)                                        |
-| [APTV 源 iptv-org](https://github.com/iptv-org/iptv)                                      |
 
 # 代码托管
 | 源码                                                  |
