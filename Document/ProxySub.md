@@ -62,15 +62,18 @@
 | 内核 Core                                               |
 |-------------------------------------------------------|
 | [v2ray-core](https://github.com/v2fly/v2ray-core)     |
+| [v2ray-core](https://github.com/v2ray/v2ray-core)     |
 | [clash all](https://github.com/DustinWin/clash-tools) |
 | [mihomo](https://github.com/MetaCubeX/mihomo)         |
+| [Xray-core](https://github.com/XTLS/Xray-core)        |
 
-| 规则                                                         |
-|------------------------------------------------------------|
-| [clash-rules](https://github.com/Loyalsoldier/clash-rules) |
-| [rules](https://github.com/Hackl0us/SS-Rule-Snippet)       |
-| [ip database](https://github.com/Hackl0us/GeoIP2-CN)       |
-| [去广告](https://github.com/ACL4SSR/ACL4SSR/tree/master)      |
+| 规则                                                                   |
+|----------------------------------------------------------------------|
+| [clash-rules](https://github.com/Loyalsoldier/clash-rules)           |
+| [v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat)   |
+| [rules](https://github.com/Hackl0us/SS-Rule-Snippet)                 |
+| [ip database](https://github.com/Hackl0us/GeoIP2-CN)                 |
+| [去广告](https://github.com/ACL4SSR/ACL4SSR/tree/master)                |
 
 | 订阅转换                                                  |
 |-------------------------------------------------------|
@@ -136,22 +139,26 @@
 | V https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity        |
 | V https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_base64.txt |
 |                                                                                             |
-| [github ripaojiedian](https://github.com/ripaojiedian/freenode)                             |
-| C https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash                        |
-| V https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub                          |
-|                                                                                             |
 | [github Flik6](https://github.com/Flik6/getNode)                                            |
 | C https://raw.githubusercontent.com/Flik6/getNode/main/clash.yaml                           |
 | V https://raw.githubusercontent.com/Flik6/getNode/main/v2ray.txt                            |
 |                                                                                             |
-| [github chengaopan](https://github.com/chengaopan/AutoMergePublicNodes?tab=readme-ov-file)  |
-| C https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml         |
-| V https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.txt         |
+| [github vxiaov](https://github.com/vxiaov/free_proxies)                                     |
+| C https://raw.githubusercontent.com/vxiaov/free_proxies/main/clash/clash.provider.yaml      |
+| C https://cdn.jsdelivr.net/gh/vxiaov/free_proxies@main/clash/clash.provider.yaml            |
 |                                                                                             |
 |                                                                                             |
 | [github freenodes](https://github.com/freenodes/freenodes)                                  |
 | C https://raw.githubusercontent.com/freenodes/freenodes/main/clash.yaml                     |
 |                                                                                             |
+|                                                                                             |
+| [github ripaojiedian](https://github.com/ripaojiedian/freenode)                             |
+| C https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash                        |
+| V https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub                          |
+|                                                                                             |
+| [github chengaopan](https://github.com/chengaopan/AutoMergePublicNodes?tab=readme-ov-file)  |
+| C https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml         |
+| V https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.txt         |
 |                                                                                             |
 | [github zhangkaiitugithub](https://github.com/zhangkaiitugithub/passcro)                    |
 | C https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml          |
