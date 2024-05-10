@@ -20,6 +20,8 @@ https://www.midjourney.com/home
 文字转语音
 https://elevenlabs.io/
 
+https://github.com/songquanpeng/one-api
+
 # AI Free
 |                                                        |
 |--------------------------------------------------------|
