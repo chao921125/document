@@ -285,3 +285,6 @@
 # 订阅转换地址
 [官方](https://acl4ssr-sub.github.io/)
 [不良林](https://psub.888005.xyz/)
+[](https://raw.githubusercontent.com/freefq/free/master/v2|https://raw.githubusercontent.com/ZywChannel/free/main/sub|https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub|https://raw.githubusercontent.com/ts-sf/fly/main/clash|https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml|https://raw.githubusercontent.com/aiboboxx/clashfree/main/clash.yml)
+[](https://www.xrayvip.com/free.yaml|https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml|https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml|https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.yml|https://raw.githubusercontent.com/Flik6/getNode/main/clash.yaml|https://raw.githubusercontent.com/vxiaov/free_proxies/main/clash/clash.provider.yaml)
+[](https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash|https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml|https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml|https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml)
