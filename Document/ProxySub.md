@@ -283,6 +283,5 @@
 | [Clash Node](https://clashnode.xyz/)                                                 |
 
 # 订阅转换地址
-[CN|HK|TW|香港|北京|天津|江苏|山东|安徽|福建|浙江|广东|广西|澳门]
 [官方](https://acl4ssr-sub.github.io/)
 [不良林](https://psub.888005.xyz/)
