@@ -194,7 +194,7 @@
 | [WARP 本地或公网搭建](https://github.com/vvbbnn00/WARP-Clash-API) |
 
 # 付费订阅
-###### 机场推荐 以解锁 NF、AI 等等作为需求
+###### 机场推荐 以解锁 NF、AI 等等作为需求，有专属客户端的不推荐
 | [*不限制设备 不限时长*]()                                                                                                     |
 |----------------------------------------------------------------------------------------------------------------------|
 | [14.9-130G 魔戒](https://mojie.app/register?aff=Gu3iS0ty)                                                              |
@@ -204,10 +204,6 @@
 | [*不限制设备 注册无验证码*]()                                                                                                   |
 |----------------------------------------------------------------------------------------------------------------------|
 | [15/季-1024G/月 两元店](https://liangyuandian.xyz/#/register?code=QDQsCmGa)                                               |
-| [9.99/年-100G/月 三毛 提供不限流量 8/月 有专属客户端](https://xn--ehqx7tcnnope.com/#/register?code=XdDsSqdo)                          |
-| [12/年-200G/月 顶级 有专属客户端](https://xn--mes358a9urctx.com/#/register?code=dhhw9jqv)                                      |
-| [12/年-200G/月 极速 有专属客户端](https://xn--mes358acgm99l.com/#/register?code=G4hn1jDg)                                      |
-| [12/年-500G/月 一分 有专属客户端 1/月-100G/月](https://xn--4gqx1hgtfdmt.com/#/register?code=lfaWMQVc)                            |
 | [11/年-500G/月 便宜](https://xn--wtq35pfyd55o.com/#/register?code=PRskobJz)                                              |
 | [4.99/月-500G/月 15.99/年-60G/月 流量光](https://llgjc.top/#/register?code=K0w7xpKk)                                        |                                                               
 | [13.8/月-100G/月 Anyland](https://any66.cc/#/register?code=xvfqFY02)                                                   |
