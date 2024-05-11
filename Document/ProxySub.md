@@ -306,3 +306,6 @@
 
 [](https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash|https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml|https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml|https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml)
 [](sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fpeasoft%2FNoMoreWalls%2Fmaster%2Flist.yml%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fzhangkaiitugithub%2Fpasscro%2Fmain%2Fspeednodes.yaml%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fchengaopan%2FAutoMergePublicNodes%2Fmaster%2Flist.yml%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fripaojiedian%2Ffreenode%2Fmain%2Fclash&insert=false)
+
+[](https://neko-warp.nloli.xyz|https://sub.5112233.xyz/auto|https://links.bocchi2b.top/clash)
+[](sub?target=clash&new_name=true&url=https%3A%2F%2Fneko-warp.nloli.xyz%7Chttps%3A%2F%2Fsub.5112233.xyz%2Fauto%7Chttps%3A%2F%2Flinks.bocchi2b.top%2Fclash&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini)
