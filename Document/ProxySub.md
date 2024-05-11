@@ -224,19 +224,21 @@
 | [5/月-30G/月 送 1G 1天 ducklink](https://www.ducklink.net/#/register?code=nqO3QNS6)                                        |
 |                                                                                                                        |
 
-| [*不限制设备*]()                                                                                                             |
-|-------------------------------------------------------------------------------------------------------------------------|
-| [1/月-50G/月 性价比](https://a.xn--6nq44r2uh9rhj7f.com/#/register?code=6v77KWIz) [](https://xingjiabijichang.vip/#/login)    |
-| [12/年-500G/月 一元](https://xn--4gq62f52gdss.art/#/register?code=y2BjORPu)                                                 |
-| [15/月-100G/月 龙猫云](https://lmspeedapp.com/#/register?code=8JnnPAyd)                                                      |
-| [15.8/月-160G/月 狗狗加速器](https://xn--yfrp36ea9901a.com/)                                                                   |
-| [20/月-100G/月 speedcat](https://webinv01.sc-aff.cc/auth/register?code=U6L9) [](https://speedcat.me/)                     |
-| [23/月-388G/月 奈云](https://www.v2ny.com/#/register) [奈云](https://www.naiun.cc/#/register)                                 |
-| [25/月-150G/月 SSRDOG](https://go.ssrdog.com/?code=D24biOV4)                                                              |
-| [24.9/月-100G/月 tomatocloud](https://tomatocloud.me/)                                                                    |
-| [24.9/月-100G/月 web3vpn](https://web3vpn.net/)                                                                           |
-| [33/月-150G/月 Sayss](https://www.epaybc.com/#/register)                                                                  |
-|                                                                                                                         |
+| [*不限制设备*]()                                                                                                          |
+|----------------------------------------------------------------------------------------------------------------------|
+| [1/月-50G/月 性价比](https://a.xn--6nq44r2uh9rhj7f.com/#/register?code=6v77KWIz) [](https://xingjiabijichang.vip/#/login) |
+| [12/年-500G/月 一元](https://xn--4gq62f52gdss.art/#/register?code=y2BjORPu)                                              |
+| [15/月-100G/月 一云梯机场]()                                                                                                |
+| [15/月-100G/月 龙猫云](https://lmspeedapp.com/#/register?code=8JnnPAyd)                                                   |
+| [15.8/月-160G/月 狗狗加速器](https://xn--yfrp36ea9901a.com/)                                                                |
+| [20/月-100G/月 speedcat](https://webinv01.sc-aff.cc/auth/register?code=U6L9) [](https://speedcat.me/)                  |
+| [19.9/月-100G/月 大哥云](https://www.dageyun.net/#/register)                                                              |
+| [23/月-388G/月 奈云](https://www.v2ny.com/#/register) [奈云](https://www.naiun.cc/#/register)                              |
+| [25/月-150G/月 SSRDOG](https://go.ssrdog.com/?code=D24biOV4)                                                           |
+| [24.9/月-100G/月 tomatocloud](https://tomatocloud.me/)                                                                 |
+| [24.9/月-100G/月 web3vpn](https://web3vpn.net/)                                                                        |
+| [33/月-150G/月 Sayss](https://www.epaybc.com/#/register)                                                               |
+|                                                                                                                      |
 
 | [*限制设备 注册试用*]()                                                                                                      |
 |----------------------------------------------------------------------------------------------------------------------|
@@ -253,21 +255,22 @@
 | [20/月-160G/月 限制 3 台设备 青森云](https://sub.cccc.gg/auth/register)                                                        |
 |                                                                                                                      |
 
-| [*限制设备*]()                                                                                                           |
-|----------------------------------------------------------------------------------------------------------------------|
-| [12.8/月-88G/月 限制 3 台设备 纷达](https://fenda.cloud/auth/register)                                                        |
-| [6/月-30G/月 限制 3 台设备 RioLU精灵学院](https://ooo.riolu.ooo/)                                                               |
-| [12/月-300G/月 限制 5 台设备 ikuuu](https://ikuuu.pw/)                                                                      |
-| [17/月-120G/月 限制 1 台设备 萌喵加速](https://www.meomiao.com/)                                                                |
-| [22/月-150G/月 限制 2 台设备 泡芙云](https://www.paofu.cloud/auth/register?code=kKnO)                                          |
-| [29/月-200G/月 限制 3 台设备 自行搜索 悠兔](https://youtu.shop/)                                                                  |
-| [176/季-250G/月 限制 10 台设备 自行搜索 TAG](https://tagss04.pro/)                                                              |
-|                                                                                                                      |
-| [66/季-100G/月 限制 5 台设备 白月光](https://bygcloud.com/#/register?code=NmWFv1Se) [](https://bygcloud.com/#/home)            |
-| [49/月-120G/月 限制 3 台设备 WgetCloud](https://invite.wgetcloud.ltd/auth/register?code=Y7ytZ1)                             |
-| [52/月-200G/月 限制 2 台设备 库洛米](https://www.kuromis.com/)                                                                 |
-| [117.46/月-50G/月 限制 2 台设备 Nexitally](https://nxboom.com/index.aspx)                                                   |
-| [273/年-50G/月 限制 1 台设备 Amy](https://www.amysecure.com/index.php)                                                      |
+| [*限制设备*]()                                                                                                |
+|-----------------------------------------------------------------------------------------------------------|
+| [12.8/月-88G/月 限制 3 台设备 纷达](https://fenda.cloud/auth/register)                                             |
+| [6/月-30G/月 限制 3 台设备 RioLU精灵学院](https://ooo.riolu.ooo/)                                                    |
+| [12/月-300G/月 限制 5 台设备 ikuuu](https://ikuuu.pw/)                                                           |
+| [17/月-120G/月 限制 1 台设备 萌喵加速](https://www.meomiao.com/)                                                     |
+| [22/月-150G/月 限制 2 台设备 泡芙云](https://www.paofu.cloud/auth/register?code=kKnO)                               |
+| [29/月-200G/月 限制 3 台设备 自行搜索 悠兔](https://youtu.shop/)                                                       |
+| [176/季-250G/月 限制 10 台设备 自行搜索 TAG](https://tagss04.pro/)                                                   |
+| [39/月-200G/月 限制 5 台设备 BoostNet](https://boostnet.top/#/register)                                          |
+|                                                                                                           |
+| [66/季-100G/月 限制 5 台设备 白月光](https://bygcloud.com/#/register?code=NmWFv1Se) [](https://bygcloud.com/#/home) |
+| [49/月-120G/月 限制 3 台设备 WgetCloud](https://invite.wgetcloud.ltd/auth/register?code=Y7ytZ1)                  |
+| [52/月-200G/月 限制 2 台设备 库洛米](https://www.kuromis.com/)                                                      |
+| [117.46/月-50G/月 限制 2 台设备 Nexitally](https://nxboom.com/index.aspx)                                        |
+| [273/年-50G/月 限制 1 台设备 Amy](https://www.amysecure.com/index.php)                                           |
 
 # 论坛
 | 发布页                                                                                  |
