@@ -218,21 +218,21 @@
 | [20/月-100G/月 fastlink](https://fastlink.ws/auth/register)                                            |
 |                                                                                                      |
 
-| [*不限制设备*]()                                                                                                            |
-|------------------------------------------------------------------------------------------------------------------------|
-| [12/年-500G/月 一元](https://xn--4gq62f52gdss.art/#/register?code=y2BjORPu)                                                |
-| [15/月-100G/月 一云梯机场]()                                                                                                  |
-| [15/月-100G/月 龙猫云](https://lmspeedapp.com/#/register?code=8JnnPAyd)                                                     |
-| [15.8/月-160G/月 狗狗加速器](https://xn--yfrp36ea9901a.com/)                                                                  |
-| [20/月-100G/月 speedcat](https://webinv01.sc-aff.cc/auth/register?code=U6L9) [](https://speedcat.me/)                    |
-| [20/年-200G/月 送 20G 1年 廉价](https://xn--6nq44r2pg9mj.com/#/register?code=FeiARV4a)                                       |
-| [19.9/月-100G/月 大哥云](https://www.dageyun.net/#/register)                                                                |
-| [23/月-388G/月 奈云](https://www.v2ny.com/#/register) [奈云](https://www.naiun.cc/#/register)                                |
-| [25/月-150G/月 SSRDOG](https://go.ssrdog.com/?code=D24biOV4)                                                             |
-| [24.9/月-100G/月 tomatocloud](https://tomatocloud.me/)                                                                   |
-| [24.9/月-100G/月 web3vpn](https://web3vpn.net/)                                                                          |
-| [33/月-150G/月 Sayss](https://www.epaybc.com/#/register)                                                                 |
-|                                                                                                                        |
+| [*不限制设备*]()                                                                                         |
+|-----------------------------------------------------------------------------------------------------|
+| [12/年-500G/月 一元](https://xn--4gq62f52gdss.art/#/register?code=y2BjORPu)                             |
+| [15/月-100G/月 一云梯机场](https://1yunti.org/)                                                            |
+| [15/月-100G/月 龙猫云](https://lmspeedapp.com/#/register?code=8JnnPAyd)                                  |
+| [15.8/月-160G/月 狗狗加速器](https://xn--yfrp36ea9901a.com/)                                               |
+| [20/月-100G/月 speedcat](https://webinv01.sc-aff.cc/auth/register?code=U6L9) [](https://speedcat.me/) |
+| [20/年-200G/月 送 20G 1年 廉价](https://xn--6nq44r2pg9mj.com/#/register?code=FeiARV4a)                    |
+| [19.9/月-100G/月 大哥云](https://www.dageyun.net/#/register)                                             |
+| [23/月-388G/月 奈云](https://www.v2ny.com/#/register) [奈云](https://www.naiun.cc/#/register)             |
+| [25/月-150G/月 SSRDOG](https://go.ssrdog.com/?code=D24biOV4)                                          |
+| [24.9/月-100G/月 tomatocloud](https://tomatocloud.me/)                                                |
+| [24.9/月-100G/月 web3vpn](https://web3vpn.net/)                                                       |
+| [33/月-150G/月 Sayss](https://www.epaybc.com/#/register)                                              |
+|                                                                                                     |
 
 | [*限制设备 无验证码*]()                                                                                                      |
 |----------------------------------------------------------------------------------------------------------------------|
