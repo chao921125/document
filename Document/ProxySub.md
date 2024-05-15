@@ -184,6 +184,7 @@
 | [打开链接获取地址](https://getafreenode.com/)                                                                                            |
 | [输入邮箱订阅](https://www.v2rayfree.eu.org/)                                                                                          |
 | [复制地址到客户端即可](https://neko-warp.nloli.xyz/)                                                                                       |
+| [复制地址到客户端即可](https://subs.zeabur.app/clash) [](https://tofree.zeabur.app/)                                                       |
 | [复制地址到客户端即可](https://sub.5112233.xyz/auto)                                                                                       |
 | [复制地址到客户端即可](https://links.bocchi2b.top/clash)                                                                                   |
 | [0/月-200G/月 Free 必须使用当前 CODE 注册](https://zero.76898102.xyz/auth/register?code=QAJI) [](https://2c.lol/) [](https://zero.2c.lol/) |
@@ -245,11 +246,11 @@
 
 | [*限制设备*]()                                                                                                |
 |-----------------------------------------------------------------------------------------------------------|
-| [12/年-500G/月 限制 3 台设备 注册送 5G 2天 免费](https://w.xn--94q57lcvpw50b.com/#/register?code=SCbFIcCw)             |
 | [10/月-100G/月 限制 2 台设备 注册送 888GB 1周 墙了个墙](https://www.qlgq.top/auth/register?code=bfaaa4eb65)              |
-| [12.8/月-88G/月 限制 3 台设备 纷达](https://fenda.cloud/auth/register)                                             |
+| [12/年-500G/月 限制 3 台设备 注册送 5G 2天 免费](https://w.xn--94q57lcvpw50b.com/#/register?code=SCbFIcCw)             |
 | [6/月-30G/月 限制 3 台设备 RioLU精灵学院](https://ooo.riolu.ooo/)                                                    |
 | [9.9/月-80G/月 限制 5 台设备 贝贝云](https://beibeicloud.shop/#/login)                                              |
+| [12.8/月-88G/月 限制 3 台设备 纷达](https://fenda.cloud/auth/register)                                             |
 | [12/月-300G/月 限制 5 台设备 ikuuu](https://ikuuu.pw/)                                                           |
 | [17/月-120G/月 限制 1 台设备 萌喵加速](https://www.meomiao.com/)                                                     |
 | [22/月-150G/月 限制 2 台设备 泡芙云](https://www.paofu.cloud/auth/register?code=kKnO)                               |
