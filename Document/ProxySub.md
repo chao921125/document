@@ -220,7 +220,7 @@
 
 | [*不限制设备*]()                                                                                         |
 |-----------------------------------------------------------------------------------------------------|
-| [12/年-500G/月 一元](https://xn--4gq62f52gdss.art/#/register?code=y2BjORPu)                             |
+| [12/年-50G/月 一元](https://xn--4gq62f52gdss.com/#/register?code=y2BjORPu)                              |
 | [15/月-100G/月 一云梯机场](https://1yunti.org/)                                                            |
 | [15/月-100G/月 龙猫云](https://lmspeedapp.com/#/register?code=8JnnPAyd)                                  |
 | [15.8/月-160G/月 狗狗加速器](https://xn--yfrp36ea9901a.com/)                                               |
