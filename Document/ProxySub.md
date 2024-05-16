@@ -207,7 +207,6 @@
 |------------------------------------------------------------------------------------------------------|
 | [15/季-1024G/月 两元店](https://liangyuandian.xyz/#/register?code=QDQsCmGa)                               |
 | [11/年-500G/月 便宜](https://xn--wtq35pfyd55o.com/#/register?code=PRskobJz)                              |
-| [4.99/月-500G/月 15.99/年-60G/月 流量光](https://llgjc.top/#/register?code=K0w7xpKk)                        |                                                               
 | [5/月-30G/月 送 1G 1天 ducklink](https://www.ducklink.net/#/register?code=nqO3QNS6)                      |
 |                                                                                                      |
 | [72/年-100G/月 一号测速](https://yihao42.buzz/#/register?code=yX4UyKwx) [](https://xn--4gq48l11y805a.com/) |
