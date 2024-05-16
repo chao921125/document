@@ -209,9 +209,10 @@
 | [11/年-500G/月 便宜](https://xn--wtq35pfyd55o.com/#/register?code=PRskobJz)                              |
 | [4.99/月-500G/月 15.99/年-60G/月 流量光](https://llgjc.top/#/register?code=K0w7xpKk)                        |                                                               
 | [5/月-30G/月 送 1G 1天 ducklink](https://www.ducklink.net/#/register?code=nqO3QNS6)                      |
+|                                                                                                      |
+| [72/年-100G/月 一号测速](https://yihao42.buzz/#/register?code=yX4UyKwx) [](https://xn--4gq48l11y805a.com/) |
 | [8/月-100G/月 Sausage Cloud](https://reborn.kaochang.ltd/#/register?code=EU9d7PnU)                     |
 | [13.8/月-100G/月 Anyland](https://any66.cc/#/register?code=xvfqFY02)                                   |
-| [72/年-100G/月 一号测速](https://yihao42.buzz/#/register?code=yX4UyKwx) [](https://xn--4gq48l11y805a.com/) |
 | [15/月-100G/月 飞鸟](https://fbaff02.flyb-aff01.com/auth/register?code=GXsW) [](https://flyingbird.cc)   |
 | [15.99/月-100G/月 海獭](https://haita.io/register?aff=DERuAJGA)                                          |
 | [18/月-100G/月 CyberGuard](https://cyberguard.best/index.php#/register?code=HsiGRr69)                  |
@@ -222,6 +223,7 @@
 | [*不限制设备*]()                                                                                         |
 |-----------------------------------------------------------------------------------------------------|
 | [12/年-50G/月 一元](https://xn--4gq62f52gdss.com/#/register?code=y2BjORPu)                              |
+|                                                                                                     |
 | [15/月-100G/月 一云梯机场](https://1yunti.org/)                                                            |
 | [15/月-100G/月 龙猫云](https://lmspeedapp.com/#/register?code=8JnnPAyd)                                  |
 | [15.8/月-160G/月 狗狗加速器](https://xn--yfrp36ea9901a.com/)                                               |
@@ -247,9 +249,10 @@
 | [*限制设备*]()                                                                                                                    |
 |-------------------------------------------------------------------------------------------------------------------------------|
 | [1/月-50G/月 限制 5 台设备 性价比](https://a.xn--6nq44r2uh9rhj7f.com/#/register?code=6v77KWIz) [](https://xingjiabijichang.vip/#/login) |
-| [10/月-100G/月 限制 2 台设备 注册送 888GB 1周 墙了个墙](https://www.qlgq.top/auth/register?code=bfaaa4eb65)                                  |
 | [12/年-500G/月 限制 3 台设备 注册送 5G 2天 免费](https://w.xn--94q57lcvpw50b.com/#/register?code=SCbFIcCw)                                 |
 | [6/月-30G/月 限制 3 台设备 RioLU精灵学院](https://ooo.riolu.ooo/)                                                                        |
+|                                                                                                                               |
+| [10/月-100G/月 限制 2 台设备 注册送 888GB 1周 墙了个墙](https://www.qlgq.top/auth/register?code=bfaaa4eb65)                                  |
 | [9.9/月-80G/月 限制 5 台设备 贝贝云](https://beibeicloud.shop/#/login)                                                                  |
 | [12.8/月-88G/月 限制 3 台设备 纷达](https://fenda.cloud/auth/register)                                                                 |
 | [12/月-300G/月 限制 5 台设备 ikuuu](https://ikuuu.pw/)                                                                               |
