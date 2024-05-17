@@ -213,7 +213,6 @@
 |---------------------------------------------------------------------------------------------------------------------|
 | [14.9-130G 魔戒](https://mojie.app/register?aff=Gu3iS0ty)                                                             |
 | [13/年-100G/月 送 10G 3天  fscloud](https://dcanp4109.fsc.fscloud.cc/#/register?code=1umqePA4) [](https://fscloud.vip/) |
-|                                                                                                                     |
 
 | [*不限制 注册无验证码*]()                                                                                     |
 |------------------------------------------------------------------------------------------------------|
@@ -226,9 +225,9 @@
 | [15/月-100G/月 飞鸟](https://fbaff02.flyb-aff01.com/auth/register?code=GXsW) [](https://flyingbird.cc)   |
 | [15.99/月-100G/月 海獭](https://haita.io/register?aff=DERuAJGA)                                          |
 | [18/月-100G/月 CyberGuard](https://cyberguard.best/index.php#/register?code=HsiGRr69)                  |
+| [15/月-50G/月 老猫云](https://laomaoyun.net/#/login)                                                      |
 | [20/月-100G/月 闪电猫](https://scaff01.scvipaff.com/auth/register?code=U6L9)                              |
 | [20/月-100G/月 fastlink](https://fastlink.ws/auth/register)                                            |
-|                                                                                                      |
 
 | [*不限制*]()                                                                                           |
 |-----------------------------------------------------------------------------------------------------|
@@ -245,7 +244,7 @@
 | [24.9/月-100G/月 tomatocloud](https://tomatocloud.me/)                                                |
 | [24.9/月-100G/月 web3vpn](https://web3vpn.net/)                                                       |
 | [33/月-150G/月 Sayss](https://www.epaybc.com/#/register)                                              |
-|                                                                                                     |
+| [90/季-100G/月 KyCloud](https://my.cloudn.cc/cart.php)                                                |
 
 | [*限制人 无验证码*]()                                                                                             |
 |------------------------------------------------------------------------------------------------------------|
@@ -253,7 +252,6 @@
 | [19.9/月-100G/月 限制 3 桔子云](https://juzicloud.net/auth/register)                                              |
 | [19.9/月-100G/月 限制 2 速云梯](https://suyunti981.xyz/auth/register?code=uYMg) [](https://suyunti.com/)          |
 | [20/月-160G/月 限制 3 青森云](https://sub.cccc.gg/auth/register)                                                  |
-|                                                                                                            |
 
 | [*限制人*]()                                                                                             |
 |-------------------------------------------------------------------------------------------------------|
