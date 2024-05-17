@@ -217,7 +217,6 @@
 
 | [*不限制设备 注册无验证码*]()                                                                                   |
 |------------------------------------------------------------------------------------------------------|
-| [5/月-30G/月 送 1G 1天 ducklink](https://www.ducklink.net/#/register?code=nqO3QNS6)                      |
 | [15/季-1024G/月 两元店](https://liangyuandian.xyz/#/register?code=QDQsCmGa)                               |
 | [11/年-500G/月 便宜](https://xn--wtq35pfyd55o.com/#/register?code=PRskobJz)                              |
 |                                                                                                      |
