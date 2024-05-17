@@ -217,9 +217,9 @@
 
 | [*不限制设备 注册无验证码*]()                                                                                   |
 |------------------------------------------------------------------------------------------------------|
+| [5/月-30G/月 送 1G 1天 ducklink](https://www.ducklink.net/#/register?code=nqO3QNS6)                      |
 | [15/季-1024G/月 两元店](https://liangyuandian.xyz/#/register?code=QDQsCmGa)                               |
 | [11/年-500G/月 便宜](https://xn--wtq35pfyd55o.com/#/register?code=PRskobJz)                              |
-| [5/月-30G/月 送 1G 1天 ducklink](https://www.ducklink.net/#/register?code=nqO3QNS6)                      |
 |                                                                                                      |
 | [72/年-100G/月 一号测速](https://yihao42.buzz/#/register?code=yX4UyKwx) [](https://xn--4gq48l11y805a.com/) |
 | [8/月-100G/月 Sausage Cloud](https://reborn.kaochang.ltd/#/register?code=EU9d7PnU)                     |
