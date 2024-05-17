@@ -273,6 +273,11 @@
 | [117.46/月-50G/月 限制 2 Nexitally](https://nxboom.com/index.aspx)                                        |
 | [273/年-50G/月 限制 1 Amy](https://www.amysecure.com/index.php)                                           |
 
+https://cyberguard.top/index.php#/login
+https://cyberguard.top/index.php#/login
+https://www.v2ny.com/#/login
+https://nxboom.com/index.aspx?language=cn
+
 # 论坛
 | 发布页                                                                                  |
 |--------------------------------------------------------------------------------------|
