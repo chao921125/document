@@ -250,7 +250,6 @@
 
 | [*限制设备 无验证码*]()                                                                                                      |
 |----------------------------------------------------------------------------------------------------------------------|
-| [1/月-100G/月 限制 3 台设备 超级机场](https://www.chaojicloud.com/#/register?code=HjSkVbyA)                                     |
 | [14.99/月-50G/月 限制 1 台设备 飞机云 签到送流量](https://feijiyun38.xyz/auth/register?code=XFbr) [](https://feijicloud.com/)       |
 | [19.9/月-100G/月 限制 3 台设备 桔子云](https://juzicloud.net/auth/register)                                                    |
 | [19.9/月-100G/月 限制 2 台设备 速云梯](https://suyunti981.xyz/auth/register?code=uYMg) [](https://suyunti.com/)                |
