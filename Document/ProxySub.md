@@ -1,5 +1,5 @@
 # 客户端 [免费订阅](#免费订阅地址) [稳定付费订阅](#付费订阅)
-# 检测当前是否可用 GPT https://ios.chat.openai.com/public-api/mobile/server_status/v1
+# [检测当前是否可用 GPT](https://ios.chat.openai.com/public-api/mobile/server_status/v1)
 | MacOS & Windows Client                                                                                    |
 |-----------------------------------------------------------------------------------------------------------|
 | [clash-verge-rev 👍推荐](https://github.com/clash-verge-rev/clash-verge-rev)                                |
