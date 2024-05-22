@@ -216,7 +216,7 @@
 | [15/月-100G/月 飞鸟](https://fbaff02.flyb-aff01.com/auth/register?code=GXsW) [](https://flyingbird.cc)           |
 | [15.99/月-100G/月 海獭](https://haita.io/register?aff=DERuAJGA)                                                  |
 | [18/月-100G/月 CyberGuard](https://cyberguard.top/index.php#/register?code=HsiGRr69)                           |
-| [20/月-100G/月 闪电猫](https://scaff01.scvipaff.com/auth/register?code=U6L9)                                      |
+| [20/月-100G/月 闪电猫 SpeedCAT](https://scaff01.scvipaff.com/auth/register?code=U6L9) [](https://speedcat.me/)    |
 | [20/月-100G/月 fastlink](https://fastlink.ws/auth/register)                                                    |
 |                                                                                                              |
 | [10/月-200G/月 efcloud](https://www.easyfastcloud.com/#/register?code=2GE3ZtDg) [](https://easyfastcloud.com/) |
@@ -229,7 +229,6 @@
 | [15/月-100G/月 一云梯机场](https://1yunti.org/)                                                            |
 | [15/月-100G/月 龙猫云](https://lmspeedapp.com/#/register?code=8JnnPAyd)                                  |
 | [19.9/月-100G/月 大哥云](https://www.dageyun.net/#/register)                                             |
-| [20/月-100G/月 SpeedCAT](https://webinv01.sc-aff.cc/auth/register?code=U6L9) [](https://speedcat.me/) |
 | [24.9/月-100G/月 tomatocloud](https://tomatocloud.me/)                                                |
 | [24.9/月-100G/月 web3vpn](https://web3vpn.net/)                                                       |
 | [90/季-100G/月 KyCloud](https://my.cloudn.cc/cart.php)                                                |
