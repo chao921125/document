@@ -201,25 +201,25 @@
 | [*不限制 不限时长*]()                                                                                                       |
 |----------------------------------------------------------------------------------------------------------------------|
 | [14.9-130G 魔戒](https://mojie.app/register?aff=Gu3iS0ty)                                                              |
-| [13/年-100G/月 注册送 10G 3天 fscloud](https://dcanp4109.fsc.fscloud.cc/#/register?code=1umqePA4) [](https://fscloud.vip/) |
 
-| [*不限制 注册无验证码*]()                                                                                             |
-|--------------------------------------------------------------------------------------------------------------|
-| [15/季-1024G/月 两元店](https://liangyuandian.xyz/#/register?code=QDQsCmGa)                                       |
-| [11/年-500G/月 便宜](https://xn--wtq35pfyd55o.com/#/register?code=PRskobJz)                                      |
-|                                                                                                              |
-| [15/月-50G/月 老猫云](https://laomaoyun.net/#/login)                                                              |
-|                                                                                                              |
-| [72/年-100G/月 一号测速](https://yihao42.buzz/#/register?code=yX4UyKwx) [](https://xn--4gq48l11y805a.com/)         |
-| [8/月-100G/月 SausageCloud](https://reborn.kaochang.ltd/#/register?code=EU9d7PnU)                              |
-| [13.8/月-100G/月 Anyland](https://any66.cc/#/register?code=xvfqFY02)                                           |
-| [15/月-100G/月 飞鸟](https://fbaff02.flyb-aff01.com/auth/register?code=GXsW) [](https://flyingbird.cc)           |
-| [15.99/月-100G/月 海獭](https://haita.io/register?aff=DERuAJGA)                                                  |
-| [18/月-100G/月 CyberGuard](https://cyberguard.top/index.php#/register?code=HsiGRr69)                           |
-| [20/月-100G/月 闪电猫 SpeedCAT](https://scaff01.scvipaff.com/auth/register?code=U6L9) [](https://speedcat.me/)    |
-| [20/月-100G/月 fastlink](https://fastlink.ws/auth/register)                                                    |
-|                                                                                                              |
-| [10/月-200G/月 efcloud](https://www.easyfastcloud.com/#/register?code=2GE3ZtDg) [](https://easyfastcloud.com/) |
+| [*不限制 注册无验证码*]()                                                                                                       |
+|------------------------------------------------------------------------------------------------------------------------|
+| [15/季-1024G/月 两元店](https://liangyuandian.xyz/#/register?code=QDQsCmGa)                                                 |
+| [13/年-100G/月 注册送 10G 3天 fscloud](https://dcanp4109.fsc.fscloud.cc/#/register?code=1umqePA4) [](https://fscloud.vip/)   |
+| [11/年-500G/月 便宜](https://xn--wtq35pfyd55o.com/#/register?code=PRskobJz)                                                |
+|                                                                                                                        |
+| [15/月-50G/月 老猫云](https://laomaoyun.net/#/login)                                                                        |
+|                                                                                                                        |
+| [72/年-100G/月 一号测速](https://yihao42.buzz/#/register?code=yX4UyKwx) [](https://xn--4gq48l11y805a.com/)                   |
+| [8/月-100G/月 SausageCloud](https://reborn.kaochang.ltd/#/register?code=EU9d7PnU)                                        |
+| [13.8/月-100G/月 Anyland](https://any66.cc/#/register?code=xvfqFY02)                                                     |
+| [15/月-100G/月 飞鸟](https://fbaff02.flyb-aff01.com/auth/register?code=GXsW) [](https://flyingbird.cc)                     |
+| [15.99/月-100G/月 海獭](https://haita.io/register?aff=DERuAJGA)                                                            |
+| [18/月-100G/月 CyberGuard](https://cyberguard.top/index.php#/register?code=HsiGRr69)                                     |
+| [20/月-100G/月 闪电猫 SpeedCAT](https://scaff01.scvipaff.com/auth/register?code=U6L9) [](https://speedcat.me/)              |
+| [20/月-100G/月 fastlink](https://fastlink.ws/auth/register)                                                              |
+|                                                                                                                        |
+| [10/月-200G/月 efcloud](https://www.easyfastcloud.com/#/register?code=2GE3ZtDg) [](https://easyfastcloud.com/)           |
 
 | [*不限制*]()                                                                                           |
 |-----------------------------------------------------------------------------------------------------|
