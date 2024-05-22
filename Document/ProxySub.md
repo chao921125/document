@@ -4,8 +4,8 @@
 |-----------------------------------------------------------------------------------------------------------|
 | [clash-verge-rev 👍推荐](https://github.com/clash-verge-rev/clash-verge-rev)                                |
 | [clash-nyanpasu](https://github.com/keiko233/clash-nyanpasu)                                              |
-| [hiddify-next](https://github.com/hiddify/hiddify-next) [hiddify 官网 全平台支持](https://hiddify.com/)          |
 | [sing-box](https://github.com/SagerNet/sing-box) [sing-box 官网 不支持 IOS](https://sing-box.sagernet.org/zh/) |
+| [hiddify-next 据说不是特别好用](https://github.com/hiddify/hiddify-next) [hiddify 官网 全平台支持](https://hiddify.com/) |
 | [shadowsocks](https://github.com/shadowsocks)                                                             |
 
 | MacOS                                                                      |
@@ -23,14 +23,14 @@
 | [nekoray](https://github.com/MatsuriDayo/nekoray/releases)     |
 | [sing-box 全新协议](https://github.com/SagerNet/sing-box/releases) |
 
-| Android                                                                            |
-|------------------------------------------------------------------------------------|
-| [v2rayNG 👍推荐](https://github.com/2dust/v2rayNG)                                   |
-| [ClashMetaForAndroid](https://github.com/MetaCubeX/ClashMetaForAndroid/releases)   |
-| [shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android/releases) |
-| [ClashYou](https://github.com/Yos-X/ClashYou)                                      |
-| [NekoBoxForAndroid](https://github.com/MatsuriDayo/NekoBoxForAndroid)              |
-| [surfboard](https://github.com/getsurfboard/surfboard/releases)                    |
+| Android                                                                               |
+|---------------------------------------------------------------------------------------|
+| [v2rayNG 👍推荐](https://github.com/2dust/v2rayNG)                                      |
+| [ClashMetaForAndroid 👍推荐](https://github.com/MetaCubeX/ClashMetaForAndroid/releases) |
+| [surfboard](https://github.com/getsurfboard/surfboard/releases)                       |
+| [shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android/releases)    |
+| [ClashYou](https://github.com/Yos-X/ClashYou)                                         |
+| [NekoBoxForAndroid](https://github.com/MatsuriDayo/NekoBoxForAndroid)                 |
 
 | IOS （付费）                                                                 |
 |--------------------------------------------------------------------------|
