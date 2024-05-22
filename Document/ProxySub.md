@@ -78,6 +78,7 @@
 
 | 订阅转换                                                  |
 |-------------------------------------------------------|
+| [订阅转换本地搭建](https://github.com/CareyWang/sub-web)      |
 | [订阅转换本地搭建](https://github.com/tindy2013/subconverter) |
 
 [失效代理客户端备份](https://github.com/Z-Siqi/Clash-for-Windows_Chinese/releases)
