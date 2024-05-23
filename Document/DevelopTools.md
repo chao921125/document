@@ -58,6 +58,7 @@ Windows 请注意：安装的nvm路径可以随意，但后面的node路径请�
 卸载对应的NodeJS版本：nvm uninstall x.x.x
 查看当前安装的版本：nvm ls
 Windows安装完成后，请使用nvm ls查看后，然后使用nvm use x.x.x
+MacOS安装完成后，请使用nvm ls查看后，然后使用nvm use x.x.x & nvm alias default x.x.x
 
 且推荐使用pnpm安装包，减少本地磁盘的不必要占用
 pnpm安装 https://www.pnpm.cn/installation
