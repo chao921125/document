@@ -41,7 +41,6 @@
 | [QuantumultX GitHub](https://github.com/crossutility/Quantumult-X)       |
 | [QuantumultX 美](https://apps.apple.com/us/app/quantumult-x/id1443988620) |
 | [QuantumultX 港](https://apps.apple.com/hk/app/quantumult-x/id1443988620) |
-| [loon](https://apps.apple.com/us/app/loon/id1373567447)                  |
 
 | 路由器                                                                  |
 |----------------------------------------------------------------------|
