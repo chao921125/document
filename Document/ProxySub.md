@@ -6,31 +6,29 @@
 | [clash-nyanpasu](https://github.com/keiko233/clash-nyanpasu)                                              |
 | [sing-box](https://github.com/SagerNet/sing-box) [sing-box 官网 不支持 IOS](https://sing-box.sagernet.org/zh/) |
 | [hiddify-next 据说不是特别好用](https://github.com/hiddify/hiddify-next) [hiddify 官网 全平台支持](https://hiddify.com/) |
-| [shadowsocks](https://github.com/shadowsocks)                                                             |
+| [shadowsocks](https://github.com/shadowsocks/shadowsocks-rust)                                            |
 
 | MacOS                                                                      |
 |----------------------------------------------------------------------------|
 | [ClashX.Meta](https://github.com/MetaCubeX/ClashX.Meta/tree/meta)          |
 | [V2rayU](https://github.com/yanue/V2rayU/releases)                         |
 | [ShadowsocksX-NG](https://github.com/shadowsocks/ShadowsocksX-NG/releases) |
-| [Surge 付费](https://nssurge.com/)                                           |
 
 | Windows                                                        |
 |----------------------------------------------------------------|
 | [v2rayN 👍推荐](https://github.com/2dust/v2rayN)                 |
 | [clashN](https://github.com/2dust/clashN)                      |
 | [v2rayA](https://github.com/v2rayA/v2rayA)                     |
-| [nekoray](https://github.com/MatsuriDayo/nekoray/releases)     |
 | [sing-box 全新协议](https://github.com/SagerNet/sing-box/releases) |
+| [nekoray](https://github.com/MatsuriDayo/nekoray/releases)     |
 
 | Android                                                                               |
 |---------------------------------------------------------------------------------------|
 | [v2rayNG 👍推荐](https://github.com/2dust/v2rayNG)                                      |
 | [ClashMetaForAndroid 👍推荐](https://github.com/MetaCubeX/ClashMetaForAndroid/releases) |
 | [surfboard](https://github.com/getsurfboard/surfboard/releases)                       |
-| [shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android/releases)    |
-| [ClashYou](https://github.com/Yos-X/ClashYou)                                         |
 | [NekoBoxForAndroid](https://github.com/MatsuriDayo/NekoBoxForAndroid)                 |
+| [shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android/releases)    |
 
 | IOS （付费）                                                                 |
 |--------------------------------------------------------------------------|
