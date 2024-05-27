@@ -275,7 +275,6 @@
 | [66/季-100G/月 限制 5 白月光](https://bygcloud.com/#/register?code=NmWFv1Se) [](https://bygcloud.com/#/home) |
 |                                                                                                       |
 | [10/月-160G/月 限制 9 Coffee Cloud](https://board.love-coffee.club/#/register)                            |
-| [22/月-150G/月 限制 2 泡芙云](https://www.paofu.cloud/auth/register?code=kKnO)                               |
 | [29/月-200G/月 限制 3 自行搜索 悠兔](https://youtu.shop/)                                                       |
 | [39/月-200G/月 限制 5 BoostNet](https://boostnet.top/#/register)                                          |
 | [49/月-120G/月 限制 3 WgetCloud](https://invite.wgetcloud.ltd/auth/register?code=Y7ytZ1)                  |
