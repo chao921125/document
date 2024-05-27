@@ -4,7 +4,7 @@
 |-----------------------------------------------------------------------------------------------------------|
 | [clash-verge-rev 👍推荐](https://github.com/clash-verge-rev/clash-verge-rev)                                |
 | [clash-nyanpasu](https://github.com/keiko233/clash-nyanpasu)                                              |
-| [sing-box](https://github.com/SagerNet/sing-box) [sing-box 官网 不支持 IOS](https://sing-box.sagernet.org/zh/) |
+| [sing-box](https://github.com/SagerNet/sing-box) [sing-box 官网 全平台支持](https://sing-box.sagernet.org/zh/)   |
 | [hiddify-next 据说不是特别好用](https://github.com/hiddify/hiddify-next) [hiddify 官网 全平台支持](https://hiddify.com/) |
 | [shadowsocks](https://github.com/shadowsocks/shadowsocks-rust)                                            |
 
@@ -32,6 +32,7 @@
 
 | IOS （付费）                                                                 |
 |--------------------------------------------------------------------------|
+| [Surge 美 免费](https://apps.apple.com/us/app/surge-5/id1442620678)         |
 | [Shadowrocket GitHub](https://github.com/Shadowrocket)                   |
 | [Shadowrocket 美](https://apps.apple.com/us/app/shadowrocket/id932747118) |
 | [Shadowrocket 港](https://apps.apple.com/hk/app/shadowrocket/id932747118) |
@@ -41,6 +42,7 @@
 | [QuantumultX GitHub](https://github.com/crossutility/Quantumult-X)       |
 | [QuantumultX 美](https://apps.apple.com/us/app/quantumult-x/id1443988620) |
 | [QuantumultX 港](https://apps.apple.com/hk/app/quantumult-x/id1443988620) |
+| [Loon 美](https://apps.apple.com/us/app/loon/id1373567447)                |
 
 | 路由器                                                                  |
 |----------------------------------------------------------------------|
