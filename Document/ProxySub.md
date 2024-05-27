@@ -261,27 +261,27 @@
 
 | [*限制在线*]()                                                                                            |
 |-------------------------------------------------------------------------------------------------------|
-| [10/月-50G/月 限制 5 Element](https://www.yuansu.uk/)                                                     |
-| [9.9/月-80G/月 限制 5 贝贝云](https://beibeicloud.shop/#/login)                                              |
 | [12.8/月-88G/月 限制 3 纷达](https://fenda.cloud/auth/register)                                             |
-| [155/年-50G/月 限制 5 MESL](https://in.mesl.cloud/#/register?code=6kMKKE0T)                               |
-| [273/年-50G/月 限制 1 Amy](https://www.amysecure.com/index.php)                                           |
-| [117.46/月-50G/月 限制 2 Nexitally](https://nxboom.com/index.aspx)                                        |
 |                                                                                                       |
 | [10/月-100G/月 限制 2 注册送 888GB 1周 墙了个墙](https://www.qlgq.top/auth/register?code=bfaaa4eb65)              |
 | [15.9/月-100G/月 限制 10 蓝帆云](https://lanfan.cloud/auth/register)                                         |
 | [17/月-120G/月 限制 1 萌喵加速](https://www.meomiao.com/)                                                     |
 | [22/月-120G/月 限制 9 万城网络](https://vc01.vc-vcity.com/#/register)                                         |
 | [66/季-100G/月 限制 5 白月光](https://bygcloud.com/#/register?code=NmWFv1Se) [](https://bygcloud.com/#/home) |
+| [72/季-100G/月 限制 5 MESL](https://in.mesl.cloud/#/register?code=6kMKKE0T)                               |
+| [196/半年-150G/月 限制 1 Amy](https://www.amysecure.com/index.php)                                         |
 |                                                                                                       |
 | [10/月-160G/月 限制 9 Coffee Cloud](https://board.love-coffee.club/#/register)                            |
+| [19.9/月-180G/月 限制 5 贝贝云](https://beibeicloud.shop/#/login)                                            |
 | [29/月-200G/月 限制 3 自行搜索 悠兔](https://youtu.shop/)                                                       |
 | [39/月-200G/月 限制 5 BoostNet](https://boostnet.top/#/register)                                          |
 | [49/月-120G/月 限制 3 WgetCloud](https://invite.wgetcloud.ltd/auth/register?code=Y7ytZ1)                  |
+| [50/月-200G/月 限制 5 Element](https://www.yuansu.uk/)                                                    |
 |                                                                                                       |
 | [12/月-300G/月 限制 5 ikuuu](https://ikuuu.pw/)                                                           |
 | [52/月-200G/月 限制 2 库洛米](https://www.kuromis.com/)                                                      |
 | [176/季-250G/月 限制 10 自行搜索 TAG](https://tagss04.pro/)                                                   |
+| [117.46/月-500G/月 限制 2 Nexitally](https://nxboom.com/index.aspx)                                       |
 
 # 论坛
 | 发布页                                                                                  |
