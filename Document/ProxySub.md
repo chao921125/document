@@ -224,6 +224,8 @@
 |                                                                                                               |
 | [72/年-100G/月 一号测速](https://yihao42.buzz/#/register?code=yX4UyKwx) [](https://xn--4gq48l11y805a.com/)          |
 | [8/月-100G/月 SausageCloud](https://reborn.kaochang.ltd/#/register?code=EU9d7PnU)                               |
+| [10/月-100G/月 Kepa云](https://a.kepayun.lol/#/register)                                                         |
+| [10/月-128G/月 次元雲](https://ciyy.cc/index.php#/register)                                                        |
 | [13.8/月-100G/月 Anyland](https://any66.cc/#/register?code=xvfqFY02)                                            |
 | [15/月-100G/月 飞鸟 FlyingBird](https://fbaff02.flyb-aff01.com/auth/register?code=GXsW) [](https://flyingbird.cc) |
 | [15.99/月-100G/月 海獭](https://haita.io/register?aff=DERuAJGA)                                                   |
@@ -235,6 +237,7 @@
 
 | [*不限制*]()                                                                               |
 |-----------------------------------------------------------------------------------------|
+| [9.99/月-130G/月 sac cloud](https://sacyun.co/index.php#/register)                        |
 | [15/月-100G/月 一云梯机场](https://1yunti.org/)                                                |
 | [15/月-100G/月 龙猫云 Totoro Cloud](https://lmspeedapp.com/#/register?code=8JnnPAyd)         |
 | [19.9/月-100G/月 大哥云](https://www.dageyun.net/#/register)                                 |
@@ -242,6 +245,7 @@
 | [24.9/月-100G/月 web3vpn](https://web3vpn.net/)                                           |
 | [90/季-100G/月 KyCloud](https://my.cloudn.cc/cart.php)                                    |
 |                                                                                         |
+| [15.8/月-160G/月 狗狗加速](https://xn--yfrp36ea9901a.com/)                                    |
 | [25/月-150G/月 SSRDOG](https://go.ssrdog.com/?code=D24biOV4)                              |
 | [33/月-150G/月 Sayss](https://www.epaybc.com/#/register)                                  |
 | [15.8/月-160G/月 狗狗加速器](https://xn--yfrp36ea9901a.com/)                                   |
@@ -249,6 +253,7 @@
 
 | [*限制在线 无验证码*]()                                                                                        |
 |--------------------------------------------------------------------------------------------------------|
+| [10/月-100G/月 3 最萌の云](https://cutestcloud.com/#/register)                                               |
 | [15/月-100G/月 小鸡快跑 Chicken Run](https://xiaojicf.com/#/register)                                        |
 | [15/月-100G/月 ss-id](https://ss-id.com/#/register)                                                      |
 | [15.9/月-100G/月 疾风云](https://jifeng3267.xyz/auth/register)                                              |
