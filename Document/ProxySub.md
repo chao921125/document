@@ -248,7 +248,6 @@
 | [15.8/月-160G/月 狗狗加速](https://xn--yfrp36ea9901a.com/)                                    |
 | [25/月-150G/月 SSRDOG](https://go.ssrdog.com/?code=D24biOV4)                              |
 | [33/月-150G/月 Sayss](https://www.epaybc.com/#/register)                                  |
-| [15.8/月-160G/月 狗狗加速器](https://xn--yfrp36ea9901a.com/)                                   |
 | [23/月-388G/月 奈云](https://www.v2ny.com/#/register) [奈云](https://www.naiun.cc/#/register) |
 
 | [*限制在线 无验证码*]()                                                                                        |
