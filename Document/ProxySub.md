@@ -186,7 +186,6 @@
 | [输入邮箱订阅](https://www.v2rayfree.eu.org/)                                                                                          |
 | [复制地址到客户端即可](https://neko-warp.nloli.xyz/)                                                                                       |
 | [复制地址到客户端即可](https://subs.zeabur.app/clash) [](https://tofree.zeabur.app/)                                                       |
-| [复制地址到客户端即可](https://sub.5112233.xyz/auto)                                                                                       |
 | [复制地址到客户端即可](https://links.bocchi2b.top/clash)                                                                                   |
 | [0/月-200G/月 Free 必须使用当前 CODE 注册](https://zero.76898102.xyz/auth/register?code=QAJI) [](https://2c.lol/) [](https://zero.2c.lol/) |
 
