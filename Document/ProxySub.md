@@ -200,17 +200,20 @@
 |----------------------------------------------------------------------------------------------------------------------|
 | *不限制 注册无验证码*                                                                                                         |
 | [15/季-1024G/月 两元店](https://liangyuandian.xyz/#/register?code=QDQsCmGa)                                               |
-| [13/年-100G/月 注册送 10G 3天 fscloud](https://dcanp4109.fsc.fscloud.cc/#/register?code=1umqePA4) [](https://fscloud.vip/) |
+| [11/年-500G/月 便宜机场](https://xn--wtq35pfyd55o.com/#/register?code=PRskobJz)                                            |
 | [12/年-200G/月 杜卡迪](https://www.dukadi.one/#/register)                                                                 |
-| [11/年-500G/月 便宜](https://xn--wtq35pfyd55o.com/#/register?code=PRskobJz)                                              |
+| [13/年-100G/月 注册送 10G 3天 fscloud](https://dcanp4109.fsc.fscloud.cc/#/register?code=1umqePA4) [](https://fscloud.vip/) |
 |                                                                                                                      |
 | *不限制*                                                                                                                |
-| [12/年-50G/月 一元](https://xn--4gq62f52gdss.com/#/register?code=y2BjORPu)                                               |
-| [20/年-200G/月 注册送 20G 1年 廉价](https://xn--6nq44r2pg9mj.com/#/register?code=FeiARV4a)                                   |
+| [12/年-50G/月 一元机场](https://xn--4gq62f52gdss.com/#/register?code=y2BjORPu)                                             |
+| [10/年-200G/月 注册送 5G 2天 免费机场](https://w.xn--94q57lcvpw50b.com/#/register?code=SCbFIcCw)                               |
+| [20/年-200G/月 注册送 20G 1年 廉价机场](https://xn--6nq44r2pg9mj.com/#/register?code=FeiARV4a)                                 |
+| [20/年-200G/月 三分机场](https://xn--ehq00hgtfdmt.xyz/#/register)                                                          |
+| [20/年-200G/月 翻墙机场](https://xn--mest5a943ag8x.com/#/register)                                                         |
+| [20/年-200G/月 低价机场](https://xn--6nq0hk9tdjr.com/#/register)                                                           |
 |                                                                                                                      |
 | *限制*                                                                                                                 |
-| [1/月-50G/月 性价比](https://xingjiabijichang.vip/#/register?code=6v77KWIz)                                               |
-| [12/年-500G/月 注册送 5G 2天 免费](https://w.xn--94q57lcvpw50b.com/#/register?code=SCbFIcCw)                                 |
+| [1/月-50G/月 性价比机场](https://xingjiabijichang.vip/#/register?code=6v77KWIz)                                             |
 |                                                                                                                      |
 
 | [*不限制 不限时长*]()                                                                                                       |
@@ -237,6 +240,7 @@
 | [*不限制*]()                                                                               |
 |-----------------------------------------------------------------------------------------|
 | [9.99/月-130G/月 sac cloud](https://sacyun.co/index.php#/register)                        |
+| [10/月-130G/月 coffeecloud](https://portal.coffeecloud.top/#/register)                    |
 | [15/月-100G/月 一云梯机场](https://1yunti.org/)                                                |
 | [15/月-100G/月 龙猫云 Totoro Cloud](https://lmspeedapp.com/#/register?code=8JnnPAyd)         |
 | [19.9/月-100G/月 大哥云](https://www.dageyun.net/#/register)                                 |
@@ -264,6 +268,7 @@
 |                                                                                                        |
 | [20/月-160G/月 青森云 Cyanmori](https://sub.cccc.gg/auth/register)                                          |
 | [20/月-200G/月 肥猫云 FATCAT](https://www.fatcatcf.com/#/register)                                          |
+| [12.8/月-320/月 喵酥云](https://www.miaosu.xyz/#/register)                                                  |
 
 | [*限制在线*]()                                                                                       |
 |--------------------------------------------------------------------------------------------------|
