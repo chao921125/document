@@ -89,14 +89,6 @@
 |---------------------------------------------------------------------------------------------|
 | [github barry-far](https://github.com/barry-far/V2ray-Configs)                              |
 |                                                                                             |
-| [github freefq](https://github.com/freefq/free)                                             |
-| V https://raw.githubusercontent.com/freefq/free/master/v2                                   |
-| V https://bulinkbulink.com/freefq/free/master/v2                                            |
-|                                                                                             |
-| [github ZywChannel](https://github.com/ZywChannel/free)                                     |
-| V https://raw.githubusercontent.com/ZywChannel/free/main/sub                                |
-| V https://raw.fastgit.org/ZywChannel/free/main/sub                                          |
-|                                                                                             |
 | [github Pawdroid](https://github.com/Pawdroid/Free-servers)                                 |
 | V https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub                          |
 | V https://ghproxy.com/https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub      |
@@ -118,11 +110,6 @@
 | V https://raw.fastgit.org/ts-sf/fly/main/v2                                                 |
 | V https://raw.fgit.ml/ts-sf/fly/main/v2                                                     |
 |                                                                                             |
-|                                                                                             |
-| [xrayvip](https://www.xrayvip.com/)                                                         |
-| C https://www.xrayvip.com/free.yaml                                                         |
-| V https://www.xrayvip.com/free.txt                                                          |
-| V https://v2ray.neocities.org/v2ray.txt                                                     |
 |                                                                                             |
 | [github mfuu](https://github.com/mfuu/v2ray)                                                |
 | C https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml                            |
@@ -149,10 +136,6 @@
 | [github vxiaov](https://github.com/vxiaov/free_proxies)                                     |
 | C https://raw.githubusercontent.com/vxiaov/free_proxies/main/clash/clash.provider.yaml      |
 | C https://cdn.jsdelivr.net/gh/vxiaov/free_proxies@main/clash/clash.provider.yaml            |
-|                                                                                             |
-|                                                                                             |
-| [github freenodes](https://github.com/freenodes/freenodes)                                  |
-| C https://raw.githubusercontent.com/freenodes/freenodes/main/clash.yaml                     |
 |                                                                                             |
 |                                                                                             |
 | [github ripaojiedian](https://github.com/ripaojiedian/freenode)                             |
