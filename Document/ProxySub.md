@@ -180,7 +180,7 @@
 
 # 付费订阅
 ###### （优惠码自行搜索）
-| [*便宜 新*]()                                                                                                           |
+| [*便宜&新*]()                                                                                                           |
 |----------------------------------------------------------------------------------------------------------------------|
 | *不限制 注册无验证码*                                                                                                         |
 | [15/季-1024G/月 两元店](https://liangyuandian.xyz/#/register?code=QDQsCmGa)                                               |
@@ -195,6 +195,7 @@
 | [20/年-200G/月 三分机场](https://xn--ehq00hgtfdmt.xyz/#/register)                                                          |
 | [20/年-200G/月 翻墙机场](https://xn--mest5a943ag8x.com/#/register)                                                         |
 | [20/年-200G/月 低价机场](https://xn--6nq0hk9tdjr.com/#/register)                                                           |
+| [10/月-100G/月 Kepa云](https://a.kepayun.lol/#/register)                                                                |
 |                                                                                                                      |
 | *限制*                                                                                                                 |
 | [1/月-50G/月 性价比机场](https://xingjiabijichang.vip/#/register?code=6v77KWIz)                                             |
@@ -210,9 +211,7 @@
 |                                                                                                               |
 | [72/年-100G/月 一号测速](https://yihao42.buzz/#/register?code=yX4UyKwx) [](https://xn--4gq48l11y805a.com/)          |
 | [8/月-100G/月 SausageCloud](https://reborn.kaochang.ltd/#/register?code=EU9d7PnU)                               |
-| [10/月-100G/月 Kepa云](https://a.kepayun.lol/#/register)                                                         |
 | [10/月-128G/月 次元雲](https://ciyy.cc/index.php#/register)                                                        |
-| [13.8/月-100G/月 Anyland](https://any66.cc/#/register?code=xvfqFY02)                                            |
 | [15/月-100G/月 飞鸟 FlyingBird](https://fbaff02.flyb-aff01.com/auth/register?code=GXsW) [](https://flyingbird.cc) |
 | [15.99/月-100G/月 海獭](https://haita.io/register?aff=DERuAJGA)                                                   |
 | [18/月-100G/月 CyberGuard](https://cyberguard.top/index.php#/register?code=HsiGRr69)                            |
@@ -220,6 +219,7 @@
 | [20/月-100G/月 fastlink](https://fastlink.ws/auth/register)                                                     |
 |                                                                                                               |
 | [10/月-200G/月 efcloud](https://www.easyfastcloud.com/#/register?code=2GE3ZtDg) [](https://easyfastcloud.com/)  |
+| [23.8/月-180G/月 Anyland](https://anyland.club/#/register?code=xvfqFY02)                                        |
 
 | [*不限制*]()                                                                               |
 |-----------------------------------------------------------------------------------------|
