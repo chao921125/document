@@ -1,13 +1,52 @@
 # 软件
-|                                                     |
-|-----------------------------------------------------|
-| [Win+Mac 哇哦菌](https://www.waodown.com/category/mac) |
-| [安卓视频](https://github.com/o0HalfLife0o/TVBoxOSC)    |
+|                                                                  |
+|------------------------------------------------------------------|
+| [Win+Mac 哇哦菌](https://www.waodown.com/category/mac)              |
+| [安卓视频](https://github.com/o0HalfLife0o/TVBoxOSC)                 |
+| [YTB 下载 Hitomi](https://github.com/KurtBestor/Hitomi-Downloader) |
+| [视频 下载 Lux](https://github.com/iawia002/lux)                     |
 
-# 音乐视频源
-|                                                                                |
-|--------------------------------------------------------------------------------|
-| https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/ZY-Player/ZY-Player-PC.json |
+# 音乐视频图书漫画
+| 大合集，请仔细看分类                                                                                             |
+|--------------------------------------------------------------------------------------------------------|
+| 音乐                                                                                                     |
+| [软件 lx-music](https://github.com/lyswhut/lx-music-desktop/releases) [官网](https://lxmusic.toside.cn/)   |
+| [服务 lx-music 自建音源服务](https://github.com/lxmusics/lx-music-api-server-python)                           |
+| [软件 方格 安卓&Windows](http://morin.vin/)                                                                  |
+| 视频                                                                                                     |
+| [软件 iina](https://github.com/iina/iina/releases)                                                       |
+| [软件 iina-plus](https://github.com/xjbeta/iina-plus/releases)                                           |
+| [软件 VLC 全平台](https://www.videolan.org/)                                                                |
+| [软件 potplayer 仅支持 win](https://potplayer.tv/?lang=zh_CN)                                               |
+| [软件 my-tv](https://github.com/lizongying/my-tv)                                                        |
+| [软件 tvbox 仅支持 安卓 停更](https://github.com/windwang/tvbox?tab=readme-ov-file)                             |
+| [直播源 APTV]()                                                                                           |
+| [源 YanG-1989 成人](https://raw.githubusercontent.com/YanG-1989/m3u/main/Adult.m3u)                       |
+| [源 YueChan](https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u)                              |
+| [源 Kimentanm](https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u)                    |
+| [源 fanmingming](https://live.fanmingming.com/tv/m3u/ipv6.m3u)                                          |
+| [合集 APTV]()                                                                                            |
+| [源 baoge](https://baoge.vip/247.html)                                                                  |
+| [源 fanmingming](https://lqtv.github.io/)                                                               |
+| [源 fanmingming](https://github.com/tongxunlu/LIVEALL-2024-03-20)                                       |
+| [源 imDazui](https://github.com/imDazui/Tvlist-awesome-m3u-m3u8)                                        |
+| [源 joevess](https://github.com/joevess/IPTV)                                                           |
+| [源 iptv-org](https://github.com/iptv-org/iptv)                                                         |
+| [软件 ZY-Player](https://github.com/Hunlongyu/ZY-Player)                                                 |
+| [源 视频](https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/ZY-Player/ZY-Player-PC.json)                 |
+| 图书                                                                                                     |
+| [软件 阅读 APP](https://github.com/gedoor/legado) [](https://gedoor.github.io/)                            |
+| [源 喵公子](https://legado.aoaostar.com/)                                                                  |
+| [源 喵公子](https://dy.mgz6.cc/)                                                                           |
+| [源 合集](https://www.e-yck.top/yuedu/shuyuans/index.html)                                                |
+| [源 合集](https://github.com/XIU2/yuedu/)                                                                 |
+| [源 合集](http://yuedu.miaogongzi.net/gx.html)                                                            |
+| 漫画                                                                                                     |
+| [异次元漫画 APP](https://www.e-yck.top/yiciyuan/index/index.html)                                           |
+| [源 合集](https://www.e-yck.top/yiciyuan/tuyuans/index.html)                                              |
+| [源 带图标版本](https://www.yckceo.com/yiciyuan/tuyuans/json/id/9.json)                                      |
+| [源 带图标版本](https://gcore.jsdelivr.net/gh/mumuceo/file01/202304/8_48b379e784839ec40c69221615038ba6.json) |
+| [源 带图标版本](https://www.e-yck.top/yiciyuan/tuyuans/index.html)                                           |
 
 # 短链接
 |                                   |
@@ -16,7 +55,7 @@
 | https://free-url-shortener.rb.gy/ |
 | https://bitly.com/                |
 | https://n9.cl/zh                  |
-|                                   |
+| [tt.vg](https://tt.vg/)           |
 | https://tiny.cc/                  |
 | https://cutt.ly/pro-pricing       |
 
@@ -80,9 +119,10 @@
 | 源码                                                  |
 |-----------------------------------------------------|
 | [codefever](https://github.com/PGYER/codefever)     |
+
 # SSL证书 免费及收费
 
-### 一般来说国内的SSL需要实名认证，大家根据需要自行选择我这里全部剔除掉后面
+### 一般来说国内的SSL需要实名认证，大家根据需要自行选择
 
 ## 无需自己操作，直接申请即可
 
@@ -125,42 +165,45 @@
 []()
 
 # 网站托管（免费）
-[wordpress](https://wordpress.com/zh-cn/)
-[wix](https://www.wix.com/)
-[weebly](https://www.weebly.com/)
-[awardspace](https://www.awardspace.com/)
-[infinityfree](https://www.infinityfree.net/)
+[wordpress](https://wordpress.com/zh-cn/) |
+[wix](https://www.wix.com/) |
+[weebly](https://www.weebly.com/) |
+[awardspace](https://www.awardspace.com/) |
+[infinityfree](https://www.infinityfree.net/) |
 [freehostia](https://www.freehostia.com/)
 
 ## 通过GitHub直接自动部署
-[vercel 限额](https://vercel.com/)
-[netlify 限额](https://app.netlify.com/)
-[cloudflare 限额](https://dash.cloudflare.com/)
-[SurgeHandbook 限额](https://github.com/FlintyLemming/SurgeHandbook)
+[vercel 限额](https://vercel.com/) |
+[netlify 限额](https://app.netlify.com/) |
+[cloudflare 限额](https://dash.cloudflare.com/) |
+[SurgeHandbook 限额](https://github.com/FlintyLemming/SurgeHandbook) |
 软硬路由
 https://www.lucky666.cn/
+
+GoogleTranslateCheck
+https://github.com/Ponderfly/GoogleTranslateIpCheck
 
 系统激活：https://massgrave.dev/index.html
 
 1,微PE工具箱
-https://www.wepe.com.cn/
+https://www.wepe.com.cn/ \
 2,Edgeless
-https://home.edgeless.top/
+https://home.edgeless.top/ \
 3,FirPE Project
-https://www.firpe.cn/
+https://www.firpe.cn/ \
 4,HotPE
-https://www.hotpe.top/
+https://www.hotpe.top/ \
 5,杏雨梨云启动维护系统
-https://www.xyboot.com/
+https://www.xyboot.com/ \
 6,优启通
-https://www.itsk.com/
+https://www.itsk.com/ \
 7,U盘魔术师
-https://www.sysceo.com/usm
+https://www.sysceo.com/usm \
 8,冰封PE
-http://www.bfgho.com/
+http://www.bfgho.com/ \
 9,USBOS V3.0
-http://bbs.wuyou.net/forum.php?mod=viewthread&tid=349965
+http://bbs.wuyou.net/forum.php?mod=viewthread&tid=349965 \
 10,H3集成PE系统最新发布
-http://bbs.wuyou.net/forum.php?mod=viewthread&tid=370573
+http://bbs.wuyou.net/forum.php?mod=viewthread&tid=370573 \
 11,雷电PE
 http://bbs.c3.wuyou.net/forum.php?mod=viewthread&tid=426252&extra=&page=1

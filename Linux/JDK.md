@@ -1,4 +1,36 @@
-# CenterOS 7 /usr/local
+# Debian｜Ubuntu /usr/local
+```shell
+# 检查系统是否已经存在 Java 环境
+java -version
+
+# 安装 JDK
+sudo add-apt-repository ppa:linuxuprising/java
+sudo apt update
+sudo apt install oracle-java11-installer-local
+
+# 进入指定目录下 tar
+tar -zxvf *.tar.*
+mkdir /usr/local/java
+mv /path/jdk*/* /usr/local/java
+
+# 设置默认
+sudo update-alternatives --config java
+# 设置环境变量 优先使用
+sudo vi /etc/profile
+# 次级使用
+sudo vi /etc/environment
+
+export JAVA_HOME="/usr/local/java/jdk1.8.0-x64"
+export JRE_HOME=${JAVA_HOME}/jre
+export CLASSPATH=.:${JAVA_HOME}/lib:${JAVA_HOME}/lib:$CLASSPATH
+export JAVA_PATH=${JAVA_HOME}/bin:${JRE_HOME}/bin
+export PATH=$PATH:${JAVA_PATH}
+
+# 及时生效
+source /etc/profile
+```
+
+# RHEL /usr/local
 ```shell
 # 检查系统是否已经存在 Java 环境
 java -version
@@ -10,17 +42,18 @@ yum list installed | grep [java][jdk]
 yum remove "openjdk"
 
 # 安装 JDK
-# 进入指定目录下 rpm 默认安装 /usr/java
+# 进入指定目录下 rpm 默认安装 /usr/local/java
 rpm -ivh *.rpm
 # 进入指定目录下 tar
 tar -zxvf *.tar.*
-mkdir /usr/java
-mv /path/jdk* /usr/java
+mkdir /usr/local/java
+mv /path/jdk*/* /usr/local/java
 
-# 设置环境变量
+# 设置环境变量 用户 bashrc 系统 profile
 vi /etc/profile
 
-export JAVA_HOME=/usr/java/jdk1.8.0-x64
+# JDK
+export JAVA_HOME=/usr/local/java
 export JRE_HOME=${JAVA_HOME}/jre
 export CLASSPATH=.:${JAVA_HOME}/lib:${JAVA_HOME}/lib:$CLASSPATH
 export JAVA_PATH=${JAVA_HOME}/bin:${JRE_HOME}/bin
@@ -28,7 +61,6 @@ export PATH=$PATH:${JAVA_PATH}
 
 # 及时生效
 source /etc/profile
-
 
 # Open-JDK
 # 查看可以安装的列表

@@ -79,3 +79,9 @@ https://github.com/massgravel/Microsoft-Activation-Scripts
 # Soft Crack
 https://haxnode.net/
 https://positiverecords.ru/
+
+# 截图
+https://macmiao.lanzouj.com/iWCvF1nht9qb
+
+# 剪映破解
+https://shorturl.at/uANP7
