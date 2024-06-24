@@ -259,6 +259,7 @@
 | [*限制在线*]()                                                                                       |
 |--------------------------------------------------------------------------------------------------|
 | [12.8/月-88G/月 纷达](https://fenda.cloud/auth/register)                                             |
+| [15.99/月-80G/月 arisaka](https://www.arisaka.io/#/register)                                       |
 |                                                                                                  |
 | [10/月-100G/月 注册送 888GB 1周 墙了个墙](https://www.qlgq.top/auth/register?code=bfaaa4eb65)              |
 | [15.9/月-100G/月 蓝帆云](https://lanfan.cloud/auth/register)                                          |
