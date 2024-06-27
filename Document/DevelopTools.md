@@ -40,8 +40,8 @@ alias python=/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11
 export PATH="$PATH:/Users/huangchao/WorkSoft/flutter/bin"
 ```
 [NodeJS 下载](https://nodejs.org/en/download/) |
-[NodeJS多版本管理 nvm MacOS](https://github.com/nvm-sh/nvm/) [nvm Windows](https://github.com/nvm-sh/nvm#install--update-script) |
-[pnpm 包管理](https://www.pnpm.cn/installation/)
+[pnpm 包管理 内含 node 版本管理，可以不用 nvm 等包管理器](https://www.pnpm.cn/installation/) |
+[NodeJS多版本管理 nvm MacOS](https://github.com/nvm-sh/nvm/) [nvm Windows](https://github.com/nvm-sh/nvm#install--update-script)
 ```text
 多版本nodejs推荐使用nvm管理（安装前请查看最新版本）
 nvm安装 https://github.com/nvm-sh/nvm

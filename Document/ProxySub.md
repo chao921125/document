@@ -241,7 +241,7 @@
 
 | [*限制在线 无验证码*]()                                                                                        |
 |--------------------------------------------------------------------------------------------------------|
-| [10/月-100G/月 3 最萌の云](https://cutestcloud.com/#/register)                                               |
+| [10/月-100G/月 最萌の云](https://cutestcloud.com/#/register)                                                 |
 | [15/月-100G/月 小鸡快跑 Chicken Run](https://xiaojicf.com/#/register)                                        |
 | [15/月-100G/月 ss-id](https://ss-id.com/#/register)                                                      |
 | [15.9/月-100G/月 疾风云](https://jifeng3267.xyz/auth/register)                                              |
@@ -259,6 +259,7 @@
 | [*限制在线*]()                                                                                       |
 |--------------------------------------------------------------------------------------------------|
 | [12.8/月-88G/月 纷达](https://fenda.cloud/auth/register)                                             |
+| [15.99/月-80G/月 arisaka](https://www.arisaka.io/#/register)                                       |
 |                                                                                                  |
 | [10/月-100G/月 注册送 888GB 1周 墙了个墙](https://www.qlgq.top/auth/register?code=bfaaa4eb65)              |
 | [15.9/月-100G/月 蓝帆云](https://lanfan.cloud/auth/register)                                          |
