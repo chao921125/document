@@ -1,185 +1,8 @@
-# 客户端 [免费订阅](#免费订阅地址) [稳定付费订阅](#付费订阅)
-# [检测当前是否可用 GPT](https://ios.chat.openai.com/public-api/mobile/server_status/v1)
-| MacOS & Windows Client                                                                                    |
-|-----------------------------------------------------------------------------------------------------------|
-| [clash-verge-rev 👍推荐](https://github.com/clash-verge-rev/clash-verge-rev)                                |
-| [clash-nyanpasu](https://github.com/keiko233/clash-nyanpasu)                                              |
-| [sing-box](https://github.com/SagerNet/sing-box) [sing-box 官网 全平台支持](https://sing-box.sagernet.org/zh/)   |
-| [hiddify-next 据说不是特别好用](https://github.com/hiddify/hiddify-next) [hiddify 官网 全平台支持](https://hiddify.com/) |
-| [shadowsocks](https://github.com/shadowsocks/shadowsocks-rust)                                            |
-
-| MacOS                                                                      |
-|----------------------------------------------------------------------------|
-| [ClashX.Meta](https://github.com/MetaCubeX/ClashX.Meta/tree/meta)          |
-| [V2rayU](https://github.com/yanue/V2rayU/releases)                         |
-| [ShadowsocksX-NG](https://github.com/shadowsocks/ShadowsocksX-NG/releases) |
-
-| Windows                                                        |
-|----------------------------------------------------------------|
-| [v2rayN 👍推荐](https://github.com/2dust/v2rayN)                 |
-| [clashN](https://github.com/2dust/clashN)                      |
-| [v2rayA](https://github.com/v2rayA/v2rayA)                     |
-| [sing-box 全新协议](https://github.com/SagerNet/sing-box/releases) |
-| [nekoray](https://github.com/MatsuriDayo/nekoray/releases)     |
-
-| Android                                                                               |
-|---------------------------------------------------------------------------------------|
-| [v2rayNG 👍推荐](https://github.com/2dust/v2rayNG)                                      |
-| [ClashMetaForAndroid 👍推荐](https://github.com/MetaCubeX/ClashMetaForAndroid/releases) |
-| [surfboard](https://github.com/getsurfboard/surfboard/releases)                       |
-| [NekoBoxForAndroid](https://github.com/MatsuriDayo/NekoBoxForAndroid)                 |
-| [shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android/releases)    |
-
-| IOS （付费）                                                                 |
-|--------------------------------------------------------------------------|
-| [Surge 美 免费](https://apps.apple.com/us/app/surge-5/id1442620678)         |
-| [Shadowrocket GitHub](https://github.com/Shadowrocket)                   |
-| [Shadowrocket 美](https://apps.apple.com/us/app/shadowrocket/id932747118) |
-| [Shadowrocket 港](https://apps.apple.com/hk/app/shadowrocket/id932747118) |
-| [Quantumult GitHub](https://github.com/crossutility/Quantumult)          |
-| [Quantumult 美](https://apps.apple.com/us/app/quantumult/id1252015438)    |
-| [Quantumult 港](https://apps.apple.com/hk/app/quantumult/id1252015438)    |
-| [QuantumultX GitHub](https://github.com/crossutility/Quantumult-X)       |
-| [QuantumultX 美](https://apps.apple.com/us/app/quantumult-x/id1443988620) |
-| [QuantumultX 港](https://apps.apple.com/hk/app/quantumult-x/id1443988620) |
-| [Loon 美](https://apps.apple.com/us/app/loon/id1373567447)                |
-
-| 路由器                                                                  |
-|----------------------------------------------------------------------|
-| [openwrt](https://github.com/openwrt/openwrt)                        |
-| [openwrt-packages](https://github.com/kenzok8/openwrt-packages)      |
-| [OpenClash](https://github.com/vernesong/OpenClash)                  |
-| [shadowsocksr-plus](https://github.com/zusterben/plan_b)             |
-| [OpenWrt-SSRPLUS](https://github.com/WangWenBin2017/OpenWrt-SSRPLUS) |
-| [openwrt-passwall](https://github.com/xiaorouji/openwrt-passwall)    |
-| [ShellCrash](https://github.com/juewuy/ShellCrash/tree/master)       |
-| [fancyss](https://github.com/hq450/fancyss)                          |
-
-| 浏览器插件                                                               |
-|---------------------------------------------------------------------|
-| [SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega/releases) |
-
-| 内核 Core                                               |
-|-------------------------------------------------------|
-| [v2ray-core](https://github.com/v2fly/v2ray-core)     |
-| [v2ray-core](https://github.com/v2ray/v2ray-core)     |
-| [clash all](https://github.com/DustinWin/clash-tools) |
-| [mihomo](https://github.com/MetaCubeX/mihomo)         |
-| [Xray-core](https://github.com/XTLS/Xray-core)        |
-
-| 规则                                                                   |
-|----------------------------------------------------------------------|
-| [clash-rules](https://github.com/Loyalsoldier/clash-rules)           |
-| [v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat)   |
-| [rules](https://github.com/Hackl0us/SS-Rule-Snippet)                 |
-| [ip database](https://github.com/Hackl0us/GeoIP2-CN)                 |
-| [去广告](https://github.com/ACL4SSR/ACL4SSR/tree/master)                |
-
-| 订阅转换                                                  |
-|-------------------------------------------------------|
-| [订阅转换本地搭建](https://github.com/CareyWang/sub-web)      |
-| [订阅转换本地搭建](https://github.com/tindy2013/subconverter) |
-
-[失效代理客户端备份](https://github.com/Z-Siqi/Clash-for-Windows_Chinese/releases)
-
-# 免费订阅地址
-## [稳定付费订阅](#付费订阅)
-
-| 订阅地址 【内容源自互联网，不定时更新】                                                                        |
-|---------------------------------------------------------------------------------------------|
-| [github barry-far](https://github.com/barry-far/V2ray-Configs)                              |
-|                                                                                             |
-| [github Pawdroid](https://github.com/Pawdroid/Free-servers)                                 |
-| V https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub                          |
-| V https://ghproxy.com/https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub      |
-|                                                                                             |
-| [github anaer](https://github.com/anaer/Sub)                                                |
-| C https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml                               |
-| C https://anaer.github.io/Sub/clash.yaml                                                    |
-| C https://cdn.jsdelivr.net/gh/anaer/Sub@main/clash.yaml                                     |
-|                                                                                             |
-| [github aiboboxx](https://github.com/aiboboxx)                                              |
-| C https://raw.githubusercontent.com/aiboboxx/clashfree/main/clash.yml                       |
-| V https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2                              |
-|                                                                                             |
-| [github ts-sf](https://github.com/ts-sf/fly)                                                |
-| C https://raw.githubusercontent.com/ts-sf/fly/main/clash                                    |
-| C https://raw.fastgit.org/ts-sf/fly/main/clash                                              |
-| C https://raw.fgit.ml/ts-sf/fly/main/clash                                                  |
-| V https://raw.githubusercontent.com/ts-sf/fly/main/v2                                       |
-| V https://raw.fastgit.org/ts-sf/fly/main/v2                                                 |
-| V https://raw.fgit.ml/ts-sf/fly/main/v2                                                     |
-|                                                                                             |
-|                                                                                             |
-| [github mfuu](https://github.com/mfuu/v2ray)                                                |
-| C https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml                            |
-| C https://gitlab.com/mfuu/v2ray/-/raw/master/clash.yaml                                     |
-| V https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray                                 |
-| V https://gitlab.com/mfuu/v2ray/-/raw/master/v2ray                                          |
-|                                                                                             |
-| [github ermaozi](https://github.com/ermaozi/get_subscribe)                                  |
-| C https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml          |
-| C https://git.io/emzclash                                                                   |
-| V https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt          |
-| V https://git.io/emzv2ray                                                                   |
-|                                                                                             |
-| [github mahdibland](https://github.com/mahdibland/V2RayAggregator)                          |
-| C https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.yml    |
-| C https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_yaml.yml   |
-| V https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity        |
-| V https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_base64.txt |
-|                                                                                             |
-| [github Flik6](https://github.com/Flik6/getNode)                                            |
-| C https://raw.githubusercontent.com/Flik6/getNode/main/clash.yaml                           |
-| V https://raw.githubusercontent.com/Flik6/getNode/main/v2ray.txt                            |
-|                                                                                             |
-| [github vxiaov](https://github.com/vxiaov/free_proxies)                                     |
-| C https://raw.githubusercontent.com/vxiaov/free_proxies/main/clash/clash.provider.yaml      |
-| C https://cdn.jsdelivr.net/gh/vxiaov/free_proxies@main/clash/clash.provider.yaml            |
-|                                                                                             |
-|                                                                                             |
-| [github ripaojiedian](https://github.com/ripaojiedian/freenode)                             |
-| C https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash                        |
-| V https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub                          |
-|                                                                                             |
-| [github chengaopan](https://github.com/chengaopan/AutoMergePublicNodes?tab=readme-ov-file)  |
-| C https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml         |
-| V https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.txt         |
-|                                                                                             |
-| [github zhangkaiitugithub](https://github.com/zhangkaiitugithub/passcro)                    |
-| C https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml          |
-|                                                                                             |
-| [github peasoft](https://github.com/peasoft/NoMoreWalls)                                    |
-| C https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml                     |
-| C https://ghproxy.com/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml |
-| C https://ghproxy.net/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml |
-| C https://fastly.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.yml                        |
-| V https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt                     |
-| V https://ghproxy.com/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt |
-| V https://ghproxy.net/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt |
-| V https://fastly.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.txt                        |
-|                                                                                             |
-
-[//]: # (https://github.com/winston779)
-
-| 免费订阅                                                                                                                             |
-|----------------------------------------------------------------------------------------------------------------------------------|
-| [WARP(需要对cloudflare进行一些操作) 目前部分地区不可用](https://1.1.1.1/) [](https://one.one.one.one/)                                             |
-| [WARP 获取可用方案](https://warpplus.cc/)                                                                                              |
-| [打开链接获取地址](https://getafreenode.com/)                                                                                            |
-| [输入邮箱订阅](https://www.v2rayfree.eu.org/)                                                                                          |
-| [复制地址到客户端即可](https://neko-warp.nloli.xyz/)                                                                                       |
-| [复制地址到客户端即可](https://subs.zeabur.app/clash) [](https://tofree.zeabur.app/)                                                       |
-| [复制地址到客户端即可](https://links.bocchi2b.top/clash)                                                                                   |
-| [0/月-200G/月 Free 必须使用当前 CODE 注册](https://zero.76898102.xyz/auth/register?code=QAJI) [](https://2c.lol/) [](https://zero.2c.lol/) |
-
-| 自行搭建                                                       |
-|------------------------------------------------------------|
-| https://shluqu.github.io/                                  |
-| [WARP 本地或公网搭建](https://github.com/vvbbnn00/WARP-Clash-API) |
-
+# [客户端](./Proxy.md) [免费订阅](./ProxySubFree.md)
 # 付费订阅
 ###### （优惠码自行搜索）
+[//]: # (https://github.com/winston779)
+
 | [*便宜&新*]()                                                                                                           |
 |----------------------------------------------------------------------------------------------------------------------|
 | *不限制 注册无验证码*                                                                                                         |
@@ -267,7 +90,7 @@
 | [22/月-120G/月 万城网络](https://vc01.vc-vcity.com/#/register)                                         |
 | [66/季-100G/月 白月光](https://bygcloud.com/#/register?code=NmWFv1Se) [](https://bygcloud.com/#/home) |
 | [72/季-100G/月 MESL](https://in.mesl.cloud/#/register?code=6kMKKE0T)                               |
-| [196/半年-150G/月 Amy](https://www.amysecure.com/index.php)                                         |
+| [196/半年-150G/月 Amy 佩奇家分站](https://www.amysecure.com/index.php)                                   |
 |                                                                                                  |
 | [10/月-160G/月 Coffee Cloud](https://board.love-coffee.club/#/register)                            |
 | [19.9/月-180G/月 贝贝云](https://beibeicloud.shop/#/login)                                            |
@@ -279,7 +102,7 @@
 | [12/月-300G/月 ikuuu](https://ikuuu.pw/)                                                           |
 | [52/月-200G/月 库洛米](https://www.kuromis.com/)                                                      |
 | [176/季-250G/月 自行搜索 TAG](https://tagss04.pro/)                                                    |
-| [117.46/月-500G/月 Nexitally](https://nxboom.com/index.aspx)                                       |
+| [117.46/月-500G/月 Nexitally 佩奇家主站](https://nxboom.com/index.aspx)                                 |
 
 # 论坛
 | 发布页                                                                                  |
