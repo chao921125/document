@@ -76,8 +76,6 @@
 | V https://fastly.jsdelivr.net/gh/peasoft/NoMoreWalls@master/list.txt                        |
 |                                                                                             |
 
-[//]: # (https://github.com/winston779)
-
 | 免费订阅                                                                                                                             |
 |----------------------------------------------------------------------------------------------------------------------------------|
 | [WARP(需要对cloudflare进行一些操作) 目前部分地区不可用](https://1.1.1.1/) [](https://one.one.one.one/)                                             |
