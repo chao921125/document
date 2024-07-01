@@ -88,7 +88,7 @@
 | [22/月-120G/月 万城网络](https://vc01.vc-vcity.com/#/register)                                         |
 | [66/季-100G/月 白月光](https://bygcloud.com/#/register?code=NmWFv1Se) [](https://bygcloud.com/#/home) |
 | [72/季-100G/月 MESL](https://in.mesl.cloud/#/register?code=6kMKKE0T)                               |
-| [196/半年-150G/月 Amy](https://www.amysecure.com/index.php)                                         |
+| [196/半年-150G/月 Amy 佩奇家分站](https://www.amysecure.com/index.php)                                   |
 |                                                                                                  |
 | [10/月-160G/月 Coffee Cloud](https://board.love-coffee.club/#/register)                            |
 | [19.9/月-180G/月 贝贝云](https://beibeicloud.shop/#/login)                                            |
@@ -100,7 +100,7 @@
 | [12/月-300G/月 ikuuu](https://ikuuu.pw/)                                                           |
 | [52/月-200G/月 库洛米](https://www.kuromis.com/)                                                      |
 | [176/季-250G/月 自行搜索 TAG](https://tagss04.pro/)                                                    |
-| [117.46/月-500G/月 Nexitally](https://nxboom.com/index.aspx)                                       |
+| [117.46/月-500G/月 Nexitally 佩奇家主站](https://nxboom.com/index.aspx)                                 |
 
 # 论坛
 | 发布页                                                                                  |
