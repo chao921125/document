@@ -6,6 +6,7 @@
 | [*便宜&新*]()                                                                                                           |
 |----------------------------------------------------------------------------------------------------------------------|
 | *不限制 注册无验证码*                                                                                                         |
+| [19/年-1000G/月 白嫖机场](https://yes.xn--mesv7f5toqlp.com/#/register?code=IJNJjQW3)                                       |
 | [15/季-1024G/月 两元店](https://liangyuandian.xyz/#/register?code=QDQsCmGa)                                               |
 | [9.99/年-100G/月 三毛机场](https://www.xn--ehqx7tcnnope.com/#/register)                                                    |
 | [11/年-500G/月 便宜机场](https://xn--wtq35pfyd55o.com/#/register?code=PRskobJz)                                            |
