@@ -23,6 +23,8 @@
 | [20/年-200G/月 翻墙机场](https://xn--mest5a943ag8x.com/#/register)                                                         |
 | [20/年-200G/月 低价机场](https://xn--6nq0hk9tdjr.com/#/register)                                                           |
 | [10/月-100G/月 Kepa云](https://a.kepayun.lol/#/register)                                                                |
+| [3/月-100G/月 WindyCloud](https://portal.passgfw.top/#/register)                                                       |
+| [3/月-500G/月 极速云机场](https://xn--kbtz0ztjtvlp.com/)                                                                    |
 |                                                                                                                      |
 | *限制*                                                                                                                 |
 | [1/月-50G/月 性价比机场](https://xingjiabijichang.vip/#/register?code=6v77KWIz)                                             |
