@@ -11,7 +11,10 @@
 | [10/年-1000G/月 果粒橙](https://guolicheng.cc/index.php#/register)                                                        |
 | [11/年-500G/月 便宜机场](https://xn--wtq35pfyd55o.com/#/register?code=PRskobJz)                                            |
 | [12/年-200G/月 杜卡迪](https://www.dukadi.one/#/register)                                                                 |
+| [12/年-200G/月 顶级机场](https://xn--mes358a9urctx.com/#/register)                                                         |
 | [13/年-100G/月 注册送 10G 3天 fscloud](https://dcanp4109.fsc.fscloud.cc/#/register?code=1umqePA4) [](https://fscloud.vip/) |
+| [8/月-100G/月 一毛机场](https://xn--4gqu8tcnnope.com/#/register)                                                           |
+| [9.9/月-500G/月 老百姓机场](https://xn--mes53ddysu0o3gl.com/#/register)                                                     |
 |                                                                                                                      |
 | *不限制*                                                                                                                |
 | [12/年-50G/月 一元机场](https://xn--4gq62f52gdss.com/#/register?code=y2BjORPu)                                             |
@@ -36,6 +39,8 @@
 |                                                                                                               |
 | [72/年-100G/月 一号测速](https://yihao42.buzz/#/register?code=yX4UyKwx) [](https://xn--4gq48l11y805a.com/)          |
 | [8/月-100G/月 SausageCloud](https://reborn.kaochang.ltd/#/register?code=EU9d7PnU)                               |
+| [12/月-100G/月 Teacat](https://teacat.cloud/#/register)                                                         |
+| [12.5/月-100G/月 starlinkcloud 星链云](https://starlinkcloud.lol/#/register)                                       |
 | [10/月-128G/月 次元雲](https://ciyy.cc/index.php#/register)                                                        |
 | [15/月-100G/月 飞鸟 FlyingBird](https://fbaff02.flyb-aff01.com/auth/register?code=GXsW) [](https://flyingbird.cc) |
 | [15.99/月-100G/月 海獭](https://haita.io/register?aff=DERuAJGA)                                                   |
@@ -49,6 +54,7 @@
 | [*不限制*]()                                                                               |
 |-----------------------------------------------------------------------------------------|
 | [9.99/月-130G/月 sac cloud](https://sacyun.co/index.php#/register)                        |
+| [10.8/月-120G/月 okokcloud](https://okokcloud.net/index.html)                             |
 | [10/月-130G/月 coffeecloud](https://portal.coffeecloud.top/#/register)                    |
 | [15/月-100G/月 一云梯机场](https://1yunti.org/)                                                |
 | [15/月-100G/月 龙猫云 Totoro Cloud](https://lmspeedapp.com/#/register?code=8JnnPAyd)         |
@@ -94,6 +100,7 @@
 |                                                                                                  |
 | [10/月-160G/月 Coffee Cloud](https://board.love-coffee.club/#/register)                            |
 | [19.9/月-180G/月 贝贝云](https://beibeicloud.shop/#/login)                                            |
+| [17.8/月-200G/月 tapfog](https://tapfog.com/#/register)                                            |
 | [29/月-200G/月 自行搜索 悠兔](https://youtu.shop/)                                                       |
 | [39/月-200G/月 BoostNet](https://boostnet.top/#/register)                                          |
 | [49/月-120G/月 WgetCloud](https://invite.wgetcloud.ltd/auth/register?code=Y7ytZ1)                  |
