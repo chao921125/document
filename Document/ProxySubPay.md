@@ -8,7 +8,6 @@
 | *不限制 注册无验证码*                                                                                                         |
 | [15/季-1024G/月 两元店](https://liangyuandian.xyz/#/register?code=QDQsCmGa)                                               |
 | [9.99/年-100G/月 三毛机场](https://www.xn--ehqx7tcnnope.com/#/register)                                                    |
-| [10/年-1000G/月 果粒橙](https://guolicheng.cc/index.php#/register)                                                        |
 | [11/年-500G/月 便宜机场](https://xn--wtq35pfyd55o.com/#/register?code=PRskobJz)                                            |
 | [12/年-200G/月 杜卡迪](https://www.dukadi.one/#/register)                                                                 |
 | [12/年-200G/月 顶级机场](https://xn--mes358a9urctx.com/#/register)                                                         |
@@ -41,6 +40,7 @@
 | [8/月-100G/月 SausageCloud](https://reborn.kaochang.ltd/#/register?code=EU9d7PnU)                               |
 | [12/月-100G/月 Teacat](https://teacat.cloud/#/register)                                                         |
 | [12.5/月-100G/月 starlinkcloud 星链云](https://starlinkcloud.lol/#/register)                                       |
+| [13.88/月-100G/月 果粒橙](https://guolicheng.cc/index.php#/register)                                               |
 | [10/月-128G/月 次元雲](https://ciyy.cc/index.php#/register)                                                        |
 | [15/月-100G/月 飞鸟 FlyingBird](https://fbaff02.flyb-aff01.com/auth/register?code=GXsW) [](https://flyingbird.cc) |
 | [15.99/月-100G/月 海獭](https://haita.io/register?aff=DERuAJGA)                                                   |
