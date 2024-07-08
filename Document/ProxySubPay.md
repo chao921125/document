@@ -3,7 +3,7 @@
 ###### （优惠码自行搜索）
 [//]: # (https://github.com/winston779)
 
-| [*便宜&新*]()                                                                                                           |
+| [*一分价钱一分货*]()                                                                                                        |
 |----------------------------------------------------------------------------------------------------------------------|
 | *不限制 注册无验证码*                                                                                                         |
 | [19/年-1000G/月 白嫖机场](https://yes.xn--mesv7f5toqlp.com/#/register?code=IJNJjQW3)                                       |
@@ -15,6 +15,13 @@
 | [13/年-100G/月 注册送 10G 3天 fscloud](https://dcanp4109.fsc.fscloud.cc/#/register?code=1umqePA4) [](https://fscloud.vip/) |
 | [8/月-100G/月 一毛机场](https://xn--4gqu8tcnnope.com/#/register)                                                           |
 | [9.9/月-500G/月 老百姓机场](https://xn--mes53ddysu0o3gl.com/#/register)                                                     |
+| [8/月-100G/月 SausageCloud](https://reborn.kaochang.ltd/#/register?code=EU9d7PnU)                                      |
+| [10/月-128G/月 次元雲](https://ciyy.cc/index.php#/register)                                                               |
+| [12/月-100G/月 Teacat](https://teacat.cloud/#/register)                                                                |
+| [12.5/月-100G/月 starlinkcloud 星链云](https://starlinkcloud.lol/#/register)                                              |
+| [13.88/月-100G/月 果粒橙](https://guolicheng.cc/index.php#/register)                                                      |
+| [10/月-200G/月 efcloud](https://www.easyfastcloud.com/#/register?code=2GE3ZtDg) [](https://easyfastcloud.com/)         |
+| [72/年-100G/月 一号测速](https://yihao42.buzz/#/register?code=yX4UyKwx) [](https://xn--4gq48l11y805a.com/)                 |
 |                                                                                                                      |
 | *不限制*                                                                                                                |
 | [12/年-50G/月 一元机场](https://xn--4gq62f52gdss.com/#/register?code=y2BjORPu)                                             |
@@ -26,10 +33,19 @@
 | [10/月-100G/月 Kepa云](https://a.kepayun.lol/#/register)                                                                |
 | [3/月-100G/月 WindyCloud](https://portal.passgfw.top/#/register)                                                       |
 | [3/月-500G/月 极速云机场](https://xn--kbtz0ztjtvlp.com/)                                                                    |
+| [10.8/月-120G/月 okokcloud](https://okokcloud.net/index.html)                                                          |
+| [10/月-130G/月 coffeecloud](https://portal.coffeecloud.top/#/register)                                                 |
+|                                                                                                                      |
+| *限制 注册无验证码*                                                                                                          |
+| [10/月-100G/月 最萌の云](https://cutestcloud.com/#/register)                                                               |
+| [12.8/月-320/月 喵酥云](https://www.miaosu.xyz/#/register)                                                                |
 |                                                                                                                      |
 | *限制*                                                                                                                 |
 | [1/月-50G/月 性价比机场](https://xingjiabijichang.vip/#/register?code=6v77KWIz)                                             |
-|                                                                                                                      |
+| [12.8/月-88G/月 纷达](https://fenda.cloud/auth/register)                                                                 |
+| [10/月-100G/月 注册送 888GB 1周 墙了个墙](https://www.qlgq.top/auth/register?code=bfaaa4eb65)                                  |
+| [10/月-160G/月 Coffee Cloud](https://board.love-coffee.club/#/register)                                                |
+| [12/月-300G/月 ikuuu](https://ikuuu.pw/)                                                                               |
 
 | [*不限制 不限时长*]()                                                                                                       |
 |----------------------------------------------------------------------------------------------------------------------|
@@ -39,26 +55,16 @@
 |---------------------------------------------------------------------------------------------------------------|
 | [15/月-50G/月 老猫云](https://laomaoyun.net/#/login)                                                               |
 |                                                                                                               |
-| [72/年-100G/月 一号测速](https://yihao42.buzz/#/register?code=yX4UyKwx) [](https://xn--4gq48l11y805a.com/)          |
-| [8/月-100G/月 SausageCloud](https://reborn.kaochang.ltd/#/register?code=EU9d7PnU)                               |
-| [12/月-100G/月 Teacat](https://teacat.cloud/#/register)                                                         |
-| [12.5/月-100G/月 starlinkcloud 星链云](https://starlinkcloud.lol/#/register)                                       |
-| [13.88/月-100G/月 果粒橙](https://guolicheng.cc/index.php#/register)                                               |
-| [10/月-128G/月 次元雲](https://ciyy.cc/index.php#/register)                                                        |
 | [15/月-100G/月 飞鸟 FlyingBird](https://fbaff02.flyb-aff01.com/auth/register?code=GXsW) [](https://flyingbird.cc) |
 | [15.99/月-100G/月 海獭](https://haita.io/register?aff=DERuAJGA)                                                   |
 | [18/月-100G/月 CyberGuard](https://cyberguard.top/index.php#/register?code=HsiGRr69)                            |
 | [20/月-100G/月 闪电猫 SpeedCAT](https://scaff01.scvipaff.com/auth/register?code=U6L9) [](https://speedcat.me/)     |
 | [20/月-100G/月 fastlink](https://fastlink.ws/auth/register)                                                     |
 |                                                                                                               |
-| [10/月-200G/月 efcloud](https://www.easyfastcloud.com/#/register?code=2GE3ZtDg) [](https://easyfastcloud.com/)  |
 | [23.8/月-180G/月 Anyland](https://anyland.club/#/register?code=xvfqFY02)                                        |
 
 | [*不限制*]()                                                                               |
 |-----------------------------------------------------------------------------------------|
-| [9.99/月-130G/月 sac cloud](https://sacyun.co/index.php#/register)                        |
-| [10.8/月-120G/月 okokcloud](https://okokcloud.net/index.html)                             |
-| [10/月-130G/月 coffeecloud](https://portal.coffeecloud.top/#/register)                    |
 | [15/月-100G/月 一云梯机场](https://1yunti.org/)                                                |
 | [15/月-100G/月 龙猫云 Totoro Cloud](https://lmspeedapp.com/#/register?code=8JnnPAyd)         |
 | [19.9/月-100G/月 大哥云](https://www.dageyun.net/#/register)                                 |
@@ -73,7 +79,6 @@
 
 | [*限制在线 无验证码*]()                                                                                        |
 |--------------------------------------------------------------------------------------------------------|
-| [10/月-100G/月 最萌の云](https://cutestcloud.com/#/register)                                                 |
 | [15/月-100G/月 小鸡快跑 Chicken Run](https://xiaojicf.com/#/register)                                        |
 | [15/月-100G/月 ss-id](https://ss-id.com/#/register)                                                      |
 | [15.9/月-100G/月 疾风云](https://jifeng3267.xyz/auth/register)                                              |
@@ -87,14 +92,11 @@
 |                                                                                                        |
 | [20/月-160G/月 青森云 Cyanmori](https://sub.cccc.gg/auth/register)                                          |
 | [20/月-200G/月 肥猫云 FATCAT](https://www.fatcatcf.com/#/register)                                          |
-| [12.8/月-320/月 喵酥云](https://www.miaosu.xyz/#/register)                                                  |
 
 | [*限制在线*]()                                                                                       |
 |--------------------------------------------------------------------------------------------------|
-| [12.8/月-88G/月 纷达](https://fenda.cloud/auth/register)                                             |
 | [15.99/月-80G/月 arisaka](https://www.arisaka.io/#/register)                                       |
 |                                                                                                  |
-| [10/月-100G/月 注册送 888GB 1周 墙了个墙](https://www.qlgq.top/auth/register?code=bfaaa4eb65)              |
 | [15.9/月-100G/月 蓝帆云](https://lanfan.cloud/auth/register)                                          |
 | [17/月-120G/月 萌喵加速](https://www.meomiao.com/)                                                     |
 | [22/月-120G/月 万城网络](https://vc01.vc-vcity.com/#/register)                                         |
@@ -102,7 +104,6 @@
 | [72/季-100G/月 MESL](https://in.mesl.cloud/#/register?code=6kMKKE0T)                               |
 | [196/半年-150G/月 Amy 佩奇家分站](https://www.amysecure.com/index.php)                                   |
 |                                                                                                  |
-| [10/月-160G/月 Coffee Cloud](https://board.love-coffee.club/#/register)                            |
 | [19.9/月-180G/月 贝贝云](https://beibeicloud.shop/#/login)                                            |
 | [17.8/月-200G/月 tapfog](https://tapfog.com/#/register)                                            |
 | [29/月-200G/月 自行搜索 悠兔](https://youtu.shop/)                                                       |
@@ -110,7 +111,6 @@
 | [49/月-120G/月 WgetCloud](https://invite.wgetcloud.ltd/auth/register?code=Y7ytZ1)                  |
 | [50/月-200G/月 Element](https://www.yuansu.uk/)                                                    |
 |                                                                                                  |
-| [12/月-300G/月 ikuuu](https://ikuuu.pw/)                                                           |
 | [52/月-200G/月 库洛米](https://www.kuromis.com/)                                                      |
 | [176/季-250G/月 自行搜索 TAG](https://tagss04.pro/)                                                    |
 | [117.46/月-500G/月 Nexitally 佩奇家主站](https://nxboom.com/index.aspx)                                 |
