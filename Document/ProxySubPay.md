@@ -80,6 +80,7 @@
 | [15.9/月-100G/月 naiunet](https://www.naiunet.com/register)                                              |
 | [16.9/月-100G/月 xx-ai](https://xx-ai.uk/auth/register)                                                  |
 | [19.9/月-100G/月 桔子云](https://juzicloud.net/auth/register)                                               |
+| [19.9/月-100G/月 LIME](https://ykxqn.com/#/register?code=sbWv8dL7)                                       |
 | [19.9/月-100G/月 速云梯](https://suyunti981.xyz/auth/register?code=uYMg) [](https://suyunti.com/)           |
 | [19.99/月-100G/月 飞机云 签到送流量](https://feijiyun38.xyz/auth/register?code=XFbr) [](https://feijicloud.com/) |
 | [25/月-100G/月 catnet 网猫](https://catnet.369.cyou/)                                                      |
