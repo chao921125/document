@@ -35,6 +35,7 @@
 | [3/月-500G/月 极速云机场](https://xn--kbtz0ztjtvlp.com/)                                                                    |
 | [10.8/月-120G/月 okokcloud](https://okokcloud.net/index.html)                                                          |
 | [10/月-130G/月 coffeecloud](https://portal.coffeecloud.top/#/register)                                                 |
+| [10/月-100G/月 Scrssr](https://www.scrssr.com/)                                                                        |
 |                                                                                                                      |
 | *限制 注册无验证码*                                                                                                          |
 | [10/月-100G/月 最萌の云](https://cutestcloud.com/#/register)                                                               |
@@ -108,6 +109,7 @@
 |                                                                                                  |
 | [19.9/月-180G/月 贝贝云](https://beibeicloud.shop/#/login)                                            |
 | [17.8/月-200G/月 tapfog](https://tapfog.com/#/register)                                            |
+| [30/月-150G/月 bywave](https://bywavesite.github.io/)                                              |
 | [29/月-200G/月 自行搜索 悠兔](https://youtu.shop/)                                                       |
 | [39/月-200G/月 BoostNet](https://boostnet.top/#/register)                                          |
 | [49/月-120G/月 WgetCloud](https://invite.wgetcloud.ltd/auth/register?code=Y7ytZ1)                  |
@@ -117,13 +119,14 @@
 | [176/季-250G/月 自行搜索 TAG](https://tagss04.pro/)                                                    |
 | [117.46/月-500G/月 Nexitally 佩奇家主站](https://nxboom.com/index.aspx)                                 |
 
-| https://github.com/winston779?tab=repositories            |
-|-----------------------------------------------------------|
-| [10/月-100G/月 Scrssr](https://www.scrssr.com/)             |
-| [15/月-100G/月 overwall](https://overwall.run/)             |
-| [15/月-100G/月 wescloud](https://wescloud.xyz/)             |
-| [FireFly 萤火虫](https://www.yhcvpn.xyz/index.php#/register) |
-| [18/月-150G/月 百变小樱](https://bbxy.shop/)                    |
+| https://github.com/winston779?tab=repositories                |
+|---------------------------------------------------------------|
+| [22/月-120G/月 万城网络](https://port01.wc-yz.com/#/login)          |
+| [28/月-100G/月 flyintpro 飞数](https://www.flyintpro.com/#/login) |
+| [15/月-100G/月 overwall](https://overwall.run/)                 |
+| [15/月-100G/月 wescloud](https://wescloud.xyz/)                 |
+| [FireFly 萤火虫](https://www.yhcvpn.xyz/index.php#/register)     |
+| [18/月-150G/月 百变小樱](https://bbxy.shop/)                        |
 
 # 论坛
 | 发布页                                                                                  |
