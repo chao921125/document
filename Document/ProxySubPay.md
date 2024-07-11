@@ -22,6 +22,7 @@
 | [13.88/月-100G/月 果粒橙](https://guolicheng.cc/index.php#/register)                                                      |
 | [10/月-200G/月 efcloud](https://www.easyfastcloud.com/#/register?code=2GE3ZtDg) [](https://easyfastcloud.com/)         |
 | [72/年-100G/月 一号测速](https://yihao42.buzz/#/register?code=yX4UyKwx) [](https://xn--4gq48l11y805a.com/)                 |
+| [8/月-100G/月 狗狗云](https://gouvpn.cn/)                                                                                 |
 |                                                                                                                      |
 | *不限制*                                                                                                                |
 | [12/年-50G/月 一元机场](https://xn--4gq62f52gdss.com/#/register?code=y2BjORPu)                                             |
@@ -126,6 +127,9 @@
 | [15/月-100G/月 overwall](https://overwall.run/)                 |
 | [15/月-100G/月 wescloud](https://wescloud.xyz/)                 |
 | [FireFly 萤火虫](https://www.yhcvpn.xyz/index.php#/register)     |
+| [FreeCloud](https://www.hkbn.xyz/#/login)                     |
+| [FreeCloud](https://www.freegfw.top/#/register)               |
+| [miyun](https://www.miyun.la/)                                |
 | [18/月-150G/月 百变小樱](https://bbxy.shop/)                        |
 
 # 论坛
