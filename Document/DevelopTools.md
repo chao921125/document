@@ -128,7 +128,8 @@ Pycharm 社区版免费 Community
 ## Data Base数据库连接
 [Navicat Premium](https://www.navicat.com.cn/download/navicat-premium)
 ```text
-破解方式请自行搜索，或则和关注公众号【CC NET】
+破解方式请自行搜索，或关注公众号【CC NET】
+https://gitlab.com/ajiajishu/navicat-keygen-16V
 ```
 ## 小程序 开发 请参考[小程序框架推荐](https://github.com/chao921125/vue-vite)
 [微信小程序](https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html)
