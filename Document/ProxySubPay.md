@@ -27,7 +27,7 @@
 | *不限制*                                                                                                                |
 | [12/年-50G/月 一元机场](https://xn--4gq62f52gdss.com/#/register?code=y2BjORPu)                                             |
 | [10/年-200G/月 注册送 5G 2天 免费机场](https://w.xn--94q57lcvpw50b.com/#/register?code=SCbFIcCw)                               |
-| [20/年-200G/月 注册送 20G 1年 廉价机场](https://xn--6nq44r2pg9mj.com/#/register?code=FeiARV4a)                                 |
+| [30/年-200G/月 注册送 20G 1年 廉价机场](https://xn--6nq44r2pg9mj.com/#/register?code=FeiARV4a)                                 |
 | [20/年-200G/月 三分机场](https://xn--ehq00hgtfdmt.xyz/#/register)                                                          |
 | [20/年-200G/月 翻墙机场](https://xn--mest5a943ag8x.com/#/register)                                                         |
 | [20/年-200G/月 低价机场](https://xn--6nq0hk9tdjr.com/#/register)                                                           |
