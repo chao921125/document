@@ -1,5 +1,5 @@
-# 开发、编程、软件运行环境
-[Homebrew 建议安装](https://brew.sh/)
+# 开发环境
+[Homebrew](https://brew.sh/)
 ```text
 官方指令安装
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)"
@@ -20,7 +20,7 @@ sudo launchctl load -w /Library/LaunchDaemons/com.oracle.oss.mysql.mysqld.plist
 ```
 [JDK 下载](https://www.oracle.com/cn/java/technologies/downloads/)
 ```text
-请下载 LTS 版本，目前对应 17
+请下载 LTS 版本，目前对应 21(21.0.3)，长期版本为 JDK8(8u411) 和 JDK11(11.0.23)
 多版本jdk请在系统配置文件中设置即可
 Windows 环境下 请务必配置JDK的环境变量
 JAVA_HOME path
@@ -30,20 +30,32 @@ Path
 ```shell
 # ENV JDK mac os 下多版本配置
 export JAVA8_HOME=/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
+export JAVA11_HOME=/Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home
 export JAVA_HOME=$JAVA_HOME
 alias jdk8="export JAVA_HOME=$JAVA8_HOME"
+alias jdk11="export JAVA_HOME=$JAVA11_HOME"
 alias jdk="export JAVA_HOME=$JAVA_HOME"
-# ENV Python
-alias python=/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11
-# ENV Flutter
-export PATH="$PATH:/Users/huangchao/WorkSoft/flutter/bin"
 ```
+[BunJS 下载](https://bun.sh/) |
 [NodeJS 下载](https://nodejs.org/en/download/) |
 [pnpm 包管理 内含 node 版本管理，可以不用 nvm 等包管理器](https://www.pnpm.cn/installation/) |
-[NodeJS多版本管理 nvm MacOS](https://github.com/nvm-sh/nvm/) [nvm Windows](https://github.com/nvm-sh/nvm#install--update-script)
+[NodeJS多版本管理 nvm MacOS](https://github.com/nvm-sh/nvm/) [NodeJS多版本管理 nvm Windows](https://github.com/nvm-sh/nvm#install--update-script)
+```shell
+# 安装并使用 lts 最新长期支持版本或者指定的版本 --global or -g
+pnpm env use --global lts
+pnpm env use --global 18.0.0
+# 安装指定的版本
+pnpm env add --global lts 18 20.0.0
+# 删除指定版本
+pnpm env remove --global 14.0.0 16.0.0
+# 查看本地安装列表
+pnpm env list
+# 查看远程可安装列表
+pnpm env list --remote
+```
 ```text
-多版本nodejs推荐使用nvm管理（安装前请查看最新版本）
+使用nvm管理多版本nodejs（安装前请查看最新版本）
 nvm安装 https://github.com/nvm-sh/nvm
 Mac: （~/.zshrc）
     curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
@@ -69,6 +81,10 @@ Win：iwr https://get.pnpm.io/install.ps1 -useb | iex
 ```text
 不再建议安装Python 2.x 版本
 ```
+```shell
+# ENV Python
+alias python=/Library/Frameworks/Python.framework/Versions/3.12/bin/python3.12
+```
 [Git 下载](https://git-scm.com/) |
 [Git 官方客户端](https://desktop.github.com/) |
 [Git 其他三方客户端](https://git-scm.com/downloads/guis)
@@ -82,9 +98,9 @@ MacPorts
 Install MacPorts if you don't already have it, then:
 $ sudo port install git
 ```
-# 开发、编程、软件工具
+# 软件工具
 ## 全能开发工具
-[Visual Studio Code 简称VSCode 微软免费 强大 推荐](https://code.visualstudio.com/Download)
+[Visual Studio Code 简称VSCode 微软免费 强大 推荐 插件多了会很卡！！！](https://code.visualstudio.com/Download)
 ```text
 VSCode 下载时请选择 System Installer
 ```
@@ -124,3 +140,7 @@ Pycharm 社区版免费 Community
 [华为 ArkTS](https://developer.harmonyos.com/cn/develop/deveco-studio/#download)
 [HbuilderX](https://www.dcloud.io/hbuilderx.html)
 []()
+```shell
+# ENV Flutter
+export PATH="$PATH:/Users/huangchao/WorkSoft/flutter/bin"
+```
