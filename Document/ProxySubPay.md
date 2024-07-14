@@ -13,6 +13,7 @@
 | [12/年-200G/月 杜卡迪](https://www.dukadi.one/#/register)                                                                 |
 | [12/年-200G/月 顶级机场](https://xn--mes358a9urctx.com/#/register)                                                         |
 | [13/年-100G/月 注册送 10G 3天 fscloud](https://dcanp4109.fsc.fscloud.cc/#/register?code=1umqePA4) [](https://fscloud.vip/) |
+| [5/月-150G/月 流量光](https://llgjc1.com/#/login)                                                                         |
 | [8/月-100G/月 一毛机场](https://xn--4gqu8tcnnope.com/#/register)                                                           |
 | [9.9/月-500G/月 老百姓机场](https://xn--mes53ddysu0o3gl.com/#/register)                                                     |
 | [8/月-100G/月 SausageCloud](https://reborn.kaochang.ltd/#/register?code=EU9d7PnU)                                      |
