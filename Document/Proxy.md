@@ -5,7 +5,6 @@
 |-----------------------------------------------------------------------------------------------------------|
 | [clash-verge-rev 👍推荐](https://github.com/clash-verge-rev/clash-verge-rev)                                |
 | [clash-nyanpasu](https://github.com/keiko233/clash-nyanpasu)                                              |
-| [sing-box](https://github.com/SagerNet/sing-box) [sing-box 官网 全平台支持](https://sing-box.sagernet.org/zh/)   |
 | [hiddify-next 据说不是特别好用](https://github.com/hiddify/hiddify-next) [hiddify 官网 全平台支持](https://hiddify.com/) |
 | [shadowsocks](https://github.com/shadowsocks/shadowsocks-rust)                                            |
 
@@ -60,13 +59,14 @@
 |---------------------------------------------------------------------|
 | [SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega/releases) |
 
-| 内核 Core                                               |
-|-------------------------------------------------------|
-| [v2ray-core](https://github.com/v2fly/v2ray-core)     |
-| [v2ray-core](https://github.com/v2ray/v2ray-core)     |
-| [clash all](https://github.com/DustinWin/clash-tools) |
-| [mihomo](https://github.com/MetaCubeX/mihomo)         |
-| [Xray-core](https://github.com/XTLS/Xray-core)        |
+| 内核 Core                                                                                                   |
+|-----------------------------------------------------------------------------------------------------------|
+| [sing-box](https://github.com/SagerNet/sing-box) [sing-box 官网 全平台支持](https://sing-box.sagernet.org/zh/)   |
+| [v2ray-core](https://github.com/v2fly/v2ray-core)                                                         |
+| [clash all](https://github.com/DustinWin/clash-tools)                                                     |
+| [mihomo](https://github.com/MetaCubeX/mihomo)                                                             |
+| [Xray-core](https://github.com/XTLS/Xray-core)                                                            |
+| [v2ray-core](https://github.com/v2ray/v2ray-core)                                                         |
 
 | 规则                                                                   |
 |----------------------------------------------------------------------|
