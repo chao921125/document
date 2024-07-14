@@ -22,15 +22,17 @@
 | [v2rayA](https://github.com/v2rayA/v2rayA)                                            |
 | [sing-box GUI.for.SingBox](https://github.com/GUI-for-Cores/GUI.for.SingBox/releases) |
 | [nekoray](https://github.com/MatsuriDayo/nekoray/releases)                            |
+| [karing](https://github.com/KaringX/karing/releases)                                  |
 
-| Android                                                                               |
-|---------------------------------------------------------------------------------------|
-| [v2rayNG 👍推荐](https://github.com/2dust/v2rayNG)                                      |
-| [ClashMetaForAndroid 👍推荐](https://github.com/MetaCubeX/ClashMetaForAndroid/releases) |
-| [surfboard](https://github.com/getsurfboard/surfboard/releases)                       |
-| [NekoBoxForAndroid](https://github.com/MatsuriDayo/NekoBoxForAndroid)                 |
-| [shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android/releases)    |
-| [oneclick](https://oneclick.earth/#/)                                                 |
+| Android                                                                                     |
+|---------------------------------------------------------------------------------------------|
+| [v2rayNG 👍推荐](https://github.com/2dust/v2rayNG)                                            |
+| [ClashMetaForAndroid 👍推荐](https://github.com/MetaCubeX/ClashMetaForAndroid/releases)       |
+| [surfboard](https://github.com/getsurfboard/surfboard/releases)                             |
+| [NekoBoxForAndroid](https://github.com/MatsuriDayo/NekoBoxForAndroid)                       |
+| [shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android/releases)          |
+| [oneclick](https://oneclick.earth/#/)                                                       |
+| [karing](https://github.com/KaringX/karing/releases)                                        |
 
 | IOS （付费）                                                                         |
 |----------------------------------------------------------------------------------|
