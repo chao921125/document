@@ -29,20 +29,22 @@
 | [surfboard](https://github.com/getsurfboard/surfboard/releases)                       |
 | [NekoBoxForAndroid](https://github.com/MatsuriDayo/NekoBoxForAndroid)                 |
 | [shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android/releases)    |
+| [oneclick](https://oneclick.earth/#/)                                                 |
 
-| IOS （付费）                                                                 |
-|--------------------------------------------------------------------------|
-| [Surge 美 免费](https://apps.apple.com/us/app/surge-5/id1442620678)         |
-| [Shadowrocket GitHub](https://github.com/Shadowrocket)                   |
-| [Shadowrocket 美](https://apps.apple.com/us/app/shadowrocket/id932747118) |
-| [Shadowrocket 港](https://apps.apple.com/hk/app/shadowrocket/id932747118) |
-| [Quantumult GitHub](https://github.com/crossutility/Quantumult)          |
-| [Quantumult 美](https://apps.apple.com/us/app/quantumult/id1252015438)    |
-| [Quantumult 港](https://apps.apple.com/hk/app/quantumult/id1252015438)    |
-| [QuantumultX GitHub](https://github.com/crossutility/Quantumult-X)       |
-| [QuantumultX 美](https://apps.apple.com/us/app/quantumult-x/id1443988620) |
-| [QuantumultX 港](https://apps.apple.com/hk/app/quantumult-x/id1443988620) |
-| [Loon 美](https://apps.apple.com/us/app/loon/id1373567447)                |
+| IOS （付费）                                                                         |
+|----------------------------------------------------------------------------------|
+| [oneclick](https://oneclick.earth/#/)                                            |
+| [Surge 美 免费](https://apps.apple.com/us/app/surge-5/id1442620678)                 |
+| [Shadowrocket GitHub](https://github.com/Shadowrocket)                           |
+| [Shadowrocket 美](https://apps.apple.com/us/app/shadowrocket/id932747118)         |
+| [Shadowrocket 港](https://apps.apple.com/hk/app/shadowrocket/id932747118)         |
+| [Quantumult GitHub](https://github.com/crossutility/Quantumult)                  |
+| [Quantumult 美](https://apps.apple.com/us/app/quantumult/id1252015438)            |
+| [Quantumult 港](https://apps.apple.com/hk/app/quantumult/id1252015438)            |
+| [QuantumultX GitHub](https://github.com/crossutility/Quantumult-X)               |
+| [QuantumultX 美](https://apps.apple.com/us/app/quantumult-x/id1443988620)         |
+| [QuantumultX 港](https://apps.apple.com/hk/app/quantumult-x/id1443988620)         |
+| [Loon 美](https://apps.apple.com/us/app/loon/id1373567447)                        |
 
 | 路由器                                                                  |
 |----------------------------------------------------------------------|
