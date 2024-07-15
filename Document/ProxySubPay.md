@@ -10,6 +10,7 @@
 | [- 19/年-1000G/月 白嫖机场](https://yes.xn--mesv7f5toqlp.biz/register?code=IJNJjQW3)                                 |
 | [- 9.99/年-100G/月 三毛机场](https://www.xn--ehqx7tcnnope.com/#/register)                                            |
 | [- 12/年-200G/月 杜卡迪](https://www.dukadi.one/#/register)                                                         |
+| [- 5/月-100G/月 云安云](https://云安云.com)                                                                            |
 | [- 5/月-150G/月 流量光](https://llgjc1.com/#/login)                                                                 |
 | [- 8/月-100G/月 狗狗云](https://gouvpn.cn/)                                                                         |
 | [- 10/月-200G/月 efcloud](https://www.easyfastcloud.com/#/register?code=2GE3ZtDg) [](https://easyfastcloud.com/) |
