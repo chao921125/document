@@ -1,6 +1,6 @@
 # [客户端](./Proxy.md) [免费订阅](./ProxySubFree.md)
 # 付费订阅
-###### （优惠码自行搜索）
+###### （优惠码自行搜索）删除账号的已被踢除
 [//]: # (https://github.com/winston779)
 
 | [*15/月以下*]()                                                                                                         |
@@ -35,9 +35,12 @@
 | [10/月-100G/月 Kepa云](https://a.kepayun.lol/#/register)                                                                |
 | [3/月-100G/月 WindyCloud](https://portal.passgfw.top/#/register)                                                       |
 | [3/月-500G/月 极速云机场](https://xn--kbtz0ztjtvlp.com/)                                                                    |
+| [12/月-80G/月 纸巾云机场](https://papercloud.pro/#/register?code=XgjIuvDD)                                                  |
 | [10.8/月-120G/月 okokcloud](https://okokcloud.net/index.html)                                                          |
 | [10/月-130G/月 coffeecloud](https://portal.coffeecloud.top/#/register)                                                 |
 | [10/月-100G/月 Scrssr](https://www.scrssr.com/)                                                                        |
+| [10/月-120G/月 Riolu 精灵学院](https://o.riolu.ooo/)                                                                       |
+| [12/月-150G/月 夜煞云](https://user.night-furyx.com/)                                                                     |
 |                                                                                                                      |
 | *限制 注册无验证码*                                                                                                          |
 | [10/月-100G/月 最萌の云](https://cutestcloud.com/#/register)                                                               |
@@ -58,6 +61,7 @@
 |---------------------------------------------------------------------------------------------------------------|
 | [15/月-100G/月 飞鸟 FlyingBird](https://fbaff02.flyb-aff01.com/auth/register?code=GXsW) [](https://flyingbird.cc) |
 | [15.99/月-100G/月 海獭](https://haita.io/register?aff=DERuAJGA)                                                   |
+| [16.9/月-100G/月 XXAI](https://xx-ai.uk/auth/register)                                                          |
 | [18/月-100G/月 CyberGuard](https://cyberguard.top/index.php#/register?code=HsiGRr69)                            |
 | [20/月-100G/月 老猫云](https://laomaoyun.net/#/login) [](https://laomao.org/#/register)                            |
 | [20/月-100G/月 闪电猫 SpeedCAT](https://scaff01.scvipaff.com/auth/register?code=U6L9) [](https://speedcat.me/)     |
