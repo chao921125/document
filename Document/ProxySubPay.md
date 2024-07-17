@@ -36,6 +36,7 @@
 | [10/月-100G/月 Kepa云](https://a.kepayun.lol/#/register)                                                          |
 | [3/月-100G/月 WindyCloud](https://portal.passgfw.top/#/register)                                                 |
 | [3/月-500G/月 极速云机场](https://xn--kbtz0ztjtvlp.com/)                                                              |
+| [9/月-100G/月 中转机场](https://xn--fiq93tcnn892b.com/#/register)                                                    |
 | [12/月-80G/月 纸巾云机场](https://papercloud.pro/#/register?code=XgjIuvDD)                                            |
 | [10/月-128G/月 次元雲](https://ciyy.cc/index.php#/register)                                                         |
 | [10.8/月-120G/月 okokcloud](https://okokcloud.net/index.html)                                                    |
