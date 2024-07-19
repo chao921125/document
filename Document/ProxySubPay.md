@@ -14,7 +14,7 @@
 | [- 6/月-100G/月 淘气兔](https://xn--mesq4iw0lg80a.com/)                                                             |
 | [- 5/月-150G/月 流量光](https://llgjc1.com/#/login)                                                                 |
 | [- 8/月-100G/月 狗狗云](https://gouvpn.cn/) [](http://狗狗云.com)                                                      |
-| [- 10/月-80G/月 大迅云 大讯云](https://daxun.pro/#/home)                                                               |
+| [- 10/月-80G/月 大讯云](https://daxun.pro/#/home)                                                                   |
 | [- 9.9/月-128G/月 贝利塔](https://beilita.com/#/plan)                                                               |
 | [- 10/月-200G/月 efcloud](https://www.easyfastcloud.com/#/register?code=2GE3ZtDg) [](https://easyfastcloud.com/) |
 | [- 12.5/月-100G/月 starlinkcloud 星链云](https://starlinkcloud.lol/#/register)                                      |
