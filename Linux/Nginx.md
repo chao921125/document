@@ -79,3 +79,9 @@ systemctl stop nginx
 # 重启 Nginx 服务
 systemctl restart nginx
 ```
+
+# 403
+```shell
+# ng html 目录下执行
+chmod -R 777 *
+```
