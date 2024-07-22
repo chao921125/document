@@ -49,7 +49,7 @@
 | [12/月-150G/月 夜煞云](https://user.night-furyx.com/)                                                               |
 |                                                                                                                |
 | *限制 注册无验证码*                                                                                                    |
-| [10/月-100G/月 最萌の云](https://cutestcloud.com/#/register)                                                         |
+| [- 10/月-100G/月 最萌の云](https://cutestcloud.com/#/register)                                                       |
 | [12.8/月-320/月 喵酥云](https://www.miaosu.xyz/#/register)                                                          |
 |                                                                                                                |
 | *限制*                                                                                                           |
