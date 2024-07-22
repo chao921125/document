@@ -86,6 +86,7 @@
 | [复制地址到客户端即可](https://subs.zeabur.app/clash) [](https://tofree.zeabur.app/)                                                       |
 | [复制地址到客户端即可](https://links.bocchi2b.top/clash)                                                                                   |
 | [0/月-200G/月 Free 必须使用当前 CODE 注册](https://zero.76898102.xyz/auth/register?code=QAJI) [](https://2c.lol/) [](https://zero.2c.lol/) |
+| [13/年-100G/月 有试用 fscloud 邮箱随便填](https://dcanp4109.fsc.fscloud.cc/#/register?code=1umqePA4) [](https://fscloud.vip/)              |
 
 | 自行搭建                                                       |
 |------------------------------------------------------------|

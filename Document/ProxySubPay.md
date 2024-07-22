@@ -9,6 +9,7 @@
 | [=- 19/年-1000G/月 白嫖机场](https://yes.xn--mesv7f5toqlp.biz/register?code=IJNJjQW3)                                 |
 | [=- 9.99/年-100G/月 三毛机场](https://www.xn--ehqx7tcnnope.com/#/register)                                            |
 | [=- 12/年-200G/月 杜卡迪](https://www.dukadi.one/#/register)                                                         |
+| [- 3/月-500G/月 极速云机场](https://xn--kbtz0ztjtvlp.com/)                                                             |
 | [- 5/月-100G/月 WindyCloud](https://portal.passgfw.top/#/register)                                                |
 | [- 5/月-100G/月 云安云](https://云安云.com)                                                                             |
 | [- 6/月-100G/月 淘气兔](https://xn--mesq4iw0lg80a.com/)                                                              |
@@ -22,7 +23,6 @@
 | [= 15/季-1024G/月 两元店](https://liangyuandian.xyz/#/register?code=QDQsCmGa)                                        |
 | [= 11/年-500G/月 便宜机场](https://xn--wtq35pfyd55o.com/#/register?code=PRskobJz)                                     |
 | [= 12/年-200G/月 顶级机场](https://xn--mes358a9urctx.com/#/register)                                                  |
-| [= 13/年-100G/月 有试用 fscloud](https://dcanp4109.fsc.fscloud.cc/#/register?code=1umqePA4) [](https://fscloud.vip/) |
 | [= 8/月-100G/月 一毛机场](https://xn--4gqu8tcnnope.com/#/register)                                                    |
 | [9.9/月-500G/月 老百姓机场](https://xn--mes53ddysu0o3gl.com/#/register)                                                |
 | [8/月-100G/月 SausageCloud](https://reborn.kaochang.ltd/#/register?code=EU9d7PnU)                                 |
@@ -36,7 +36,6 @@
 | [= 20/年-200G/月 三分机场](https://xn--ehq00hgtfdmt.xyz/#/register)                                                   |
 | [= 20/年-200G/月 翻墙机场](https://xn--mest5a943ag8x.com/#/register)                                                  |
 | [= 20/年-200G/月 低价机场](https://xn--6nq0hk9tdjr.com/#/register)                                                    |
-| [- 3/月-500G/月 极速云机场](https://xn--kbtz0ztjtvlp.com/)                                                             |
 | [9.9/月-70G/月 FreeCloud](https://www.freegfw.top/)                                                               |
 | [10/月-100G/月 Kepa云](https://a.kepayun.lol/#/register)                                                           |
 | [9/月-100G/月 中转机场](https://xn--fiq93tcnn892b.com/#/register)                                                     |
