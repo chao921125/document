@@ -152,5 +152,6 @@
 | [github WilliamStar007](https://github.com/WilliamStar007/ClashX-V2Ray-TopFreeProxy) |
 | [github snakem982](https://github.com/snakem982/proxypool)                           |
 | [github hwanz](https://github.com/hwanz/SSR-V2ray-Trojan-vpn)                        |
+| [Clash Node](https://52.mk/)                                                         |
 | [Clash Node](https://tzdaohang.com/)                                                 |
 | [Clash Node](https://www.ffq.la/)                                                    |
