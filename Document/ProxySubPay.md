@@ -45,7 +45,7 @@
 | [10.8/月-120G/月 okokcloud](https://okokcloud.net/index.html)                                                    |
 | [10/月-130G/月 coffeecloud](https://portal.coffeecloud.top/#/register)                                           |
 | [10/月-100G/月 Scrssr](https://www.scrssr.com/)                                                                  |
-| [10/月-120G/月 Riolu 精灵学院](https://o.riolu.ooo/)                                                                 |
+| [10/月-120G/月 Riolu 精灵学院](https://o.riolu.ooo/) [](https://pub.riolu.icu/) [](https://info.riolu.icu)           |
 | [12/月-150G/月 夜煞云](https://user.night-furyx.com/)                                                               |
 |                                                                                                                |
 | *限制 注册无验证码*                                                                                                    |
@@ -152,7 +152,5 @@
 | [github WilliamStar007](https://github.com/WilliamStar007/ClashX-V2Ray-TopFreeProxy) |
 | [github snakem982](https://github.com/snakem982/proxypool)                           |
 | [github hwanz](https://github.com/hwanz/SSR-V2ray-Trojan-vpn)                        |
-| [clashsub](https://clashsub.com/)                                                    |
-| [Clash Node](https://clashnode.xyz/)                                                 |
 | [Clash Node](https://tzdaohang.com/)                                                 |
 | [Clash Node](https://www.ffq.la/)                                                    |
