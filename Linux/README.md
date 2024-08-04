@@ -45,6 +45,9 @@ vim
 ## 修改权限
 chmod -R 777
 
+## 切换root权限
+sudo su -
+
 # Debian｜Ubuntu 分支相关 基本的依赖 wget/openssl/rpm 建议装上，后续装服务的时候这些依赖不需要装了
 # apt 安装后目录为
 ```text
