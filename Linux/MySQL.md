@@ -69,15 +69,53 @@ rpm -ivh mysql80-community-release-el7-11.noarch.rpm
 yum install -y mysql80-community-release-el7-11.noarch.rpm
 yum install -y mysql-community-server
 
+
 # 在 /etc/my.cnf 中添加 skip-grant-tables 临时免密码登录
+[mysqld]
+bind-address=0.0.0.0
+# 默认
+port=33306
+# 程序安装目录
+basedir=/usr/local/mysql/
+pid-file=/usr/local/mysql/mysql.pid
+# 多客户访问同一数据库，该选项默认开启
+# symbolic-link=0
+# 此目录被 MySQL用来保存临时文件
+tmpdir=/usr/local/mysql/tmp/
+# 打开时，和max_connections对比，取大数
+# open_files_limit=65535
+# 数据库目录
+datadir=/usr/local/mysql/data/
+log-error=/usr/local/mysql/logs/error.log
+# 开启慢查询日志相关
+slow_query_log=on
+# 默认10秒
+long_query_time=2
+# 慢查询日志路径
+slow_query_log_file=/usr/local/mysql/logs/slow_query.log
+# 记录没有使用索引的sql
+log-queries-not-using-indexes=1
+# 该条配置需在[client]段同时配置
+socket=/usr/local/mysql/mysql.sock
+default_storage_engine=InnoDB
+# InnoDB为独立表空间模式，每个数据库的每个表都会生成一个数据空间
+innodb_file_per_table=on
+# 生产中要改，建议为操作系统内存的70%-80%，需重启服务生效
+# innodb_buffer_pool_size=4G
+# 忽略主机名解析，提高访问速度（注意配置文件中使用主机名将不能解析）
+# skip_name_resolve=on
+# 忽略表单大小写
+lower_case_table_names=1
+# 设定默认字符为utf8mb4
+character-set-server=utf8mb4
+
 plugin-load-add=validate_password.so
 validate-password=FORCE_PLUS_PERMANENT
-validate_password.policy=LOW
 validate_password_policy=LOW
-validate_password.length=1
 validate_password_length=1
+# validate_password.policy=LOW
+# validate_password.length=1
 
-character-set-server=utf8mb4
 default_authentication_plugin=mysql_native_password
 lower_case_table_names=1
 sql_mode=STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
@@ -144,4 +182,55 @@ vim /etc/my.cnf
 # 退出 mysql \q 或者 quit;
 
 # mysql.sock
+
+# 离线安装指定的最后版本 mysql-8.0.33-el7-x86_64.tar.gz
+# 卸载 MariaDB 查看版本
+rpm -qa|grep mariadb
+# 卸载
+rpm -e --nodeps 文件名
+# 确认卸载
+rpm -qa|grep mariadb
+# 官网下载 Linux - Generic (x86, 64-bit)
+# 创建MySQL目录
+mkdir -p /usr/local/mysql/
+cd /usr/local/mysql/
+sudo mkdir -p data
+sudo mkdir -p tmp
+sudo mkdir -p logs
+cd /usr/local/mysql/logs
+vi error.log
+chmod 777 error.log
+
+# 创建用户组和用户
+groupadd mysql && useradd -r -g mysql mysql
+
+# 解压
+# .tar.gz 后缀
+tar -zxvf 文件名 -C 目录
+
+# .tar.xz 后缀
+tar -Jxvf 文件名 -C 目录
+
+# 通过mv重命名
+
+chown -R mysql:mysql /usr/local/mysql
+# 初始化命令
+cd /usr/local/mysql/bin
+./mysqld --initialize --user=mysql --console
+# 启动脚本放到开机初始化目录
+cp /usr/local/mysql/support-files/mysql.server /etc/init.d/mysql
+# 将mysql登录命令创建软链接
+ln -s /usr/local/mysql/bin/mysql/ /usr/bin/
+
+service mysql start
+service mysql restart
+service mysql stop
+
+find / -name 'mysqld.log' -type f -print
+# mysql -uroot -p 命令登录MySQL了
+vi /etc/profile
+export PATH=$PATH:/usr/local/mysql/bin
+source /etc/profile
+
+mysql -uroot -p
 ```
