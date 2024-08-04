@@ -125,7 +125,7 @@ yum upgrade
 # 安装 openssl
 yum install -y openssl openssl-devel gcc gcc-c++
 yum install -y zlib*
-yum install readline-devel
+yum install -y readline-devel
 # https://www.tcl.tk/software/tcltk/
 ```
 
