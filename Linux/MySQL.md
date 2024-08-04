@@ -69,6 +69,10 @@ rpm -ivh mysql80-community-release-el7-11.noarch.rpm
 yum install -y mysql80-community-release-el7-11.noarch.rpm
 yum install -y mysql-community-server
 
+# 在 /etc/my.cnf 
+vim /etc/my.cnf
+#datadir=/home/mysql
+#socket=/home/mysql/mysql.sock
 
 # 在 /etc/my.cnf 中添加 skip-grant-tables 临时免密码登录
 [mysqld]
@@ -174,10 +178,6 @@ setenforce 0
 sed -i 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/selinux/config
 
 cp -rf /var/lib/mysql /usr/local/mysql/data/mysql
-# 在 /etc/my.cnf 
-vim /etc/my.cnf
-#datadir=/home/mysql
-#socket=/home/mysql/mysql.sock
 
 # 退出 mysql \q 或者 quit;
 
