@@ -194,9 +194,7 @@ rpm -qa|grep mariadb
 # 创建MySQL目录
 mkdir -p /usr/local/mysql/
 cd /usr/local/mysql/
-sudo mkdir -p data
-sudo mkdir -p tmp
-sudo mkdir -p logs
+sudo mkdir -p data tmp logs
 cd /usr/local/mysql/logs
 vi error.log
 chmod 777 error.log
