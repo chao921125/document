@@ -62,7 +62,7 @@ chkconfig --del mysqld
 # 安装 mysql
 # [查看系统对应的安装文件](https://dev.mysql.com/downloads/repo/yum/)
 # 检查 mysql 安装包
-#yum list mysql*
+# yum list mysql*
 # wget 安装
 wget -i -c http://dev.mysql.com/get/mysql80-community-release-el7-11.noarch.rpm
 rpm -ivh mysql80-community-release-el7-11.noarch.rpm
