@@ -64,9 +64,9 @@ chkconfig --del mysqld
 # 检查 mysql 安装包
 # yum list mysql*
 # wget 安装
-wget -i -c http://dev.mysql.com/get/mysql80-community-release-el7-11.noarch.rpm
-rpm -ivh mysql80-community-release-el7-11.noarch.rpm
-yum install -y mysql80-community-release-el7-11.noarch.rpm
+wget -i -c https://dev.mysql.com/get/mysql84-community-release-el7-1.noarch.rpm
+rpm -ivh mysql84-community-release-el7-1.noarch.rpm
+yum install -y mysql84-community-release-el7-1.noarch.rpm
 yum install -y mysql-community-server
 
 # 在 /etc/my.cnf 
@@ -225,6 +225,7 @@ ln -s /usr/local/mysql/bin/mysql/ /usr/bin/
 service mysql start
 service mysql restart
 service mysql stop
+service mysql status
 
 find / -name 'mysqld.log' -type f -print
 # mysql -uroot -p 命令登录MySQL了
