@@ -112,6 +112,9 @@ sudo netstat -tunlp | grep 22
 
 # RHEL 基本的依赖 yum/wget/openssl/rpm 建议装上，后续装服务的时候这些依赖不需要装了
 ```shell
+netstat -tulpen
+ss -ntl
+
 sudo yum install -y wget
 sudo yum install -y rpm
 # 升级所有包同时也升级软件和系统内核
