@@ -35,9 +35,9 @@ sudo systemctl reload nginx
 
 # RHEL /usr/local
 ```shell
-wget -i -c http://nginx.org/download/nginx-1.24.0.tar.gz
+wget -i -c http://nginx.org/download/nginx-1.26.1.tar.gz
 sudo mkdir /usr/local/nginx
-tar -zxvf nginx-1.24.0.tar.gz -C /usr/local/nginx
+tar -zxvf nginx-1.26.1.tar.gz -C /usr/local/nginx
 cd /usr/local/nginx
 mv * ../
 # 执行命令 考虑到后续安装ssl证书 添加两个模块
