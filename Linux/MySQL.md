@@ -137,7 +137,14 @@ grep "password is" /var/log/mysqld.log
 mysql -uroot -p
 mysql -uroot -p -h127.0.0.1
 # 设置密码，如果不允许设计弱密码，先设置强类型密码，再修改弱密码
-alter user 'root'@'localhost' identified with mysql_native_password by 'Admin123.';
+ALTER USER USER() IDENTIFIED BY 'Store_qwe@123';
+# or
+ALTER user 'root'@'localhost' identified with mysql_native_password by 'Admin123.';
+# or
+ALTER USER 'root'@'%' IDENTIFIED WITH auth_socket;
+alter user 'root'@'%' identified with mysql_native_password by 'Store_qwe@123';
+ALTER USER 'root'@'localhost' IDENTIFIED WITH auth_socket;
+
 # 刷新权限
 flush privileges;
 
@@ -160,7 +167,6 @@ use mysql;
 select host,user from user;
 update user set host='%' where user='root';
 flush privileges;
-alter user 'root'@'%' identified with mysql_native_password by 'Admin123.';
 
 
 # 将数据库迁移到指定目录
@@ -230,6 +236,4 @@ find / -name 'mysqld.log' -type f -print
 vi /etc/profile
 export PATH=$PATH:/usr/local/mysql/bin
 source /etc/profile
-
-mysql -uroot -p
 ```
