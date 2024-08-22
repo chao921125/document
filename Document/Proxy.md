@@ -7,7 +7,7 @@
 | [hiddify-next](https://github.com/hiddify/hiddify-next) [hiddify 官网 全平台支持](https://hiddify.com/) |
 | [clash-nyanpasu](https://github.com/keiko233/clash-nyanpasu)                                     |
 | [shadowsocks](https://github.com/shadowsocks/shadowsocks-rust)                                   |
-| [sing-box 暂未支持Win](https://github.com/SagerNet/sing-box/releases)                                |
+| [sing-box 暂未支持IOS/MacOS](https://github.com/SagerNet/sing-box/releases)                          |
 
 | MacOS                                                                      |
 |----------------------------------------------------------------------------|
