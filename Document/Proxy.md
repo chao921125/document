@@ -1,13 +1,13 @@
 # [免费订阅](./ProxySubFree.md) [稳定付费订阅](./ProxySubPay.md)
 # 客户端
 # [检测当前是否可用 GPT](https://ios.chat.openai.com/public-api/mobile/server_status/v1)
-| MacOS & Windows Client                                                                           |
-|--------------------------------------------------------------------------------------------------|
-| [clash-verge-rev 👍推荐](https://github.com/clash-verge-rev/clash-verge-rev)                       |
-| [hiddify-next](https://github.com/hiddify/hiddify-next) [hiddify 官网 全平台支持](https://hiddify.com/) |
-| [clash-nyanpasu](https://github.com/keiko233/clash-nyanpasu)                                     |
-| [shadowsocks](https://github.com/shadowsocks/shadowsocks-rust)                                   |
-| [sing-box 暂未支持Win](https://github.com/SagerNet/sing-box/releases)                                |
+| MacOS & Windows Client                                                                                                  |
+|-------------------------------------------------------------------------------------------------------------------------|
+| [clash-verge-rev 👍推荐](https://github.com/clash-verge-rev/clash-verge-rev)                                              |
+| [hiddify-next 支持 sing-box 全平台支持 👍推荐](https://github.com/hiddify/hiddify-next) [hiddify 官网 全平台支持](https://hiddify.com/) |
+| [clash-nyanpasu](https://github.com/keiko233/clash-nyanpasu)                                                            |
+| [shadowsocks](https://github.com/shadowsocks/shadowsocks-rust)                                                          |
+| [sing-box 暂未支持IOS/MacOS](https://github.com/SagerNet/sing-box/releases)                                                 |
 
 | MacOS                                                                      |
 |----------------------------------------------------------------------------|
@@ -15,14 +15,15 @@
 | [V2rayU](https://github.com/yanue/V2rayU/releases)                         |
 | [ShadowsocksX-NG](https://github.com/shadowsocks/ShadowsocksX-NG/releases) |
 
-| Windows                                                                               |
-|---------------------------------------------------------------------------------------|
-| [v2rayN 👍推荐](https://github.com/2dust/v2rayN)                                        |
-| [clashN](https://github.com/2dust/clashN)                                             |
-| [v2rayA](https://github.com/v2rayA/v2rayA)                                            |
-| [sing-box GUI.for.SingBox](https://github.com/GUI-for-Cores/GUI.for.SingBox/releases) |
-| [nekoray](https://github.com/MatsuriDayo/nekoray/releases)                            |
-| [karing](https://github.com/KaringX/karing/releases)                                  |
+| Windows                                                                      |
+|------------------------------------------------------------------------------|
+| [v2rayN 👍推荐](https://github.com/2dust/v2rayN)                               |
+| [clashN](https://github.com/2dust/clashN)                                    |
+| [v2rayA](https://github.com/v2rayA/v2rayA)                                   |
+| [GUI.for.Clash](https://github.com/GUI-for-Cores/GUI.for.Clash)              |
+| [GUI.for.SingBox](https://github.com/GUI-for-Cores/GUI.for.SingBox/releases) |
+| [nekoray](https://github.com/MatsuriDayo/nekoray/releases)                   |
+| [karing](https://github.com/KaringX/karing/releases)                         |
 
 | Android                                                                                     |
 |---------------------------------------------------------------------------------------------|
