@@ -4,10 +4,10 @@
 | MacOS & Windows Client                                                                                                  |
 |-------------------------------------------------------------------------------------------------------------------------|
 | [clash-verge-rev 👍推荐](https://github.com/clash-verge-rev/clash-verge-rev)                                              |
+| [sing-box 暂未支持IOS/MacOS 👍安全下一代](https://github.com/SagerNet/sing-box/releases)                                         |
 | [hiddify-next 支持 sing-box 全平台支持 👍推荐](https://github.com/hiddify/hiddify-next) [hiddify 官网 全平台支持](https://hiddify.com/) |
 | [clash-nyanpasu](https://github.com/keiko233/clash-nyanpasu)                                                            |
 | [shadowsocks](https://github.com/shadowsocks/shadowsocks-rust)                                                          |
-| [sing-box 暂未支持IOS/MacOS](https://github.com/SagerNet/sing-box/releases)                                                 |
 
 | MacOS                                                                      |
 |----------------------------------------------------------------------------|
