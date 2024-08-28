@@ -1,6 +1,8 @@
 # [客户端](./Proxy.md) [免费订阅](./ProxySubFree.md)
 # 付费订阅
 ###### （优惠码自行搜索）删除账号的已被踢除
+###### =：巨便宜 -：未验证邮箱格式
+###### 没有固定域名的，慎重选择
 
 | [*15/月以下*]()                                                                                                   |
 |----------------------------------------------------------------------------------------------------------------|
@@ -12,10 +14,10 @@
 | [-13/年-100G/月 有试用 fscloud](https://web.fscloud.cc/#/register?code=1umqePA4) [](https://fscloud.vip/)           |
 | [- 3/月-500G/月 极速云机场](https://xn--kbtz0ztjtvlp.com/)                                                            |
 | [- 5/月-100G/月 WindyCloud](https://portal.passgfw.top/#/register)                                               |
-| [- 5/月-100G/月 云安云](https://云安云.com)                                                                            |
+| [- 5/月-100G/月 云安云](https://www.yunanyun.app/#/login)                                                           |
 | [- 6/月-100G/月 淘气兔](https://xn--mesq4iw0lg80a.com/)                                                             |
 | [- 5/月-150G/月 流量光](https://llgjc1.com/#/login)                                                                 |
-| [- 8/月-100G/月 狗狗云](https://gouvpn.cn/) [](http://狗狗云.com)                                                      |
+| [- 8/月-100G/月 狗狗云](https://gouvpn.cn/) [](https://xn--9kq279fa.com/)                                           |
 | [- 10/月-80G/月 大讯云](https://daxun.pro/#/home)                                                                   |
 | [- 9.9/月-128G/月 贝利塔](https://beilita.com/#/plan)                                                               |
 | [- 10/月-200G/月 efcloud](https://www.easyfastcloud.com/#/register?code=2GE3ZtDg) [](https://easyfastcloud.com/) |
@@ -84,7 +86,7 @@
 | [15/月-100G/月 龙猫云 Totoro Cloud](https://lmspeedapp.com/#/register?code=8JnnPAyd)         |
 | [15.99/月-100G/月 海獭](https://haita.io/register?aff=DERuAJGA)                             |
 | [19.9/月-100G/月 大哥云](https://www.dageyun.net/#/register)                                 |
-| [* 20/月-100G/月 Wallless](https://www.wlsite8.com/#/login)                               |
+| [20/月-120G/月 xgcloud](https://www.xgcloud.org/#/register)                               |
 | [24.9/月-100G/月 tomatocloud](https://tomatocloud.me/)                                    |
 | [24.9/月-100G/月 web3vpn](https://web3vpn.net/)                                           |
 | [90/季-100G/月 KyCloud](https://my.cloudn.cc/cart.php)                                    |
@@ -109,6 +111,7 @@
 | [25/月-100G/月 catnet 网猫](https://catnet.369.cyou/)                                                      |
 |                                                                                                        |
 | [- 20/月-160G/月 青森云 Cyanmori](https://sub.cccc.gg/auth/register)                                        |
+| [- 29/月-120G/月 cmy 红莓](https://portal.cmy.network/index)                                               |
 | [20/月-200G/月 肥猫云 FATCAT](https://www.fatcatcf.com/#/register)                                          |
 
 | [*限制在线*]()                                                                                       |
@@ -142,7 +145,7 @@
 | [15/月-100G/月 overwall](https://overwall.run/)                 |
 | [15/月-100G/月 wescloud](https://wescloud.xyz/)                 |
 | [FireFly 萤火虫](https://www.yhcvpn.xyz/index.php#/register)     |
-| [FreeCloud](https://www.hkbn.xyz/#/login)                     |
+| [Free Cloud](https://www.hkbn.xyz/#/login)                    |
 | [FreeCloud](https://www.freegfw.top/#/register)               |
 | [miyun](https://www.miyun.la/)                                |
 | [18/月-150G/月 百变小樱](https://bbxy.shop/)                        |
