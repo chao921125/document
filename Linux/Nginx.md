@@ -35,11 +35,11 @@ sudo systemctl reload nginx
 
 # RHEL /usr/local
 ```shell
-wget -i -c http://nginx.org/download/nginx-1.26.1.tar.gz
+wget -i -c http://nginx.org/download/nginx-1.26.2.tar.gz
 sudo mkdir /usr/local/nginx
-tar -zxvf nginx-1.26.1.tar.gz -C /usr/local/nginx
-cd /usr/local/nginx
-mv * ../
+tar -zxvf nginx-1.26.2.tar.gz -C /usr/local/nginx
+cd /usr/local/nginx/nginx-1.26.2
+# mv * ../
 # 执行命令 考虑到后续安装ssl证书 添加两个模块
 ./configure --with-http_stub_status_module --with-http_ssl_module
 make && make install

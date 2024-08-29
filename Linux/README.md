@@ -28,6 +28,17 @@
 # 常用命令
 mac下查看端口 nc -vz -w 2 116.14.73.138 3306
 
+######
+```shell
+# Linux查看版本当前操作系统内核信息
+uname -a
+# Linux查看当前操作系统版本信息
+cat /proc/version
+cat /etc/redhat-release
+# Linux查看cpu相关信息，包括型号、主频、内核信息等
+cat /proc/cpuinfo
+```
+
 ## 本地/服务器文件互传
 ```shell
 # 下载
