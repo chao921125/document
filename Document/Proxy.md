@@ -25,31 +25,31 @@
 | [nekoray](https://github.com/MatsuriDayo/nekoray/releases)                   |
 | [karing](https://github.com/KaringX/karing/releases)                         |
 
-| Android                                                                                     |
-|---------------------------------------------------------------------------------------------|
-| [v2rayNG 👍推荐](https://github.com/2dust/v2rayNG)                                            |
-| [ClashMetaForAndroid 👍推荐](https://github.com/MetaCubeX/ClashMetaForAndroid/releases)       |
-| [surfboard](https://github.com/getsurfboard/surfboard/releases)                             |
-| [NekoBoxForAndroid](https://github.com/MatsuriDayo/NekoBoxForAndroid)                       |
-| [shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android/releases)          |
-| [oneclick](https://oneclick.earth/#/)                                                       |
-| [karing](https://github.com/KaringX/karing/releases)                                        |
+| Android                                                                               |
+|---------------------------------------------------------------------------------------|
+| [v2rayNG 👍推荐](https://github.com/2dust/v2rayNG)                                      |
+| [ClashMetaForAndroid 👍推荐](https://github.com/MetaCubeX/ClashMetaForAndroid/releases) |
+| [surfboard](https://github.com/getsurfboard/surfboard/releases)                       |
+| [shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android/releases)    |
+| [oneclick](https://oneclick.earth/#/)                                                 |
+| [karing](https://github.com/KaringX/karing/releases)                                  |
+| [NekoBoxForAndroid](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases)        |
 
-| IOS （付费）                                                                       |
-|--------------------------------------------------------------------------------|
-| [oneclick](https://oneclick.earth/#/)                                          |
-| [Surge 美 免费](https://apps.apple.com/us/app/surge-5/id1442620678)               |
-| [Spectre VPN 美 免费 SSR](https://apps.apple.com/us/app/spectre-vpn/id1508712998) |
-| [Shadowrocket GitHub](https://github.com/Shadowrocket)                         |
-| [Shadowrocket 美](https://apps.apple.com/us/app/shadowrocket/id932747118)       |
-| [Shadowrocket 港](https://apps.apple.com/hk/app/shadowrocket/id932747118)       |
-| [Quantumult GitHub](https://github.com/crossutility/Quantumult)                |
-| [Quantumult 美](https://apps.apple.com/us/app/quantumult/id1252015438)          |
-| [Quantumult 港](https://apps.apple.com/hk/app/quantumult/id1252015438)          |
-| [QuantumultX GitHub](https://github.com/crossutility/Quantumult-X)             |
-| [QuantumultX 美](https://apps.apple.com/us/app/quantumult-x/id1443988620)       |
-| [QuantumultX 港](https://apps.apple.com/hk/app/quantumult-x/id1443988620)       |
-| [Loon 美](https://apps.apple.com/us/app/loon/id1373567447)                      |
+| IOS                                                                                                               |
+|-------------------------------------------------------------------------------------------------------------------|
+| [oneclick 免费](https://apps.apple.com/us/app/oneclick-safe-easy-fast/id1545555197) [官网](https://oneclick.earth/#/) |
+| [Surge 美](https://apps.apple.com/us/app/surge-5/id1442620678) [官网](https://nssurge.com/)                          |
+| [Spectre VPN 美 免费 SSR](https://apps.apple.com/us/app/spectre-vpn/id1508712998)                                    |
+| [Shadowrocket GitHub 付费](https://github.com/Shadowrocket)                                                         |
+| [Shadowrocket 美 付费](https://apps.apple.com/us/app/shadowrocket/id932747118)                                       |
+| [Shadowrocket 港 付费](https://apps.apple.com/hk/app/shadowrocket/id932747118)                                       |
+| [Quantumult GitHub 付费](https://github.com/crossutility/Quantumult)                                                |
+| [Quantumult 美 付费](https://apps.apple.com/us/app/quantumult/id1252015438)                                          |
+| [Quantumult 港 付费](https://apps.apple.com/hk/app/quantumult/id1252015438)                                          |
+| [QuantumultX GitHub 付费](https://github.com/crossutility/Quantumult-X)                                             |
+| [QuantumultX 美 付费](https://apps.apple.com/us/app/quantumult-x/id1443988620)                                       |
+| [QuantumultX 港 付费](https://apps.apple.com/hk/app/quantumult-x/id1443988620)                                       |
+| [Loon 美 付费](https://apps.apple.com/us/app/loon/id1373567447)                                                      |
 
 | 路由器                                                                  |
 |----------------------------------------------------------------------|
