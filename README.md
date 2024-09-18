@@ -7,7 +7,6 @@
 | [🔥 Open AI 汇总 ChatGPT](./Document/AI.md)        |
 | [软件下载 网站部署 SSL 托管](./Document/System.md)         |
 | [网站使用 CSDN 去除广告及关闭关注博主代码](./Document/WebSite.md) |
-| [代理软件及订阅](./Document/Proxy.md)                   |
 
 | 项目导航                            |
 |---------------------------------|
@@ -24,3 +23,4 @@
 | [面试](./Interview/README.md)     |
 
 [//]: # (https://pip.itcast.cn/home?hm-pc-dh%24bz)
+###### 部分资源从网络收录而来，仅供个人整理备份，如有侵权提交 IS 删除。

@@ -143,12 +143,13 @@
 | [176/季-250G/月 自行搜索 TAG](https://tagss04.pro/)                                                    |
 | [* 117.46/月-500G/月 Nexitally 佩奇家主站](https://nxboom.com/index.aspx)                               |
 
-| 未验证                                             |
-|-------------------------------------------------|
-| [FreeCloud](https://www.freegfw.top/#/register) |
-| [FireFly 萤火虫](https://www.yhcvpn.xyz/)          |
-| [Free Cloud](https://www.hkbn.xyz/#/login)      |
-| [miyun](https://www.miyun.la/)                  |
+| --==--                                                                                                       |
+|--------------------------------------------------------------------------------------------------------------|
+| [FreeCloud](https://www.freegfw.top/#/register)                                                              |
+| [FireFly 萤火虫](https://www.yhcvpn.xyz/)                                                                       |
+| [Free Cloud](https://www.hkbn.xyz/#/login)                                                                   |
+| [miyun](https://www.miyun.la/)                                                                               |
+| [0/月-200G/月 Free 必须使用当前 CODE 注册](https://zero.76898102.xyz/auth/register?code=QAJI) [](https://zero.2c.lol/) |
 
 # 论坛
 | 发布页                                                                 |
