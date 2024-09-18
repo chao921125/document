@@ -9,6 +9,7 @@
 | *不限制 注册无验证码*                                                                                                   |
 | [=- 5/年-200G/月 Alice Network](https://alicenet.xyz/#/login)                                                    |
 | [=- 6/年-300G/月 五毛机场](https://wumaojichang.com/#/register?code=jGwJUP0H)                                        |
+| [= 6/年-300G/月 飞狗机场](https://2.fgmcks.top/#/register?code=fdFqcdOt)                                             |
 | [=- 19/年-1000G/月 白嫖机场](https://yes.xn--mesv7f5toqlp.biz/register?code=IJNJjQW3)                                |
 | [=- 9.99/年-100G/月 三毛机场](https://www.xn--ehqx7tcnnope.com/#/register)                                           |
 | [=- 12/年-200G/月 杜卡迪](https://www.dukadi.one/#/register)                                                        |
@@ -67,14 +68,15 @@
 | [10/月-160G/月 Coffee Cloud](https://board.love-coffee.club/#/register)                                          |
 | [12/月-300G/月 ikuuu](https://ikuuu.pw/)                                                                         |
 
-| [*不限制 不限时长*]()                                          |
-|---------------------------------------------------------|
+| [*不限制 不限时长*]()                                           |
+|----------------------------------------------------------|
 | [14.9-130G 魔戒](https://mojie.me/#/register?aff=Gu3iS0ty) |
 
 | [*不限制 注册无验证码*]()                                                                                                  |
 |-------------------------------------------------------------------------------------------------------------------|
 | [* - 15/月-100G/月 飞鸟 FlyingBird](https://fbaff02.flyb-aff01.com/auth/register?code=GXsW) [](https://flyingbird.cc) |
 | [- 16.9/月-100G/月 XXAI](https://xx-ai.uk/auth/register)                                                            |
+| [- 15/月-100G/月 overwall](https://overwall.run/)                                                                   |
 | [- 20/月-100G/月 老猫云](https://laomaoyun.net/#/login) [](https://laomao.org/#/register)                              |
 | [- 20/月-100G/月 fastlink](https://fastlink.ws/auth/register)                                                       |
 | [18/月-100G/月 CyberGuard](https://cyberguard.top/index.php#/register?code=HsiGRr69)                                |
@@ -114,15 +116,19 @@
 |                                                                                                        |
 | [- 20/月-160G/月 青森云 Cyanmori](https://sub.cccc.gg/auth/register)                                        |
 | [- 29/月-120G/月 cmy 红莓](https://portal.cmy.network/index)                                               |
+| [- 28/月-100G/月 flyintpro 飞数](https://www.flyintpro.com/#/login)                                        |
 | [20/月-200G/月 肥猫云 FATCAT](https://www.fatcatcf.com/#/register)                                          |
 
 | [*限制在线*]()                                                                                       |
 |--------------------------------------------------------------------------------------------------|
 | [15.99/月-80G/月 arisaka](https://www.arisaka.io/#/register)                                       |
 |                                                                                                  |
+| [15/月-100G/月 wescloud](https://wescloud.xyz/)                                                    |
 | [15.9/月-100G/月 蓝帆云](https://lanfan.cloud/auth/register)                                          |
+| [18/月-150G/月 百变小樱](https://bbxy.shop/)                                                           |
 | [19.9/月-145/月 有试用 萌喵加速](https://www.moecloud.us/#/register?code=jxUxPZuA)                        |
-| [22/月-120G/月 万城网络](https://vc01.vc-vcity.com/#/register)                                         |
+| [22/月-120G/月 万城网络](https://user.vcsite04.com/#/sign-up)                                          |
+| [22/月-120G/月 万城网络](https://port01.wc-yz.com/#/login)                                             |
 | [25/月-100/月 觅云](https://www.mecloud.icu/)                                                        |
 | [66/季-100G/月 白月光](https://bygcloud.com/#/register?code=NmWFv1Se) [](https://bygcloud.com/#/home) |
 | [72/季-100G/月 MESL](https://in.mesl.cloud/#/register?code=6kMKKE0T)                               |
@@ -140,24 +146,20 @@
 | [176/季-250G/月 自行搜索 TAG](https://tagss04.pro/)                                                    |
 | [* 117.46/月-500G/月 Nexitally 佩奇家主站](https://nxboom.com/index.aspx)                               |
 
-| https://github.com/winston779?tab=repositories                |
-|---------------------------------------------------------------|
-| [22/月-120G/月 万城网络](https://port01.wc-yz.com/#/login)          |
-| [28/月-100G/月 flyintpro 飞数](https://www.flyintpro.com/#/login) |
-| [15/月-100G/月 overwall](https://overwall.run/)                 |
-| [15/月-100G/月 wescloud](https://wescloud.xyz/)                 |
-| [FireFly 萤火虫](https://www.yhcvpn.xyz/index.php#/register)     |
-| [Free Cloud](https://www.hkbn.xyz/#/login)                    |
-| [FreeCloud](https://www.freegfw.top/#/register)               |
-| [miyun](https://www.miyun.la/)                                |
-| [18/月-150G/月 百变小樱](https://bbxy.shop/)                        |
+| 未验证                                             |
+|-------------------------------------------------|
+| [FreeCloud](https://www.freegfw.top/#/register) |
+| [FireFly 萤火虫](https://www.yhcvpn.xyz/)          |
+| [Free Cloud](https://www.hkbn.xyz/#/login)      |
+| [miyun](https://www.miyun.la/)                  |
 
 # 论坛
-| 发布页                                                                                  |
-|--------------------------------------------------------------------------------------|
-| [github bannedbook](https://github.com/bannedbook/fanqiang)                          |
-| [github Alvin9999](https://github.com/Alvin9999/new-pac)                             |
-| [github Leon406](https://github.com/Leon406/SubCrawler)                              |
-| [github snakem982](https://github.com/snakem982/proxypool)                           |
-| [Clash Node](https://tzdaohang.com/)                                                 |
-| [Clash Node](https://www.ffq.la/)                                                    |
+| 发布页                                                                 |
+|---------------------------------------------------------------------|
+| [github winston779](https://github.com/winston779?tab=repositories) |
+| [github bannedbook](https://github.com/bannedbook/fanqiang)         |
+| [github Alvin9999](https://github.com/Alvin9999/new-pac)            |
+| [github Leon406](https://github.com/Leon406/SubCrawler)             |
+| [github snakem982](https://github.com/snakem982/proxypool)          |
+| [Clash Node](https://tzdaohang.com/)                                |
+| [Clash Node](https://www.ffq.la/)                                   |
