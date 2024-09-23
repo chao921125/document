@@ -1,13 +1,15 @@
 # [免费订阅](./ProxySubFree.md) [稳定付费订阅](./ProxySubPay.md)
 # 客户端
 # [检测当前是否可用 GPT](https://ios.chat.openai.com/public-api/mobile/server_status/v1)
-| MacOS & Windows Client                                                                                                  |
-|-------------------------------------------------------------------------------------------------------------------------|
-| [clash-verge-rev 👍推荐](https://github.com/clash-verge-rev/clash-verge-rev)                                              |
-| [sing-box 暂未支持IOS/MacOS 👍安全下一代](https://github.com/SagerNet/sing-box/releases)                                         |
-| [hiddify-next 支持 sing-box 全平台支持 👍推荐](https://github.com/hiddify/hiddify-next) [hiddify 官网 全平台支持](https://hiddify.com/) |
-| [clash-nyanpasu](https://github.com/keiko233/clash-nyanpasu)                                                            |
-| [shadowsocks](https://github.com/shadowsocks/shadowsocks-rust)                                                          |
+| MacOS & Windows Client                                                     |
+|----------------------------------------------------------------------------|
+| [clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev)      |
+| [sing-box 暂未支持IOS/MacOS](https://github.com/SagerNet/sing-box/releases)    |
+| [hiddify-next 支持 sing-box 全平台支持](https://github.com/hiddify/hiddify-next)  |
+| [FlClash](https://github.com/chen08209/FlClash)                            |
+| [mihomo-party](https://github.com/mihomo-party-org/mihomo-party)           |
+| [clash-nyanpasu](https://github.com/keiko233/clash-nyanpasu)               |
+| [shadowsocks](https://github.com/shadowsocks/shadowsocks-rust)             |
 
 | MacOS                                                                      |
 |----------------------------------------------------------------------------|
@@ -17,7 +19,7 @@
 
 | Windows                                                                      |
 |------------------------------------------------------------------------------|
-| [v2rayN 👍推荐](https://github.com/2dust/v2rayN)                               |
+| [v2rayN](https://github.com/2dust/v2rayN)                                    |
 | [clashN](https://github.com/2dust/clashN)                                    |
 | [v2rayA](https://github.com/v2rayA/v2rayA)                                   |
 | [GUI.for.Clash](https://github.com/GUI-for-Cores/GUI.for.Clash)              |
@@ -25,15 +27,15 @@
 | [nekoray](https://github.com/MatsuriDayo/nekoray/releases)                   |
 | [karing](https://github.com/KaringX/karing/releases)                         |
 
-| Android                                                                               |
-|---------------------------------------------------------------------------------------|
-| [v2rayNG 👍推荐](https://github.com/2dust/v2rayNG)                                      |
-| [ClashMetaForAndroid 👍推荐](https://github.com/MetaCubeX/ClashMetaForAndroid/releases) |
-| [surfboard](https://github.com/getsurfboard/surfboard/releases)                       |
-| [shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android/releases)    |
-| [oneclick](https://oneclick.earth/#/)                                                 |
-| [karing](https://github.com/KaringX/karing/releases)                                  |
-| [NekoBoxForAndroid](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases)        |
+| Android                                                                            |
+|------------------------------------------------------------------------------------|
+| [v2rayNG](https://github.com/2dust/v2rayNG)                                        |
+| [ClashMetaForAndroid](https://github.com/MetaCubeX/ClashMetaForAndroid/releases)   |
+| [surfboard](https://github.com/getsurfboard/surfboard/releases)                    |
+| [shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android/releases) |
+| [oneclick](https://oneclick.earth/#/)                                              |
+| [karing](https://github.com/KaringX/karing/releases)                               |
+| [NekoBoxForAndroid](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases)     |
 
 | IOS                                                                                                               |
 |-------------------------------------------------------------------------------------------------------------------|
