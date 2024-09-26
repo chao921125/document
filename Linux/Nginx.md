@@ -1,8 +1,38 @@
+https://nginx.org/en/docs/configure.html
 # Debian｜Ubuntu /usr/local
 ```shell
 sudo apt install -y nginx
 sudo ufw allow "Nginx HTTP"
 sudo ufw allow "Nginx Full"
+
+# *** 自定义安装 前置依赖请提前安装
+wget -i -c http://nginx.org/download/nginx-1.26.2.tar.gz
+sudo mkdir /usr/local/nginx
+tar -zxvf nginx-1.26.2.tar.gz -C /usr/local/nginx
+cd /usr/local/nginx/nginx-1.26.2
+# mv * ../
+# 执行命令 考虑到后续安装ssl证书 添加两个模块
+./configure --with-http_stub_status_module --with-http_ssl_module
+# 指定目录
+./configure --prefix=/usr/local/nginx --with-http_stub_status_module --with-http_ssl_module
+make && make install
+
+# 添加服务
+vim /usr/lib/systemd/system/nginx.service
+[Unit]
+Description=nginx
+After=network.target
+  
+[Service]
+Type=forking
+ExecStart=/usr/local/nginx/sbin/nginx
+ExecReload=/usr/local/nginx/sbin/nginx -s reload
+ExecStop=/usr/local/nginx/sbin/nginx -s quit
+PrivateTmp=true
+  
+[Install]
+WantedBy=multi-user.target
+# ***
 
 # 默认 html /var/www/
 cd /var/www/html
@@ -42,6 +72,8 @@ cd /usr/local/nginx/nginx-1.26.2
 # mv * ../
 # 执行命令 考虑到后续安装ssl证书 添加两个模块
 ./configure --with-http_stub_status_module --with-http_ssl_module
+# 指定目录
+./configure --prefix=/usr/local/nginx --with-http_stub_status_module --with-http_ssl_module
 make && make install
 
 # 添加服务
