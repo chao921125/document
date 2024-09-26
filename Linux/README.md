@@ -80,6 +80,7 @@ sudo apt-get upgrade
 
 # 安装 openssl
 sudo apt install build-essential
+sudo apt install -y libpcre3 libpcre3-dev
 sudo apt install -y libssl-dev
 sudo apt install -y openssl gcc
 sudo apt install -y zlib*
