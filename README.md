@@ -8,19 +8,20 @@
 | [软件下载 网站部署 SSL 托管](./Document/System.md)         |
 | [网站使用 CSDN 去除广告及关闭关注博主代码](./Document/WebSite.md) |
 
-| 项目导航                            |
-|---------------------------------|
-| [🔥 资料整理](./Document/README.md) |
-| [VUE](./VUE/README.md)          |
-| [React](./React/README.md)      |
-| [Python](./Python/README.md)    |
-| [NodeJS](./NodeJS/README.md)    |
-| [Java](./Java/README.md)        |
-| [Linux](./Linux/README.md)      |
-| [数据库](./Database/README.md)     |
-| [小程序](./MiniAPP/README.md)      |
-| [知识汇总](./Knowledge/README.md)   |
-| [面试](./Interview/README.md)     |
+| 项目导航                                                   |
+|--------------------------------------------------------|
+| [🔥 资料整理](./Document/README.md)                        |
+| [VUE](./VUE/README.md)                                 |
+| [React](./React/README.md)                             |
+| [Python](./Python/README.md)                           |
+| [NodeJS](./NodeJS/README.md)                           |
+| [Java](./Java/README.md)                               |
+| [Linux](./Linux/README.md)                             |
+| [数据库](./Database/README.md)                            |
+| [小程序](./MiniAPP/README.md)                             |
+| [知识汇总](./Knowledge/README.md)                          |
+| [面试](./Interview/README.md)                            |
+| [awesome](https://github.com/sindresorhus/awesome)     |
 
 [//]: # (https://pip.itcast.cn/home?hm-pc-dh%24bz)
 ###### 部分资源从网络收录而来，仅供个人整理备份，如有侵权提交 IS 删除。
