@@ -1,5 +1,6 @@
 # 免费 CodeAI
 ###### [AI排行](https://leaderboard.bycloud.ai/zh-cn)
+###### [awesome](https://github.com/f/awesome-chatgpt-prompts)
 | 工具            | Visual Studio | JetBrains |
 |---------------|---------------|-----------|
 | IntelliCode   |               | X         |
