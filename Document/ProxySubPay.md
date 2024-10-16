@@ -86,7 +86,6 @@
 | [24.9/月-100G/月 tomatocloud](https://tomatocloud.me/)                                    |
 | [24.9/月-100G/月 web3vpn](https://web3vpn.net/)                                           |
 | [90/季-100G/月 KyCloud](https://my.cloudn.cc/cart.php)                                    |
-| [28/月-126/月 Faston](https://portal.link-fst.com/#/register)                             |
 |                                                                                         |
 | [15.8/月-160G/月 狗狗加速](https://xn--yfrp36ea9901a.com/)                                    |
 | [25/月-150G/月 SSRDOG](https://go.ssrdog.com/?code=D24biOV4)                              |
