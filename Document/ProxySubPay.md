@@ -5,7 +5,7 @@
 |----------------------------------------------------------------------------------------------------------------|
 | *不限制 注册无验证码*                                                                                                   |
 | [=- 6/年-300G/月 五毛机场](https://wumaojichang.com/#/register?code=jGwJUP0H)                                        |
-| [= 6/年-300G/月 飞狗机场](https://2.fgmcks.top/#/register?code=fdFqcdOt)                                             |
+| [= 6/年-200G/月 飞狗机场](https://2.fgmcks.top/#/register?code=fdFqcdOt)                                             |
 | [=- 19/年-1000G/月 白嫖机场](https://yes.xn--mesv7f5toqlp.biz/register?code=IJNJjQW3)                                |
 | [=- 9.99/年-100G/月 三毛机场](https://www.xn--ehqx7tcnnope.com/#/register)                                           |
 | [=- 12/年-200G/月 杜卡迪](https://www.dukadi.one/#/register)                                                        |
