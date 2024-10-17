@@ -11,6 +11,7 @@
 | [=- 12/年-200G/月 杜卡迪](https://www.dukadi.one/#/register)                                                        |
 | [-13/年-100G/月 有试用 fscloud](https://web.fscloud.cc/#/register?code=1umqePA4) [](https://fscloud.vip/)           |
 | [- 3/月-500G/月 极速云机场](https://xn--kbtz0ztjtvlp.com/)                                                            |
+| [- 5/月-1500G/月 XMRTH](https://xmrth.lol/auth/register)                                                         |
 | [- 5/月-100G/月 WindyCloud](https://portal.passgfw.top/#/register)                                               |
 | [- 5/月-100G/月 云安云](https://www.yunanyun.app/#/login)                                                           |
 | [- 6/月-100G/月 淘气兔](https://xn--mesq4iw0lg80a.com/)                                                             |
@@ -21,7 +22,7 @@
 | [- 10/月-200G/月 efcloud](https://www.easyfastcloud.com/#/register?code=2GE3ZtDg) [](https://easyfastcloud.com/) |
 | [- 12.5/月-100G/月 starlinkcloud 星链云](https://starlinkcloud.lol/#/register)                                      |
 | [- 72/年-100G/月 一号测速](https://yihao42.buzz/#/register?code=yX4UyKwx) [](https://xn--4gq48l11y805a.com/)         |
-| [= 15/季-1024G/月 两元店](https://liangyuandian.xyz/#/register?code=QDQsCmGa)                                       |
+| [= 22/年-1024G/月 两元店](https://liangyuandian.xyz/#/register?code=QDQsCmGa)                                       |
 | [= 12/年-200G/月 顶级机场](https://xn--mes358a9urctx.com/#/register)                                                 |
 | [= 8/月-100G/月 一毛机场](https://xn--4gqu8tcnnope.com/#/register)                                                   |
 | [=- 10/月-118G/月 玉兔](https://xn--diqv0fut7b.com/#/home)                                                         |
@@ -32,6 +33,7 @@
 |                                                                                                                |
 | *不限制*                                                                                                          |
 | [= 12/年-50G/月 一元机场](https://xn--4gq62f52gdss.com/#/register?code=y2BjORPu)                                     |
+| [= 10/年-100G/月 超级机场](https://www.chaojijichang.com/#/register)                                                 |
 | [= 10/年-200G/月 有试用 免费机场](https://w.xn--94q57lcvpw50b.com/#/register?code=SCbFIcCw)                             |
 | [= 30/年-200G/月 有试用 廉价机场](https://xn--6nq44r2pg9mj.com/#/register?code=FeiARV4a)                                |
 | [= 20/年-200G/月 三分机场](https://xn--ehq00hgtfdmt.net/register)                                                    |
