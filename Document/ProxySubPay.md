@@ -172,6 +172,7 @@
 | [12/月-0G/月 ChiguaYun](https://chiguayun.com/#/register)                                                      |
 | [12/月-0G/月 Teacat](https://teacat2.com/#/login)                                                              |
 | [12/月-0G/月 流浪地球](https://liulangdiqiu.cc/#/register)                                                         |
+| [12/月-0G/月 ikuajings](https://www.ikuajings.com/auth/login)                                                  |
 | [12/月-0G/月 泡芙云](https://www.paofu.cloud/)                                                                    |
 | [0/月-200G/月 Free 必须使用当前 CODE 注册](https://zero.76898102.xyz/auth/register?code=QAJI) [](https://zero.2c.lol/) |
 
