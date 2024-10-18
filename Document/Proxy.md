@@ -39,6 +39,7 @@
 
 | IOS                                                                                                               |
 |-------------------------------------------------------------------------------------------------------------------|
+| [sing-box 免费](https://apps.apple.com/app/sing-box-vt/id6673731168) [官网](https://sing-box.sagernet.org/)           |
 | [oneclick 免费](https://apps.apple.com/us/app/oneclick-safe-easy-fast/id1545555197) [官网](https://oneclick.earth/#/) |
 | [Surge 美](https://apps.apple.com/us/app/surge-5/id1442620678) [官网](https://nssurge.com/)                          |
 | [Spectre VPN 美 免费 SSR](https://apps.apple.com/us/app/spectre-vpn/id1508712998)                                    |
