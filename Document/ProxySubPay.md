@@ -41,7 +41,7 @@
 | [= 20/年-200G/月 三分机场](https://xn--ehq00hgtfdmt.net/register)                                                    |
 | [= 20/年-200G/月 翻墙机场](https://xn--mest5a943ag8x.com/#/register)                                                 |
 | [= 20/年-200G/月 低价机场](https://xn--6nq0hk9tdjr.com/#/register)                                                   |
-| [= 5-200G 润](https://2run.vip/#/?code=MonRIoIQ)                                                                |
+| [= 5/月-200G/月 润](https://2run.vip/#/?code=MonRIoIQ)                                                            |
 | [6/月-50G/月 蘑菇云](https://mgypog.xyz/#/register)                                                                 |
 | [8/月-168G/月 xsus](https://xsus.work/#/login)                                                                   |
 | [9.8/月-100G/月 咪兔Mitu](https://shop.mitoo.me/register)                                                          |
