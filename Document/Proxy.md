@@ -1,41 +1,41 @@
 # [免费订阅](./ProxySubFree.md) [稳定付费订阅](./ProxySubPay.md)
 # 客户端
 # [检测当前是否可用 GPT](https://ios.chat.openai.com/public-api/mobile/server_status/v1)
-| MacOS & Windows Client                                                     |
-|----------------------------------------------------------------------------|
-| [clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev)      |
-| [sing-box 暂未支持IOS/MacOS](https://github.com/SagerNet/sing-box/releases)    |
-| [hiddify-next 支持 sing-box 全平台支持](https://github.com/hiddify/hiddify-next)  |
-| [FlClash](https://github.com/chen08209/FlClash)                            |
-| [mihomo-party](https://github.com/mihomo-party-org/mihomo-party)           |
-| [clash-nyanpasu](https://github.com/keiko233/clash-nyanpasu)               |
-| [shadowsocks](https://github.com/shadowsocks/shadowsocks-rust)             |
+| Client                                                                                    |
+|-------------------------------------------------------------------------------------------|
+| [clash-verge-rev Windows MacOS Linux](https://github.com/clash-verge-rev/clash-verge-rev) |
+| [sing-box 全平台 IOS sing-box](https://github.com/SagerNet/sing-box)                         |
+| [hiddify-next 全平台 IOS hiddify](https://github.com/hiddify/hiddify-next)                   |
+| [FlClash 不支持 IOS](https://github.com/chen08209/FlClash)                                   |
+| [mihomo-party Windows MacOS Linux](https://github.com/mihomo-party-org/mihomo-party)      |
+| [clash-nyanpasu Windows MacOS Linux](https://github.com/keiko233/clash-nyanpasu)          |
+| [shadowsocks Windows MacOS Linux](https://github.com/shadowsocks/shadowsocks-rust)        |
 
-| MacOS                                                                      |
-|----------------------------------------------------------------------------|
-| [ClashX.Meta](https://github.com/MetaCubeX/ClashX.Meta/tree/meta)          |
-| [V2rayU](https://github.com/yanue/V2rayU/releases)                         |
-| [ShadowsocksX-NG](https://github.com/shadowsocks/ShadowsocksX-NG/releases) |
+| MacOS                                                             |
+|-------------------------------------------------------------------|
+| [ClashX.Meta](https://github.com/MetaCubeX/ClashX.Meta/tree/meta) |
+| [V2rayU](https://github.com/yanue/V2rayU)                         |
+| [ShadowsocksX-NG](https://github.com/shadowsocks/ShadowsocksX-NG) |
 
-| Windows                                                                      |
-|------------------------------------------------------------------------------|
-| [v2rayN](https://github.com/2dust/v2rayN)                                    |
-| [clashN](https://github.com/2dust/clashN)                                    |
-| [v2rayA](https://github.com/v2rayA/v2rayA)                                   |
-| [GUI.for.Clash](https://github.com/GUI-for-Cores/GUI.for.Clash)              |
-| [GUI.for.SingBox](https://github.com/GUI-for-Cores/GUI.for.SingBox/releases) |
-| [nekoray](https://github.com/MatsuriDayo/nekoray/releases)                   |
-| [karing](https://github.com/KaringX/karing/releases)                         |
+| Windows                                                             |
+|---------------------------------------------------------------------|
+| [v2rayN](https://github.com/2dust/v2rayN)                           |
+| [clashN](https://github.com/2dust/clashN)                           |
+| [v2rayA](https://github.com/v2rayA/v2rayA)                          |
+| [GUI.for.Clash](https://github.com/GUI-for-Cores/GUI.for.Clash)     |
+| [GUI.for.SingBox](https://github.com/GUI-for-Cores/GUI.for.SingBox) |
+| [nekoray](https://github.com/MatsuriDayo/nekoray)                   |
+| [karing](https://github.com/KaringX/karing)                         |
 
-| Android                                                                            |
-|------------------------------------------------------------------------------------|
-| [v2rayNG](https://github.com/2dust/v2rayNG)                                        |
-| [ClashMetaForAndroid](https://github.com/MetaCubeX/ClashMetaForAndroid/releases)   |
-| [surfboard](https://github.com/getsurfboard/surfboard/releases)                    |
-| [shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android/releases) |
-| [oneclick](https://oneclick.earth/#/)                                              |
-| [karing](https://github.com/KaringX/karing/releases)                               |
-| [NekoBoxForAndroid](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases)     |
+| Android                                                                   |
+|---------------------------------------------------------------------------|
+| [v2rayNG](https://github.com/2dust/v2rayNG)                               |
+| [ClashMetaForAndroid](https://github.com/MetaCubeX/ClashMetaForAndroid)   |
+| [surfboard](https://github.com/getsurfboard/surfboard)                    |
+| [shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android) |
+| [oneclick](https://oneclick.earth/#/)                                     |
+| [karing](https://github.com/KaringX/karing)                               |
+| [NekoBoxForAndroid](https://github.com/MatsuriDayo/NekoBoxForAndroid)     |
 
 | IOS                                                                                                               |
 |-------------------------------------------------------------------------------------------------------------------|
@@ -64,9 +64,9 @@
 | [ShellCrash](https://github.com/juewuy/ShellCrash/tree/master)       |
 | [fancyss](https://github.com/hq450/fancyss)                          |
 
-| 浏览器插件                                                               |
-|---------------------------------------------------------------------|
-| [SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega/releases) |
+| 浏览器插件                                                      |
+|------------------------------------------------------------|
+| [SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega) |
 
 | 内核 Core                                                                                                   |
 |-----------------------------------------------------------------------------------------------------------|
@@ -90,4 +90,4 @@
 | [订阅转换本地搭建](https://github.com/CareyWang/sub-web)      |
 | [订阅转换本地搭建](https://github.com/tindy2013/subconverter) |
 
-[失效代理客户端备份](https://github.com/Z-Siqi/Clash-for-Windows_Chinese/releases)
+[失效代理客户端备份](https://github.com/Z-Siqi/Clash-for-Windows_Chinese)
