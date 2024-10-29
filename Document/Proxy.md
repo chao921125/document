@@ -252,6 +252,7 @@
 | [0/月-0G/月 vmssr](https://user.vmssr.cc/#/register)                                                           |
 | [0/月-0G/月 樱花宇宙](https://panel.skrspc.org/zh/#/auth/signup)                                                   |
 | [- 0/月-0G/月 牛逼](https://5.6bcloud.top/#/register)                                                            |
+| [- 0/月-0G/月 dida](https://dida.us.kg/#/register)                                                             |
 | [0/月-0G/月 FireFly 萤火虫](https://www.yhcvpn.xyz/)                                                              |
 | [0/月-0G/月 Free Cloud](https://www.hkbn.xyz/#/login)                                                          |
 | [0/月-0G/月 miyun](https://www.miyun.la/)                                                                      |
