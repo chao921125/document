@@ -24,4 +24,4 @@
 | [awesome](https://github.com/sindresorhus/awesome)     |
 
 [//]: # (https://pip.itcast.cn/home?hm-pc-dh%24bz)
-###### 部分资源从网络收录而来，仅供个人整理备份，如有侵权提交 IS 删除。
+###### 部分资源从网络收录而来
