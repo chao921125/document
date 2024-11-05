@@ -92,21 +92,22 @@
 | [订阅转换本地搭建](https://github.com/tindy2013/subconverter) |
 
 # Pay
+###### 【- 任意邮箱】 【+ 可直接访问】
 | [*15/月以下*]()                                                                                                   |
 |----------------------------------------------------------------------------------------------------------------|
 | *不限制 注册无验证码*                                                                                                   |
-| [=- 6/年-300G/月 五毛机场](https://wumaojichang.com/#/register?code=jGwJUP0H)                                        |
+| [- 6/年-300G/月 五毛机场](https://wumaojichang.com/#/register?code=jGwJUP0H)                                         |
 | [- 6/年-200G/月 FG](https://3.mmcks.top/#/register?code=fdFqcdOt)                                                |
-| [=- 19/年-1000G/月 白嫖机场](https://yes.xn--mesv7f5toqlp.biz/register?code=IJNJjQW3)                                |
-| [=- 9.99/年-100G/月 三毛机场](https://www.xn--ehqx7tcnnope.com/#/register)                                           |
-| [=- 12/年-200G/月 杜卡迪](https://www.dukadi.one/#/register)                                                        |
+| [- + 19/年-1000G/月 白嫖机场](https://yes.xn--mesv7f5toqlp.biz/register?code=IJNJjQW3)                               |
+| [- 9.99/年-100G/月 三毛机场](https://www.xn--ehqx7tcnnope.com/#/register)                                            |
+| [- 12/年-200G/月 杜卡迪](https://www.dukadi.one/#/register)                                                         |
 | [-13/年-100G/月 有试用 fscloud](https://web.fscloud.cc/#/register?code=1umqePA4) [](https://fscloud.vip/)           |
 | [- 3/月-500G/月 极速云机场](https://xn--kbtz0ztjtvlp.com/)                                                            |
-| [- 5/月-1500G/月 XMRTH](https://xmrth.lol/auth/register)                                                         |
+| [- + 5/月-1500G/月 XMRTH](https://xmrth.lol/auth/register)                                                       |
 | [- 5/月-100G/月 WindyCloud](https://portal.passgfw.top/#/register)                                               |
 | [- 5/月-100G/月 云安云](https://www.yunanyun.app/#/login)                                                           |
 | [- 6/月-500G/月 白嫖云](https://freecloud.lol/#/register)                                                           |
-| [- 6/月-100G/月 淘气兔](https://xn--mesq4iw0lg80a.com/)                                                             |
+| [- + 6/月-100G/月 淘气兔](https://xn--mesq4iw0lg80a.com/)                                                           |
 | [- 6.8/月-500G/月 超悦](https://www.chaoyue.shop/#/register)                                                       |
 | [- 5/月-150G/月 流量光](https://llgjc1.com/#/login)                                                                 |
 | [- 8/月-100G/月 狗狗云](https://gouvpn.cn/) [](https://xn--9kq279fa.com/)                                           |
