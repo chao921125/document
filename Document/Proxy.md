@@ -119,8 +119,8 @@
 | [= 22/年-1024G/月 两元店](https://liangyuandian.xyz/#/register?code=QDQsCmGa)                                       |
 | [= 12/年-200G/月 顶级机场](https://xn--mes358a9urctx.com/#/register)                                                 |
 | [= 8/月-100G/月 一毛机场](https://xn--4gqu8tcnnope.com/#/register)                                                   |
-| [=- 10/月-118G/月 玉兔](https://xn--diqv0fut7b.com/#/home)                                                         |
-| [=- 14.9/月-130G/月 魔戒](https://mojie.me/#/register?aff=Gu3iS0ty)                                                |
+| [- 10/月-118G/月 玉兔](https://xn--diqv0fut7b.com/#/home)                                                          |
+| [- 14.9/月-130G/月 魔戒](https://mojie.me/#/register?aff=Gu3iS0ty)                                                 |
 | [9.9/月-500G/月 老百姓机场](https://xn--mes53ddysu0o3gl.com/#/register)                                               |
 | [8/月-100G/月 SausageCloud](https://reborn.kaochang.ltd/#/register?code=EU9d7PnU)                                |
 | [12/月-100G/月 Teacat](https://teacat.cloud/#/register)                                                          |
@@ -151,7 +151,7 @@
 |                                                                                                                |
 | *限制 注册无验证码*                                                                                                    |
 | [- 10/月-100G/月 最萌の云](https://cutestcloud.com/#/register)                                                       |
-| [=- 9/月-100G/月 freecat](https://us.freecat.cloud/#/register)                                                   |
+| [- 9/月-100G/月 freecat](https://us.freecat.cloud/#/register)                                                    |
 | [12.8/月-320/月 喵酥云](https://www.miaosu.xyz/#/register)                                                          |
 |                                                                                                                |
 | *限制*                                                                                                           |
@@ -169,7 +169,7 @@
 | [- 15/月-100G/月 overwall](https://overwall.run/)                                                                   |
 | [- 20/月-100G/月 老猫云](https://laomaoyun.net/#/login) [](https://laomao.org/#/register)                              |
 | [- 20/月-100G/月 fastlink](https://fastlink.ws/auth/register)                                                       |
-| [=- 19.9/月-150G/月 fastlink](https://3fan.3f66.net/#/)                                                             |
+| [- 19.9/月-150G/月 fastlink](https://3fan.3f66.net/#/)                                                              |
 | [18/月-100G/月 CyberGuard](https://cyberguard.top/index.php#/register?code=HsiGRr69)                                |
 | [* 20/月-100G/月 闪电猫 SpeedCAT](https://scaff01.scvipaff.com/auth/register?code=U6L9) [](https://speedcat.me/)       |
 |                                                                                                                   |
