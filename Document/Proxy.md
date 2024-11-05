@@ -96,7 +96,7 @@
 |----------------------------------------------------------------------------------------------------------------|
 | *不限制 注册无验证码*                                                                                                   |
 | [=- 6/年-300G/月 五毛机场](https://wumaojichang.com/#/register?code=jGwJUP0H)                                        |
-| [- 6/年-200G/月 FG](https://3.mmcks.top/#/register)                                                              |
+| [- 6/年-200G/月 FG](https://3.mmcks.top/#/register?code=fdFqcdOt)                                                |
 | [=- 19/年-1000G/月 白嫖机场](https://yes.xn--mesv7f5toqlp.biz/register?code=IJNJjQW3)                                |
 | [=- 9.99/年-100G/月 三毛机场](https://www.xn--ehqx7tcnnope.com/#/register)                                           |
 | [=- 12/年-200G/月 杜卡迪](https://www.dukadi.one/#/register)                                                        |
@@ -168,6 +168,7 @@
 | [- 15/月-100G/月 overwall](https://overwall.run/)                                                                   |
 | [- 20/月-100G/月 老猫云](https://laomaoyun.net/#/login) [](https://laomao.org/#/register)                              |
 | [- 20/月-100G/月 fastlink](https://fastlink.ws/auth/register)                                                       |
+| [=- 19.9/月-150G/月 fastlink](https://3fan.3f66.net/#/)                                                             |
 | [18/月-100G/月 CyberGuard](https://cyberguard.top/index.php#/register?code=HsiGRr69)                                |
 | [* 20/月-100G/月 闪电猫 SpeedCAT](https://scaff01.scvipaff.com/auth/register?code=U6L9) [](https://speedcat.me/)       |
 |                                                                                                                   |
@@ -211,6 +212,7 @@
 |-----------------------------------------------------------------------------------|
 | [- 15.9/月-100G/月 naiunet](https://www.naiunet.com/register)                       |
 | [15/月-100G/月 wescloud](https://wescloud.xyz/)                                     |
+| [16.99/月-100G/月 尔湾云](https://erwan.cc/auth/register)                              |
 | [15.9/月-100G/月 蓝帆云](https://lanfan.cloud/auth/register)                           |
 | [18/月-150G/月 百变小樱](https://bbxy.shop/)                                            |
 | [20/月-100/月 v2free](https://w1.v2free.cc/)                                        |
