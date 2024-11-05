@@ -101,7 +101,6 @@
 | [- + 19/年-1000G/月 白嫖机场](https://yes.xn--mesv7f5toqlp.biz/register?code=IJNJjQW3)                               |
 | [- 9.99/年-100G/月 三毛机场](https://www.xn--ehqx7tcnnope.com/#/register)                                            |
 | [- 12/年-200G/月 杜卡迪](https://www.dukadi.one/#/register)                                                         |
-| [-13/年-100G/月 有试用 fscloud](https://web.fscloud.cc/#/register?code=1umqePA4) [](https://fscloud.vip/)           |
 | [- 3/月-500G/月 极速云机场](https://xn--kbtz0ztjtvlp.com/)                                                            |
 | [- + 5/月-1500G/月 XMRTH](https://xmrth.lol/auth/register)                                                       |
 | [- 5/月-100G/月 WindyCloud](https://portal.passgfw.top/#/register)                                               |
@@ -128,6 +127,7 @@
 | [13.88/月-100G/月 果粒橙](https://guolicheng.cc/index.php#/register)                                                |
 |                                                                                                                |
 | *不限制*                                                                                                          |
+| [-13/年-100G/月 有试用 fscloud](https://web.fscloud.cc/#/register?code=1umqePA4) [](https://fscloud.vip/)           |
 | [= 12/年-50G/月 一元机场](https://xn--4gq62f52gdss.com/#/register?code=y2BjORPu)                                     |
 | [= 10/年-100G/月 超级机场](https://www.chaojijichang.com/#/register)                                                 |
 | [= 10/年-200G/月 有试用 免费机场](https://w.xn--94q57lcvpw50b.com/#/register?code=SCbFIcCw)                             |
@@ -241,7 +241,7 @@
 |                                                                                   |
 | [52/月-200G/月 库洛米](https://www.kuromis.com/)                                       |
 | [176/季-250G/月 自行搜索 TAG](https://tagss07.pro/)                                     |
-| [* 117.46/月-500G/月 Nexitally 佩奇家主站](https://nxboom.com/index.aspx)                |
+| [117.46/月-500G/月 Nexitally 佩奇家主站](https://nxboom.com/index.aspx)                |
 
 | --==--                                                                                                       |
 |--------------------------------------------------------------------------------------------------------------|
