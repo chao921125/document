@@ -97,9 +97,9 @@
 |----------------------------------------------------------------------------------------------------------------|
 | *不限制 注册无验证码*                                                                                                   | 
 | [- 6/年-200G/月 FG](https://3.mmcks.top/#/register?code=fdFqcdOt)                                                |
-| [- 9.99/年-100G/月 三毛机场](https://www.xn--ehqx7tcnnope.com/#/register)                                            |
-| [- 12/年-200G/月 杜卡迪](https://www.dukadi.one/#/register)                                                         |
-| [- 12/年-200G/月 顶级机场](https://xn--mes358a9urctx.com/#/register)                                                 |
+| [- 9.99/年-100G/月 三毛机场](https://www.xn--ehqx7tcnnope.com/#/register?code=iqzpBkFJ)                              |
+| [- 12/年-200G/月 杜卡迪](https://www.dukadi.one/#/register?code=q7LTKwfF)                                           |
+| [- 15.6/年-200G/月 顶级机场](https://xn--mes358a9urctx.com/#/register?code=dhhw9jqv)                                 |
 | [- + 19/年-1000G/月 白嫖机场](https://yes.xn--mesv7f5toqlp.biz/register?code=IJNJjQW3)                               |
 | [- 22/年-1024G/月 两元店](https://liangyuandian.xyz/#/register?code=QDQsCmGa)                                       |
 | [- 1.5/月-100G/月 赔钱机场](https://xn--cp3a08l.com/#/register)                                                      |
@@ -118,6 +118,7 @@
 | [8/月-100G/月 SausageCloud](https://reborn.kaochang.ltd/#/register?code=EU9d7PnU)                                |
 | [- 9.9/月-500G/月 老百姓机场](https://xn--mes53ddysu0o3gl.com/#/register)                                             |
 | [- 9.9/月-128G/月 贝利塔](https://beilita.com/#/plan)                                                               |
+| [- 10/月-400G/月 迷雾世界](https://迷雾世界.com/#/register?code=IOWM28rZ)                                                |
 | [- 10/月-200G/月 efcloud](https://www.easyfastcloud.com/#/register?code=2GE3ZtDg) [](https://easyfastcloud.com/) |
 | [- 10/月-118G/月 玉兔](https://xn--diqv0fut7b.com/#/home)                                                          |
 | [- 10/月-80G/月 大讯云](https://daxun.pro/#/home)                                                                   |
@@ -126,12 +127,12 @@
 | [- 12.5/月-100G/月 starlinkcloud 星链云](https://starlinkcloud.lol/#/register)                                      |
 | [13.88/月-100G/月 果粒橙](https://guolicheng.cc/index.php#/register)                                                |
 | [- 14.9/月-130G/月 魔戒](https://mojie.me/#/register?aff=Gu3iS0ty)                                                 |
+| [60/年-50000G/月 免费机场](https://w.免费机场.com/#/register?code=NiN0Y06H)                                              |
 |                                                                                                                |
 | *不限制*                                                                                                          |
+| [~~10/年-100G/月 超级机场 无法注册~~](https://www.chaojijichang.com/#/register)                                          |
 | [12/年-50G/月 一元机场](https://xn--4gq62f52gdss.com/#/register?code=y2BjORPu)                                       |
 | [13/年-100G/月 有试用 fscloud](https://web.fscloud.cc/#/register?code=1umqePA4) [](https://fscloud.vip/)            |
-| [10/年-100G/月 超级机场](https://www.chaojijichang.com/#/register)                                                   |
-| [10/年-200G/月 有试用 免费机场](https://w.xn--94q57lcvpw50b.com/#/register?code=SCbFIcCw)                               |
 | [20/年-200G/月 三分机场](https://xn--ehq00hgtfdmt.net/register)                                                      |
 | [20/年-200G/月 翻墙机场](https://xn--mest5a943ag8x.com/#/register)                                                   |
 | [20/年-200G/月 低价机场](https://xn--6nq0hk9tdjr.com/#/register)                                                     |
