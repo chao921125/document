@@ -132,7 +132,6 @@
 | [- 14.9/月-130G/月 魔戒](https://mojie.me/#/register?aff=Gu3iS0ty)                                                 |
 |                                                                                                                |
 | *不限制在线*                                                                                                        |
-| [~~10/年-100G/月 超级机场 无法注册~~](https://www.chaojijichang.com/#/register)                                          |
 | [12/年-50G/月 一元机场](https://xn--4gq62f52gdss.com/#/register?code=y2BjORPu)                                       |
 | [20/年-200G/月 三分机场](https://xn--ehq00hgtfdmt.net/register)                                                      |
 | [20/年-200G/月 翻墙机场](https://xn--mest5a943ag8x.com/#/register)                                                   |
