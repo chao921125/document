@@ -1,4 +1,4 @@
-# Client
+# Client [订阅](#Pay)
 # [IP 纯净度查询](https://whoer.net/zh#)
 # [检测当前是否可用 GPT](https://ios.chat.openai.com/public-api/mobile/server_status/v1)
 | Client                                                                                    |
