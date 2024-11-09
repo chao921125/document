@@ -246,8 +246,8 @@
 
 | --==--                                                       |
 |--------------------------------------------------------------|
-| [=- 0/月-0G/月 蟒蛇](https://www.mangshe.org/#/register)         |
-| [=- 0/月-0G/月 最强](https://zqjc.org/#/register)                |
+| [=- 5.8/月-600G/月 蟒蛇](https://www.mangshe.org/#/register)     |
+| [=- 1.99/月-100G/月 最强](https://zqjc.org/#/register)           |
 | [=- 0/月-0G/月 nicess](https://client.nicess.one/register.php) |
 | [0/月-0G/月 Candy Cloud](https://coco2.one/#/register)         |
 | [0/月-0G/月 小鲤鱼](https://www.xiaoliyu.me/#/register)           |
