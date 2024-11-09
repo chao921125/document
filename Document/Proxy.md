@@ -111,7 +111,7 @@
 | [10/月-118G/月 玉兔](https://xn--diqv0fut7b.com/#/home)                                                            |
 | [10/月-400G/月 迷雾世界](https://迷雾世界.com/#/register?code=IOWM28rZ)                                                  |
 | [60/年-50000G/月 免费机场](https://w.免费机场.com/#/register?code=NiN0Y06H)                                              |
-| [6/年-200G/月 FG](https://3.mmcks.top/#/register?code=fdFqcdOt)                                                  |
+| [6/年-100G/月 FG](https://3.mmcks.top/#/register?code=fdFqcdOt)                                                  |
 | [- 12/年-200G/月 杜卡迪](https://www.dukadi.one/#/register?code=q7LTKwfF)                                           |
 | [- 15/年-300G/月 needay](https://needay.xyz/#/register?code=gnmP6662)                                            |
 | [22/年-1024G/月 两元店](https://liangyuandian.xyz/#/register?code=QDQsCmGa)                                         |
