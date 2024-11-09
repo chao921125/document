@@ -138,7 +138,7 @@
 | [20/年-200G/月 翻墙机场](https://xn--mest5a943ag8x.com/#/register)                                                   |
 | [20/年-200G/月 低价机场](https://xn--6nq0hk9tdjr.com/#/register)                                                     |
 | [9/月-100G/月 中转机场](https://xn--fiq93tcnn892b.com/#/register)                                                    |
-| [~~13/年-100G/月 有试用 fscloud 疑似跑路~~](https://web.fscloud.cc/#/register?code=1umqePA4) [](https://fscloud.vip/)   |
+| [13/年-100G/月 有试用 fscloud](https://web.fscloud.cc/#/register?code=1umqePA4) [](https://fscloud.vip/)            |
 | [6/月-50G/月 蘑菇云](https://mgypog.xyz/#/register)                                                                 |
 | [8/月-168G/月 xsus](https://xsus.work/#/register)                                                                |
 | [9.8/月-100G/月 咪兔Mitu](https://shop.mitoo.me/register)                                                          |
