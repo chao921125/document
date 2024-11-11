@@ -280,7 +280,7 @@
 | [0/月-0G/月 Teacat](https://teacat2.com/#/login)                     |
 | [0/月-0G/月 流浪地球](https://liulangdiqiu.cc/#/register)                |
 | [0/月-0G/月 ikuajings](https://www.ikuajings.com/auth/login)         |
-| [0/月-0G/月 泡芙云](https://www.paofu.cloud/)                           |
+| [0/月-0G/月 泡芙云 摆烂机场勿用](https://www.paofu.cloud/)                    |
 
 | 发布页                                                                 |
 |---------------------------------------------------------------------|
