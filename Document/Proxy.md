@@ -4,7 +4,7 @@
 | Client                                                                                    |
 |-------------------------------------------------------------------------------------------|
 | [sing-box 全平台](https://github.com/SagerNet/sing-box)                                      |
-| [hiddify-next 全平台](https://github.com/hiddify/hiddify-next)                               |
+| [hiddify-next 全平台](https://github.com/hiddify/hiddify-app)                                |
 | [FlClash 不支持 IOS](https://github.com/chen08209/FlClash)                                   |
 | [mihomo-party Windows MacOS Linux](https://github.com/mihomo-party-org/mihomo-party)      |
 | [clash-verge-rev Windows MacOS Linux](https://github.com/clash-verge-rev/clash-verge-rev) |
