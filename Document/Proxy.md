@@ -4,7 +4,7 @@
 | Client                                                                                    |
 |-------------------------------------------------------------------------------------------|
 | [sing-box 全平台](https://github.com/SagerNet/sing-box)                                      |
-| [hiddify-next 全平台](https://github.com/hiddify/hiddify-next)                               |
+| [hiddify-next 全平台](https://github.com/hiddify/hiddify-app)                                |
 | [FlClash 不支持 IOS](https://github.com/chen08209/FlClash)                                   |
 | [mihomo-party Windows MacOS Linux](https://github.com/mihomo-party-org/mihomo-party)      |
 | [clash-verge-rev Windows MacOS Linux](https://github.com/clash-verge-rev/clash-verge-rev) |
@@ -280,7 +280,7 @@
 | [0/月-0G/月 Teacat](https://teacat2.com/#/login)                     |
 | [0/月-0G/月 流浪地球](https://liulangdiqiu.cc/#/register)                |
 | [0/月-0G/月 ikuajings](https://www.ikuajings.com/auth/login)         |
-| [0/月-0G/月 泡芙云](https://www.paofu.cloud/)                           |
+| [0/月-0G/月 泡芙云 摆烂机场勿用](https://www.paofu.cloud/)                    |
 
 | 发布页                                                                 |
 |---------------------------------------------------------------------|
