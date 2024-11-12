@@ -101,6 +101,7 @@
 | [- + 19/年-250G/月 白嫖机场](https://yes.xn--mesv7f5toqlp.biz/register?code=IJNJjQW3)                                |
 | [30/年-200G/月 有试用 廉价机场](https://xn--6nq44r2pg9mj.com/#/register?code=FeiARV4a)                                  |
 | [1.5/月-100G/月 赔钱机场](https://xn--cp3a08l.com/#/register?code=l00pkJwh)                                          |
+| [2/月-100G/月 一分机场](https://xn--4gqx1hgtfdmt.com/)                                                               |
 | [- 3/月-500G/月 极速云机场](https://xn--kbtz0ztjtvlp.com/)                                                            |
 | [- 5/月-100G/月 一号测速](https://yihao42.buzz/#/register?code=yX4UyKwx) [](https://xn--4gq48l11y805a.com/)          |
 | [- + 6/月-100G/月 淘气兔](https://xn--mesq4iw0lg80a.com/)                                                           |
@@ -246,22 +247,21 @@
 
 | --==--                                                             |
 |--------------------------------------------------------------------|
+| [0/月-0G/月 miyun 觅云](https://www.miyun.la/)                         |
 | [=- 5.8/月-600G/月 蟒蛇](https://www.mangshe.org/#/register)           |
 | [=- 1.99/月-100G/月 最强](https://zqjc.org/#/register)                 |
 | [=- 20.53/月-120G/月 nicess](https://client.nicess.one/register.php) |
 | [11/月-100G/月 Candy Cloud](https://coco2.one/#/register)            |
 | [6.8/月-100G/月 小鲤鱼](https://www.xiaoliyu.me/#/register)             |
 | [14.9/月-100G/月 闪电鸟](https://sdbird.org/#/register)                 |
-| [0/月-0G/月 TaiShan Net](https://www.taishan.pro/#/register)         |
-| [0/月-0G/月 中国国际机场](https://werun.id/#/login)                        |
-| [0/月-0G/月 vmssr](https://user.vmssr.cc/#/register)                 |
+| [10/月-128G/月 TaiShan Net](https://www.taishan.pro/#/register)      |
+| [10/月-128G/月 TaiShan Net](https://hkcdn.ts123.cc/register)         |
+| [10/月-500G/月 中国国际机场](https://werun.id/#/login)                     |
 | [0/月-0G/月 樱花宇宙](https://panel.skrspc.org/zh/#/auth/signup)         |
 | [- 0/月-0G/月 牛逼](https://5.6bcloud.top/#/register)                  |
 | [- 0/月-0G/月 dida](https://dida.us.kg/#/register)                   |
-| [0/月-0G/月 FireFly 萤火虫](https://www.yhcvpn.xyz/)                    |
-| [0/月-0G/月 Free Cloud](https://www.hkbn.xyz/#/login)                |
-| [0/月-0G/月 miyun](https://www.miyun.la/)                            |
-| [0/月-0G/月 cacweb1](https://speed.cacweb1.xyz/#/register)           |
+| [15/月-100G/月 FireFly 萤火虫](https://www.yhcvpn.xyz/)                 |
+| [11/月-130G/月 Free Cloud 加入 TG 免费](https://www.hkbn.xyz/#/login)    |
 | [0/月-0G/月 XMR](https://www.xmrth.cloud/auth/register)              |
 | [0/月-0G/月 苏打云](https://a.sudacloud.top/#/login)                    |
 | [0/月-0G/月 卡车云](https://kache.ink/auth/register)                    |
@@ -280,6 +280,7 @@
 | [0/月-0G/月 Teacat](https://teacat2.com/#/login)                     |
 | [0/月-0G/月 流浪地球](https://liulangdiqiu.cc/#/register)                |
 | [0/月-0G/月 ikuajings](https://www.ikuajings.com/auth/login)         |
+| [12.5/月-100G/月 vmssr](https://user.vmssr.cc/#/register)            |
 | [0/月-0G/月 泡芙云 摆烂机场勿用](https://www.paofu.cloud/)                    |
 
 | 发布页                                                                 |
