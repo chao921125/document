@@ -101,6 +101,7 @@
 | [- + 19/年-250G/月 白嫖机场](https://yes.xn--mesv7f5toqlp.biz/register?code=IJNJjQW3)                                |
 | [30/年-200G/月 有试用 廉价机场](https://xn--6nq44r2pg9mj.com/#/register?code=FeiARV4a)                                  |
 | [1.5/月-100G/月 赔钱机场](https://xn--cp3a08l.com/#/register?code=l00pkJwh)                                          |
+| [2/月-100G/月 一分机场](https://xn--4gqx1hgtfdmt.com/)                                                               |
 | [- 3/月-500G/月 极速云机场](https://xn--kbtz0ztjtvlp.com/)                                                            |
 | [- 5/月-100G/月 一号测速](https://yihao42.buzz/#/register?code=yX4UyKwx) [](https://xn--4gq48l11y805a.com/)          |
 | [- + 6/月-100G/月 淘气兔](https://xn--mesq4iw0lg80a.com/)                                                           |
