@@ -262,7 +262,6 @@
 | [- 0/月-0G/月 dida](https://dida.us.kg/#/register)                   |
 | [15/月-100G/月 FireFly 萤火虫](https://www.yhcvpn.xyz/)                 |
 | [11/月-130G/月 Free Cloud 加入 TG 免费](https://www.hkbn.xyz/#/login)    |
-| [0/月-0G/月 cacweb1](https://speed.cacweb1.xyz/#/register)           |
 | [0/月-0G/月 XMR](https://www.xmrth.cloud/auth/register)              |
 | [0/月-0G/月 苏打云](https://a.sudacloud.top/#/login)                    |
 | [0/月-0G/月 卡车云](https://kache.ink/auth/register)                    |
