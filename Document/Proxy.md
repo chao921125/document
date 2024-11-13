@@ -1,24 +1,24 @@
 # Client [订阅](#Pay)
 # [IP 纯净度查询](https://whoer.net/zh#)
 # [检测当前是否可用 GPT](https://ios.chat.openai.com/public-api/mobile/server_status/v1)
-| Client                                                                                    |
-|-------------------------------------------------------------------------------------------|
-| [sing-box 全平台](https://github.com/SagerNet/sing-box)                                      |
-| [hiddify-next 全平台](https://github.com/hiddify/hiddify-app)                                |
-| [FlClash 不支持 IOS](https://github.com/chen08209/FlClash)                                   |
-| [mihomo-party Windows MacOS Linux](https://github.com/mihomo-party-org/mihomo-party)      |
-| [clash-verge-rev Windows MacOS Linux](https://github.com/clash-verge-rev/clash-verge-rev) |
-| [clash-nyanpasu Windows MacOS Linux](https://github.com/keiko233/clash-nyanpasu)          |
-| [shadowsocks Windows MacOS Linux](https://github.com/shadowsocks/shadowsocks-rust)        |
+| Client Windows MacOS Linux Android IOS                                              |
+|-------------------------------------------------------------------------------------|
+| [sing-box 无 Windows](https://github.com/SagerNet/sing-box)                          |
+| [hiddify-next 全平台](https://github.com/hiddify/hiddify-app)                          |
+| [FlClash 无 IOS](https://github.com/chen08209/FlClash)                               |
+| [mihomo-party 无 Android IOS](https://github.com/mihomo-party-org/mihomo-party)      |
+| [clash-verge-rev 无 Android IOS](https://github.com/clash-verge-rev/clash-verge-rev) |
+| [clash-nyanpasu 无 Android IOS](https://github.com/keiko233/clash-nyanpasu)          |
+| [shadowsocks 无 Android IOS](https://github.com/shadowsocks/shadowsocks-rust)        |
 
 | Windows                                                             |
 |---------------------------------------------------------------------|
+| [GUI.for.SingBox](https://github.com/GUI-for-Cores/GUI.for.SingBox) |
 | [v2rayN](https://github.com/2dust/v2rayN)                           |
 | [clashN](https://github.com/2dust/clashN)                           |
-| [v2rayA](https://github.com/v2rayA/v2rayA)                          |
-| [GUI.for.SingBox](https://github.com/GUI-for-Cores/GUI.for.SingBox) |
 | [GUI.for.Clash](https://github.com/GUI-for-Cores/GUI.for.Clash)     |
 | [nekoray](https://github.com/MatsuriDayo/nekoray)                   |
+| [v2rayA](https://github.com/v2rayA/v2rayA)                          |
 | [karing](https://github.com/KaringX/karing)                         |
 
 | MacOS                                                             |
@@ -33,16 +33,16 @@
 | [v2rayNG](https://github.com/2dust/v2rayNG)                               |
 | [ClashMetaForAndroid](https://github.com/MetaCubeX/ClashMetaForAndroid)   |
 | [shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android) |
-| [oneclick](https://oneclick.earth/#/)                                     |
 | [surfboard](https://github.com/getsurfboard/surfboard)                    |
 | [karing](https://github.com/KaringX/karing)                               |
+| [oneclick](https://oneclick.earth/#/)                                     |
 
 | IOS                                                                                                               |
 |-------------------------------------------------------------------------------------------------------------------|
 | [sing-box 免费](https://apps.apple.com/app/sing-box-vt/id6673731168) [官网](https://sing-box.sagernet.org/)           |
 | [oneclick 免费](https://apps.apple.com/us/app/oneclick-safe-easy-fast/id1545555197) [官网](https://oneclick.earth/#/) |
-| [Surge 美](https://apps.apple.com/us/app/surge-5/id1442620678) [官网](https://nssurge.com/)                          |
 | [Spectre VPN 美 免费 SSR](https://apps.apple.com/us/app/spectre-vpn/id1508712998)                                    |
+| [Surge 美](https://apps.apple.com/us/app/surge-5/id1442620678) [官网](https://nssurge.com/)                          |
 | [Shadowrocket GitHub 付费](https://github.com/Shadowrocket)                                                         |
 | [Shadowrocket 美 付费](https://apps.apple.com/us/app/shadowrocket/id932747118)                                       |
 | [Shadowrocket 港 付费](https://apps.apple.com/hk/app/shadowrocket/id932747118)                                       |
@@ -72,17 +72,16 @@
 | 内核 Core                                                                                                   |
 |-----------------------------------------------------------------------------------------------------------|
 | [sing-box](https://github.com/SagerNet/sing-box) [sing-box 官网 全平台支持](https://sing-box.sagernet.org/zh/)   |
+| [mihomo](https://github.com/MetaCubeX/mihomo)                                                             |
+| [v2ray-core](https://github.com/v2ray/v2ray-core)                                                         |
 | [v2ray-core](https://github.com/v2fly/v2ray-core)                                                         |
 | [clash all](https://github.com/DustinWin/clash-tools)                                                     |
-| [mihomo](https://github.com/MetaCubeX/mihomo)                                                             |
 | [Xray-core](https://github.com/XTLS/Xray-core)                                                            |
-| [v2ray-core](https://github.com/v2ray/v2ray-core)                                                         |
 
 | 规则                                                                   |
 |----------------------------------------------------------------------|
 | [clash-rules](https://github.com/Loyalsoldier/clash-rules)           |
 | [v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat)   |
-| [rules](https://github.com/Hackl0us/SS-Rule-Snippet)                 |
 | [ip database](https://github.com/Hackl0us/GeoIP2-CN)                 |
 | [去广告](https://github.com/ACL4SSR/ACL4SSR/tree/master)                |
 
@@ -314,23 +313,3 @@
 
 # 订阅转换地址
 [官方](https://acl4ssr-sub.github.io/)
-
-[](https://api.subcloud.xyz/)
-[](https://api.dler.io/)
-[](https://sub.789.st/)
-[](https://transfer.sfcat.link/)
-[](https://back.889876.xyz/)
-[](https://bav6.889876.xyz/)
-[](https://api-suc.0z.gs/)
-
-[](https://raw.githubusercontent.com/freefq/free/master/v2|https://raw.githubusercontent.com/ZywChannel/free/main/sub|https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub|https://raw.githubusercontent.com/ts-sf/fly/main/clash|https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml|https://raw.githubusercontent.com/aiboboxx/clashfree/main/clash.yml)
-[](sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Ffreefq%2Ffree%2Fmaster%2Fv2%7Chttps%3A%2F%2Fraw.githubusercontent.com%2FZywChannel%2Ffree%2Fmain%2Fsub%7Chttps%3A%2F%2Fraw.githubusercontent.com%2FPawdroid%2FFree-servers%2Fmain%2Fsub%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fts-sf%2Ffly%2Fmain%2Fclash%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fanaer%2FSub%2Fmain%2Fclash.yaml%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Faiboboxx%2Fclashfree%2Fmain%2Fclash.yml&insert=false)
-
-[](https://www.xrayvip.com/free.yaml|https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml|https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml|https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.yml|https://raw.githubusercontent.com/Flik6/getNode/main/clash.yaml|https://raw.githubusercontent.com/vxiaov/free_proxies/main/clash/clash.provider.yaml)
-[](sub?target=clash&url=https%3A%2F%2Fwww.xrayvip.com%2Ffree.yaml%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fmfuu%2Fv2ray%2Fmaster%2Fclash.yaml%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fermaozi%2Fget_subscribe%2Fmain%2Fsubscribe%2Fclash.yml%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fmahdibland%2FShadowsocksAggregator%2Fmaster%2FEternity.yml%7Chttps%3A%2F%2Fraw.githubusercontent.com%2FFlik6%2FgetNode%2Fmain%2Fclash.yaml%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fvxiaov%2Ffree_proxies%2Fmain%2Fclash%2Fclash.provider.yaml&insert=false)
-
-[](https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash|https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml|https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml|https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml)
-[](sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fpeasoft%2FNoMoreWalls%2Fmaster%2Flist.yml%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fzhangkaiitugithub%2Fpasscro%2Fmain%2Fspeednodes.yaml%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fchengaopan%2FAutoMergePublicNodes%2Fmaster%2Flist.yml%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fripaojiedian%2Ffreenode%2Fmain%2Fclash&insert=false)
-
-[](https://neko-warp.nloli.xyz|https://sub.5112233.xyz/auto|https://links.bocchi2b.top/clash)
-[](sub?target=clash&new_name=true&url=https%3A%2F%2Fneko-warp.nloli.xyz%7Chttps%3A%2F%2Fsub.5112233.xyz%2Fauto%7Chttps%3A%2F%2Flinks.bocchi2b.top%2Fclash&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini)
