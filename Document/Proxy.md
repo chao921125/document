@@ -1,15 +1,15 @@
 # Client [订阅](#Pay)
 # [IP 纯净度查询](https://whoer.net/zh#)
 # [检测当前是否可用 GPT](https://ios.chat.openai.com/public-api/mobile/server_status/v1)
-| Client Windows MacOS Linux Android IOS                                              |
-|-------------------------------------------------------------------------------------|
-| [sing-box 无 Windows](https://github.com/SagerNet/sing-box)                          |
-| [hiddify-next 全平台](https://github.com/hiddify/hiddify-app)                          |
-| [FlClash 无 IOS](https://github.com/chen08209/FlClash)                               |
-| [mihomo-party 无 Android IOS](https://github.com/mihomo-party-org/mihomo-party)      |
-| [clash-verge-rev 无 Android IOS](https://github.com/clash-verge-rev/clash-verge-rev) |
-| [clash-nyanpasu 无 Android IOS](https://github.com/keiko233/clash-nyanpasu)          |
-| [shadowsocks 无 Android IOS](https://github.com/shadowsocks/shadowsocks-rust)        |
+| Client Windows MacOS Linux Android IOS                                                                                             |
+|------------------------------------------------------------------------------------------------------------------------------------|
+| [sing-box 无 Windows](https://github.com/SagerNet/sing-box)                                                                         |
+| [hiddify-next 全平台](https://github.com/hiddify/hiddify-app)                                                                         |
+| [FlClash 无 IOS](https://github.com/chen08209/FlClash)                                                                              |
+| [mihomo-party 无 Android IOS](https://github.com/mihomo-party-org/mihomo-party)                                                     |
+| [clash-verge-rev 无 Android IOS](https://github.com/clash-verge-rev/clash-verge-rev)                                                |
+| [clash-nyanpasu 无 Android IOS](https://github.com/keiko233/clash-nyanpasu)                                                         |
+| [shadowsocks 无 IOS](https://github.com/shadowsocks/shadowsocks-rust) [Android](https://github.com/shadowsocks/shadowsocks-android) |
 
 | Windows                                                             |
 |---------------------------------------------------------------------|
@@ -97,7 +97,7 @@
 | *不限制在线 注册无验证*                                                                                                  |
 | [- 9.99/年-100G/月 三毛机场](https://www.xn--ehqx7tcnnope.com/#/register?code=iqzpBkFJ)                              |
 | [15.6/年-200G/月 顶级机场](https://xn--mes358a9urctx.com/#/register?code=dhhw9jqv)                                   |
-| [~~- 19/年-250G/月 白嫖机场 烂非常慢 不推荐~~](https://yes.xn--mesv7f5toqlp.biz/register?code=IJNJjQW3)                     |
+| [~~- 19/年-250G/月 白嫖机场 非常烂 不推荐~~](https://yes.xn--mesv7f5toqlp.biz/register?code=IJNJjQW3)                      |
 | [30/年-200G/月 有试用 廉价机场](https://xn--6nq44r2pg9mj.com/#/register?code=FeiARV4a)                                  |
 | [1.5/月-100G/月 赔钱机场](https://xn--cp3a08l.com/#/register?code=l00pkJwh)                                          |
 | [2/月-100G/月 一分机场](https://xn--4gqx1hgtfdmt.com/)                                                               |
@@ -153,6 +153,7 @@
 | [9/月-100G/月 中转机场](https://xn--fiq93tcnn892b.com/#/register)                                                    |
 | []()                                                                                                           |
 | [13/年-100G/月 有试用 fscloud](https://web.fscloud.cc/#/register?code=1umqePA4) [](https://fscloud.vip/)            |
+| [24/年-100G/月 有试用 bujiasu](https://jiu.bujiasu.com/#/login)                                                     |
 | [6/月-50G/月 蘑菇云](https://mgypog.xyz/#/register)                                                                 |
 | [8/月-168G/月 xsus](https://xsus.work/#/register)                                                                |
 | [9.8/月-100G/月 咪兔Mitu](https://shop.mitoo.me/register)                                                          |
