@@ -259,7 +259,7 @@
 | [22/月-120G/月 万城网络](https://user.vcsite04.com/#/sign-up)                                                         |
 | [22/月-120G/月 万城网络](https://port01.wc-yz.com/#/login)                                                            |
 | [22/月-100G/月 Nerwo奶瓶](https://invite.eleven.observer/auth/register.html)                                        |
-| [66/季-100G/月 白月光](https://bygcloud.com/#/login?code=NmWFv1Se)                                                   |
+| [66/季-100G/月 白月光](https://bygcloud.com/#/login?code=NmWFv1Se) [](https://www.sibker.com)                        |
 | [25/月-100/月 觅云](https://www.mecloud.icu/)                                                                       |
 | [25/月-80G/月 好滋味杂货铺](https://console.haotas.com/#/register/)                                                     |
 | [29/月-200G/月 自行搜索 悠兔](https://youtu6.shop/)                                                                     |
