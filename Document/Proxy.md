@@ -153,6 +153,7 @@
 | [9/月-100G/月 中转机场](https://xn--fiq93tcnn892b.com/#/register)                                                    |
 | []()                                                                                                           |
 | [13/年-100G/月 有试用 fscloud](https://web.fscloud.cc/#/register?code=1umqePA4) [](https://fscloud.vip/)            |
+| [24/年-100G/月 有试用 bujiasu](https://jiu.bujiasu.com/#/login)                                                     |
 | [6/月-50G/月 蘑菇云](https://mgypog.xyz/#/register)                                                                 |
 | [8/月-168G/月 xsus](https://xsus.work/#/register)                                                                |
 | [9.8/月-100G/月 咪兔Mitu](https://shop.mitoo.me/register)                                                          |
