@@ -97,7 +97,7 @@
 | *不限制在线 注册无验证*                                                                                                  |
 | [- 9.99/年-100G/月 三毛机场](https://www.xn--ehqx7tcnnope.com/#/register?code=iqzpBkFJ)                              |
 | [15.6/年-200G/月 顶级机场](https://xn--mes358a9urctx.com/#/register?code=dhhw9jqv)                                   |
-| [~~- 19/年-250G/月 白嫖机场 烂非常慢 不推荐~~](https://yes.xn--mesv7f5toqlp.biz/register?code=IJNJjQW3)                     |
+| [~~- 19/年-250G/月 白嫖机场 非常烂 不推荐~~](https://yes.xn--mesv7f5toqlp.biz/register?code=IJNJjQW3)                      |
 | [30/年-200G/月 有试用 廉价机场](https://xn--6nq44r2pg9mj.com/#/register?code=FeiARV4a)                                  |
 | [1.5/月-100G/月 赔钱机场](https://xn--cp3a08l.com/#/register?code=l00pkJwh)                                          |
 | [2/月-100G/月 一分机场](https://xn--4gqx1hgtfdmt.com/)                                                               |
