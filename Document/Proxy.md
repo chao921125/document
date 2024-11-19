@@ -91,7 +91,7 @@
 | [订阅转换本地搭建](https://github.com/tindy2013/subconverter) |
 
 # Pay
-###### 【- 任意邮箱】 【+ 可直接访问】
+###### 【- 任意邮箱】 【+ 可直接访问】 【* 时间久】
 | [*15/月以下*]()                                                                                                   |
 |----------------------------------------------------------------------------------------------------------------|
 | *不限制在线 注册无验证*                                                                                                  |
@@ -245,7 +245,8 @@
 | [- 29/月-120G/月 cmy 红莓](https://portal.cmy.network/index)                                                        |
 | [- 28/月-100G/月 flyintpro 飞数](https://www.flyintpro.com/#/register)                                              |
 | [39/月-200G/月 BoostNet](https://boostnet.top/#/register)                                                         |
-| [49/月-120G/月 WgetCloud](https://invite.wgetcloud.ltd/auth/register?code=Y7ytZ1) [](https://wgetcloud.org)       |
+| [46/月-328G/月 OKANC](https://www.okanc.com/index.php#/register)                                                  |
+| [* 49/月-120G/月 WgetCloud](https://invite.wgetcloud.ltd/auth/register?code=Y7ytZ1) [](https://wgetcloud.org)     |
 | [52/月-200G/月 库洛米](https://www.kuromis.com/)                                                                     |
 | [117.46/月-500G/月 Nexitally 佩奇家主站](https://nxboom.com/index.aspx)                                                |
 |                                                                                                                 |
@@ -276,8 +277,8 @@
 | [38/月-350G/月 可乐云](https://colacloud.net/#/register)                                                             |
 | [39/月-150G/月 FlowerCloud](https://huacloud.dev/)                                                                |
 | [50/月-200G/月 Element](https://www.yuansu.uk/)                                                                   |
-| [57.5/月-300G/月 AmyTelecom](https://www.amytele.net/index.php)                                                   |
-| [176/季-250G/月 自行搜索 TAG tagInternet](https://tagxx.vip/)                                                         |
+| [* 57.5/月-300G/月 AmyTelecom](https://www.amytele.net/index.php)                                                 |
+| [* 176/季-250G/月 自行搜索 TAG tagInternet](https://tagxx.vip/)                                                       |
 
 | 发布页                                                                 |
 |---------------------------------------------------------------------|
