@@ -1,7 +1,7 @@
 # Client [订阅](#Pay)
 # [IP 纯净度查询](https://whoer.net/zh#)
 # [检测当前是否可用 GPT](https://ios.chat.openai.com/public-api/mobile/server_status/v1)
-| Client Windows MacOS Linux Android IOS                                                                                             |
+| Windows MacOS Linux Android IOS                                                                                                    |
 |------------------------------------------------------------------------------------------------------------------------------------|
 | [sing-box 无 Windows](https://github.com/SagerNet/sing-box)                                                                         |
 | [hiddify-next 全平台](https://github.com/hiddify/hiddify-app)                                                                         |
@@ -188,6 +188,7 @@
 | [10/月-188G/月 Echo](https://echonetwork.club/#/login)                                                           |
 | [10/月-80G/月 大迅云](https://daxuns.top/#/register)                                                                |
 | [10/月-100G/月 有试用 墙了个墙](https://www.qlgq.top/auth/register?code=bfaaa4eb65)                                     |
+| [99/年-100G/月 一枝红杏](https://order.yizhihongxing.club/)                                                          |
 | [12/月-300G/月 ikuuu](https://ikuuu.one/)                                                                        |
 | [12/月-100G/月 私房菜](https://citrus.gitbook.io/zui-xin-guan-wang)                                                 |
 | [128/年-200G/月 小飞象](https://xiaofeixiang.top/#/register)                                                        |
@@ -251,7 +252,6 @@
 | [117.46/月-500G/月 Nexitally 佩奇家主站](https://nxboom.com/index.aspx)                                                |
 |                                                                                                                 |
 | *限制在线*                                                                                                          |
-| [99/年-100G/月 一枝红杏](https://order.yizhihongxing.club/)                                                           |
 | [15/月-100G/月 wescloud](https://wescloud.xyz/)                                                                   |
 | [15.9/月-100G/月 ikuajings 跨境Cloud](https://www.ikuajings.com/auth/login)                                         |
 | [15.9/月-100G/月 疾风云](https://jifengcloud.net/auth/register)                                                      |
