@@ -3,7 +3,7 @@
 # [检测当前是否可用 GPT](https://ios.chat.openai.com/public-api/mobile/server_status/v1)
 | Windows MacOS Linux Android IOS                                                                                                    |
 |------------------------------------------------------------------------------------------------------------------------------------|
-| [sing-box 无 Windows](https://github.com/SagerNet/sing-box)                                                                         |
+| [sing-box 全平台](https://github.com/SagerNet/sing-box)                                                                               |
 | [hiddify-next 全平台](https://github.com/hiddify/hiddify-app)                                                                         |
 | [FlClash 无 IOS](https://github.com/chen08209/FlClash)                                                                              |
 | [clash-verge-rev 无 Android IOS](https://github.com/clash-verge-rev/clash-verge-rev)                                                |
@@ -94,6 +94,7 @@
 | [15.6/年-200G/月 顶级机场](https://xn--mes358a9urctx.com/#/register?code=dhhw9jqv)                                   |
 | [30/年-200G/月 有试用 廉价机场](https://xn--6nq44r2pg9mj.com/#/register?code=FeiARV4a)                                  |
 | [2/月-100G/月 一分机场](https://xn--4gqx1hgtfdmt.com/)                                                               |
+| [- 2.9/月-100G/月 cshjc](https://cshjc.top/web/#/login?)                                                         |
 | [- 3/月-500G/月 极速云机场](https://xn--kbtz0ztjtvlp.com/)                                                            |
 | [- 5/月-100G/月 一号测速](https://yihao42.buzz/#/register?code=yX4UyKwx) [](https://xn--4gq48l11y805a.com/)          |
 | [- + 6/月-100G/月 淘气兔](https://xn--mesq4iw0lg80a.com/)                                                           |
