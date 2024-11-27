@@ -3,7 +3,7 @@
 # [检测当前是否可用 GPT](https://ios.chat.openai.com/public-api/mobile/server_status/v1)
 | Windows MacOS Linux Android IOS                                                                                                    |
 |------------------------------------------------------------------------------------------------------------------------------------|
-| [sing-box 无 Windows](https://github.com/SagerNet/sing-box)                                                                         |
+| [sing-box 全平台](https://github.com/SagerNet/sing-box)                                                                               |
 | [hiddify-next 全平台](https://github.com/hiddify/hiddify-app)                                                                         |
 | [FlClash 无 IOS](https://github.com/chen08209/FlClash)                                                                              |
 | [clash-verge-rev 无 Android IOS](https://github.com/clash-verge-rev/clash-verge-rev)                                                |
