@@ -14,8 +14,8 @@
 | Windows                                                             |
 |---------------------------------------------------------------------|
 | [GUI.for.SingBox](https://github.com/GUI-for-Cores/GUI.for.SingBox) |
-| [v2rayN](https://github.com/2dust/v2rayN)                           |
 | [clashN](https://github.com/2dust/clashN)                           |
+| [v2rayN](https://github.com/2dust/v2rayN)                           |
 | [GUI.for.Clash](https://github.com/GUI-for-Cores/GUI.for.Clash)     |
 | [nekoray](https://github.com/MatsuriDayo/nekoray)                   |
 | [v2rayA](https://github.com/v2rayA/v2rayA)                          |
@@ -29,10 +29,10 @@
 
 | Android                                                                   |
 |---------------------------------------------------------------------------|
-| [NekoBoxForAndroid](https://github.com/MatsuriDayo/NekoBoxForAndroid)     |
-| [v2rayNG](https://github.com/2dust/v2rayNG)                               |
 | [ClashMetaForAndroid](https://github.com/MetaCubeX/ClashMetaForAndroid)   |
+| [v2rayNG](https://github.com/2dust/v2rayNG)                               |
 | [shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android) |
+| [NekoBoxForAndroid](https://github.com/MatsuriDayo/NekoBoxForAndroid)     |
 | [surfboard](https://github.com/getsurfboard/surfboard)                    |
 | [karing](https://github.com/KaringX/karing)                               |
 | [oneclick](https://oneclick.earth/#/)                                     |
