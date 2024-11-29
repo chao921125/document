@@ -1,4 +1,5 @@
 [UUID](https://www.uuidgenerator.net/)
+[域名](https://www.hostinger.com/)
 
 # [vless-yonggekkk](yonggekkk-vless.js)
 [//](https://github.com/yonggekkk/Cloudflare_vless_trojan/blob/main/Vless_workers_pages/_worker.js)
