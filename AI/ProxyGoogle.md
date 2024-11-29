@@ -1,3 +1,5 @@
+[UUID](https://www.uuidgenerator.net/)
+
 ###### https://colab.research.google.com/
 ###### 新建，复制下面代码，运行
 ```python
