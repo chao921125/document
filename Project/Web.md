@@ -1,6 +1,3 @@
-# 免费的API
-https://api.aa1.cn/
-
 # HTML UI
 [Bootstrap](https://getbootstrap.com/) |
 [Bootstrap 中文](https://www.bootcss.com/) \
