@@ -92,6 +92,7 @@
 | [- 9.99/年-100G/月 三毛机场](https://www.xn--ehqx7tcnnope.com/#/register?code=iqzpBkFJ)                              |
 | [15.6/年-200G/月 顶级机场](https://xn--mes358a9urctx.com/#/register?code=dhhw9jqv)                                   |
 | [30/年-200G/月 有试用 廉价机场](https://xn--6nq44r2pg9mj.com/#/register?code=FeiARV4a)                                  |
+| [1.5/月-100G/月 赔钱机场](https://xn--mes358aby2apfg.com/#/login)                                                    |
 | [2/月-100G/月 一分机场](https://xn--4gqx1hgtfdmt.com/)                                                               |
 | [- 2.9/月-100G/月 cshjc](https://cshjc.top/web/#/login?)                                                         |
 | [- 3/月-500G/月 极速云机场](https://xn--kbtz0ztjtvlp.com/)                                                            |
@@ -206,7 +207,7 @@
 | [15/月-100G/月 一云梯机场](https://1yunti.org/)                                                                        |
 | [15/月-100G/月 龙猫云 Totoro Cloud](https://totorocloud.cc/register?code=8JnnPAyd)                                   |
 | [18/月-100G/月 CyberGuard](https://cyberguard.top/index.php#/register?code=HsiGRr69)                              |
-| [- 19.9/月-150G/月 fastlink](https://3fan.3f66.net/#/)                                                            |
+| [- 19.9/月-150G/月 三番云](https://3fan.3f66.net/#/)                                                                 |
 | [19.9/月-100G/月 大哥云](https://www.dageyun.net/#/register)                                                         |
 | [20/月-200G/月 肥猫云 FATCAT](https://www.fatcatcf.com/register)                                                     |
 | [- 20/月-200G/月 WestData](https://wd-cloud.net/)                                                                 |
