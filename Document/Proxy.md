@@ -13,9 +13,8 @@
 
 | Windows                                                             |
 |---------------------------------------------------------------------|
-| [GUI.for.SingBox](https://github.com/GUI-for-Cores/GUI.for.SingBox) |
-| [clashN](https://github.com/2dust/clashN)                           |
 | [v2rayN](https://github.com/2dust/v2rayN)                           |
+| [GUI.for.SingBox](https://github.com/GUI-for-Cores/GUI.for.SingBox) |
 | [GUI.for.Clash](https://github.com/GUI-for-Cores/GUI.for.Clash)     |
 | [nekoray](https://github.com/MatsuriDayo/nekoray)                   |
 | [v2rayA](https://github.com/v2rayA/v2rayA)                          |
@@ -29,8 +28,8 @@
 
 | Android                                                                   |
 |---------------------------------------------------------------------------|
-| [ClashMetaForAndroid](https://github.com/MetaCubeX/ClashMetaForAndroid)   |
 | [v2rayNG](https://github.com/2dust/v2rayNG)                               |
+| [ClashMetaForAndroid](https://github.com/MetaCubeX/ClashMetaForAndroid)   |
 | [shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android) |
 | [NekoBoxForAndroid](https://github.com/MatsuriDayo/NekoBoxForAndroid)     |
 | [surfboard](https://github.com/getsurfboard/surfboard)                    |
@@ -109,6 +108,7 @@
 | [60/年-50000G/月 免费机场](https://w.免费机场.com/#/register?code=NiN0Y06H)                                              |
 | []()                                                                                                           |
 | [6/年-100G/月 FG](https://3.mmcks.top/#/register?code=fdFqcdOt)                                                  |
+| [9.9/年-120G/月 快冲云](https://0be.net/register)                                                                   |
 | [- 12/年-200G/月 杜卡迪](https://www.dukadi.one/#/register?code=q7LTKwfF)                                           |
 | [- 15/年-300G/月 needay](https://needay.xyz/#/register?code=gnmP6662)                                            |
 | [- 21.9/年-200G/月 牛逼](https://6.66jc.top//#/register)                                                           |
@@ -305,13 +305,30 @@
 |--------------------------------------------------------------------------------------|
 | [WARP(需要对cloudflare进行一些操作) 目前部分地区不可用](https://1.1.1.1/) [](https://one.one.one.one/) |
 | [WARP 获取可用方案](https://warpplus.cc/)                                                  |
-| [打开链接获取地址](https://getafreenode.com/)                                                |
 | [输入邮箱订阅](https://www.v2rayfree.eu.org/)                                              |
+| [公众号验证码](https://share.colors.nyc.mn/)                                               |
+| [打开获取](https://mkshare3.github.io/)                                                  |
+| [打开获取](https://chwz.us.kg/APIs/)                                                     |
 | [复制地址到客户端即可](https://neko-warp.nloli.xyz/)                                           |
-| [复制地址到客户端即可](https://subs.zeabur.app/clash) [](https://tofree.zeabur.app/)           |
 | [复制地址到客户端即可](https://links.bocchi2b.top/clash)                                       |
 | [复制地址到客户端即可](https://sub.sharecentre.online/sub)                                     |
+| [复制地址到客户端即可](https://subs.zeabur.app/clash) [](https://tofree.zeabur.app/)           |
 | [复制地址到客户端即可](https://sub.pmsub.me/clash.yaml) [](https://sub.pmsub.me/base64)        |
+| [github](https://github.com/aiboboxx/clashfree)                                      |
+| [github](https://github.com/ermaozi/get_subscribe)                                   |
+| [github](https://github.com/peasoft/NoMoreWalls)                                     |
+| [github](https://github.com/ripaojiedian/freenode)                                   |
+| [github](https://github.com/Barabama/FreeNodes)                                      |
+| [github](https://github.com/awesome-vpn/awesome-vpn)                                 |
+| [github](https://github.com/free18/v2ray)                                            |
+| [github](https://github.com/Ruk1ng001/freeSub)                                       |
+| [github](https://github.com/ts-sf/fly)                                               |
+| [github](https://github.com/qianlima8888/autoClashProxy)                             |
+| [github](https://github.com/zhangkaiitugithub/passcro)                               |
+| [github](https://github.com/vxiaov/free_proxies)                                     |
+| [github](https://github.com/Flikify/getNode)                                         |
+| [github](https://github.com/chengaopan/AutoMergePublicNodes)                         |
+| [github](https://github.com/mfuu/v2ray)                                              |
 
 | 自行搭建                                                       |
 |------------------------------------------------------------|
