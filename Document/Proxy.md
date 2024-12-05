@@ -235,6 +235,7 @@
 | [*中转/BGP* *限制设备或人数 无验证*]()                                                                                  |
 |-------------------------------------------------------------------------------------------------------------|
 | [19.9/月-80G/月 可莉](https://home.kle.jp/) [](https://xn--jprs12i.com/)                                        |
+| []()                                                                                                        |
 | [- 15/月-100G/月 ss-id](https://ss-id.com/#/register)                                                         |
 | [15/月-100G/月 小鸡快跑 Chicken Run](https://xiaojicf.com/#/register)                                             |
 | [15.9/月-100G/月 naiunet](https://www.naiunet.com/#/register)                                                 |
@@ -260,7 +261,6 @@
 | [15.9/月-100G/月 ikuajings 跨境Cloud](https://www.ikuajings.com/auth/login)                   |
 | [15.9/月-100G/月 疾风云](https://jifengcloud.net/auth/register)                                |
 | [15.9/月-100G/月 蓝帆云](https://lanfan.cloud/auth/register)                                   |
-| [16.99/月-100G/月 尔湾云](https://erwan.cc/auth/register)                                      |
 | [17.8/月-200G/月 SS ONE](https://hello36d.com/register)                                     |
 | [18/月-150G/月 百变小樱](https://bbxy.shop/)                                                    |
 | [19/月-120G/月 忍者云](https://renzhe.cloud/)                                                  |
@@ -276,7 +276,7 @@
 | [66/季-100G/月 白月光](https://bygcloud.com/#/login?code=NmWFv1Se) [](https://www.sibker.com/) |
 | [25/月-100/月 觅云](https://www.mecloud.icu/)                                                 |
 | [25/月-80G/月 好滋味杂货铺](https://console.haotas.com/#/register/)                               |
-| [29/月-200G/月 自行搜索 悠兔](https://youtu6.shop/)                                               |
+| [29/月-200G/月 自行搜索 悠兔](https://youtunice.com/)                                             |
 | [30/月-150G/月 bywave](https://bywavesite.github.io/)                                       |
 | [36/月-200G/月 YToo](https://y-too.com/)                                                    |
 | [38/月-350G/月 可乐云](https://colacloud.net/#/register)                                       |
