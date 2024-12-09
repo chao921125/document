@@ -228,6 +228,7 @@
 | [25/月-100G/月 miyun 觅云](https://www.miyun.la/)                           |
 | [29.9/月-160G/月 Realnode](https://dash.realnode.app/index.php#/register) |
 | [33/月-150G/月 Sayss](https://www.epaybc.com/#/register)                  |
+| [39/月-150G/月 FlowerCloud 花云](https://huacloud.dev/)                     |
 | [105/季-100G/月 KyCloud](https://my.cloudn.cc/cart.php)                   |
 |                                                                         |
 
