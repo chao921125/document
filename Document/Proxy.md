@@ -197,6 +197,7 @@
 | [13.9/月-150G/月 万达云](https://wandayun.xyz/)                                                                  |
 | [14.9/月-320G/月 闪电](https://shandiancn.com/#/register?code=TzemLQ9y)                                         |
 | [14.99/月-90G/月 NiceCloud](https://niceink.cc/)                                                              |
+| [15.9/月-100G/月 蓝帆云](https://lanfan.cloud/auth/register)                                                     |
 
 | [*中转/BGP* *不限制在线 注册无验证*]()                                                                                      |
 |-----------------------------------------------------------------------------------------------------------------|
@@ -208,6 +209,7 @@
 | [- 19.9/月-150G/月 三番云](https://3fan.3f66.net/#/)                                                                 |
 | [19.9/月-100G/月 大哥云](https://www.dageyun.net/#/register)                                                         |
 | [20/月-200G/月 肥猫云 FATCAT](https://www.fatcatcf.com/register)                                                     |
+| [20/月-120G/月 xgcloud](https://www.xgcloud.vip/#/register)                                                       |
 | [- 20/月-200G/月 WestData](https://wd-cloud.net/)                                                                 |
 | [- 20/月-100G/月 xlinkworld](https://www.xlinkworld.cc/register.php)                                              |
 | [- 20/月-100G/月 老猫云](https://laomaoyun.net/#/register) [](https://laomao.org/#/register)                         |
@@ -223,7 +225,7 @@
 | [15.8/月-160G/月 狗狗加速](https://xn--yfrp36ea9901a.com/)                    |
 | [15.99/月-100G/月 海獭](https://haita.io/register?aff=DERuAJGA)             |
 | [20/月-120G/月 xgcloud](https://www.xgcloud.org/#/register)               |
-| [22.99/月-80G/月 bitzconnect](https://www.bitzconnect.com/)               |
+| [22.99/月-80G/月 Bitz Net](https://www.bitzconnect.com/)                  |
 | [24.9/月-100G/月 tomatocloud](https://tomatocloud.me/)                    |
 | [24.9/月-100G/月 web3vpn](https://web3vpn.net/)                           |
 | [25/月-100G/月 miyun 觅云](https://www.miyun.la/)                           |
@@ -255,7 +257,6 @@
 |-------------------------------------------------------------------------------------------|
 | [15/月-100G/月 wescloud](https://wescloud.xyz/)                                             |
 | [15.9/月-100G/月 ikuajings 跨境Cloud](https://www.ikuajings.com/auth/login)                   |
-| [15.9/月-100G/月 蓝帆云](https://lanfan.cloud/auth/register)                                   |
 | [17.8/月-200G/月 SS ONE](https://hello36d.com/register)                                     |
 | [18/月-150G/月 百变小樱](https://bbxy.shop/)                                                    |
 | [19/月-120G/月 忍者云](https://renzhe.cloud/)                                                  |
@@ -270,6 +271,7 @@
 | [25/月-100/月 觅云](https://www.mecloud.icu/)                                                 |
 | [29/月-100G/月 海豚湾](https://hitun.io/)                                                      |
 | [29/月-200G/月 自行搜索 悠兔](https://youtunice.com/)                                             |
+| [29/月-500G/月 GLaDOS](https://glados.network/) [](https://glados.eu.org/)                  |
 | [30/月-150G/月 bywave](https://bywavesite.github.io/)                                       |
 | [36/月-200G/月 YToo](https://y-too.com/)                                                    |
 | [39/月-150G/月 FlowerCloud](https://huacloud.dev/)                                          |
