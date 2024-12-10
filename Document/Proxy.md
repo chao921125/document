@@ -7,24 +7,24 @@
 | [hiddify-next 全平台](https://github.com/hiddify/hiddify-app)                                                                         |
 | [FlClash 无 IOS](https://github.com/chen08209/FlClash)                                                                              |
 | [clash-verge-rev 无 Android IOS](https://github.com/clash-verge-rev/clash-verge-rev)                                                |
-| [mihomo-party 无 Android IOS](https://github.com/mihomo-party-org/mihomo-party)                                                     |
 | [clash-nyanpasu 无 Android IOS](https://github.com/keiko233/clash-nyanpasu)                                                         |
+| [mihomo-party 无 Android IOS](https://github.com/mihomo-party-org/mihomo-party)                                                     |
 | [shadowsocks 无 IOS](https://github.com/shadowsocks/shadowsocks-rust) [Android](https://github.com/shadowsocks/shadowsocks-android) |
 
 | Windows                                                             |
 |---------------------------------------------------------------------|
 | [v2rayN](https://github.com/2dust/v2rayN)                           |
-| [GUI.for.SingBox](https://github.com/GUI-for-Cores/GUI.for.SingBox) |
-| [GUI.for.Clash](https://github.com/GUI-for-Cores/GUI.for.Clash)     |
 | [nekoray](https://github.com/MatsuriDayo/nekoray)                   |
 | [v2rayA](https://github.com/v2rayA/v2rayA)                          |
 | [karing](https://github.com/KaringX/karing)                         |
+| [GUI.for.SingBox](https://github.com/GUI-for-Cores/GUI.for.SingBox) |
+| [GUI.for.Clash](https://github.com/GUI-for-Cores/GUI.for.Clash)     |
 
 | MacOS                                                             |
 |-------------------------------------------------------------------|
-| [ClashX.Meta](https://github.com/MetaCubeX/ClashX.Meta/tree/meta) |
-| [V2rayU](https://github.com/yanue/V2rayU)                         |
 | [ShadowsocksX-NG](https://github.com/shadowsocks/ShadowsocksX-NG) |
+| [V2rayU](https://github.com/yanue/V2rayU)                         |
+| [ClashX.Meta](https://github.com/MetaCubeX/ClashX.Meta)           |
 
 | Android                                                                   |
 |---------------------------------------------------------------------------|
@@ -41,7 +41,6 @@
 | [sing-box 免费](https://apps.apple.com/app/sing-box-vt/id6673731168) [官网](https://sing-box.sagernet.org/)           |
 | [oneclick 免费](https://apps.apple.com/us/app/oneclick-safe-easy-fast/id1545555197) [官网](https://oneclick.earth/#/) |
 | [Spectre VPN 美 免费 SSR](https://apps.apple.com/us/app/spectre-vpn/id1508712998)                                    |
-| [Surge 美](https://apps.apple.com/us/app/surge-5/id1442620678) [官网](https://nssurge.com/)                          |
 | [Shadowrocket GitHub 付费](https://github.com/Shadowrocket)                                                         |
 | [Shadowrocket 美 付费](https://apps.apple.com/us/app/shadowrocket/id932747118)                                       |
 | [Shadowrocket 港 付费](https://apps.apple.com/hk/app/shadowrocket/id932747118)                                       |
@@ -51,6 +50,7 @@
 | [QuantumultX GitHub 付费](https://github.com/crossutility/Quantumult-X)                                             |
 | [QuantumultX 美 付费](https://apps.apple.com/us/app/quantumult-x/id1443988620)                                       |
 | [QuantumultX 港 付费](https://apps.apple.com/hk/app/quantumult-x/id1443988620)                                       |
+| [Surge 美 付费](https://apps.apple.com/us/app/surge-5/id1442620678) [官网](https://nssurge.com/)                       |
 | [Loon 美 付费](https://apps.apple.com/us/app/loon/id1373567447)                                                      |
 
 | 路由器                                                                  |
@@ -179,22 +179,24 @@
 | [- 10/月-100G/月 最萌の云](https://cutestcloud.com/#/register)                                            |
 | [12.8/月-320/月 喵酥云](https://www.miaosu.xyz/#/register)                                               |
 
-| [*直连/中转* *限制在线*]()                                                                                  |
-|-----------------------------------------------------------------------------------------------------|
-| [1/月-50G/月 性价比机场](https://xn--6nq44r2uh9rhj7f.com//#/register?code=6v77KWIz) [](jichang.gitbook.io) |
-| []()                                                                                                |
-| [9/月-100G/月 freecat](https://us.freecat.cloud/#/register)                                           |
-| [9.9/月-100G/月 贝雪云](https://www.besnow.org/index.php#/register)                                      |
-| [10/月-188G/月 Echo](https://echonetwork.club/#/login)                                                |
-| [10/月-80G/月 大迅云](https://daxuns.top/#/register)                                                     |
-| [10/月-100G/月 有试用 墙了个墙](https://www.qlgq.top/auth/register?code=bfaaa4eb65)                          |
-| [99/年-100G/月 一枝红杏](https://order.yizhihongxing.club/)                                               |
-| [12/月-300G/月 ikuuu](https://ikuuu.one/)                                                             |
-| [128/年-200G/月 小飞象](https://xiaofeixiang.top/#/register)                                             |
-| [12.8/月-88G/月 纷达](https://fenda.cloud/auth/register)                                                |
-| [13.9/月-150G/月 万达云](https://wandayun.xyz/)                                                          |
-| [14.9/月-320G/月 闪电](https://shandiancn.com/#/register?code=TzemLQ9y)                                 |
-| [14.99/月-90G/月 NiceCloud](https://niceink.cc/)                                                      |
+| [*直连/中转* *限制在线*]()                                                                                          |
+|-------------------------------------------------------------------------------------------------------------|
+| [1/月-50G/月 性价比机场](https://xn--6nq44r2uh9rhj7f.com//#/register?code=6v77KWIz) [](https://jichang.gitbook.io) |
+| [20/月-150G/月 SNTP 守候网络](https://u.xn--hwqp2zit2amna.com/auth/register)                                      |
+| []()                                                                                                        |
+| [9/月-100G/月 freecat](https://us.freecat.cloud/#/register)                                                   |
+| [9.9/月-100G/月 贝雪云](https://www.besnow.org/index.php#/register)                                              |
+| [10/月-188G/月 Echo](https://echonetwork.club/#/login)                                                        |
+| [10/月-80G/月 大迅云](https://daxuns.top/#/register)                                                             |
+| [10/月-100G/月 有试用 墙了个墙](https://www.qlgq.top/auth/register?code=bfaaa4eb65)                                  |
+| [10/月-100G/月 疾风云](https://jifengcloud.net/auth/register) [](https://jifengcloud.info/)                      |
+| [99/年-100G/月 一枝红杏](https://order.yizhihongxing.club/)                                                       |
+| [12/月-300G/月 ikuuu](https://ikuuu.one/)                                                                     |
+| [128/年-200G/月 小飞象](https://xiaofeixiang.top/#/register)                                                     |
+| [12.8/月-88G/月 纷达](https://fenda.cloud/auth/register)                                                        |
+| [13.9/月-150G/月 万达云](https://wandayun.xyz/)                                                                  |
+| [14.9/月-320G/月 闪电](https://shandiancn.com/#/register?code=TzemLQ9y)                                         |
+| [14.99/月-90G/月 NiceCloud](https://niceink.cc/)                                                              |
 
 | [*中转/BGP* *不限制在线 注册无验证*]()                                                                                      |
 |-----------------------------------------------------------------------------------------------------------------|
@@ -227,6 +229,7 @@
 | [25/月-100G/月 miyun 觅云](https://www.miyun.la/)                           |
 | [29.9/月-160G/月 Realnode](https://dash.realnode.app/index.php#/register) |
 | [33/月-150G/月 Sayss](https://www.epaybc.com/#/register)                  |
+| [39/月-150G/月 FlowerCloud 花云](https://huacloud.dev/)                     |
 | [105/季-100G/月 KyCloud](https://my.cloudn.cc/cart.php)                   |
 |                                                                         |
 
@@ -260,9 +263,9 @@
 | [20/月-120G/月 避风港](https://www.bfgok.com/auth/register)                                    |
 | [20/月-100/月 v2free](https://w1.v2free.cc/)                                                |
 | [72/季-100G/月 MESL](https://in.mesl.cloud/#/register?code=6kMKKE0T)                        |
-| [22/月-120G/月 万城网络](https://user.vcsite04.com/#/sign-up)                                   |
-| [22/月-120G/月 万城网络](https://port01.wc-yz.com/#/login)                                      |
+| [22/月-120G/月 万城网络](https://user.vcsite01.com/#/sign-up)                                   |
 | [22/月-100G/月 Nerwo奶瓶](https://invite.eleven.observer/auth/register.html)                  |
+| [~~25/月-150G/月 SSRDOG 推广佣金不给~~](https://go.ssrdog.com/?code=D24biOV4)                     |
 | [66/季-100G/月 白月光](https://bygcloud.com/#/login?code=NmWFv1Se) [](https://www.sibker.com/) |
 | [25/月-100/月 觅云](https://www.mecloud.icu/)                                                 |
 | [29/月-100G/月 海豚湾](https://hitun.io/)                                                      |
