@@ -155,6 +155,12 @@ https://github.com/opentdp/wechat-rest
 | [GPTalkv](https://chat.gptalk.net/)                              |
 | [Chat For AI 【OpenAI KEY】](https://chatforai.com/)               |
 
+# 翻译
+|                                                                             |
+|-----------------------------------------------------------------------------|
+| [openai-translator](https://github.com/openai-translator/openai-translator) |
+| [沉浸式翻译](https://immersivetranslate.com/zh-Hans/)                            |
+
 # 图片视频修复
 [视频修复 开源](https://github.com/sczhou/CodeFormer)
 ```text
