@@ -5,6 +5,7 @@
 | [ubuntu](https://ubuntu.com/)                    | Debian              |
 | [debian](https://www.debian.org/)                | Debian              |
 | [mint](https://www.linuxmint.com/)               | Debian              |
+| [wubuntu](https://wubuntu.org/)                  | Debian              |
 |                                                  |                     |
 | [centos stream](https://www.centos.org/)         | RHEL 上游分支更新频率 适中    |
 | [fedora](https://fedoraproject.org/)             | RHEL 上游分支更新频率快      |
