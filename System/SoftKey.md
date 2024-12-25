@@ -83,5 +83,74 @@ https://positiverecords.ru/
 # 截图
 https://macmiao.lanzouj.com/iWCvF1nht9qb
 
-# 剪映破解
 https://shorturl.at/uANP7
+
+# 剪映破解
+5.6 - 7.x jianyingpro_0_creatortool
+5.5 - 4.8 jianyingpro_0
+4.7 - 3.8 jianyingpro_0_creatortool
+3.7 - 1.x jianyingpro_0
+Mac 版本
+https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_5_6_0_10037_jianyingpro_0_creatortool.dmg
+https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_5_6_0_10042_jianyingpro_0_creatortool.dmg
+
+https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_5_7_0_10096_jianyingpro_0_creatortool.dmg
+
+https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_5_8_0_10201_jianyingpro_0_creatortool.dmg
+https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_5_8_0_10224_jianyingpro_0_creatortool.dmg
+
+https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_5_9_0_10270_jianyingpro_0_creatortool.dmg
+https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_5_9_0_10275_jianyingpro_0_creatortool.dmg
+
+https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_6_0_0_10380_jianyingpro_0_creatortool.dmg
+https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_6_0_0_10391_jianyingpro_0_creatortool.dmg
+https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_6_0_1_10410_jianyingpro_0_creatortool.dmg
+
+https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_6_1_0_10512_jianyingpro_0_creatortool.dmg
+https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_6_1_0_10523_jianyingpro_0_creatortool.dmg
+https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_6_1_0_10525_jianyingpro_0_creatortool.dmg
+https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_6_1_0_10532_jianyingpro_0_creatortool.dmg
+https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_6_1_0_10548_jianyingpro_0_creatortool.dmg
+https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_6_1_0_10567_jianyingpro_0_creatortool.dmg
+
+https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_6_3_0_10627_jianyingpro_0_creatortool.dmg
+
+https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_6_6_0_10623_jianyingpro_0_creatortool.dmg
+https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_6_6_0_10710_jianyingpro_0_creatortool.dmg
+https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_6_6_0_10714_jianyingpro_0_creatortool.dmg
+https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_6_6_0_10716_jianyingpro_0_creatortool.dmg
+https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_6_6_0_10721_jianyingpro_0_creatortool.dmg
+https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_6_6_0_10760_jianyingpro_0_creatortool.dmg
+
+https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_6_8_0_10801_jianyingpro_0_creatortool.dmg
+https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_6_8_0_10825_jianyingpro_0_creatortool.dmg
+https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_6_8_0_10827_jianyingpro_0_creatortool.dmg
+
+Win 版本
+# irm https://beekeeperr.com/jy | iex
+https://wingetgui.com/apps/ByteDance-JianyingPro
+https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_5_9_0_11627_jianyingpro_0_creatortool.exe
+https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_5_9_0_11632_jianyingpro_0_creatortool.exe
+
+https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_6_0_0_11756_jianyingpro_0_creatortool.exe
+
+https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_6_0_1_11779_jianyingpro_0_creatortool.exe
+
+https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_6_1_0_11925_jianyingpro_0_creatortool.exe
+https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_6_1_0_11946_jianyingpro_0_creatortool.exe
+
+https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_6_3_0_12011_jianyingpro_0_creatortool.exe
+
+https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_6_6_0_12145_jianyingpro_0_creatortool.exe
+
+https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_6_8_0_12267_jianyingpro_0_creatortool.exe
+
+https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_7_0_0_12369_jianyingpro_0_creatortool.exe
+https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_7_0_0_12374_jianyingpro_0_creatortool.exe
+
+https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_7_1_0_12382_jianyingpro_0_creatortool.exe
+
+https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_7_2_0_12468_jianyingpro_0_creatortool.exe
+https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_7_2_0_12475_jianyingpro_0_creatortool.exe
+
+https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_7_3_0_12489_jianyingpro_0_creatortool.exe
