@@ -5,6 +5,7 @@
 | [安卓视频](https://github.com/o0HalfLife0o/TVBoxOSC)                 |
 | [YTB 下载 Hitomi](https://github.com/KurtBestor/Hitomi-Downloader) |
 | [视频 下载 Lux](https://github.com/iawia002/lux)                     |
+http://www.monkrus.ws/
 
 # 音乐视频图书漫画
 | 大合集，请仔细看分类                                                                                             |
