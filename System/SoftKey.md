@@ -154,3 +154,6 @@ https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_7_2_0_12468_jiany
 https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_7_2_0_12475_jianyingpro_0_creatortool.exe
 
 https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_7_3_0_12489_jianyingpro_0_creatortool.exe
+
+国际版
+https://lf16-capcut.faceulv.com/obj/capcutpc-packages-us/installer/capcut_capcutpc_0_1.2.6_installer.dmg
