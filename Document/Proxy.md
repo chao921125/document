@@ -106,6 +106,7 @@
 | []()                                                                                                           |
 | [6/年-100G/月 FG](https://3.mmcks.top/#/register?code=fdFqcdOt)                                                  |
 | [7/年-150G/月 xfltd](https://dash.xfltd.click/register)                                                          |
+| [10/年-100G/月 奈斯云](https://naisicloud.xyz/#/register)                                                           |
 | [9.9/年-120G/月 快冲云](https://0be.net/register)                                                                   |
 | [- 12/年-200G/月 杜卡迪](https://www.dukadi.one/#/register?code=q7LTKwfF)                                           |
 | [22/年-1024G/月 两元店](https://liangyuandian.xyz/#/register?code=QDQsCmGa)                                         |
@@ -154,8 +155,10 @@
 | [10/月-100G/月 Kepa云](https://a.kepayun.lol/#/register)                                                |
 | [10/月-100G/月 Scrssr](https://www.scrssr.com/)                                                        |
 | [10/月-128G/月 TaiShan Net](https://www.taishan.pro/#/register)                                        |
+| [10/月-100G/月 ssone](https://hello-ssone.com/)                                                        |
 | [10/月-500G/月 中国国际机场](https://werun.id/#/login)                                                       |
 | [10.8/月-120G/月 okokcloud](https://okokcloud.net/index.html)                                          |
+| [10/月-100G/月 flybit](https://goflybit.pages.dev/)                                                    |
 | [11/月-100G/月 Candy Cloud](https://coco2.one/#/register)                                              |
 | [11/月-130G/月 Free Cloud 加入 TG 免费](https://bento.me/freecloud)                                        |
 | [12/月-100G/月 Teacat](https://teacat.cloud/#/register)                                                |
@@ -348,3 +351,5 @@
 | [官方](https://github.com/ACL4SSR/ACL4SSR/tree/master)      |
 | [订阅转换本地搭建](https://github.com/tindy2013/subconverter)     |
 | [订阅转换本地搭建](https://github.com/CareyWang/sub-web)          |
+
+[//]: # (https://pandafly.site/#/register)
