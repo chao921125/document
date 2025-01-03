@@ -96,7 +96,6 @@
 | [- 3/月-500G/月 极速云机场](https://xn--kbtz0ztjtvlp.com/)                                                            |
 | [- 5/月-100G/月 一号测速](https://yihao42.buzz/#/register?code=yX4UyKwx) [](https://xn--4gq48l11y805a.com/)          |
 | [- + 6/月-100G/月 淘气兔](https://xn--mesq4iw0lg80a.com/)                                                           |
-| [- 8/月-100G/月 狗狗云](https://gouvpn.cn/) [](https://xn--9kq279fa.com/)                                           |
 | [8/月-100G/月 一毛机场](https://xn--4gqu8tcnnope.com/#/register)                                                     |
 | [- 8.8/月-80G/月 UBBOLINK](https://ubbol.ink/#/register) [](https://xn--4gqs44o.com/)                            |
 | [9.9/月-500G/月 老百姓机场](https://xn--mes53ddysu0o3gl.com/#/register)                                               |
@@ -143,6 +142,7 @@
 | [20/年-200G/月 翻墙机场](https://xn--mest5a943ag8x.com/#/register)                                         |
 | [20/年-200G/月 低价机场](https://xn--6nq0hk9tdjr.com/#/register)                                           |
 | [9/月-100G/月 中转机场](https://xn--fiq93tcnn892b.com/#/register)                                          |
+| [* 12.8/月-150G/月 M78星云](https://xn--m78-dj9dv09h.com/)                                               |
 | []()                                                                                                 |
 | [13/年-100G/月 有试用 fscloud](https://web.fscloud.cc/#/register?code=1umqePA4) [](https://fscloud.vip/)  |
 | [24/年-100G/月 有试用 bujiasu](https://jiu.bujiasu.com/#/login)                                           |
@@ -171,14 +171,15 @@
 | [29/月-120G/月 速子云](https://tachyun.com/)                                                              |
 | [105/季-100G/月 KyCloud](https://mvipcloud.xyz/)                                                       |
 
-| [*直连/中转* *限制在线 注册无验证*]()                                                                            |
-|-----------------------------------------------------------------------------------------------------|
-| [10/月-160G/月 Coffee Cloud](https://xn--9kqp0mora.com/#/register)                                    |
-| [- 9.9/月-200G/月 友连](https://c.youlian400.org/#/register?code=maPTotX5) [](https://xn--8ovw22g.com/) |
-| []()                                                                                                |
-| [- 5/月-100G/月 mitce](https://mitce.com/) [25/月-*G/月 mitce](https://mitce.com/)                      |
-| [- 10/月-100G/月 最萌の云](https://cutestcloud.com/#/register)                                            |
-| [12.8/月-320/月 喵酥云](https://www.miaosu.xyz/#/register)                                               |
+| [*直连/中转* *限制在线 注册无验证*]()                                                                                     |
+|--------------------------------------------------------------------------------------------------------------|
+| [- 8/月-100G/月 狗狗云](https://xn--9kq279fa.com/)                                                                |
+| [10/月-160G/月 Coffee Cloud](https://xn--9kqp0mora.com/#/register)                                             |
+| [- 9.9/月-200G/月 友连](https://c.youlian400.org/#/register?code=maPTotX5) [](https://xn--8ovw22g.com/)          |
+| []()                                                                                                         |
+| [- 5/月-100G/月 mitce](https://mitce.com/) [25/月-*G/月 mitce](https://mitce.com/)                               |
+| [- 10/月-100G/月 最萌の云](https://cutestcloud.com/#/register)                                                     |
+| [12.8/月-320/月 喵酥云](https://www.miaosu.xyz/#/register)                                                        |
 
 | [*直连/中转* *限制在线*]()                                                                                          |
 |-------------------------------------------------------------------------------------------------------------|
@@ -218,6 +219,7 @@
 | [* 20/月-100G/月 闪电猫 SpeedCAT](https://scaff01.scvipaff.com/auth/register?code=U6L9) [](https://speedcat.me/)       |
 | [- 20.53/月-120G/月 nicess](https://client.nicess.one/register.php)                                                 |
 | [23.8/月-180G/月 Anyland](https://anyland.club/#/register?code=xvfqFY02)                                            |
+| [24/月-120G/月 Gatern](https://shuttle.gt-all.com/register.php)                                                     |
 | [25/月-150G/月 青云梯](https://qingyunti.cc/)                                                                          |
 | [28/月-150G/月 飞数](https://www.flyintpro.com/#/login)                                                               |
 | [30/月-150G/月 x-air](https://www.x-air.org/register)                                                               |
@@ -300,11 +302,11 @@
 | 发布页                                         |
 |---------------------------------------------|
 | [github 发布页](https://github.com/winston779) |
+| [发布页](https://52chatai.com/)                |
 | [发布页](https://tzdaohang.com/)               |
+| [发布页](https://www.fuyunti.com/)             |
 | [发布页](https://www.ffq.la/)                  |
 | [发布页](https://guatizi.com/)                 |
-| [发布页](https://www.fuyunti.com/)             |
-| [发布页](https://52chatai.com/)                |
 
 # Free
 | 免费订阅                                                                                 |
