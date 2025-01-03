@@ -109,7 +109,6 @@
 | [7/年-150G/月 xfltd](https://dash.xfltd.click/register)                                                              |
 | [9.9/年-120G/月 快冲云](https://0be.net/register)                                                                       |
 | [- 12/年-200G/月 杜卡迪](https://www.dukadi.one/#/register?code=q7LTKwfF)                                               |
-| [- 21.9/年-200G/月 牛逼](https://6.66jc.top//#/register)                                                               |
 | [22/年-1024G/月 两元店](https://liangyuandian.xyz/#/register?code=QDQsCmGa)                                             |
 | [- 1.99/月-100G/月 最强](https://zqjc.org/#/register)                                                                  |
 | [3/月-100G/月 五毛机场](https://wumaojichang.com/#/register?code=jGwJUP0H)                                               |
