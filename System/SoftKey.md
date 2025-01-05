@@ -86,6 +86,7 @@ https://macmiao.lanzouj.com/iWCvF1nht9qb
 https://shorturl.at/uANP7
 
 # 剪映破解
+# irm https://beekeeperr.com/jy | iex
 5.6 - 7.x jianyingpro_0_creatortool
 5.5 - 4.8 jianyingpro_0
 4.7 - 3.8 jianyingpro_0_creatortool
@@ -127,7 +128,6 @@ https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_6_8_0_10825_jiany
 https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_6_8_0_10827_jianyingpro_0_creatortool.dmg
 
 Win 版本
-# irm https://beekeeperr.com/jy | iex
 https://wingetgui.com/apps/ByteDance-JianyingPro
 https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_5_9_0_11627_jianyingpro_0_creatortool.exe
 https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_5_9_0_11632_jianyingpro_0_creatortool.exe
