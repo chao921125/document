@@ -8,6 +8,7 @@
 /bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
 卸载：/bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/HomebrewUninstall.sh)"
 ```
+
 [MYSQL 下载](https://dev.mysql.com/downloads/mysql/) |
 [MYSQL Windows 下载](https://dev.mysql.com/downloads/installer/) |
 [MYSQL MacOS 下载](https://dev.mysql.com/downloads/mysql/)
@@ -18,6 +19,7 @@ sudo /usr/local/mysql/support-files/mysql.server start
 设置自启动
 sudo launchctl load -w /Library/LaunchDaemons/com.oracle.oss.mysql.mysqld.plist
 ```
+
 [JDK 下载](https://www.oracle.com/cn/java/technologies/downloads/)
 ```text
 请下载 LTS 版本，目前对应 21(21.0.3)，长期版本为 JDK8(8u411) 和 JDK11(11.0.23)
@@ -37,6 +39,7 @@ alias jdk8="export JAVA_HOME=$JAVA8_HOME"
 alias jdk11="export JAVA_HOME=$JAVA11_HOME"
 alias jdk="export JAVA_HOME=$JAVA_HOME"
 ```
+
 [BunJS 下载](https://bun.sh/) |
 [NodeJS 下载](https://nodejs.org/en/download/) |
 [pnpm 包管理 内含 node 版本管理，可以不用 nvm 等包管理器](https://www.pnpm.cn/installation/) |
@@ -53,6 +56,16 @@ pnpm env remove --global 14.0.0 16.0.0
 pnpm env list
 # 查看远程可安装列表
 pnpm env list --remote
+```
+```shell
+# 安装并使用 npm-check-updates
+pnpm add -g npm-check-updates
+# 查看可升级包
+ncu
+# 更新
+ncu -u
+# 项目内使用
+npx npm-check-updates
 ```
 ```text
 使用nvm管理多版本nodejs（安装前请查看最新版本）
@@ -77,6 +90,7 @@ pnpm安装 https://www.pnpm.cn/installation
 Mac：curl -fsSL https://get.pnpm.io/install.sh | sh -
 Win：iwr https://get.pnpm.io/install.ps1 -useb | iex
 ```
+
 [Python 下载](https://www.python.org/downloads/)
 ```text
 不再建议安装Python 2.x 版本
@@ -85,6 +99,7 @@ Win：iwr https://get.pnpm.io/install.ps1 -useb | iex
 # ENV Python
 alias python=/Library/Frameworks/Python.framework/Versions/3.12/bin/python3.12
 ```
+
 [Git 下载](https://git-scm.com/) |
 [Git 官方客户端](https://desktop.github.com/) |
 [Git 其他三方客户端](https://git-scm.com/downloads/guis)
@@ -98,12 +113,14 @@ MacPorts
 Install MacPorts if you don't already have it, then:
 $ sudo port install git
 ```
+
 # 软件工具
 ## 全能开发工具
 [Visual Studio Code 简称VSCode 微软免费 强大 推荐 插件多了会很卡！！！](https://code.visualstudio.com/Download)
 ```text
 VSCode 下载时请选择 System Installer
 ```
+
 ## Java
 [IDEA 收费 但有免费的社区版](https://www.jetbrains.com/zh-cn/idea/) |
 [Eclipse 老牌开发工具 免费](https://www.eclipse.org/ide/) |
@@ -113,11 +130,13 @@ Jetbrains家族工具之一：IDEA
 IDEA 收费 Ultimate
 IDEA 社区版免费 Community Edition
 ```
+
 ## Web 前端
 [Web Storm 收费](https://www.jetbrains.com/webstorm/)
 ```text
 Jetbrains家族工具之一：Web Storm
 ```
+
 ## Python
 [Pycharm 收费 但有免费的社区版](https://www.jetbrains.com/pycharm/)
 ```text
@@ -125,17 +144,19 @@ Jetbrains家族工具之一：Pycharm
 Pycharm 收费 Professional
 Pycharm 社区版免费 Community
 ```
+
 ## Data Base数据库连接
 [Navicat Premium](https://www.navicat.com.cn/download/navicat-premium)
 ```text
 破解方式请自行搜索，或关注公众号【CC NET】
 https://gitlab.com/ajiajishu/navicat-keygen-16V
 ```
+
 ## 小程序 开发 请参考[小程序框架推荐](https://github.com/chao921125/vue-vite)
 [微信小程序](https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html)
 [HbuilderX](https://www.dcloud.io/hbuilderx.html)
 []()
-[]()
+
 ## APP 开发 请参考[APP框架推荐](https://github.com/chao921125/vue-vite)
 [android studio](https://developer.android.google.cn/studio/)
 [华为 ArkTS](https://developer.harmonyos.com/cn/develop/deveco-studio/#download)
