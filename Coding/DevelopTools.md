@@ -1,4 +1,4 @@
-# Mac 系统必备安装
+# Mac 系统必备安装 ~/.zprofile ~/.zshrc
 [Homebrew](https://brew.sh/)
 ```text
 官方指令安装（科学上网）
