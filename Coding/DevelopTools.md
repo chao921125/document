@@ -1,12 +1,36 @@
-# 开发环境
+# Mac 系统必备安装
 [Homebrew](https://brew.sh/)
 ```text
-官方指令安装
+官方指令安装（科学上网）
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)"
 卸载：/bin/zsh -c "$(curl -fsSL https://raw.githubusercontent.com/HomebrewCN/raw/master/HomebrewUninstall.sh)"
 如果安装失败，请执行
 /bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
 卸载：/bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/HomebrewUninstall.sh)"
+```
+
+# Java
+[JDK 下载](https://www.oracle.com/cn/java/technologies/downloads/)
+```text
+Windows 环境下 请务必配置JDK的环境变量
+请下载 LTS 版本，目前对应 21(21.0.3)，长期版本为 JDK8(8u411) 和 JDK11(11.0.23)
+多版本jdk请在系统配置文件中设置即可
+JAVA_HOME path
+CALSSPATH .;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;
+Path      %JAVA_HOME%\bin
+          %JAVA_HOME%\jre\bin
+```
+```shell
+# ENV JDK MacOS 下多版本配置
+export JAVA8_HOME=/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home
+export JAVA11_HOME=/Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home
+export JAVA17_HOME=/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home
+export JAVA_HOME=$JAVA_HOME
+alias jdk8="export JAVA_HOME=$JAVA8_HOME"
+alias jdk11="export JAVA_HOME=$JAVA11_HOME"
+alias jdk17="export JAVA_HOME=$JAVA17_HOME"
+alias jdk="export JAVA_HOME=$JAVA_HOME"
 ```
 
 [MYSQL 下载](https://dev.mysql.com/downloads/mysql/) |
@@ -20,29 +44,21 @@ sudo /usr/local/mysql/support-files/mysql.server start
 sudo launchctl load -w /Library/LaunchDaemons/com.oracle.oss.mysql.mysqld.plist
 ```
 
-[JDK 下载](https://www.oracle.com/cn/java/technologies/downloads/)
-```text
-请下载 LTS 版本，目前对应 21(21.0.3)，长期版本为 JDK8(8u411) 和 JDK11(11.0.23)
-多版本jdk请在系统配置文件中设置即可
-Windows 环境下 请务必配置JDK的环境变量
-JAVA_HOME path
-CALSSPATH 
-Path 
+[Maven](https://maven.apache.org/)
+[Gradle](https://gradle.org/)
+```shell
+export M2_HOME="/Users/admin/apache-maven"
+PATH="${M2_HOME}/bin:${PATH}"
+export PATH
 ```
 ```shell
-# ENV JDK mac os 下多版本配置
-export JAVA8_HOME=/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home
-export JAVA11_HOME=/Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home
-export JAVA_HOME=$JAVA_HOME
-alias jdk8="export JAVA_HOME=$JAVA8_HOME"
-alias jdk11="export JAVA_HOME=$JAVA11_HOME"
-alias jdk="export JAVA_HOME=$JAVA_HOME"
+brew install gradle
 ```
 
+# JS
+[pnpm 包管理 内含 node 版本管理，可以不用 nvm 等包管理器](https://www.pnpm.cn/installation/) |
 [BunJS 下载](https://bun.sh/) |
 [NodeJS 下载](https://nodejs.org/en/download/) |
-[pnpm 包管理 内含 node 版本管理，可以不用 nvm 等包管理器](https://www.pnpm.cn/installation/) |
 [NodeJS多版本管理 nvm MacOS](https://github.com/nvm-sh/nvm/) [NodeJS多版本管理 nvm Windows](https://github.com/nvm-sh/nvm#install--update-script)
 ```shell
 # 安装并使用 lts 最新长期支持版本或者指定的版本 --global or -g
@@ -91,15 +107,17 @@ Mac：curl -fsSL https://get.pnpm.io/install.sh | sh -
 Win：iwr https://get.pnpm.io/install.ps1 -useb | iex
 ```
 
+# Python
 [Python 下载](https://www.python.org/downloads/)
 ```text
 不再建议安装Python 2.x 版本
 ```
 ```shell
 # ENV Python
-alias python=/Library/Frameworks/Python.framework/Versions/3.12/bin/python3.12
+alias python=/Library/Frameworks/Python.framework/Versions/3.x/bin/python3.x
 ```
 
+# 软件工具
 [Git 下载](https://git-scm.com/) |
 [Git 官方客户端](https://desktop.github.com/) |
 [Git 其他三方客户端](https://git-scm.com/downloads/guis)
@@ -114,7 +132,6 @@ Install MacPorts if you don't already have it, then:
 $ sudo port install git
 ```
 
-# 软件工具
 ## 全能开发工具
 [Visual Studio Code 简称VSCode 微软免费 强大 推荐 插件多了会很卡！！！](https://code.visualstudio.com/Download)
 ```text
