@@ -164,7 +164,8 @@ https://lf16-capcut.faceulv.com/obj/capcutpc-packages-us/packages/CapCut_4_8_0_1
 
 https://lf16-capcut.faceulv.com/obj/capcutpc-packages-us/packages/CapCut_5_3_0_1964_capcutpc_0_creatortool.exe
 
-https://lf16-capcut.faceulv.com/obj/capcutpc-packages-us/packages/CapCut_5_4_0_1988_capcutpc_0_creatortool.exe
+https://lf16-capcut.faceulv.com/obj/capcutpc-packages-us/packages/CapCut_5_4_0_2005_capcutpc_0_creatortool.exe
+https://lf16-capcut.faceulv.com/obj/capcutpc-packages-us/packages/CapCut_5_4_0_2006_capcutpc_0_creatortool.exe
 
 https://lf16-capcut.faceulv.com/obj/capcutpc-packages-us/packages/CapCut_5_5_0_2022_capcutpc_0_creatortool.exe
 https://lf16-capcut.faceulv.com/obj/capcutpc-packages-us/packages/CapCut_5_5_0_2028_capcutpc_0_creatortool.exe
