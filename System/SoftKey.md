@@ -156,4 +156,13 @@ https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_7_2_0_12475_jiany
 https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_7_3_0_12489_jianyingpro_0_creatortool.exe
 
 国际版
-https://lf16-capcut.faceulv.com/obj/capcutpc-packages-us/installer/capcut_capcutpc_0_1.2.6_installer.dmg
+Mac 版本
+https://lf16-capcut.faceulv.com/obj/capcutpc-packages-us/packages/CapCut_5_4_0_964_capcutpc_0_creatortool.dmg
+Win 版本
+https://lf16-capcut.faceulv.com/obj/capcutpc-packages-us/packages/CapCut_5_3_0_1964_capcutpc_0_creatortool.exe
+
+https://lf16-capcut.faceulv.com/obj/capcutpc-packages-us/packages/CapCut_5_4_0_2005_capcutpc_0_creatortool.exe
+https://lf16-capcut.faceulv.com/obj/capcutpc-packages-us/packages/CapCut_5_4_0_2006_capcutpc_0_creatortool.exe
+
+https://lf16-capcut.faceulv.com/obj/capcutpc-packages-us/packages/CapCut_5_5_0_2022_capcutpc_0_creatortool.exe
+https://lf16-capcut.faceulv.com/obj/capcutpc-packages-us/packages/CapCut_5_5_0_2028_capcutpc_0_creatortool.exe

@@ -16,7 +16,7 @@ ProgressBar.prototype.update = function(current) {
     }
 };
 
-async function run() {
+export async function run() {
     // 使用示例
     const progressBar = new ProgressBar(100, 'Downloading');
     for (let i = 0; i <= 100; i++) {
