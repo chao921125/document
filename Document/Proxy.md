@@ -88,8 +88,8 @@
 ###### 【- 任意邮箱】 【+ 可直接访问】 【* 时间久】【[跑路](https://github.com/limbopro/Paolujichang)】
 | [*直连/中转* *不限制在线 注册无验证*]()                                                                                      |
 |----------------------------------------------------------------------------------------------------------------|
-| [- 9.99/年-100G/月 三毛机场](https://www.xn--ehqx7tcnnope.com/#/register?code=iqzpBkFJ)                              |
-| [15.6/年-200G/月 顶级机场](https://xn--mes358a9urctx.com/#/register?code=dhhw9jqv)                                   |
+| [~~- 9.99/年-100G/月 三毛机场~~](https://www.xn--ehqx7tcnnope.com/#/register?code=iqzpBkFJ)                          |
+| [~~15.6/年-200G/月 顶级机场~~](https://xn--mes358a9urctx.com/#/register?code=dhhw9jqv)                               |
 | [1.99/月-100G/月 赔钱机场](https://xn--mes358aby2apfg.com/#/login)                                                   |
 | [2/月-100G/月 一分机场](https://xn--4gqx1hgtfdmt.com/)                                                               |
 | [- 2.9/月-100G/月 cshjc](https://cshjc.top/web/#/login?)                                                         |
@@ -148,6 +148,7 @@
 | []()                                                                                                 |
 | [13/年-100G/月 有试用 fscloud](https://web.fscloud.cc/#/register?code=1umqePA4) [](https://fscloud.vip/)  |
 | [24/年-100G/月 有试用 bujiasu](https://jiu.bujiasu.com/#/login)                                           |
+| [25/年-100G/月 领航](https://www.lingh.cfd/#/register)                                                   |
 | [6/月-50G/月 蘑菇云](https://mgypog.xyz/#/register)                                                       |
 | [8/月-168G/月 xsus](https://xsus.work/#/register)                                                      |
 | [9.8/月-100G/月 咪兔Mitu](https://shop.mitoo.me/register)                                                |
