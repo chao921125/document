@@ -94,7 +94,7 @@
 | [1.99/月-100G/月 赔钱机场](https://xn--mes358aby2apfg.com/#/register?code=sNTEzxVy)                                  |
 | [2/月-100G/月 一分机场](https://xn--4gqx1hgtfdmt.com/#/register?code=lfaWMQVc)                                       |
 | [- 2.9/月-100G/月 cshjc](https://cshjc.top/web/#/login?)                                                         |
-| [- 3/月-500G/月 极速云机场](https://xn--kbtz0ztjtvlp.com/)                                                            |
+| [- 3/月-500G/月 极速云](https://xn--kbtz0ztjtvlp.com/)                                                              |
 | [- 5/月-100G/月 一号测速](https://yihao42.buzz/#/register?code=yX4UyKwx) [](https://xn--4gq48l11y805a.com/)          |
 | [- + 6/月-100G/月 淘气兔](https://xn--mesq4iw0lg80a.com/)                                                           |
 | [8/月-100G/月 一毛机场](https://xn--4gqu8tcnnope.com/#/register)                                                     |
@@ -128,6 +128,7 @@
 | [9/月-120G/月 渔云](https://cloudfisher.net/web/#/login?code=I2lj0vUP)                                             |
 | [- 9.98/月-100G/月 猫七七](https://cat77.org/#/register)                                                            |
 | [- 9.9/月-100G/月 红魔馆网络](https://koumakan.quickline.top/#/register) [](https://quickline.top/)                   |
+| [- 10/月-100G/月 SPCloud](https://spcloud.pages.dev/)                                                            |
 | [- 10/月-200G/月 efcloud](https://www.easyfastcloud.com/#/register?code=2GE3ZtDg) [](https://easyfastcloud.com/) |
 | [- 10.8/月-128G/月 dida](https://www.tickcloud.net/#/register)                                                   |
 | [10/月-80G/月 大讯云](https://daxun.pro/#/home)                                                                     |
@@ -154,6 +155,7 @@
 | [6/月-50G/月 蘑菇云](https://mgypog.xyz/#/register)                                                       |
 | [8/月-168G/月 xsus](https://xsus.work/#/register)                                                      |
 | [9.8/月-100G/月 咪兔Mitu](https://shop.mitoo.me/register)                                                |
+| [9.9/月-100G/月 SAC](https://www.189.cam/register)                                                     |
 | [10/月-200G/月 最长跑道](https://zcpdao.com/#/register)                                                    |
 | [10/月-128G/月 次元雲](https://ciyy.cc/index.php#/register)                                               |
 | [10/月-120G/月 Riolu 精灵学院](https://o.riolu.ooo/) [](https://pub.riolu.icu/) [](https://info.riolu.icu) |
