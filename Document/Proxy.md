@@ -166,7 +166,6 @@
 | [10.8/月-120G/月 okokcloud](https://okokcloud.net/index.html)                                          |
 | [10/月-100G/月 flybit](https://goflybit.pages.dev/)                                                    |
 | [11/月-100G/月 Candy Cloud](https://coco2.one/#/register)                                              |
-| [11/月-130G/月 Free Cloud 加入 TG 免费](https://bento.me/freecloud)                                        |
 | [11.98/月-150G/月 夜煞云](https://user.night-furyx.com/)                                                  |
 | [12/月-100G/月 Teacat](https://teacat.cloud/#/register)                                                |
 | [12/月-150G/月 夜煞云](https://user.night-furyx.com/)                                                     |
@@ -242,6 +241,7 @@
 | [15/月-100G/月 FireFly 萤火虫](https://www.yhcvpn.xyz/)                      |
 | [15.8/月-160G/月 狗狗加速](https://xn--yfrp36ea9901a.com/)                    |
 | [15.99/月-100G/月 海獭](https://haita.io/register?aff=DERuAJGA)             |
+| [18.8/月-138G/月 aifun](https://afun.la/register)                         |
 | [20/月-120G/月 xgcloud](https://www.xgcloud.org/#/register)               |
 | [22.99/月-80G/月 Bitz Net](https://www.bitzconnect.com/)                  |
 | [24.9/月-100G/月 tomatocloud](https://tomatocloud.me/)                    |
@@ -359,7 +359,10 @@
 | [github Flikify](https://github.com/Flikify/getNode)                                 |
 | [github chengaopan](https://github.com/chengaopan/AutoMergePublicNodes)              |
 | [github mfuu](https://github.com/mfuu/v2ray)                                         |
-| [马铃薯](https://mlshu.com/#/login)                                                     |
+| [6.6/月-100G/月 马铃薯](https://mlshu.com/#/login)                                        |
+| [1/月-1000G/月 白嫖机场 bpjc](https://bpjc.lol/#/register)                                 |
+| [11/月-130G/月 Free Cloud 加入 TG 免费 Free12](https://bento.me/freecloud)                 |
+| [bolg](https://maomeng.xyz/2021/06/11/ji-chang-tui-jian-chang-qi-geng-xin/)          |
 
 # 订阅转换地址
 | 订阅转换                                                      |
