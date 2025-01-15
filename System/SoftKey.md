@@ -157,7 +157,9 @@ https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_7_3_0_12489_jiany
 
 国际版
 Mac 版本
-https://lf16-capcut.faceulv.com/obj/capcutpc-packages-us/packages/CapCut_5_4_0_964_capcutpc_0_creatortool.dmg
+https://lf16-capcut.faceulv.com/obj/capcutpc-packages-us/packages/CapCut_5_4_0_1956_capcutpc_0_creatortool.dmg
+https://lf16-capcut.faceulv.com/obj/capcutpc-packages-us/packages/CapCut_5_4_0_1957_capcutpc_0_creatortool.dmg
+
 Win 版本
 https://lf16-capcut.faceulv.com/obj/capcutpc-packages-us/packages/CapCut_5_3_0_1964_capcutpc_0_creatortool.exe
 
