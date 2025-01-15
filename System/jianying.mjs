@@ -2,10 +2,10 @@ import ProgressBar from "../NodeJS/demo.mjs";
 
 const version = "5_4_0";
 const file = "dmg";
-const maxNum = 2999;
-let num = 100;
+const maxNum = 3999;
+let num = 2999;
 
-let bar = new ProgressBar(':bar', { total: maxNum });
+let bar = new ProgressBar(':bar', { total: maxNum - num });
 function getUrl() {
     bar.tick();
     if (num > maxNum) { return false; }
