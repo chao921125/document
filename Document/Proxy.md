@@ -195,6 +195,7 @@
 | [*直连/中转* *限制在线*]()                                                                                          |
 |-------------------------------------------------------------------------------------------------------------|
 | [1/月-50G/月 性价比机场](https://xn--6nq44r2uh9rhj7f.com//#/register?code=6v77KWIz) [](https://jichang.gitbook.io) |
+| [1/月-50G/月 直连机场](https://xn--mes358ac0l6iy.com/#/register)                                                  |
 | [20/月-150G/月 SNTP 守候网络](https://u.xn--hwqp2zit2amna.com/auth/register)                                      |
 | []()                                                                                                        |
 | [9/月-100G/月 freecat](https://us.freecat.cloud/#/register)                                                   |
