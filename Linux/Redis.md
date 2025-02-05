@@ -22,17 +22,17 @@ bind 127.0.0.1
 requirepass 12345
 
 sudo systemctl daemon-reload
-# 启动 Nginx 服务
+# 启动 redis 服务
 sudo systemctl start redis.service
 # 设置开机自启动 默认自动启
 sudo systemctl enable redis.service
 # 取消开机自启动
 sudo systemctl disabled redis
-# 检查 Nginx 状态
+# 检查 redis 状态
 sudo systemctl status redis
-# 停止 Nginx 服务
+# 停止 redis 服务
 sudo systemctl stop redis
-# 重启 Nginx 服务
+# 重启 redis 服务
 sudo systemctl restart redis.service
 
 # 直接启动 不建议
@@ -94,17 +94,17 @@ PrivateTmp=true
 WantedBy=multi-user.target
 
 systemctl daemon-reload
-# 启动 Nginx 服务
+# 启动 redis 服务
 systemctl start redis.service
 # 设置开机自启动
 systemctl enable redis.service
 # 取消开机自启动
 systemctl disabled redis.service
-# 检查 Nginx 状态
+# 检查 redis 状态
 systemctl status redis.service
-# 停止 Nginx 服务
+# 停止 redis 服务
 systemctl stop redis.service
-# 重启 Nginx 服务
+# 重启 redis 服务
 systemctl restart redis.service
 
 # 直接启动 不建议
