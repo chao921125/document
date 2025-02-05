@@ -11,4 +11,5 @@
 | [LM Studio](https://github.com/lmstudio-ai) [LM Studio 官网](https://lmstudio.ai/)                        |
 | [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) [AnythingLLM 官网](https://anythingllm.com/) |
 | [Jan](https://github.com/janhq/jan) [Jan 官网](https://jan.ai/)                                           |
+| [llama.cpp](https://github.com/ggerganov/llama.cpp)                                                     |
 | []()                                                                                                    |
