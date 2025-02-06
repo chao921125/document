@@ -16,5 +16,14 @@
 | [llama.cpp](https://github.com/ggerganov/llama.cpp)                                                     |
 | [FastChat](https://github.com/lm-sys/FastChat)                                                          |
 | []()                                                                                                    |
-| [text-generation-webui](https://github.com/oobabooga/text-generation-webui)                             |
-| []()                                                                                                    |
+
+| [UI]()                                                                                                 |
+|--------------------------------------------------------------------------------------------------------|
+| [text-generation-webui](https://github.com/oobabooga/text-generation-webui)                            |
+| [Open WebUI](https://github.com/open-webui/open-webui) [Open WebUI 官网](https://openwebui.com/)         |
+| [dify](https://github.com/langgenius/dify) [dify 官网](https://dify.ai/)                                 |
+| [LibreChat](https://github.com/danny-avila/LibreChat) [LibreChat 官网](https://www.librechat.ai/)        |
+| [chatbot-ui](https://github.com/mckaywrigley/chatbot-ui) [chatbot-ui 官网](https://www.jointakeoff.com/) |
+| [lollms-webui](https://github.com/ParisNeo/lollms-webui)  [lollms-webui 官网](https://lollms.com/)       |
+| [Chatbox](https://github.com/Bin-Huang/Chatbox) [Chatbox 官网](https://chatboxai.app/)                   |
+| []()  [ 官网]()                                                                                          |
