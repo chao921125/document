@@ -15,6 +15,7 @@
 | [MLC LLM](https://github.com/mlc-ai/mlc-llm) [MLC LLM 官网](https://llm.mlc.ai/)                          |
 | [llama.cpp](https://github.com/ggerganov/llama.cpp)                                                     |
 | [FastChat](https://github.com/lm-sys/FastChat)                                                          |
+| [OpenLLM](https://github.com/bentoml/OpenLLM) [OpenLLM 官网](https://bentoml.com/)                        |
 | []()                                                                                                    |
 
 | [UI]()                                                                                                 |
@@ -27,3 +28,9 @@
 | [lollms-webui](https://github.com/ParisNeo/lollms-webui)  [lollms-webui 官网](https://lollms.com/)       |
 | [Chatbox](https://github.com/Bin-Huang/Chatbox) [Chatbox 官网](https://chatboxai.app/)                   |
 | []()  [ 官网]()                                                                                          |
+
+| [浏览器插件]()                                                                                                                                                  |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Page Assist](https://chromewebstore.google.com/detail/page-assist-%E6%9C%AC%E5%9C%B0-ai-%E6%A8%A1%E5%9E%8B%E7%9A%84-web/jfgfiigpkhlkbnfnbobbkinehhfdhndo) |
+| [AnythingLLM](https://chromewebstore.google.com/detail/anythingllm-browser-compa/pncmdlebcopjodenlllcomedphdmeogm?utm_source=ext_app_menu)                 |
+| []()                                                                                                                                                       |
