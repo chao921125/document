@@ -15,6 +15,7 @@
 | [MLC LLM](https://github.com/mlc-ai/mlc-llm) [MLC LLM 官网](https://llm.mlc.ai/)                          |
 | [llama.cpp](https://github.com/ggerganov/llama.cpp)                                                     |
 | [FastChat](https://github.com/lm-sys/FastChat)                                                          |
+| [OpenLLM](https://github.com/bentoml/OpenLLM) [OpenLLM 官网](https://bentoml.com/)                        |
 | []()                                                                                                    |
 
 | [UI]()                                                                                                 |
