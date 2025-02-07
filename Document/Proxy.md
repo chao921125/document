@@ -153,6 +153,7 @@
 | [13/年-100G/月 有试用 fscloud](https://web.fscloud.cc/#/register?code=1umqePA4) [](https://fscloud.vip/)  |
 | [24/年-100G/月 有试用 bujiasu](https://jiu.bujiasu.com/#/login)                                           |
 | [25/年-100G/月 领航](https://www.lingh.cfd/#/register)                                                   |
+| [5/月-150G/月 流量光](https://llgjc1.com/#/register)                                                      |
 | [6/月-50G/月 蘑菇云](https://mgypog.xyz/#/register)                                                       |
 | [8/月-168G/月 xsus](https://xsus.work/#/register)                                                      |
 | [9.8/月-100G/月 咪兔Mitu](https://shop.mitoo.me/register)                                                |
