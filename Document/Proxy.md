@@ -6,9 +6,9 @@
 | [sing-box 全平台](https://github.com/SagerNet/sing-box)                                                                               |
 | [hiddify-next 全平台](https://github.com/hiddify/hiddify-app)                                                                         |
 | [FlClash 无 IOS](https://github.com/chen08209/FlClash)                                                                              |
-| [clash-verge-rev 无 Android IOS](https://github.com/clash-verge-rev/clash-verge-rev)                                                |
+| [clash-verge-rev 无 Android IOS 不兼容旧系统](https://github.com/clash-verge-rev/clash-verge-rev)                                         |
+| [mihomo-party 无 Android IOS 兼容旧系统](https://github.com/mihomo-party-org/mihomo-party)                                               |
 | [clash-nyanpasu 无 Android IOS](https://github.com/keiko233/clash-nyanpasu)                                                         |
-| [mihomo-party 无 Android IOS](https://github.com/mihomo-party-org/mihomo-party)                                                     |
 | [shadowsocks 无 IOS](https://github.com/shadowsocks/shadowsocks-rust) [Android](https://github.com/shadowsocks/shadowsocks-android) |
 
 | Windows                                                             |
