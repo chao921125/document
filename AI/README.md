@@ -54,24 +54,24 @@
 # 文档整理
 | 编程工具                                                                               | Visual Studio | JetBrains |
 |------------------------------------------------------------------------------------|---------------|-----------|
-| (通义灵码 阿里)[https://tongyi.aliyun.com/lingma]                                        |               |           |
-| (CodeFuse 阿里 支付宝)[https://codefuse.alipay.com/]                                    |               |           |
-| (Trae 字节)[https://www.trae.ai/]                                                    |               |           |
-| (Marscode 字节 豆包)[https://www.marscode.cn/home]                                     |               |           |
-| (CodeWhisperer 亚马逊)[https://aws.amazon.com/cn/q/developer/]                        |               |           |
-| (Project IDX 谷歌)[https://idx.dev/]                                                 |               |           |
-| (AI代码 腾讯)[https://copilot.tencent.com/]                                            |               |           |
-| (IntelliCode 微软)[https://visualstudio.microsoft.com/zh-hans/services/intellicode/] |               | X         |
-| (文心快码 百度)[https://comate.baidu.com/zh]                                             |               |           |
-| (iFlyCode 讯飞)[https://www.xfyun.cn/solutions/iflycode]                             |               |           |
-| (CodeGeeX 智谱)[https://codegeex.cn/                                                 |               |           |
-| (代码小浣熊 Raccoon)[https://xiaohuanxiong.com/]                                        |               |           |
-| (Copilot GitHub 收费)[https://github.com/features/copilot]                           |               |           |
-| (盘古助手 华为 收费)[https://www.huaweicloud.com/product/codeartside/snap.html]            |               |           |
-| (Codeium)[https://codeium.com/]                                                    |               |           |
-| (Cody Sourcegraph)[https://sourcegraph.com/cody]                                   |               |           |
-| (Bito)[https://bito.ai/]                                                           |               |           |
-| (AIXcoder)[https://aixcoder.com/]                                                  |               |           |
+| [通义灵码 阿里](https://tongyi.aliyun.com/lingma)                                        |               |           |
+| [CodeFuse 阿里 支付宝](https://codefuse.alipay.com/)                                    |               |           |
+| [Trae 字节](https://www.trae.ai/)                                                    |               |           |
+| [Marscode 字节 豆包](https://www.marscode.cn/home)                                     |               |           |
+| [CodeWhisperer 亚马逊](https://aws.amazon.com/cn/q/developer/)                        |               |           |
+| [Project IDX 谷歌](https://idx.dev/)                                                 |               |           |
+| [AI代码 腾讯](https://copilot.tencent.com/)                                            |               |           |
+| [IntelliCode 微软](https://visualstudio.microsoft.com/zh-hans/services/intellicode/) |               | X         |
+| [文心快码 百度](https://comate.baidu.com/zh)                                             |               |           |
+| [iFlyCode 讯飞](https://www.xfyun.cn/solutions/iflycode)                             |               |           |
+| [CodeGeeX 智谱](https://codegeex.cn/)                                                |               |           |
+| [代码小浣熊 Raccoon](https://xiaohuanxiong.com/)                                        |               |           |
+| [Copilot GitHub 收费](https://github.com/features/copilot)                           |               |           |
+| [盘古助手 华为 收费](https://www.huaweicloud.com/product/codeartside/snap.html)            |               |           |
+| [Codeium](https://codeium.com/)                                                    |               |           |
+| [Cody Sourcegraph](https://sourcegraph.com/cody)                                   |               |           |
+| [Bito](https://bito.ai/)                                                           |               |           |
+| [AIXcoder](https://aixcoder.com/)                                                  |               |           |
 
 # 导航
 |                                          |
