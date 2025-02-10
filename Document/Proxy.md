@@ -95,6 +95,7 @@
 | [2/月-100G/月 一分机场](https://xn--4gqx1hgtfdmt.com/#/register?code=lfaWMQVc)                                       |
 | [- 2.9/月-100G/月 cshjc](https://cshjc.top/web/#/login?)                                                         |
 | [- 3/月-500G/月 极速云](https://xn--kbtz0ztjtvlp.com/)                                                              |
+| [- 4.99/月-100G/月 山水云](https://xn--9kq015a4jm.com/)                                                             |
 | [- 5/月-100G/月 一号测速](https://yihao42.buzz/#/register?code=yX4UyKwx) [](https://xn--4gq48l11y805a.com/)          |
 | [- + 6/月-100G/月 淘气兔](https://xn--mesq4iw0lg80a.com/)                                                           |
 | [8/月-100G/月 一毛机场](https://xn--4gqu8tcnnope.com/#/register)                                                     |
@@ -322,10 +323,6 @@
 |------------------------------|
 | [Best VPN](https://vp0.org/) |
 
-| 临时                               |
-|----------------------------------|
-| https://pandafly.site/#/register |
-
 | 发布页                                         |
 |---------------------------------------------|
 | [github 发布页](https://github.com/winston779) |
@@ -368,8 +365,8 @@
 | [github chengaopan](https://github.com/chengaopan/AutoMergePublicNodes)              |
 | [github mfuu](https://github.com/mfuu/v2ray)                                         |
 | [6.6/月-100G/月 马铃薯](https://mlshu.com/#/login)                                        |
-| [1/月-1000G/月 白嫖机场 bpjc](https://bpjc.lol/#/register)                                 |
 | [11/月-130G/月 Free Cloud 加入 TG 免费 Free12](https://bento.me/freecloud)                 |
+| [1/月-100G/月 Pandafly](https://pandafly.site/#/register)                              |
 | [bolg](https://maomeng.xyz/2021/06/11/ji-chang-tui-jian-chang-qi-geng-xin/)          |
 
 # 订阅转换地址

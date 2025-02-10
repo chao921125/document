@@ -4,7 +4,7 @@
 ### [LLM OpenAI模型项目趋势](https://huggingface.co/spaces)
 | 快速导航                                          |
 |-----------------------------------------------|
-| [🔥 Open AI 汇总 ChatGPT](./AI/AI.md)           |
+| [🔥 Open AI 汇总 ChatGPT](./AI/README.md)       |
 | [软件下载 网站部署 SSL 托管](./System/README.md)        |
 | [网站使用 CSDN 去除广告及关闭关注博主代码](WebSite/WebSite.md) |
 
