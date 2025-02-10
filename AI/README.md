@@ -72,7 +72,6 @@
 | (Cody Sourcegraph)[https://sourcegraph.com/cody]                                   |               |           |
 | (Bito)[https://bito.ai/]                                                           |               |           |
 | (AIXcoder)[https://aixcoder.com/]                                                  |               |           |
-# [最强聚合 AI](https://github.com/lobehub)
 
 # 导航
 |                                          |
@@ -83,6 +82,8 @@
 | [工具箱](https://ai.aigcfun.com/)           |
 | [aibang](https://aibang.run/)            |
 | [搜索](https://www.perplexity.ai/)         |
+| [最强聚合 AI](https://github.com/lobehub)    |
+
 [//]: # (https://www.youtube.com/watch?v=5KC4wFTLq3E)
 
 # 聊天
