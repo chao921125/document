@@ -369,7 +369,6 @@
 | [github chengaopan](https://github.com/chengaopan/AutoMergePublicNodes)              |
 | [github mfuu](https://github.com/mfuu/v2ray)                                         |
 | [6.6/月-100G/月 马铃薯](https://mlshu.com/#/login)                                        |
-| [1/月-1000G/月 白嫖机场 bpjc](https://bpjc.lol/#/register)                                 |
 | [11/月-130G/月 Free Cloud 加入 TG 免费 Free12](https://bento.me/freecloud)                 |
 | [bolg](https://maomeng.xyz/2021/06/11/ji-chang-tui-jian-chang-qi-geng-xin/)          |
 
