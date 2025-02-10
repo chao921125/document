@@ -1,22 +1,24 @@
 # 免费 CodeAI
 ###### [AI排行](https://leaderboard.bycloud.ai/zh-cn)
 ###### [awesome](https://github.com/f/awesome-chatgpt-prompts)
-| 工具                                                                                 | Visual Studio | JetBrains |
+| 编程工具                                                                               | Visual Studio | JetBrains |
 |------------------------------------------------------------------------------------|---------------|-----------|
-| (Copilot GitHub 收费)[https://github.com/features/copilot]                           |               |           |
-| (Marscode 字节)[https://www.marscode.cn/home]                                        |               |           |
 | (通义灵码 阿里)[https://tongyi.aliyun.com/lingma]                                        |               |           |
-| (AI代码 腾讯)[https://copilot.tencent.com/]                                            |               |           |
+| (CodeFuse 阿里 支付宝)[https://codefuse.alipay.com/]                                    |               |           |
+| (Trae 字节)[https://www.trae.ai/]                                                    |               |           |
+| (Marscode 字节 豆包)[https://www.marscode.cn/home]                                     |               |           |
 | (CodeWhisperer 亚马逊)[https://aws.amazon.com/cn/q/developer/]                        |               |           |
 | (Project IDX 谷歌)[https://idx.dev/]                                                 |               |           |
+| (AI代码 腾讯)[https://copilot.tencent.com/]                                            |               |           |
 | (IntelliCode 微软)[https://visualstudio.microsoft.com/zh-hans/services/intellicode/] |               | X         |
-| (代码小浣熊 Raccoon)[https://xiaohuanxiong.com/]                                        |               |           |
 | (文心快码 百度)[https://comate.baidu.com/zh]                                             |               |           |
 | (iFlyCode 讯飞)[https://www.xfyun.cn/solutions/iflycode]                             |               |           |
-| (Codeium)[https://codeium.com/]                                                    |               |           |
 | (CodeGeeX 智谱)[https://codegeex.cn/                                                 |               |           |
+| (代码小浣熊 Raccoon)[https://xiaohuanxiong.com/]                                        |               |           |
+| (Copilot GitHub 收费)[https://github.com/features/copilot]                           |               |           |
+| (盘古助手 华为 收费)[https://www.huaweicloud.com/product/codeartside/snap.html]            |               |           |
+| (Codeium)[https://codeium.com/]                                                    |               |           |
 | (Cody Sourcegraph)[https://sourcegraph.com/cody]                                   |               |           |
-| (CodeFuse 支付宝)[https://codefuse.alipay.com/]                                       |               |           |
 | (Bito)[https://bito.ai/]                                                           |               |           |
 | (AIXcoder)[https://aixcoder.com/]                                                  |               |           |
 # [最强聚合 AI](https://github.com/lobehub)
