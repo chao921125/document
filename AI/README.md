@@ -85,35 +85,42 @@
 
 [//]: # (https://www.youtube.com/watch?v=5KC4wFTLq3E)
 
-# 聊天
-|                                                         |
-|---------------------------------------------------------|
-| [huggingface](https://huggingface.co/chat)              |
-| [chatgpt](https://chatgpt.com/)                         |
-| [gemini](https://gemini.google.com/)                    |
-| [deepseek](https://www.deepseek.com/)                   |
-| [通义千问 阿里](https://qianwen.aliyun.com/)                  |
-| [copilot](https://copilot.microsoft.com/)               |
-| [coze 国际 字节](https://www.coze.com/)                     |
-| [coze 字节](https://www.coze.cn/)                         |
-| [豆包 字节](https://www.doubao.com/)                        |
-| [混元 腾讯](https://hunyuan.tencent.com/)                   |
-| [星火 讯飞](https://xinghuo.xfyun.cn/)                      |
-| [紫东太初 中科院](https://taichu-web.ia.ac.cn/)                |
-| [文心一言 百度](https://yiyan.baidu.com/)                     |
-| [you](https://you.com/)                                 |
-| [poe](https://poe.com/)                                 |
-| [x](https://grok.x.ai/)                                 |
-| [Claude](https://www.anthropic.com/)                    |
-| [tensor 配合 seaart](https://tensor.art/)                 |
-| [seaart 配合 tensor](https://www.seaart.ai/zhCN)          |
+# AI
+|                                                |
+|------------------------------------------------|
+| [huggingface](https://huggingface.co/chat)     |
+| [chatgpt](https://chatgpt.com/)                |
+| [gemini](https://gemini.google.com/)           |
+| [deepseek](https://www.deepseek.com/)          |
+| [通义千问 阿里](https://qianwen.aliyun.com/)         |
+| [copilot](https://copilot.microsoft.com/)      |
+| [coze 字节](https://www.coze.com/)               |
+| [扣子 字节](https://www.coze.cn/)                  |
+| [豆包 字节](https://www.doubao.com/)               |
+| [cici 字节](https://www.cici.com/chat/)          |
+| [kimi](https://kimi.moonshot.cn/)              |
+| [海螺AI](https://hailuoai.com/)                  |
+| [混元 腾讯](https://hunyuan.tencent.com/)          |
+| [星火 讯飞](https://xinghuo.xfyun.cn/)             |
+| [紫东太初 中科院](https://taichu-web.ia.ac.cn/)       |
+| [文心一言 百度](https://yiyan.baidu.com/)            |
+| [you](https://you.com/)                        |
+| [poe](https://poe.com/)                        |
+| [x](https://grok.x.ai/)                        |
+| [Claude](https://www.anthropic.com/)           |
+| [tensor 配合 seaart](https://tensor.art/)        |
+| [seaart 配合 tensor](https://www.seaart.ai/zhCN) |
 
 # 图片
 |                                                                                |
 |--------------------------------------------------------------------------------|
-| [腾讯 AI 图片合成](https://github.com/TencentARC/PhotoMaker)                         |
+| [通义万相 阿里](https://tongyi.aliyun.com/wanxiang/)                                 |
+| [即梦 字节](https://jimeng.jianying.com/ai-tool/home)                              |
+| [图片合成 腾讯](https://github.com/TencentARC/PhotoMaker)                            |
 | [adobe 画图](https://firefly.adobe.com/inspire/images)                           |
-| [OCR 本地文本识别](https://github.com/VikParuchuri/surya)                            |
+| [midjourney](https://www.midjourney.com/home)                                  |
+| [stable-diffusion](https://huggingface.co/spaces/stabilityai/stable-diffusion) |
+| [OCR 图片文本识别](https://github.com/VikParuchuri/surya)                            |
 | [AI 赚钱](https://github.com/bleedline/aimoneyhunter)                            |
 | [AI 提示词](https://github.com/friuns2/Leaked-GPTs)                               |
 | [音色录制，文字生成语音](https://github.com/jianchang512/clone-voice)                     |
@@ -123,7 +130,6 @@
 | [插图 绘画](https://tensor.art/)                                                   |
 | [插图 绘画](https://www.yunjie.art/register)                                       |
 | [文字](https://claude.ai/login?returnTo=%2F)                                     |
-| [stable-diffusion](https://huggingface.co/spaces/stabilityai/stable-diffusion) |
 | [文本生成图片](https://huggingface.co/spaces/BAAI/AltDiffusion)                      |
 | [修复](https://huggingface.co/spaces/sczhou/CodeFormer)                          |
 | [绘画](https://www.midjourney.com/home)                                          |
