@@ -19,13 +19,29 @@
 
 | [UI]()                                                                                                 |
 |--------------------------------------------------------------------------------------------------------|
-| [text-generation-webui](https://github.com/oobabooga/text-generation-webui)                            |
-| [Open WebUI](https://github.com/open-webui/open-webui) [Open WebUI 官网](https://openwebui.com/)         |
 | [dify](https://github.com/langgenius/dify) [dify 官网](https://dify.ai/)                                 |
-| [LibreChat](https://github.com/danny-avila/LibreChat) [LibreChat 官网](https://www.librechat.ai/)        |
+| [NextChat](https://github.com/ChatGPTNextWeb/NextChat)                                                 |
+| [Open WebUI](https://github.com/open-webui/open-webui) [Open WebUI 官网](https://openwebui.com/)         |
 | [chatbot-ui](https://github.com/mckaywrigley/chatbot-ui) [chatbot-ui 官网](https://www.jointakeoff.com/) |
-| [lollms-webui](https://github.com/ParisNeo/lollms-webui)  [lollms-webui 官网](https://lollms.com/)       |
 | [Chatbox](https://github.com/Bin-Huang/Chatbox) [Chatbox 官网](https://chatboxai.app/)                   |
+| [LibreChat](https://github.com/danny-avila/LibreChat) [LibreChat 官网](https://www.librechat.ai/)        |
+| [text-generation-webui](https://github.com/oobabooga/text-generation-webui)                            |
+| [lollms-webui](https://github.com/ParisNeo/lollms-webui)  [lollms-webui 官网](https://lollms.com/)       |
+| [bingai](https://github.com/adams549659584/go-proxy-bingai)                                            |
+| [chatgpt-web](https://github.com/Chanzhaoyu/chatgpt-web)                                               |
+| [stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)                      |
+| [stable-diffusion](https://github.com/CompVis/stable-diffusion)                                        |
+| [stablediffusion](https://github.com/Stability-AI/stablediffusion)                                     |
+| [ml-stable-diffusion](https://github.com/apple/ml-stable-diffusion)                                    |
+| [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)                                             |
+| [GPT4All 官网](https://gpt4all.io/index.html)                                                            |
+| [GPT4All GitHub](https://github.com/nomic-ai/gpt4all)                                                  |
+| [GPT4All 中文模型](https://gpt4all.io/models/gguf/mistral-7b-openorca.Q4_0.gguf)                           |
+| [ColossalAI](https://github.com/hpcaitech/ColossalAI)                                                  |
+| [llama2 图片](https://github.com/karpathy/llama2.c)                                                      |
+| [llama2 中文模型](https://github.com/FlagAlpha/Llama2-Chinese)                                             |
+| [chatbot-ui](https://github.com/mckaywrigley/chatbot-ui)                                               |
+| [GeminiProChat](https://github.com/babaohuang/GeminiProChat)                                           |
 | []()  [ 官网]()                                                                                          |
 
 | [浏览器插件]()                                                                                                                                                  |
@@ -34,44 +50,26 @@
 | [AnythingLLM](https://chromewebstore.google.com/detail/anythingllm-browser-compa/pncmdlebcopjodenlllcomedphdmeogm?utm_source=ext_app_menu)                 |
 | []()                                                                                                                                                       |
 
-| github                                                                                  |
-|-----------------------------------------------------------------------------------------|
-| [stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)       |
-| [stable-diffusion](https://github.com/CompVis/stable-diffusion)                         |
-| [stablediffusion](https://github.com/Stability-AI/stablediffusion)                      |
-| [ml-stable-diffusion](https://github.com/apple/ml-stable-diffusion)                     |
-| [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)                              |
-| [ChatGPT-Next-Web](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web)                  |
-| [GPT4All 官网](https://gpt4all.io/index.html)                                             |
-| [GPT4All GitHub](https://github.com/nomic-ai/gpt4all)                                   |
-| [GPT4All 中文模型](https://gpt4all.io/models/gguf/mistral-7b-openorca.Q4_0.gguf)            |
-| [ColossalAI](https://github.com/hpcaitech/ColossalAI)                                   |
-| [llama2 图片](https://github.com/karpathy/llama2.c)                                       |
-| [llama2 中文模型](https://github.com/FlagAlpha/Llama2-Chinese)                              |
-| [chatbot-ui](https://github.com/mckaywrigley/chatbot-ui)                                |
-| [GeminiProChat](https://github.com/babaohuang/GeminiProChat)                            |
-
 # 文档整理
-| 编程工具                                                                               | Visual Studio | JetBrains |
-|------------------------------------------------------------------------------------|---------------|-----------|
-| [通义灵码 阿里](https://tongyi.aliyun.com/lingma)                                        |               |           |
+| 编程工具                                                                               | Visual Studio | JetBrains | 其他   |
+|------------------------------------------------------------------------------------|---------------|-----------|------|
+| [通义灵码 阿里](https://tongyi.aliyun.com/lingma)                                        |               |           |      |
+| [Marscode 字节 豆包](https://www.marscode.cn/home)                                     |               |           |      |
 | [CodeFuse 阿里 支付宝](https://codefuse.alipay.com/)                                    |               |           |
-| [Trae 字节](https://www.trae.ai/)                                                    |               |           |
-| [Marscode 字节 豆包](https://www.marscode.cn/home)                                     |               |           |
-| [CodeWhisperer 亚马逊](https://aws.amazon.com/cn/q/developer/)                        |               |           |
-| [Project IDX 谷歌](https://idx.dev/)                                                 |               |           |
-| [AI代码 腾讯](https://copilot.tencent.com/)                                            |               |           |
-| [IntelliCode 微软](https://visualstudio.microsoft.com/zh-hans/services/intellicode/) |               | X         |
-| [文心快码 百度](https://comate.baidu.com/zh)                                             |               |           |
-| [iFlyCode 讯飞](https://www.xfyun.cn/solutions/iflycode)                             |               |           |
-| [CodeGeeX 智谱](https://codegeex.cn/)                                                |               |           |
-| [代码小浣熊 Raccoon](https://xiaohuanxiong.com/)                                        |               |           |
-| [Copilot GitHub 收费](https://github.com/features/copilot)                           |               |           |
-| [盘古助手 华为 收费](https://www.huaweicloud.com/product/codeartside/snap.html)            |               |           |
-| [Codeium](https://codeium.com/)                                                    |               |           |
-| [Cody Sourcegraph](https://sourcegraph.com/cody)                                   |               |           |
-| [Bito](https://bito.ai/)                                                           |               |           |
-| [AIXcoder](https://aixcoder.com/)                                                  |               |           |
+| [IntelliCode 微软](https://visualstudio.microsoft.com/zh-hans/services/intellicode/) |               | X         |      |
+| [CodeGeeX 智谱](https://codegeex.cn/)                                                |               |           |      |
+| [CodeWhisperer 亚马逊](https://aws.amazon.com/cn/q/developer/)                        |               |           |      |
+| [Trae 字节](https://www.trae.ai/)                                                    | X             | X         | 开发工具 |
+| [Project IDX 谷歌](https://idx.dev/)                                                 | X             | X         | 在线   |
+| [AI代码 腾讯](https://copilot.tencent.com/)                                            |               |           |      |
+| [文心快码 百度](https://comate.baidu.com/zh)                                             |               |           |      |
+| [Copilot GitHub 收费](https://github.com/features/copilot)                           |               |           |      |
+| [Cody Sourcegraph](https://sourcegraph.com/cody)                                   |               |           |      |
+| [盘古助手 华为](https://www.huaweicloud.com/product/codeartside/snap.html)               |               |           |      |
+| [Codeium](https://codeium.com/)                                                    |               |           |      |
+| [代码小浣熊 Raccoon](https://xiaohuanxiong.com/)                                        |               |           |      |
+| [AIXcoder](https://aixcoder.com/)                                                  |               |           |      |
+| [Bito](https://bito.ai/)                                                           |               |           |      |
 
 # 导航
 |                                          |
@@ -86,37 +84,42 @@
 
 [//]: # (https://www.youtube.com/watch?v=5KC4wFTLq3E)
 
-# 聊天
-|                                                         |
-|---------------------------------------------------------|
-| [chatgpt](https://chatgpt.com/)                         |
-| [gemini](https://gemini.google.com/)                    |
-| [copilot](https://copilot.microsoft.com/)               |
-| [紫东太初 中科院](https://taichu-web.ia.ac.cn/)                |
-| [x](https://grok.x.ai/)                                 |
-| [通义千问 阿里](https://qianwen.aliyun.com/)                  |
-| [coze 字节](https://www.coze.com/)                        |
-| [coze 字节](https://www.coze.cn/)                         |
-| [豆包 字节](https://www.doubao.com/)                        |
-| [混元 腾讯](https://hunyuan.tencent.com/)                   |
-| [文心一言 百度](https://yiyan.baidu.com/)                     |
-| [星火 讯飞](https://xinghuo.xfyun.cn/)                      |
-| [Claude](https://www.anthropic.com/)                    |
-| [huggingface](https://huggingface.co/chat)              |
-| [poe](https://poe.com/)                                 |
-| [you](https://you.com/)                                 |
-| [tensor 配合 seaart](https://tensor.art/)                 |
-| [seaart 配合 tensor](https://www.seaart.ai/zhCN)          |
-| [聊天](https://github.com/Chanzhaoyu/chatgpt-web)         |
-| [聊天](https://github.com/Yidadaa/ChatGPT-Next-Web)       |
-| [聊天](https://github.com/adams549659584/go-proxy-bingai) |
+# AI
+|                                                |
+|------------------------------------------------|
+| [huggingface](https://huggingface.co/chat)     |
+| [chatgpt](https://chatgpt.com/)                |
+| [gemini](https://gemini.google.com/)           |
+| [deepseek](https://www.deepseek.com/)          |
+| [通义千问 阿里](https://qianwen.aliyun.com/)         |
+| [copilot](https://copilot.microsoft.com/)      |
+| [coze 字节](https://www.coze.com/)               |
+| [扣子 字节](https://www.coze.cn/)                  |
+| [豆包 字节](https://www.doubao.com/)               |
+| [cici 字节](https://www.cici.com/chat/)          |
+| [kimi](https://kimi.moonshot.cn/)              |
+| [海螺AI](https://hailuoai.com/)                  |
+| [混元 腾讯](https://hunyuan.tencent.com/)          |
+| [星火 讯飞](https://xinghuo.xfyun.cn/)             |
+| [紫东太初 中科院](https://taichu-web.ia.ac.cn/)       |
+| [文心一言 百度](https://yiyan.baidu.com/)            |
+| [you](https://you.com/)                        |
+| [poe](https://poe.com/)                        |
+| [x](https://grok.x.ai/)                        |
+| [Claude](https://www.anthropic.com/)           |
+| [tensor 配合 seaart](https://tensor.art/)        |
+| [seaart 配合 tensor](https://www.seaart.ai/zhCN) |
 
 # 图片
 |                                                                                |
 |--------------------------------------------------------------------------------|
-| [腾讯 AI 图片合成](https://github.com/TencentARC/PhotoMaker)                         |
+| [通义万相 阿里](https://tongyi.aliyun.com/wanxiang/)                                 |
+| [即梦 字节](https://jimeng.jianying.com/ai-tool/home)                              |
+| [图片合成 腾讯](https://github.com/TencentARC/PhotoMaker)                            |
 | [adobe 画图](https://firefly.adobe.com/inspire/images)                           |
-| [OCR 本地文本识别](https://github.com/VikParuchuri/surya)                            |
+| [midjourney](https://www.midjourney.com/home)                                  |
+| [stable-diffusion](https://huggingface.co/spaces/stabilityai/stable-diffusion) |
+| [OCR 图片文本识别](https://github.com/VikParuchuri/surya)                            |
 | [AI 赚钱](https://github.com/bleedline/aimoneyhunter)                            |
 | [AI 提示词](https://github.com/friuns2/Leaked-GPTs)                               |
 | [音色录制，文字生成语音](https://github.com/jianchang512/clone-voice)                     |
@@ -126,7 +129,6 @@
 | [插图 绘画](https://tensor.art/)                                                   |
 | [插图 绘画](https://www.yunjie.art/register)                                       |
 | [文字](https://claude.ai/login?returnTo=%2F)                                     |
-| [stable-diffusion](https://huggingface.co/spaces/stabilityai/stable-diffusion) |
 | [文本生成图片](https://huggingface.co/spaces/BAAI/AltDiffusion)                      |
 | [修复](https://huggingface.co/spaces/sczhou/CodeFormer)                          |
 | [绘画](https://www.midjourney.com/home)                                          |
