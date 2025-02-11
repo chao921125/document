@@ -19,13 +19,29 @@
 
 | [UI]()                                                                                                 |
 |--------------------------------------------------------------------------------------------------------|
-| [text-generation-webui](https://github.com/oobabooga/text-generation-webui)                            |
-| [Open WebUI](https://github.com/open-webui/open-webui) [Open WebUI 官网](https://openwebui.com/)         |
 | [dify](https://github.com/langgenius/dify) [dify 官网](https://dify.ai/)                                 |
-| [LibreChat](https://github.com/danny-avila/LibreChat) [LibreChat 官网](https://www.librechat.ai/)        |
+| [NextChat](https://github.com/ChatGPTNextWeb/NextChat)                                                 |
+| [Open WebUI](https://github.com/open-webui/open-webui) [Open WebUI 官网](https://openwebui.com/)         |
 | [chatbot-ui](https://github.com/mckaywrigley/chatbot-ui) [chatbot-ui 官网](https://www.jointakeoff.com/) |
-| [lollms-webui](https://github.com/ParisNeo/lollms-webui)  [lollms-webui 官网](https://lollms.com/)       |
 | [Chatbox](https://github.com/Bin-Huang/Chatbox) [Chatbox 官网](https://chatboxai.app/)                   |
+| [LibreChat](https://github.com/danny-avila/LibreChat) [LibreChat 官网](https://www.librechat.ai/)        |
+| [text-generation-webui](https://github.com/oobabooga/text-generation-webui)                            |
+| [lollms-webui](https://github.com/ParisNeo/lollms-webui)  [lollms-webui 官网](https://lollms.com/)       |
+| [bingai](https://github.com/adams549659584/go-proxy-bingai)                                            |
+| [chatgpt-web](https://github.com/Chanzhaoyu/chatgpt-web)                                               |
+| [stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)                      |
+| [stable-diffusion](https://github.com/CompVis/stable-diffusion)                                        |
+| [stablediffusion](https://github.com/Stability-AI/stablediffusion)                                     |
+| [ml-stable-diffusion](https://github.com/apple/ml-stable-diffusion)                                    |
+| [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)                                             |
+| [GPT4All 官网](https://gpt4all.io/index.html)                                                            |
+| [GPT4All GitHub](https://github.com/nomic-ai/gpt4all)                                                  |
+| [GPT4All 中文模型](https://gpt4all.io/models/gguf/mistral-7b-openorca.Q4_0.gguf)                           |
+| [ColossalAI](https://github.com/hpcaitech/ColossalAI)                                                  |
+| [llama2 图片](https://github.com/karpathy/llama2.c)                                                      |
+| [llama2 中文模型](https://github.com/FlagAlpha/Llama2-Chinese)                                             |
+| [chatbot-ui](https://github.com/mckaywrigley/chatbot-ui)                                               |
+| [GeminiProChat](https://github.com/babaohuang/GeminiProChat)                                           |
 | []()  [ 官网]()                                                                                          |
 
 | [浏览器插件]()                                                                                                                                                  |
@@ -33,23 +49,6 @@
 | [Page Assist](https://chromewebstore.google.com/detail/page-assist-%E6%9C%AC%E5%9C%B0-ai-%E6%A8%A1%E5%9E%8B%E7%9A%84-web/jfgfiigpkhlkbnfnbobbkinehhfdhndo) |
 | [AnythingLLM](https://chromewebstore.google.com/detail/anythingllm-browser-compa/pncmdlebcopjodenlllcomedphdmeogm?utm_source=ext_app_menu)                 |
 | []()                                                                                                                                                       |
-
-| github                                                                                  |
-|-----------------------------------------------------------------------------------------|
-| [stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)       |
-| [stable-diffusion](https://github.com/CompVis/stable-diffusion)                         |
-| [stablediffusion](https://github.com/Stability-AI/stablediffusion)                      |
-| [ml-stable-diffusion](https://github.com/apple/ml-stable-diffusion)                     |
-| [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)                              |
-| [ChatGPT-Next-Web](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web)                  |
-| [GPT4All 官网](https://gpt4all.io/index.html)                                             |
-| [GPT4All GitHub](https://github.com/nomic-ai/gpt4all)                                   |
-| [GPT4All 中文模型](https://gpt4all.io/models/gguf/mistral-7b-openorca.Q4_0.gguf)            |
-| [ColossalAI](https://github.com/hpcaitech/ColossalAI)                                   |
-| [llama2 图片](https://github.com/karpathy/llama2.c)                                       |
-| [llama2 中文模型](https://github.com/FlagAlpha/Llama2-Chinese)                              |
-| [chatbot-ui](https://github.com/mckaywrigley/chatbot-ui)                                |
-| [GeminiProChat](https://github.com/babaohuang/GeminiProChat)                            |
 
 # 文档整理
 | 编程工具                                                                               | Visual Studio | JetBrains |
@@ -89,27 +88,25 @@
 # 聊天
 |                                                         |
 |---------------------------------------------------------|
+| [huggingface](https://huggingface.co/chat)              |
 | [chatgpt](https://chatgpt.com/)                         |
 | [gemini](https://gemini.google.com/)                    |
-| [copilot](https://copilot.microsoft.com/)               |
-| [紫东太初 中科院](https://taichu-web.ia.ac.cn/)                |
-| [x](https://grok.x.ai/)                                 |
+| [deepseek](https://www.deepseek.com/)                   |
 | [通义千问 阿里](https://qianwen.aliyun.com/)                  |
-| [coze 字节](https://www.coze.com/)                        |
+| [copilot](https://copilot.microsoft.com/)               |
+| [coze 国际 字节](https://www.coze.com/)                     |
 | [coze 字节](https://www.coze.cn/)                         |
 | [豆包 字节](https://www.doubao.com/)                        |
 | [混元 腾讯](https://hunyuan.tencent.com/)                   |
-| [文心一言 百度](https://yiyan.baidu.com/)                     |
 | [星火 讯飞](https://xinghuo.xfyun.cn/)                      |
-| [Claude](https://www.anthropic.com/)                    |
-| [huggingface](https://huggingface.co/chat)              |
-| [poe](https://poe.com/)                                 |
+| [紫东太初 中科院](https://taichu-web.ia.ac.cn/)                |
+| [文心一言 百度](https://yiyan.baidu.com/)                     |
 | [you](https://you.com/)                                 |
+| [poe](https://poe.com/)                                 |
+| [x](https://grok.x.ai/)                                 |
+| [Claude](https://www.anthropic.com/)                    |
 | [tensor 配合 seaart](https://tensor.art/)                 |
 | [seaart 配合 tensor](https://www.seaart.ai/zhCN)          |
-| [聊天](https://github.com/Chanzhaoyu/chatgpt-web)         |
-| [聊天](https://github.com/Yidadaa/ChatGPT-Next-Web)       |
-| [聊天](https://github.com/adams549659584/go-proxy-bingai) |
 
 # 图片
 |                                                                                |
