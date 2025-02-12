@@ -2,6 +2,7 @@
 # [awesome](https://github.com/f/awesome-chatgpt-prompts)
 # [awesome](https://github.com/showlab/Awesome-Video-Diffusion?tab=readme-ov-file)
 
+[//]: # (https://huggingface.co/huihui-ai)
 # 自行搭建
 | [本地（服务器）搭建工具]()                                                                                         |
 |---------------------------------------------------------------------------------------------------------|
