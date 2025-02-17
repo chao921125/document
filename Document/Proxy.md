@@ -366,6 +366,7 @@
 | [6.6/月-100G/月 马铃薯](https://mlshu.com/#/login)                                        |
 | [11/月-130G/月 Free Cloud 加入 TG 免费 Free12](https://bento.me/freecloud)                 |
 | [1/月-100G/月 Pandafly](https://pandafly.site/#/register)                              |
+| [1/月-500G/月 便宜机场](https://pianyijichang.com/#/register)                              |
 | [bolg](https://maomeng.xyz/2021/06/11/ji-chang-tui-jian-chang-qi-geng-xin/)          |
 
 # 订阅转换地址
