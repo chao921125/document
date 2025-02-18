@@ -186,7 +186,7 @@
 
 | [*直连/中转* *限制在线 注册无验证*]()                                                                            |
 |-----------------------------------------------------------------------------------------------------|
-| [18/年-200G/月 特价机场](https://xn--6nq44rc0n82k.com/#/register) [](https://tejiajichang.com)            |
+| [~~18/年-200G/月 特价机场~~](https://xn--6nq44rc0n82k.com/#/register) [](https://tejiajichang.com)        |
 | [- 8/月-100G/月 狗狗云](https://xn--9kq279fa.com/)                                                       |
 | [10/月-160G/月 Coffee Cloud](https://xn--9kqp0mora.com/#/register)                                    |
 | [- 9.9/月-200G/月 友连](https://c.youlian400.org/#/register?code=maPTotX5) [](https://xn--8ovw22g.com/) |
