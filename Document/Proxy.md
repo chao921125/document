@@ -128,7 +128,6 @@
 | [- 9.98/月-100G/月 猫七七](https://cat77.org/#/register)                                                            |
 | [- 9.9/月-100G/月 红魔馆网络](https://koumakan.quickline.top/#/register) [](https://quickline.top/)                   |
 | [- 10/月-100G/月 SPCloud](https://spcloud.pages.dev/)                                                            |
-| [- 10/月-200G/月 efcloud](https://www.easyfastcloud.com/#/register?code=2GE3ZtDg) [](https://easyfastcloud.com/) |
 | [- 10.8/月-128G/月 dida](https://www.tickcloud.net/#/register)                                                   |
 | [10/月-80G/月 大讯云](https://daxun.pro/#/home)                                                                     |
 | [- 10.9/月-222G/月 红杏云](https://hongxingdl.com/)                                                                 |
@@ -154,7 +153,7 @@
 | [25/年-100G/月 领航](https://www.lingh.cfd/#/register)                                                   |
 | [5/月-150G/月 流量光](https://llgjc1.com/#/register)                                                      |
 | [6/月-50G/月 蘑菇云](https://mgypog.xyz/#/register)                                                       |
-| [8/月-168G/月 xsus](https://xsus.work/#/register)                                                      |
+| [~~8/月-168G/月 xsus~~](https://xsus.work/#/register)                                                  |
 | [9.8/月-100G/月 咪兔Mitu](https://shop.mitoo.me/register)                                                |
 | [9.9/月-100G/月 SAC](https://www.189.cam/register)                                                     |
 | [* 10/月-200G/月 忽悠云](https://gfw.gg/register)                                                         |
@@ -276,6 +275,7 @@
 | [19.9/月-100G/月 桔子云](https://juzicloud.net/auth/register)                                                    |
 | [19.9/月-100G/月 极客云](https://jike0.com/auth/register)                                                        |
 | [19.9/月-100G/月 LIME](https://ykxqn.com/#/register?code=sbWv8dL7)                                            |
+| [* 19.9/月-100G/月 速鹰666](https://suying999.net/auth/register)                                                |
 | [19.9/月-100G/月 速云梯](https://suyunti981.xyz/auth/register?code=uYMg) [](https://suyunti.com/)                |
 | [19.99/月-100G/月 签到送流量 飞机云](https://feijiyun38.xyz/auth/register?code=XFbr) [](https://feijicloud.com/)      |
 | [23/月-300G/月 飞毯](https://tanzpro.com/auth/register) [](https://tanz.369.cyou/)                              |
@@ -310,7 +310,7 @@
 | [29/月-100G/月 海豚湾](https://hitun.io/)                                                      |
 | [29/月-200G/月 自行搜索 悠兔](https://youtunice.com/)                                             |
 | [29/月-500G/月 GLaDOS](https://glados.network/) [](https://glados.eu.org/)                  |
-| [30/月-150G/月 bywave](https://bywavesite.github.io/)                                       |
+| [* 30/月-150G/月 bywave](https://bywavesite.github.io/)                                     |
 | [36/月-200G/月 YToo](https://y-too.com/)                                                    |
 | [50/月-200G/月 Element](https://www.yuansu.uk/)                                             |
 | [55/月-185G/月 Godetia](https://ssltd.xyz/#/login)                                          |
@@ -335,7 +335,6 @@
 | 免费订阅                                                                                 |
 |--------------------------------------------------------------------------------------|
 | [WARP(需要对cloudflare进行一些操作) 目前部分地区不可用](https://1.1.1.1/) [](https://one.one.one.one/) |
-| [WARP 获取可用方案](https://warpplus.cc/)                                                  |
 | [WARP 本地或公网搭建](https://github.com/vvbbnn00/WARP-Clash-API)                           |
 | [VPS](https://shluqu.github.io/)                                                     |
 | [输入邮箱订阅](https://www.v2rayfree.eu.org/)                                              |
