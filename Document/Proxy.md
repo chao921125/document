@@ -1,24 +1,24 @@
 # Client [订阅](#Pay)
 # [IP 纯净度查询](https://whoer.net/zh#)
 # [检测当前是否可用 GPT](https://ios.chat.openai.com/public-api/mobile/server_status/v1)
-| Windows MacOS Linux Android IOS                                                                                                    |
-|------------------------------------------------------------------------------------------------------------------------------------|
-| [sing-box 全平台](https://github.com/SagerNet/sing-box)                                                                               |
-| [hiddify-next 全平台](https://github.com/hiddify/hiddify-app)                                                                         |
-| [FlClash 无 IOS](https://github.com/chen08209/FlClash)                                                                              |
-| [clash-verge-rev 无 Android IOS 不兼容旧系统](https://github.com/clash-verge-rev/clash-verge-rev)                                         |
-| [mihomo-party 无 Android IOS 兼容旧系统](https://github.com/mihomo-party-org/mihomo-party)                                               |
-| [clash-nyanpasu 无 Android IOS](https://github.com/keiko233/clash-nyanpasu)                                                         |
-| [shadowsocks 无 IOS](https://github.com/shadowsocks/shadowsocks-rust) [Android](https://github.com/shadowsocks/shadowsocks-android) |
+| Windows MacOS Linux Android IOS                                                                                                      |
+|--------------------------------------------------------------------------------------------------------------------------------------|
+| [sing-box *全平台*](https://github.com/SagerNet/sing-box)                                                                               |
+| [hiddify-next *全平台*](https://github.com/hiddify/hiddify-app)                                                                         |
+| [FlClash *无 IOS*](https://github.com/chen08209/FlClash)                                                                              |
+| [clash-verge-rev *无 Android IOS* **MacOS 11+**](https://github.com/clash-verge-rev/clash-verge-rev)                                  |
+| [mihomo-party *无 Android IOS* **MacOS 10.15+**](https://github.com/mihomo-party-org/mihomo-party)                                    |
+| [clash-nyanpasu *无 Android IOS*](https://github.com/keiko233/clash-nyanpasu)                                                         |
+| [shadowsocks *无 IOS*](https://github.com/shadowsocks/shadowsocks-rust) [Android](https://github.com/shadowsocks/shadowsocks-android) |
 
 | Windows                                                             |
 |---------------------------------------------------------------------|
 | [v2rayN](https://github.com/2dust/v2rayN)                           |
-| [nekoray](https://github.com/MatsuriDayo/nekoray)                   |
 | [v2rayA](https://github.com/v2rayA/v2rayA)                          |
 | [karing](https://github.com/KaringX/karing)                         |
 | [GUI.for.SingBox](https://github.com/GUI-for-Cores/GUI.for.SingBox) |
 | [GUI.for.Clash](https://github.com/GUI-for-Cores/GUI.for.Clash)     |
+| [nekoray](https://github.com/MatsuriDayo/nekoray)                   |
 
 | MacOS                                                             |
 |-------------------------------------------------------------------|
@@ -29,12 +29,12 @@
 | Android                                                                   |
 |---------------------------------------------------------------------------|
 | [v2rayNG](https://github.com/2dust/v2rayNG)                               |
-| [ClashMetaForAndroid](https://github.com/MetaCubeX/ClashMetaForAndroid)   |
 | [shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android) |
-| [NekoBoxForAndroid](https://github.com/MatsuriDayo/NekoBoxForAndroid)     |
+| [ClashMetaForAndroid](https://github.com/MetaCubeX/ClashMetaForAndroid)   |
 | [surfboard](https://github.com/getsurfboard/surfboard)                    |
 | [karing](https://github.com/KaringX/karing)                               |
 | [oneclick](https://oneclick.earth/#/)                                     |
+| [NekoBoxForAndroid](https://github.com/MatsuriDayo/NekoBoxForAndroid)     |
 
 | IOS                                                                                                               |
 |-------------------------------------------------------------------------------------------------------------------|
@@ -90,24 +90,24 @@
 |-----------------------------------------------------------------------------------------------------------|
 | [~~- 9.99/年-100G/月 三毛机场~~](https://www.xn--ehqx7tcnnope.com/#/register?code=iqzpBkFJ)                     |
 | [~~15.6/年-200G/月 顶级机场~~](https://xn--mes358a9urctx.com/#/register?code=dhhw9jqv)                          |
-| [19/年-1000G/月 白嫖机场](https://yes2.xn--mesv7f5toqlp.biz/register?code=IJNJjQW3) [](https://白嫖机场.com)        |
+| [~~19/年-1000G/月 白嫖机场~~](https://yes2.xn--mesv7f5toqlp.biz/register?code=IJNJjQW3) [](https://白嫖机场.com)    |
 | [1.99/月-100G/月 赔钱机场](https://xn--mes358aby2apfg.com/#/register?code=sNTEzxVy)                             |
 | [2/月-100G/月 一分机场](https://xn--4gqx1hgtfdmt.com/#/register?code=lfaWMQVc)                                  |
 | [~~22/年-1024G/月 两元店~~](https://liangyuandian.xyz/#/register?code=QDQsCmGa) [](https://xn--5hqx9equq.com/) |
-| [- 2.9/月-100G/月 cshjc 超实惠](https://cshjc.top/web/#/login?)                                                |
+| [~~- 2.9/月-100G/月 cshjc 超实惠~~](https://cshjc.top/web/#/login?)                                            |
 | [- 3/月-500G/月 极速云](https://xn--kbtz0ztjtvlp.com/)                                                         |
 | [- 4.99/月-100G/月 山水云](https://xn--9kq015a4jm.com/)                                                        |
 | [- 5/月-100G/月 一号测速](https://yihao42.buzz/#/register?code=yX4UyKwx) [](https://xn--4gq48l11y805a.com/)     |
 | [- + 6/月-100G/月 淘气兔](https://xn--mesq4iw0lg80a.com/)                                                      |
-| [8/月-100G/月 一毛机场](https://xn--4gqu8tcnnope.com/#/register)                                                |
+| [~~8/月-100G/月 一毛机场~~](https://xn--4gqu8tcnnope.com/#/register)                                            |
 | [- 8.8/月-80G/月 UBBOLINK](https://ubbol.ink/#/register) [](https://xn--4gqs44o.com/)                       |
-| [9.9/月-500G/月 老百姓机场](https://xn--mes53ddysu0o3gl.com/#/register)                                          |
+| [~~9.9/月-500G/月 老百姓机场~~](https://xn--mes53ddysu0o3gl.com/#/register)                                      |
 | [10/月-118G/月 玉兔](https://xn--diqv0fut7b.com/#/home)                                                       |
 | [20/月-300G/月 迷雾世界](https://迷雾世界.com/#/register?code=IOWM28rZ)                                             |
 | []()                                                                                                      |
-| [30/年-200G/月 廉价机场](https://lianjiajichang.com/#/register?code=FeiARV4a)                                   |
-| [3/月-100G/月 五毛机场](https://wumaojichang.com/#/register?code=jGwJUP0H)                                      |
-| [- 1.99/月-100G/月 最强](https://zqjc.org/#/register)                                                         |
+| [~~30/年-200G/月 廉价机场~~](https://lianjiajichang.com/#/register?code=FeiARV4a)                               |
+| [~~3/月-100G/月 五毛机场~~](https://wumaojichang.com/#/register?code=jGwJUP0H)                                  |
+| [~~- 1.99/月-100G/月 最强~~](https://zqjc.org/#/register)                                                     |
 | [6/年-100G/月 FG](https://feigou.idsduf.com//#/register?code=fdFqcdOt)                                      |
 | [- 10/年-100G/月 奈斯云](https://naisicloud.xyz/#/register)                                                    |
 | [9.9/年-120G/月 快冲云](https://0be.net/register)                                                              |
@@ -119,7 +119,7 @@
 | [- 5/月-100G/月 ChiguaYun](https://chiguayun.com/#/register)                                                |
 | [- 5.8/月-600G/月 蟒蛇](https://www.mangshe.org/#/register)                                                   |
 | [- 6/月-100G/月 流浪地球](https://liulangdiqiu.cc/#/register)                                                   |
-| [- 6/月-500G/月 白嫖云](https://freecloud.lol/#/register)                                                      |
+| [~~- 6/月-500G/月 白嫖云~~](https://freecloud.lol/#/register)                                                  |
 | [6.8/月-100G/月 小鲤鱼](https://www.xiaoliyu.me/#/register)                                                    |
 | [6.8/月-500G/月 超悦](https://www.chaoyue.shop/#/register)                                                    |
 | [8/月-100G/月 SausageCloud](https://reborn.kaochang.ltd/#/register?code=EU9d7PnU)                           |
@@ -140,15 +140,15 @@
 
 | [*直连/中转* *不限制在线*]()                                                                                  |
 |------------------------------------------------------------------------------------------------------|
-| [12/年-50G/月 一元机场](https://xn--4gq62f52gdss.com/#/register?code=y2BjORPu)                             |
-| [20/年-200G/月 三分机场](https://xn--ehq00hgtfdmt.net/register)                                            |
-| [20/年-200G/月 翻墙机场](https://xn--mest5a943ag8x.com/#/register)                                         |
-| [20/年-200G/月 低价机场](https://xn--6nq0hk9tdjr.com/#/register)                                           |
-| [4.9/月-1024G/月 大机场](https://xn--mesr8b36x.net/#/register)                                            |
+| [~~12/年-50G/月 一元机场~~](https://xn--4gq62f52gdss.com/#/register?code=y2BjORPu)                         |
+| [~~20/年-200G/月 三分机场~~](https://xn--ehq00hgtfdmt.net/register)                                        |
+| [~~20/年-200G/月 翻墙机场~~](https://xn--mest5a943ag8x.com/#/register)                                     |
+| [~~20/年-200G/月 低价机场~~](https://xn--6nq0hk9tdjr.com/#/register)                                       |
+| [4.9/月-1024G/月 大机场~~](https://xn--mesr8b36x.net/#/register)                                          |
 | [9/月-100G/月 中转机场](https://xn--fiq93tcnn892b.com/#/register)                                          |
 | [* 12.8/月-150G/月 M78星云](https://xn--m78-dj9dv09h.com/)                                               |
 | []()                                                                                                 |
-| [5/月-150G/月 流量光](https://llgjc1.com/#/register)                                                      |
+| [~~5/月-150G/月 流量光~~](https://llgjc1.com/#/register)                                                  |
 | [13/年-100G/月 有试用 fscloud](https://web.fscloud.cc/#/register?code=1umqePA4) [](https://fscloud.vip/)  |
 | [24/年-100G/月 有试用 bujiasu](https://jiu.bujiasu.com/#/login)                                           |
 | [25/年-100G/月 领航](https://www.lingh.cfd/#/register)                                                   |
