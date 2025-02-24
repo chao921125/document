@@ -15,4 +15,14 @@ java -jar ja-netfilter.jar -genkey -id=Me -user=Me -exp=2099-12-31 -products=II,
 java -jar ja-netfilter.jar -genkey -id=Me -user=Me -exp=2099-12-31 -products=WS,PC
 # PyCharm
 java -jar ja-netfilter.jar -genkey -id=Me -user=Me -exp=2099-12-31 -products=PC,PC
+# RustRover
+java -jar ja-netfilter.jar -genkey -id=Me -user=Me -exp=2099-12-31 -products=RR,PC
+# PhpStorm
+java -jar ja-netfilter.jar -genkey -id=Me -user=Me -exp=2099-12-31 -products=PS,PC
+# GoLand
+java -jar ja-netfilter.jar -genkey -id=Me -user=Me -exp=2099-12-31 -products=GL,PC
+# RubyMine
+java -jar ja-netfilter.jar -genkey -id=Me -user=Me -exp=2099-12-31 -products=RM,PC
+# DataGrip
+java -jar ja-netfilter.jar -genkey -id=Me -user=Me -exp=2099-12-31 -products=DG,PC
 ```
