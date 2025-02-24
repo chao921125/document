@@ -1,8 +1,13 @@
 # JET DEVELOPMENT TOOLS 许可证服务器
-```text
-shodan search 'Location: https://account.jetbrains.com/fls-auth' --fields ip_str,port | awk  '{if($2==443){print "https://"$1}else{print "http://"$1":"$2}}'
-
+```shell
+# 修改 Region 为 Not specified：Settings | Appearance & Behavior | System Settings | Language and Region
 https://www.shodan.io/search?query=Location%3A+https%3A%2F%2Faccount.jetbrains.com%2Ffls-auth
 
 http://137.125.248.1:8080
+```
+
+# 2024
+```shell
+# 将 jar 放到指定位置后， 修改 x.vmoptions -javaagent:*/ja-netfilter.jar
+java -jar ja-netfilter.jar -genkey -id=Me -user=Me -exp=2099-12-31 -products=II,PC
 ```
