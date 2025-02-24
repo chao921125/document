@@ -1,4 +1,4 @@
-# JET DEVELOPMENT TOOLS 许可证服务器
+# Jetbrains 许可证服务器
 ```shell
 # 修改 Region 为 Not specified：Settings | Appearance & Behavior | System Settings | Language and Region
 https://www.shodan.io/search?query=Location%3A+https%3A%2F%2Faccount.jetbrains.com%2Ffls-auth
