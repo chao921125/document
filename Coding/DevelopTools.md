@@ -6,7 +6,7 @@ https://www.shodan.io/search?query=Location%3A+https%3A%2F%2Faccount.jetbrains.c
 http://137.125.248.1:8080
 ```
 
-# 2024
+# 2024.3.3
 ```shell
 # 将 jar 放到指定位置后， 修改 x.vmoptions -javaagent:*/ja-netfilter.jar
 # IntelliJ IDEA
