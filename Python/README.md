@@ -12,3 +12,12 @@
 | [Scrapy](https://github.com/scrapy/scrapy)       |
 | [Sanic](https://github.com/sanic-org/sanic)      |
 | [Tornado](https://github.com/tornadoweb/tornado) |
+
+```shell
+# upgrade pip
+pip3 install --upgrade pip
+
+# 绕过证书
+pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org setuptools
+
+```

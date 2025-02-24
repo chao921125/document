@@ -88,6 +88,7 @@
 # AI
 |                                                |
 |------------------------------------------------|
+| [duck ai 免登录](https://duck.ai/)                |
 | [huggingface](https://huggingface.co/chat)     |
 | [chatgpt](https://chatgpt.com/)                |
 | [gemini](https://gemini.google.com/)           |
