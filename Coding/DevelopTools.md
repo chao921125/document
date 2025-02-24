@@ -9,5 +9,10 @@ http://137.125.248.1:8080
 # 2024
 ```shell
 # 将 jar 放到指定位置后， 修改 x.vmoptions -javaagent:*/ja-netfilter.jar
+# IntelliJ IDEA
 java -jar ja-netfilter.jar -genkey -id=Me -user=Me -exp=2099-12-31 -products=II,PC
+# WebStorm
+java -jar ja-netfilter.jar -genkey -id=Me -user=Me -exp=2099-12-31 -products=WS,PC
+# PC
+java -jar ja-netfilter.jar -genkey -id=Me -user=Me -exp=2099-12-31 -products=PC,PC
 ```
