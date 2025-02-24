@@ -13,6 +13,6 @@ http://137.125.248.1:8080
 java -jar ja-netfilter.jar -genkey -id=Me -user=Me -exp=2099-12-31 -products=II,PC
 # WebStorm
 java -jar ja-netfilter.jar -genkey -id=Me -user=Me -exp=2099-12-31 -products=WS,PC
-# PC
+# PyCharm
 java -jar ja-netfilter.jar -genkey -id=Me -user=Me -exp=2099-12-31 -products=PC,PC
 ```
