@@ -86,31 +86,32 @@
 [//]: # (https://www.youtube.com/watch?v=5KC4wFTLq3E)
 
 # AI
-|                                                |
-|------------------------------------------------|
-| [duck ai 免登录](https://duck.ai/)                |
-| [huggingface](https://huggingface.co/chat)     |
-| [chatgpt](https://chatgpt.com/)                |
-| [gemini](https://gemini.google.com/)           |
-| [deepseek](https://www.deepseek.com/)          |
-| [通义千问 阿里](https://qianwen.aliyun.com/)         |
-| [copilot](https://copilot.microsoft.com/)      |
-| [coze 字节](https://www.coze.com/)               |
-| [扣子 字节](https://www.coze.cn/)                  |
-| [豆包 字节](https://www.doubao.com/)               |
-| [cici 字节](https://www.cici.com/chat/)          |
-| [kimi](https://kimi.moonshot.cn/)              |
-| [海螺AI](https://hailuoai.com/)                  |
-| [混元 腾讯](https://hunyuan.tencent.com/)          |
-| [星火 讯飞](https://xinghuo.xfyun.cn/)             |
-| [紫东太初 中科院](https://taichu-web.ia.ac.cn/)       |
-| [文心一言 百度](https://yiyan.baidu.com/)            |
-| [you](https://you.com/)                        |
-| [poe](https://poe.com/)                        |
-| [x](https://grok.x.ai/)                        |
-| [Claude](https://www.anthropic.com/)           |
-| [tensor 配合 seaart](https://tensor.art/)        |
-| [seaart 配合 tensor](https://www.seaart.ai/zhCN) |
+|                                                       |
+|-------------------------------------------------------|
+| [duck ai 免登录](https://duck.ai/)                       |
+| [huggingface](https://huggingface.co/chat)            |
+| [chatgpt](https://chatgpt.com/)                       |
+| [gemini](https://gemini.google.com/)                  |
+| [deepseek](https://www.deepseek.com/)                 |
+| [通义千问 阿里](https://qianwen.aliyun.com/)                |
+| [copilot](https://copilot.microsoft.com/)             |
+| [coze 字节](https://www.coze.com/)                      |
+| [扣子 字节](https://www.coze.cn/)                         |
+| [豆包 字节](https://www.doubao.com/)                      |
+| [cici 字节](https://www.cici.com/chat/)                 |
+| [kimi](https://kimi.moonshot.cn/)                     |
+| [海螺AI](https://hailuoai.com/)                         |
+| [混元 腾讯](https://hunyuan.tencent.com/)                 |
+| [星火 讯飞](https://xinghuo.xfyun.cn/)                    |
+| [紫东太初 中科院](https://taichu-web.ia.ac.cn/)              |
+| [智谱清言 清华大学](https://chatglm.cn/main/guest?lang=zh)    |
+| [文心一言 百度](https://yiyan.baidu.com/)                   |
+| [you](https://you.com/)                               |
+| [poe](https://poe.com/)                               |
+| [x](https://grok.x.ai/)                               |
+| [Claude](https://www.anthropic.com/)                  |
+| [tensor 配合 seaart](https://tensor.art/)               |
+| [seaart 配合 tensor](https://www.seaart.ai/zhCN)        |
 
 # 图片
 |                                                                                |
