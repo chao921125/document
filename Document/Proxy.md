@@ -109,8 +109,7 @@
 | [~~3/月-100G/月 五毛机场~~](https://wumaojichang.com/#/register?code=jGwJUP0H)                                  |
 | [~~- 1.99/月-100G/月 最强~~](https://zqjc.org/#/register)                                                     |
 | [~~6/年-100G/月 FG~~](https://feigou.idsduf.com//#/register?code=fdFqcdOt)                                  |
-| [- 10/年-100G/月 奈斯云](https://naisicloud.xyz/#/register)                                                    |
-| [9.9/年-120G/月 快冲云](https://0be.net/register)                                                              |
+| [- 10/年-200G/月 奈斯云](https://naisicloud.xyz/#/register)                                                    |
 | [- 12/年-200G/月 杜卡迪](https://www.dukadi.one/#/register?code=q7LTKwfF)                                      |
 | [77/2年-1000G/月 xfltd](https://xfltd.org/#/register?code=87lsPfyz)                                         |
 | [+ 5/月-1500G/月 XMRTH](https://xmrth.lol/auth/register)                                                    |
@@ -136,6 +135,7 @@
 | [- 12.8/月-200G/月 快帆云](https://kfyun.uk/)                                                                  |
 | [13.88/月-100G/月 果粒橙](https://guolicheng.cc/index.php#/register)                                           |
 | [- 14.9/月-130G/月 魔戒](https://mojie.me/#/register?aff=Gu3iS0ty)                                            |
+| [19.9/月-210G/月 快冲云](https://wzjmcabhhure.github.io/)                                                      |
 | [- 20/月-210G/月 cordc](https://www.cordc.net/)                                                             |
 
 | [*直连/中转* *不限制在线*]()                                                                                  |
