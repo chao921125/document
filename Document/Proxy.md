@@ -109,7 +109,6 @@
 | [~~3/月-100G/月 五毛机场~~](https://wumaojichang.com/#/register?code=jGwJUP0H)                                  |
 | [~~- 1.99/月-100G/月 最强~~](https://zqjc.org/#/register)                                                     |
 | [~~6/年-100G/月 FG~~](https://feigou.idsduf.com//#/register?code=fdFqcdOt)                                  |
-| [- 10/年-200G/月 奈斯云](https://naisicloud.xyz/#/register)                                                    |
 | [- 12/年-200G/月 杜卡迪](https://www.dukadi.one/#/register?code=q7LTKwfF)                                      |
 | [77/2年-1000G/月 xfltd](https://xfltd.org/#/register?code=87lsPfyz)                                         |
 | [+ 5/月-1500G/月 XMRTH](https://xmrth.lol/auth/register)                                                    |
