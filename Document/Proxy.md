@@ -92,7 +92,7 @@
 | [~~15.6/年-200G/月 顶级机场~~](https://xn--mes358a9urctx.com/#/register?code=dhhw9jqv)                          |
 | [~~19/年-1000G/月 白嫖机场~~](https://yes2.xn--mesv7f5toqlp.biz/register?code=IJNJjQW3) [](https://白嫖机场.com)    |
 | [~~1.99/月-100G/月 赔钱机场~~](https://xn--mes358aby2apfg.com/#/register?code=sNTEzxVy)                         |
-| [2/月-100G/月 一分机场](https://xn--4gqx1hgtfdmt.com/#/register?code=lfaWMQVc)                                  |
+| [~~2/月-100G/月 一分机场~~](https://xn--4gqx1hgtfdmt.com/#/register?code=lfaWMQVc)                              |
 | [~~22/年-1024G/月 两元店~~](https://liangyuandian.xyz/#/register?code=QDQsCmGa) [](https://xn--5hqx9equq.com/) |
 | [~~- 2.9/月-100G/月 cshjc 超实惠~~](https://cshjc.top/web/#/login?)                                            |
 | [- 3/月-500G/月 极速云](https://xn--kbtz0ztjtvlp.com/)                                                         |
