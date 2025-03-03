@@ -85,7 +85,7 @@
 | [去广告](https://github.com/ACL4SSR/ACL4SSR/tree/master)                |
 
 # Pay
-###### 【- 任意邮箱】 【+ 可直接访问】 【* 时间久】【[跑路](https://github.com/limbopro/Paolujichang)】
+###### 【- 任意邮箱】 【* 稳定】【[跑路反馈](https://github.com/limbopro/Paolujichang)】
 | [*直连/中转* *不限制在线 注册无验证*]()                                                                                 |
 |-----------------------------------------------------------------------------------------------------------|
 | [~~- 9.99/年-100G/月 三毛机场~~](https://www.xn--ehqx7tcnnope.com/#/register?code=iqzpBkFJ)                     |
@@ -97,7 +97,7 @@
 | [~~- 2.9/月-100G/月 cshjc 超实惠~~](https://cshjc.top/web/#/login?)                                            |
 | [- 3/月-500G/月 极速云](https://xn--kbtz0ztjtvlp.com/)                                                         |
 | [- 5/月-100G/月 一号测速](https://yihao42.buzz/#/register?code=yX4UyKwx) [](https://xn--4gq48l11y805a.com/)     |
-| [- + 7.8/月-100G/月 淘气兔](https://xn--mesq4iw0lg80a.com/)                                                    |
+| [- 7.8/月-100G/月 淘气兔](https://xn--mesq4iw0lg80a.com/)                                                      |
 | [- 7.99/月-100G/月 山水云](https://xn--9kq015a4jm.com/)                                                        |
 | [- 8/月-160G/月 一元中转](https://xn--4gq1dp1ix68g.com/#/register/)                                             |
 | [~~8/月-100G/月 一毛机场~~](https://xn--4gqu8tcnnope.com/#/register)                                            |
@@ -113,7 +113,7 @@
 | [~~6/年-100G/月 FG~~](https://feigou.idsduf.com//#/register?code=fdFqcdOt)                                  |
 | [- 12/年-200G/月 杜卡迪](https://www.dukadi.one/#/register?code=q7LTKwfF)                                      |
 | [77/2年-1000G/月 xfltd](https://xfltd.org/#/register?code=87lsPfyz)                                         |
-| [+ 5/月-1500G/月 XMRTH](https://xmrth.lol/auth/register)                                                    |
+| [5/月-1500G/月 XMRTH](https://xmrth.lol/auth/register)                                                      |
 | [- 5/月-100G/月 WindyCloud](https://portal.passgfw.top/#/register)                                          |
 | [- 5/月-100G/月 云安云](https://www.yunanyun.app/#/register)                                                   |
 | [- 5/月-100G/月 ChiguaYun](https://chiguayun.com/#/register)                                                |
