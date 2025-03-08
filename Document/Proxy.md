@@ -88,7 +88,6 @@
 ###### 【- 任意邮箱】 【* 稳定】【[跑路反馈](https://github.com/limbopro/Paolujichang)】
 | [*直连/中转* *不限制在线 注册无验证*]()                                                                                 |
 |-----------------------------------------------------------------------------------------------------------|
-| [~~- 9.99/年-100G/月 三毛机场~~](https://www.xn--ehqx7tcnnope.com/#/register?code=iqzpBkFJ)                     |
 | [~~15.6/年-200G/月 顶级机场~~](https://xn--mes358a9urctx.com/#/register?code=dhhw9jqv)                          |
 | [~~1.99/月-100G/月 赔钱机场~~](https://xn--mes358aby2apfg.com/#/register?code=sNTEzxVy)                         |
 | [~~2/月-100G/月 一分机场~~](https://xn--4gqx1hgtfdmt.com/#/register?code=lfaWMQVc)                              |
@@ -119,7 +118,6 @@
 | [- 5.8/月-600G/月 蟒蛇](https://www.mangshe.org/#/register)                                                   |
 | [- 5.99/月-1024G/月 ktmcloud](https://ktmcloud.cc/#/login)                                                  |
 | [- 6/月-100G/月 流浪地球](https://liulangdiqiu.cc/#/register)                                                   |
-| [~~- 6/月-500G/月 白嫖云~~](https://freecloud.lol/#/register)                                                  |
 | [6.8/月-100G/月 小鲤鱼](https://www.xiaoliyu.me/#/register)                                                    |
 | [6.8/月-500G/月 超悦](https://www.chaoyue.shop/#/register)                                                    |
 | [8/月-100G/月 SausageCloud](https://reborn.kaochang.ltd/#/register?code=EU9d7PnU)                           |
