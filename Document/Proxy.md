@@ -89,15 +89,13 @@
 | [*直连/中转* *不限制在线 注册无验证*]()                                                                                 |
 |-----------------------------------------------------------------------------------------------------------|
 | [~~1.99/月-100G/月 赔钱机场~~](https://xn--mes358aby2apfg.com/#/register?code=sNTEzxVy)                         |
-| [~~2/月-100G/月 一分机场~~](https://xn--4gqx1hgtfdmt.com/#/register?code=lfaWMQVc)                              |
 | [~~22/年-1024G/月 两元店~~](https://liangyuandian.xyz/#/register?code=QDQsCmGa) [](https://xn--5hqx9equq.com/) |
-| [~~- 2.9/月-100G/月 cshjc 超实惠~~](https://cshjc.top/web/#/login?)                                            |
+| [~~- 2.9/月-100G/月 cshjc 超实惠~~](https://cshjc.top/web/#/login?code=De8r9eME)                               |
 | [- 3/月-500G/月 极速云](https://xn--kbtz0ztjtvlp.com/)                                                         |
 | [- 5/月-100G/月 一号测速](https://yihao42.buzz/#/register?code=yX4UyKwx) [](https://xn--4gq48l11y805a.com/)     |
 | [- 7.8/月-100G/月 淘气兔](https://xn--mesq4iw0lg80a.com/)                                                      |
 | [- 7.99/月-100G/月 山水云](https://xn--9kq015a4jm.com/)                                                        |
 | [- 8/月-160G/月 一元中转](https://xn--4gq1dp1ix68g.com/#/register/)                                             |
-| [~~8/月-100G/月 一毛机场~~](https://xn--4gqu8tcnnope.com/#/register)                                            |
 | [~~8/月-120G/月 秒连云~~](https://xn--9kq676h12n.com/)                                                         |
 | [- 8.8/月-80G/月 UBBOLINK](https://ubbol.ink/#/register) [](https://xn--4gqs44o.com/)                       |
 | [~~9.9/月-500G/月 老百姓机场~~](https://xn--mes53ddysu0o3gl.com/#/register)                                      |
@@ -105,7 +103,6 @@
 | [20/月-300G/月 迷雾世界](https://迷雾世界.com/#/register?code=IOWM28rZ)                                             |
 | []()                                                                                                      |
 | [~~30/年-200G/月 廉价机场~~](https://lianjiajichang.com/#/register?code=FeiARV4a)                               |
-| [~~3/月-100G/月 五毛机场~~](https://wumaojichang.com/#/register?code=jGwJUP0H)                                  |
 | [~~- 1.99/月-100G/月 最强~~](https://zqjc.org/#/register)                                                     |
 | [~~6/年-100G/月 FG~~](https://feigou.idsduf.com//#/register?code=fdFqcdOt)                                  |
 | [- 12/年-200G/月 杜卡迪](https://www.dukadi.one/#/register?code=q7LTKwfF)                                      |
@@ -139,9 +136,6 @@
 | [*直连/中转* *不限制在线*]()                                                                                  |
 |------------------------------------------------------------------------------------------------------|
 | [~~12/年-50G/月 一元机场~~](https://xn--4gq62f52gdss.com/#/register?code=y2BjORPu)                         |
-| [~~20/年-200G/月 三分机场~~](https://xn--ehq00hgtfdmt.net/register)                                        |
-| [~~20/年-200G/月 翻墙机场~~](https://xn--mest5a943ag8x.com/#/register)                                     |
-| [~~20/年-200G/月 低价机场~~](https://xn--6nq0hk9tdjr.com/#/register)                                       |
 | [~~4.9/月-1024G/月 大机场~~](https://xn--mesr8b36x.net/#/register)                                        |
 | [~~9/月-100G/月 中转机场~~](https://xn--fiq93tcnn892b.com/#/register)                                      |
 | [* 12.8/月-150G/月 M78星云](https://xn--m78-dj9dv09h.com/)                                               |
