@@ -94,7 +94,6 @@
 | [- 5/月-100G/月 一号测速](https://yihao42.buzz/#/register?code=yX4UyKwx) [](https://xn--4gq48l11y805a.com/) |
 | [- 7.8/月-100G/月 淘气兔](https://xn--mesq4iw0lg80a.com/)                                                  |
 | [- 7.99/月-100G/月 山水云](https://xn--9kq015a4jm.com/)                                                    |
-| [- 8/月-160G/月 一元中转](https://xn--4gq1dp1ix68g.com/#/register/)                                         |
 | [~~8/月-120G/月 秒连云~~](https://xn--9kq676h12n.com/)                                                     |
 | [- 8.8/月-80G/月 UBBOLINK](https://ubbol.ink/#/register) [](https://xn--4gqs44o.com/)                   |
 | [~~9.9/月-500G/月 老百姓机场~~](https://xn--mes53ddysu0o3gl.com/#/register)                                  |
