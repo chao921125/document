@@ -18,7 +18,7 @@
 | [karing](https://github.com/KaringX/karing)                         |
 | [GUI.for.SingBox](https://github.com/GUI-for-Cores/GUI.for.SingBox) |
 | [GUI.for.Clash](https://github.com/GUI-for-Cores/GUI.for.Clash)     |
-| [nekoray](https://github.com/MatsuriDayo/nekoray)                   |
+| [NekoRay](https://github.com/MatsuriDayo/nekoray)                   |
 
 | MacOS                                                             |
 |-------------------------------------------------------------------|
@@ -53,16 +53,17 @@
 | [Surge 美 付费](https://apps.apple.com/us/app/surge-5/id1442620678) [官网](https://nssurge.com/)                       |
 | [Loon 美 付费](https://apps.apple.com/us/app/loon/id1373567447)                                                      |
 
-| 路由器                                                                  |
-|----------------------------------------------------------------------|
-| [openwrt](https://github.com/openwrt/openwrt)                        |
-| [openwrt-packages](https://github.com/kenzok8/openwrt-packages)      |
-| [OpenClash](https://github.com/vernesong/OpenClash)                  |
-| [shadowsocksr-plus](https://github.com/zusterben/plan_b)             |
-| [OpenWrt-SSRPLUS](https://github.com/WangWenBin2017/OpenWrt-SSRPLUS) |
-| [openwrt-passwall](https://github.com/xiaorouji/openwrt-passwall)    |
-| [ShellCrash](https://github.com/juewuy/ShellCrash/tree/master)       |
-| [fancyss](https://github.com/hq450/fancyss)                          |
+| 路由器                                                                      |
+|--------------------------------------------------------------------------|
+| [openwrt](https://github.com/openwrt/openwrt)                            |
+| [openwrt-packages](https://github.com/kenzok8/openwrt-packages)          |
+| [OpenClash](https://github.com/vernesong/OpenClash)                      |
+| [shadowsocksr-plus](https://github.com/zusterben/plan_b)                 |
+| [OpenWrt-SSRPLUS](https://github.com/WangWenBin2017/OpenWrt-SSRPLUS)     |
+| [openwrt-passwall](https://github.com/xiaorouji/openwrt-passwall)        |
+| [openwrt-passwall2](https://github.com/xiaorouji/openwrt-passwall2)      |
+| [ShellCrash](https://github.com/juewuy/ShellCrash/tree/master)           |
+| [fancyss](https://github.com/hq450/fancyss)                              |
 
 | 浏览器插件                                                      |
 |------------------------------------------------------------|
@@ -88,9 +89,7 @@
 ###### 【- 任意邮箱】 【* 稳定】【[跑路反馈](https://github.com/limbopro/Paolujichang)】
 | [*直连/中转* *不限制在线 注册无验证*]()                                                                             |
 |-------------------------------------------------------------------------------------------------------|
-| [~~1.99/月-100G/月 赔钱机场~~](https://xn--mes358aby2apfg.com/#/register?code=sNTEzxVy)                     |
 | [~~- 69/年-300G/月 cshjc 超实惠~~](https://cshjc.top/web/#/login?code=De8r9eME)                            |
-| [- 3/月-500G/月 极速云](https://xn--kbtz0ztjtvlp.com/)                                                     |
 | [- 5/月-100G/月 一号测速](https://yihao42.buzz/#/register?code=yX4UyKwx) [](https://xn--4gq48l11y805a.com/) |
 | [- 7.8/月-100G/月 淘气兔](https://xn--mesq4iw0lg80a.com/)                                                  |
 | [- 7.99/月-100G/月 山水云](https://xn--9kq015a4jm.com/)                                                    |
@@ -122,7 +121,6 @@
 | [- 10.9/月-222G/月 红杏云](https://hongxingdl.com/)                                                        |
 | [12/月-300G/月 创奇](https://go.cqjiasu.top/#/register)                                                   |
 | [- 12.5/月-100G/月 starlinkcloud 星链云](https://starlinkcloud.lol/#/register)                             |
-| [- 12.8/月-200G/月 快帆云](https://kfyun.uk/)                                                              |
 | [13.88/月-100G/月 果粒橙](https://guolicheng.cc/index.php#/register)                                       |
 | [- 14.9/月-130G/月 魔戒](https://mojie.me/#/register?aff=Gu3iS0ty)                                        |
 | [19.9/月-210G/月 快冲云](https://wzjmcabhhure.github.io/)                                                  |
@@ -210,13 +208,13 @@
 | [19.9/月-100G/月 大哥云](https://www.dageyun.net/#/register)                                                             |
 | [20/月-200G/月 肥猫云 FATCAT](https://www.fatcatcf.com/register)                                                         |
 | [- 20/月-200G/月 WestData](https://wd-cloud.net/)                                                                     |
-| [- 20/月-100G/月 xlinkworld](https://www.xlinkworld.cc/register.php)                                                  |
+| [* - 20/月-100G/月 xlinkworld](https://www.xlinkworld.cc/register.php)                                                |
 | [* - 20/月-100G/月 老猫云](https://88laomao.com/#/register) [](https://laomao.biz/)                                      |
 | [- 20/月-100G/月 fastlink](https://fastlink.ws/auth/register)                                                         |
 | [* 20/月-100G/月 闪电猫 SpeedCAT 4](https://scaff01.scvipaff.com/auth/register?code=U6L9) [](https://speedcat.me/)       |
 | [- 20.53/月-120G/月 nicess](https://client.nicess.one/register.php)                                                   |
 | [23.8/月-180G/月 Anyland](https://anyland.club/#/register?code=xvfqFY02)                                              |
-| [24/月-120G/月 Gatern](https://shuttle.gt-all.com/register.php)                                                       |
+| [* 24/月-120G/月 Gatern](https://shuttle.gt-all.com/register.php)                                                     |
 | [25/月-150G/月 青云梯](https://qingyunti.cc/)                                                                            |
 | [28/月-150G/月 飞数](https://www.flyintpro.com/#/login)                                                                 |
 | [30/月-150G/月 x-air](https://www.x-air.org/register)                                                                 |
@@ -226,13 +224,13 @@
 | [*中转/BGP* *不限制在线*]()                                                    |
 |-------------------------------------------------------------------------|
 | [15/月-100G/月 FireFly 萤火虫](https://www.yhcvpn.xyz/)                      |
-| [15.8/月-160G/月 狗狗加速](https://xn--yfrp36ea9901a.com/)                    |
+| [* 5.8/月-160G/月 狗狗加速](https://xn--yfrp36ea9901a.com/)                   |
 | [15.99/月-100G/月 海獭](https://haita.io/register?aff=DERuAJGA)             |
 | [18.8/月-138G/月 唯云 aifun](https://afun.la/register)                      |
 | [20/月-120G/月 xgcloud](https://www.xgcloud.org/#/register)               |
 | [22.99/月-80G/月 Bitz Net](https://www.bitzconnect.com/)                  |
 | [24.9/月-100G/月 tomatocloud](https://tomatocloud.me/)                    |
-| [24.9/月-100G/月 web3vpn](https://web3vpn.net/)                           |
+| [24.9/月-100G/月 Web3加速器](https://web3vpn.net/)                           |
 | [25/月-100G/月 miyun 觅云](https://www.miyun.la/)                           |
 | [26/月-200G/月 GTK PW](https://board.gtk.pw/#/home)                       |
 | [* 29/月-120G/月 速子云](https://tachyun.com/)                               |
@@ -252,12 +250,13 @@
 | [15.88/月-128G/月 抖云加速](https://douyun.sbs/#/register)                                                        |
 | [15.9/月-100G/月 naiunet](https://www.naiunet.com/#/register)                                                 |
 | [- 16.9/月-100G/月 XXAI](https://xx-ai.uk/auth/register)                                                      |
-| [19.9/月-100G/月 桔子云](https://juzicloud.net/auth/register)                                                    |
-| [19.9/月-100G/月 极客云](https://jike0.com/auth/register)                                                        |
+| [* 19.9/月-100G/月 桔子云](https://juzicloud.net/auth/register)                                                  |
+| [* 19.9/月-100G/月 极客云](https://jike0.com/auth/register)                                                      |
 | [19.9/月-100G/月 LIME](https://ykxqn.com/#/register?code=sbWv8dL7)                                            |
 | [* 19.9/月-100G/月 速鹰666](https://suying999.net/auth/register)                                                |
 | [19.9/月-100G/月 速云梯](https://suyunti981.xyz/auth/register?code=uYMg) [](https://suyunti.com/)                |
 | [19.99/月-100G/月 签到送流量 飞机云](https://feijiyun38.xyz/auth/register?code=XFbr) [](https://feijicloud.com/)      |
+| [19.9/月-100G/月 DOVE 加速器](https://doveapp.net/index.php)                                                     |
 | [23/月-300G/月 飞毯](https://tanzpro.com/auth/register) [](https://tanz.369.cyou/)                              |
 | [25/月-100G/月 catnet 网猫](https://catnet.369.cyou/)                                                           |
 | [- 25/月-100G/月 Gsou Cloud](https://gsouclub.life/auth/register)                                             |
@@ -266,6 +265,7 @@
 | [- 29/月-100G/月 MDSSCLOUD](https://mdss.cloud/#/register) [](https://mdss.369.cyou/)                         |
 | [39/月-200G/月 BoostNet](https://boostnet.top/#/register)                                                     |
 | [46/月-328G/月 OKANC](https://www.okanc.com/index.php#/register)                                              |
+| [43+/月-500G/月 Just My Socks](https://justmysocks.net/)                                                      |
 | [* 49/月-120G/月 WgetCloud](https://invite.wgetcloud.ltd/auth/register?code=Y7ytZ1) [](https://wgetcloud.org) |
 | [* 52/月-200G/月 库洛米](https://www.kuromis.com/)                                                               |
 
