@@ -131,7 +131,6 @@
 | [* 12.8/月-150G/月 M78星云](https://xn--m78-dj9dv09h.com/)                                               |
 | []()                                                                                                 |
 | [13/年-100G/月 有试用 fscloud](https://web.fscloud.cc/#/register?code=1umqePA4) [](https://fscloud.vip/)  |
-| [24/年-100G/月 有试用 bujiasu](https://jiu.bujiasu.com/#/login)                                           |
 | [6/月-50G/月 蘑菇云](https://mgypog.xyz/#/register)                                                       |
 | [9.8/月-100G/月 咪兔Mitu](https://shop.mitoo.me/register)                                                |
 | [9.9/月-100G/月 SAC](https://www.189.cam/register)                                                     |
