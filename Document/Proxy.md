@@ -129,6 +129,7 @@
 
 | [*直连/中转* *不限制在线*]()                                                                                  |
 |------------------------------------------------------------------------------------------------------|
+| [66/年-200G/月 不加速](https://v.bujiasu.com/b/?code=EPbRn3Co) [](https://xn--ihq64io30e.com/)            |
 | [* 12.8/月-150G/月 M78星云](https://xn--m78-dj9dv09h.com/)                                               |
 | []()                                                                                                 |
 | [13/年-100G/月 有试用 fscloud](https://web.fscloud.cc/#/register?code=1umqePA4) [](https://fscloud.vip/)  |
