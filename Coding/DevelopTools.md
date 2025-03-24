@@ -21,7 +21,7 @@ https://search.censys.io/
 
 # Jetbrains 离线 2024.3.3
 ```shell
-# 将 jar 放到指定位置后， 修改 x.vmoptions -javaagent:*/ja-netfilter.jar
+# 将 jar 放到指定位置后， 修改 x.vmoptions内容： -javaagent:*/ja-netfilter.jar
 # IntelliJ IDEA
 java -jar ja-netfilter.jar -genkey -id=Me -user=Me -exp=2099-12-31 -products=II,PC
 # WebStorm
