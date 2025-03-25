@@ -109,8 +109,6 @@
 | [- 5.8/月-600G/月 蟒蛇](https://www.mangshe.org/#/register)                                                |
 | [- 5.99/月-1024G/月 ktmcloud](https://ktmcloud.cc/#/login)                                               |
 | [- 6/月-100G/月 流浪地球](https://liulangdiqiu.cc/#/register)                                                |
-| [6.8/月-100G/月 小鲤鱼](https://www.xiaoliyu.me/#/register)                                                 |
-| [6.8/月-500G/月 超悦](https://www.chaoyue.shop/#/register)                                                 |
 | [8/月-100G/月 SausageCloud](https://reborn.kaochang.ltd/#/register?code=EU9d7PnU)                        |
 | [- 8/月-120G/月 To2](https://totwo.top/#/register)                                                       |
 | [9/月-120G/月 渔云](https://cloudfisher.net/web/#/login?code=I2lj0vUP)                                     |
@@ -134,6 +132,8 @@
 | []()                                                                                                 |
 | [13/年-100G/月 有试用 fscloud](https://web.fscloud.cc/#/register?code=1umqePA4) [](https://fscloud.vip/)  |
 | [6/月-50G/月 蘑菇云](https://mgypog.xyz/#/register)                                                       |
+| [6.8/月-100G/月 小鲤鱼](https://www.xiaoliyu.me/#/register)                                               |
+| [6.8/月-500G/月 超悦](https://www.chaoyue.shop/#/register)                                               |
 | [9.8/月-100G/月 咪兔Mitu](https://shop.mitoo.me/register)                                                |
 | [9.9/月-100G/月 SAC](https://www.189.cam/register)                                                     |
 | [* 10/月-200G/月 忽悠云](https://gfw.gg/register)                                                         |
