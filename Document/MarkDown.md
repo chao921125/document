@@ -1,6 +1,6 @@
 [👍官方文档](https://markdown.com.cn/)
 # Markdown 标题语法
-要创建标题，请在单词或短语前面添加井号 (#) 。# 的数量代表了标题的级别。例如，添加三个 # 表示创建一个三级标题 (<h3>) (例如：### My Header)。
+要创建标题，请在单词或短语前面添加井号 (#) 。# 的数量代表了标题的级别。例如，添加三个 # 表示创建一个三级标题 (\<h3>) (例如：### My Header)。
 Markdown语法	HTML	预览效果
 # Heading level 1	<h1>Heading level 1</h1>	Heading level 1
 ## Heading level 2	<h2>Heading level 2</h2>	Heading level 2
