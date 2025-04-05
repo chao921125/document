@@ -167,7 +167,7 @@
 | [*直连/中转* *限制在线 注册无验证*]()                                                                            |
 |-----------------------------------------------------------------------------------------------------|
 | [- 8/月-100G/月 狗狗云](https://xn--9kq279fa.com/)                                                       |
-| [10/月-160G/月 Coffee Cloud](https://xn--9kqp0mora.com/#/register)                                    |
+| [10/月-160G/月 Coffee Cloud 咖啡云](https://xn--9kqp0mora.com/#/register)                                |
 | [- 9.9/月-200G/月 友连](https://c.youlian400.org/#/register?code=maPTotX5) [](https://xn--8ovw22g.com/) |
 | []()                                                                                                |
 | [- 9.9/年-100G/月 milkcloud](https://milkcloud.org/#/login?code=5kCrB1gr)                             |
