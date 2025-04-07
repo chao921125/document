@@ -92,6 +92,7 @@
 |-------------------------------------------------------------------------------------------------------------|
 | [*注册无验证*]()                                                                                                 |
 | [~~19/年-1000G/月 白嫖机场 限制下载~~](https://yes2.xn--mesv7f5toqlp.biz/register?code=IJNJjQW3) [](https://白嫖机场.com) |
+| [~~66/年-200G/月 不加速~~](https://v.bujiasu.com/b/?code=EPbRn3Co) [](https://xn--ihq64io30e.com/b/)             |
 | [~~- 69/年-300G/月 cshjc 超实惠~~](https://cshjc.top/web/#/login?code=De8r9eME)                                  |
 | [- 5/月-100G/月 一号测速](https://yihao42.buzz/#/register?code=yX4UyKwx) [](https://xn--4gq48l11y805a.com/)       |
 | [- 7.8/月-100G/月 淘气兔](https://xn--mesq4iw0lg80a.com/)                                                        |
