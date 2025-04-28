@@ -120,7 +120,6 @@
 | [- 9.9/月-100G/月 红魔馆网络](https://koumakan.quickline.top/#/register) [](https://quickline.top/)                         |
 | [- 10/月-100G/月 SPCloud](https://spcloud.pages.dev/)                                                                  |
 | [- 10.8/月-128G/月 dida](https://www.tickcloud.net/#/register)                                                         |
-| [10/月-80G/月 大讯云](https://daxun.pro/#/home)                                                                           |
 | [- 10.9/月-222G/月 红杏云](https://hongxingdl.com/)                                                                       |
 | [12/月-300G/月 创奇](https://go.cqjiasu.top/#/register)                                                                  |
 | [- 12.5/月-100G/月 starlinkcloud 星链云](https://starlinkcloud.lol/#/register)                                            |
@@ -237,7 +236,6 @@
 | [9/月-100G/月 freecat](https://us.freecat.cloud/#/register)                                                          |
 | [9.9/月-100G/月 贝雪云](https://www.besnow.org/index.php#/register)                                                     |
 | [10/月-188G/月 Echo](https://echonetwork.club/#/login)                                                               |
-| [10/月-80G/月 大迅云](https://daxuns.top/#/register)                                                                    |
 | [10/月-100G/月 疾风云](https://jifengcloud.net/auth/register) [](https://jifengcloud.info/)                             |
 | [12.8/年-100G/月 金坷垃](https://jinkela.app/)                                                                          |
 | [* 99/年-100G/月 一枝红杏](https://order.yizhihongxing.club/)                                                            |
