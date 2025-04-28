@@ -39,4 +39,13 @@
 | [redhat](https://www.redhat.com/en/technologies/cloud-computing/openshift/container-platform) |
 
 [//]: # (https://pip.itcast.cn/home?hm-pc-dh%24bz)
+
+字体压缩
+```text
+qwertyuiopasdfghjklzxcvbnm
+QWERTYUIOPASDFGHJKLZXCVBNM
+1234567890
+,./;'[]\~!@#$%^&*()-=_+`{}|:"<>?
+```
+
 ###### 部分资源从网络收录而来
