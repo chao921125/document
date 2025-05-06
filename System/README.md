@@ -97,6 +97,7 @@ http://www.jianpian9.com/
 | [临时手短信](https://www.sms-receive-online.com/)  |
 | [临时手短信](https://www.materialtools.com/)       |
 | [临时手短信](https://sms-activate.org/cn)          |
+| [临时手短信](https://sms-activate.world/en)        |
 | [TYB字幕下载](https://addyoutube.com/)            |
 | [电影、电视配乐](https://www.tunefind.com/)          |
 
