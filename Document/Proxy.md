@@ -195,7 +195,7 @@
 | []()                                                                                                                |
 | []()                                                                                                                |
 | [*注册验证*]()                                                                                                          |
-| [* 5.8/月-160G/月 狗狗加速](https://xn--yfrp36ea9901a.com/)                                                               |
+| [* 15.8/月-160G/月 狗狗加速](https://xn--yfrp36ea9901a.com/)                                                              |
 | []()                                                                                                                |
 | [15/月-100G/月 FireFly 萤火虫](https://www.yhcvpn.xyz/)                                                                  |
 | [15.99/月-100G/月 海獭](https://haita.io/register?aff=DERuAJGA)                                                         |
