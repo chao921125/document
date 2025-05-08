@@ -134,8 +134,6 @@
 | []()                                                                                                                 |
 | [~~13/年-100G/月 有试用 fscloud~~](https://dash.fscloud.homes/#/register?code=1umqePA4) [](https://fscloud.vip/)          |
 | [6/月-50G/月 蘑菇云](https://mgypog.xyz/#/register)                                                                       |
-| [6.8/月-500G/月 超悦](https://www.chaoyue.shop/#/register)                                                               |
-| [6.8/月-100G/月 小鲤鱼](https://www.xiaoliyu.me/#/register)                                                               |
 | [9.8/月-100G/月 咪兔Mitu](https://shop.mitoo.me/register)                                                                |
 | [9.9/月-100G/月 SAC](https://www.189.cam/register)                                                                     |
 | [10/月-500G/月 中国国际机场](https://werun.id/#/login)                                                                       |
@@ -151,8 +149,8 @@
 | [10/月-100G/月 flybit](https://goflybit.pages.dev/)                                                                    |
 | [10/月-100G/月 Anrun Network](https://www.anrunnetwork.com/#/register)                                                 |
 | [11/月-100G/月 Candy Cloud](https://coco2.one/#/register)                                                              |
-| [11.98/月-150G/月 夜煞云](https://user.night-furyx.com/)                                                                  |
 | [12/月-150G/月 夜煞云](https://user.night-furyx.com/)                                                                     |
+| [12/月-100G/月 FlyBit](https://goflybit.pages.dev/)                                                                    |
 | [12/月-100G/月 Teacat](https://teacat.cloud/#/register)                                                                |
 | [12/月-100G/月 niceduck](https://my.niceduck.io/#/register)                                                            |
 | [12/月-80G/月 纸巾云机场](https://papercloud.pro/#/register?code=XgjIuvDD)                                                  |
