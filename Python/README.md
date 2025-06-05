@@ -17,7 +17,15 @@
 # upgrade pip
 pip3 install --upgrade pip
 
+# config list
+mkdir .pip
+touch pip.conf
+
+[global]
+index-url = https://pypi.org/simple
+[install]
+trusted-host = https://pypi.org
+
 # 绕过证书
 pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org setuptools
-
 ```
