@@ -19,7 +19,7 @@ https://search.censys.io/
 点击一个网址，然后搜索 302 复制对应的URL即可
 ```
 
-# Jetbrains 离线 2024.3.5
+# Jetbrains 离线 Last 2025+
 ```shell
 # 将 jar 放到指定位置后， 修改 x.vmoptions内容： -javaagent:*/ja-netfilter.jar
 # 运行获取通用的 KEY 将生成的 key 放到 key.txt 文件中
