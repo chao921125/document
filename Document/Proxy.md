@@ -162,10 +162,9 @@
 | [*注册无验证*]()                                                                                                         |
 | [* - 15/月-100G/月 飞鸟 FlyingBird 4](https://fbaff02.flyb-aff01.com/auth/register?code=GXsW) [](https://flyingbird.cc) |
 | [- 15/月-100G/月 overwall](https://overwall.run/)                                                                     |
-| [15/月-100G/月 一云梯 4](https://1yunti.org/)                                                                            |
+| [15/月-100G/月 一云梯 4](https://1yunti.one/)                                                                            |
 | [15/月-100G/月 龙猫云 Totoro Cloud 4](https://totorocloud.cc/register?code=8JnnPAyd)                                     |
 | [15.05/月-251G/月 prprCloud](https://prprcloud.com/)                                                                  |
-| [18/月-100G/月 CyberGuard](https://cyberguard.top/index.php#/register?code=HsiGRr69)                                  |
 | [- 19.9/月-150G/月 三番云](https://3fan.3f66.net/#/)                                                                     |
 | [19.9/月-100G/月 大哥云](https://www.dageyun.net/#/register)                                                             |
 | [20/月-200G/月 肥猫云 FATCAT](https://www.fatcatcf.com/register)                                                         |
@@ -189,7 +188,7 @@
 | []()                                                                                                                |
 | [15/月-100G/月 FireFly 萤火虫](https://www.yhcvpn.xyz/)                                                                  |
 | [15.99/月-100G/月 海獭](https://haita.io/register?aff=DERuAJGA)                                                         |
-| [18.8/月-138G/月 唯云 aifun](https://afun.la/register)                                                                  |
+| [18.8/月-138G/月 唯云 aifun](https://afun.la/)                                                                          |
 | [20/月-120G/月 xgcloud](https://www.xgcloud.org/#/register)                                                           |
 | [22.99/月-80G/月 Bitz Net](https://www.bitzconnect.com/)                                                              |
 | [24.9/月-100G/月 tomatocloud](https://tomatocloud.me/)                                                                |
@@ -198,8 +197,6 @@
 | [26/月-200G/月 GTK PW](https://board.gtk.pw/#/home)                                                                   |
 | [* 29/月-120G/月 速子云](https://tachyun.com/)                                                                           |
 | [29.9/月-160G/月 Realnode](https://dash.realnode.app/index.php#/register)                                             |
-| [29.9/月-160G/月 Realnode](https://dh.realnodecode.com/)                                                              |
-| [* 100/季-150G/月 Sayss](https://www.epaybc.com/#/register)                                                           |
 | [38/月-150G/月 Linkeless](https://www.linkeless.com/#/register)                                                       |
 | [39/月-150G/月 FlowerCloud 花云](https://huacloud.dev/)                                                                 |
 | [* 105/季-100G/月 KyCloud](https://my.cloudn.cc/cart.php)                                                             |
