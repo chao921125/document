@@ -101,6 +101,7 @@
 | [- 8.8/月-80G/月 UBBOLINK](https://ubbol.ink/#/register) [](https://xn--4gqs44o.com/)                                  |
 | [9.9/月-500G/月 老百姓机场](https://xn--mes53ddysu0o3gl.com/#/register)                                                     |
 | [10/月-118G/月 玉兔](https://xn--diqv0fut7b.com/#/home)                                                                  |
+| [10/月-130G/月 Coffee Cloud 咖啡云](https://xn--9kqp0mora.com/#/register)                                                 |
 | [20/月-300G/月 迷雾世界](https://迷雾世界.com/#/register?code=IOWM28rZ)                                                        |
 | []()                                                                                                                 |
 | [30/年-200G/月 廉价机场](https://lianjiajichang.com/#/register?code=FeiARV4a)                                              |
@@ -165,6 +166,7 @@
 | [15/月-100G/月 一云梯 4](https://1yunti.one/)                                                                            |
 | [15/月-100G/月 龙猫云 Totoro Cloud 4](https://totorocloud.cc/register?code=8JnnPAyd)                                     |
 | [15.05/月-251G/月 prprCloud](https://prprcloud.com/)                                                                  |
+| [- 18/月-100G/月 Miaona](https://miaona.co/#/register)                                                                |
 | [- 19.9/月-150G/月 三番云](https://3fan.3f66.net/#/)                                                                     |
 | [19.9/月-100G/月 大哥云](https://www.dageyun.net/#/register)                                                             |
 | [20/月-200G/月 肥猫云 FATCAT](https://www.fatcatcf.com/register)                                                         |
@@ -187,6 +189,7 @@
 | [* 15.8/月-160G/月 狗狗加速](https://xn--yfrp36ea9901a.com/)                                                              |
 | []()                                                                                                                |
 | [15/月-100G/月 FireFly 萤火虫](https://www.yhcvpn.xyz/)                                                                  |
+| [15/月-100G/月 LinkCube](https://711-cloud.net/)                                                                      |
 | [15.99/月-100G/月 海獭](https://haita.io/register?aff=DERuAJGA)                                                         |
 | [18.8/月-138G/月 唯云 aifun](https://afun.la/)                                                                          |
 | [20/月-120G/月 xgcloud](https://www.xgcloud.org/#/register)                                                           |
@@ -208,7 +211,6 @@
 |----------------------------------------------------------------------------------------------------------------|
 | [*注册无验证*]()                                                                                                    |
 | [- 8/月-100G/月 狗狗云](https://xn--9kq279fa.com/)                                                                  |
-| [10/月-160G/月 Coffee Cloud 咖啡云](https://xn--9kqp0mora.com/#/register)                                           |
 | [13/月-128G/月 喵酥云](https://xn--6krx87aehra.com/)                                                                |
 | []()                                                                                                           |
 | [- 9.9/年-100G/月 milkcloud](https://milkcloud.org/#/login?code=5kCrB1gr)                                        |
@@ -265,6 +267,7 @@
 | []()                                                                                                        |
 | []()                                                                                                        |
 | [*注册验证*]()                                                                                                  |
+| [15/月-150G/月 火星联盟](https://a.hxlm.homes/)                                                                   |
 | [17.8/月-200G/月 SS ONE](https://hello36d.com/register)                                                       |
 | [18/月-150G/月 百变小樱](https://bbxy.shop/)                                                                      |
 | [19/月-120G/月 忍者云](https://renzhe.cloud/)                                                                    |
@@ -284,6 +287,7 @@
 | [29/月-100G/月 海豚湾](https://hitun.io/)                                                                        |
 | [* 30/月-150G/月 bywave](https://bywavesite.github.io/)                                                       |
 | [36/月-200G/月 YToo](https://y-too.com/)                                                                      |
+| [129.99/季-200G/月 ImmTelecom](https://immtele.com/index.php)                                                 |
 | [50/月-200G/月 Element](https://www.yuansu.uk/)                                                               |
 | [55/月-185G/月 Godetia](https://ssltd.xyz/#/login)                                                            |
 | [* 57.5/月-300G/月 AmyTelecom](https://www.amytele.net/index.php)                                             |
