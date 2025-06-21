@@ -1,0 +1,9 @@
+参考 @https://github.com/chao921125/file-opt 项目格式将该项目进行重构
+要求：
+1 项目入口文件 index 在根目录
+2 项目内抽取出来所有使用到的公共的工具方法封装
+3 readme.md 内容完善，并将 api 文档单独抽出来放入 docs 目录中去
+4 打包的文件都在 dist 目录中
+5 支持在 JS/vue/react 项目，比如 import 和 require
+6 测试用例和示例尽可能完整
+7 有可扩展性，方便后续维护和新功能开发
