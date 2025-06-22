@@ -126,7 +126,6 @@
 | []()                                                                                                                 |
 | []()                                                                                                                 |
 | [*注册验证*]()                                                                                                           |
-| [66/年-200G/月 不加速](https://bujiasu.com/b/?code=EPbRn3Co) [](https://xn--ihq64io30e.com/)                              |
 | [* 12.8/月-150G/月 M78星云](https://xn--m78-dj9dv09h.com/)                                                               |
 | []()                                                                                                                 |
 | [13/年-100G/月 有试用 fscloud](https://dash.fscloud.homes/#/register?code=1umqePA4) [](https://fscloud.vip/)              |
@@ -221,6 +220,7 @@
 | []()                                                                                                           |
 | [*注册验证*]()                                                                                                     |
 | [2.5/月-100G/月 性价比机场](https://xn--6nq44r2uh9rhj7f.com//#/register?code=6v77KWIz) [](https://jichang.gitbook.io) |
+| [66/年-200G/月 不加速](https://bujiasu.com/b/?code=EPbRn3Co) [](https://xn--ihq64io30e.com/)                        |
 | [20/月-150G/月 SNTP 守候网络](https://u.xn--hwqp2zit2amna.com/auth/register)                                         |
 | []()                                                                                                           |
 | [* 99/年-100G/月 一枝红杏](https://order.yizhihongxing.club/)                                                        |
