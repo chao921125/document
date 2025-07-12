@@ -318,15 +318,16 @@
 |------------------------------|
 | [Best VPN](https://vp0.org/) |
 
-| 发布页                                         |
-|---------------------------------------------|
-| [github 发布页](https://github.com/winston779) |
-| [发布页](https://52chatai.com/)                |
-| [发布页](https://tzdaohang.com/)               |
-| [发布页](https://www.fuyunti.com/)             |
-| [发布页](https://www.ffq.la/)                  |
-| [发布页](https://guatizi.com/)                 |
-| [VPS](https://shluqu.github.io/)            |
+| 发布页                                     |
+|-----------------------------------------|
+| [github](https://github.com/winston779) |
+| [fuyunti](https://www.fuyunti.com/)     |
+| [52chatai](https://52chatai.com/)       |
+| [tzdaohang](https://tzdaohang.com/)     |
+| [ffq](https://www.ffq.la/)              |
+| [guatizi](https://guatizi.com/)         |
+| [VPS](https://shluqu.github.io/)        |
+| [biquandh](https://www.biquandh.com/)   |
 
 # Free
 | 免费订阅                                                                                 |
@@ -365,3 +366,15 @@
 | [官方](https://github.com/ACL4SSR/ACL4SSR/tree/master)  |
 | [订阅转换本地搭建](https://github.com/tindy2013/subconverter) |
 | [订阅转换本地搭建](https://github.com/CareyWang/sub-web)      |
+
+# 自建
+| 服务                                                                                      |
+|-----------------------------------------------------------------------------------------|
+| [3x-ui MHSanaei](https://github.com/MHSanaei/3x-ui)                                     |
+| [x-ui-yg MHSanaei](https://github.com/yonggekkk/x-ui-yg)                                |
+| [homebridge-config-ui-x MHSanaei](https://github.com/homebridge/homebridge-config-ui-x) |
+| [Hiddify-Manager](https://github.com/hiddify/Hiddify-Manager)                           |
+| [x-ui FranzKafkaYu](https://github.com/FranzKafkaYu/x-ui)                               |
+| [x-ui FranzKafkaYu](https://github.com/vaxilu/x-ui)                                     |
+
+
