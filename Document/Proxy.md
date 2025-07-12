@@ -290,7 +290,7 @@
 | [22/月-100G/月 Nerwo奶瓶](https://invite.eleven.observer/auth/register.html)                                    |
 | [66/季-100G/月 白月光](https://bygcloud.com/#/login?code=NmWFv1Se) [](https://www.sibker.com/)                   |
 | [72/季-100G/月 MESL](https://in.mesl.cloud/#/register?code=6kMKKE0T)                                          |
-| [25/月-150G/月 SSRDOG 推广佣金不给](https://go.ssrdog.com/?code=D24biOV4)                                           |
+| [~~25/月-150G/月 SSRDOG 推广佣金不给~~](https://go.ssrdog.com/?code=D24biOV4)                                       |
 | [25/月-100G/月 Bridge the Wise](https://www.btwcn.biz/)                                                       |
 | [278/年-100G/月 Fastnode](https://fastnode.me/auth/register)                                                  |
 | [25/月-100G/月 觅云](https://www.mecloud.icu/)                                                                  |
