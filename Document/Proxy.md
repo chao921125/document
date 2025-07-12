@@ -176,8 +176,8 @@
 | [- 20/月-200G/月 WestData](https://wd-cloud.net/)                                                                     |
 | [* - 20/月-100G/月 xlinkworld](https://www.xlinkworld.cc/register.php)                                                |
 | [* - 20/月-100G/月 老猫云](https://88laomao.com/#/register) [](https://laomao.biz/)                                      |
-| [- 20/月-100G/月 fastlink](https://fastlink.ws/auth/register)                                                         |
-| [* 20/月-100G/月 闪电猫 SpeedCAT 4](https://scaff01.scvipaff.com/auth/register?code=U6L9) [](https://speedcat.me/)       |
+| [~~- 20/月-100G/月 fastlink~~](https://fastlink.ws/auth/register)                                                     |
+| [~~* 20/月-100G/月 闪电猫 SpeedCAT 4~~](https://scaff01.scvipaff.com/auth/register?code=U6L9) [](https://speedcat.me/)   |
 | [- 20.53/月-120G/月 nicess](https://client.nicess.one/register.php)                                                   |
 | [23.8/月-180G/月 Anyland](https://anyland.club/#/register?code=xvfqFY02)                                              |
 | [* 24/月-120G/月 Gatern](https://shuttle.gt-all.com/register.php)                                                     |
@@ -297,7 +297,7 @@
 | [29/月-500G/月 GLaDOS](https://glados.network/) [](https://glados.eu.org/)                                    |
 | [29/月-200G/月 自行搜索 悠兔](https://youtunice.com/)                                                               |
 | [29/月-100G/月 海豚湾](https://hitun.io/)                                                                        |
-| [* 30/月-150G/月 bywave](https://bywavesite.github.io/)                                                       |
+| [~~* 30/月-150G/月 bywave~~](https://bywavesite.github.io/)                                                   |
 | [399。99/年-100G/月 xipCloud](https://xipcloudy.com/zh)                                                        |
 | [36/月-200G/月 YToo](https://y-too.com/)                                                                      |
 | [129.99/季-200G/月 ImmTelecom](https://immtele.com/index.php)                                                 |
