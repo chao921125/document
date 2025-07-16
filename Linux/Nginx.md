@@ -117,3 +117,8 @@ systemctl restart nginx
 # ng html 目录下执行
 chmod -R 777 *
 ```
+
+# 重启指定的nginx
+```shell
+/usr/local/nginx/sbin/nginx -s reload -c /usr/local/nginx/conf/nginx.conf
+```
