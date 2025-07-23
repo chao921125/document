@@ -180,7 +180,6 @@
 | [* - 20/月-100G/月 xlinkworld](https://www.xlinkworld.cc/register.php)                                                    |
 | [* - 20/月-100G/月 老猫云](https://88laomao.com/#/register) [](https://laomao.biz/)                                          |
 | [~~- 20/月-100G/月 fastlink~~](https://fastlink.ws/auth/register)                                                         |
-| [~~* 20/月-100G/月 闪电猫 SpeedCAT 4~~](https://scaff01.scvipaff.com/auth/register?code=U6L9) [](https://speedcat.me/)       |
 | [- 20.53/月-120G/月 nicess](https://client.nicess.one/register.php)                                                       |
 | [23.8/月-180G/月 Anyland](https://anyland.club/#/register?code=xvfqFY02)                                                  |
 | [* 24/月-120G/月 Gatern](https://shuttle.gt-all.com/register.php)                                                         |
