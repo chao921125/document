@@ -242,7 +242,7 @@
 | [128/年-200G/月 小飞象](https://xiaofeixiang.top/#/register)                                                        |
 | [128/年-168G/月 奈云](https://www.v2ny.co/)                                                                        |
 | [138/年-150G/月 奈思云](https://www.naisii.com/)                                                                    |
-| [12/月-300G/月 ikuuu](https://ikuuu.one/auth/register?code=Zg3E)                                                 |
+| [~~12/月-300G/月 ikuuu~~](https://ikuuu.ch/auth/register?code=Zg3E)                                              |
 | [12.8/年-100G/月 金坷垃](https://jinkela.app/)                                                                      |
 | [12.8/月-88G/月 纷达](https://fenda.cloud/auth/register)                                                           |
 | [* 13.9/月-150G/月 万达云](https://app.wdycenter.com/)                                                              |
