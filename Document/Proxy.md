@@ -94,7 +94,6 @@
 | [- 1.5/月-100G/月 赔钱机场](https://xn--mes358aby2apfg.com/#/register?code=sNTEzxVy) [](https://xn--mes358aby2apfg.com/)   |
 | [19/年-1000G/月 白嫖机场 限制下载](https://yes2.xn--mesv7f5toqlp.biz/register?code=IJNJjQW3) [](https://xn--mesv7f5toqlp.com/) |
 | [- 5/月-100G/月 一号测速](https://yh.yjbzzx.com/#/register?code=yX4UyKwx) [](https://xn--4gq48l11y805a.com/)               |
-| [- 7.8/月-100G/月 淘气兔](https://xn--mesq4iw0lg80a.com/)                                                                 |
 | [- 7.99/月-100G/月 山水云](https://xn--9kq015a4jm.com/)                                                                   |
 | [8/月-120G/月 秒连云](https://xn--9kq676h12n.com/)                                                                        |
 | [- 8.8/月-80G/月 UBBOLINK](https://ubbol.ink/#/register) [](https://xn--4gqs44o.com/)                                  |
