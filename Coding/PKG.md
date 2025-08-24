@@ -12,4 +12,8 @@ npm install ../pkg.tgz
   "vue3-svg-deco": "file:../vue3-svg-deco"
 }
 npm install
+
+
+# node http-server 启动服务器
+http-server -p 8080
 ```
