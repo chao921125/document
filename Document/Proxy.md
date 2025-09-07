@@ -10,10 +10,10 @@
 | [mihomo-party *无 Android IOS* **兼容旧系统**](https://github.com/mihomo-party-org/mihomo-party)                                           |
 | [clash-nyanpasu *无 Android IOS*](https://github.com/keiko233/clash-nyanpasu)                                                         |
 | [shadowsocks *无 IOS*](https://github.com/shadowsocks/shadowsocks-rust) [Android](https://github.com/shadowsocks/shadowsocks-android) |
+| [v2rayN *无 Android IOS*](https://github.com/2dust/v2rayN)                                                                            |
 
 | Windows                                                             |
 |---------------------------------------------------------------------|
-| [v2rayN](https://github.com/2dust/v2rayN)                           |
 | [v2rayA](https://github.com/v2rayA/v2rayA)                          |
 | [karing](https://github.com/KaringX/karing)                         |
 | [GUI.for.SingBox](https://github.com/GUI-for-Cores/GUI.for.SingBox) |
@@ -337,6 +337,8 @@
 | [复制地址](https://neko-warp.nloli.xyz/)                                                 |
 | [复制地址](https://links.bocchi2b.top/clash)                                             |
 | [复制地址](https://sub.sharecentre.online/sub)                                           |
+| [github free-nodes](https://github.com/free-nodes/clashfree)                         |
+| [github Pawdroid](https://github.com/Pawdroid/Free-servers)                          |
 | [github snakem982](https://github.com/snakem982/proxypool)                           |
 | [github aiboboxx](https://github.com/aiboboxx/clashfree)                             |
 | [github ermaozi](https://github.com/ermaozi/get_subscribe)                           |
@@ -372,6 +374,6 @@
 | [homebridge-config-ui-x MHSanaei](https://github.com/homebridge/homebridge-config-ui-x) |
 | [Hiddify-Manager](https://github.com/hiddify/Hiddify-Manager)                           |
 | [x-ui FranzKafkaYu](https://github.com/FranzKafkaYu/x-ui)                               |
-| [x-ui FranzKafkaYu](https://github.com/vaxilu/x-ui)                                     |
+| [x-ui vaxilu](https://github.com/vaxilu/x-ui)                                           |
 
 
