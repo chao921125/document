@@ -110,6 +110,8 @@ systemctl status nginx
 systemctl stop nginx
 # 重启 Nginx 服务
 systemctl restart nginx
+# 只是进行配置更改
+systemctl reload nginx
 ```
 
 # 403
