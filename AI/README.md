@@ -160,9 +160,14 @@
 | [Chat For AI 【OpenAI KEY】](https://chatforai.com/)                        |
 
 # 语音
-|                                 |
-|---------------------------------|
-| [文本转语音](https://elevenlabs.io/) |
+|                                          |
+|------------------------------------------|
+| [elevenlabs](https://elevenlabs.io/)     |
+| [免费 freetts](https://freetts.cn/)        |
+| [免费 ttsmaker](https://ttsmaker.cn/)      |
+| [免费 ttspro](https://ttspro.cn/)          |
+| [免费 luvvoice](https://luvvoice.com/zh)   |
+| [免费 voicertool](https://voicertool.com/) |
 
 # 视频
 |                                                        |
