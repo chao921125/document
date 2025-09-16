@@ -112,7 +112,6 @@
 | [8/月-100G/月 SausageCloud](https://reborn.kaochang.ltd/#/register?code=EU9d7PnU)                                      |
 | [9/月-120G/月 渔云](https://cloudfisher.net/web/#/login?code=I2lj0vUP)                                                   |
 | [- 9.9/月-100G/月 红魔馆网络](https://koumakan.quickline.top/#/register) [](https://quickline.top/)                         |
-| [- 9.98/月-100G/月 猫七七](https://cat77.org/#/register)                                                                  |
 | [- 10.9/月-222G/月 红杏云](https://hongxingdl.com/)                                                                       |
 | [12/月-300G/月 创奇](https://go.cqjiasu.top/#/register)                                                                  |
 | [- 12.5/月-100G/月 starlinkcloud 星链云](https://starlinkcloud.lol/#/register)                                            |
@@ -128,7 +127,6 @@
 | [* 12.8/月-100G/月 金坷垃](https://xn--dgsya2281b.com/)                                                                   |
 | [**************************************************]()                                                               |
 | [13/年-100G/月 有试用 fscloud](https://dash.fscloud.homes/#/register?code=1umqePA4) [](https://fscloud.vip/)              |
-| [6/月-50G/月 蘑菇云](https://mgypog.xyz/#/register)                                                                       |
 | [9.9/月-100G/月 SAC](https://www.189.cam/register)                                                                     |
 | [10/月-500G/月 中国国际机场](https://werun.id/#/login)                                                                       |
 | [* 10/月-200G/月 忽悠云](https://gfw.gg/register)                                                                         |
@@ -141,10 +139,8 @@
 | [10/月-100G/月 ssone](https://hello-ssone.com/)                                                                        |
 | [10/月-100G/月 flybit](https://goflybit.pages.dev/)                                                                    |
 | [10/月-100G/月 Anrun Network](https://www.anrunnetwork.com/#/register)                                                 |
-| [12/月-150G/月 夜煞云](https://user.night-furyx.com/)                                                                     |
 | [12/月-100G/月 FlyBit](https://goflybit.pages.dev/)                                                                    |
 | [12/月-100G/月 Teacat](https://teacat.cloud/#/register)                                                                |
-| [12/月-100G/月 niceduck](https://my.niceduck.io/#/register)                                                            |
 | [12/月-80G/月 纸巾云机场](https://papercloud.pro/#/register?code=XgjIuvDD)                                                  |
 | [12.5/月-100G/月 vmssr](https://www.vmssr.net/)                                                                        |
 | [* 12.99/月-100G/月 墙裂](https://www.qianglie.com/#/register)                                                           |
@@ -187,10 +183,8 @@
 | [*注册验证*]()                                                                                                              |
 | [* 15.8/月-160G/月 狗狗加速](https://xn--yfrp36ea9901a.com/)                                                                  |
 | [**************************************************]()                                                                  |
-| [15/月-100G/月 FireFly 萤火虫](https://www.yhcvpn.xyz/)                                                                      |
 | [15/月-100G/月 LinkCube](https://711-cloud.net/)                                                                          |
 | [15.99/月-100G/月 海獭](https://haita.io/register?aff=DERuAJGA)                                                             |
-| [18.8/月-138G/月 唯云 aifun](https://afun.la/)                                                                              |
 | [20/月-120G/月 xgcloud](https://www.xgcloud.org/#/register)                                                               |
 | [22.99/月-80G/月 Bitz Net](https://www.bitzconnect.com/)                                                                  |
 | [24.9/月-100G/月 tomatocloud](https://tomatocloud.me/)                                                                    |
