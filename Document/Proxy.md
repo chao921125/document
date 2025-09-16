@@ -8,9 +8,9 @@
 | [FlClash *无 IOS*](https://github.com/chen08209/FlClash)                                                                              |
 | [clash-verge-rev *无 Android IOS* **不兼容旧系统**](https://github.com/clash-verge-rev/clash-verge-rev)                                     |
 | [mihomo-party *无 Android IOS* **兼容旧系统**](https://github.com/mihomo-party-org/mihomo-party)                                           |
+| [v2rayN *无 IOS*](https://github.com/2dust/v2rayN) [Android](https://github.com/2dust/v2rayNG)                                        |
 | [clash-nyanpasu *无 Android IOS*](https://github.com/keiko233/clash-nyanpasu)                                                         |
 | [shadowsocks *无 IOS*](https://github.com/shadowsocks/shadowsocks-rust) [Android](https://github.com/shadowsocks/shadowsocks-android) |
-| [v2rayN *无 Android IOS*](https://github.com/2dust/v2rayN)                                                                            |
 
 | Windows                                                             |
 |---------------------------------------------------------------------|
@@ -18,18 +18,15 @@
 | [karing](https://github.com/KaringX/karing)                         |
 | [GUI.for.SingBox](https://github.com/GUI-for-Cores/GUI.for.SingBox) |
 | [GUI.for.Clash](https://github.com/GUI-for-Cores/GUI.for.Clash)     |
-| [NekoRay](https://github.com/MatsuriDayo/nekoray)                   |
 
 | MacOS                                                             |
 |-------------------------------------------------------------------|
 | [ShadowsocksX-NG](https://github.com/shadowsocks/ShadowsocksX-NG) |
-| [V2rayU](https://github.com/yanue/V2rayU)                         |
 | [ClashX.Meta](https://github.com/MetaCubeX/ClashX.Meta)           |
+| [V2rayU](https://github.com/yanue/V2rayU)                         |
 
 | Android                                                                   |
 |---------------------------------------------------------------------------|
-| [v2rayNG](https://github.com/2dust/v2rayNG)                               |
-| [shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android) |
 | [ClashMetaForAndroid](https://github.com/MetaCubeX/ClashMetaForAndroid)   |
 | [NekoBoxForAndroid](https://github.com/MatsuriDayo/NekoBoxForAndroid)     |
 | [surfboard](https://github.com/getsurfboard/surfboard)                    |
