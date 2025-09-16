@@ -235,7 +235,6 @@
 | [* 13.9/月-150G/月 万达云](https://app.wdycenter.com/)                                                              |
 | [14.9/月-320G/月 闪电](https://shandiancn.com/#/register?code=TzemLQ9y) [](https://sd.369.cyou/)                   |
 | [14.99/月-90G/月 NiceCloud](https://niceink.cc/)                                                                 |
-| [14.99/月-90G/月 faf](https://faf.fan/auth/login)                                                                |
 | [15.9/月-100G/月 蓝帆云](https://lanfan.cloud/auth/register)                                                        |
 | [* 16/月-100G/月 猫熊网络](https://mxwljsq.com/auth/register)                                                        |
 | [19.99/月-300G/月 云海互联](https://oceancloud.asia/#/home)                                                          |
@@ -246,7 +245,6 @@
 | [- 15/月-100G/月 ss-id](https://ss-id.com/#/register)                                                         |
 | [15/月-100G/月 小鸡快跑 Chicken Run](https://xiaojicf.com/#/register)                                             |
 | [15/月-100G/月 linkcube](https://www.linkcube.org/cart.php)                                                   |
-| [15.88/月-128G/月 抖云加速](https://douyun.sbs/#/register)                                                        |
 | [15.9/月-100G/月 naiunet](https://www.naiunet.com/#/register)                                                 |
 | [19.9/月-200G/月 7速云](https://7lol.lol/)                                                                      |
 | [* 19.9/月-100G/月 桔子云](https://juzicloud.net/auth/register)                                                  |
