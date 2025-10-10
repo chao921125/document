@@ -4,19 +4,30 @@
 
 [//]: # (https://huggingface.co/huihui-ai)
 # 自行搭建
-| [本地（服务器）搭建工具]()                                                                                         |
-|---------------------------------------------------------------------------------------------------------|
-| [ollama](https://github.com/ollama/ollama) [ollama 官网](https://ollama.com/)                             |
-| [gpt4all](https://github.com/nomic-ai/gpt4all) [gpt4all 官网](https://www.nomic.ai/gpt4all)               |
-| [LM Studio](https://github.com/lmstudio-ai) [LM Studio 官网](https://lmstudio.ai/)                        |
-| [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) [AnythingLLM 官网](https://anythingllm.com/) |
-| [Jan](https://github.com/janhq/jan) [Jan 官网](https://jan.ai/)                                           |
-| [vllm](https://github.com/vllm-project/vllm) [vllm 官网](https://docs.vllm.ai/en/latest/#)                |
-| [MLC LLM](https://github.com/mlc-ai/mlc-llm) [MLC LLM 官网](https://llm.mlc.ai/)                          |
-| [llama.cpp](https://github.com/ggerganov/llama.cpp)                                                     |
-| [FastChat](https://github.com/lm-sys/FastChat)                                                          |
-| [OpenLLM](https://github.com/bentoml/OpenLLM) [OpenLLM 官网](https://bentoml.com/)                        |
-| []()                                                                                                    |
+| [本地（服务器）搭建工具]()                                                                                                             |
+|-----------------------------------------------------------------------------------------------------------------------------|
+| [ollama](https://github.com/ollama/ollama) [ollama 官网](https://ollama.com/)                                                 |
+| [llama.cpp](https://github.com/ggml-org/llama.cpp)                                                                          |
+| [gpt4all](https://github.com/nomic-ai/gpt4all) [gpt4all 官网](https://www.nomic.ai/gpt4all)                                   |
+| [vllm](https://github.com/vllm-project/vllm) [vllm 官网](https://docs.vllm.ai/en/latest/#)                                    |
+| [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) [AnythingLLM 官网](https://anythingllm.com/)                     |
+| [Jan](https://github.com/janhq/jan) [Jan 官网](https://jan.ai/)                                                               |
+| [FastChat](https://github.com/lm-sys/FastChat)                                                                              |
+| [LocalAI](https://github.com/mudler/LocalAI)                                                                                |
+| [MLC LLM](https://github.com/mlc-ai/mlc-llm) [MLC LLM 官网](https://llm.mlc.ai/)                                              |
+| [diffusionbee](https://github.com/divamgupta/diffusionbee-stable-diffusion-ui) [diffusionbee 官网](https://diffusionbee.com/) |
+| [OpenLLM](https://github.com/bentoml/OpenLLM) [OpenLLM 官网](https://bentoml.com/)                                            |
+| [mlx-lm](https://github.com/ml-explore/mlx-lm)                                                                              |
+| [node-llama-cpp](https://github.com/withcatai/node-llama-cpp)                                                               |
+| [lemonade](https://github.com/lemonade-sdk/lemonade)                                                                        |
+| [lemonade](https://github.com/mlc-ai/mlc-llm)                                                                               |
+| [LM Studio](https://github.com/lmstudio-ai) [LM Studio 官网](https://lmstudio.ai/)                                            |
+| [sanctum](https://sanctum.ai/)                                                                                              |
+| [jellybox](https://jellybox.com/)                                                                                           |
+| [drawthings](https://drawthings.ai/)                                                                                        |
+| [backyard](https://backyard.ai/)                                                                                            |
+| [joyfusion](https://joyfusion.app/)                                                                                         |
+| []()                                                                                                                        |
 
 | [UI]()                                                                                                 |
 |--------------------------------------------------------------------------------------------------------|
