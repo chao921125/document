@@ -101,7 +101,7 @@
 | [**************************************************]()                                                               |
 | [6/年-100G/月 FG](https://feigou.idsduf.com//#/register?code=fdFqcdOt)                                                 |
 | [30/年-200G/月 廉价机场](https://lianjiajichang.com/#/register?code=FeiARV4a)                                              |
-| [39/年-1000G/月 Paper Plane](https://zfj.app/)                                                                         |
+| [39/年-1000G/月 Paper Plane 纸飞机](https://zfj.app/)                                                                     |
 | [- 42/年-160G/月 cshjc 超实惠](https://cshjc.top/web/#/login?code=De8r9eME)                                               |
 | [- 5/月-100G/月 WindyCloud](https://portal.passgfw.top/#/register)                                                     |
 | [- 5/月-100G/月 云安云](https://www.yunanyun.app/#/register)                                                              |
