@@ -109,6 +109,7 @@
 | [- 5.8/月-600G/月 蟒蛇](https://www.mangshe.org/#/register)                                                              |
 | [- 5.99/月-1024G/月 ktmcloud](https://ktmcloud.cc/#/login)                                                             |
 | [- 6/月-100G/月 流浪地球](https://liulangdiqiu.cc/#/register)                                                              |
+| [7/月-150G/月 xfltd](https://xfltd.cc/)                                                                                |
 | [8/月-100G/月 SausageCloud](https://reborn.kaochang.ltd/#/register?code=EU9d7PnU)                                      |
 | [9/月-120G/月 渔云](https://cloudfisher.net/web/#/login?code=I2lj0vUP)                                                   |
 | [- 9.9/月-100G/月 红魔馆网络](https://koumakan.quickline.top/#/register) [](https://quickline.top/)                         |
@@ -157,6 +158,8 @@
 | [*中转/BGP*]()                                                                                                            |
 |-------------------------------------------------------------------------------------------------------------------------|
 | [*注册无验证*]()                                                                                                             |
+| [- 15/月-150G/月 小飞侠SSR](https://so.xfxssr.me/#/login) [](http://xfxssr.com/)                                             |
+| [- 15/月-150G/月 小飞侠VPN](https://so.xfxvpn.life/#/login) [](http://xfxssr.com/)                                           |
 | [~~* - 15/月-100G/月 飞鸟 FlyingBird 4~~](https://fbaff02.flyb-aff01.com/auth/register?code=GXsW) [](https://flyingbird.cc) |
 | [- 15/月-100G/月 overwall](https://overwall.run/)                                                                         |
 | [15/月-100G/月 一云梯 4](https://1yunti.one/)                                                                                |
@@ -313,6 +316,7 @@
 | [guatizi](https://guatizi.com/)         |
 | [VPS](https://shluqu.github.io/)        |
 | [biquandh](https://www.biquandh.com/)   |
+| [duangks](https://duangks.com/)         |
 
 # Free
 | 免费订阅                                                                                 |
