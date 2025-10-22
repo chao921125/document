@@ -317,6 +317,7 @@
 | [VPS](https://shluqu.github.io/)        |
 | [biquandh](https://www.biquandh.com/)   |
 | [duangks](https://duangks.com/)         |
+| [ermao](https://www.ermao.net/)         |
 
 # Free
 | 免费订阅                                                                                 |
