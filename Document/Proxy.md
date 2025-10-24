@@ -36,7 +36,10 @@
 | IOS                                                                                                               |
 |-------------------------------------------------------------------------------------------------------------------|
 | [sing-box 免费](https://apps.apple.com/app/sing-box-vt/id6673731168) [官网](https://sing-box.sagernet.org/)           |
-| [oneclick 免费](https://apps.apple.com/us/app/oneclick-safe-easy-fast/id1545555197) [官网](https://oneclick.earth/#/) |
+| [OneClick 免费](https://apps.apple.com/us/app/oneclick-safe-easy-fast/id1545555197) [官网](https://oneclick.earth/#/) |
+| [Streisand 美 免费](https://apps.apple.com/us/app/streisand/id6450534064?platform=iphone)                            |
+| [Potatso 美 免费](https://apps.apple.com/us/app/potatso/id1239860606)                                                |
+| [V2box 美 免费](https://apps.apple.com/us/app/v2box-v2ray-client/id6446814690)                                       |
 | [Spectre VPN 美 免费 SSR](https://apps.apple.com/us/app/spectre-vpn/id1508712998)                                    |
 | [Shadowrocket GitHub 付费](https://github.com/Shadowrocket)                                                         |
 | [Shadowrocket 美 付费](https://apps.apple.com/us/app/shadowrocket/id932747118)                                       |
@@ -351,6 +354,14 @@
 | [github mfuu](https://github.com/mfuu/v2ray)                                         |
 | [多家注册试用](https://ygpy.net/)                                                          |
 | [多家注册试用](https://maomeng.xyz/2021/06/11/ji-chang-tui-jian-chang-qi-geng-xin/)        |
+| [clashnyanpasu](https://clashnyanpasu.net/)                                          |
+| [v2rayu](https://v2rayu.net/)                                                        |
+| [v2box](https://v2box.net/)                                                          |
+| [clash-verge-rev](https://clash-verge-rev.net/)                                      |
+| [happproxy](https://happproxy.com/)                                                  |
+| [v2raytun](https://v2raytun.net/)                                                    |
+| [guiforclash](https://guiforclash.com/)                                              |
+| [clashnyanpasu]()                                                                    |
 
 # 订阅转换地址
 | 订阅转换                                                  |
