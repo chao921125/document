@@ -313,7 +313,6 @@
 | 发布页                                     |
 |-----------------------------------------|
 | [github](https://github.com/winston779) |
-| [fuyunti](https://www.fuyunti.com/)     |
 | [52chatai](https://52chatai.com/)       |
 | [tzdaohang](https://tzdaohang.com/)     |
 | [ffq](https://www.ffq.la/)              |
