@@ -103,7 +103,7 @@
 | [20/月-300G/月 迷雾世界](https://迷雾世界.com/#/register?code=IOWM28rZ)                                                                |
 | [**************************************************]()                                                                       |
 | [6/季-100G/月 FG](https://feigou.idsduf.com//#/register?code=fdFqcdOt)                                                         |
-| [30/年-200G/月 廉价机场](https://lianjiajichang.com/#/register?code=FeiARV4a)                                                      |
+| [10/季-200G/月 廉价机场](https://lianjiajichang.com/#/register?code=FeiARV4a)                                                      |
 | [39/年-1000G/月 Paper Plane 纸飞机](https://zfj.app/)                                                                             |
 | [- 42/年-160G/月 cshjc 超实惠](https://cshjc.top/web/#/login?code=De8r9eME)                                                       |
 | [- 5/月-100G/月 WindyCloud](https://portal.passgfw.top/#/register)                                                             |
