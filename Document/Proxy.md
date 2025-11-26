@@ -261,7 +261,9 @@
 | [19.9/月-100G/月 速云梯](https://suyunti981.xyz/auth/register?code=uYMg) [](https://suyunti.com/)                |
 | [19.9/月-100G/月 DOVE 加速器](https://doveapp.net/index.php)                                                     |
 | [19.99/月-100G/月 签到送流量 飞机云](https://feijiyun38.xyz/auth/register?code=XFbr) [](https://feijicloud.com/)      |
+| [20/月-100G/月 fastlink](https://flcn.cc/auth/login)                                                          |
 | [23/月-300G/月 飞毯](https://tanzpro.com/auth/register) [](https://tanz.369.cyou/)                              |
+| [24/月-120G/月 Gatern](https://shuttle.gt-all.com/)                                                           |
 | [25/月-100G/月 catnet 网猫](https://catnet.369.cyou/)                                                           |
 | [25/月-100G/月 GsouCloud](https://gsourecommend.pics/auth/register)                                           |
 | [- 29/月-200G/月 CreamData 奶油](https://www.naiyovpn.com/)                                                     |
