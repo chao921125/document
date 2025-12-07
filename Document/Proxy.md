@@ -132,7 +132,7 @@
 | [* 12.8/月-150G/月 M78星云](https://xn--m78-dj9dv09h.com/)                                                                       |
 | [* 12.8/月-100G/月 金坷垃](https://xn--dgsya2281b.com/)                                                                           |
 | [**************************************************]()                                                                       |
-| [13/年-100G/月 有试用 fscloud](https://dash.fscloud.homes/#/register?code=1umqePA4) [](https://fscloud.vip/)                      |
+| [13/年-100G/月 有试用 fscloud](https://web.fscloud.app/#/register?code=1umqePA4) [](https://fscloud.vip/)                         |
 | [9.9/月-100G/月 SAC](https://www.189.cam/register)                                                                             |
 | [10/月-500G/月 中国国际机场](https://werun.id/#/login)                                                                               |
 | [* 10/月-200G/月 忽悠云](https://gfw.gg/register)                                                                                 |
