@@ -11,11 +11,11 @@
 | [v2rayN *无 IOS*](https://github.com/2dust/v2rayN) [单独 Android](https://github.com/2dust/v2rayNG)                                        |
 | [clash-nyanpasu *无 Android IOS*](https://github.com/libnyanpasu/clash-nyanpasu)                                                         |
 | [shadowsocks *无 IOS*](https://github.com/shadowsocks/shadowsocks-rust) [单独 Android](https://github.com/shadowsocks/shadowsocks-android) |
+| [karing](https://github.com/KaringX/karing) [单独 IOS](https://apps.apple.com/us/app/karing/id6472431552)                                 |
 
 | Windows                                                             |
 |---------------------------------------------------------------------|
 | [v2rayA](https://github.com/v2rayA/v2rayA)                          |
-| [karing](https://github.com/KaringX/karing)                         |
 | [GUI.for.SingBox](https://github.com/GUI-for-Cores/GUI.for.SingBox) |
 | [GUI.for.Clash](https://github.com/GUI-for-Cores/GUI.for.Clash)     |
 
@@ -30,7 +30,6 @@
 | [ClashMetaForAndroid](https://github.com/MetaCubeX/ClashMetaForAndroid)   |
 | [NekoBoxForAndroid](https://github.com/MatsuriDayo/NekoBoxForAndroid)     |
 | [surfboard](https://github.com/getsurfboard/surfboard)                    |
-| [karing](https://github.com/KaringX/karing)                               |
 | [oneclick](https://oneclick.earth/#/)                                     |
 
 | IOS                                                                                                               |
