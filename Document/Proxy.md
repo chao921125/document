@@ -6,12 +6,12 @@
 | [sing-box *全平台*](https://github.com/SagerNet/sing-box)                                                                                  |
 | [hiddify-next *全平台*](https://github.com/hiddify/hiddify-app)                                                                            |
 | [FlClash *无 IOS*](https://github.com/chen08209/FlClash)                                                                                 |
+| [karing](https://github.com/KaringX/karing) [单独 IOS](https://apps.apple.com/us/app/karing/id6472431552)                                 |
 | [clash-verge-rev *无 Android IOS* **不兼容旧系统**](https://github.com/clash-verge-rev/clash-verge-rev)                                        |
 | [clash-party *无 Android IOS* **兼容旧系统**](https://github.com/mihomo-party-org/clash-party)                                                |
 | [v2rayN *无 IOS*](https://github.com/2dust/v2rayN) [单独 Android](https://github.com/2dust/v2rayNG)                                        |
 | [clash-nyanpasu *无 Android IOS*](https://github.com/libnyanpasu/clash-nyanpasu)                                                         |
 | [shadowsocks *无 IOS*](https://github.com/shadowsocks/shadowsocks-rust) [单独 Android](https://github.com/shadowsocks/shadowsocks-android) |
-| [karing](https://github.com/KaringX/karing) [单独 IOS](https://apps.apple.com/us/app/karing/id6472431552)                                 |
 
 | Windows                                                             |
 |---------------------------------------------------------------------|
@@ -90,7 +90,6 @@
 | [*直连/中转*]()                                                                                                       |
 |-------------------------------------------------------------------------------------------------------------------|
 | [*注册无验证*]()                                                                                                       |
-| [~~- 1.5/月-100G/月 赔钱机场 不推荐~~](https://xn--cp3a08l.com/#/register?code=sNTEzxVy) [](https://xn--cp3a08l.com/)      |
 | [12/年-200G/月 杜卡迪](https://www.dukadi.one/#/register?code=J9E4zv0c)                                                |
 | [19/年-1000G/月 白嫖机场](https://yes2.xn--mesv7f5toqlp.biz/register?code=IJNJjQW3) [](https://xn--mesv7f5toqlp.com/)   |
 | [- 5/月-100G/月 一号测速](https://yh.yjbzzx.com/#/register?code=yX4UyKwx) [](https://xn--4gq48l11y805a.com/)            |
