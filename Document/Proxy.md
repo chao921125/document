@@ -94,6 +94,7 @@
 | [19/年-1000G/月 白嫖机场](https://yes2.xn--mesv7f5toqlp.biz/register?code=IJNJjQW3) [](https://xn--mesv7f5toqlp.com/) |
 | [- 5/月-100G/月 一号测速](https://yh.yjbzzx.com/#/register?code=yX4UyKwx) [](https://xn--4gq48l11y805a.com/)          |
 | [- 7.99/月-100G/月 山水云](https://xn--9kq015a4jm.com/)                                                              |
+| [- 7.8/月-100G/月 淘气兔](https://vip.taoqitu.pro/)                                                                  |
 | [8/月-120G/月 秒连云](https://xn--9kq676h12n.com/)                                                                   |
 | [- 8.8/月-80G/月 UBBOLINK](https://ubbol.ink/#/register) [](https://xn--4gqs44o.com/)                             |
 | [10/月-118G/月 玉兔](https://xn--diqv0fut7b.com/#/home)                                                             |
@@ -117,10 +118,10 @@
 | [- 9.9/月-100G/月 红魔馆网络](https://koumakan.quickline.top/#/register) [](https://quickline.top/)                    |
 | [- 10.9/月-222G/月 红杏云](https://hongxingdl.com/)                                                                  |
 | [12/月-300G/月 创奇](https://go.cqjiasu.top/#/register)                                                             |
-| [- 12.5/月-100G/月 starlinkcloud 星链云](https://starlinkcloud.lol/#/register)                                       |
 | [13.88/月-256G/月 tmsretc 千速喵](https://tmsrets.top/zh/#/auth/login)                                               |
 | [13.88/月-100G/月 果粒橙](https://guolicheng.cc/index.php#/register)                                                 |
 | [- 14.9/月-130G/月 魔戒](https://mojie.me/#/register?aff=Gu3iS0ty)                                                  |
+| [- 15/月-120G/月 starlinkcloud 星链云](https://starlinkcloud.io/#/register)                                          |
 | [19.9/月-210G/月 快冲云](https://wzjmcabhhure.github.io/)                                                            |
 | [**************************************************]()                                                          |
 | [**************************************************]()                                                          |
@@ -141,7 +142,6 @@
 | [10.8/月-120G/月 okokcloud](https://okokcloud.net/index.html)                                                     |
 | [10/月-100G/月 Scrssr](https://www.scrssr.com/)                                                                   |
 | [10/月-100G/月 ssone](https://hello-ssone.com/)                                                                   |
-| [10/月-100G/月 flybit](https://goflybit.pages.dev/)                                                               |
 | [10/月-100G/月 Anrun Network](https://www.anrunnetwork.com/#/register)                                            |
 | [12/月-100G/月 FlyBit](https://goflybit.pages.dev/)                                                               |
 | [12/月-100G/月 Teacat](https://teacat.cloud/#/register)                                                           |
@@ -320,21 +320,17 @@
 | [guatizi](https://guatizi.com/)         |
 | [VPS](https://shluqu.github.io/)        |
 | [biquandh](https://www.biquandh.com/)   |
-| [duangks](https://duangks.com/)         |
 | [ermao](https://www.ermao.net/)         |
 
 # Free
 | 免费订阅                                                                                 |
 |--------------------------------------------------------------------------------------|
 | [WARP(需要对cloudflare进行一些操作) 目前部分地区不可用](https://1.1.1.1/) [](https://one.one.one.one/) |
-| [输入邮箱订阅](https://www.v2rayfree.eu.org/)                                              |
 | [公众号验证码](https://share.colors.nyc.mn/)                                               |
-| [打开获取](https://mkshare3.github.io/)                                                  |
-| [打开获取](https://chwz.us.kg/APIs/)                                                     |
-| [复制地址](https://neko-warp.nloli.xyz/)                                                 |
-| [复制地址](https://links.bocchi2b.top/clash)                                             |
-| [复制地址](https://sub.sharecentre.online/sub)                                           |
 | [github free-nodes](https://github.com/free-nodes/clashfree)                         |
+| [打开获取](https://mkshare3.github.io/)                                                  |
+| [复制地址](https://jD5FUH.mcsslk.xyz/dfa4b97631ba71eea0cc84863f8bd8db)                   |
+| [复制地址](https://eUh4id.tosslk.xyz/a25ead870a92f97a70064bd1cb662ce9)                   |
 | [github Pawdroid](https://github.com/Pawdroid/Free-servers)                          |
 | [github snakem982](https://github.com/snakem982/proxypool)                           |
 | [github aiboboxx](https://github.com/aiboboxx/clashfree)                             |
