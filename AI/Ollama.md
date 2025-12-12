@@ -1,4 +1,29 @@
 # Ollama 部署的本地模型
+## 命令
+```shell
+# 启动 Ollama 服务
+ollama serve
+# 停止 Ollama 服务
+ollama stop
+# 拉取模型
+ollama pull <model-name>
+# 运行模型
+ollama run llama2
+# 列出本地模型
+ollama list
+# 删除模型
+ollama rm <model-name>
+# 创建自定义模型
+ollama create <custom-model-name> -f <Modelfile>
+# 复制模型
+ollama cp <source-model-name> <new-model-name>
+# 推送自定义模型
+ollama push <model-name>
+# 查看帮助信息
+ollama --help
+# 查看版本信息
+ollama version
+```
 ## 下载并启动 Ollama
 ```markdown
 1、下载 Ollama

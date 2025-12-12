@@ -214,6 +214,11 @@
 [ChatGPT 手机号接收验证码网站](https://sms-activate.org/cn/info/ChatGPT)
 [ChatGPT 注册教程](https://zl49so8lbq.feishu.cn/wiki/wikcnu3kSXr75E50w8PFefhJMYf)
 
+# 无审查 AI 模型
+[huihui-ai](https://huggingface.co/huihui-ai)
+[dphn](https://huggingface.co/dphn)
+[mradermacher](https://huggingface.co/mradermacher)
+
 # 图片视频修复
 [视频修复 开源](https://github.com/sczhou/CodeFormer)
 ```text
