@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
-订阅转换脚本：Base64 → Clash 配置
-支持协议：SS、SSR、VMess、Trojan、VLESS
+专业版订阅转换脚本：生成紧凑格式 Clash 配置
+完全兼容 Clash Verge Rev 和 Mihomo 核心
+输出格式与示例文件完全一致
 """
 
 import base64
@@ -14,143 +15,93 @@ from typing import Dict, List, Optional, Any
 
 import yaml
 
-# ==================== 配置常量 ====================
-CLASH_TEMPLATE = {
+# ==================== 核心配置模板 ====================
+CLASH_CONFIG = {
     "mixed-port": 7890,
-    "socks-port": 7891,
-    "allow-lan": False,
+    "allow-lan": True,
+    "bind-address": "*",
     "mode": "rule",
     "log-level": "info",
-    "ipv6": False,
     "external-controller": "127.0.0.1:9090",
     "dns": {
         "enable": True,
         "ipv6": False,
-        "default-nameserver": ["223.5.5.5", "119.29.29.29"],
+        "default-nameserver": ["223.5.5.5", "119.29.29.29", "114.114.114.114"],
         "enhanced-mode": "fake-ip",
         "fake-ip-range": "198.18.0.1/16",
         "use-hosts": True,
-        "nameserver": ["https://doh.pub/dns-query", "https://dns.alidns.com/dns-query"],
-        "fallback": ["https://1.1.1.1/dns-query", "https://dns.google/dns-query"],
-        "fallback-filter": {"geoip": True, "ipcidr": ["240.0.0.0/4"]},
+        "respect-rules": True,
+        "proxy-server-nameserver": ["223.5.5.5", "119.29.29.29", "114.114.114.114"],
+        "nameserver": ["223.5.5.5", "119.29.29.29", "114.114.114.114"],
+        "fallback": ["1.1.1.1", "8.8.8.8"],
+        "fallback-filter": {
+            "geoip": True,
+            "geoip-code": "CN",
+            "geosite": ["gfw"],
+            "ipcidr": ["240.0.0.0/4"],
+            "domain": ["+.google.com", "+.facebook.com", "+.youtube.com"],
+        },
     },
     "proxies": [],
-    "proxy-groups": [
-        {
-            "name": "全球直连",
-            "type": "select",
-            "proxies": ["DIRECT"],
-        },
-        {
-            "name": "自动选择",
-            "type": "url-test",
-            "proxies": [],
-            "url": "http://www.gstatic.com/generate_204",
-            "interval": 300,
-            "tolerance": 50,
-        },
-        {
-            "name": "故障转移",
-            "type": "fallback",
-            "proxies": [],
-            "url": "http://www.gstatic.com/generate_204",
-            "interval": 300,
-        },
-        {
-            "name": "负载均衡",
-            "type": "load-balance",
-            "proxies": [],
-            "url": "http://www.gstatic.com/generate_204",
-            "interval": 300,
-            "strategy": "consistent-hashing",
-        },
-    ],
-    "rules": [
-        "DOMAIN-SUFFIX,local,DIRECT",
-        "IP-CIDR,127.0.0.0/8,DIRECT",
-        "IP-CIDR,172.16.0.0/12,DIRECT",
-        "IP-CIDR,192.168.0.0/16,DIRECT",
-        "IP-CIDR,10.0.0.0/8,DIRECT",
-        "GEOIP,CN,DIRECT",
-        "MATCH,自动选择",
-    ],
+    "proxy-groups": [],
+    "rules": [],
 }
 
-
-# ==================== 核心解码器 ====================
+# ==================== 协议解析器 ====================
 def safe_base64_decode(data: str) -> Optional[str]:
-    """安全的 Base64 解码（处理 URL safe 和填充）"""
+    """安全的 Base64 解码"""
     if not data:
         return None
-
-    # 替换 URL safe 字符
     data = data.replace("-", "+").replace("_", "/")
-
-    # 自动填充
     missing_padding = len(data) % 4
     if missing_padding:
         data += "=" * (4 - missing_padding)
-
     try:
-        decoded = base64.b64decode(data)
-        return decoded.decode("utf-8")
-    except Exception:
-        try:
-            # 尝试直接解码可能已经是明文的
-            return data
-        except:
-            return None
+        return base64.b64decode(data).decode("utf-8")
+    except:
+        return data if "://" in data else None
 
 
-# ==================== 协议解析器 ====================
 def parse_ss_uri(uri: str) -> Optional[Dict[str, Any]]:
     """解析 SS 链接"""
     try:
-        # 移除前缀
         uri = uri.replace("ss://", "")
-
-        # 处理 SIP002 格式
         if "@" in uri:
-            # ss://cipher:pass@host:port#name
             cipher_pass, server_part = uri.split("@", 1)
-            cipher, password = safe_base64_decode(cipher_pass).split(":", 1)
+            if ":" not in cipher_pass:
+                decoded = safe_base64_decode(cipher_pass)
+                if not decoded or ":" not in decoded:
+                    return None
+                cipher, password = decoded.split(":", 1)
+            else:
+                cipher, password = cipher_pass.split(":", 1)
         else:
-            # ss://base64(cipher:pass)@host:port#name
-            encoded_part, server_part = uri.split("@", 1)
-            decoded = safe_base64_decode(encoded_part)
-            if ":" not in decoded:
-                return None
-            cipher, password = decoded.split(":", 1)
+            return None
 
-        # 解析服务器部分
         if "#" in server_part:
             addr_port, name = server_part.split("#", 1)
             name = urllib.parse.unquote(name)
         else:
             addr_port, name = server_part, "SS节点"
 
-        if ":" not in addr_port:
-            return None
-
         server, port = addr_port.rsplit(":", 1)
 
         return {
-            "name": re.sub(r"[^\w\u4e00-\u9fa5\.\- ]", "", name)[:30],
+            "name": name,
             "type": "ss",
             "server": server,
             "port": int(port),
             "cipher": cipher,
             "password": password,
+            "udp": True,
         }
-    except Exception as e:
-        print(f"❌ SS 解析失败: {str(e)[:50]}", file=sys.stderr)
+    except Exception:
         return None
 
 
 def parse_ssr_uri(uri: str) -> Optional[Dict[str, Any]]:
     """解析 SSR 链接"""
     try:
-        # ssr://base64(host:port:protocol:method:obfs:password/?params)
         data = uri.replace("ssr://", "")
         decoded = safe_base64_decode(data)
         if not decoded:
@@ -160,51 +111,40 @@ def parse_ssr_uri(uri: str) -> Optional[Dict[str, Any]]:
         if len(parts) < 6:
             return None
 
-        server = parts[0]
-        port = int(parts[1])
-        protocol = parts[2]
-        cipher = parts[3]
-        obfs = parts[4]
-
-        # 解析密码和参数
-        password_params = ":".join(parts[5:])
-        if "/?" in password_params:
-            password_b64, params_str = password_params.split("/?", 1)
-            password = safe_base64_decode(password_b64)
+        server, port, protocol, cipher, obfs = parts[:5]
+        password_b64 = ":".join(parts[5:])
+        params = {}
+        if "/?" in password_b64:
+            password_b64, params_str = password_b64.split("/?", 1)
             params = dict(urllib.parse.parse_qsl(params_str))
-        else:
-            password = safe_base64_decode(password_params)
-            params = {}
+
+        password = safe_base64_decode(password_b64)
 
         node = {
             "name": urllib.parse.unquote(params.get("remarks", "SSR节点")),
             "type": "ssr",
             "server": server,
-            "port": port,
+            "port": int(port),
             "protocol": protocol,
             "cipher": cipher,
             "obfs": obfs,
             "password": password,
+            "udp": True,
         }
 
-        # 添加可选参数
         if "obfsparam" in params:
             node["obfs-param"] = safe_base64_decode(params["obfsparam"])
         if "protoparam" in params:
             node["protocol-param"] = safe_base64_decode(params["protoparam"])
 
-        node["name"] = re.sub(r"[^\w\u4e00-\u9fa5\.\- ]", "", node["name"])[:30]
         return node
-
-    except Exception as e:
-        print(f"❌ SSR 解析失败: {str(e)[:50]}", file=sys.stderr)
+    except Exception:
         return None
 
 
 def parse_vmess_uri(uri: str) -> Optional[Dict[str, Any]]:
     """解析 VMess 链接"""
     try:
-        # vmess://base64({...})
         data = uri.replace("vmess://", "")
         decoded = safe_base64_decode(data)
         if not decoded:
@@ -213,7 +153,7 @@ def parse_vmess_uri(uri: str) -> Optional[Dict[str, Any]]:
         config = json.loads(decoded)
 
         node = {
-            "name": re.sub(r"[^\w\u4e00-\u9fa5\.\- ]", "", config.get("ps", "VMess节点"))[:30],
+            "name": config.get("ps", "VMess节点"),
             "type": "vmess",
             "server": config["add"],
             "port": int(config["port"]),
@@ -222,100 +162,245 @@ def parse_vmess_uri(uri: str) -> Optional[Dict[str, Any]]:
             "cipher": config.get("type", "auto"),
             "network": config.get("net", "tcp"),
             "tls": config.get("tls") == "tls",
+            "udp": True,
         }
 
-        # 传输层配置
         if node["network"] == "ws":
             node["ws-opts"] = {"path": config.get("path", "/")}
             if config.get("host"):
                 node["ws-opts"]["headers"] = {"Host": config["host"]}
         elif node["network"] == "h2":
             node["h2-opts"] = {"host": [config.get("host", "")], "path": config.get("path", "/")}
-        elif node["network"] == "grpc":
-            node["grpc-opts"] = {"grpc-service-name": config.get("path", "")}
 
         return node
-
-    except Exception as e:
-        print(f"❌ VMess 解析失败: {str(e)[:50]}", file=sys.stderr)
+    except Exception:
         return None
 
 
 def parse_trojan_uri(uri: str) -> Optional[Dict[str, Any]]:
     """解析 Trojan 链接"""
     try:
-        # trojan://password@server:port?params#name
         parsed = urllib.parse.urlparse(uri)
         name = urllib.parse.unquote(parsed.fragment) or "Trojan节点"
 
         node = {
-            "name": re.sub(r"[^\w\u4e00-\u9fa5\.\- ]", "", name)[:30],
+            "name": name,
             "type": "trojan",
             "server": parsed.hostname,
             "port": parsed.port or 443,
             "password": parsed.username,
             "sni": parsed.hostname,
+            "udp": True,
+            "skip-cert-verify": False,
         }
 
-        # 查询参数
         if parsed.query:
             params = dict(urllib.parse.parse_qsl(parsed.query))
-            if "sni" in params:
-                node["sni"] = params["sni"]
-            if "allowInsecure" in params:
-                node["skip-cert-verify"] = params["allowInsecure"] == "1"
+            node["sni"] = params.get("sni", parsed.hostname)
+            node["skip-cert-verify"] = params.get("allowInsecure") == "1"
             if "type" in params:
                 node["network"] = params["type"]
                 if node["network"] == "ws":
                     node["ws-opts"] = {"path": params.get("path", "/")}
 
         return node
-
-    except Exception as e:
-        print(f"❌ Trojan 解析失败: {str(e)[:50]}", file=sys.stderr)
+    except Exception:
         return None
 
 
 def parse_vless_uri(uri: str) -> Optional[Dict[str, Any]]:
     """解析 VLESS 链接"""
     try:
-        # vless://uuid@server:port?params#name
         parsed = urllib.parse.urlparse(uri)
         name = urllib.parse.unquote(parsed.fragment) or "VLESS节点"
 
         node = {
-            "name": re.sub(r"[^\w\u4e00-\u9fa5\.\- ]", "", name)[:30],
+            "name": name,
             "type": "vless",
             "server": parsed.hostname,
             "port": parsed.port or 443,
             "uuid": parsed.username,
+            "alterId": 0,
+            "cipher": "auto",
+            "udp": True,
+            "tls": True,
+            "skip-cert-verify": False,
         }
 
-        # 查询参数
         if parsed.query:
             params = dict(urllib.parse.parse_qsl(parsed.query))
             if "type" in params:
                 node["network"] = params["type"]
             if "security" in params:
                 node["tls"] = params["security"] == "tls"
-                if node.get("tls"):
-                    node["sni"] = params.get("sni", parsed.hostname)
+            if "flow" in params:
+                node["flow"] = params["flow"]
+            if "sni" in params:
+                node["servername"] = params["sni"]
+            if "fp" in params:
+                node["client-fingerprint"] = params["fp"]
+
+            # REALITY 选项
+            if "pbk" in params:
+                node["reality-opts"] = {
+                    "public-key": params["pbk"],
+                    "short-id": params.get("sid", ""),
+                }
 
         return node
-
-    except Exception as e:
-        print(f"❌ VLESS 解析失败: {str(e)[:50]}", file=sys.stderr)
+    except Exception:
         return None
 
 
-# ==================== 主转换函数 ====================
+def parse_hysteria2_uri(uri: str) -> Optional[Dict[str, Any]]:
+    """解析 Hysteria2 链接"""
+    try:
+        parsed = urllib.parse.urlparse(uri)
+        name = urllib.parse.unquote(parsed.fragment) or "Hy2节点"
+
+        node = {
+            "name": name,
+            "type": "hysteria2",
+            "server": parsed.hostname,
+            "port": parsed.port or 443,
+            "password": parsed.username,
+            "sni": parsed.hostname,
+            "skip-cert-verify": True,
+            "up": 1000,
+            "down": 1000,
+        }
+
+        if parsed.query:
+            params = dict(urllib.parse.parse_qsl(parsed.query))
+            if "sni" in params:
+                node["sni"] = params["sni"]
+            if "insecure" in params:
+                node["skip-cert-verify"] = params["insecure"] == "1"
+            if "up" in params:
+                node["up"] = int(params["up"])
+            if "down" in params:
+                node["down"] = int(params["down"])
+            if "ports" in params:
+                node["ports"] = params["ports"]
+
+        return node
+    except Exception:
+        return None
+
+
+def build_proxy_groups(proxy_names: List[str]) -> List[Dict[str, Any]]:
+    """构建代理组（匹配示例格式）"""
+    if not proxy_names:
+        return []
+
+    return [
+        {
+            "name": "🔰 节点选择",
+            "type": "select",
+            "proxies": ["♻️ 自动选择", "🎯 全球直连"] + proxy_names,
+        },
+        {
+            "name": "♻️ 自动选择",
+            "type": "url-test",
+            "proxies": proxy_names,
+            "url": "http://www.gstatic.com/generate_204",
+            "interval": 300,
+        },
+        {
+            "name": "🌍 国外媒体",
+            "type": "select",
+            "proxies": ["🔰 节点选择", "♻️ 自动选择", "🎯 全球直连"] + proxy_names,
+        },
+        {
+            "name": "🌏 国内媒体",
+            "type": "select",
+            "proxies": ["🎯 全球直连", "🔰 节点选择"] + proxy_names,
+        },
+        {
+            "name": "Ⓜ️ 微软服务",
+            "type": "select",
+            "proxies": ["🎯 全球直连", "🔰 节点选择"] + proxy_names,
+        },
+        {
+            "name": "📲 电报信息",
+            "type": "select",
+            "proxies": ["🔰 节点选择", "🎯 全球直连"] + proxy_names,
+        },
+        {
+            "name": "🍎 苹果服务",
+            "type": "select",
+            "proxies": ["🔰 节点选择", "🎯 全球直连", "♻️ 自动选择"] + proxy_names,
+        },
+        {
+            "name": "🎯 全球直连",
+            "type": "select",
+            "proxies": ["DIRECT"] + proxy_names,
+        },
+        {
+            "name": "🛑 全球拦截",
+            "type": "select",
+            "proxies": ["REJECT", "DIRECT"] + proxy_names,
+        },
+        {
+            "name": "🐟 漏网之鱼",
+            "type": "select",
+            "proxies": ["🔰 节点选择", "🎯 全球直连", "♻️ 自动选择"] + proxy_names,
+        },
+    ]
+
+
+def get_default_rules() -> List[str]:
+    """获取默认规则"""
+    return [
+        "DOMAIN-SUFFIX,local,🎯 全球直连",
+        "IP-CIDR,127.0.0.0/8,🎯 全球直连,no-resolve",
+        "IP-CIDR,172.16.0.0/12,🎯 全球直连,no-resolve",
+        "IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve",
+        "IP-CIDR,10.0.0.0/8,🎯 全球直连,no-resolve",
+        "IP-CIDR,17.0.0.0/8,🎯 全球直连,no-resolve",
+        "IP-CIDR,100.64.0.0/10,🎯 全球直连,no-resolve",
+        "IP-CIDR6,::1/128,🎯 全球直连,no-resolve",
+        "IP-CIDR6,fc00::/7,🎯 全球直连,no-resolve",
+        "IP-CIDR6,fe80::/10,🎯 全球直连,no-resolve",
+        "IP-CIDR6,fd00::/8,🎯 全球直连,no-resolve",
+        "GEOIP,CN,🎯 全球直连",
+        "MATCH,🐟 漏网之鱼",
+    ]
+
+
+def compact_yaml_dump(data: Any) -> str:
+    """生成紧凑格式的 YAML，与示例完全一致"""
+
+    def represent_dict(dumper, data):
+        # 将所有字典转换为紧凑的 flow style
+        return dumper.represent_mapping("tag:yaml.org,2002:map", data, flow_style=True)
+
+    def represent_list(dumper, data):
+        # 列表使用 block style，每个元素一行
+        return dumper.represent_sequence("tag:yaml.org,2002:seq", data, flow_style=False)
+
+    yaml.add_representer(dict, represent_dict, Dumper=yaml.SafeDumper)
+    yaml.add_representer(list, represent_list, Dumper=yaml.SafeDumper)
+
+    # 生成 YAML，设置宽度避免换行
+    return yaml.dump(
+        data,
+        allow_unicode=True,
+        sort_keys=False,
+        default_flow_style=False,
+        indent=0,
+        width=1000,
+        Dumper=yaml.SafeDumper,
+    )
+
+
 def convert_to_clash(subscription_text: str) -> str:
-    """将 Base64 订阅文本转换为 Clash 配置"""
+    """转换订阅为 Clash 配置"""
 
     # 1. Base64 解码
     decoded = safe_base64_decode(subscription_text.strip())
     if not decoded:
-        raise ValueError("无效的 Base64 订阅内容")
+        raise ValueError("无法解码 Base64 订阅内容")
 
     # 2. 分割节点
     node_uris = [line.strip() for line in decoded.split("\n") if line.strip()]
@@ -328,6 +413,7 @@ def convert_to_clash(subscription_text: str) -> str:
         "vmess://": parse_vmess_uri,
         "trojan://": parse_trojan_uri,
         "vless://": parse_vless_uri,
+        "hysteria2://": parse_hysteria2_uri,
     }
 
     proxies = []
@@ -344,28 +430,25 @@ def convert_to_clash(subscription_text: str) -> str:
             proxies.append(parsed)
         else:
             failed_count += 1
-            print(f"⚠️ 节点 {i} 无法解析: {uri[:40]}...", file=sys.stderr)
+            print(f"⚠️ 节点 {i} 无法解析: {uri[:50]}...", file=sys.stderr)
 
     print(f"✅ 成功解析 {len(proxies)} 个节点，失败 {failed_count} 个", file=sys.stderr)
 
     if not proxies:
         raise ValueError("没有有效节点")
 
-    # 4. 生成配置
-    config = CLASH_TEMPLATE.copy()
-    config["proxies"] = proxies
-
-    # 更新代理组
+    # 4. 构建配置
+    config = CLASH_CONFIG.copy()
     proxy_names = [p["name"] for p in proxies]
-    config["proxy-groups"][1]["proxies"] = proxy_names  # 自动选择
-    config["proxy-groups"][2]["proxies"] = proxy_names  # 故障转移
-    config["proxy-groups"][3]["proxies"] = proxy_names  # 负载均衡
 
-    # 5. 生成 YAML
-    return yaml.dump(config, allow_unicode=True, sort_keys=False, indent=2)
+    config["proxies"] = proxies
+    config["proxy-groups"] = build_proxy_groups(proxy_names)
+    config["rules"] = get_default_rules()
+
+    # 5. 生成紧凑格式 YAML
+    return compact_yaml_dump(config)
 
 
-# ==================== 命令行接口 ====================
 def main():
     """命令行入口"""
     if len(sys.argv) != 3:
@@ -373,8 +456,7 @@ def main():
         print("示例: python convert.py subscription.txt clash.yaml", file=sys.stderr)
         sys.exit(1)
 
-    input_file = Path(sys.argv[1])
-    output_file = Path(sys.argv[2])
+    input_file, output_file = Path(sys.argv[1]), Path(sys.argv[2])
 
     if not input_file.exists():
         print(f"错误: 输入文件 '{input_file}' 不存在", file=sys.stderr)
@@ -391,12 +473,12 @@ def main():
         # 保存文件
         output_file.write_text(clash_config, encoding="utf-8")
         print(f"💾 配置已保存到: {output_file.absolute()}", file=sys.stderr)
+        print(f"📄 节点数: {len(re.findall(r'^    -', clash_config, re.M))}", file=sys.stderr)
 
     except Exception as e:
         print(f"❌ 转换失败: {e}", file=sys.stderr)
         sys.exit(1)
 
-# pip install pyyaml
-# python btc.py subscription.txt clash.yaml
+
 if __name__ == "__main__":
     main()
