@@ -20,7 +20,7 @@
 | [mlx-lm](https://github.com/ml-explore/mlx-lm)                                                                              |
 | [node-llama-cpp](https://github.com/withcatai/node-llama-cpp)                                                               |
 | [lemonade](https://github.com/lemonade-sdk/lemonade)                                                                        |
-| [lemonade](https://github.com/mlc-ai/mlc-llm)                                                                               |
+| [mlc-ll](https://github.com/mlc-ai/mlc-llm)                                                                                 |
 | [LM Studio](https://github.com/lmstudio-ai) [LM Studio 官网](https://lmstudio.ai/)                                            |
 | [sanctum](https://sanctum.ai/)                                                                                              |
 | [jellybox](https://jellybox.com/)                                                                                           |
@@ -218,6 +218,9 @@
 [huihui-ai](https://huggingface.co/huihui-ai)
 [dphn](https://huggingface.co/dphn)
 [mradermacher](https://huggingface.co/mradermacher)
+
+[huggingface](https://huggingface.co/spaces/DontPlanToEnd/UGI-Leaderboard)
+[explorer](https://llm-explorer.com/list/?uncensored)
 
 # 图片视频修复
 [视频修复 开源](https://github.com/sczhou/CodeFormer)
