@@ -24,6 +24,7 @@
 | [ShadowsocksX-NG](https://github.com/shadowsocks/ShadowsocksX-NG) |
 | [ClashX.Meta](https://github.com/MetaCubeX/ClashX.Meta)           |
 | [V2rayU](https://github.com/yanue/V2rayU)                         |
+| [ClashMac](https://github.com/666OS/ClashMac)                     |
 
 | Android                                                                   |
 |---------------------------------------------------------------------------|
