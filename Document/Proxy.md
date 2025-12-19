@@ -92,6 +92,7 @@
 |-----------------------------------------------------------------------------------------------------------------|
 | [*注册无验证*]()                                                                                                     |
 | [~~12/年-200G/月 杜卡迪~~ 节点延迟高](https://www.dukadi.one/#/register?code=J9E4zv0c)                                    |
+| [杜卡迪测试订阅](https://live.dukadi.shop/api/v1/client/subscribe?token=c7e5632f46978bec556af59e573c6be9)              |
 | [19/年-1000G/月 白嫖机场](https://yes2.xn--mesv7f5toqlp.biz/register?code=IJNJjQW3) [](https://xn--mesv7f5toqlp.com/) |
 | [- 5/月-100G/月 一号测速](https://yh.yjbzzx.com/#/register?code=yX4UyKwx) [](https://xn--4gq48l11y805a.com/)          |
 | [- 7.99/月-100G/月 山水云](https://xn--9kq015a4jm.com/)                                                              |
