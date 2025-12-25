@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="https://www.baidu.com/" method="post">
+    <label>name</label><input type="text" id="name" autocomplete autofocus maxlength="9" minlength="2"/> <span style="color: red;" id="nameValid"></span> <input /><br/>
+    <label>password</label><input type="password" /> <br/>
+    <label>age</label><input type="radio" name="age" /> 18
+    <input type="radio" name="age" /> 20 <br/>
+    <label>abc</label><input type="checkbox" name="abc" /> 1
+    <input type="checkbox" name="abc" /> 2
+    <input type="checkbox" name="abc" /> 3 <br/>
+    <label>file</label><input type="file" /> <br/>
+    <label>select</label>
+    <select>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+    </select>
+    <br/>
+    <label>email</label><input type="email" required/><br/>
+    <label>url</label><input type="url"/><br/>
+    <label>number</label><input type="number"/><br/>
+    <label>date</label><input type="date"/><br/>
+    <label>hidden</label><input type="hidden"/><br/>
+    <label>color</label><input type="color"/><br/>
+    <label>submit</label><input type="image" src="../assets/images/img_submit.gif" /> <input type="submit" src="../assets/images/img_submit.gif" /> <br/>
+    <label>button</label><input type="button" value="submit form"/> <br/>
+</form>
+</body>
+<script>
+  ;((dom) => {
+    document.querySelector("#name").addEventListener("blur", () => {
+      const re = /^\d+$/;
+      console.log(re.test(document.querySelector("#name").value));
+      if (!re.test(document.querySelector("#name").value)) {
+        document.querySelector("#nameValid").innerHTML = "name error";
+        return false;
+      } else {
+        document.querySelector("#nameValid").innerHTML = "";
+      }
+    });
+  })(window);
+</script>
+</html>

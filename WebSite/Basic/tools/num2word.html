@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="chinese"></div>
+<div id="english"></div>
+<script>
+  function numberToChinese(number) {
+    const chineseNumbers = ['零', '一', '二', '三', '四', '五', '六', '七', '八', '九'];
+    const chineseUnits = ['', '十', '百', '千'];
+    const chineseBigUnits = ['', '万', '亿', '兆'];
+
+    function convertChunk(chunk) {
+      const chunkStr = chunk.toString();
+      let chunkChinese = '';
+      let lastZero = false; // 用于处理连续的零
+
+      for (let i = 0; i < chunkStr.length; i++) {
+        const digit = parseInt(chunkStr[i]);
+
+        if (digit === 0) {
+          // 当前数字是零
+          lastZero = true;
+        } else {
+          // 当前数字不是零
+          if (lastZero) {
+            chunkChinese += chineseNumbers[0]; // 添加零
+            lastZero = false;
+          }
+          chunkChinese += chineseNumbers[digit] + chineseUnits[chunkStr.length - i - 1];
+        }
+      }
+
+      return chunkChinese;
+    }
+
+    const numberStr = number.toString();
+    const chunkCount = Math.ceil(numberStr.length / 4); // 将数字分成四位一组
+
+    let chineseResult = '';
+    let chunkIndex = 0;
+
+    for (let i = numberStr.length; i > 0; i -= 4) {
+      const chunk = parseInt(numberStr.slice(i - 4, i)); // 每四位一组
+      if (chunk > 0) {
+        chineseResult = convertChunk(chunk) + chineseBigUnits[chunkIndex] + chineseResult;
+      }
+      chunkIndex++;
+    }
+
+    // 处理以零结尾的情况
+    if (chineseResult[chineseResult.length - 1] === chineseNumbers[0]) {
+      chineseResult = chineseResult.slice(0, -1);
+    }
+
+    // 处理特殊情况：一十 => 十
+    if (chineseResult.indexOf('一十') === 0) {
+      chineseResult = chineseResult.slice(1);
+    }
+
+    return chineseResult || chineseNumbers[0]; // 处理零的情况
+  }
+
+  // 示例用法
+  console.log(numberToChinese(123)); // 输出: "一亿二千三百四十五万六千七百八十九"
+  document.querySelector("#chinese").innerHTML = numberToChinese(123);
+
+  function numberToWords(number) {
+    const units = ['', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine'];
+    const teens = ['', 'Eleven', 'Twelve', 'Thirteen', 'Fourteen', 'Fifteen', 'Sixteen', 'Seventeen', 'Eighteen', 'Nineteen'];
+    const tens = ['', 'Ten', 'Twenty', 'Thirty', 'Forty', 'Fifty', 'Sixty', 'Seventy', 'Eighty', 'Ninety'];
+    const thousands = ['', 'Thousand', 'Million', 'Billion', 'Trillion'];
+
+    function convertChunk(chunk) {
+      const [hundreds, tensAndOnes] = [Math.floor(chunk / 100), chunk % 100];
+      const words = [];
+
+      if (hundreds > 0) {
+        words.push(units[hundreds] + ' Hundred');
+      }
+
+      if (tensAndOnes > 0) {
+        if (tensAndOnes < 10) {
+          words.push(units[tensAndOnes]);
+        } else if (tensAndOnes < 20) {
+          words.push(teens[tensAndOnes - 10]);
+        } else {
+          const [tensDigit, onesDigit] = [Math.floor(tensAndOnes / 10), tensAndOnes % 10];
+          words.push(tens[tensDigit]);
+          if (onesDigit > 0) {
+            words.push(units[onesDigit]);
+          }
+        }
+      }
+
+      return words.join(' ');
+    }
+
+    if (number === 0) {
+      return 'Zero';
+    }
+
+    const wordsArray = [];
+    let chunkIndex = 0;
+
+    while (number > 0) {
+      const chunk = number % 1000;
+      if (chunk > 0) {
+        wordsArray.unshift(convertChunk(chunk) + ' ' + thousands[chunkIndex]);
+      }
+      number = Math.floor(number / 1000);
+      chunkIndex++;
+    }
+
+    return wordsArray.join(' ').trim();
+  }
+
+  // 示例用法
+  console.log(numberToWords(123456789));
+  document.querySelector("#english").innerHTML = numberToWords(123456789);
+
+</script>
+</body>
+</html>

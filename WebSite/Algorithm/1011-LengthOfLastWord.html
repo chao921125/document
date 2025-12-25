@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+  <div id="text">
+    给你一个字符串 s，由若干单词组成，单词前后用一些空格字符隔开。返回字符串中 最后一个 单词的长度。
+
+    单词 是指仅由字母组成、不包含任何空格字符的最大子字符串。
+  </div>
+  <div id="primary"></div>
+  <div id="exercises"></div>
+  <div id="time"></div>
+</body>
+<script>
+  ;((e) => {
+    document.title = "最后一个单词的长度";
+
+    const lengthOfLastWord1 = (s) => {
+      s = s.trimStart().trimEnd();
+      let i = s.lastIndexOf(" ") > -1 ? s.lastIndexOf(" ") + 1 : 0;
+      return s.length - i;
+    }
+
+    const lengthOfLastWord2 = (s) => {
+       let rel = "";
+       for (let i = s.length - 1; i >= 0; i--) {
+         if (s[i] !== " ") {
+           rel += s[i];
+         } else if (rel) {
+           break;
+         }
+       }
+       return rel.length;
+    }
+
+    const lengthOfLastWord = (s) => {
+      let rel = 0;
+      for (let i = s.length - 1; i >= 0; i--) {
+        if (s[i] !== " ") {
+          rel++;
+        } else if (rel) {
+          break;
+        }
+      }
+      return rel;
+    }
+
+    let testData = "   fly me   to   the moon  ";
+    testData = "luffy is still joyboy";
+    testData = "Hello World";
+    testData = "Hello";
+    document.querySelector("#primary").innerText = "测试数据：" + testData;
+    const startTime = performance.now();
+    document.querySelector("#exercises").innerText = "基础算法结果：" + lengthOfLastWord(testData);
+    const endTime = performance.now();
+    document.querySelector("#time").innerText = "耗时：" + (endTime - startTime) + "ms";
+  })(window);
+</script>
+</html>

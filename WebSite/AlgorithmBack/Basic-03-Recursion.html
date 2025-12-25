@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>基础算法之-递归算法-分治算法</title>
+</head>
+<body>
+<div>分治算法，分而治之。子问题必须和原问题形式相同，切 1 < k <= n，递归算法的核心。</div>
+<button onclick="clickVal()">点击求值</button>
+<br/>
+<label for="inputVal">1</label><textarea id="inputVal"></textarea>
+<br/>最大值为：
+<label for="outputVal">2</label><textarea id="outputVal"></textarea>
+
+<script>
+  function getMax(arr, left, right) {
+    if (arr.length <= 0) return -1;
+    if (right - left <= 1) {
+      if (arr[left] >= arr[right]) return arr[left];
+      return arr[right];
+    }
+    const middle = Math.floor((right - left) / 2) + left;
+    const maxLeft = getMax(arr, left, middle);
+    const maxRight = getMax(arr, middle + 1, right);
+    if (maxLeft >= maxRight) return maxLeft;
+    else return maxRight;
+  }
+  function clickVal() {
+    let arr = [];
+    for (let i = 0; i < 20; i++) {
+      arr.push(Math.floor(Math.random() * i + 1));
+    }
+    document.querySelector("#inputVal").value = arr;
+    document.querySelector("#outputVal").value = getMax(arr, 0, arr.length - 1);
+  }
+</script>
+</body>
+</html>

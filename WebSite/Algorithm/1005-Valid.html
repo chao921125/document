@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+  <div id="text">
+    给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串 s ，判断字符串是否有效。
+
+    有效字符串需满足：
+
+    左括号必须用相同类型的右括号闭合。
+    左括号必须以正确的顺序闭合。
+    每个右括号都有一个对应的相同类型的左括号。
+  </div>
+  <div id="primary"></div>
+  <div id="exercises"></div>
+  <div id="time"></div>
+</body>
+<script>
+  ;((e) => {
+    document.title = "有效的括号";
+
+    const isValid1 = (s) => {
+      const len = s.length / 2;
+      for (let i = 0; i < len; i++) {
+        s = s.replace("()", "").replace("[]", "").replace("{}", "");
+      }
+      return !s;
+    }
+    const isValid2 = (s) => {
+      const ValidEnum = {
+        ")" : "(",
+        "]" : '[',
+        "}" : "{",
+      }
+      const stack = [];
+      for (let i = 0; i < s.length; i++) {
+        if (ValidEnum[s[i]]) {
+          const p = stack.pop();
+          if (p !== ValidEnum[s[i]]) {
+            return false;
+          }
+        } else {
+          stack.push(s[i]);
+        }
+      }
+      return !stack.length;
+    }
+    // 不要试着去违反计算机的正序处理逻辑会很慢
+    const isValid = (s) => {
+      const ValidEnum = {
+        "(" : ")",
+        "[" : "]",
+        "{" : "}",
+      }
+      const stack = [];
+      for (let i = s.length - 1; i > -1; i--) {
+        if (ValidEnum[s[i]]) {
+          const p = stack.pop();
+          if (p !== ValidEnum[s[i]]) {
+            return false;
+          }
+        } else {
+          stack.push(s[i]);
+        }
+      }
+      return !stack.length;
+    }
+
+    let testData = "[{(}}]()";
+    document.querySelector("#primary").innerText = "测试数据：" + testData;
+    const startTime = performance.now();
+    document.querySelector("#exercises").innerText = "基础算法结果：" + isValid(testData);
+    const endTime = performance.now();
+    document.querySelector("#time").innerText = "耗时：" + (endTime - startTime) + "ms";
+  })(window);
+</script>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .slider {
+            position: relative;
+            width: 300px; /* Adjust as needed */
+            height: 200px; /* Adjust as needed */
+            overflow: hidden;
+        }
+
+        .slides {
+            display: flex;
+            transition: transform 0.5s ease;
+        }
+
+        .slide {
+            min-width: 100%; /* Equal to slider width */
+            height: 100%;
+            /* Additional styling for slides */
+        }
+
+        button {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            /* Additional styling for buttons */
+        }
+
+        .prev {
+            left: 10px;
+        }
+
+        .next {
+            right: 10px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="slider">
+    <div class="slides">
+        <div class="slide">Slide 1</div>
+        <div class="slide">Slide 2</div>
+        <div class="slide">Slide 3</div>
+        <!-- More slides if needed -->
+    </div>
+    <button class="prev">Previous</button>
+    <button class="next">Next</button>
+</div>
+
+</body>
+<script type="module">
+  ((e) => {
+    let currentIndex = 0;
+
+    const slidesContainer = document.querySelector('.slides');
+    const slides = document.querySelectorAll('.slide');
+    const totalSlides = slides.length;
+
+    document.querySelector('.prev').addEventListener('click', () => {
+      currentIndex = (currentIndex > 0) ? currentIndex - 1 : totalSlides - 1;
+      updateSlidePosition();
+    });
+
+    document.querySelector('.next').addEventListener('click', () => {
+      currentIndex = (currentIndex + 1) % totalSlides;
+      updateSlidePosition();
+    });
+
+    function updateSlidePosition() {
+      slidesContainer.style.transform = `translateX(${-currentIndex * 100}%)`;
+    }
+  })(window);
+</script>
+</html>

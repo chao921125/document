@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .text-body {
+            width: 100%;
+            height: auto;
+            overflow: auto;
+            border: 1px solid #0a84ff;
+        }
+        .text-item {
+            /*overflow: auto;*/
+            width: 0;
+            height: auto;
+            word-wrap: break-word;
+            animation: Out 2s steps(40, end) forwards;
+        }
+        .text-item:last-child::after {
+            content: "";
+            border: 1px solid #000;
+            animation: Blind 1s infinite;
+        }
+        @keyframes Out {
+            from {
+                width: 0;
+            }
+            to {
+                width: 100%;
+            }
+        }
+        @keyframes Blind {
+            0% {
+                border-color: transparent;
+            }
+            50% {
+                border-color: #000;
+            }
+            100% {
+                border-color: transparent;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="text-body">
+    <div class="text-list" id="content">
+        <div class="">Hello Your Self Question Answer</div>
+    </div>
+</div>
+<div>
+    <label for="inputVal"></label>
+    <input id="inputVal"/>
+    <button onclick="question()">Send</button>
+</div>
+</body>
+<script>
+  function question() {
+    const textVal = document.querySelector("#inputVal").value;
+    if (!textVal) return false;
+    drawText(textVal, "text-right");
+    setTimeout(() => {
+      answer();
+    }, 2000);
+  }
+  function answer() {
+    let text = "I Dont Know You Say What What";
+    for (let i = 0; i < 50; i++) {
+      text += "I Dont Know You Say What What" + i + ";====== ";
+    }
+    let count = 1;
+    while (text.length) {
+      const textTemp = text.slice(0, 10);
+      text = text.slice(10);
+      drawText(textTemp, "text-left", count === 1);
+      count++;
+    }
+
+  }
+  function drawText(text, clazz = "text-left", isNew = true) {
+    const item = document.querySelector(".text-item");
+    if (isNew && item) {
+      item.classList.remove("text-item");
+
+      let boxDiv = document.createElement("div");
+      boxDiv.setAttribute("class", `text-item ${clazz}`);
+      boxDiv.innerHTML = `${text}`;
+      document.querySelector("#content").appendChild(boxDiv);
+      document.querySelector("#content").value = "";
+    } else if (!isNew && item) {
+      item.innerHTML = item.innerHTML + `${text}`;
+    } else {
+      let boxDiv = document.createElement("div");
+      boxDiv.setAttribute("class", `text-item ${clazz}`);
+      boxDiv.innerHTML = `${text}`;
+      document.querySelector("#content").appendChild(boxDiv);
+      document.querySelector("#content").value = "";
+    }
+  }
+</script>
+</html>

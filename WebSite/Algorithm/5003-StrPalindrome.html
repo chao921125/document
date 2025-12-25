@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+  <div id="text">
+    Desc
+  </div>
+  <div id="primary"></div>
+  <div id="exercises"></div>
+  <div id="time"></div>
+</body>
+<script>
+  ;((e) => {
+    document.title = "最长回文子串";
+
+    // 扩散查找
+    const basic = (s) => {
+
+    }
+
+    let testData = "babadbabadbabad";
+    document.querySelector("#primary").innerText = "测试数据：" + testData;
+    const startTime = performance.now();
+    document.querySelector("#exercises").innerText = "基础算法结果索引：" + 1;
+    const endTime = performance.now();
+    document.querySelector("#time").innerText = "耗时：" + (endTime - startTime) + "ms";
+  })(window);
+</script>
+</html>

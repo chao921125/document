@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>求和: [1, 2, 3, 4] <button onclick="getSum([1, 2, 3, 4])">求和</button></div>
+<code>结果：<span id="sum"></span></code>
+<div>求和: [{value: 1}, {value: 2}, {value: 3}, {value: 4}] <button onclick="getSumKey([{value: 1}, {value: 2}, {value: 3}, {value: 4}], 'value')">求和</button></div>
+<code>结果：<span id="sumKey"></span></code>
+<script>
+    const arr1 = [1, 2, 3, 4];
+    const arr2 = [{value: 1}, {value: 2}, {value: 3}, {value: 4}];
+    const getSum = (arr) => {
+      document.querySelector("#sum").innerText = arr.reduce((pre, cur) => pre + cur);
+      return arr.reduce((pre, cur) => pre + cur);
+    }
+    const getSumKey = (arr, key) => {
+      document.querySelector("#sumKey").innerText = arr.reduce((pre, cur) => pre + cur[key], 0);
+      return arr.reduce((pre, cur) => pre + cur[key], 0);
+    }
+</script>
+</body>
+</html>

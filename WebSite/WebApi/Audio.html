@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>$Title$</title>
+</head>
+<body>
+<table>
+  <thead>
+    <tr>
+      <th>音频输入</th>
+      <th>音频输出</th>
+    </tr>
+  </thead>
+  <tbody id="audioBody">
+
+  </tbody>
+</table>
+</body>
+<script>
+  (async () => {
+    if (!navigator.mediaDevices || !navigator.mediaDevices.enumerateDevices) {
+      console.log("不支持 enumerateDevices() .");
+    } else {
+      const result = await navigator.mediaDevices.enumerateDevices();
+      console.log(result);
+      let showHtml = [];
+      let t = (result.length - 1)/2;
+      let index = 0;
+      let showArray = [];
+      for (let o of result) {
+        if (o.kind === "audioinput") {
+          showArray.push([o.label]);
+          index++;
+        } else if (o.kind === "audiooutput") {
+          if (index / t === 2) {
+            showArray[index / t].push([o.label])
+          } else {
+            showArray[index%t].push(o.label);
+          }
+          index++;
+        }
+      }
+      for (let o of showArray) {
+        showHtml.push(`<tr><td>${o[0]}</td><td>${o[1]}</td></tr>`);
+      }
+      console.log(showArray);
+      document.querySelector("#audioBody").innerHTML = showHtml.join("");
+    }
+
+  })();
+</script>
+</html>

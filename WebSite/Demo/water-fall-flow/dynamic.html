@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Document</title>
+
+    <style>
+
+        .box {
+
+            position: relative;
+
+        }
+
+        img {
+
+            width: 200px;
+
+            vertical-align: top;
+
+            padding: 5px;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<p class="box">
+
+    <img src="../../Basic/assets/images/WaterfallFlow/1.jpg" alt="">
+
+    <img src="../../Basic/assets/images/WaterfallFlow/2.jpg" alt="">
+
+    <img src="../../Basic/assets/images/WaterfallFlow/3.jpg" alt="">
+
+    <img src="../../Basic/assets/images/WaterfallFlow/4.jpg" alt="">
+
+    <img src="../../Basic/assets/images/WaterfallFlow/5.jpg" alt="">
+
+    <img src="../../Basic/assets/images/WaterfallFlow/6.jpg" alt="">
+
+    <img src="../../Basic/assets/images/WaterfallFlow/7.jpg" alt="">
+
+    <img src="../../Basic/assets/images/WaterfallFlow/8.jpg" alt="">
+
+    <img src="../../Basic/assets/images/WaterfallFlow/9.jpg" alt="">
+
+    <img src="../../Basic/assets/images/WaterfallFlow/10.jpg" alt="">
+
+    <img src="../../Basic/assets/images/WaterfallFlow/11.jpg" alt="">
+
+    <img src="../../Basic/assets/images/WaterfallFlow/12.jpg" alt="">
+
+    <img src="../../Basic/assets/images/WaterfallFlow/13.jpg" alt="">
+
+    <img src="../../Basic/assets/images/WaterfallFlow/14.jpg" alt="">
+
+    <img src="../../Basic/assets/images/WaterfallFlow/15.jpg" alt="">
+
+    <img src="../../Basic/assets/images/WaterfallFlow/16.jpg" alt="">
+
+</p>
+
+</body>
+
+<script src="../../Basic/plugins/jquery3/jquery-3.7.0.js"></script>
+
+<script>
+
+  $(function () {
+
+    // 获取图片的宽度(200px)
+
+    let imgWidth = $('img').outerWidth(); // 200
+
+
+
+    waterfallHandler();
+
+
+
+    // 瀑布流处理
+
+    function waterfallHandler() {
+
+      // 获取图片的列数
+
+      let column = parseInt($(window).width() / imgWidth);
+
+
+
+      // 高度数组
+
+      let heightArr = [];
+
+      for(let i=0; i<column; i++) {
+
+        heightArr[i] = 0;
+
+      }
+
+
+
+      // 遍历所有图片进行定位处理
+
+      $.each($('img'), function (index, item) {
+
+        // 当前元素的高度
+
+        let itemHeight = $(item).outerHeight();
+
+        // 高度数组最小的高度
+
+        let minHeight = Math.min(...heightArr);
+
+        // 高度数组最小的高度的索引
+
+        let minIndex = heightArr.indexOf(minHeight);
+
+
+
+        $(item).css({
+
+          position: 'absolute',
+
+          top: minHeight + 'px',
+
+          left: minIndex * imgWidth + 'px'
+
+        });
+
+
+
+        heightArr[minIndex] += itemHeight;
+
+      });
+
+    }
+
+
+
+    // 窗口大小改变
+
+    $(window).resize(function () {
+
+      waterfallHandler();
+
+    });
+
+  });
+
+</script>
+
+</html>

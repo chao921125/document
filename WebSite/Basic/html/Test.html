@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button id="test">test</button>
+<button onclick="add()">add</button>
+</body>
+<script src="../script/JS.js" type="module"></script>
+<script type="module">
+  // fa();
+  // function fa() {
+  //   console.log("fa");
+  // }
+  // var fa = 10;
+  // console.log("fa v", fa);
+
+  window.add = () => {
+    console.log("add");
+  }
+</script>
+<script>
+  // fa();
+  // function fa() {
+  //   console.log("fa");
+  // }
+  // var fa = 10;
+  // console.log("fa v", fa);
+
+  // 异步宏任务
+  setTimeout(function () {
+    // 异步任务压入队列2
+    // 异步任务2
+    console.log('setTimeout')
+  }, 0)
+  // 同步微任务
+  new Promise(function (resolve) { // 同步
+    // 异步微任务1
+    console.log('promise1')
+    // 异步任务，压入队列1
+    for( let i = 0; i < 1000; i++ ) {
+      i === 999 && resolve()
+    }
+    // 异步微任务2
+    console.log('promise2')
+  }).then(function ()  { // 异步
+    // 异步任务1
+    console.log('promise3')
+  })
+  // 同步宏任务3
+  console.log('script')
+
+</script>
+</html>

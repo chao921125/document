@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <button id="share">点击分享12</button>
+
+  <!-- <script type="text/javascript" src="./dist/index.js"></script> -->
+  <script type="module">
+    import NativeShare from './dist'
+
+    var nativeShare = new NativeShare()
+    nativeShare.setShareData({
+      link: 'https://www.360.cn',
+      icon: 'https://p2.ssl.qhimg.com/t01d072a1cbef3e4d5d.png',
+      title: '分享标题',
+    })
+
+    var shareParam = {
+      type: 8,
+      content: '24小时全网热点',
+      url: 'https://www.360.cn',
+      title: '分享标题',
+      caller: "h5_share_peas",
+      imgPath: 'https://p2.ssl.qhimg.com/t01d072a1cbef3e4d5d.png',
+    };
+    function share() {
+      try {
+        // 360浏览器
+        console.log(
+          "ShareParams4WXCircle=" +
+            btoa(encodeURIComponent(JSON.stringify(shareParam))) +
+            "&onShareCallback"
+        );
+        // 唤起浏览器原生分享组件(如果在微信中不会唤起，此时call方法只会设置文案。类似setShareData)
+        nativeShare.call('wechatTimeline')
+      } catch (err) {
+        // 分享失败，唤起微信app
+        location.href = 'weixin://'
+      }
+    }
+
+    document.getElementById('share').onclick = share
+  </script>
+</body>
+</html>

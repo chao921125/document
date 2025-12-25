@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body style="color: #FFF;">
+I am child, <a onclick="clickLog()">click me</a>
+<script>
+  ;(function () {
+    window.addEventListener("message", getMsg, false);
+  })();
+  function getMsg(event) {
+    console.log( '我是iframe,我接受到了：', event.data );
+  }
+    function clickLog() {
+      window.parent && window.parent.postMessage({ type: "game", value: 'I am JT' }, '*');
+      // parent.pLog("I am JT");
+    }
+</script>
+</body>
+</html>

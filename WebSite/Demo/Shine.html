@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>发光</title>
+    <style>
+        .guang {
+            width: 50px;
+            height: 50px;
+            box-shadow: 0 0 5px 5px red;
+            border-radius: 50%;
+            animation: faguang 3s linear 2s infinite;
+        }
+        @keyframes faguang {
+            0% {
+                box-shadow: 0 0 5px 5px red;
+            }
+            50% {
+                box-shadow: 0 0 15px 15px gold;
+            }
+            50% {
+                box-shadow: 0 0 25px 25px green;
+            }
+            75% {
+                box-shadow: 0 0 15px 15px gold;
+            }
+            100% {
+                box-shadow: 0 0 5px 5px red;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="guang"></div>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+  <div id="text">
+    给定一个字符串 s ，请你找出其中不含有重复字符的 最长子串 的长度。
+  </div>
+  <div id="primary"></div>
+  <div id="exercises"></div>
+  <div id="time"></div>
+</body>
+<script>
+  ;((e) => {
+    document.title = "无重复字符的最长子串";
+
+    // 基本思路
+    const lengthOfLongestSubstringBasic = (s) => {
+      if (!s.length) return 0;
+      if (s.length < 2) return 1;
+      let str = "";
+      let strMax = "";
+      let strLen = 0;
+      for (let i in s) {
+        if (str.indexOf(s[i]) > -1) {
+          str = str.indexOf(s[i]) === i - 1 ? s[i] : str.slice(str.indexOf(s[i])+1) + s[i];
+          strLen = 1;
+        } else {
+          str += s[i];
+          strLen++;
+        }
+        if (strMax.length < str.length) {
+          strMax = str;
+        }
+      }
+      return strMax.length;
+    }
+
+    // map
+    const lengthOfLongestSubstring = (s) => {
+      if (!s.length) return 0;
+      if (s.length < 2) return 1;
+      let hm = new Map();
+      let start = 0;
+      let strLenMax = 0;
+      for (let i = 0; i < s.length; i++) {
+        if (hm.has(s[i])) {
+          start = Math.max(hm.get(s[i]) + 1, start);
+        }
+        strLenMax = Math.max(strLenMax, i - start + 1);
+        hm.set(s[i], i);
+      }
+      return strLenMax;
+    }
+
+    const testData = "dvdf";
+    document.querySelector("#primary").innerText = "测试数据：" + testData;
+    const startTime = performance.now();
+    document.querySelector("#exercises").innerText = "基础算法结果：" + lengthOfLongestSubstring(testData);
+    const endTime = performance.now();
+    document.querySelector("#time").innerText = "耗时：" + (endTime - startTime) + "ms";
+  })(window);
+</script>
+</html>

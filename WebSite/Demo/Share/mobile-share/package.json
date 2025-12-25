@@ -1,0 +1,54 @@
+{
+  "name": "qihoo-cli",
+  "version": "0.1.5",
+  "keywords": [],
+  "description": "Create standard apps with one command",
+  "author": "Qihoo Business Team",
+  "license": "MIT",
+  "bin": {
+    "qihoo": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.2",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-typescript": "^8.3.1",
+    "rollup": "^2.70.1",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-preserve-shebang": "^1.0.1"
+  },
+  "dependencies": {
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@types/async-retry": "1.4.2",
+    "@types/cross-spawn": "6.0.2",
+    "@types/node": "^12.6.8",
+    "@types/prompts": "2.0.1",
+    "@types/rimraf": "3.0.0",
+    "@types/tar": "4.0.3",
+    "@types/validate-npm-package-name": "3.0.0",
+    "async-retry": "1.3.1",
+    "chalk": "2.4.2",
+    "commander": "9.1.0",
+    "cpy": "7.3.0",
+    "cross-spawn": "6.0.5",
+    "got": "10.7.0",
+    "prompts": "2.1.0",
+    "rimraf": "3.0.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "tar": "4.4.10",
+    "tslib": "^2.3.1",
+    "typescript": "^4.6.2",
+    "update-check": "1.5.4",
+    "validate-npm-package-name": "3.0.0"
+  },
+  "engines": {
+    "node": ">=12.22.0"
+  }
+}

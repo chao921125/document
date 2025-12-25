@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <!--基本的元数据-->
+    <meta charset="UTF-8">
+    <!--规定一个逗号分隔的关键词列表 - 相关的网页（告诉搜索引擎页面是与什么相关的）-->
+    <meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript">
+    <!--规定页面的描述。搜索引擎会把这个描述显示在搜索结果中-->
+    <meta name="description" content="免费 Web & 编程 教程">
+    <!--规定文档的作者的名字-->
+    <meta name="author" content="Runoob">
+    <!--规定页面所代表的 Web 应用程序的名称-->
+    <meta name="application-name" content="Hege Refsnes">
+    <!--规定用于生成文档的一个软件包（不用于手写页面）-->
+    <meta name="generator" content="FrontPage 4.0">
+    <!--定义文档自动刷新的时间间隔-->
+    <meta http-equiv="refresh" content="300">
+    <!--规定要使用的预定义的样式表-->
+    <!--注释：content 属性的值必须匹配同一文档中的一个 link 元素上的 title 属性的值，或者必须匹配同一文档中的一个 style 元素上的 title 属性的值。-->
+    <meta http-equiv="default-style" content="the document's preferred stylesheet">
+    <!--规定文档的字符编码-->
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <!-- 针对手持设备优化，主要是针对一些老的不识别viewport的浏览器，比如黑莓 -->
+    <meta name="HandheldFriendly" content="true">
+    <!-- 微软的老式浏览器 -->
+    <meta name="MobileOptimized" content="320">
+    <!-- uc强制竖屏 -->
+    <meta name="screen-orientation" content="portrait">
+    <!-- QQ强制竖屏 -->
+    <meta name="x5-orientation" content="portrait">
+    <!-- UC强制全屏 -->
+    <meta name="full-screen" content="yes">
+    <!-- QQ强制全屏 -->
+    <meta name="x5-fullscreen" content="true">
+    <!-- UC应用模式 -->
+    <meta name="browsermode" content="application">
+    <!-- QQ应用模式 -->
+    <meta name="x5-page-mode" content="app">
+    <!-- windows phone 点击无高光 -->
+    <!--移动设备上进行网页的重构或开发-->
+    <!--width	设置layout viewport  的宽度，为一个正整数，或字符串"width-device"
+        initial-scale	设置页面的初始缩放值，为一个数字，可以带小数
+        minimum-scale	允许用户的最小缩放值，为一个数字，可以带小数
+        maximum-scale	允许用户的最大缩放值，为一个数字，可以带小数
+        height	设置layout viewport  的高度，这个属性对我们并不重要，很少使用
+        user-scalable	是否允许用户进行缩放，值为 "no" 或 "yes", no 代表不允许，yes 代表允许-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+    <title>文档标题</title>
+    <!--标签描述了基本的链接地址/链接目标，该标签作为HTML文档中所有的链接标签的默认链接-->
+    <base href="http://www.runoob.com/images/" target="_blank">
+
+    <!--外链样式-->
+    <link rel="stylesheet" type="text/css" href="../assets/style/CSS.css">
+    <!--内链样式-->
+    <style type="text/css">
+        * {
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        body {
+            padding-bottom: 50px;
+        }
+        table {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!--行内样式-->
+    <div style="width: 100%; height: 30px; line-height: 30px; background-color: #f0ad4e;">
+        区分是否是块级元素和行内元素就看看是否当前元素独占一行，行内元素不建议包裹块级元素，两者可以通过css相互转换
+    </div>
+    <a href="https://www.runoob.com/">菜鸟教程</a>
+    <a href="https://www.w3school.com.cn/">w3c教程</a>
+    <a href="https://developer.mozilla.org/zh-CN/">MDN教程</a>
+    <div>
+        语义化标签分为两类：双标签和单标签，即：&lt;element&gt;&lt;/element&gt;
+    </div>
+    <div>以下标签按照字母顺序罗列，由于一些不呈现元素，<i style="color: red;">请打开源代码查看</i></div>
+<!--start-->
+
+    <br>
+    <br>
+    <!--标题-->
+    <h1>这是一个标题</h1>
+    <h2>这是一个标题</h2>
+    <h3>这是一个标题</h3>
+    <h4>这是一个标题</h4>
+    <h5>这是一个标题</h5>
+    <h6>这是一个标题</h6>
+
+    <br>
+    <br>
+    <!--段落-->
+    <p>这是一个段落。</p>
+
+    <br>
+    <br>
+    <!--文本格式化-->
+    <b>定义粗体文本</b>
+    <i>定义斜体字</i>
+    <small>定义小号字</small>
+    <strong>定义加重语气</strong>
+    <sub>定义下标字</sub>
+    <sup>定义上标字</sup>
+    <ins>定义插入字</ins>
+    <del>定义删除字</del>
+    <code>定义计算机代码</code>
+    <kbd>定义键盘码</kbd>
+    <samp>定义计算机代码样本</samp>
+    <var>定义变量</var>
+    <pre>定义预格式文本</pre>
+    <abbr>定义缩写</abbr>
+    <address>定义地址</address>
+    <bdo>定义文字方向</bdo>
+    <blockquote>定义长的引用</blockquote>
+    <q>定义短的引用语</q>
+    <cite>定义引用、引证</cite>
+    <dfn>定义一个定义项目。</dfn>
+
+    <br>
+    <br>
+    <!--链接-->
+    <a href="https://www.baidu.com">这是一个链接</a>
+
+    <br>
+    <br>
+    <!--图像-->
+    <img border="0" src="/images/pulpit.jpg" alt="Pulpit rock" width="304" height="228">
+
+    <br>
+    <br>
+    <!--插入单个折行（换行）-->
+    <br>
+
+    <br>
+    <br>
+    <!--表格 thead tbody tfoot可以省略-->
+    <table>
+        <caption>Monthly savings</caption>
+        <colgroup>
+            <col span="2" style="background-color:red">
+            <col style="background-color:yellow">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>row 1, cell 1</td>
+                <td>row 1, cell 2</td>
+                <td>row 1, cell 2</td>
+            </tr>
+            <tr>
+                <td>row 2, cell 1</td>
+                <td>row 2, cell 2</td>
+                <td>row 2, cell 2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Sum</td>
+                <td>$180</td>
+                <td>$180</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <br>
+    <br>
+    <!--列表-->
+    <ul>
+        <li>Coffee</li>
+        <li>Milk</li>
+    </ul>
+    <ol>
+        <li>Coffee</li>
+        <li>Milk</li>
+    </ol>
+    <dl>
+        <dt>Coffee</dt>
+        <dd>- black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>- white cold drink</dd>
+    </dl>
+
+    <br>
+    <br>
+    <!--块级元素-->
+    <div>定义了文档的区域，块级 (block-level)</div>
+    <!--行内元素-->
+    <span>用来组合文档中的行内元素， 内联元素(inline)</span>
+    <label>用来组合文档中的行内元素， 内联元素(inline) 在form中使用</label>
+
+    <br>
+    <br>
+    <!--表单-->
+    <form action="demo_form.php" method="get">
+        <label>name: </label><input type="text" name="name"><br>
+        <input type="text" name="email" size="40" maxlength="50"><br>
+        <input type="password"><br>
+        <input type="checkbox" checked="checked"><br>
+        <input type="radio" checked="checked"><br>
+        <input type="submit" value="Send"><br>
+        <input type="reset"><br>
+        <input type="hidden"><br>
+        <textarea>定义文本域 (一个多行的输入控件)</textarea><br>
+        <select>
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </select><br>
+        <select>
+            <optgroup label="Swedish Cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+            </optgroup>
+            <optgroup label="German Cars">
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+            </optgroup>
+        </select><br>
+        <fieldset>
+            <legend>Personalia:</legend><input type="text" placeholder="text">
+        </fieldset><br>
+        <datalist id="browsers">
+            <option value="Internet Explorer">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+        </datalist><br>
+        <input type="range" id="a" value="50">100
+        +<input type="number" id="b" value="50">
+        =<output name="x" for="a b"></output><br>
+        <button type="button">点我!</button><br>
+
+        <input type="submit" value="提交">
+    </form>
+
+    <br>
+    <br>
+    <!--框架-->
+    <iframe src="//baidu.com"></iframe>
+    <iframe src="//baidu.com" name="iframe_a"></iframe><a href="//www.runoob.com" target="iframe_a">RUNOOB.COM</a>
+
+    <br>
+    <br>
+    <!--符号-->
+    空格	&nbsp;	&#160;<br>
+    <	小于号	&lt;	&#60;<br>
+    >	大于号	&gt;	&#62;<br>
+    &	和号	&amp;	&#38;<br>
+    "	引号	&quot;	&#34;<br>
+    '	撇号 	&apos; (IE不支持)	&#39;<br>
+    ￠	分	&cent;	&#162;<br>
+    £	镑	&pound;	&#163;<br>
+    ¥	人民币/日元	&yen;	&#165;<br>
+    €	欧元	&euro;	&#8364;<br>
+    §	小节	&sect;	&#167;<br>
+    ©	版权	&copy;	&#169;<br>
+    ®	注册商标	&reg;	&#174;<br>
+    ™	商标	&trade;	&#8482;<br>
+    ×	乘号	&times;	&#215;<br>
+    ÷	除号	&divide;	&#247;<br>
+
+
+    <br>
+    <br>
+    <!--HTML5 新元素-->
+    HTML5 新元素
+    <canvas> 新元素</canvas>
+    <canvas>	标签定义图形，比如图表和其他图像。该标签基于 JavaScript 的绘图 API</canvas>
+
+    <audio>	定义音频内容</audio>
+    <video>	定义视频（video 或者 movie）</video>
+    <source>	定义多媒体资源 <video></video> 和 <audio></audio></source>
+        <embed>	定义嵌入的内容，比如插件。</embed>
+    <track>	为诸如 <video></video> 和 <audio></audio> 元素之类的媒介规定外部文本轨道。</track>
+
+    <datalist>	定义选项列表。请与 input 元素配合使用该元素，来定义 input 可能的值。</datalist>
+    <keygen>	规定用于表单的密钥对生成器字段。</keygen>
+    <output>	定义不同类型的输出，比如脚本的输出。</output>
+
+    <article>	定义页面独立的内容区域。</article>
+    <aside>	定义页面的侧边栏内容。</aside>
+    <bdi>	允许您设置一段文本，使其脱离其父元素的文本方向设置。</bdi>
+    <command>	定义命令按钮，比如单选按钮、复选框或按钮</command>
+    <details>	用于描述文档或文档某个部分的细节</details>
+    <dialog>	定义对话框，比如提示框</dialog>
+    <summary>	标签包含 details 元素的标题</summary>
+    <figure>	规定独立的流内容（图像、图表、照片、代码等等）。</figure>
+    <figcaption>	定义 <figure> 元素的标题</figure></figcaption>
+    <footer>	定义 section 或 document 的页脚。</footer>
+    <header>	定义了文档的头部区域</header>
+    <mark>	定义带有记号的文本。</mark>
+    <meter>	定义度量衡。仅用于已知最大和最小值的度量。</meter>
+    <nav>	定义导航链接的部分。</nav>
+    <progress>	定义任何类型的任务的进度。</progress>
+    <ruby>	定义 ruby 注释（中文注音或字符）。</ruby>
+    <rt>	定义字符（中文注音或字符）的解释或发音。</rt>
+    <rp>	在 ruby 注释中使用，定义不支持 ruby 元素的浏览器所显示的内容。</rp>
+    <section>	定义文档中的节（section、区段）。</section>
+    <time>	定义日期或时间。</time>
+    <wbr>	规定在文本中的何处适合添加换行符。</wbr>
+
+    已移除的元素
+    以下的 HTML 4.01 元素在HTML5中已经被删除:
+    acronym<br>
+    applet<br>
+    basefont<br>
+    big<br>
+    center<br>
+    dir<br>
+    font<br>
+    frame<br>
+    frameset<br>
+    noframes<br>
+    strike<br>
+    tt<br>
+
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="190">
+        <polygon points="100,10 40,180 190,60 10,60 160,180"
+                 style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;"></polygon>
+    </svg>
+
+
+    <table class="reference">
+        <tbody><tr>
+            <th align="left" width="25%">标签</th>
+            <th align="left" width="75%">描述</th>
+        </tr>
+        <tr>
+            <td><b>基础</b></td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="tag-doctype.html">&lt;!DOCTYPE&gt;</a>&nbsp;</td>
+            <td>定义文档类型。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-html.html">&lt;html&gt;</a></td>
+            <td>定义一个 HTML 文档</td>
+        </tr>
+        <tr>
+            <td><a href="tag-title.html">&lt;title&gt;</a></td>
+            <td>为文档定义一个标题 </td>
+        </tr>
+        <tr>
+            <td><a href="tag-body.html">&lt;body&gt;</a></td>
+            <td>定义文档的主体</td>
+        </tr>
+        <tr>
+            <td><a href="tag-hn.html">&lt;h1&gt; to &lt;h6&gt;</a></td>
+            <td>定义 HTML 标题</td>
+        </tr>
+        <tr>
+            <td><a href="tag-p.html">&lt;p&gt;</a></td>
+            <td>定义一个段落</td>
+        </tr>
+        <tr>
+            <td><a href="tag-br.html">&lt;br&gt;</a></td>
+            <td>定义简单的折行。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-hr.html">&lt;hr&gt;</a></td>
+            <td>定义水平线。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-comment.html">&lt;!--...--&gt;</a></td>
+            <td>定义一个注释</td>
+        </tr>
+        <tr>
+            <td><b>格式</b></td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td><a class="notsupported" href="tag-acronym.html">&lt;acronym&gt;</a></td>
+            <td>
+                <span class="deprecated">HTML5不再支持。</span> 定义只取首字母的缩写。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-abbr.html">&lt;abbr&gt;</a></td>
+            <td>定义一个缩写。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-address.html">&lt;address&gt;</a></td>
+            <td>定义文档作者或拥有者的联系信息。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-b.html">&lt;b&gt;</a></td>
+            <td>定义粗体文本。</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="tag-bdi.html">&lt;bdi&gt;</a><span class="new">New</span>
+            </td>
+            <td>允许您设置一段文本，使其脱离其父元素的文本方向设置。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-bdo.html">&lt;bdo&gt;</a></td>
+            <td>定义文本的方向。</td>
+        </tr>
+        <tr>
+            <td><a class="notsupported" href="tag-big.html">&lt;big&gt;</a></td>
+            <td>
+                <span class="deprecated">HTML5不再支持。</span> 定义大号文本。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-blockquote.html">&lt;blockquote&gt;</a></td>
+            <td>定义块引用。</td>
+        </tr>
+        <tr>
+            <td><a class="notsupported" href="tag-center.html">&lt;center&gt;</a></td>
+            <td>
+                <span class="deprecated">HTML5不再支持。 HTML 4.01 已废弃。</span>定义居中文本。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-cite.html">&lt;cite&gt;</a></td>
+            <td>定义引用(citation)。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-code.html">&lt;code&gt;</a></td>
+            <td>定义计算机代码文本。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-del.html">&lt;del&gt;</a></td>
+            <td>定义被删除文本。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-dfn.html">&lt;dfn&gt;</a></td>
+            <td>定义定义项目。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-em.html">&lt;em&gt;</a></td>
+            <td>定义强调文本。&nbsp;</td>
+        </tr>
+        <tr>
+            <td><a class="notsupported" href="tag-font.html">&lt;font&gt;</a></td>
+            <td>
+                <span class="deprecated">HTML5不再支持。 HTML 4.01 已废弃。</span> 定义文本的字体、尺寸和颜色</td>
+        </tr>
+        <tr>
+            <td><a href="tag-i.html">&lt;i&gt;</a></td>
+            <td>定义斜体文本。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-ins.html">&lt;ins&gt;</a></td>
+            <td>定义被插入文本。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-kbd.html">&lt;kbd&gt;</a></td>
+            <td>定义键盘文本。</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="tag-mark.html">&lt;mark&gt;</a><span class="new">New</span>
+            </td>
+            <td>定义带有记号的文本。</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="tag-meter.html">&lt;meter&gt;</a><span class="new">New</span>
+            </td>
+            <td>定义度量衡。仅用于已知最大和最小值的度量。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-pre.html">&lt;pre&gt;</a></td>
+            <td>定义预格式文本</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="tag-progress.html">&lt;progress&gt;</a><span class="new">New</span>
+            </td>
+            <td>定义运行中的任务进度（进程）。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-q.html">&lt;q&gt;</a></td>
+            <td>定义短的引用。</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="tag-rp.html">&lt;rp&gt;</a><span class="new">New</span>
+            </td>
+            <td>定义不支持 ruby 元素的浏览器所显示的内容。</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="tag-rt.html">&lt;rt&gt;</a><span class="new">New</span>
+            </td>
+            <td>定义字符（中文注音或字符）的解释或发音。</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="tag-ruby.html">&lt;ruby&gt;</a><span class="new">New</span>
+            </td>
+            <td>定义 ruby 注释（中文注音或字符）。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-s.html">&lt;s&gt;</a></td>
+            <td>定义加删除线的文本。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-samp.html">&lt;samp&gt;</a></td>
+            <td>定义计算机代码样本。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-small.html">&lt;small&gt;</a></td>
+            <td>定义小号文本。</td>
+        </tr>
+        <tr>
+            <td><a class="notsupported" href="tag-strike.html">&lt;strike&gt;</a></td>
+            <td>
+                <span class="deprecated">HTML5不再支持。 HTML 4.01 已废弃。</span> 定义加删除线的文本。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-strong.html">&lt;strong&gt;</a></td>
+            <td>定义语气更为强烈的强调文本。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-sub.html">&lt;sub&gt;</a></td>
+            <td>定义下标文本。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-sup.html">&lt;sup&gt;</a></td>
+            <td>定义上标文本。</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="tag-time.html">&lt;time&gt;</a><span class="new">New</span>
+            </td>
+            <td>定义一个日期/时间</td>
+        </tr>
+        <tr>
+            <td><a class="notsupported" href="tag-tt.html">&lt;tt&gt;</a></td>
+            <td>
+                <span class="deprecated">HTML5不再支持。</span> 定义打字机文本。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-u.html">&lt;u&gt;</a></td>
+            <td>定义下划线文本。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-var.html">&lt;var&gt;</a></td>
+            <td>定义文本的变量部分。</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="tag-wbr.html">&lt;wbr&gt;</a><span class="new">New</span>
+            </td>
+            <td>规定在文本中的何处适合添加换行符。</td>
+        </tr>
+        <tr>
+            <td><b>表单</b></td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td><a href="tag-form.html">&lt;form&gt;</a></td>
+            <td>定义一个 HTML 表单，用于用户输入。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-input.html">&lt;input&gt;</a></td>
+            <td>定义一个输入控件</td>
+        </tr>
+        <tr>
+            <td><a href="tag-textarea.html">&lt;textarea&gt;</a></td>
+            <td>定义多行的文本输入控件。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-button.html">&lt;button&gt;</a></td>
+            <td>定义按钮。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-select.html">&lt;select&gt;</a></td>
+            <td>定义选择列表（下拉列表）。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-optgroup.html">&lt;optgroup&gt;</a></td>
+            <td>定义选择列表中相关选项的组合。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-option.html">&lt;option&gt;</a></td>
+            <td>定义选择列表中的选项。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-label.html">&lt;label&gt;</a></td>
+            <td>定义 input 元素的标注。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-fieldset.html">&lt;fieldset&gt;</a></td>
+            <td>定义围绕表单中元素的边框。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-legend.html">&lt;legend&gt;</a></td>
+            <td>定义 fieldset 元素的标题。</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="tag-datalist.html">&lt;datalist&gt;</a><span class="new">New</span>
+            </td>
+            <td>规定了 input 元素可能的选项列表。</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="tag-keygen.html">&lt;keygen&gt;</a><span class="new">New</span>
+            </td>
+            <td>规定用于表单的密钥对生成器字段。</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="tag-output.html">&lt;output&gt;</a><span class="new">New</span>
+            </td>
+            <td>定义一个计算的结果</td>
+        </tr>
+        <tr>
+            <td><b>框架</b></td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td><a class="notsupported" href="tag-frame.html">&lt;frame&gt;</a></td>
+            <td> <span class="deprecated">HTML5不再支持。</span> 定义框架集的窗口或框架。</td>
+        </tr>
+        <tr>
+            <td><a class="notsupported" href="tag-frameset.html">&lt;frameset&gt;</a></td>
+            <td>
+                <span class="deprecated">HTML5不再支持。</span>定义框架集。</td>
+        </tr>
+        <tr>
+            <td><a class="notsupported" href="tag-noframes.html">&lt;noframes&gt;</a></td>
+            <td>
+                <span class="deprecated">HTML5不再支持。</span> 定义针对不支持框架的用户的替代内容。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-iframe.html">&lt;iframe&gt;</a></td>
+            <td>定义内联框架。</td>
+        </tr>
+        <tr>
+            <td><b>图像</b></td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td><a href="tag-img.html">&lt;img&gt;</a></td>
+            <td>定义图像。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-map.html">&lt;map&gt;</a></td>
+            <td>定义图像映射。 </td>
+        </tr>
+        <tr>
+            <td><a href="tag-area.html">&lt;area&gt;</a></td>
+            <td>定义图像地图内部的区域。</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="tag-canvas.html">&lt;canvas&gt;</a><span class="new">New</span>
+            </td>
+            <td>通过脚本（通常是 JavaScript）来绘制图形（比如图表和其他图像）。</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="tag-figcaption.html">&lt;figcaption&gt;</a><span class="new">New</span>
+            </td>
+            <td>定义一个 caption for a &lt;figure&gt; element</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="tag-figure.html">&lt;figure&gt;</a><span class="new">New</span>
+            </td>
+            <td>figure 标签用于对元素进行组合。</td>
+        </tr>
+        <tr>
+            <td><b>Audio/Video</b></td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="tag-audio.html">&lt;audio&gt;</a><span class="new">New</span>
+            </td>
+            <td>定义声音，比如音乐或其他音频流。</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="tag-source.html">&lt;source&gt;</a><span class="new">New</span>
+            </td>
+            <td>定义media元素 (&lt;video&gt; 和 &lt;audio&gt;)的媒体资源。media </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="tag-track.html">&lt;track&gt;</a><span class="new">New</span>
+            </td>
+            <td>为媒体(&lt;video&gt; 和 &lt;audio&gt;)元素定义外部文本轨道。</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="tag-video.html">&lt;video&gt;</a><span class="new">New</span>
+            </td>
+            <td>定义一个音频或者视频</td>
+        </tr>
+        <tr>
+            <td><b>链接</b></td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td><a href="tag-a.html">&lt;a&gt;</a></td>
+            <td>定义一个链接</td>
+        </tr>
+        <tr>
+            <td><a href="tag-link.html">&lt;link&gt;</a></td>
+            <td>定义文档与外部资源的关系。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-main.html">&lt;main&gt;</a></td>
+            <td>定义文档的主体部分。</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="tag-nav.html">&lt;nav&gt;</a><span class="new">New</span>
+            </td>
+            <td>定义导航链接</td>
+        </tr>
+        <tr>
+            <td><b>列表</b></td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td><a href="tag-ul.html">&lt;ul&gt;</a></td>
+            <td>定义一个无序列表</td>
+        </tr>
+        <tr>
+            <td><a href="tag-ol.html">&lt;ol&gt;</a></td>
+            <td>定义一个有序列表</td>
+        </tr>
+        <tr>
+            <td><a href="tag-li.html">&lt;li&gt;</a></td>
+            <td>定义一个列表项</td>
+        </tr>
+        <tr>
+            <td><a class="notsupported" href="tag-dir.html">&lt;dir&gt;</a></td>
+            <td>
+                <span class="deprecated">HTML5不再支持。 HTML 4.01 已废弃。</span> 定义目录列表。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-dl.html">&lt;dl&gt;</a></td>
+            <td>定义一个定义列表</td>
+        </tr>
+        <tr>
+            <td><a href="tag-dt.html">&lt;dt&gt;</a></td>
+            <td>定义一个定义定义列表中的项目。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-dd.html">&lt;dd&gt;</a></td>
+            <td>定义定义列表中项目的描述。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-menu.html">&lt;menu&gt;</a></td>
+            <td>定义菜单列表。</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="tag-command.html">&lt;command&gt;</a><span class="new">New</span>
+            </td>
+            <td>定义用户可能调用的命令（比如单选按钮、复选框或按钮）。</td>
+        </tr>
+        <tr>
+            <td><b>表格</b></td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td><a href="tag-table.html">&lt;table&gt;</a></td>
+            <td>定义一个表格</td>
+        </tr>
+        <tr>
+            <td><a href="tag-caption.html">&lt;caption&gt;</a></td>
+            <td>定义表格标题。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-th.html">&lt;th&gt;</a></td>
+            <td>定义表格中的表头单元格。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-tr.html">&lt;tr&gt;</a></td>
+            <td>定义表格中的行。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-td.html">&lt;td&gt;</a></td>
+            <td>定义表格中的单元。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-thead.html">&lt;thead&gt;</a></td>
+            <td>定义表格中的表头内容。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-tbody.html">&lt;tbody&gt;</a></td>
+            <td>定义表格中的主体内容。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-tfoot.html">&lt;tfoot&gt;</a></td>
+            <td>定义表格中的表注内容（脚注）。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-col.html">&lt;col&gt;</a></td>
+            <td>定义表格中一个或多个列的属性值。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-colgroup.html">&lt;colgroup&gt;</a></td>
+            <td>定义表格中供格式化的列组。</td>
+        </tr>
+        <tr>
+            <td><b>样式/节</b></td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td><a href="tag-style.html">&lt;style&gt;</a></td>
+            <td>定义文档的样式信息。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-div.html">&lt;div&gt;</a></td>
+            <td>定义文档中的节。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-span.html">&lt;span&gt;</a></td>
+            <td>定义文档中的节。</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="tag-header.html">&lt;header&gt;</a><span class="new">New</span>
+            </td>
+            <td>定义一个文档头部部分</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="tag-footer.html">&lt;footer&gt;</a><span class="new">New</span>
+            </td>
+            <td>定义一个文档底部</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="tag-section.html">&lt;section&gt;</a><span class="new">New</span>
+            </td>
+            <td>定义了文档的某个区域</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="tag-article.html">&lt;article&gt;</a><span class="new">New</span>
+            </td>
+            <td>定义一个文章内容</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="tag-aside.html">&lt;aside&gt;</a><span class="new">New</span>
+            </td>
+            <td>定义其所处内容之外的内容。</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="tag-details.html">&lt;details&gt;</a><span class="new">New</span>
+            </td>
+            <td>定义了用户可见的或者隐藏的需求的补充细节。</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="tag-dialog.html">&lt;dialog&gt;</a><span class="new">New</span>
+            </td>
+            <td>定义一个对话框或者窗口</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="tag-summary.html">&lt;summary&gt;</a><span class="new">New</span>
+            </td>
+            <td>定义一个可见的标题。 当用户点击标题时会显示出详细信息。</td>
+        </tr>
+        <tr>
+            <td><b>元信息</b></td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td><a href="tag-head.html">&lt;head&gt;</a></td>
+            <td>定义关于文档的信息</td>
+        </tr>
+        <tr>
+            <td><a href="tag-meta.html">&lt;meta&gt;</a></td>
+            <td>定义关于 HTML 文档的元信息。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-base.html">&lt;base&gt;</a></td>
+            <td>定义页面中所有链接的默认地址或默认目标。</td>
+        </tr>
+        <tr>
+            <td><a class="notsupported" href="tag-basefont.html">&lt;basefont&gt;</a></td>
+            <td>
+                <span class="deprecated">HTML5不再支持。 HTML 4.01 已废弃。</span>
+                定义页面中文本的默认字体、颜色或尺寸。</td>
+        </tr>
+        <tr>
+            <td><b>程序</b></td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td><a href="tag-script.html">&lt;script&gt;</a></td>
+            <td>定义客户端脚本。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-noscript.html">&lt;noscript&gt;</a></td>
+            <td>定义针对不支持客户端脚本的用户的替代内容。</td>
+        </tr>
+        <tr>
+            <td><a class="notsupported" href="tag-applet.html">&lt;applet&gt;</a></td>
+            <td>
+                <span class="deprecated">HTML5不再支持。 HTML 4.01 已废弃。</span> 定义嵌入的 applet。</td>
+        </tr>
+        <tr>
+            <td>
+                <a href="tag-embed.html">&lt;embed&gt;</a><span class="new">New</span>
+            </td>
+            <td>定义了一个容器，用来嵌入外部应用或者互动程序（插件）。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-object.html">&lt;object&gt;</a></td>
+            <td>定义嵌入的对象。</td>
+        </tr>
+        <tr>
+            <td><a href="tag-param.html">&lt;param&gt;</a></td>
+            <td>定义对象的参数。</td>
+        </tr>
+        </tbody></table>
+    <input type="button" value="button" placeholder="button">
+    <input type="checkbox" value="checkbox" placeholder="checkbox">
+    <input type="color" value="color" placeholder="color">
+    <input type="date" value="date" placeholder="date">
+    <input type="datetime" value="datetime" placeholder="datetime">
+    <input type="datetime-local" value="datetime-local" placeholder="datetime-local">
+    <input type="email" value="email" placeholder="email">
+    <input type="file" value="file" placeholder="file">
+    <input type="hidden" value="hidden" placeholder="hidden">
+    <input type="image" value="image" placeholder="image">
+    <input type="month" value="month" placeholder="month">
+    <input type="number" value="number" placeholder="number">
+    <input type="password" value="password" placeholder="password">
+    <input type="radio" value="radio" placeholder="radio">
+    <input type="reset" value="reset" placeholder="reset">
+    <input type="search" value="search" placeholder="search">
+    <input type="submit" value="submit" placeholder="submit">
+    <input type="tel" value="tel" placeholder="tel">
+    <input type="text" value="text" placeholder="text">
+    <input type="time" value="time" placeholder="time">
+    <input type="url" value="url" placeholder="url">
+    <input type="week" value="week" placeholder="week">
+    <!--end-->
+
+    <!--asyncNew	async	规定异步执行脚本（仅适用于外部脚本）。
+        charset	charset	规定在脚本中使用的字符编码（仅适用于外部脚本）。
+        defer	defer	规定当页面已完成解析后，执行脚本（仅适用于外部脚本）。
+        src	URL	规定外部脚本的 URL。
+        type	MIME-type	规定脚本的 MIME 类型。-->
+    <script src="../script/JS.js"></script>
+    <script>
+        // var db = openDatabase('mydb', '1.0', 'Test DB', 2 * 1024 * 1024);
+        // var msg;
+        //
+        // db.transaction(function (tx) {
+        //     tx.executeSql('CREATE TABLE IF NOT EXISTS LOGS (id unique, log)');
+        //     tx.executeSql('INSERT INTO LOGS (id, log) VALUES (1, "菜鸟教程")');
+        //     tx.executeSql('INSERT INTO LOGS (id, log) VALUES (2, "www.runoob.com")');
+        //     msg = '<p>数据表已创建，且插入了两条数据。</p>';
+        //     document.querySelector('#status').innerHTML =  msg;
+        // });
+        //
+        // db.transaction(function (tx) {
+        //     tx.executeSql('SELECT * FROM LOGS', [], function (tx, results) {
+        //         var len = results.rows.length, i;
+        //         msg = "<p>查询记录条数: " + len + "</p>";
+        //         document.querySelector('#status').innerHTML +=  msg;
+        //
+        //         for (i = 0; i < len; i++){
+        //             msg = "<p><b>" + results.rows.item(i).log + "</b></p>";
+        //             document.querySelector('#status').innerHTML +=  msg;
+        //         }
+        //     }, null);
+        // });
+
+
+        document.querySelector("textarea").addEventListener('blur', function() {
+            console.log(document.querySelector("textarea").value);
+        });
+
+    </script>
+    <noscript>抱歉，你的浏览器不支持 JavaScript!</noscript>
+</body>
+</html>

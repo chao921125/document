@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+    <style>
+        * {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  color: #fff;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+body {
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw; 
+    overflow: hidden;
+}
+.loader-svg {
+    display: flex;
+    align-items: flex-end;
+}
+.loader-svg .mid svg polygon {
+    stroke-dasharray: 50;
+    animation: midanim 2.5s linear infinite;
+}
+@keyframes midanim {
+  to {
+    stroke-dashoffset:100; 
+  }
+}
+.loader-svg svg polygon {
+    stroke-dasharray: 25;
+    animation: anim 2s linear infinite;
+}
+@keyframes anim {
+  to {
+    stroke-dashoffset:100; 
+  }
+}
+.loader-text {
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin: 20px 0;
+    color: transparent;
+    -webkit-text-stroke: 0.5px #fff;
+}
+.loader-text span {
+  color: transparent;
+    -webkit-text-stroke: 0.5px #fff;
+    animation: dash 1.5s infinite;
+}
+@keyframes dash {
+  from {
+    -webkit-text-stroke: 0.5px #fff;
+  }
+  to {
+    color: #fff;
+  } 
+}
+    </style>
+</head>
+<body>
+    <div class="loading_outer">
+        <div class="loader-svg">
+          <div class="top">
+            <svg width="75px" height="75px" viewBox="-4 -1 38 28">
+              <polygon fill="transparent" stroke="#fff" stroke-width="2" points="15,0 30,30 0,30">
+              </polygon>
+            </svg>
+          </div>
+          <div class="mid">
+            <svg width="150px" height="150px" viewBox="-4 -1 38 28">
+              <polygon fill="transparent" stroke="#fff" stroke-width="2" points="15,0 30,30 0,30">
+              </polygon>
+            </svg>
+          </div>
+          <div class="bot">
+            <svg width="75px" height="75px" viewBox="-4 -1 38 28">
+              <polygon fill="transparent" stroke="#fff" stroke-width="2" points="15,0 30,30 0,30">
+              </polygon>
+            </svg>
+          </div>
+        </div>
+        <div class="loader-text">Loading<span>...</span></div>
+      </div>
+</body>
+</html>

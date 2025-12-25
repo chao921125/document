@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+  <div id="text">
+    给你两个 非空 的链表，表示两个非负的整数。它们每位数字都是按照 逆序 的方式存储的，并且每个节点只能存储 一位 数字。
+
+    请你将两个数相加，并以相同形式返回一个表示和的链表。
+
+    你可以假设除了数字 0 之外，这两个数都不会以 0 开头。
+
+    提示：
+
+    每个链表中的节点数在范围 [1, 100] 内
+    0 <= Node.val <= 9
+    题目数据保证列表表示的数字不含前导零
+  </div>
+  <div id="primary"></div>
+  <div id="exercises"></div>
+  <div id="time"></div>
+</body>
+<script>
+  ;((e) => {
+    document.title = "两数相加";
+
+    class neNode {
+      constructor(data) {
+        this.val = data;
+        this.next = null;
+      }
+    }
+    class singleLinkedList {
+      constructor() {
+        this.val = null;
+      }
+      // 添加节点
+      add(data) {
+        let node = new neNode(data);
+        if (this.val === null) {
+          this.val = node;
+        } else {
+          let current = this.val;
+          while (current.next) {
+            current = current.next;
+          }
+          current.next = node;
+        }
+      }
+      // 插入节点
+      insert(data, target) {
+        let node = new neNode(data);
+        let current = this.val;
+        while (current.next) {
+          if (current.val === target) {
+            node.next = current.next;
+            current.next = node;
+            break;
+          }
+          current = current.next;
+        }
+      }
+      // 查找节点
+      find(data) {
+        let current = this.val;
+        while (current) {
+          if (current.val === data) {
+            return current;
+          }
+          current = current.next;
+        }
+        return null;
+      }
+      // 删除节点
+      remove(data) {
+        let current = this.val;
+        let previous = null;
+        while (current) {
+          if (current.val === data) {
+            if (previous === null) {
+              this.val = current.next;
+            } else {
+              previous.next = current.next;
+            }
+            return true;
+          }
+          previous = current;
+          current = current.next;
+        }
+        return false;
+      }
+    }
+
+    // 利用反转，非链表
+    const addTwoNumbersBasic = (l1, l2) => {
+      if (!(l1.length && l2.length)) return;
+      let r = Number(l1.reverse().join("")) + Number(l2.reverse().join(""));
+      console.log(r.toString().split("").reverse().map(Number));
+      return r.toString().split("").reverse().map(Number);
+    }
+
+    // TODO
+    function ListNode(val = 0, next = null) {
+      this.val = (val===undefined ? 0 : val);
+      this.next = (next===undefined ? null : next);
+    }
+    const addTwoNumbers = (l1, l2) => {
+      let dummyHead = new ListNode(0);
+      let current = dummyHead;
+      let carry = 0;
+
+      while (l1 !== null || l2 !== null) {
+        let x = (l1 != null) ? l1.val : 0;
+        let y = (l2 != null) ? l2.val : 0;
+        let sum = carry + x + y || 0;
+        carry = Math.floor(sum / 10);
+        current.next = new ListNode(sum % 10);
+        current = current.next;
+
+        if (l1 != null) l1 = l1.next;
+        if (l2 != null) l2 = l2.next;
+      }
+
+      if (carry > 0) {
+        current.next = new ListNode(carry);
+      }
+
+      return dummyHead.next;
+    }
+
+    const testData1 = new singleLinkedList();
+    testData1.add([2,4,3]);
+    const testData2 = new singleLinkedList();
+    testData2.add([5,6,4]);
+    document.querySelector("#primary").innerText = "测试数据：" + testData1 + "-" + testData2;
+    const startTime = performance.now();
+    document.querySelector("#exercises").innerText = "算法结果：" + addTwoNumbers(testData1, testData2);
+    const endTime = performance.now();
+    document.querySelector("#time").innerText = "耗时：" + (endTime - startTime) + "ms";
+  })(window);
+</script>
+</html>

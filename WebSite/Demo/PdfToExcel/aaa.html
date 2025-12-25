@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Extract Images from PDF using PDF.js</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.8.335/pdf.min.js"></script>
+    </head>
+    <body>
+        <input type="file" id="pdfInput" accept="application/pdf">
+        <div id="imageContainer"></div>
+
+        <script>
+            document.getElementById('pdfInput').addEventListener('change', function(event) {
+                const file = event.target.files[0];
+
+                if (file) {
+                    const reader = new FileReader();
+                    reader.onload = function(e) {
+                        const pdfData = new Uint8Array(e.target.result);
+
+                        PDFJS.getDocument(pdfData).then(function(pdf) {
+                            const imageContainer = document.getElementById('imageContainer');
+                            imageContainer.innerHTML = '';
+
+                            for (let pageNum = 1; pageNum <= pdf.numPages; pageNum++) {
+                                pdf.getPage(pageNum).then(function(page) {
+                                    const viewport = page.getViewport({
+                                        scale: 1.0
+                                    });
+                                    const canvas = document.createElement('canvas');
+                                    const context = canvas.getContext('2d');
+
+                                    canvas.width = viewport.width;
+                                    canvas.height = viewport.height;
+
+                                    const renderContext = {
+                                        canvasContext: context,
+                                        viewport: viewport
+                                    };
+                                    page.render(renderContext).promise.then(function() {
+                                        const imageData = canvas.toDataURL(); // 获取Canvas中的图片数据
+                                        const imageElement = document.createElement('img');
+                                        imageElement.src = imageData;
+
+                                        imageContainer.appendChild(imageElement);
+                                    });
+                                });
+                            }
+                        });
+                    };
+                    reader.readAsArrayBuffer(file);
+                }
+            });
+        </script>
+    </body>
+</html>

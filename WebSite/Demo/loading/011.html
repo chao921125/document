@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+    <style>
+        .js div#preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  background: #333 url('./TGi.svg') no-repeat center center;
+}
+
+/* you can switch out the preloader for whatever animated svg or animated gif you want. */
+
+    </style>
+</head>
+<body>
+    <!--
+IMPORTANT, you need to add a script tag including jquery into the head of your document for this to work:
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+-->
+
+
+<div class="js"><!--this is supposed to be on the HTML element but codepen won't let me do it, put this class on your HTML element-->
+    <body>
+      <div id="preloader"></div>
+      
+    </body>
+    
+  </div><!--END: HTML element-->
+</body>
+</html>

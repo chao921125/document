@@ -1,0 +1,58 @@
+html, body {
+    margin: 0;
+    padding: 10px 20px;
+}
+.box-body {
+    height: 50vh;
+    border: 1px solid #4f4f4f;
+    border-radius: 5px;
+    display: block;
+}
+.message-list {
+    padding: 10px 20px;
+    overflow: auto;
+}
+.message-list .text-box {
+    display: inline-block;
+    overflow: auto;
+}
+.message-list .message-item {
+    overflow: auto;
+}
+.message-item.text-left {
+    text-align: left;
+}
+.message-item.text-right {
+    text-align: right;
+}
+.message-item .text-out {
+    overflow: hidden;
+    font-size: 16px;
+    white-space: nowrap;
+    width: 100%;
+}
+.message-item:last-child .text-out {
+    width: 0;
+    border-right: 2px solid black;
+    animation: InputText 1s steps(40, end) forwards, Blink 2s infinite;
+}
+
+@keyframes InputText {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+@keyframes Blink {
+    0% {
+        border-color: transparent;
+    }
+    50% {
+        border-color: black;
+    }
+    100% {
+        border-color: transparent;
+    }
+}

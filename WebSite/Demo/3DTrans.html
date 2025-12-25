@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<style>
+		.open { width:100px; height:100px;
+			background-color: #1e1e1e;
+			border-radius:50%; animation:rotate 2s infinite; -webkit-animation:rotate 2s infinite;}
+		@-webkit-keyframes rotate{
+			from{ -webkit-transform:rotateY(360deg);}
+			to{ -webkit-transform:rotateY(0deg);}
+		}
+		@keyframes rotate{
+			from{ -webkit-transform:rotateY(360deg);}
+			to{ -webkit-transform:rotateY(0deg);}
+		}
+
+		.container {
+			height: 500px;
+			background: #eee;
+			perspective: 500px;   /* 设置透视距离 */
+		}
+		.box {
+			width: 200px;
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%, -50%) rotateZ(10deg) rotateX(-30deg);
+			/* border: 1px solid #000; */
+			transform-style: preserve-3d;
+			animation: run 5s linear;
+			animation-iteration-count: infinite;
+		}
+		.box:hover {
+			animation-play-state: paused;
+		}
+		@keyframes run {
+			0% {
+				transform: translate(-50%, -50%) rotateZ(10deg) rotateX(-30deg) rotateY(0);
+			}
+			50% {
+				transform: translate(-50%, -50%) rotateZ(10deg) rotateX(-30deg) rotateY(180deg);
+			}
+			100% {
+				transform: translate(-50%, -50%) rotateZ(10deg) rotateX(-30deg) rotateY(360deg);
+			}
+		}
+		.box div {
+			width: 200px;
+			height: 200px;
+			position: absolute;
+			text-align: center;
+			line-height: 200px;
+			font-size: 30px;
+		}
+		.a1 {
+			background: rgba(0, 0, 255, 0.5);
+			transform: translateZ(100px);
+		}
+		.a2 {
+			background: rgba(0, 0, 255, 0.5);
+			transform: translateZ(-100px) rotateY(180deg);
+		}
+		.b1 {
+			background: rgba(0, 255, 0, 0.5);
+			transform: translateX(-100px) rotateY(-90deg);
+		}
+		.b2 {
+			background: rgba(0, 255, 0, 0.5);
+			transform: translateX(100px) rotateY(90deg);
+		}
+		.c1 {
+			background: rgba(255, 0, 0, 0.5);
+			transform: translateY(-100px) rotateX(90deg);
+		}
+		.c2 {
+			background: rgba(255, 0, 0, 0.5);
+			transform: translateY(100px) rotateX(-90deg);
+		}
+	</style>
+</head>
+<body>
+<div class="open">
+</div>
+<div class="container">
+	<div class="box">
+		<div class="a1" oncontextmenu="">a1</div>  <!-- 前 -->
+		<div class="a2">a2</div>  <!-- 后 -->
+		<div class="b1">b1</div>  <!-- 左 -->
+		<div class="b2">b2</div>  <!-- 右 -->
+		<div class="c1">c1</div>  <!-- 上 -->
+		<div class="c2">c2</div>  <!-- 下 -->
+	</div>
+</div>
+</body>
+</html>

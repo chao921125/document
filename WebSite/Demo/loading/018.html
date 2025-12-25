@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+    <style>
+        /*loader1 css begins*/
+.main-wrap {
+    background-color: #2b4661;
+    color: #fff;
+    height: 520px;
+    display: flex;
+    justify-content:center;
+    align-items:center;    
+}
+
+.main-wrap--white {
+  background-color: #ffffff;
+}
+
+#cssLoader1.main-wrap .child-common
+{
+    width: 8px;
+    height: 50px;
+    /*margin-right:5px;*/
+    margin-right:3px;
+    background-color: #FFF;
+    -webkit-animation: animate1 1s infinite;
+    animation: animate1 1s infinite;
+    float: left;
+}
+
+#cssLoader1.main-wrap .child1
+{
+   margin-right: 3px;
+} 
+
+#cssLoader1.main-wrap .child10
+{
+  -webkit-animation-delay: 0.9s;
+  animation-delay: 0.9s;  
+}
+
+#cssLoader1.main-wrap .child9
+{
+   -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;  
+}
+
+#cssLoader1.main-wrap .child8
+{
+   -webkit-animation-delay: 0.7s;
+  animation-delay: 0.7s;  
+}
+
+#cssLoader1.main-wrap .child7
+{
+   -webkit-animation-delay: 0.6s;
+  animation-delay: 0.6s;  
+}
+
+#cssLoader1.main-wrap .child6
+{
+   -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;  
+}
+
+#cssLoader1.main-wrap .child5
+{
+   -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+
+#cssLoader1.main-wrap .child4
+{
+   -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;    
+}
+
+#cssLoader1.main-wrap .child3
+{
+   -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;  
+}
+
+#cssLoader1.main-wrap .child2
+{
+   -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+}
+
+@-webkit-keyframes animate1 {
+
+  50% {
+    -ms-transform: scaleY(0); 
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+
+  }
+}
+
+@keyframes animate1 {
+  50% {
+    -ms-transform: scaleY(0); 
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+  }
+}
+/*loader1 css ends*/
+
+
+cssLoader17 {
+position: relative;
+width: 2.5em;
+height: 2.5em;
+transform: rotate(165deg);
+}
+.cssLoader17:before, .cssLoader17:after {
+content: '';
+position: absolute;
+top: 50%;
+left: 50%;
+display: block;
+width: 0.5em;
+height: 0.5em;
+border-radius: 0.25em;
+transform: translate(-50%, -50%);
+}
+.cssLoader17:before {
+animation: before 2s infinite;
+}
+.cssLoader17:after {
+animation: after 2s infinite;
+}
+
+@keyframes before {
+0% {
+width: 0.5em;
+box-shadow: 1em -0.5em rgba(225, 20, 98, 0.75), -1em 0.5em rgba(111, 202, 220, 0.75);
+}
+35% {
+width: 2.5em;
+box-shadow: 0 -0.5em rgba(225, 20, 98, 0.75), 0 0.5em rgba(111, 202, 220, 0.75);
+}
+70% {
+width: 0.5em;
+box-shadow: -1em -0.5em rgba(225, 20, 98, 0.75), 1em 0.5em rgba(111, 202, 220, 0.75);
+}
+100% {
+box-shadow: 1em -0.5em rgba(225, 20, 98, 0.75), -1em 0.5em rgba(111, 202, 220, 0.75);
+}
+}
+@keyframes after {
+0% {
+height: 0.5em;
+box-shadow: 0.5em 1em rgba(61, 184, 143, 0.75), -0.5em -1em rgba(233, 169, 32, 0.75);
+}
+35% {
+height: 2.5em;
+box-shadow: 0.5em 0 rgba(61, 184, 143, 0.75), -0.5em 0 rgba(233, 169, 32, 0.75);
+}
+70% {
+height: 0.5em;
+box-shadow: 0.5em -1em rgba(61, 184, 143, 0.75), -0.5em 1em rgba(233, 169, 32, 0.75);
+}
+100% {
+box-shadow: 0.5em 1em rgba(61, 184, 143, 0.75), -0.5em -1em rgba(233, 169, 32, 0.75);
+}
+}
+.loader {
+position: absolute;
+top: calc(50% - 1.25em);
+left: calc(50% - 1.25em);
+}
+    </style>
+</head>
+<body>
+    <div id="cssLoader17" class="main-wrap main-wrap--white">
+        <div class="cssLoader17"></div>
+        </div>
+        
+        <div id="cssLoader1" class="main-wrap">
+          <div class="child-common child1"></div>
+          <div class="child-common child2"></div>
+          <div class="child-common child3"></div>
+          <div class="child-common child4"></div>
+          <div class="child-common child5"></div>
+          <div class="child-common child6"></div>
+          <div class="child-common child7"></div>
+          <div class="child-common child8"></div>
+          <div class="child-common child9"></div>
+          <div class="child-common child10"></div>
+        </div>
+</body>
+</html>

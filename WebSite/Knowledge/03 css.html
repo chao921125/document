@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+https://developer.mozilla.org/zh-CN/docs/Web/CSS
+<code>常见CSS选择器</code>
+<code>
+    !important声明的样式的优先级最高
+    如果优先级一致，则最后出现的样式生效
+    继承得到的样式的优先级最低
+    样式来源不同时，优先级顺序为：内联样式 > 内部样式 > 外部样式 > 浏览器用户自定义样式 > 浏览器默认样式
+</code>
+<code>
+    display属性值及其作用
+    none	元素不显示，并且会从文档流中移除
+    block	块元素类型。默认宽度为父元素宽度，可设置宽高，换行显示
+    inline	行内元素类型。默认宽度为内容宽度，不可设置宽高，同行显示
+    inline-block	行内块元素类型。默认宽度为内容宽度，可以设置宽高，同行显示
+    list-item	像块类型元素一样显示，并添加样式列表标记
+    table	此元素会作为块级表格来显示
+    inherit	规定应该从父元素继承display属性的值
+
+    区别	block	inline	inline-block
+    独占一行	是	否	否
+    width	是	否	是
+    height	是	否	是
+    margin	是	水平方向有效	是
+    padding	是	是	是
+
+    区别	行内元素	块级元素
+    宽高	无效	有效
+    padding	有效	有效
+    margin	水平方向有效	有效
+    自动换行	不可以	可以
+    多个元素排列	默认从左到右	默认从上到下
+</code>
+<code>
+    隐藏元素的方法
+    display: none;	渲染树不会包含该渲染对象，因此该元素不会在页面中占据位置，也不会响应绑定的监听事件
+    visibility: hidden;	元素在页面中仍占据空间，但是不会响应绑定的监听事件
+    opacity: 0;	透明度设置为0，来隐藏元素。元素在页面中仍然占据空间，并且能够响应元素绑定的监听事件
+    position: absolute;	通过使用绝对定位将元素移除可视区域内，以此来实现元素的隐藏
+    z-index: -10;	使用其余元素遮盖当前元素实现隐藏
+    clip/clip-path	使用元素裁剪的方法来实现元素的隐藏，这种方法下，元素仍在页面中占据位置，但是不会响应绑定的监听事件
+    transform: scale(0,0)	将元素缩放为 0，来实现元素的隐藏。这种方法下，元素仍在页面中占据位置，但是不会响应绑定的监听事件
+</code>
+<code>
+    伪元素和伪类的区别和作用
+    在元素前后插入额外的元素或样式，插入的元素没有子文档中生成，它们只在外部显示可见
+    css3中伪元素在书写是使用双冒号::，比如::before
+
+    将特殊的效果添加到特定的选择器上。它是在现有元素上添加类别，并不会产生新的元素
+    冒号:用于伪类，比如:hover
+</code>
+<code>
+    盒模型
+    盒模型由四个部分组成，分别是margin、border、padding、content
+    标准盒模型和IE盒模型的区别在于：在设置width和height时，所对应的范围不同
+
+    标准盒模型的width和height属性的范围只包含了content
+    IE盒模型的width和height属性的范围包含了border、padding和content
+    可以通过修改元素的box-sizing属性来改变元素的盒模型：
+
+    box-sizing: content-box 表示标准盒模型（默认值）
+    box-sizing: border-box 表示IE盒模型（怪异盒模型）
+</code>
+<code>
+    实现单行、多行文本溢出隐藏
+    需要在固定的宽高元素中呈现
+    单行文本溢出
+    overflow: hidden;           // 溢出隐藏
+    text-overflow: ellipsis;    // 溢出部分使用省略号显示
+    white-space: nowrap;        // 规定段落中的文本不可换行
+    多行文本溢出
+    overflow: hidden;            // 溢出隐藏
+    text-overflow: ellipsis;     // 溢出用省略号显示
+    display:-webkit-box;         // 作为弹性伸缩盒子模型显示。
+    -webkit-box-orient:vertical; // 设置伸缩盒子的子元素排列方式：从上到下垂直排列
+    -webkit-line-clamp:3;        // 显示的行数
+</code>
+<code>
+    实现水平垂直居中
+    margin: auto
+    绝对定位(1)
+    .parent {
+    position: relative;
+    }
+    .child {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+    }
+    flex
+    .parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+</code>
+<code>
+    浮动
+    浮动元素脱离文档流，不占据空间（引起“高度塌陷”）
+    浮动元素碰到包含它的边框或者其它浮动元素的边框停留
+    浮动元素可以左右移动，知道遇到另一个浮动元素或者遇到它外边缘的包含框。浮动框不属于文档流中的普通流，但元素浮动之后，不会影响块级元素的布局，只会影响内联元素的布局。此时文档流中的普通流就会表现得该浮动框不存在一样的布局模式。当包含框的高度小于浮动框的时候，此时就会出现“高度塌陷”
+
+    浮动元素引起的问题
+    父元素的高度无法撑开，影响与父元素同级的元素
+    与浮动元素同级的非浮动元素会跟随其后
+    若浮动的元素不是第一个元素，则该元素之前的元素元素也要浮动，否则会影响页面的显示结构
+    清除浮动的方式
+    给父级元素设置高度
+    最后一个浮动元素之后添加一个空div标签，并添加clear: both样式
+    包含浮动元素的父级元素添加overflow: hidden或overflow: auto样式
+    使用 ::after 伪元素
+    使用clear属性清除浮动
+</code>
+<code>
+    块格式化上下文（Block Formatting Context，BFC）
+    BFC: 块格式化上下文（Block Formatting Context，BFC）是Web页面的可视化CSS渲染的一部分，是布局过程中生成块级盒子的区域，也是浮动元素与其他元素的交互限定区域。
+    BFC的创建条件
+    根元素：body
+    元素设置浮动：float除none以外的值
+    元素设置绝对定位：position设置为absolute或fixed
+    display设置为inline-block、table-cell、table-caption、flex等
+    overflow设置为hidden、auto、scroll
+    BFC的特点
+    垂直方向上，自上而下排列，和文档流的排列方式一致
+    在BFC中上下相邻的的两个容器的margin会重叠
+    计算BFC的高度时，需要计算浮动元素的高度
+    BFC区域不会与浮动的容器发生重叠
+    BFC是独立的容器，容器内部元素不会影响外部元素
+    每个元素的margin-left值和容器的border-left相接处
+    BFC的作用
+    解决margin的重叠问题：由于BFC是一个独立的区域，内部的元素和外部的元素互不影响，将两个元素变为两个BFC，就解决了margin重叠的问题
+    解决高度塌陷的问题：对子元素设置浮动后，父元素会发生高度塌陷，即height变为0。只需将父元素变成一个BFC即可，常用的办法是给父元素设置overflow:hidden
+    创建自适应两栏布局：左边的宽度固定，右边的宽度自适应。左侧设置float:left，右侧设置overflow: hidden。这样右边就触发了BFC，BFC的区域不会与浮动元素发生重叠，所以两侧就不会发生重叠，实现了自适应两栏布局
+</code>
+<code>
+    margin重叠问题
+    两个块级元素的上外边距和下外边距可能会合并（折叠）为一个外边距，其大小会取其中外边距值大的那个，这种行为就是外边距折叠。需要注意的是，浮动的元素和绝对定位这种脱离文档流的元素的外边距不会折叠。重叠只会出现在垂直方向。
+    计算原则
+    如果两者都是正数，取较大的那个
+    如果一正一负，取正值减去负值后的绝对值
+    都是负值是，用0减去两个中绝对值大的那个
+    解决办法
+    对于折叠的情况，主要有两种：兄弟之间重叠和父子之间重叠
+    兄弟间折叠：
+
+    底部元素变为行内盒子：display: inline-block
+    底部元素设置浮动：float
+    底部元素的position的值为absolute/fixed
+    父子间的折叠：
+
+    父元素加入：overflow: hidden
+    父元素添加透明边框：border: 1px solid transparent
+    子元素变为行内盒子：display: inline-block
+    子元素加入浮动属性或定位
+</code>
+<code>
+</code>
+</body>
+</html>

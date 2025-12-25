@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PDF Image Extractor</title>
+        <script src="https://unpkg.com/pdfjs-dist@2.16.105/build/pdf.js"></script>
+        <script src="https://unpkg.com/pdfjs-dist@2.16.105/build/pdf.sandbox.js"></script>
+        <script src="https://unpkg.com/pdfjs-dist@2.16.105/build/pdf.worker.js"></script>
+    </head>
+    <body>
+        <input type="file" id="pdfFile" accept=".pdf" />
+        <div id="images"></div>
+
+        <script>
+            (() => {
+                // 初始化 pdf.js
+                pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://unpkg.com/pdfjs-dist@2.16.105/build/pdf.worker.js';
+                document.getElementById('pdfFile').addEventListener('change', async function(evt) {
+                    const file = evt.target.files[0];
+                    if (file) {
+                        const reader = new FileReader();
+
+                        reader.onload = async function(readerEvent) {
+                            const pdfData = new Uint8Array(readerEvent.target.result);
+
+                            const pdf = await pdfjsLib.getDocument({
+                                data: pdfData
+                            }).promise;
+
+                            const numPages = pdf.numPages;
+
+                            for (let i = 1; i <= numPages; i++) {
+                                const page = await pdf.getPage(i);
+                                const ops = await page.getOperatorList();
+
+                                for (let j = 0; j < ops.fnArray.length; j++) {
+                                    if (ops.fnArray[j] === pdfjsLib.OPS.paintImageXObject) {
+                                        const imgIndex = ops.argsArray[j][0];
+                                        const img = await page.objs.get(imgIndex);
+                                        console.log(img);
+                                        let imgEl = document.createElement("img");
+                                        imgEl.width = 400;
+                                        imgEl.height = 500;
+                                        imgEl.src = img;
+                                        // 此时 img 是一个包含图像数据的 HTMLImageElement
+                                        // 你可以添加到 DOM 或其他地方
+                                        document.getElementById('images').appendChild(imgEl);
+                                    }
+                                }
+                            }
+                        };
+
+                        reader.readAsArrayBuffer(file);
+                    }
+                });
+            })()
+
+        </script>
+    </body>
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tips</title>
+  <style>
+    #message_box_outside {
+      position: fixed;
+      top: 5%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      /* 50%为自身尺寸的一半 */
+      z-index: 2000;
+    }
+
+    .message_box_inside {
+      margin-top: 10px;
+      color: white;
+      min-height: 40px;
+      min-width: 200px;
+      border-radius: 10px;
+    }
+
+    .cc-display {
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      display: -webkit-flex;
+    }
+  </style>
+</head>
+<body>
+<div style="height: 500px;">
+    <button onclick="test()">test</button>
+</div>
+<script>
+  const message = {
+    background: '', // 背景颜色
+    outside: '', // 外框元素
+    inside: '', // 信息显示元素
+    insideSetTime: '', // 信息移除setTime
+    body: '', // body元素
+    time: 0, // 显示时间
+    default(msg = "") {
+      this.run(msg, "info");
+    },
+    info(msg = "") {
+      this.run(msg, "info");
+    },
+    success(msg = "") {
+      this.run(msg, "success");
+    },
+    error(msg = "") {
+      this.run(msg, "error");
+    },
+    warning(msg = "") {
+      this.run(msg, "warning");
+    },
+    run(msg = "success", type = 'success', time = 2000) {
+      // 显示时间
+      this.time = time;
+
+      // 背景色
+      this.background = this.backgroundCheck(type)
+
+      // body
+      this.body = document.body;
+
+      // 时间戳id
+      let id = 'inside_box' + Date.now();
+
+      // 检查是否存在外框
+      let outsideShow = document.getElementById('message_box_show');
+      if (outsideShow != null) {
+        // 文字显示区域
+        this.inside = document.createElement('div');
+        this.inside.setAttribute('class', 'message_box_inside cc-display')
+        this.inside.setAttribute('id', id)
+        this.inside.style.backgroundColor = this.background;
+        this.inside.innerHTML = `<span>${msg}</span>`
+        outsideShow.appendChild(this.inside);
+      } else {
+        // 最外框
+        this.outside = document.createElement('div');
+        this.outside.setAttribute('id', 'message_box_outside')
+        this.outside.setAttribute('class', 'cc-display')
+
+        // 中间区域
+        outsideShow = document.createElement('div');
+        outsideShow.setAttribute('id', 'message_box_show');
+
+        // 文字显示区域
+        this.inside = document.createElement('div');
+        this.inside.setAttribute('class', 'message_box_inside cc-display')
+        this.inside.setAttribute('id', id)
+        this.inside.style.backgroundColor = this.background;
+        this.inside.innerHTML = `<span>${msg}</span>`
+
+        // 显示
+        outsideShow.appendChild(this.inside);
+        this.outside.appendChild(outsideShow);
+        this.body.appendChild(this.outside);
+      }
+
+      // 添加监听
+      this[id] = this.insideTime(this.inside, outsideShow);
+      this.boxShowTime(this.inside, id, outsideShow);
+    },
+
+    // 信息显示区域展示
+    boxShowTime(inside, insideSetTime, outsideShow) {
+      inside.addEventListener('mouseleave', () => {
+        // 离开后设置隐藏时间
+        this[insideSetTime] = this.insideTime(inside, outsideShow);
+      })
+      inside.addEventListener('mouseenter', () => {
+        // 清除隐藏设置
+        clearTimeout(this[insideSetTime]);
+      })
+    },
+
+    // 信息区显示
+    insideTime(inside, outsideShow) {
+      return setTimeout(() => {
+        outsideShow.removeChild(inside);
+      }, this.time);
+    },
+
+    // 判定显示颜色
+    backgroundCheck(type) {
+      if (type === 'success') return '#67C23A';
+      if (type === 'error') return '#F56C6C';
+      if (type === 'warning') return '#E6A23C';
+      if (type === 'info') return '#909399';
+      return '#909399'; // 默认级别
+    },
+  }
+
+  message.info("列表查询成功！");
+  message.success("列表查询成功！");
+  message.error("列表查询失败！")
+  message.warning("列表查询异常！")
+
+  function test() {
+    message.info("列表查询成功！");
+    message.success("列表查询成功！");
+    message.error("列表查询失败！")
+    message.warning("列表查询异常！")
+  }
+</script>
+</body>
+</html>

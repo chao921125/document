@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+  <div id="text">
+    Desc
+  </div>
+  <div id="primary"></div>
+  <div id="changed"></div>
+  <div id="changed1"></div>
+</body>
+<script>
+  ;((e) => {
+    document.title = "数组字符串不同顺序"
+    const StrArr = (array) => {
+      let hm = new Map();
+      for (let i = 0; i < array.length; i++) {
+        let sum = 0;
+        array[i].split("").forEach((item) => sum += item.codePointAt());
+        if (hm.has(sum)) {
+          hm.set(sum, [...hm.get(sum), array[i]]);
+        } else {
+          hm.set(sum, [array[i]])
+        }
+      }
+      let rel = [];
+      for (let o of hm.values()) {
+        rel.push(o);
+      }
+      return rel;
+    }
+    document.querySelector("#primary").innerText = "原数组为：" + ["eat", "tea", "tan", "ate", "nat", "bat"];
+    document.querySelector("#changed").innerText = "基础算法索引结果：" + StrArr(["eat", "tea", "tan", "ate", "nat", "bat"]);
+  })(window);
+</script>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+  <div id="text">
+    编写一个函数来查找字符串数组中的最长公共前缀。
+
+    如果不存在公共前缀，返回空字符串 ""。
+
+
+
+    示例 1：
+
+    输入：strs = ["flower","flow","flight"]
+    输出："fl"
+    示例 2：
+
+    输入：strs = ["dog","racecar","car"]
+    输出：""
+    解释：输入不存在公共前缀。
+
+
+    提示：
+
+    1 <= strs.length <= 200
+    0 <= strs[i].length <= 200
+    strs[i] 仅由小写英文字母组成
+  </div>
+  <div id="primary"></div>
+  <div id="exercises"></div>
+  <div id="time"></div>
+</body>
+<script>
+  ;((e) => {
+    document.title = "罗马数字转整数";
+
+    const getNumber = (roman) => {
+      switch (roman) {
+        case "I": return 1;
+        case "V": return 5;
+        case "X": return 10;
+        case "L": return 50;
+        case "C": return 100;
+        case "D": return 500;
+        case "M": return 1000;
+        default: return 0;
+      }
+    }
+
+    const romanToInt = (s) => {
+      const RomanIntEnum = {
+        "I": 1,
+        "V": 5,
+        "X": 10,
+        "L": 50,
+        "C": 100,
+        "D": 500,
+        "M": 1000,
+      }
+      let leftVal = 0;
+      let sum = 0;
+      if (s.length === 1) return RomanIntEnum[s];
+      for (let i = 1; i < s.length; i++) {
+        leftVal = RomanIntEnum[s[i - 1]];
+        let current = RomanIntEnum[s[i]];
+        if (leftVal < current) {
+          leftVal = leftVal * -1;
+        }
+        if (i === s.length - 1) {
+          sum += current;
+        }
+        sum += leftVal;
+      }
+      return sum;
+    }
+
+    let testData = "MCMXCIV";
+    document.querySelector("#primary").innerText = "测试数据：" + testData;
+    const startTime = performance.now();
+    document.querySelector("#exercises").innerText = "基础算法结果：" + romanToInt(testData);
+    const endTime = performance.now();
+    document.querySelector("#time").innerText = "耗时：" + (endTime - startTime) + "ms";
+  })(window);
+</script>
+</html>

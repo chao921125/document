@@ -1,0 +1,74 @@
+<!-- 声明文档结构类型 -->
+<!DOCTYPE html>
+<!-- html语法开始 zh-cn -->
+<html lang="en">
+<!-- 头部信息 -->
+<head>
+    <!--  字符集  -->
+    <meta charset="UTF-8">
+
+    <!--    -->
+    <meta name="description" content="demo html">
+    <meta name="author" content="demo">
+    <meta name="copyright" content="demo">
+    <!--    -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" href="https://static.runoob.com/images/icon/mobile-icon.png">
+    <link rel="shortcut icon" href="https://static.runoob.com/images/favicon.ico" mce_href="//static.runoob.com/images/favicon.ico" type="image/x-icon">
+
+    <title>demo html</title>
+    <link rel="stylesheet" href="../assets/style/common/reset.css" />
+    <style>
+         /*
+            width px vw % auto
+            height px vh % auto
+            em 相对于父元素的font-size大小
+            rem 相对于body的font-size大小
+            px 固定像素值
+            vw 可视化窗口比例
+            %
+            auto 根据内部实际的内容所占用空间
+
+            css解析原则
+            1、自上而下解析
+            2、行内优先级高于外部样式优先级
+            3、!important 优先级高于其他
+         */
+         div {
+             background-color: #0c0510;
+         }
+        .div-box {
+            width: 100%;
+            height: auto;
+            background-color: #6dd5fa;
+            display: flex;
+            display: -webkit-flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .demo-div {
+            /*margin: 0 auto;*/
+            width: 100px;
+            height: 100px;
+            /* margin padding 上 右 下 左 | 上下 右左 | 上 右左 下*/
+            margin: 20px;
+            padding: 40px;
+            border: 1px solid #00ff00;
+            background-color: #1a2a6c !important;
+            font-size: 20px !important;
+        }
+    </style>
+</head>
+<!-- 主体内容，包含着你显示在网页的内容 -->
+<body>
+    <!-- 结构性元素 确定HTML结构完整性 -->
+    <div class="div-box">
+<!--         style="background-color: #f0ad4e;"-->
+        <div class="demo-div" id="demoDiv" style="background-color: #f0ad4e;"><span>123123</span></div>
+    </div>
+</body>
+<!--  脚本  -->
+<script>
+</script>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>数组去重</title>
+</head>
+<body>
+    <div>
+        给你一个 升序排列 的数组 nums ，请你 原地 删除重复出现的元素，使每个元素 只出现一次 ，返回删除后数组的新长度。元素的 相对顺序 应该保持 一致 。
+
+        由于在某些语言中不能改变数组的长度，所以必须将结果放在数组nums的第一部分。更规范地说，如果在删除重复项之后有 k 个元素，那么 nums 的前 k 个元素应该保存最终结果。
+
+        将最终结果插入 nums 的前 k 个位置后返回 k 。
+
+        不要使用额外的空间，你必须在 原地 修改输入数组 并在使用 O(1) 额外空间的条件下完成。
+
+        判题标准:
+
+        系统会用下面的代码来测试你的题解:
+
+        int[] nums = [...]; // 输入数组
+        int[] expectedNums = [...]; // 长度正确的期望答案
+
+        int k = removeDuplicates(nums); // 调用
+
+        assert k == expectedNums.length;
+        for (int i = 0; i < k; i++) {
+        assert nums[i] == expectedNums[i];
+        }
+    </div>
+  <div id="primary"></div>
+  <div id="sort"></div>
+  <div id="changed"></div>
+<script>
+    ;((e) => {
+        // 解题思路：双游标记录，比对左右游标的值是否相等，相等的时候：左侧游标不变，右侧游标+1。不相等的时候：左侧游标+1，将右侧游标的值赋予左侧游标+1后的值。
+        // 前提：两者游标初始须相邻。额外扩展，数组的删除。
+        // 空间复杂度和时间复杂度就是O(1)和O(n)
+        const removeDuplicates = (array) => {
+            // array = [...new Set(array)];
+            // Map
+            if (!array || array.length === 0) return array || [];
+            let l = 0;
+            for (let r = 1; r < array.length; r++) {
+                if (array[l] !== array[r]) {
+                    ++l;
+                    array[l] = array[r];
+                }
+            }
+            // pop(),shift()
+            // slice(),filter(),
+            // delete
+            let pIndex = array.length;
+            let dIndex = array.slice(l+1).length;
+            document.querySelector("#changed").innerText = "去重后数组为：" + array.slice(0, pIndex - dIndex);
+        };
+        let arr = [];
+        for (let i = 0; i < 20; i++) {
+            arr.push(Math.floor(Math.random() * i + 1));
+        }
+        document.querySelector("#primary").innerText = "原数组为：" + arr;
+        arr = arr.sort((a, b) => {return a - b});
+        document.querySelector("#sort").innerText = "排序后数组为：" + arr;
+        removeDuplicates(arr);
+    })(window);
+</script>
+</body>
+</html>

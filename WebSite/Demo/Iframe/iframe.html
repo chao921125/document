@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<iframe id="game" width="" height="" frameborder="0" seamless allowfullscreen="true"></iframe>
+<br>
+<button onclick="add()">add</button>
+
+<script>
+    function add() {
+      // document.querySelector("#game").setAttribute("src", "https://test-www.metagaia.io/game-swmd");
+      var iframe = document.querySelector("#game");
+      iframe.width = document.documentElement.clientWidth;
+      iframe.height = document.documentElement.clientHeight;
+      // iframe.src = "https://www.metagaia.io/hexahero";
+      document.querySelector("#game").setAttribute("src", "./iframeChild.html");
+    }
+    function pLog(who) {
+      console.log(who + ", child click");
+    }
+</script>
+</body>
+</html>

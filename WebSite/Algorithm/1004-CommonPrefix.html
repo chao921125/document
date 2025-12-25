@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+  <div id="text">
+    编写一个函数来查找字符串数组中的最长公共前缀。
+
+    如果不存在公共前缀，返回空字符串 ""。
+
+
+
+    示例 1：
+
+    输入：strs = ["flower","flow","flight"]
+    输出："fl"
+    示例 2：
+
+    输入：strs = ["dog","racecar","car"]
+    输出：""
+    解释：输入不存在公共前缀。
+
+
+    提示：
+
+    1 <= strs.length <= 200
+    0 <= strs[i].length <= 200
+    strs[i] 仅由小写英文字母组成
+  </div>
+  <div id="primary"></div>
+  <div id="exercises"></div>
+  <div id="time"></div>
+</body>
+<script>
+  ;((e) => {
+    document.title = "最长公共前缀";
+
+    const longestCommonPrefix = (strs) => {
+      let prefix = strs[0];
+      if (strs.length === 1) return prefix;
+      for (let i = 1; i < strs.length; i++) {
+        while (!strs[i].startsWith(prefix)) {
+          prefix = prefix.substring(0, prefix.length - 1);
+        }
+      }
+      return prefix;
+    }
+
+    let testData = ["dog","racecar","car"];
+    document.querySelector("#primary").innerText = "测试数据：" + testData;
+    const startTime = performance.now();
+    document.querySelector("#exercises").innerText = "基础算法结果：" + longestCommonPrefix(testData);
+    const endTime = performance.now();
+    document.querySelector("#time").innerText = "耗时：" + (endTime - startTime) + "ms";
+  })(window);
+</script>
+</html>

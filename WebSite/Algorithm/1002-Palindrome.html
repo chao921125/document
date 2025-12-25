@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+  <div id="text">
+    给你一个整数 x ，如果 x 是一个回文整数，返回 true ；否则，返回 false 。
+
+    回文数是指正序（从左向右）和倒序（从右向左）读都是一样的整数。
+
+    例如，121 是回文，而 123 不是。
+  </div>
+  <div id="primary"></div>
+  <div id="exercises"></div>
+  <div id="time"></div>
+</body>
+<script>
+  ;((e) => {
+    document.title = "回文数";
+
+    const isPalindromeReverse1 = (x) => {
+      const str = String(x);
+      for (let i = 0, j = str.length - 1; i < str.length; i++) {
+        if (str[i] !== str[j - i]) return false;
+      }
+      return true;
+    }
+    const isPalindromeReverse2 = (x) => {
+      if (x < 0) return false;
+      let val = x;
+      let reVal = 0;
+      while (x) {
+        reVal = reVal * 10 + x % 10;
+        if (reVal >= 2 ** 31 - 1 || reVal <= (-2) ** 31 - 1) return false;
+        x = Math.floor(x / 10);
+      }
+      return val === reVal;
+    }
+    const isPalindromeReverse = (x) => {
+      return x === Number(String(x).split("").reverse().join(""));
+    }
+
+    let testData = 123321;
+    document.querySelector("#primary").innerText = "测试数据：" + testData;
+    const startTime = performance.now();
+    document.querySelector("#exercises").innerText = "基础算法结果：" + isPalindromeReverse(testData);
+    const endTime = performance.now();
+    document.querySelector("#time").innerText = "耗时：" + (endTime - startTime) + "ms";
+  })(window);
+</script>
+</html>

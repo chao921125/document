@@ -1,0 +1,395 @@
+html
+{
+    color: #000;
+    background: #FFF;
+    height: 100%;
+    overflow: hidden;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    height: 100%;
+    min-width: 1366px;
+    overflow: hidden;
+}
+
+.universe
+{
+    background: url("../images/universe.png") no-repeat center center;
+    height: 100%;
+}
+
+.universe > .solarsystem
+{
+    width: 1366px;
+    margin: 0 auto;
+    position: relative;
+    top: 90px;
+    height: 0;
+    /*perspective: 1000px;*/
+    perspective-origin: 50% 0;
+    transform-style: preserve-3d !important;
+}
+
+.solarsystem .sun
+{
+    position: absolute;
+    background: url("../images/sun.png") no-repeat center center;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    top: 150px;
+    left: 50%;
+    margin-left: -75px;
+}
+
+.orbit
+{
+    border: 1px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    transform-style: preserve-3d !important;
+    animation: orbitrotate 10s linear 0s normal none infinite;
+}
+
+.planet
+{
+    position: absolute;
+    transform-style: preserve-3d !important;
+    transform: rotateX(-90deg) rotateY(0deg);
+    -ms-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+}
+
+@keyframes orbitrotate
+{
+    0%
+    {
+        transform: rotateX(75deg) rotateY(-10deg) rotateZ(0deg);
+    }
+
+    100%
+    {
+        transform: rotateX(75deg) rotateY(-10deg) rotateZ(-360deg);
+    }
+}
+
+.planet .ball
+{
+    background-size: 100% 100%;
+    transform-origin: 50% 50% 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    transform: rotateX(-90deg) rotateY(0deg);
+    animation: planetrotate 10s linear 0s normal none infinite;
+}
+
+
+@keyframes planetrotate
+{
+    0%
+    {
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+
+    100%
+    {
+        transform: rotateX(0deg) rotateY(-360deg);
+    }
+}
+
+/*#region 水星 */
+
+.orbit.mercury
+{
+    height: 180px;
+    width: 180px;
+    left: 50%;
+    top: 135px;
+    margin-left: -90px;
+    animation-duration: 3s;
+    z-index: 10;
+}
+
+.orbit.mercury > .planet
+{
+    height: 20px;
+    width: 20px;
+    left: 15px;
+    top: 15px;
+}
+
+.orbit.mercury > .planet > .ball
+{
+    background-image: url("../images/mercury.png");
+    animation-duration: 3s;
+}
+
+/*#endregion */
+
+/*#region 金星 */
+
+.orbit.venus
+{
+    height: 260px;
+    width: 260px;
+    left: 50%;
+    top: 95px;
+    margin-left: -130px;
+    animation-duration: 8s;
+    z-index: 11;
+}
+
+
+.orbit.venus > .planet
+{
+    height: 30px;
+    width: 30px;
+    left: 23px;
+    top: 23px;
+}
+
+.orbit.venus > .planet > .ball
+{
+    background-image: url("../images/venus.png");
+    animation-duration: 8s;
+}
+/*#endregion */
+
+/*#region 地球 */
+
+.orbit.earth
+{
+    height: 340px;
+    width: 340px;
+    left: 50%;
+    top: 55px;
+    margin-left: -170px;
+    animation-duration: 12s;
+    z-index: 12;
+}
+
+
+.orbit.earth > .planet
+{
+    height: 30px;
+    width: 30px;
+    left: 35px;
+    top: 35px;
+}
+
+.orbit.earth > .planet > .ball
+{
+    background-image: url("../images/earth.png");
+    animation-duration: 12s;
+}
+/*#endregion */
+
+/*#region 火星 */
+
+.orbit.mars
+{
+    height: 420px;
+    width: 420px;
+    left: 50%;
+    top: 15px;
+    margin-left: -210px;
+    animation-duration: 20s;
+    z-index: 13;
+}
+
+
+.orbit.mars > .planet
+{
+    height: 24px;
+    left: 50px;
+    top: 50px;
+    width: 24px;
+}
+
+.orbit.mars > .planet > .ball
+{
+    background-image: url("../images/mars.png");
+    animation-duration: 20s;
+}
+/*#endregion */
+
+/*#region 木星 */
+.orbit.jupiter
+{
+    height: 540px;
+    width: 540px;
+    left: 50%;
+    top: -45px;
+    margin-left: -270px;
+    animation-duration: 50s;
+}
+
+.orbit.jupiter > .planet
+{
+    height: 60px;
+    left: 48px;
+    top: 48px;
+    width: 60px;
+}
+
+.orbit.jupiter > .planet > .ball
+{
+    background-image: url("../images/jupiter.png");
+    animation-duration: 50s;
+}
+/*#endregion */
+
+/*#region 土星 */
+.orbit.saturn
+{
+    height: 660px;
+    width: 660px;
+    left: 50%;
+    top: -105px;
+    margin-left: -330px;
+    animation-duration: 60s;
+}
+
+.orbit.saturn > .planet
+{
+    height: 70px;
+    width: 122px;
+    right: 52px;
+    top: 52px;
+}
+
+.orbit.saturn > .planet > .ball
+{
+    background-image: url("../images/saturn.png");
+    animation-duration: 60s;
+}
+/*#endregion */
+
+/*#region 天王星 */
+.orbit.uranus
+{
+    height: 780px;
+    width: 780px;
+    left: 50%;
+    top: -165px;
+    margin-left: -390px;
+    animation-duration: 80s;
+}
+
+.orbit.uranus > .planet
+{
+    height: 40px;
+    right: 92px;
+    bottom: 92px;
+    width: 40px;
+}
+
+.orbit.uranus > .planet > .ball
+{
+    background-image: url("../images/uranus.png");
+    animation-duration: 80s;
+}
+/*#endregion */
+
+/*#region 海王星 */
+.orbit.neptune
+{
+    height: 900px;
+    width: 900px;
+    left: 50%;
+    top: -225px;
+    margin-left: -450px;
+    animation-duration: 90s;
+}
+
+.orbit.neptune > .planet
+{
+    height: 38px;
+    left: 112px;
+    bottom: 112px;
+    width: 38px;
+}
+
+.orbit.neptune > .planet > .ball
+{
+    background-image: url("../images/neptune.png");
+    animation-duration: 90s;
+}
+/*#endregion */
+
+/*#region 冥王星 */
+.orbit.pluto
+{
+    height: 1000px;
+    width: 1000px;
+    left: 50%;
+    top: -325px;
+    margin-left: -430px;
+    animation-duration: 100s;
+    transform: rotateX(75deg) rotateY(-25deg) rotateZ(90deg);
+    animation-name: plutorotate;
+}
+
+.orbit.pluto > .planet
+{
+    height: 20px;
+    width: 20px;
+    left: 138px;
+    bottom: 138px;
+}
+
+.orbit.pluto > .planet > .ball
+{
+    background-image: url("../images/pluto.png");
+    animation-duration: 100s;
+}
+
+@keyframes plutorotate
+{
+    0%
+    {
+        transform: rotateX(75deg) rotateY(-25deg) rotateZ(0deg);
+    }
+
+    100%
+    {
+        transform: rotateX(75deg) rotateY(-25deg) rotateZ(-360deg);
+    }
+}
+
+/*#endregion */

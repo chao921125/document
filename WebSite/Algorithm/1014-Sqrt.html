@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+  <div id="text">
+    给你一个非负整数 x ，计算并返回 x 的 算术平方根 。
+
+    由于返回类型是整数，结果只保留 整数部分 ，小数部分将被 舍去 。
+
+    注意：不允许使用任何内置指数函数和算符，例如 pow(x, 0.5) 或者 x ** 0.5 。
+  </div>
+  <div id="primary"></div>
+  <div id="exercises"></div>
+  <div id="time"></div>
+</body>
+<script>
+  ;((e) => {
+    document.title = "x 的平方根 ";
+
+    const basic = (s) => {}
+
+    let testData = [];
+    for (let i = 0; i < 100000; i++) {
+      testData.push(Math.floor(Math.random() * i + 1));
+    }
+    document.querySelector("#primary").innerText = "测试数据：" + testData;
+    const startTime = performance.now();
+    document.querySelector("#exercises").innerText = "基础算法结果：" + basic(testData);
+    const endTime = performance.now();
+    document.querySelector("#time").innerText = "耗时：" + (endTime - startTime) + "ms";
+  })(window);
+</script>
+</html>

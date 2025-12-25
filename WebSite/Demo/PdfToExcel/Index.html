@@ -1,0 +1,615 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>PDF 2 Excel</title>
+
+    <link href="https://unpkg.com/pdfjs-dist@2.16.105/web/pdf_viewer.css" rel="stylesheet" />
+    <style>
+        table {
+            padding: 0;
+            margin: 0;
+            border-right: 1px solid #000000;
+            border-bottom: 1px solid #000000;
+            text-align: center;
+            border-collapse: collapse;
+        }
+
+        table th {
+            padding: 5px 20px;
+            margin: 0;
+            border-left: 1px solid #000000;
+            border-top: 1px solid #000000;
+        }
+
+        table td {
+            padding: 5px 20px;
+            margin: 0;
+            border-left: 1px solid #000000;
+            border-top: 1px solid #000000;
+        }
+        .loading-data {
+            display: none;
+        }
+        .loading-dom {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            display: -webkit-flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+<div id="loadingDom" class="loading-dom">
+    资源加载中......
+</div>
+<!-- https://cdnjs.com/ -->
+<!-- https://unpkg.com/ -->
+<!-- https://cdn.jsdelivr.net/ -->
+
+<!-- https://mozilla.github.io/pdf.js/ -->
+<!-- https://pdf-lib.js.org/ -->
+<!-- https://www.npmjs.com/package/jspdf -->
+
+<!-- https://sheetjs.com/ -->
+<!-- https://github.com/exceljs/exceljs -->
+<div id="showDom">
+<!--  pdfjs 3.x版本需要调整解析语法  -->
+    <input id="pdfFile" type="file" multiple accept="application/pdf, image/*" />
+    <button id="downloadExcel">下载Excel</button>
+    <h1 class="loading-data">
+        解析PDF数据中......<span id="loadingTex"></span>
+    </h1>
+    <div id="showData">
+        <h1>解析文件列表：</h1>
+        <div id="fileList"></div>
+        <h1>解析结果：</h1>
+        <table id="tbAll">
+            <thead>
+            <tr>
+                <th>序号</th>
+                <th>商标</th>
+                <th>类别</th>
+                <th>官方收文编号/申请号/注册号</th>
+                <th>申请日</th>
+                <th>申请人</th>
+                <th>锺维案号</th>
+                <th>注册日期</th>
+                <th>有效期至</th>
+                <th>软件全称</th>
+                <th>流水号</th>
+                <th>登记号</th>
+                <th>著作权人</th>
+                <th>登记日期</th>
+            </tr>
+            </thead>
+            <tbody id="tbDataAll"></tbody>
+        </table>
+    </div>
+    <div id="images"></div>
+</div>
+</body>
+<script src="https://unpkg.com/pdfjs-dist@2.16.105/build/pdf.js"></script>
+<script src="https://unpkg.com/pdfjs-dist@2.16.105/build/pdf.sandbox.js"></script>
+<script src="https://unpkg.com/pdfjs-dist@2.16.105/build/pdf.worker.js"></script>
+<script src="https://unpkg.com/pdfjs-dist@2.16.105/web/pdf_viewer.js"></script>
+<script src="https://unpkg.com/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+
+<script>
+    // excel 下载 start
+    let dataAll = {
+        "商标": [],
+        "类别": [],
+        "官方收文编号/申请号/注册号": [],
+        "申请日": [],
+        "申请人": [],
+        "锺维案号": [],
+        "注册日期": [],
+        "有效期至": [],
+        "软件全称": [],
+        "流水号": [],
+        "登记号": [],
+        "著作权人": [],
+        "登记日期": []
+    };
+    const titleAll = ["序号", "商标", "类别", "官方收文编号/申请号/注册号", "申请日", "申请人", "锺维案号", "注册日期", "有效期至", "软件全称", "流水号", "登记号", "著作权人", "登记日期"];
+    // ["序号", "软件全称", "流水号", "登记号", "著作权人", "登记日期"];
+    let dataList = [];
+    const dataTypeEnum = { gjzscqj: "国家知识产权局", sbzcsqs: "商 标 注 册 申 请 书", rjdjsls: "软件登记受理通知书" };
+    // excel 下载 end
+    // 判断渲染的次序
+    let isShowHtmlFlag = [false, false, false];
+    // 判断是否开始渲染
+    let countAll = 0;
+    let countRun = 0;
+
+    ((dom) => {
+        document.getElementById("loadingDom").style.display = "block";
+        document.getElementById("showDom").style.display = "none";
+        window.onload = () => {
+            document.getElementById("loadingDom").style.display = "none";
+            document.getElementById("showDom").style.display = "block";
+        }
+
+        // pdf 上传及解析 start
+        pdfjsLib.GlobalWorkerOptions.workerSrc = "https://unpkg.com/pdfjs-dist@2.16.105/build/pdf.worker.js";
+        pdfjsLib.cMapUrl = "https://unpkg.com/pdfjs-dist@2.16.105/cmaps/";
+
+        document.getElementById("pdfFile").addEventListener("change", async (e) => {
+            const files = e.target.files;
+            if (!files) return false;
+            document.getElementById("showData").style.display = "none";
+            let flag = 1;
+            countAll = files.length;
+            let fileList = "";
+            for (let file of files) {
+                fileList += `<em>${file.name}</em>；`;
+                document.getElementById("fileList").innerHTML = fileList;
+                if (file.type.includes("image")) {
+                    const reqUrl = "http://47.92.233.92:9999/ocr/image/scan";
+
+                    let formData = new FormData();
+                    formData.append("file", file);
+
+                    // const http = new XMLHttpRequest();
+                    // http.open("POST", reqUrl);
+                    // http.send(formData);
+
+                    const resp = await fetch(reqUrl, {method: "POST", body: formData});
+                    const res = await resp.json();
+                    countRun++;
+                    console.log(res);
+                } else {
+                    let fileReader = new FileReader();
+                    fileReader.readAsArrayBuffer(file);
+                    fileReader.onload = async (event) => {
+                        // const pdfData = new Uint32Array(event.target.result);
+                        // const pdfData = new Uint16Array(event.target.result);
+                        const pdfData = new Uint8Array(event.target.result);
+                        const task = pdfjsLib.getDocument({ data: pdfData });
+                        const pdf = await task.promise;
+
+                        // 获取唯一标识
+                        const page = await pdf.getPage(1);
+                        const textContent = await page.getTextContent();
+
+                        if (!textContent.items.length) {
+                            let opList = await page.getOperatorList();
+                            if (!opList.fnArray.length) {
+                                countRun++;
+                                return false;
+                            } else {
+                                await getDataImgSbzcsqs(pdf);
+                                countRun++;
+                            }
+                        }
+                        const pdfDataArray = textContent.items.map((item) => item.str);
+                        for (let t of pdfDataArray) {
+                            let isBreak = false;
+                            switch (t) {
+                                case dataTypeEnum.gjzscqj: isBreak = true; await getDataGjzscqj(pdf); break;
+                                case dataTypeEnum.sbzcsqs: isBreak = true; await getDataSbzcsqs(pdf); await getDataImgSbzcsqs(pdf); break;
+                                case dataTypeEnum.rjdjsls: isBreak = true; await getDataRjdjsls(pdf); break;
+                                default: await getDataImgSbzcsqs(pdf); isBreak = false; break;
+                            }
+                            if (isBreak) return false;
+                        }
+
+                        // for (let i = 1; i <= pdf.numPages; i++) {
+                        //     const page = await pdf.getPage(i);
+                        //     const textContent = await page.getTextContent();
+                        //     const pdfDataArray = textContent.items.map((item) => item.str);
+                        //     console.log("======", pdfDataArray);
+                        // }
+                    };
+                }
+                // 循环完毕，调用
+                if (flag === files.length) {
+                    dataToHtml();
+                }
+                flag += 1;
+            }
+            e.target.value = "";
+            document.getElementById("pdfFile").value = "";
+        });
+        // pdf 上传及解析 end
+
+        // excel 下载 start
+        document.getElementById("downloadExcel").addEventListener("click", () => {
+            let wb = XLSX.utils.book_new();
+            let wsAll = XLSX.utils.json_to_sheet(dataList, { header: titleAll });
+            XLSX.utils.book_append_sheet(wb, wsAll, "数据结果");
+            XLSX.writeFile(wb, "数据解析结果.xlsx");
+        });
+        // excel 下载 end
+    })(window);
+
+    // 处理数据 - 国家知识产权局
+    async function getDataGjzscqj(pdf) {
+        console.log("解析中【国家知识产权局】");
+        document.getElementById("loadingTex").innerText = "解析中【国家知识产权局】";
+        const page = await pdf.getPage(1);
+        const textContent = await page.getTextContent();
+        const pdfDataArray = textContent.items.map((item) => item.str);
+        console.log(pdfDataArray);
+        dataAll["申请人"].push(pdfDataArray[0]);
+        dataAll["官方收文编号/申请号/注册号"].push(pdfDataArray[18]);
+        dataAll["申请日"].push(pdfDataArray[20]);
+        dataAll["类别"].push(pdfDataArray[6].replace(/[^\d]/g, ""));
+        countRun++;
+        isShowHtmlFlag[0] = true;
+    }
+    // 处理数据 - 商 标 注 册 申 请 书
+    async function getDataSbzcsqs(pdf) {
+        console.log("解析中【商 标 注 册 申 请 书】");
+        document.getElementById("loadingTex").innerText = "解析中【商 标 注 册 申 请 书】";
+        const page = await pdf.getPage(1);
+        const textContent = await page.getTextContent();
+        const pdfDataArray = textContent.items.map((item) => item.str);
+
+        dataAll["申请人"].push(pdfDataArray[36].split("：")[1]);
+        dataAll["锺维案号"].push(pdfDataArray[27]);
+
+        const page2 = await pdf.getPage(2);
+        const textContent2 = await page2.getTextContent();
+        const pdfDataArray2 = textContent2.items.map((item) => item.str);
+        dataAll["商标"].push(pdfDataArray2[27].split("：")[1]);
+        dataAll["类别"].push(pdfDataArray2[13].split("：")[1]);
+        countRun++;
+        isShowHtmlFlag[1] = true;
+    }
+    async function getDataImgSbzcsqs(pdf) {
+        for (let i = 1; i <= pdf.numPages; i++) {
+            const page = await pdf.getPage(i);
+            let imgIndex = 1;
+            let opList = await page.getOperatorList();
+            for (let k = 0; k < opList.fnArray.length; k++) {
+                if (opList.fnArray[k] === pdfjsLib.OPS.paintImageXObject) {
+                    function getImage() {
+                        return new Promise(async function (res, rej) {
+                            let img = null;
+                            try {
+                                //-------either get data from page.objs.get
+                                img = page.objs.get(opList.argsArray[k][0])
+                            } catch (err) {
+                                if (opList.argsArray[k][0].startsWith("g_")) {
+                                    //---------or get data from page.commonObjs.get
+                                    img = page.commonObjs.get(opList.argsArray[k][0])
+                                } else {
+                                    res()
+                                }
+                            }
+                            console.log(img);
+                            try {
+//------------------ directly creating image data from returned array does not print proper image also sometimes throw error.
+                                // var idata = new ImageData(img.data, img.width);
+                                var canvas = document.createElement('canvas');
+                                canvas.width = img.width;
+                                canvas.height = img.height;
+                                var ctx = canvas.getContext('2d');
+//------------------- below function will process data and print proper image on provided canvas context. kind parameter in returned data is used in this function to prcess the data
+                                putBinaryImageData(ctx, img)
+                                // ctx.putImageData(idata, 0, 0);
+console.log(ctx);
+                                document.getElementById('images').appendChild(canvas);
+                                function getCanvasBlob(canvas) {
+                                    return new Promise(function (resolve, reject) {
+                                        canvas.toBlob(function (blob) {
+                                            resolve(blob)
+                                        })
+                                    })
+                                }
+                                getCanvasBlob(canvas).then((blob) => {
+                                    zip.folder('images').file(`page-${i}-image-${imgIndex}`, blob, { base64: false });
+                                    imgIndex++;
+                                    res()
+                                }).catch((err) => {
+                                    // console.log(err)
+                                    res()
+                                })
+                            } catch (err) {
+                                console.log(err)
+                                res()
+                            }
+                        })
+                    }
+                    await getImage()
+                }
+            }
+        }
+    }
+    function putBinaryImageData(ctx, imgData, transferMaps = null) {
+
+        const FULL_CHUNK_HEIGHT = 16;
+
+        const ImageKind = {
+            GRAYSCALE_1BPP: 1,
+            RGB_24BPP: 2,
+            RGBA_32BPP: 3
+        };
+
+        if (typeof ImageData !== "undefined" && imgData instanceof ImageData) {
+            ctx.putImageData(imgData, 0, 0);
+            return;
+        }
+
+        const height = imgData.height,
+            width = imgData.width;
+        const partialChunkHeight = height % FULL_CHUNK_HEIGHT;
+        const fullChunks = (height - partialChunkHeight) / FULL_CHUNK_HEIGHT;
+        const totalChunks = partialChunkHeight === 0 ? fullChunks : fullChunks + 1;
+        const chunkImgData = ctx.createImageData(width, FULL_CHUNK_HEIGHT);
+        let srcPos = 0,
+            destPos;
+        const src = imgData.data;
+        const dest = chunkImgData.data;
+        let i, j, thisChunkHeight, elemsInThisChunk;
+        let transferMapRed, transferMapGreen, transferMapBlue, transferMapGray;
+
+        if (transferMaps) {
+            switch (transferMaps.length) {
+                case 1:
+                    transferMapRed = transferMaps[0];
+                    transferMapGreen = transferMaps[0];
+                    transferMapBlue = transferMaps[0];
+                    transferMapGray = transferMaps[0];
+                    break;
+
+                case 4:
+                    transferMapRed = transferMaps[0];
+                    transferMapGreen = transferMaps[1];
+                    transferMapBlue = transferMaps[2];
+                    transferMapGray = transferMaps[3];
+                    break;
+            }
+        }
+
+        if (imgData.kind === ImageKind.GRAYSCALE_1BPP) {
+            const srcLength = src.byteLength;
+            const dest32 = new Uint32Array(dest.buffer, 0, dest.byteLength >> 2);
+            const dest32DataLength = dest32.length;
+            const fullSrcDiff = width + 7 >> 3;
+            let white = 0xffffffff;
+            let black = _util.IsLittleEndianCached.value ? 0xff000000 : 0x000000ff;
+
+            if (transferMapGray) {
+                if (transferMapGray[0] === 0xff && transferMapGray[0xff] === 0) {
+                    [white, black] = [black, white];
+                }
+            }
+
+            for (i = 0; i < totalChunks; i++) {
+                thisChunkHeight = i < fullChunks ? FULL_CHUNK_HEIGHT : partialChunkHeight;
+                destPos = 0;
+
+                for (j = 0; j < thisChunkHeight; j++) {
+                    const srcDiff = srcLength - srcPos;
+                    let k = 0;
+                    const kEnd = srcDiff > fullSrcDiff ? width : srcDiff * 8 - 7;
+                    const kEndUnrolled = kEnd & ~7;
+                    let mask = 0;
+                    let srcByte = 0;
+
+                    for (; k < kEndUnrolled; k += 8) {
+                        srcByte = src[srcPos++];
+                        dest32[destPos++] = srcByte & 128 ? white : black;
+                        dest32[destPos++] = srcByte & 64 ? white : black;
+                        dest32[destPos++] = srcByte & 32 ? white : black;
+                        dest32[destPos++] = srcByte & 16 ? white : black;
+                        dest32[destPos++] = srcByte & 8 ? white : black;
+                        dest32[destPos++] = srcByte & 4 ? white : black;
+                        dest32[destPos++] = srcByte & 2 ? white : black;
+                        dest32[destPos++] = srcByte & 1 ? white : black;
+                    }
+
+                    for (; k < kEnd; k++) {
+                        if (mask === 0) {
+                            srcByte = src[srcPos++];
+                            mask = 128;
+                        }
+
+                        dest32[destPos++] = srcByte & mask ? white : black;
+                        mask >>= 1;
+                    }
+                }
+
+                while (destPos < dest32DataLength) {
+                    dest32[destPos++] = 0;
+                }
+
+                ctx.putImageData(chunkImgData, 0, i * FULL_CHUNK_HEIGHT);
+            }
+        } else if (imgData.kind === ImageKind.RGBA_32BPP) {
+            const hasTransferMaps = !!(transferMapRed || transferMapGreen || transferMapBlue);
+            j = 0;
+            elemsInThisChunk = width * FULL_CHUNK_HEIGHT * 4;
+
+            for (i = 0; i < fullChunks; i++) {
+                dest.set(src.subarray(srcPos, srcPos + elemsInThisChunk));
+                srcPos += elemsInThisChunk;
+
+                if (hasTransferMaps) {
+                    for (let k = 0; k < elemsInThisChunk; k += 4) {
+                        if (transferMapRed) {
+                            dest[k + 0] = transferMapRed[dest[k + 0]];
+                        }
+
+                        if (transferMapGreen) {
+                            dest[k + 1] = transferMapGreen[dest[k + 1]];
+                        }
+
+                        if (transferMapBlue) {
+                            dest[k + 2] = transferMapBlue[dest[k + 2]];
+                        }
+                    }
+                }
+
+                ctx.putImageData(chunkImgData, 0, j);
+                j += FULL_CHUNK_HEIGHT;
+            }
+
+            if (i < totalChunks) {
+                elemsInThisChunk = width * partialChunkHeight * 4;
+                dest.set(src.subarray(srcPos, srcPos + elemsInThisChunk));
+
+                if (hasTransferMaps) {
+                    for (let k = 0; k < elemsInThisChunk; k += 4) {
+                        if (transferMapRed) {
+                            dest[k + 0] = transferMapRed[dest[k + 0]];
+                        }
+
+                        if (transferMapGreen) {
+                            dest[k + 1] = transferMapGreen[dest[k + 1]];
+                        }
+
+                        if (transferMapBlue) {
+                            dest[k + 2] = transferMapBlue[dest[k + 2]];
+                        }
+                    }
+                }
+
+                ctx.putImageData(chunkImgData, 0, j);
+            }
+        } else if (imgData.kind === ImageKind.RGB_24BPP) {
+            const hasTransferMaps = !!(transferMapRed || transferMapGreen || transferMapBlue);
+            thisChunkHeight = FULL_CHUNK_HEIGHT;
+            elemsInThisChunk = width * thisChunkHeight;
+
+            for (i = 0; i < totalChunks; i++) {
+                if (i >= fullChunks) {
+                    thisChunkHeight = partialChunkHeight;
+                    elemsInThisChunk = width * thisChunkHeight;
+                }
+
+                destPos = 0;
+
+                for (j = elemsInThisChunk; j--;) {
+                    dest[destPos++] = src[srcPos++];
+                    dest[destPos++] = src[srcPos++];
+                    dest[destPos++] = src[srcPos++];
+                    dest[destPos++] = 255;
+                }
+
+                if (hasTransferMaps) {
+                    for (let k = 0; k < destPos; k += 4) {
+                        if (transferMapRed) {
+                            dest[k + 0] = transferMapRed[dest[k + 0]];
+                        }
+
+                        if (transferMapGreen) {
+                            dest[k + 1] = transferMapGreen[dest[k + 1]];
+                        }
+
+                        if (transferMapBlue) {
+                            dest[k + 2] = transferMapBlue[dest[k + 2]];
+                        }
+                    }
+                }
+
+                ctx.putImageData(chunkImgData, 0, i * FULL_CHUNK_HEIGHT);
+            }
+        } else {
+            throw new Error(`bad image kind: ${imgData.kind}`);
+        }
+    }
+
+    // 处理数据 - 软件登记受理通知书
+    async function getDataRjdjsls(pdf) {
+        console.log("解析中【软件登记受理通知书】");
+        document.getElementById("loadingTex").innerText = "解析中【软件登记受理通知书】";
+        for (let i = 1; i <= pdf.numPages; i++) {
+            const page = await pdf.getPage(i);
+            const textContent = await page.getTextContent();
+            const pdfDataArray = textContent.items.map((item) => item.str);
+            dataAll["软件全称"].push(pdfDataArray[22]);
+            dataAll["流水号"].push(pdfDataArray[16]);
+            dataAll["著作权人"].push(pdfDataArray[36]);
+            dataAll["登记日期"].push(pdfDataArray[85]);
+            dataAll["登记号"].push("");
+        }
+        countRun++;
+        isShowHtmlFlag[2] = true;
+    }
+
+    // 将数据渲染到页面上
+    function dataToHtml() {
+      document.getElementsByClassName("loading-data")[0].style.display = "block";
+      document.getElementById("showData").style.display = "none";
+      const isShowFlag = countRun === countAll;// isShowHtmlFlag[0] && isShowHtmlFlag[1] && isShowHtmlFlag[2];
+        let timeObj = setTimeout(() => {
+            if (isShowFlag) {
+                document.getElementsByClassName("loading-data")[0].style.display = "none";
+                document.getElementById("showData").style.display = "block";
+                timeObj = null;
+                clearTimeout(timeObj);
+                if (isShowHtmlFlag[2]) {
+                    for (let i in dataAll["软件全称"]) {
+                        setDataList(i);
+                    }
+                } else if (isShowHtmlFlag[1]) {
+                    for (let i in dataAll["商标"]) {
+                        setDataList(i);
+                    }
+                } else if (isShowHtmlFlag[0]) {
+                    for (let i in dataAll["申请人"]) {
+                        setDataList(i);
+                    }
+                }
+                function setDataList(i) {
+                    dataList.push({
+                        "序号": Number(i)+1,
+                        "商标": dataAll["商标"][0] || "",
+                        "类别": dataAll["类别"][0] || "",
+                        "官方收文编号/申请号/注册号": dataAll["官方收文编号/申请号/注册号"][0] || "",
+                        "申请日": dataAll["申请日"][0] || "",
+                        "申请人": dataAll["申请人"][0] || "",
+                        "锺维案号": dataAll["锺维案号"][0] || "",
+                        "注册日期": dataAll["注册日期"][0] || "",
+                        "有效期至": dataAll["有效期至"][0] || "",
+                        "软件全称": dataAll["软件全称"][i] || "",
+                        "流水号": dataAll["流水号"][i] || "",
+                        "登记号": dataAll["登记号"][i] || "",
+                        "著作权人": dataAll["著作权人"][i] || "",
+                        "登记日期": dataAll["登记日期"][i] || ""
+                    });
+                }
+                let htmlAll = "";
+                for (let index in dataList) {
+                    htmlAll += `<tr>
+                        <td>${dataList[index]["序号"]}</td>
+                        <td>${dataList[index]["商标"]}</td>
+                        <td>${dataList[index]["类别"]}</td>
+                        <td>${dataList[index]["官方收文编号/申请号/注册号"]}</td>
+                        <td>${dataList[index]["申请日"]}</td>
+                        <td>${dataList[index]["申请人"]}</td>
+                        <td>${dataList[index]["锺维案号"]}</td>
+                        <td>${dataList[index]["注册日期"]}</td>
+                        <td>${dataList[index]["有效期至"]}</td>
+                        <td>${dataList[index]["软件全称"]}</td>
+                        <td>${dataList[index]["流水号"]}</td>
+                        <td>${dataList[index]["登记号"]}</td>
+                        <td>${dataList[index]["著作权人"]}</td>
+                        <td>${dataList[index]["登记日期"]}</td>
+                       </tr>`;
+                }
+                document.getElementById("tbDataAll").innerHTML = htmlAll;
+            } else {
+                dataToHtml();
+            }
+        }, 5000);
+    }
+    function getFileUrl(file) {
+        let url = null;
+        if (window.createObjectURL !== undefined) {
+            url = window.createObjectURL(file);
+        } else if (window.URL !== undefined) {
+            url = window.URL.createObjectURL(file);
+        } else if (window.webkitURL !== undefined) {
+            url = window.webkitURL.createObjectURL(file);
+        }
+        return url;
+    }
+</script>
+</html>

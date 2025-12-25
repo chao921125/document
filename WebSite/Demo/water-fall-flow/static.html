@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Document</title>
+
+    <style>
+
+        * {
+
+            margin: 0;
+
+            padding: 0;
+
+        }
+
+
+
+        ul li {
+
+            list-style: none;
+
+            float: left;
+
+        }
+
+    </style>
+
+</head>
+
+
+
+<body>
+
+</body>
+
+<script src="../../Basic/plugins/jquery3/jquery-3.7.0.js"></script>
+
+<script>
+
+  $(function () {
+
+    const COLUMN = 4; // 4列
+
+    let arr = []; // 存储4列li
+
+    let minHeight = [] // 存储4列的高度
+
+
+
+    create();
+
+
+
+    function create() {
+
+      // 创建ul li作为每一列的容器
+
+      $("<ul></ul>").appendTo($("body")).css("width", "100%");
+
+      for (let i = 0; i < COLUMN; i++) {
+
+        var li = document.createElement("li");
+
+        $(li).appendTo($("ul"))
+
+          .css({
+
+            "width": "24%",
+
+            "margin": "0 0.5%"
+
+          });
+
+        arr.push(li);
+
+        // console.log(arr);
+
+        minHeight.push(0);
+
+      }
+
+      createImg();
+
+    }
+
+
+
+    function createImg() {
+
+      let img = new Image();
+
+      img.num = 2;
+
+      img.src = `../../Basic/assets/images/WaterfallFlow/${img.num}.jpg`; // 素材图片的规律为 2-.jpg 3-.jpg 4-.jpg ...
+      img.alt = `${img.num}`;
+
+      $(img).css("width", "100%");
+
+      // 当图片加载完后
+
+      $(img).on("load", loadHandler);
+
+    }
+
+
+
+    function loadHandler() {
+
+      // 高度数组的最小值
+
+      let min = Math.min.apply(null, minHeight);
+
+      // 高度数组的最小值索引
+
+      let minIndex = minHeight.indexOf(min);
+
+      // 克隆一份图片
+
+      let im = this.cloneNode(true);
+
+      // 将图片假如对应最小值索引的容器中
+
+      arr[minIndex].append(im);
+
+      // 更新最小值索引的容器的高度
+
+      minHeight[minIndex] += im.getBoundingClientRect().height;
+
+
+
+      this.num++;
+
+
+
+      // 图片的个数只有79张
+
+      if (this.num > 79) {
+
+        $(this).off("load", loadHandler);
+
+        return;
+
+      }
+
+      this.src = `../../Basic/assets/images/WaterfallFlow/${this.num}.jpg`;
+      this.alt = `${this.num}`;
+    }
+
+  });
+
+</script>
+
+
+
+</html>

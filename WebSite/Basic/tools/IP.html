@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    function findIP(onNewIP) {
+        let myPeerConnection = window.RTCPeerConnection || window.mozRTCPeerConnection || window.webkitRTCPeerConnection; // RTCPeerConnection是WebRTC用于构建点对点之间稳定、高效的流传输的组件。兼容火狐、谷歌等
+        let pc = new myPeerConnection({ // 创建点对点连接的RTCPeerConnection的实例
+            iceServers: [{"url": "stun:stun.l.google.com:19302"}]
+        }); // webRTC使用了ICE协议框架，包括STUN 和 TURN两个协议。我这里连接的是STUN协议服务器。STUN Server的作用是接受客户端的请求，并且把客户端的公网IP、Port封装到ICECandidate中。
+        let noop = function() {};
+        let localIPs = {}; // 记录有没有被调用到onNewIP这个listener上
+        let ipRegex = /([0-9]{1,3}(\.[0-9]{1,3}){3}|[a-f0-9]{1,4}(:[a-f0-9]{1,4}){7})/g;
+
+        function ipIterate(ip) {
+            if (!localIPs[ip]) onNewIP(ip);
+            localIPs[ip] = true;
+        }
+        pc.createDataChannel(""); // 创建数据信道
+        pc.createOffer().then(function(sdp) {
+            sdp.sdp.split('\n').forEach(function(line) {
+                if (line.indexOf('candidate') < 0) return;
+                line.match(ipRegex).forEach(ipIterate);
+            });
+            pc.setLocalDescription(sdp, noop, noop);
+        });
+        pc.onicecandidate = function(ice) { //listen for candidate events
+            if (!ice || !ice.candidate || !ice.candidate.candidate || !ice.candidate.candidate.match(ipRegex)) return;
+            ice.candidate.candidate.match(ipRegex).forEach(ipIterate);
+        };
+    }
+
+    findIP(function (ip) {
+        let ul = document.createElement('ul');
+        ul.textContent = 'Your IPs are: '
+        document.body.appendChild(ul);
+
+        console.log('got ip: ', ip);
+        var li = document.createElement('li');
+        li.textContent = ip;
+        ul.appendChild(li);
+    });
+</script>
+<script type="application/javascript">
+
+// https://ip.cn/api/index?ip=&type=0
+// http://whois.pconline.com.cn/ipJson.jsp?ip=&json=true
+
+// https://api.ipify.org?format=json
+// fetch('https://api.ipify.org?format=json')
+//     .then(response => {console.log(response); return response.json()})
+//     .then(data => console.log(data));
+
+function getIPs(callback){
+    var ip_dups = {};
+    var RTCPeerConnection = window.RTCPeerConnection
+        || window.mozRTCPeerConnection
+        || window.webkitRTCPeerConnection;
+    var useWebKit = !!window.webkitRTCPeerConnection;
+    var mediaConstraints = {
+        optional: [{RtpDataChannels: true}]
+    };
+// 这里就是需要的ICEServer了
+    var servers = {
+        iceServers: [
+            {urls: "stun:stun.services.mozilla.com"},
+            {urls: "stun:stun.l.google.com:19302"},
+        ]
+    };
+    var pc = new RTCPeerConnection(servers, mediaConstraints);
+    function handleCandidate(candidate){
+        var ip_regex = /([0-9]{1,3}(\.[0-9]{1,3}){3}|[a-f0-9]{1,4}(:[a-f0-9]{1,4}){7})/
+        var hasIp = ip_regex.exec(candidate)
+        if (hasIp) {
+            var ip_addr = ip_regex.exec(candidate)[1];
+            if(ip_dups[ip_addr] === undefined)
+                callback(ip_addr);
+            ip_dups[ip_addr] = true;
+        }
+    }
+// 网络协商的过程
+    pc.onicecandidate = function(ice){
+        if(ice.candidate) {
+            handleCandidate(ice.candidate.candidate);
+        }
+    };
+    pc.createDataChannel("");
+//创建一个SDP(session description protocol)会话描述协议 是一个纯文本信息 包含了媒体和网络协商的信息
+    pc.createOffer(function(result){
+        pc.setLocalDescription(result, function(){}, function(){});
+    }, function(){});
+    setTimeout(function(){
+        var lines = pc.localDescription.sdp.split('\n');
+        lines.forEach(function(line){
+            if(line.indexOf('a=candidate:') === 0)
+                handleCandidate(line);
+        });
+    }, 1000);
+}
+getIPs(function(ip){console.log(ip);});
+
+//获取客户端IP地址
+function getCusIpAdress(){
+    var data;
+    let xmlHttpRequest;
+    if(window.ActiveXObject){
+        xmlHttpRequest = new ActiveXObject("Microsoft.XMLHTTP");
+    }else if(window.XMLHttpRequest){
+        xmlHttpRequest = new XMLHttpRequest();
+    }
+    xmlHttpRequest.onreadystatechange=function(){
+        if(xmlHttpRequest.readyState == 4){
+            if(xmlHttpRequest.status == 200) {
+                data=xmlHttpRequest .responseText;
+            } else {
+                alert("error:HTTP状态码为:"+xmlHttpRequest.status);
+            }
+        }
+    };
+    xmlHttpRequest.open("get", "https://2022.ip138.com", false);
+    xmlHttpRequest.send(null);
+    var datalist = data.split("\n");
+    var patt = [/[0-9]+.[0-9]+.[0-9]+.[0-9]+/, /来自/, []];
+    for (var i in datalist){
+        if (patt[0].test(datalist[i]) && patt[1].test(datalist[i])){
+            patt[2].push(patt[0].exec(datalist[i])[0]);
+            patt[2].push(datalist[i].substr(patt[1].exec(datalist[i]).index+3));
+        }
+    }
+    return patt[2];
+}
+console.log(getCusIpAdress());
+</script>
+
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <!--基本的元数据-->
+    <meta charset="UTF-8">
+    <!--规定一个逗号分隔的关键词列表 - 相关的网页（告诉搜索引擎页面是与什么相关的）-->
+    <meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript">
+    <!--规定页面的描述。搜索引擎会把这个描述显示在搜索结果中-->
+    <meta name="description" content="免费 Web & 编程 教程">
+    <!--规定文档的作者的名字-->
+    <meta name="author" content="Runoob">
+    <!--规定页面所代表的 Web 应用程序的名称-->
+    <meta name="application-name" content="Hege Refsnes">
+    <!--规定用于生成文档的一个软件包（不用于手写页面）-->
+    <meta name="generator" content="FrontPage 4.0">
+    <!--定义文档自动刷新的时间间隔-->
+    <meta http-equiv="refresh" content="300">
+    <!--规定要使用的预定义的样式表-->
+    <!--注释：content 属性的值必须匹配同一文档中的一个 link 元素上的 title 属性的值，或者必须匹配同一文档中的一个 style 元素上的 title 属性的值。-->
+    <meta http-equiv="default-style" content="the document's preferred stylesheet">
+    <!--规定文档的字符编码-->
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <!-- 针对手持设备优化，主要是针对一些老的不识别viewport的浏览器，比如黑莓 -->
+    <meta name="HandheldFriendly" content="true">
+    <!-- 微软的老式浏览器 -->
+    <meta name="MobileOptimized" content="320">
+    <!-- uc强制竖屏 -->
+    <meta name="screen-orientation" content="portrait">
+    <!-- QQ强制竖屏 -->
+    <meta name="x5-orientation" content="portrait">
+    <!-- UC强制全屏 -->
+    <meta name="full-screen" content="yes">
+    <!-- QQ强制全屏 -->
+    <meta name="x5-fullscreen" content="true">
+    <!-- UC应用模式 -->
+    <meta name="browsermode" content="application">
+    <!-- QQ应用模式 -->
+    <meta name="x5-page-mode" content="app">
+    <!-- windows phone 点击无高光 -->
+    <!--移动设备上进行网页的重构或开发-->
+    <!--width	设置layout viewport  的宽度，为一个正整数，或字符串"width-device"
+        initial-scale	设置页面的初始缩放值，为一个数字，可以带小数
+        minimum-scale	允许用户的最小缩放值，为一个数字，可以带小数
+        maximum-scale	允许用户的最大缩放值，为一个数字，可以带小数
+        height	设置layout viewport  的高度，这个属性对我们并不重要，很少使用
+        user-scalable	是否允许用户进行缩放，值为 "no" 或 "yes", no 代表不允许，yes 代表允许-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+    <title>文档标题</title>
+    <!--标签描述了基本的链接地址/链接目标，该标签作为HTML文档中所有的链接标签的默认链接-->
+    <base href="http://www.runoob.com/images/" target="_blank">
+
+    <!--外链样式-->
+    <link rel="stylesheet" type="text/css" href="../assets/style/CSS.css">
+    <!--内链样式-->
+    <style type="text/css">
+        * {
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        body {
+            padding-bottom: 50px;
+        }
+        table {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <button onclick="formatPrice(13323.123)">test</button>
+        <div id="test"></div>
+    </div>
+    <script>
+        // percent 111% currency ￥111,11
+        (99999).toLocaleString("zh-cn", {style: "currency", currency: "CNY"});
+
+        function formatPrice(price) {
+          let priceStart = String(price).split(".")[0];
+          let priceEnd = String(price).split(".")[1];
+            document.querySelector("#test").innerHTML = String(priceStart)
+                .split('')
+                .reverse()
+                .reduce((prev, next, index) => {
+                return (index % 3 ? next : next + ',') + prev;
+                }) + "." + priceEnd;
+        }
+
+
+    </script>
+    <noscript>抱歉，你的浏览器不支持 JavaScript!</noscript>
+</body>
+</html>
