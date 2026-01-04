@@ -4,7 +4,7 @@
 | Windows MacOS Linux Android IOS                                                                                                         |
 |-----------------------------------------------------------------------------------------------------------------------------------------|
 | [sing-box *全平台*](https://github.com/SagerNet/sing-box)                                                                                  |
-| [hiddify-next *全平台*](https://github.com/hiddify/hiddify-app)                                                                            |
+| [hiddify-next *全平台* 超过 9 个月未更新](https://github.com/hiddify/hiddify-app)                                                                 |
 | [FlClash *无 IOS*](https://github.com/chen08209/FlClash)                                                                                 |
 | [karing](https://github.com/KaringX/karing) [单独 IOS](https://apps.apple.com/us/app/karing/id6472431552)                                 |
 | [clash-verge-rev *无 Android IOS* **不兼容旧系统**](https://github.com/clash-verge-rev/clash-verge-rev)                                        |
@@ -67,16 +67,16 @@
 
 | 浏览器插件                                                      |
 |------------------------------------------------------------|
+| [ZeroOmega](https://github.com/zero-peak/ZeroOmega)        |
 | [SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega) |
 
-| 内核 Core                                                                                                   |
-|-----------------------------------------------------------------------------------------------------------|
-| [sing-box](https://github.com/SagerNet/sing-box) [sing-box 官网 全平台支持](https://sing-box.sagernet.org/zh/)   |
-| [mihomo](https://github.com/MetaCubeX/mihomo)                                                             |
-| [v2ray-core](https://github.com/v2ray/v2ray-core)                                                         |
-| [v2ray-core](https://github.com/v2fly/v2ray-core)                                                         |
-| [clash all](https://github.com/DustinWin/clash-tools)                                                     |
-| [Xray-core](https://github.com/XTLS/Xray-core)                                                            |
+| 内核 Core                                                                                                 |
+|---------------------------------------------------------------------------------------------------------|
+| [sing-box](https://github.com/SagerNet/sing-box) [sing-box 官网 全平台支持](https://sing-box.sagernet.org/zh/) |
+| [mihomo](https://github.com/MetaCubeX/mihomo)                                                           |
+| [v2ray-core](https://github.com/v2fly/v2ray-core)                                                       |
+| [Xray-core](https://github.com/XTLS/Xray-core)                                                          |
+| [clash all](https://github.com/DustinWin/clash-tools)                                                   |
 
 | 规则                                                                   |
 |----------------------------------------------------------------------|
