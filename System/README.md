@@ -118,7 +118,7 @@ https://install.appcenter.ms/orgs/rdmacios-k2vy/apps/microsoft-remote-desktop-fo
 | [firpe](https://firpe.cn/)             |
 | [edgeless](https://home.edgeless.top/) |
 | [hotpe](https://www.hotpe.top/)        |
-| [upe](https://www.upe.net/)            |
+| [upe](https://www.itsk.com//)          |
 | [wepe](https://www.wepe.com.cn/)       |
 
 # 免费在线
