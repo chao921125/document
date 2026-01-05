@@ -1,3 +1,10 @@
+| 网站内访问 Chrome                 |
+|------------------------------|
+| https://www.croxyproxy.com/  |
+| https://proxyorb.com/zh-Hans |
+| https://www.proxysite.com/   |
+| https://hide.me/en/proxy     |
+| https://proxyium.com/        |
 # 浏览器 插件 Zero Omega
 
 | 代理检查                                                                      |
@@ -7,3 +14,20 @@
 | [完全隐藏身份，不泄露任何真实信息](https://ipleak.net/)                                   |
 | [快速判断代理是否被标记为数据中心 IP](https://ipcheck.ing/)                               |
 | [速度测试](https://speedtest.net/)                                            |
+
+| Ad                                                                                                 |
+|----------------------------------------------------------------------------------------------------|
+| SOCKS5 https://proxy.scdn.io/                                                                      |
+| SOCKS5 https://proxyfreeonly.com/zh/free-proxy-list/china?protocols=socks5&userPassword=noPassword |
+|                                                                                                    |
+
+| 未知                   |
+|----------------------|
+| 43.152.113.218:19589 |
+|                      |
+
+| 湖北                   |
+|----------------------|
+| 58.19.55.17:15002    |
+| 220.249.110.155:1080 |
+|                      |
