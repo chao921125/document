@@ -22,6 +22,5 @@
 | SOCKS5 https://proxy.scdn.io/           |
 | SOCKS5 https://proxyfreeonly.com/zh     |
 | SOCKS5 https://www.zdaye.com/           |
-| SOCKS5 https://www.proxy-list.download/ |
 | SOCKS5 https://dashboard.webshare.io/   |
 |                                         |
