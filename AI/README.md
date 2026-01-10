@@ -29,6 +29,10 @@
 | [joyfusion](https://joyfusion.app/)                                                                                         |
 | []()                                                                                                                        |
 
+| [多模型管理]()                                           |
+|-----------------------------------------------------|
+| [cherry](https://github.com/CherryHQ/cherry-studio) |
+
 | [UI]()                                                                                                 |
 |--------------------------------------------------------------------------------------------------------|
 | [dify](https://github.com/langgenius/dify) [dify 官网](https://dify.ai/)                                 |
