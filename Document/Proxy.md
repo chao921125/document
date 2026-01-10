@@ -40,6 +40,7 @@
 | [Streisand 美 免费](https://apps.apple.com/us/app/streisand/id6450534064?platform=iphone)                            |
 | [Potatso 美 免费](https://apps.apple.com/us/app/potatso/id1239860606)                                                |
 | [V2box 美 免费](https://apps.apple.com/us/app/v2box-v2ray-client/id6446814690)                                       |
+| [Stash](https://apps.apple.com/app/stash/id1596063349)                                                            |
 | [Spectre VPN 美 免费 SSR](https://apps.apple.com/us/app/spectre-vpn/id1508712998)                                    |
 | [Shadowrocket GitHub 付费](https://github.com/Shadowrocket)                                                         |
 | [Shadowrocket 美 付费](https://apps.apple.com/us/app/shadowrocket/id932747118)                                       |
