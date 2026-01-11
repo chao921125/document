@@ -89,77 +89,75 @@
 # Pay
 ###### 【- 任意邮箱】 【* 稳定】【[跑路反馈](https://github.com/limbopro/Paolujichang)】
 #### 不限制在线
-| [*直连/中转*]()                                                                                                     |
-|-----------------------------------------------------------------------------------------------------------------|
-| [*注册无验证*]()                                                                                                     |
-| [~~12/年-200G/月 杜卡迪~~ 节点延迟高](https://www.dukadi.one/#/register?code=J9E4zv0c)                                    |
-| [杜卡迪测试订阅](https://live.dukadi.shop/api/v1/client/subscribe?token=c7e5632f46978bec556af59e573c6be9)              |
-| [19/年-1000G/月 白嫖机场](https://yes2.xn--mesv7f5toqlp.biz/register?code=IJNJjQW3) [](https://xn--mesv7f5toqlp.com/) |
-| [- 5/月-100G/月 一号测速](https://yh.yjbzzx.com/#/register?code=yX4UyKwx) [](https://xn--4gq48l11y805a.com/)          |
-| [- 7.99/月-100G/月 山水云](https://xn--9kq015a4jm.com/)                                                              |
-| [- 7.8/月-100G/月 淘气兔](https://vip.taoqitu.pro/)                                                                  |
-| [8/月-120G/月 秒连云](https://xn--9kq676h12n.com/)                                                                   |
-| [- 8.8/月-80G/月 UBBOLINK](https://ubbol.ink/#/register) [](https://xn--4gqs44o.com/)                             |
-| [10/月-118G/月 玉兔](https://xn--diqv0fut7b.com/#/home)                                                             |
-| [10/月-130G/月 Coffee Cloud 咖啡云](https://xn--9kqp0mora.com/#/register)                                            |
-| [15/月-100G/月 牧牛云](https://xn--11xxa.com//#/register)                                                            |
-| [20/月-300G/月 迷雾世界](https://迷雾世界.com/#/register?code=IOWM28rZ)                                                   |
-| [**************************************************]()                                                          |
-| [6/季-100G/月 FG](https://feigou.idsduf.com//#/register?code=fdFqcdOt)                                            |
-| [10/季-200G/月 廉价机场](https://lianjiajichang.com/#/register?code=FeiARV4a)                                         |
-| [39/年-1000G/月 Paper Plane 纸飞机](https://zfj.app/)                                                                |
-| [- 42/年-160G/月 cshjc 超实惠](https://cshjc.top/web/#/login?code=De8r9eME)                                          |
-| [- 5/月-100G/月 WindyCloud](https://portal.passgfw.top/#/register)                                                |
-| [- 5/月-100G/月 云安云](https://www.yunanyun.app/#/register)                                                         |
-| [- 5/月-100G/月 ChiguaYun](https://chiguayun.com/#/register)                                                      |
-| [- 5.8/月-600G/月 蟒蛇](https://www.mangshe.org/#/register)                                                         |
-| [- 5.99/月-1024G/月 ktmcloud](https://ktmcloud.cc/#/login)                                                        |
-| [- 6/月-100G/月 流浪地球](https://liulangdiqiu.cc/#/register)                                                         |
-| [7/月-150G/月 xfltd](https://xfltd.cc/)                                                                           |
-| [8/月-100G/月 SausageCloud](https://reborn.kaochang.ltd/#/register?code=EU9d7PnU)                                 |
-| [9/月-120G/月 渔云](https://cloudfisher.net/web/#/login?code=I2lj0vUP)                                              |
-| [- 9.9/月-100G/月 红魔馆网络](https://koumakan.quickline.top/#/register) [](https://quickline.top/)                    |
-| [- 10.9/月-222G/月 红杏云](https://hongxingdl.com/)                                                                  |
-| [12/月-300G/月 创奇](https://go.cqjiasu.top/#/register)                                                             |
-| [13.88/月-256G/月 tmsretc 千速喵](https://tmsrets.top/zh/#/auth/login)                                               |
-| [13.88/月-100G/月 果粒橙](https://guolicheng.cc/index.php#/register)                                                 |
-| [- 14.9/月-130G/月 魔戒](https://mojie.me/#/register?aff=Gu3iS0ty)                                                  |
-| [- 15/月-120G/月 starlinkcloud 星链云](https://starlinkcloud.io/#/register)                                          |
-| [19.9/月-210G/月 快冲云](https://wzjmcabhhure.github.io/)                                                            |
-| [**************************************************]()                                                          |
-| [**************************************************]()                                                          |
-| [*注册验证*]()                                                                                                      |
-| [12/年-500G/月 一元机场](https://xn--4gq62f52gdss.com/#/register?code=y2BjORPu)                                       |
-| [4.99/月-1024G/月 大机场 Big Airport](https://xn--mesr8b36x.com/#/register)                                          |
-| [* 12.8/月-150G/月 M78星云](https://xn--m78-dj9dv09h.com/)                                                          |
-| [* 12.8/月-100G/月 金坷垃](https://xn--dgsya2281b.com/)                                                              |
-| [**************************************************]()                                                          |
-| [13/年-100G/月 有试用 fscloud 订阅需转](https://web.fscloud.app/#/register?code=1umqePA4) [](https://fscloud.vip/)       |
-| [9.9/月-100G/月 SAC](https://www.189.cam/register)                                                                |
-| [10/月-500G/月 中国国际机场](https://werun.id/#/login)                                                                  |
-| [* 10/月-200G/月 忽悠云](https://gfw.gg/register)                                                                    |
-| [10/月-200G/月 最长跑道](https://zcpdao.com/#/register)                                                               |
-| [10/月-128G/月 次元雲](https://ciyy.cc/index.php#/register)                                                          |
-| [10/月-128G/月 TaiShan Net](https://www.taishan.pro/#/register)                                                   |
-| [10/月-120G/月 Riolu 精灵学院](https://o.riolu.ooo/) [](https://pub.riolu.icu/) [](https://info.riolu.icu)            |
-| [10.8/月-120G/月 okokcloud](https://okokcloud.net/index.html)                                                     |
-| [10/月-100G/月 Scrssr](https://www.scrssr.com/)                                                                   |
-| [10/月-100G/月 ssone](https://hello-ssone.com/)                                                                   |
-| [10/月-100G/月 Anrun Network](https://www.anrunnetwork.com/#/register)                                            |
-| [12/月-100G/月 FlyBit](https://goflybit.pages.dev/)                                                               |
-| [12/月-100G/月 Teacat](https://teacat.cloud/#/register)                                                           |
-| [12/月-80G/月 纸巾云机场](https://papercloud.pro/#/register?code=XgjIuvDD)                                             |
-| [12.5/月-100G/月 vmssr](https://www.vmssr.net/)                                                                   |
-| [* 12.99/月-100G/月 墙裂](https://www.qianglie.com/#/register)                                                      |
-| [* 13.8/月-100G/月 BestVPN](https://vp0.org/)                                                                     |
-| [41.97/季-110G/月 milkcat](https://milkcat.io/)                                                                   |
-| [14.9/月-100G/月 闪电鸟](https://sdbird.org/#/register)                                                              |
-| [17.9/月-100G/月 灵魂云](https://linghunyun.com/#/register?code=XVy43ZWi)                                            |
-| [17.9/月-100G/月 Teacat](https://teacat.cloud/#/login)                                                            |
-| [20/月-100G/月 老猫云](https://laomao.us/)                                                                           |
-| [20/月-210G/月 CordCloud](https://www.cordc.net/)                                                                 |
-| [29/月-120G/月 速子云](https://tachyun.com/)                                                                         |
-| [* 105/季-100G/月 KyCloud](https://mvipcloud.xyz/)                                                                |
+| [*直连/中转*]()                                                                                                        |
+|--------------------------------------------------------------------------------------------------------------------|
+| [*注册无验证*]()                                                                                                        |
+| [👍 19/年-1000G/月 白嫖机场](https://yes2.xn--mesv7f5toqlp.biz/register?code=IJNJjQW3) [](https://xn--mesv7f5toqlp.com/) |
+| [- 5/月-100G/月 一号测速](https://yh.yjbzzx.com/#/register?code=yX4UyKwx) [](https://xn--4gq48l11y805a.com/)             |
+| [- 7.99/月-100G/月 山水云](https://xn--9kq015a4jm.com/)                                                                 |
+| [- 7.8/月-100G/月 淘气兔](https://vip.taoqitu.pro/)                                                                     |
+| [8/月-120G/月 秒连云](https://xn--9kq676h12n.com/)                                                                      |
+| [- 8.8/月-80G/月 UBBOLINK](https://ubbol.ink/#/register) [](https://xn--4gqs44o.com/)                                |
+| [10/月-118G/月 玉兔](https://xn--diqv0fut7b.com/#/home)                                                                |
+| [10/月-130G/月 Coffee Cloud 咖啡云](https://xn--9kqp0mora.com/#/register)                                               |
+| [15/月-100G/月 牧牛云](https://xn--11xxa.com//#/register)                                                               |
+| [20/月-300G/月 迷雾世界](https://迷雾世界.com/#/register?code=IOWM28rZ)                                                      |
+| [**************************************************]()                                                             |
+| [6/季-100G/月 FG](https://feigou.idsduf.com//#/register?code=fdFqcdOt)                                               |
+| [10/季-200G/月 廉价机场](https://lianjiajichang.com/#/register?code=FeiARV4a)                                            |
+| [39/年-1000G/月 Paper Plane 纸飞机](https://zfj.app/)                                                                   |
+| [- 42/年-160G/月 cshjc 超实惠](https://cshjc.top/web/#/login?code=De8r9eME)                                             |
+| [- 5/月-100G/月 WindyCloud](https://portal.passgfw.top/#/register)                                                   |
+| [- 5/月-100G/月 云安云](https://www.yunanyun.app/#/register)                                                            |
+| [- 5/月-100G/月 ChiguaYun](https://chiguayun.com/#/register)                                                         |
+| [- 5.8/月-600G/月 蟒蛇](https://www.mangshe.org/#/register)                                                            |
+| [- 5.99/月-1024G/月 ktmcloud](https://ktmcloud.cc/#/login)                                                           |
+| [- 6/月-100G/月 流浪地球](https://liulangdiqiu.cc/#/register)                                                            |
+| [7/月-150G/月 xfltd](https://xfltd.cc/)                                                                              |
+| [8/月-100G/月 SausageCloud](https://reborn.kaochang.ltd/#/register?code=EU9d7PnU)                                    |
+| [9/月-120G/月 渔云](https://cloudfisher.net/web/#/login?code=I2lj0vUP)                                                 |
+| [- 9.9/月-100G/月 红魔馆网络](https://koumakan.quickline.top/#/register) [](https://quickline.top/)                       |
+| [- 10.9/月-222G/月 红杏云](https://hongxingdl.com/)                                                                     |
+| [12/月-300G/月 创奇](https://go.cqjiasu.top/#/register)                                                                |
+| [13.88/月-256G/月 tmsretc 千速喵](https://tmsrets.top/zh/#/auth/login)                                                  |
+| [13.88/月-100G/月 果粒橙](https://guolicheng.cc/index.php#/register)                                                    |
+| [- 14.9/月-130G/月 魔戒](https://mojie.me/#/register?aff=Gu3iS0ty)                                                     |
+| [- 15/月-120G/月 starlinkcloud 星链云](https://starlinkcloud.io/#/register)                                             |
+| [19.9/月-210G/月 快冲云](https://wzjmcabhhure.github.io/)                                                               |
+| [**************************************************]()                                                             |
+| [**************************************************]()                                                             |
+| [*注册验证*]()                                                                                                         |
+| [12/年-500G/月 一元机场](https://xn--4gq62f52gdss.com/#/register?code=y2BjORPu)                                          |
+| [4.99/月-1024G/月 大机场 Big Airport](https://xn--mesr8b36x.com/#/register)                                             |
+| [* 12.8/月-150G/月 M78星云](https://xn--m78-dj9dv09h.com/)                                                             |
+| [* 12.8/月-100G/月 金坷垃](https://xn--dgsya2281b.com/)                                                                 |
+| [**************************************************]()                                                             |
+| [13/年-100G/月 有试用 fscloud 订阅需转](https://web.fscloud.app/#/register?code=1umqePA4) [](https://fscloud.vip/)          |
+| [9.9/月-100G/月 SAC](https://www.189.cam/register)                                                                   |
+| [10/月-500G/月 中国国际机场](https://werun.id/#/login)                                                                     |
+| [* 10/月-200G/月 忽悠云](https://gfw.gg/register)                                                                       |
+| [10/月-200G/月 最长跑道](https://zcpdao.com/#/register)                                                                  |
+| [10/月-128G/月 次元雲](https://ciyy.cc/index.php#/register)                                                             |
+| [10/月-128G/月 TaiShan Net](https://www.taishan.pro/#/register)                                                      |
+| [10/月-120G/月 Riolu 精灵学院](https://o.riolu.ooo/) [](https://pub.riolu.icu/) [](https://info.riolu.icu)               |
+| [10.8/月-120G/月 okokcloud](https://okokcloud.net/index.html)                                                        |
+| [10/月-100G/月 Scrssr](https://www.scrssr.com/)                                                                      |
+| [10/月-100G/月 ssone](https://hello-ssone.com/)                                                                      |
+| [10/月-100G/月 Anrun Network](https://www.anrunnetwork.com/#/register)                                               |
+| [12/月-100G/月 FlyBit](https://goflybit.pages.dev/)                                                                  |
+| [12/月-100G/月 Teacat](https://teacat.cloud/#/register)                                                              |
+| [12/月-80G/月 纸巾云机场](https://papercloud.pro/#/register?code=XgjIuvDD)                                                |
+| [12.5/月-100G/月 vmssr](https://www.vmssr.net/)                                                                      |
+| [* 12.99/月-100G/月 墙裂](https://www.qianglie.com/#/register)                                                         |
+| [* 13.8/月-100G/月 BestVPN](https://vp0.org/)                                                                        |
+| [41.97/季-110G/月 milkcat](https://milkcat.io/)                                                                      |
+| [14.9/月-100G/月 闪电鸟](https://sdbird.org/#/register)                                                                 |
+| [17.9/月-100G/月 灵魂云](https://linghunyun.com/#/register?code=XVy43ZWi)                                               |
+| [17.9/月-100G/月 Teacat](https://teacat.cloud/#/login)                                                               |
+| [20/月-100G/月 老猫云](https://laomao.us/)                                                                              |
+| [20/月-210G/月 CordCloud](https://www.cordc.net/)                                                                    |
+| [29/月-120G/月 速子云](https://tachyun.com/)                                                                            |
+| [* 105/季-100G/月 KyCloud](https://mvipcloud.xyz/)                                                                   |
 
 | [*中转/BGP*]()                                                                                                            |
 |-------------------------------------------------------------------------------------------------------------------------|
