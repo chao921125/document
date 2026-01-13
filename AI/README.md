@@ -23,10 +23,6 @@
 | [mlc-ll](https://github.com/mlc-ai/mlc-llm)                                                                                 |
 | [LM Studio](https://github.com/lmstudio-ai) [LM Studio 官网](https://lmstudio.ai/)                                            |
 | [sanctum](https://sanctum.ai/)                                                                                              |
-| [jellybox](https://jellybox.com/)                                                                                           |
-| [drawthings](https://drawthings.ai/)                                                                                        |
-| [backyard](https://backyard.ai/)                                                                                            |
-| [joyfusion](https://joyfusion.app/)                                                                                         |
 | []()                                                                                                                        |
 
 | [多模型管理]()                                           |
