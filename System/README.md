@@ -1,13 +1,12 @@
 # 软件
-|                                                                  |
-|------------------------------------------------------------------|
-| [Win+Mac 哇哦菌](https://www.waodown.com/category/mac)              |
-| [安卓视频](https://github.com/o0HalfLife0o/TVBoxOSC)                 |
-| [YTB 下载 Hitomi](https://github.com/KurtBestor/Hitomi-Downloader) |
-| [视频 下载 Lux](https://github.com/iawia002/lux)                     |
-http://www.monkrus.ws/
-http://www.jianpian9.com/
-https://install.appcenter.ms/orgs/rdmacios-k2vy/apps/microsoft-remote-desktop-for-mac/distribution_groups/all-users-of-microsoft-remote-desktop-for-mac
+|                                                                                                                                                                           |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Win+Mac 哇哦菌](https://www.waodown.com/category/mac)                                                                                                                       |
+| [安卓视频](https://github.com/o0HalfLife0o/TVBoxOSC)                                                                                                                          |
+| [YTB 下载 Hitomi](https://github.com/KurtBestor/Hitomi-Downloader)                                                                                                          |
+| [视频 下载 Lux](https://github.com/iawia002/lux)                                                                                                                              |
+| [Adobe 专用](http://www.monkrus.ws/)                                                                                                                                        |
+| [Mac Windows 远控](https://install.appcenter.ms/orgs/rdmacios-k2vy/apps/microsoft-remote-desktop-for-mac/distribution_groups/all-users-of-microsoft-remote-desktop-for-mac) |
 
 [在 mac 上运行 ios 软件](https://github.com/PlayCover/PlayCover)
 
