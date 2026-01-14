@@ -112,16 +112,17 @@
 | [wdku](https://ocr.wdku.net/)             |
 
 # PE软件
-| PE软件                                     |
-|------------------------------------------|
-| [优启通](https://www.itsk.com//)            |
-| [有兼容问题 微PE工具箱](https://www.wepe.com.cn/) |
-| [FirPE](https://firpe.cn/)               |
-| [Edgeless](https://home.edgeless.top/)   |
-| [HotPE](https://www.hotpe.top/)          |
-| [U盘魔术师](https://www.sysceo.com/usm/)     |
-| [杏雨梨云](https://www.xyboot.com/)          |
-| [冰封PE](http://www.bfgho.com/)            |
+| PE软件                                       |
+|--------------------------------------------|
+| [Ventoy](https://github.com/ventoy/Ventoy) |
+| [HotPE](https://www.hotpe.top/)            |
+| [Edgeless](https://home.edgeless.top/)     |
+| [FirPE](https://firpe.cn/)                 |
+| [有兼容问题 微PE工具箱](https://www.wepe.com.cn/)   |
+| [U盘魔术师](https://www.sysceo.com/usm/)       |
+| [杏雨梨云](https://www.xyboot.com/)            |
+| [冰封PE](http://www.bfgho.com/)              |
+| [优启通 有设置默认浏览器广告](https://www.itsk.com/)    |
 
 # 免费在线
 [免费 👍几乎全功能格式转换](https://convertio.co/zh/) \
