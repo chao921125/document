@@ -1,3 +1,15 @@
+# 关闭 SIP
+```shell
+csrutil disable
+
+csrutil enable --without fs 
+
+csrutil enable
+
+csrutil status
+```
+https://github.com/rustdesk/rustdesk
+
 # Mac 软件垃圾制造者
 | 垃圾战斗机     |
 |-----------|

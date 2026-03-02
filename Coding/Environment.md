@@ -22,15 +22,15 @@ Path      %JAVA_HOME%\bin
 ```
 ```shell
 # ENV JDK MacOS 下多版本配置
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-25.jdk/Contents/Home
 export JAVA8_HOME=/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home
 export JAVA11_HOME=/Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home
 export JAVA17_HOME=/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home
-export JAVA_HOME=$JAVA_HOME
+
+alias jdk="export JAVA_HOME=$JAVA_HOME"
 alias jdk8="export JAVA_HOME=$JAVA8_HOME"
 alias jdk11="export JAVA_HOME=$JAVA11_HOME"
 alias jdk17="export JAVA_HOME=$JAVA17_HOME"
-alias jdk="export JAVA_HOME=$JAVA_HOME"
 ```
 
 [MYSQL 下载](https://dev.mysql.com/downloads/mysql/) |
