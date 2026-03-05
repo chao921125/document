@@ -93,22 +93,20 @@
 |--------------------------------------------------------------------------------------------------------------------|
 | [*注册无验证*]()                                                                                                        |
 | [👍 19/年-1000G/月 白嫖机场](https://yes2.xn--mesv7f5toqlp.biz/register?code=IJNJjQW3) [](https://xn--mesv7f5toqlp.com/) |
-| [- 5/月-100G/月 一号测速](https://yh.yjbzzx.com/#/register?code=yX4UyKwx) [](https://xn--4gq48l11y805a.com/)             |
 | [- 7.99/月-100G/月 山水云](https://xn--9kq015a4jm.com/)                                                                 |
 | [- 7.8/月-100G/月 淘气兔](https://vip.taoqitu.pro/)                                                                     |
 | [8/月-120G/月 秒连云](https://xn--9kq676h12n.com/)                                                                      |
 | [- 8.8/月-80G/月 UBBOLINK](https://ubbol.ink/#/register) [](https://xn--4gqs44o.com/)                                |
-| [10/月-118G/月 玉兔](https://xn--diqv0fut7b.com/#/home)                                                                |
 | [10/月-130G/月 Coffee Cloud 咖啡云](https://xn--9kqp0mora.com/#/register)                                               |
 | [15/月-100G/月 牧牛云](https://xn--11xxa.com//#/register)                                                               |
+| [- 188/年-128G/月 一号测速](https://yh.yjbzzx.com/#/register?code=yX4UyKwx) [](https://xn--4gq48l11y805a.com/)           |
 | [20/月-300G/月 迷雾世界](https://迷雾世界.com/#/register?code=IOWM28rZ)                                                      |
 | [**************************************************]()                                                             |
 | [6/季-100G/月 FG](https://feigou.idsduf.com//#/register?code=fdFqcdOt)                                               |
-| [10/季-200G/月 廉价机场](https://lianjiajichang.com/#/register?code=FeiARV4a)                                            |
 | [39/年-1000G/月 Paper Plane 纸飞机](https://zfj.app/)                                                                   |
 | [- 42/年-160G/月 cshjc 超实惠](https://cshjc.top/web/#/login?code=De8r9eME)                                             |
 | [- 5/月-100G/月 WindyCloud](https://portal.passgfw.top/#/register)                                                   |
-| [- 5/月-100G/月 云安云](https://www.yunanyun.app/#/register)                                                            |
+| [- 5/月-100G/月 云安云](https://yay520.com/login/)                                                                      |
 | [- 5/月-100G/月 ChiguaYun](https://chiguayun.com/#/register)                                                         |
 | [- 5.8/月-600G/月 蟒蛇](https://www.mangshe.org/#/register)                                                            |
 | [- 5.99/月-1024G/月 ktmcloud](https://ktmcloud.cc/#/login)                                                           |
