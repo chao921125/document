@@ -116,8 +116,6 @@
 | [9/月-120G/月 渔云](https://cloudfisher.net/web/#/login?code=I2lj0vUP)                                                 |
 | [- 9.9/月-100G/月 红魔馆网络](https://koumakan.quickline.top/#/register) [](https://quickline.top/)                       |
 | [- 10.9/月-222G/月 红杏云](https://hongxingdl.com/)                                                                     |
-| [12/月-300G/月 创奇](https://go.cqjiasu.top/#/register)                                                                |
-| [13.88/月-256G/月 tmsretc 千速喵](https://tmsrets.top/zh/#/auth/login)                                                  |
 | [13.88/月-100G/月 果粒橙](https://guolicheng.cc/index.php#/register)                                                    |
 | [- 14.9/月-130G/月 魔戒](https://mojie.me/#/register?aff=Gu3iS0ty)                                                     |
 | [- 15/月-120G/月 starlinkcloud 星链云](https://starlinkcloud.io/#/register)                                             |
