@@ -114,7 +114,6 @@
 | [7/月-150G/月 xfltd](https://xfltd.cc/)                                                                              |
 | [8/月-100G/月 SausageCloud](https://reborn.kaochang.ltd/#/register?code=EU9d7PnU)                                    |
 | [9/月-120G/月 渔云](https://cloudfisher.net/web/#/login?code=I2lj0vUP)                                                 |
-| [- 9.9/月-100G/月 红魔馆网络](https://koumakan.quickline.top/#/register) [](https://quickline.top/)                       |
 | [- 10.9/月-222G/月 红杏云](https://hongxingdl.com/)                                                                     |
 | [13.88/月-100G/月 果粒橙](https://guolicheng.cc/index.php#/register)                                                    |
 | [- 14.9/月-130G/月 魔戒](https://mojie.me/#/register?aff=Gu3iS0ty)                                                     |
@@ -129,11 +128,10 @@
 | [* 12.8/月-100G/月 金坷垃](https://xn--dgsya2281b.com/)                                                                 |
 | [**************************************************]()                                                             |
 | [13/年-100G/月 fscloud 订阅需转](https://web.fscloud.app/#/register?code=1umqePA4) [](https://fscloud.vip/)              |
-| [9.9/月-100G/月 SAC](https://www.189.cam/register)                                                                   |
 | [10/月-500G/月 中国国际机场](https://werun.id/#/login)                                                                     |
 | [* 10/月-200G/月 忽悠云](https://gfw.gg/register)                                                                       |
 | [10/月-200G/月 最长跑道](https://zcpdao.com/#/register)                                                                  |
-| [10/月-128G/月 次元雲](https://ciyy.cc/index.php#/register)                                                             |
+| [10/月-128G/月 次元雲](https://ciyy.cc/)                                                                                |
 | [10/月-128G/月 TaiShan Net](https://www.taishan.pro/#/register)                                                      |
 | [10/月-120G/月 Riolu 精灵学院](https://o.riolu.ooo/) [](https://pub.riolu.icu/) [](https://info.riolu.icu)               |
 | [10.8/月-120G/月 okokcloud](https://okokcloud.net/index.html)                                                        |
