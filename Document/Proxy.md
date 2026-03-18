@@ -104,7 +104,6 @@
 | [**************************************************]()                                                             |
 | [6/季-100G/月 FG](https://feigou.idsduf.com//#/register?code=fdFqcdOt)                                               |
 | [39/年-1000G/月 Paper Plane 纸飞机](https://zfj.app/)                                                                   |
-| [- 42/年-160G/月 cshjc 超实惠](https://cshjc.top/web/#/login?code=De8r9eME)                                             |
 | [- 5/月-100G/月 WindyCloud](https://portal.passgfw.top/#/register)                                                   |
 | [- 5/月-100G/月 云安云](https://yay520.com/login/)                                                                      |
 | [- 5/月-100G/月 ChiguaYun](https://chiguayun.com/#/register)                                                         |
@@ -117,7 +116,6 @@
 | [- 10.9/月-222G/月 红杏云](https://hongxingdl.com/)                                                                     |
 | [13.88/月-100G/月 果粒橙](https://guolicheng.cc/index.php#/register)                                                    |
 | [- 14.9/月-130G/月 魔戒](https://mojie.me/#/register?aff=Gu3iS0ty)                                                     |
-| [- 15/月-120G/月 starlinkcloud 星链云](https://starlinkcloud.io/#/register)                                             |
 | [19.9/月-210G/月 快冲云](https://wzjmcabhhure.github.io/)                                                               |
 | [**************************************************]()                                                             |
 | [**************************************************]()                                                             |
@@ -129,7 +127,6 @@
 | [**************************************************]()                                                             |
 | [13/年-100G/月 fscloud 订阅需转](https://web.fscloud.app/#/register?code=1umqePA4) [](https://fscloud.vip/)              |
 | [10/月-500G/月 中国国际机场](https://werun.id/#/login)                                                                     |
-| [* 10/月-200G/月 忽悠云](https://gfw.gg/register)                                                                       |
 | [10/月-200G/月 最长跑道](https://zcpdao.com/#/register)                                                                  |
 | [10/月-128G/月 次元雲](https://ciyy.cc/)                                                                                |
 | [10/月-128G/月 TaiShan Net](https://www.taishan.pro/#/register)                                                      |
@@ -192,7 +189,6 @@
 | [26/月-200G/月 GTK PW](https://board.gtk.pw/#/home)                                                                       |
 | [* 29/月-120G/月 速子云](https://tachyun.com/) [](https://vsizi.com//)                                                       |
 | [29.9/月-160G/月 Realnode](https://dash.realnode.app/index.php#/register)                                                 |
-| [38/月-150G/月 Linkeless](https://www.linkeless.com/#/register)                                                           |
 | [39/月-150G/月 FlowerCloud 花云](https://huacloud.dev/)                                                                     |
 | [* 105/季-100G/月 KyCloud](https://my.cloudn.cc/cart.php)                                                                 |
 | [42/月-300G/月 ENET](https://www.iplce.net)                                                                               |
@@ -227,7 +223,6 @@
 | [128/年-168G/月 奈云](https://www.v2ny.co/)                                                                        |
 | [138/年-150G/月 奈思云](https://www.naisii.com/)                                                                    |
 | [~~12/月-300G/月 ikuuu~~](https://ikuuu.ch/auth/register?code=Zg3E)                                              |
-| [12.8/年-100G/月 金坷垃](https://jinkela.app/)                                                                      |
 | [12.8/月-88G/月 纷达](https://fenda.cloud/auth/register)                                                           |
 | [* 13.9/月-150G/月 万达云](https://app.wdycenter.com/)                                                              |
 | [14.9/月-320G/月 闪电](https://shandiancn.com/#/register?code=TzemLQ9y) [](https://sd.369.cyou/)                   |
