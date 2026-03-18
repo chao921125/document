@@ -7,6 +7,7 @@
 | [hiddify-next *全平台*、](https://github.com/hiddify/hiddify-app)                                                                           |
 | [FlClash *无 IOS*](https://github.com/chen08209/FlClash)                                                                                 |
 | [karing](https://github.com/KaringX/karing) [单独 IOS](https://apps.apple.com/us/app/karing/id6472431552)                                 |
+| [clashmi](https://github.com/KaringX/clashmi) [单独 IOS](https://apps.apple.com/us/app/clash-mi/id6744321968)                             |
 | [clash-verge-rev *无 Android IOS* **不兼容旧系统**](https://github.com/clash-verge-rev/clash-verge-rev)                                        |
 | [clash-party *无 Android IOS* **兼容旧系统**](https://github.com/mihomo-party-org/clash-party)                                                |
 | [v2rayN *无 IOS*](https://github.com/2dust/v2rayN) [单独 Android](https://github.com/2dust/v2rayNG)                                        |
