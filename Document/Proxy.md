@@ -103,7 +103,6 @@
 | [20/月-300G/月 迷雾世界](https://迷雾世界.com/#/register?code=IOWM28rZ)                                                      |
 | [**************************************************]()                                                             |
 | [6/季-100G/月 FG](https://feigou.idsduf.com//#/register?code=fdFqcdOt)                                               |
-| [39/年-1000G/月 Paper Plane 纸飞机](https://zfj.app/)                                                                   |
 | [- 5/月-100G/月 WindyCloud](https://portal.passgfw.top/#/register)                                                   |
 | [- 5/月-100G/月 云安云](https://yay520.com/login/)                                                                      |
 | [- 5/月-100G/月 ChiguaYun](https://chiguayun.com/#/register)                                                         |
@@ -220,7 +219,6 @@
 | [10/月-188G/月 Echo](https://echonetwork.club/#/login)                                                           |
 | [10/月-100G/月 疾风云](https://jifengcloud.net/auth/register) [](https://jifengcloud.info/)                         |
 | [128/年-200G/月 小飞象](https://xiaofeixiang.top/#/register)                                                        |
-| [128/年-168G/月 奈云](https://www.v2ny.co/)                                                                        |
 | [138/年-150G/月 奈思云](https://www.naisii.com/)                                                                    |
 | [~~12/月-300G/月 ikuuu~~](https://ikuuu.ch/auth/register?code=Zg3E)                                              |
 | [12.8/月-88G/月 纷达](https://fenda.cloud/auth/register)                                                           |
@@ -238,7 +236,6 @@
 | [15/月-100G/月 linkcube](https://www.linkcube.org/cart.php)                                                   |
 | [15.9/月-100G/月 naiunet](https://www.naiunet.com/#/register)                                                 |
 | [19.9/月-200G/月 7速云](https://7lol.lol/)                                                                      |
-| [* 19.9/月-100G/月 桔子云 同](https://juzicloud.net/auth/register)                                                |
 | [* 19.9/月-100G/月 极客云 同](https://jike0.com/auth/register)                                                    |
 | [* 19.9/月-100G/月 速鹰666 同](https://suying666.com/auth/register)                                              |
 | [19.9/月-100G/月 速云梯 同](https://suyunti981.xyz/auth/register?code=uYMg) [](https://suyunti.com/)              |
