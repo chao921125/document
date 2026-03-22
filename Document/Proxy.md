@@ -298,7 +298,6 @@
 | [ffq](https://www.ffq.la/)              |
 | [guatizi](https://guatizi.com/)         |
 | [VPS](https://shluqu.github.io/)        |
-| [biquandh](https://www.biquandh.com/)   |
 | [ermao](https://www.ermao.net/)         |
 
 # Free
