@@ -120,12 +120,11 @@
 | [**************************************************]()                                                             |
 | [**************************************************]()                                                             |
 | [*注册验证*]()                                                                                                         |
-| [12/年-500G/月 一元机场](https://xn--4gq62f52gdss.com/#/register?code=y2BjORPu)                                          |
 | [4.99/月-1024G/月 大机场 Big Airport](https://xn--mesr8b36x.com/#/register)                                             |
 | [* 12.8/月-150G/月 M78星云](https://xn--m78-dj9dv09h.com/)                                                             |
 | [* 12.8/月-100G/月 金坷垃](https://xn--dgsya2281b.com/)                                                                 |
 | [**************************************************]()                                                             |
-| [13/年-100G/月 fscloud 订阅需转](https://web.fscloud.app/#/register?code=1umqePA4) [](https://fscloud.vip/)              |
+| [13/年-100G/月 fscloud](https://web.fscloud.app/#/register?code=1umqePA4) [](https://fscloud.vip/)                   |
 | [10/月-500G/月 中国国际机场](https://werun.id/#/login)                                                                     |
 | [10/月-200G/月 最长跑道](https://zcpdao.com/#/register)                                                                  |
 | [10/月-128G/月 次元雲](https://ciyy.cc/)                                                                                |
