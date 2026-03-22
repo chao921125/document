@@ -156,7 +156,6 @@
 | [- 15/月-150G/月 小飞侠VPN](https://so.xfxvpn.life/#/login) [](http://xfxssr.com/)                                           |
 | [~~* - 15/月-100G/月 飞鸟 FlyingBird 4~~](https://fbaff02.flyb-aff01.com/auth/register?code=GXsW) [](https://flyingbird.cc) |
 | [- 15/月-100G/月 overwall](https://overwall.run/)                                                                         |
-| [15/月-100G/月 一云梯 4](https://1yunti.one/)                                                                                |
 | [15/月-100G/月 龙猫云 Totoro Cloud 4](https://totorocloud.cc/register?code=8JnnPAyd)                                         |
 | [15.05/月-251G/月 prprCloud](https://prprcloud.com/)                                                                      |
 | [- 18/月-100G/月 Miaona](https://miaona.co/#/register)                                                                    |
@@ -179,9 +178,9 @@
 | [* 15.8/月-160G/月 狗狗加速](https://xn--yfrp36ea9901a.com/)                                                                  |
 | [**************************************************]()                                                                  |
 | [15/月-100G/月 LinkCube](https://711-cloud.net/)                                                                          |
-| [15.99/月-100G/月 海獭](https://haita.io/register?aff=DERuAJGA)                                                             |
 | [20/月-120G/月 xgcloud](https://www.xgcloud.org/#/register)                                                               |
 | [22.99/月-80G/月 Bitz Net](https://www.bitzconnect.com/)                                                                  |
+| [23/月-150G/月 Hutao](https://hutao.cloud/auth/register)                                                                  |
 | [24.9/月-100G/月 tomatocloud](https://tomatocloud.me/)                                                                    |
 | [24.9/月-100G/月 Web3加速器](https://web3vpn.net/)                                                                           |
 | [25/月-100G/月 miyun 觅云](https://www.miyun.la/)                                                                           |
@@ -205,6 +204,7 @@
 | [- 9.9/年-100G/月 milkcloud](https://milkcloud.org/#/login?code=5kCrB1gr)                                        |
 | [- 5/月-100G/月 mitce](https://mitce.com/) [25/月-*G/月 mitce](https://mitce.com/)                                 |
 | [- 10/月-100G/月 最萌の云](https://cutestcloud.com/#/register)                                                       |
+| [- 10.9/月-150G/月 壹速云](https://www.suyun.one/) [](https://www.onesy.top/)                                       |
 | [12.8/月-320G/月 喵酥云](https://www.miaosu.xyz/#/register)                                                         |
 | [23/月-300G/月 飞毯加速](https://tanz.369.cyou/)                                                                     |
 | [**************************************************]()                                                         |
@@ -222,7 +222,6 @@
 | [138/年-150G/月 奈思云](https://www.naisii.com/)                                                                    |
 | [~~12/月-300G/月 ikuuu~~](https://ikuuu.ch/auth/register?code=Zg3E)                                              |
 | [12.8/月-88G/月 纷达](https://fenda.cloud/auth/register)                                                           |
-| [* 13.9/月-150G/月 万达云](https://app.wdycenter.com/)                                                              |
 | [14.9/月-320G/月 闪电](https://shandiancn.com/#/register?code=TzemLQ9y) [](https://sd.369.cyou/)                   |
 | [15.9/月-100G/月 蓝帆云](https://lanfan.cloud/portal/register)                                                      |
 | [* 16/月-100G/月 猫熊网络](https://mxwljsq.com/auth/register)                                                        |
@@ -250,23 +249,24 @@
 | [- 29/月-200G/月 CreamData 奶油](https://www.naiyovpn.com/)                                                     |
 | [* - 29/月-120G/月 cmy 红莓](https://caomeijump.com/)                                                           |
 | [- 29/月-100G/月 MDSSCLOUD](https://mdss.cloud/#/register) [](https://mdss.369.cyou/)                         |
-| [39/月-200G/月 BoostNet](https://boostqz.com/)                                                                |
-| [43+/月-500G/月 Just My Socks](https://justmysocks.net/)                                                      |
+| [***** 43+/月-500G/月 Just My Socks](https://justmysocks.net/)                                                |
 | [46/月-328G/月 OKANC](https://www.okanc.com/index.php#/register)                                              |
 | [* 49/月-120G/月 WgetCloud](https://invite.wgetcloud.ltd/auth/register?code=Y7ytZ1) [](https://wgetcloud.org) |
 | [* 52/月-200G/月 库洛米](https://www.kuromis.com/)                                                               |
 | [**************************************************]()                                                      |
 | [**************************************************]()                                                      |
 | [*注册验证*]()                                                                                                  |
+| [9.9/月-384G/月 瑶瑶领先](https://yyssr.org/)                                                                     |
 | [15/月-150G/月 火星联盟](https://a.hxlm.homes/)                                                                   |
 | [17.8/月-200G/月 SS ONE](https://hello36d.com/register)                                                       |
+| [18/月-158G/月 芬达](https://fenda.cloud/auth/register)                                                         |
 | [18/月-150G/月 百变小樱](https://bbxy.shop/)                                                                      |
 | [19/月-120G/月 忍者云](https://renzhe.cloud/)                                                                    |
-| [19.9/月-180G/月 贝贝云](https://beibeicloud.shop/#/login)                                                       |
+| [19.9/月-180G/月 贝贝云](https://beibeicloud.shop/#/login) [](https://666.beibei.cloud)                          |
 | [20/月-120G/月 避风港](https://www.bfgok.com/auth/register)                                                      |
 | [20/月-100G/月 v2free](https://w1.v2free.cc/)                                                                 |
 | [22/月-100G/月 Nerwo奶瓶](https://invite.eleven.observer/auth/register.html)                                    |
-| [66/季-100G/月 白月光](https://bygcloud.com/#/login?code=NmWFv1Se) [](https://www.sibker.com/)                   |
+| [* 66/季-100G/月 白月光](https://bygcloud.com/#/login?code=NmWFv1Se) [](https://www.sibker.com/)                 |
 | [72/季-100G/月 MESL](https://in.mesl.cloud/#/register?code=6kMKKE0T)                                          |
 | [~~25/月-150G/月 SSRDOG~~ 推广佣金不给](https://go.ssrdog.com/?code=D24biOV4) [](https://dog.ssrdog.com/)           |
 | [25/月-100G/月 Bridge the Wise](https://www.btwcn.biz/)                                                       |
@@ -295,10 +295,14 @@
 | [github](https://github.com/winston779) |
 | [52chatai](https://52chatai.com/)       |
 | [tzdaohang](https://tzdaohang.com/)     |
-| [ffq](https://www.ffq.la/)              |
 | [guatizi](https://guatizi.com/)         |
 | [VPS](https://shluqu.github.io/)        |
 | [ermao](https://www.ermao.net/)         |
+| []()                                    |
+| [ygpy](https://ygpy.net/)               |
+| []()                                    |
+| [ffq](https://www.ffq.la/)              |
+| [duangks](https://a.duangks.com/)       |
 
 # Free
 | 免费订阅                                                                                 |
