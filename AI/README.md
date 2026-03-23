@@ -3,6 +3,8 @@
 # [awesome](https://github.com/showlab/Awesome-Video-Diffusion?tab=readme-ov-file)
 
 [//]: # (https://huggingface.co/huihui-ai)
+多模型客户端
+https://github.com/CherryHQ/cherry-studio
 # 自行搭建
 | [本地（服务器）搭建工具]()                                                                                                             |
 |-----------------------------------------------------------------------------------------------------------------------------|
