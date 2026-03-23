@@ -109,6 +109,7 @@ Win：iwr https://get.pnpm.io/install.ps1 -useb | iex
 
 # Python
 [Python 下载](https://www.python.org/downloads/)
+[Python 历史下载](https://www.python.org/ftp/python/)
 ```text
 不再建议安装Python 2.x 版本
 ```
