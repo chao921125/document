@@ -39,6 +39,9 @@
 | [redhat](https://www.redhat.com/en/technologies/cloud-computing/openshift/container-platform) |
 
 [//]: # (https://pip.itcast.cn/home?hm-pc-dh%24bz)
+[//]: # (https://github.com/GitHubDaily/GitHubDaily)
+[//]: # (https://github.com/public-apis/public-apis)
+[//]: # (https://github-cn.com/ranking?sort=stars&min_stars=0&license=)
 
 字体压缩
 [](https://cloudconvert.com/ttf-converter)
@@ -49,5 +52,5 @@ QWERTYUIOPASDFGHJKLZXCVBNM
 1234567890
 ,./;'[]\~!@#$%^&*()-=_+`{}|:"<>?
 ```
-
+https://github.com/coder/coder
 ###### 部分资源从网络收录而来
