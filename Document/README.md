@@ -7,6 +7,11 @@
 # 外部网站
 https://www.developers.pub/
 
+免费的 DB
+https://cockroachlabs.cloud/
+
+https://tidbcloud.com/
+
 浏览器插件：
 GreaseMonkey（油猴）
 TamperMonkey（捣蛋猴）
