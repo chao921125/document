@@ -13,7 +13,7 @@ hide_article_box.parentElement.removeChild(hide_article_box);
 ```
 # MacOS下卸载流氓软件之微信输入法
 ```Text
-打开 finder，按住 sheft + command + G 输入：/Library/Input Methods 回车
+打开 finder，按住 shift + command + G 输入：/Library/Input Methods 回车
 打开 终端命令控制台，输入 ps -ef|grep WeType
 找到后台进程，第二个数字就是微信键盘的进程号 执行： kill -9 进程号
 ```
