@@ -1,4 +1,5 @@
 # CSDN 去除关注博主
+###### 控制台输入 'allow pasting' 解除限制后复制以下代码
 
 ```JavaScript
 var article_content=document.getElementById("article_content");
