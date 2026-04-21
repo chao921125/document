@@ -19,13 +19,8 @@ https://search.censys.io/
 点击一个网址，然后搜索 302 复制对应的URL即可
 ```
 
-# Jetbrains 离线 Last 2025+
+# Jetbrains 离线 Last 2026.x
 ```shell
-# 将 jar 放到指定位置后， 修改 x.vmoptions内容： -javaagent:*/ja-netfilter.jar
-# 运行获取通用的 KEY 将生成的 key 放到 key.txt 文件中
-java -jar ja-netfilter.jar -genkey -id=Me -user=Me -exp=2099-12-31 >> key.txt
-# 运行获取通用的 KEY
-java -jar ja-netfilter.jar -genkey -id=Me -user=Me -exp=2099-12-31
-# 运行获取指定的 KEY，例如：IntelliJ IDEA，对应的产品为首字母缩写，后面的 PC 请勿修改
-java -jar ja-netfilter.jar -genkey -id=Me -user=Me -exp=2099-12-31 -products=II,PC
+# 根据系统 执行 scripts 内的脚本
+# 复制 code.txt
 ```
