@@ -27,6 +27,13 @@ https://github.com/CherryHQ/cherry-studio
 | [sanctum](https://sanctum.ai/)                                                                                              |
 | []()                                                                                                                        |
 
+# 复合客户端
+|                                                        |
+|--------------------------------------------------------|
+| [NextChat](https://github.com/ChatGPTNextWeb/NextChat) |
+| [lobehub](https://github.com/lobehub/lobehub)          |
+| [chatbox](https://github.com/chatboxai/chatbox)        |
+
 | [多模型管理]()                                           |
 |-----------------------------------------------------|
 | [cherry](https://github.com/CherryHQ/cherry-studio) |
