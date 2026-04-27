@@ -163,7 +163,6 @@
 | [20/月-200G/月 肥猫云 FATCAT](https://www.fatcatcf.com/register)                                                             |
 | [- 20/月-200G/月 WestData](https://wd-cloud.net/)                                                                         |
 | [* - 20/月-100G/月 老猫云](https://88laomao.com/#/register) [](https://laomao.biz/)                                          |
-| [~~* 20/月-100G/月 闪电猫 SpeedCAT 4~~](https://scaff01.scvipaff.com/auth/register?code=U6L9) [](https://speedcat.me/)       |
 | [- 20.53/月-120G/月 nicess](https://client.nicess.one/register.php)                                                       |
 | [23.8/月-180G/月 Anyland](https://anyland.club/#/register?code=xvfqFY02)                                                  |
 | [* 24/月-120G/月 Gatern](https://shuttle.gt-all.com/register.php)                                                         |
@@ -268,7 +267,6 @@
 | [22/月-100G/月 Nerwo奶瓶](https://invite.eleven.observer/auth/register.html)                                    |
 | [* 66/季-100G/月 白月光](https://bygcloud.com/#/login?code=NmWFv1Se) [](https://www.sibker.com/)                 |
 | [72/季-100G/月 MESL](https://in.mesl.cloud/#/register?code=6kMKKE0T)                                          |
-| [~~25/月-150G/月 SSRDOG~~ 推广佣金不给](https://go.ssrdog.com/?code=D24biOV4) [](https://dog.ssrdog.com/)           |
 | [25/月-100G/月 Bridge the Wise](https://www.btwcn.biz/)                                                       |
 | [278/年-100G/月 Fastnode](https://fastnode.me/auth/register)                                                  |
 | [25/月-100G/月 觅云](https://www.mecloud.icu/)                                                                  |
