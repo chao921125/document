@@ -8,23 +8,25 @@ https://github.com/CherryHQ/cherry-studio
 # 自行搭建
 | [本地（服务器）搭建工具]()                                                                                                             |
 |-----------------------------------------------------------------------------------------------------------------------------|
-| [ollama](https://github.com/ollama/ollama) [ollama 官网](https://ollama.com/)                                                 |
 | [llama.cpp](https://github.com/ggml-org/llama.cpp)                                                                          |
-| [gpt4all](https://github.com/nomic-ai/gpt4all) [gpt4all 官网](https://www.nomic.ai/gpt4all)                                   |
-| [vllm](https://github.com/vllm-project/vllm) [vllm 官网](https://docs.vllm.ai/en/latest/#)                                    |
+| [vLLM](https://github.com/vllm-project/vllm) [vLLM 官网](https://docs.vllm.ai/en/latest/)                                     |
+| [Unsloth Studio](https://github.com/unslothai/unsloth) [Unsloth 官网](https://unsloth.ai/)                                    |
 | [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) [AnythingLLM 官网](https://anythingllm.com/)                     |
+| [Pi](https://github.com/badlogic/pi-mono) [Pi 官网](https://pi.dev/)                                                          |
 | [Jan](https://github.com/janhq/jan) [Jan 官网](https://jan.ai/)                                                               |
-| [FastChat](https://github.com/lm-sys/FastChat)                                                                              |
-| [LocalAI](https://github.com/mudler/LocalAI)                                                                                |
+| [LocalAI](https://github.com/mudler/LocalAI) [LocalAI 官网](https://localai.io/)                                              |
+| [SGLang](https://github.com/sgl-project/sglang) [SGLang 官网](https://www.sglang.io/)                                         |
 | [MLC LLM](https://github.com/mlc-ai/mlc-llm) [MLC LLM 官网](https://llm.mlc.ai/)                                              |
-| [diffusionbee](https://github.com/divamgupta/diffusionbee-stable-diffusion-ui) [diffusionbee 官网](https://diffusionbee.com/) |
-| [OpenLLM](https://github.com/bentoml/OpenLLM) [OpenLLM 官网](https://bentoml.com/)                                            |
-| [mlx-lm](https://github.com/ml-explore/mlx-lm)                                                                              |
+| [DiffusionBee](https://github.com/divamgupta/diffusionbee-stable-diffusion-ui) [DiffusionBee 官网](https://diffusionbee.com/) |
+| [MLX LM](https://github.com/ml-explore/mlx-lm)                                                                              |
+| [Lemonade](https://github.com/lemonade-sdk/lemonade)                                                                        |
 | [node-llama-cpp](https://github.com/withcatai/node-llama-cpp)                                                               |
-| [lemonade](https://github.com/lemonade-sdk/lemonade)                                                                        |
-| [mlc-ll](https://github.com/mlc-ai/mlc-llm)                                                                                 |
 | [LM Studio](https://github.com/lmstudio-ai) [LM Studio 官网](https://lmstudio.ai/)                                            |
-| [sanctum](https://sanctum.ai/)                                                                                              |
+| [~~违反开源协议 Ollama~~](https://github.com/ollama/ollama) [~~Ollama 官网~~](https://ollama.com/)                                  |
+| [Sanctum](https://sanctum.ai/)                                                                                              |
+| [Draw Things](https://drawthings.ai/)                                                                                       |
+| [JoyFusion](https://joyfusion.app/)                                                                                         |
+| [Docker Model Runner](https://docs.docker.com/ai/model-runner/)                                                             |
 | []()                                                                                                                        |
 
 # 复合客户端
