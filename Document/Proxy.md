@@ -4,12 +4,12 @@
 | Windows MacOS Linux Android IOS                                                                                                         |
 |-----------------------------------------------------------------------------------------------------------------------------------------|
 | [sing-box *全平台*](https://github.com/SagerNet/sing-box)                                                                                  |
-| [hiddify-next *全平台*](https://github.com/hiddify/hiddify-app)                                                                            |
+| [👍 hiddify-next *全平台*](https://github.com/hiddify/hiddify-app)                                                                         |
 | [FlClash *无 IOS*](https://github.com/chen08209/FlClash)                                                                                 |
-| [karing](https://github.com/KaringX/karing) [单独 IOS](https://apps.apple.com/us/app/karing/id6472431552)                                 |
+| [👍 karing](https://github.com/KaringX/karing) [单独 IOS](https://apps.apple.com/us/app/karing/id6472431552)                              |
 | [clashmi](https://github.com/KaringX/clashmi) [单独 IOS](https://apps.apple.com/us/app/clash-mi/id6744321968)                             |
-| [v2rayN *无 IOS*](https://github.com/2dust/v2rayN) [单独 Android](https://github.com/2dust/v2rayNG)                                        |
-| [clash-verge-rev *无 Android IOS* **不兼容旧系统**](https://github.com/clash-verge-rev/clash-verge-rev)                                        |
+| [👍 v2rayN *无 IOS*](https://github.com/2dust/v2rayN) [单独 Android](https://github.com/2dust/v2rayNG)                                     |
+| [👍 clash-verge-rev *无 Android IOS* **不兼容旧系统**](https://github.com/clash-verge-rev/clash-verge-rev)                                     |
 | [clash-party *无 Android IOS* **兼容旧系统**](https://github.com/mihomo-party-org/clash-party)                                                |
 | [clash-nyanpasu *无 Android IOS*](https://github.com/libnyanpasu/clash-nyanpasu)                                                         |
 | [shadowsocks *无 IOS*](https://github.com/shadowsocks/shadowsocks-rust) [单独 Android](https://github.com/shadowsocks/shadowsocks-android) |
@@ -23,9 +23,8 @@
 | MacOS                                                             |
 |-------------------------------------------------------------------|
 | [ShadowsocksX-NG](https://github.com/shadowsocks/ShadowsocksX-NG) |
-| [ClashX.Meta](https://github.com/MetaCubeX/ClashX.Meta)           |
 | [V2rayU](https://github.com/yanue/V2rayU)                         |
-| [ClashMac](https://github.com/666OS/ClashMac)                     |
+| [ClashX.Meta](https://github.com/MetaCubeX/ClashX.Meta)           |
 
 | Android                                                                   |
 |---------------------------------------------------------------------------|
@@ -41,19 +40,19 @@
 | [Streisand 美 免费](https://apps.apple.com/us/app/streisand/id6450534064?platform=iphone)                            |
 | [Potatso 美 免费](https://apps.apple.com/us/app/potatso/id1239860606)                                                |
 | [V2box 美 免费](https://apps.apple.com/us/app/v2box-v2ray-client/id6446814690)                                       |
-| [Stash](https://apps.apple.com/app/stash/id1596063349)                                                            |
 | [Spectre VPN 美 免费 SSR](https://apps.apple.com/us/app/spectre-vpn/id1508712998)                                    |
 | [Shadowrocket GitHub 付费](https://github.com/Shadowrocket)                                                         |
 | [Shadowrocket 美 付费](https://apps.apple.com/us/app/shadowrocket/id932747118)                                       |
 | [Shadowrocket 港 付费](https://apps.apple.com/hk/app/shadowrocket/id932747118)                                       |
+| [Stash](https://apps.apple.com/app/stash/id1596063349)                                                            |
 | [Quantumult GitHub 付费](https://github.com/crossutility/Quantumult)                                                |
 | [Quantumult 美 付费](https://apps.apple.com/us/app/quantumult/id1252015438)                                          |
 | [Quantumult 港 付费](https://apps.apple.com/hk/app/quantumult/id1252015438)                                          |
 | [QuantumultX GitHub 付费](https://github.com/crossutility/Quantumult-X)                                             |
 | [QuantumultX 美 付费](https://apps.apple.com/us/app/quantumult-x/id1443988620)                                       |
 | [QuantumultX 港 付费](https://apps.apple.com/hk/app/quantumult-x/id1443988620)                                       |
-| [Surge 美 付费](https://apps.apple.com/us/app/surge-5/id1442620678) [官网](https://nssurge.com/)                       |
 | [Loon 美 付费](https://apps.apple.com/us/app/loon/id1373567447)                                                      |
+| [Surge 美 付费](https://apps.apple.com/us/app/surge-5/id1442620678) [官网](https://nssurge.com/)                       |
 
 | 路由器                                                                      |
 |--------------------------------------------------------------------------|
