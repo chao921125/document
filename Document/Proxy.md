@@ -109,7 +109,6 @@
 | [- 5.8/月-600G/月 蟒蛇](https://www.mangshe.org/#/register)                                                            |
 | [- 5.99/月-1024G/月 ktmcloud](https://ktmcloud.cc/#/login)                                                           |
 | [- 6/月-100G/月 流浪地球](https://liulangdiqiu.cc/#/register)                                                            |
-| [7/月-150G/月 xfltd](https://xfltd.cc/)                                                                              |
 | [8/月-100G/月 SausageCloud](https://reborn.kaochang.ltd/#/register?code=EU9d7PnU)                                    |
 | [9/月-120G/月 渔云](https://cloudfisher.net/web/#/login?code=I2lj0vUP)                                                 |
 | [- 10.9/月-222G/月 红杏云](https://hongxingdl.com/)                                                                     |
