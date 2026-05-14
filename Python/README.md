@@ -13,6 +13,11 @@
 | [Sanic](https://github.com/sanic-org/sanic)      |
 | [Tornado](https://github.com/tornadoweb/tornado) |
 
+| 包管理                                   |
+|---------------------------------------|
+| [uv](https://github.com/astral-sh/uv) |
+
+
 ```shell
 # upgrade pip
 pip3 install --upgrade pip
