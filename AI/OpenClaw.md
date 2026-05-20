@@ -37,3 +37,145 @@ tmux: https://github.com/tmux/tmux(终端复用器，堪称 Linux/Unix 运维神
 video-frames: https://github.com/n3r4zzurr0/video-frames(Node.js 库，用于从视频中按时间戳提取帧并转为 base64 图像)
 wacli: https://www.npmjs.com/package/wacli(WhatsApp 的命令行工具，可通过 npm 安装使用)
 xurl: https://www.npmjs.com/package/xurl(用于在命令行中快速发起各种 HTTP 请求的轻量级 CLI 工具)
+
+# 卸载
+## 标准卸载流程（所有系统通用第一步）
+```shell
+# 官方卸载指令
+openclaw uninstall
+
+# 强制删除全局npm包
+npm rm -g openclaw
+npm rm -g clawhub
+npm rm -g moltbot
+```
+
+## MacOS 彻底卸载（清理launchd服务与残留目录）
+```shell
+# 停止并卸载网关服务
+launchctl bootout gui/$UID/bot.molt.gateway
+launchctl remove bot.molt.gateway
+
+# 删除系统服务配置文件
+rm -f ~/Library/LaunchAgents/bot.molt.gateway.plist
+rm -f ~/Library/LaunchAgents/com.openclaw.*.plist
+rm -f ~/Library/LaunchAgents/com.moltbot.*.plist
+
+# 删除主配置目录
+rm -rf ~/.openclaw
+rm -rf ~/.clawdbot
+rm -rf ~/.moltbot
+
+# 删除工作区与技能缓存
+rm -rf ~/OpenClaw
+rm -rf ~/Clawdbot
+rm -rf ~/Moltbot
+
+# 清理日志与临时文件
+rm -rf /tmp/openclaw*
+rm -rf /tmp/claw*
+rm -rf /tmp/molt*
+
+# 验证是否卸载干净
+which openclaw
+which clawhub
+```
+## Linux 彻底卸载（清理systemd系统服务）
+```shell
+# 停止并禁用自启服务
+systemctl --user stop openclaw-gateway.service
+systemctl --user disable openclaw-gateway.service
+
+# 删除服务文件
+rm -f ~/.config/systemd/user/openclaw-gateway.service
+rm -f ~/.config/systemd/user/moltbot.service
+
+# 重新加载系统服务配置
+systemctl --user daemon-reexec
+systemctl --user daemon-reload
+
+# 删除配置与数据目录
+rm -rf ~/.openclaw
+rm -rf ~/.clawdbot
+rm -rf ~/.moltbot
+rm -rf /opt/openclaw
+rm -rf /opt/clawdbot
+
+# 清理全局命令
+rm -f /usr/local/bin/openclaw
+rm -f /usr/local/bin/clawdbot
+rm -f /usr/local/bin/moltbot
+rm -f /usr/local/bin/clawhub
+
+# 清理Docker容器与镜像（如使用容器部署）
+docker stop openclaw
+docker rm openclaw
+docker rmi openclaw/openclaw:latest
+docker system prune -af
+
+# 验证卸载
+which openclaw
+systemctl --user list-unit-files | grep openclaw
+```
+
+## Windows11 彻底卸载（管理员权限清理计划任务）
+以管理员身份打开 PowerShell 执行：
+```shell
+# 强制删除OpenClaw自启计划任务
+schtasks /Delete /F /TN "OpenClaw Gateway"
+schtasks /Delete /F /TN "Clawdbot Gateway"
+schtasks /Delete /F /TN "Moltbot Gateway"
+
+# 停止所有相关进程
+taskkill /f /im node.exe
+taskkill /f /im openclaw.exe
+taskkill /f /im clawdbot.exe
+taskkill /f /im moltbot.exe
+
+# 删除主配置目录
+Remove-Item -Force -Recurse "$env:USERPROFILE\.openclaw"
+Remove-Item -Force -Recurse "$env:USERPROFILE\.clawdbot"
+Remove-Item -Force -Recurse "$env:USERPROFILE\.moltbot"
+
+# 删除工作区文件夹
+Remove-Item -Force -Recurse "$env:USERPROFILE\OpenClaw"
+Remove-Item -Force -Recurse "$env:USERPROFILE\Clawdbot"
+Remove-Item -Force -Recurse "$env:USERPROFILE\Moltbot"
+
+# 清理npm全局安装
+npm rm -g openclaw
+npm rm -g clawhub
+npm rm -g moltbot
+
+# 清理PATH中的残留命令
+Remove-Item -Force "$env:APPDATA\npm\openclaw*"
+Remove-Item -Force "$env:APPDATA\npm\claw*"
+Remove-Item -Force "$env:APPDATA\npm\molt*"
+
+# 清理Docker容器
+docker stop openclaw
+docker rm openclaw
+docker rmi openclaw/openclaw:latest
+docker system prune -af
+```
+## 阿里云ECS服务器彻底卸载OpenClaw
+```shell
+# 停止容器
+docker stop openclaw
+docker rm openclaw
+
+# 删除镜像
+docker rmi openclaw/openclaw:2026.3.15
+docker system prune -af
+
+# 删除挂载目录
+rm -rf /opt/openclaw
+rm -rf /opt/clawdbot
+
+# 删除服务与配置
+rm -rf ~/.openclaw
+rm -rf /tmp/openclaw*
+
+# 卸载npm全局包
+npm rm -g openclaw clawhub
+```
