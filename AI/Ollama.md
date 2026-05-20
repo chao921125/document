@@ -88,3 +88,54 @@ systemctl restart ollama
 
 5、在一个新的终端窗口运行 ollama
 ```
+# 卸载
+## MacOS 卸载 Ollama
+# Homebrew安装方式卸载
+```shell
+brew remove ollama
+brew cleanup
+
+# 手动删除二进制文件
+rm -f /usr/local/bin/ollama
+rm -f /opt/homebrew/bin/ollama
+
+# 删除模型库（关键！可释放几十GB）
+rm -rf ~/.ollama
+
+# 删除服务配置
+rm -f ~/Library/LaunchAgents/com.ollama.*.plist
+
+# 停止服务
+pkill -f ollama
+```
+## Linux 卸载 Ollama
+```shell
+# 停止服务
+systemctl --user stop ollama
+systemctl --user disable ollama
+
+# 删除主程序
+rm -f /usr/local/bin/ollama
+rm -f /usr/bin/ollama
+
+# 删除全部模型与数据（巨大目录）
+rm -rf ~/.ollama
+rm -rf /opt/ollama
+
+# 删除服务配置
+rm -f ~/.config/systemd/user/ollama.service
+systemctl --user daemon-reload
+```
+## Windows 卸载 Ollama
+```shell
+# 设置 → 应用 → 已安装的应用 → 找到Ollama → 卸载
+# 管理员PowerShell执行：
+# 停止进程
+taskkill /f /im ollama.exe
+
+# 删除模型目录（必须手动清理）
+Remove-Item -Force -Recurse "$env:USERPROFILE\.ollama"
+
+# 删除残留日志与缓存
+Remove-Item -Force -Recurse "$env:APPDATA\Ollama"
+```
