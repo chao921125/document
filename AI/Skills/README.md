@@ -12,3 +12,4 @@
 | license | string | ❌ | 许可证信息 | Apache-2.0 |
 | compatibility | string | ❌ | 环境与依赖说明 | Requires Python 3.8+ |
 | metadata | object | ❌ | 自定义扩展元数据 | {"author": "team-a", "version": "1.2"} |
+
