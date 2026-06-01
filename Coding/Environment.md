@@ -1,15 +1,43 @@
 # Mac 系统必备安装 ~/.zprofile ~/.zshrc
 [Homebrew](https://brew.sh/)
-```text
-官方指令安装（科学上网）
+```shell
+# 官方指令安装（科学上网）
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+# 卸载：
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)"
-卸载：/bin/zsh -c "$(curl -fsSL https://raw.githubusercontent.com/HomebrewCN/raw/master/HomebrewUninstall.sh)"
-如果安装失败，请执行
+
+# 如果安装失败，请执行
 /bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
-卸载：/bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/HomebrewUninstall.sh)"
+# 卸载：
+/bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/HomebrewUninstall.sh)"
 ```
 
-# Java
+## 构建工具
+[Maven](https://maven.apache.org/)
+[Gradle](https://gradle.org/)
+```shell
+export M2_HOME="/Users/admin/apache-maven"
+PATH="${M2_HOME}/bin:${PATH}"
+export PATH
+```
+```shell
+brew install gradle
+```
+[Git 下载](https://git-scm.com/) |
+[Git 官方客户端](https://desktop.github.com/) |
+[Git 其他三方客户端](https://git-scm.com/downloads/guis)
+```text
+Mac自己会集成到XCode中去，如果更新Git服务的话执行一下命令即可
+Homebrew
+Install homebrew if you don't already have it, then:
+$ brew install git
+
+MacPorts
+Install MacPorts if you don't already have it, then:
+$ sudo port install git
+```
+
+## Java
 [JDK 下载](https://www.oracle.com/cn/java/technologies/downloads/)
 ```text
 Windows 环境下 请务必配置JDK的环境变量
@@ -33,6 +61,8 @@ alias jdk11="export JAVA_HOME=$JAVA11_HOME"
 alias jdk17="export JAVA_HOME=$JAVA17_HOME"
 ```
 
+## 数据库
+[PostGresql 下载](https://www.postgresql.org/download/) |
 [MYSQL 下载](https://dev.mysql.com/downloads/mysql/) |
 [MYSQL Windows 下载](https://dev.mysql.com/downloads/installer/) |
 [MYSQL MacOS 下载](https://dev.mysql.com/downloads/mysql/)
@@ -44,26 +74,18 @@ sudo /usr/local/mysql/support-files/mysql.server start
 sudo launchctl load -w /Library/LaunchDaemons/com.oracle.oss.mysql.mysqld.plist
 ```
 
-[Maven](https://maven.apache.org/)
-[Gradle](https://gradle.org/)
-```shell
-export M2_HOME="/Users/admin/apache-maven"
-PATH="${M2_HOME}/bin:${PATH}"
-export PATH
-```
-```shell
-brew install gradle
-```
-
-# JS
+## JS
 [pnpm 包管理 内含 node 版本管理，可以不用 nvm 等包管理器](https://www.pnpm.cn/installation/) |
 [BunJS 下载](https://bun.sh/) |
 [NodeJS 下载](https://nodejs.org/en/download/) |
 [NodeJS多版本管理 nvm MacOS](https://github.com/nvm-sh/nvm/) [NodeJS多版本管理 nvm Windows](https://github.com/nvm-sh/nvm#install--update-script)
 ```shell
+# 安装 pnpm
+curl -fsSL https://get.pnpm.io/install.sh | sh -
+
 # 安装并使用 lts 最新长期支持版本或者指定的版本 --global or -g
 pnpm env use --global lts
-pnpm env use --global 18.0.0
+pnpm env use --global 18
 # 安装指定的版本
 pnpm env add --global lts 18 20.0.0
 # 删除指定版本
@@ -83,56 +105,39 @@ ncu -u
 # 项目内使用
 npx npm-check-updates
 ```
-```text
-使用nvm管理多版本nodejs（安装前请查看最新版本）
-nvm安装 https://github.com/nvm-sh/nvm
-Mac: （~/.zshrc）
-    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
-    wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 
-export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
-
-Win: https://github.com/nvm-sh/nvm#install--update-script
-Windows 请注意：安装的nvm路径可以随意，但后面的node路径请勿放系统盘
-安装指定的NodeJS版本：nvm install x.x.x
-卸载对应的NodeJS版本：nvm uninstall x.x.x
-查看当前安装的版本：nvm ls
-Windows安装完成后，请使用nvm ls查看后，然后使用nvm use x.x.x
-MacOS安装完成后，请使用nvm ls查看后，然后使用nvm use x.x.x & nvm alias default x.x.x
-
-且推荐使用pnpm安装包，减少本地磁盘的不必要占用
-pnpm安装 https://www.pnpm.cn/installation
-Mac：curl -fsSL https://get.pnpm.io/install.sh | sh -
-Win：iwr https://get.pnpm.io/install.ps1 -useb | iex
-```
-
-# Python
+## Python
+[uv 管理](https://www.python.org/downloads/)
 [Python 下载](https://www.python.org/downloads/)
 [Python 历史下载](https://www.python.org/ftp/python/)
-```text
-不再建议安装Python 2.x 版本
-```
 ```shell
+# 安装 uv
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# 管理 Python 版本（类似 nvm）
+uv python install 3.12
+uv python pin 3.12
+
+# 初始化项目
+uv init my-project && cd my-project
+
+# 添加依赖（类似 pnpm add）
+uv add requests fastapi
+
+# 安装所有依赖（类似 pnpm install）
+uv sync
+
+# 运行脚本（类似 pnpm run）
+uv run python main.py
+
+# Monorepo workspace
+uv workspace add packages/my-lib
+
 # ENV Python
 alias python=/Library/Frameworks/Python.framework/Versions/3.x/bin/python3.x
 ```
 
 # 软件工具
-[Git 下载](https://git-scm.com/) |
-[Git 官方客户端](https://desktop.github.com/) |
-[Git 其他三方客户端](https://git-scm.com/downloads/guis)
-```text
-Mac自己会集成到XCode中去，如果更新Git服务的话执行一下命令即可
-Homebrew
-Install homebrew if you don't already have it, then:
-$ brew install git
-
-MacPorts
-Install MacPorts if you don't already have it, then:
-$ sudo port install git
-```
-
 ## 全能开发工具
 [Visual Studio Code 简称VSCode 微软免费 强大 推荐 插件多了会很卡！！！](https://code.visualstudio.com/Download)
 ```text
