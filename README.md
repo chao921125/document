@@ -54,3 +54,4 @@ QWERTYUIOPASDFGHJKLZXCVBNM
 ```
 https://github.com/coder/coder
 ###### 部分资源从网络收录而来
+https://status.deepseek.com/
