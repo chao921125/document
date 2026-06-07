@@ -92,7 +92,7 @@
 | [*直连/中转*]()                                                                                                        |
 |--------------------------------------------------------------------------------------------------------------------|
 | [*注册无验证*]()                                                                                                        |
-| [👍 19/年-1000G/月 白嫖机场](https://yes2.xn--mesv7f5toqlp.biz/register?code=IJNJjQW3) [](https://xn--mesv7f5toqlp.com/) |
+| [35/年-1000G/月 白嫖机场](https://yes2.xn--mesv7f5toqlp.biz/register?code=IJNJjQW3) [](https://xn--mesv7f5toqlp.com/) |
 | [- 7.99/月-100G/月 山水云](https://xn--9kq015a4jm.com/)                                                                 |
 | [- 7.8/月-100G/月 淘气兔](https://vip.taoqitu.pro/)                                                                     |
 | [8/月-120G/月 秒连云](https://xn--9kq676h12n.com/)                                                                      |
