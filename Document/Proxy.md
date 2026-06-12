@@ -165,7 +165,6 @@
 | [- 20.53/月-120G/月 nicess](https://client.nicess.one/register.php)                                                   |
 | [23.8/月-180G/月 Anyland](https://anyland.club/#/register?code=xvfqFY02)                                              |
 | [* 24/月-120G/月 Gatern](https://shuttle.gt-all.com/register.php)                                                     |
-| [25/月-150G/月 青云梯](https://qingyunti.cc/)                                                                            |
 | [28/月-150G/月 Flyint 飞数](https://www.flyintpro.com/#/login)                                                          |
 | [30/月-150G/月 x-air](https://www.x-air.org/register)                                                                 |
 | [* - 360/年-100G/月 饿饭cc云](https://efancc.cloud/)                                                                     |
