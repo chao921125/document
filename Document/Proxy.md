@@ -200,7 +200,6 @@
 | [13/月-128G/月 喵酥云](https://xn--6krx87aehra.com/)                                                                |
 | [**************************************************]()                                                         |
 | [- 9.9/年-100G/月 milkcloud](https://milkcloud.org/#/login?code=5kCrB1gr)                                        |
-| [- 18/年-100G/月 赔钱机场](https://xn--mes358aby2apfg.com/register?code=sNTEzxVy&cover=sfw)                          |
 | [- 5/月-100G/月 mitce](https://mitce.com/) [25/月-*G/月 mitce](https://mitce.com/)                                 |
 | [- 10/月-100G/月 最萌の云](https://cutestcloud.com/#/register)                                                       |
 | [- 10.9/月-150G/月 壹速云](https://www.suyun.one/) [](https://www.onesy.top/)                                       |
