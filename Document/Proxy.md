@@ -103,7 +103,7 @@
 | [20/月-300G/月 迷雾世界](https://迷雾世界.com/#/register?code=IOWM28rZ)                                                   |
 | [**************************************************]()                                                          |
 | [12/年-200G/月 杜卡迪](https://dukadi.one/#/register?code=J9E4zv0c)                                                  |
-| [6/季-100G/月 FG](https://feigou.idsduf.com//#/register?code=fdFqcdOt)                                            |
+| [6/季-100G/月 FG](https://feigou.idsduf.com//#/register?code=fdFqcdOt) [](https://2x.ffg-g.net/)                  |
 | [- 5/月-100G/月 WindyCloud](https://portal.passgfw.top/#/register)                                                |
 | [- 5/月-100G/月 云安云](https://yay520.com/login/)                                                                   |
 | [- 5/月-100G/月 ChiguaYun](https://chiguayun.com/#/register)                                                      |
