@@ -158,7 +158,6 @@
 | [15/月-100G/月 龙猫云 Totoro Cloud 4](https://totorocloud.cc/register?code=8JnnPAyd)                                     |
 | [15.05/月-251G/月 prprCloud](https://prprcloud.com/)                                                                  |
 | [- 18/月-100G/月 Miaona](https://miaona.co/#/register)                                                                |
-| [19.9/月-100G/月 大哥云](https://www.dageyun.net/#/register)                                                             |
 | [20/月-200G/月 肥猫云 FATCAT](https://www.fatcatcf.com/register)                                                         |
 | [- 20/月-200G/月 WestData](https://wd-cloud.net/)                                                                     |
 | [* - 20/月-100G/月 老猫云](https://88laomao.com/#/register) [](https://laomao.biz/)                                      |
@@ -207,17 +206,14 @@
 | [**************************************************]()                                                         |
 | [**************************************************]()                                                         |
 | [*注册验证*]()                                                                                                     |
-| [2.5/月-100G/月 性价比机场](https://xn--6nq44r2uh9rhj7f.com//#/register?code=6v77KWIz) [](https://jichang.gitbook.io) |
 | [66/年-200G/月 不加速](https://bujiasu.com/b/?code=EPbRn3Co) [](https://xn--ihq64io30e.com/)                        |
 | [**************************************************]()                                                         |
-| [* 99/年-100G/月 一枝红杏](https://order.yizhihongxing.club/)                                                        |
-| [9/月-100G/月 freecat](https://us.freecat.cloud/#/register)                                                      |
+| [* 99/年-100G/月 一枝红杏](https://order.yizhihongxing.org/)                                                         |
 | [9.9/月-100G/月 贝雪云](https://www.besnow.org/index.php#/register)                                                 |
 | [10/月-188G/月 Echo](https://echonetwork.club/#/login)                                                           |
 | [10/月-100G/月 疾风云](https://jifengcloud.net/auth/register) [](https://jifengcloud.info/)                         |
 | [128/年-200G/月 小飞象](https://xiaofeixiang.top/#/register)                                                        |
 | [138/年-150G/月 奈思云](https://www.naisii.com/)                                                                    |
-| [~~12/月-300G/月 ikuuu~~](https://ikuuu.ch/auth/register?code=Zg3E)                                              |
 | [12.8/月-88G/月 纷达](https://fenda.cloud/auth/register)                                                           |
 | [14.9/月-320G/月 闪电](https://shandiancn.com/#/register?code=TzemLQ9y) [](https://sd.369.cyou/)                   |
 | [15.9/月-100G/月 蓝帆云](https://lanfan.cloud/portal/register)                                                      |
