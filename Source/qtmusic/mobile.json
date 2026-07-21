@@ -1,0 +1,69 @@
+{
+  "lines": [
+    {
+      "id": "kw",
+      "name": "小窝源",
+      "enabled": true,
+      "searchApi": "fetchSearchMusic",
+      "detailApi": "fetchMusicDetail",
+      "levels": [
+        "standard",
+        "exhigh",
+        "lossless",
+        "atmos",
+        "atmos_plus",
+        "master"
+      ]
+    },
+    {
+      "id": "kg",
+      "name": "小狗源",
+      "enabled": true,
+      "searchApi": "kgSearchMusic",
+      "detailApi": "kgMusicDetail",
+      "levels": [
+        "standard",
+        "exhigh",
+        "lossless",
+        "hires",
+        "atmos",
+        "clear"
+      ]
+    },
+    {
+      "id": "wy",
+      "name": "小云源",
+      "enabled": true,
+      "searchApi": "wySearchMusic",
+      "detailApi": "wyMusicDetail",
+      "levels": [
+        "standard",
+        "exhigh",
+        "lossless"
+      ]
+    },
+    {
+      "id": "tx",
+      "name": "小Q源",
+      "enabled": true,
+      "searchApi": "txSearchMusic",
+      "detailApi": "txMusicDetail",
+      "levels": [
+        "standard",
+        "exhigh",
+        "lossless"
+      ]
+    },
+    {
+      "id": "mg",
+      "name": "小粉源",
+      "enabled": false,
+      "searchApi": "mgSearchMusic",
+      "detailApi": "mgMusicDetail",
+      "levels": [
+        "standard",
+        "exhigh"
+      ]
+    }
+  ]
+}
