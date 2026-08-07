@@ -62,7 +62,7 @@ alias jdk17="export JAVA_HOME=$JAVA17_HOME"
 ```
 
 ## 数据库
-[PostGresql 下载](https://www.postgresql.org/download/) |
+[PostGresql 下载](https://postgresapp.com/downloads.html) |
 [MYSQL 下载](https://dev.mysql.com/downloads/mysql/) |
 [MYSQL Windows 下载](https://dev.mysql.com/downloads/installer/) |
 [MYSQL MacOS 下载](https://dev.mysql.com/downloads/mysql/)
