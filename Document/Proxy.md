@@ -13,6 +13,7 @@
 | [clash-party *无 Android IOS* **兼容旧系统**](https://github.com/mihomo-party-org/clash-party)                                             |
 | [clash-nyanpasu *无 Android IOS*](https://github.com/libnyanpasu/clash-nyanpasu)                                                           |
 | [shadowsocks *无 IOS*](https://github.com/shadowsocks/shadowsocks-rust) [单独 Android](https://github.com/shadowsocks/shadowsocks-android) |
+| [shadowsocks](https://github.com/OneXray/OneXray)                                                                                          |
 
 | Windows                                                             |
 |---------------------------------------------------------------------|
