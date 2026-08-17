@@ -310,7 +310,12 @@
 | [Hiddify-Manager](https://github.com/hiddify/Hiddify-Manager)                           |
 | [x-ui FranzKafkaYu](https://github.com/FranzKafkaYu/x-ui)                               |
 | [x-ui vaxilu](https://github.com/vaxilu/x-ui)                                           |
+| []()                                                                                    |
+| [CF](https://github.com/cmliu/edgetunnel)                                               |
+| [CF](https://github.com/byJoey/cfnewup)                                                 |
+| [CF](https://github.com/itsyebekhe/nahan)                                               |
 
 
 ###### pip install pyyaml
 ###### python btc.py subscription.txt clash.yaml
+
