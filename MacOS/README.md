@@ -28,3 +28,10 @@ find ~/ -name ".DS_Store" -delete
 /Users/name/.ollama
 /usr/local
 ```
+
+AppGrid Launcher https://appgridmac.com/
+BuhoLaunchpad https://www.drbuho.com/zh-cn
+LaunchOS https://launchosapp.com/
+
+LaunchNext https://github.com/RoversX/LaunchNext
+Launchie https://launchie.app/
