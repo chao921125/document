@@ -21,7 +21,7 @@
 | [GUI.for.SingBox](https://github.com/GUI-for-Cores/GUI.for.SingBox) |
 | [GUI.for.Clash](https://github.com/GUI-for-Cores/GUI.for.Clash)     |
 
-| MacOS                                                               |
+| MacOS                                                             |
 |-------------------------------------------------------------------|
 | [ShadowsocksX-NG](https://github.com/shadowsocks/ShadowsocksX-NG) |
 | [V2rayU](https://github.com/yanue/V2rayU)                         |
