@@ -21,11 +21,13 @@
 | [GUI.for.SingBox](https://github.com/GUI-for-Cores/GUI.for.SingBox) |
 | [GUI.for.Clash](https://github.com/GUI-for-Cores/GUI.for.Clash)     |
 
-| MacOS                                                             |
+| MacOS                                                               |
 |-------------------------------------------------------------------|
 | [ShadowsocksX-NG](https://github.com/shadowsocks/ShadowsocksX-NG) |
 | [V2rayU](https://github.com/yanue/V2rayU)                         |
 | [ClashX.Meta](https://github.com/MetaCubeX/ClashX.Meta)           |
+| [ClashMac](https://github.com/666OS/ClashMac)                     |
+| [clashbar](https://github.com/Sitoi/clashbar)                     |
 
 | Android                                                                   |
 |---------------------------------------------------------------------------|
