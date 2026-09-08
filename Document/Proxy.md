@@ -1,7 +1,7 @@
 # Client [付费订阅](#Pay) [免费订阅](#Free)
 # [IP 纯净度查询](https://whoer.net/zh#)
 # [检测当前是否可用 GPT](https://ios.chat.openai.com/public-api/mobile/server_status/v1)
-| Windows MacOS Linux Android IOS                                                                                                            |
+| Windows MacOS Linux Android IOS                                                                                                             |
 |--------------------------------------------------------------------------------------------------------------------------------------------|
 | [sing-box *全平台*](https://github.com/SagerNet/sing-box)                                                                                  |
 | [👍 hiddify-next *全平台*](https://github.com/hiddify/hiddify-app)                                                                         |
@@ -17,9 +17,9 @@
 | [shadowsocks](https://github.com/OneXray/OneXray)                                                                                          |
 | [Throne *无 IOS Android*](https://github.com/throneproj/Throne)                                                                                               |
 | [Pandora-Box *无 IOS Android*](https://github.com/snakem982/Pandora-Box)                                                                                               |
-| [sparkle *无 IOS Android*](https://github.com/xishang0128/sparkle)                                                                                               |
+| [sparkle *无 IOS Android*](https://github.com/xishang0128/sparkle)                                                                                                 |
 | [FlowZ *无 IOS Android*](https://github.com/dododook/FlowZ)                                                                                               |
-| [Zephyr *无 IOS Android*](https://github.com/Juwan-Hwang/Zephyr)                                                                                               |
+| [Zephyr *无 IOS Android*](https://github.com/Juwan-Hwang/Zephyr)                                                                                                     |
 | [SlothClash *无 IOS Android*](https://github.com/Nemu-x/SlothClash)                                                                                               |
 | [sing-box-windows *无 IOS Android*](https://github.com/xinggaoya/sing-box-windows)                                                                                               |
 
