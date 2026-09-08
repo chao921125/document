@@ -7,19 +7,28 @@
 | [👍 hiddify-next *全平台*](https://github.com/hiddify/hiddify-app)                                                                         |
 | [FlClash *无 IOS*](https://github.com/chen08209/FlClash)                                                                                   |
 | [👍 karing](https://github.com/KaringX/karing) [单独 IOS](https://apps.apple.com/us/app/karing/id6472431552)                               |
-| [clashmi](https://github.com/KaringX/clashmi) [单独 IOS](https://apps.apple.com/us/app/clash-mi/id6744321968)                              |
+| [karing clashmi](https://github.com/KaringX/clashmi) [单独 IOS](https://apps.apple.com/us/app/clash-mi/id6744321968)                              |
+| [Happ *全平台*](https://github.com/Happ-proxy)                                                                                                      |
 | [👍 v2rayN *无 IOS*](https://github.com/2dust/v2rayN) [单独 Android](https://github.com/2dust/v2rayNG)                                     |
 | [👍 clash-verge-rev *无 Android IOS* **不兼容旧系统**](https://github.com/clash-verge-rev/clash-verge-rev)                                 |
 | [clash-party *无 Android IOS* **兼容旧系统**](https://github.com/mihomo-party-org/clash-party)                                             |
 | [clash-nyanpasu *无 Android IOS*](https://github.com/libnyanpasu/clash-nyanpasu)                                                           |
 | [shadowsocks *无 IOS*](https://github.com/shadowsocks/shadowsocks-rust) [单独 Android](https://github.com/shadowsocks/shadowsocks-android) |
 | [shadowsocks](https://github.com/OneXray/OneXray)                                                                                          |
+| [Throne *无 IOS Android*](https://github.com/throneproj/Throne)                                                                                               |
+| [Pandora-Box *无 IOS Android*](https://github.com/snakem982/Pandora-Box)                                                                                               |
+| [sparkle *无 IOS Android*](https://github.com/xishang0128/sparkle)                                                                                               |
+| [FlowZ *无 IOS Android*](https://github.com/dododook/FlowZ)                                                                                               |
+| [Zephyr *无 IOS Android*](https://github.com/Juwan-Hwang/Zephyr)                                                                                               |
+| [SlothClash *无 IOS Android*](https://github.com/Nemu-x/SlothClash)                                                                                               |
+| [sing-box-windows *无 IOS Android*](https://github.com/xinggaoya/sing-box-windows)                                                                                               |
 
 | Windows                                                             |
 |---------------------------------------------------------------------|
 | [v2rayA](https://github.com/v2rayA/v2rayA)                          |
 | [GUI.for.SingBox](https://github.com/GUI-for-Cores/GUI.for.SingBox) |
 | [GUI.for.Clash](https://github.com/GUI-for-Cores/GUI.for.Clash)     |
+| [nekobox](https://github.com/qr243vbi/nekobox)     |
 
 | MacOS                                                             |
 |-------------------------------------------------------------------|
@@ -27,7 +36,7 @@
 | [V2rayU](https://github.com/yanue/V2rayU)                         |
 | [ClashX.Meta](https://github.com/MetaCubeX/ClashX.Meta)           |
 | [ClashMac](https://github.com/666OS/ClashMac)                     |
-| [clashbar](https://github.com/Sitoi/clashbar)                     |
+| [ClashBar](https://github.com/Sitoi/clashbar)                     |
 
 | Android                                                                   |
 |---------------------------------------------------------------------------|
@@ -56,6 +65,11 @@
 | [QuantumultX 港 付费](https://apps.apple.com/hk/app/quantumult-x/id1443988620)                                        |
 | [Loon 美 付费](https://apps.apple.com/us/app/loon/id1373567447)                                                       |
 | [Surge 美 付费](https://apps.apple.com/us/app/surge-5/id1442620678) [官网](https://nssurge.com/)                      |
+
+| HarmonyOS                                                                                                                   |
+|-----------------------------------------------------------------------------------------------------------------------|
+| [ClashBox](https://github.com/xiaobaigroup/ClashBox)  [ClashBox](https://appgallery.huawei.com/app/detail?id=org.xbgroup.clashbox)           |
+| [ClashHM](https://github.com/maxin0324/ClashHM)           |
 
 | 路由器                                                               |
 |----------------------------------------------------------------------|
