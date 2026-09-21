@@ -10,6 +10,7 @@ https://github.com/CherryHQ/cherry-studio
 |-----------------------------------------------------------------------------------------------------------------------------|
 | [llama.cpp](https://github.com/ggml-org/llama.cpp)                                                                          |
 | [vLLM](https://github.com/vllm-project/vllm) [vLLM 官网](https://docs.vllm.ai/en/latest/)                                     |
+| [~~违反开源协议 Ollama~~](https://github.com/ollama/ollama) [~~Ollama 官网~~](https://ollama.com/)                                  |
 | [Unsloth Studio](https://github.com/unslothai/unsloth) [Unsloth 官网](https://unsloth.ai/)                                    |
 | [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) [AnythingLLM 官网](https://anythingllm.com/)                     |
 | [Pi](https://github.com/badlogic/pi-mono) [Pi 官网](https://pi.dev/)                                                          |
@@ -22,12 +23,16 @@ https://github.com/CherryHQ/cherry-studio
 | [Lemonade](https://github.com/lemonade-sdk/lemonade)                                                                        |
 | [node-llama-cpp](https://github.com/withcatai/node-llama-cpp)                                                               |
 | [LM Studio](https://github.com/lmstudio-ai) [LM Studio 官网](https://lmstudio.ai/)                                            |
-| [~~违反开源协议 Ollama~~](https://github.com/ollama/ollama) [~~Ollama 官网~~](https://ollama.com/)                                  |
 | [Sanctum](https://sanctum.ai/)                                                                                              |
 | [Draw Things](https://drawthings.ai/)                                                                                       |
 | [JoyFusion](https://joyfusion.app/)                                                                                         |
 | [Docker Model Runner](https://docs.docker.com/ai/model-runner/)                                                             |
+| [](https://github.com/AtomicBot-ai/Atomic-Chat) [atomic](https://atomic.chat/) |
 | []()                                                                                                                        |
+| [hermes-agent](https://github.com/nousresearch/hermes-agent) [hermes-agent](https://hermes-agent.nousresearch.com/)          |
+| [openclaw](https://github.com/openclaw/openclaw) [openclaw](https://openclaw.ai/)                                                     |
+| []()                                                                                                                        |
+
 
 # 复合客户端
 |                                                        |
