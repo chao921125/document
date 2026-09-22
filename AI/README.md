@@ -8,9 +8,12 @@ https://github.com/CherryHQ/cherry-studio
 # 自行搭建
 | [本地（服务器）搭建工具]()                                                                                                             |
 |-----------------------------------------------------------------------------------------------------------------------------|
-| [llama.cpp](https://github.com/ggml-org/llama.cpp)                                                                          |
-| [vLLM](https://github.com/vllm-project/vllm) [vLLM 官网](https://docs.vllm.ai/en/latest/)                                     |
-| [~~违反开源协议 Ollama~~](https://github.com/ollama/ollama) [~~Ollama 官网~~](https://ollama.com/)                                  |
+| [hermes-agent](https://github.com/nousresearch/hermes-agent) [hermes-agent](https://hermes-agent.nousresearch.com/)          |
+| [openclaw](https://github.com/openclaw/openclaw) [openclaw](https://openclaw.ai/)                                                     |
+| []()                                                                                                                        |
+| [vLLM 服务器部署 GPU](https://github.com/vllm-project/vllm) [vLLM 官网](https://docs.vllm.ai/en/latest/)                           |
+| [llama.cpp 量化版部署，小团队需要 GGUF](https://github.com/ggml-org/llama.cpp)  [llama.app 官网](https://llama.app/)                 |
+| [Ollama 违反开源协议 支持 GGUF](https://github.com/ollama/ollama) [Ollama 官网](https://ollama.com/)                                  |
 | [Unsloth Studio](https://github.com/unslothai/unsloth) [Unsloth 官网](https://unsloth.ai/)                                    |
 | [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) [AnythingLLM 官网](https://anythingllm.com/)                     |
 | [Pi](https://github.com/badlogic/pi-mono) [Pi 官网](https://pi.dev/)                                                          |
@@ -21,16 +24,13 @@ https://github.com/CherryHQ/cherry-studio
 | [DiffusionBee](https://github.com/divamgupta/diffusionbee-stable-diffusion-ui) [DiffusionBee 官网](https://diffusionbee.com/) |
 | [MLX LM](https://github.com/ml-explore/mlx-lm)                                                                              |
 | [Lemonade](https://github.com/lemonade-sdk/lemonade)                                                                        |
+| [LM Studio 小白傻瓜安装](https://github.com/lmstudio-ai) [LM Studio 官网](https://lmstudio.ai/)                                            |
 | [node-llama-cpp](https://github.com/withcatai/node-llama-cpp)                                                               |
-| [LM Studio](https://github.com/lmstudio-ai) [LM Studio 官网](https://lmstudio.ai/)                                            |
 | [Sanctum](https://sanctum.ai/)                                                                                              |
 | [Draw Things](https://drawthings.ai/)                                                                                       |
 | [JoyFusion](https://joyfusion.app/)                                                                                         |
 | [Docker Model Runner](https://docs.docker.com/ai/model-runner/)                                                             |
 | [](https://github.com/AtomicBot-ai/Atomic-Chat) [atomic](https://atomic.chat/) |
-| []()                                                                                                                        |
-| [hermes-agent](https://github.com/nousresearch/hermes-agent) [hermes-agent](https://hermes-agent.nousresearch.com/)          |
-| [openclaw](https://github.com/openclaw/openclaw) [openclaw](https://openclaw.ai/)                                                     |
 | []()                                                                                                                        |
 
 
@@ -45,9 +45,28 @@ https://github.com/CherryHQ/cherry-studio
 |-----------------------------------------------------|
 | [cherry](https://github.com/CherryHQ/cherry-studio) |
 
-| [UI]()                                                                                                 |
+
+| [Agent]()                                                                                                 |
 |--------------------------------------------------------------------------------------------------------|
 | [dify](https://github.com/langgenius/dify) [dify 官网](https://dify.ai/)                                 |
+| [n8n]()  [n8n 官网]()              |
+| [FastGPT](https://github.com/labring/FastGPT)  [FastGPT 官网](https://fastgpt.io/)       |
+| [RAGFlow](https://github.com/infiniflow/ragflow)  [RAGFlow 官网](https://ragflow.io/)             |
+| [Langflow]()  [Langflow 官网]()              |
+| [LangGraph]()  [LangGraph 官网]()              |
+| [CrewAI]()  [CrewAI 官网]()                      |
+| [AutoGen]()  [AutoGen 官网]()                      |
+| [LangChain]()  [LangChain 官网]()              |
+| [Zapier]()  [Zapier 官网]()              |
+| [Activepieces]()  [Activepieces 官网]()                      |
+| [Gumloop]()  [Gumloop 官网]()                      |
+| [Workato]()  [Workato 官网]()                      |
+| [Inngest]()  [Inngest 官网]()                      |
+| [PaiAgent]()  [PaiAgent 官网]()              |
+| [MaxKB]()  [MaxKB 官网]()              |
+
+| [UI]()                                                                                                 |
+|--------------------------------------------------------------------------------------------------------|
 | [NextChat](https://github.com/ChatGPTNextWeb/NextChat)                                                 |
 | [Open WebUI](https://github.com/open-webui/open-webui) [Open WebUI 官网](https://openwebui.com/)         |
 | [chatbot-ui](https://github.com/mckaywrigley/chatbot-ui) [chatbot-ui 官网](https://www.jointakeoff.com/) |
