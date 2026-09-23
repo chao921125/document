@@ -259,7 +259,6 @@
 | [278/年-100G/月 Fastnode](https://fastnode.me/auth/register)                                                        |
 | [25/月-100G/月 觅云](https://www.mecloud.icu/)                                                                      |
 | [29/月-500G/月 GLaDOS](https://glados.network/) [](https://glados.eu.org/)                                          |
-| [29/月-200G/月 自行搜索 悠兔](https://youtunice.com/)                                                               |
 | [29/月-100G/月 海豚湾](https://hitun.io/)                                                                           |
 | [399.99/年-100G/月 xipCloud](https://xipcloudy.com/zh)                                                              |
 | [36/月-200G/月 YToo](https://y-too.com/)                                                                            |
