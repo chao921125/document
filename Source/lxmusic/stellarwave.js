@@ -227,13 +227,13 @@ const sha256 = (function () {
   return function (message) { return new Sha256().update(message).hex(); };
 })();
 
-const HELLO_WORLD_API_KEY = 'lxmusic';
-const HELLO_WORLD_SECRET_KEY = 'JaJ?a7Nwk_Fgj?2o:znAkst';
+const HELLO_WORLD_API_KEY = _u('gshpnd^');
+const HELLO_WORLD_SECRET_KEY = _u('E\\E:\\2IrfZAbe:-j5ui<fno');
 const HELLO_WORLD_SCRIPT_MD5 = '1888f9865338afe6d5534b35171c61a4';
 const HELLO_WORLD_API_URL = _u('cookn5**33)gshpnd^)si((adln3n');
 const helloWorldSign = (requestPath) => sha256(requestPath + HELLO_WORLD_SCRIPT_MD5 + HELLO_WORLD_SECRET_KEY);
 const HYW_API_BASE = _u('cook5**,+.)24),3/)42');
-const HYW_CARD_KEY = 'MOLAN-BAIJI';
+const HYW_CARD_KEY = _u('HJG<I(=<DED');
 
 // ==================== 音质映射表 ====================
 const TX_FILE_CONFIG = {
