@@ -117,14 +117,10 @@
 | [10/月-130G/月 Coffee Cloud 咖啡云](https://xn--9kqp0mora.com/#/register)                                                            |
 | [15/月-100G/月 牧牛云](https://xn--11xxa.com//#/register)                                                                            |
 | [**************************************************]()                                                                               |
-| [12/年-200G/月 杜卡迪](https://dukadi.one/#/register?code=J9E4zv0c)                                                                  |
 | [6/季-100G/月 FG](https://feigou.idsduf.com//#/register?code=fdFqcdOt) [](https://2x.ffg-g.net/)                                     |
 | [- 5/月-100G/月 WindyCloud](https://portal.passgfw.top/#/register)                                                                   |
 | [- 5/月-100G/月 云安云](https://yay520.com/)                                                                                         |
 | [- 5/月-100G/月 ChiguaYun](https://chiguayun.com/#/register)                                                                         |
-| [- 5.8/月-600G/月 蟒蛇](https://www.mangshe.org/#/register)                                                                          |
-| [- 6/月-100G/月 流浪地球](https://liulangdiqiu.cc/#/register)                                                                        |
-| [8/月-100G/月 SausageCloud](https://reborn.kaochang.ltd/#/register?code=EU9d7PnU)                                                    |
 | [9/月-120G/月 渔云](https://cloudfisher.net/web/#/login?code=I2lj0vUP)                                                               |
 | [- 10.9/月-222G/月 红杏云](https://hongxingdl.com/)                                                                                  |
 | [13.88/月-100G/月 果粒橙](https://guolicheng.cc/)                                                                                    |
@@ -160,8 +156,6 @@
 | [*中转/BGP*]()                                                                                                          |
 |-------------------------------------------------------------------------------------------------------------------------|
 | [*注册无验证*]()                                                                                                        |
-| [- 15/月-150G/月 小飞侠SSR](https://so.xfxssr.me/#/login) [](http://xfxssr.com/)                                        |
-| [- 15/月-150G/月 小飞侠VPN](https://so.xfxvpn.life/#/login) [](http://xfxssr.com/)                                      |
 | [* - 15/月-100G/月 飞鸟 FlyingBird 4](https://fbaff02.flyb-aff01.com/auth/register?code=GXsW) [](https://flyingbird.cc) |
 | [15/月-100G/月 龙猫云 Totoro Cloud 4](https://totorocloud.cc/register?code=8JnnPAyd)                                    |
 | [15.05/月-251G/月 prprCloud](https://prprcloud.com/)                                                                    |
