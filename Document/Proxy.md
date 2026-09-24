@@ -184,6 +184,7 @@
 | [39/月-150G/月 FlowerCloud 花云](https://huacloud.dev/)                                                                 |
 | [42/月-300G/月 ENET](https://www.iplce.net)                                                                             |
 | [50/月-200G/月 Element](https://www.yuansu.app/)                                                                        |
+| [99/月-300G/月 V2 Network](https://v2cn.com/)                                                                       |
 |                                                                                                                         |
 
 #### 限制在线
@@ -267,7 +268,6 @@
 | [* 57.5/月-300G/月 AmyTelecom 奶昔](https://www.amytele.net/index.php)                                              |
 | [60/月-200G/月 ConySS](https://conyss.uk/)                                                                          |
 | [* 176/季-250G/月 自行搜索 TAG tagInternet](https://tagxx.vip/)                                                     |
-| [99/月-200G/月 V2 Network](https://v2cn.com/)                                                                       |
 | [* 117.46/月-500G/月 Nexitally NEXITALLY 奶昔](https://nexitally.com/)                                              |
 
 | 不限或按需                   |
