@@ -171,8 +171,9 @@
 | [399.99/年-100G/月 xipcloudy](https://xipcloudy.com/zh)                                                                 |
 | [**************************************************]()                                                                  |
 | [**************************************************]()                                                                  |
-| [*注册验证*]()                                                                                                          |
+| [*注册验证*]()                                                                                                           |
 | [15/月-100G/月 LinkCube](https://711-cloud.net/)                                                                        |
+| [18/月-100G/月 CyberGuard](https://www.cyberguard.best/)                                                                        |
 | [20/月-120G/月 xgcloud](https://www.xgcloud.org/#/register)                                                             |
 | [22.99/月-80G/月 Bitz Net](https://www.bitzconnect.com/)                                                                |
 | [23/月-150G/月 Hutao](https://hutao.cloud/auth/register)                                                                |
