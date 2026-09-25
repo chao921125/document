@@ -1,34 +1,34 @@
 # Client [付费订阅](#Pay) [免费订阅](#Free)
 # [IP 纯净度查询](https://whoer.net/zh#)
 # [检测当前是否可用 GPT](https://ios.chat.openai.com/public-api/mobile/server_status/v1)
-| Windows MacOS Linux Android IOS                                                                                                             |
+| Windows MacOS Linux Android IOS                                                                                                            |
 |--------------------------------------------------------------------------------------------------------------------------------------------|
 | [sing-box *全平台*](https://github.com/SagerNet/sing-box)                                                                                  |
 | [👍 hiddify-next *全平台*](https://github.com/hiddify/hiddify-app)                                                                         |
 | [👍 karing](https://github.com/KaringX/karing) [单独 IOS](https://apps.apple.com/us/app/karing/id6472431552)                               |
-| [karing clashmi](https://github.com/KaringX/clashmi) [单独 IOS](https://apps.apple.com/us/app/clash-mi/id6744321968)                              |
-| [Happ *全平台*](https://github.com/Happ-proxy)                                                                                                      |
-| [OneXray *全平台*](https://github.com/OneXray/OneXray)                                                                                          |
+| [karing clashmi](https://github.com/KaringX/clashmi) [单独 IOS](https://apps.apple.com/us/app/clash-mi/id6744321968)                       |
+| [Happ *全平台*](https://github.com/Happ-proxy)                                                                                             |
+| [OneXray *全平台*](https://github.com/OneXray/OneXray)                                                                                     |
 | [👍 v2rayN *无 IOS*](https://github.com/2dust/v2rayN) [单独 Android](https://github.com/2dust/v2rayNG)                                     |
 | [FlClash *无 IOS*](https://github.com/chen08209/FlClash)                                                                                   |
 | [👍 clash-verge-rev *无 Android IOS* **不兼容旧系统**](https://github.com/clash-verge-rev/clash-verge-rev)                                 |
 | [clash-party *无 Android IOS* **兼容旧系统**](https://github.com/mihomo-party-org/clash-party)                                             |
 | [clash-nyanpasu *无 Android IOS*](https://github.com/libnyanpasu/clash-nyanpasu)                                                           |
 | [shadowsocks *无 IOS*](https://github.com/shadowsocks/shadowsocks-rust) [单独 Android](https://github.com/shadowsocks/shadowsocks-android) |
-| [Throne *无 IOS Android*](https://github.com/throneproj/Throne)                                                                                               |
-| [Pandora-Box *无 IOS Android*](https://github.com/snakem982/Pandora-Box)                                          |
-| [sparkle *无 IOS Android*](https://github.com/xishang0128/sparkle)                                                                                |
-| [FlowZ *无 IOS Android*](https://github.com/dododook/FlowZ)                                                                                               |
-| [Zephyr *无 IOS Android*](https://github.com/Juwan-Hwang/Zephyr)                                                          |
-| [SlothClash *无 IOS Android*](https://github.com/Nemu-x/SlothClash)                                                          |
-| [sing-box-windows *无 IOS Android*](https://github.com/xinggaoya/sing-box-windows)                                                               |
+| [Throne *无 IOS Android*](https://github.com/throneproj/Throne)                                                                            |
+| [Pandora-Box *无 IOS Android*](https://github.com/snakem982/Pandora-Box)                                                                   |
+| [sparkle *无 IOS Android*](https://github.com/xishang0128/sparkle)                                                                         |
+| [FlowZ *无 IOS Android*](https://github.com/dododook/FlowZ)                                                                                |
+| [Zephyr *无 IOS Android*](https://github.com/Juwan-Hwang/Zephyr)                                                                           |
+| [SlothClash *无 IOS Android*](https://github.com/Nemu-x/SlothClash)                                                                        |
+| [sing-box-windows *无 IOS Android*](https://github.com/xinggaoya/sing-box-windows)                                                         |
 
 | Windows                                                             |
 |---------------------------------------------------------------------|
 | [v2rayA](https://github.com/v2rayA/v2rayA)                          |
 | [GUI.for.SingBox](https://github.com/GUI-for-Cores/GUI.for.SingBox) |
 | [GUI.for.Clash](https://github.com/GUI-for-Cores/GUI.for.Clash)     |
-| [nekobox](https://github.com/qr243vbi/nekobox)     |
+| [nekobox](https://github.com/qr243vbi/nekobox)                      |
 
 | MacOS                                                             |
 |-------------------------------------------------------------------|
@@ -66,10 +66,10 @@
 | [Loon 美 付费](https://apps.apple.com/us/app/loon/id1373567447)                                                       |
 | [Surge 美 付费](https://apps.apple.com/us/app/surge-5/id1442620678) [官网](https://nssurge.com/)                      |
 
-| HarmonyOS                                                                                                                   |
-|-----------------------------------------------------------------------------------------------------------------------|
-| [ClashBox](https://github.com/xiaobaigroup/ClashBox)  [ClashBox](https://appgallery.huawei.com/app/detail?id=org.xbgroup.clashbox)           |
-| [ClashHM](https://github.com/maxin0324/ClashHM)           |
+| HarmonyOS                                                                                                                          |
+|------------------------------------------------------------------------------------------------------------------------------------|
+| [ClashBox](https://github.com/xiaobaigroup/ClashBox)  [ClashBox](https://appgallery.huawei.com/app/detail?id=org.xbgroup.clashbox) |
+| [ClashHM](https://github.com/maxin0324/ClashHM)                                                                                    |
 
 | 路由器                                                               |
 |----------------------------------------------------------------------|
@@ -171,9 +171,9 @@
 | [399.99/年-100G/月 xipcloudy](https://xipcloudy.com/zh)                                                                 |
 | [**************************************************]()                                                                  |
 | [**************************************************]()                                                                  |
-| [*注册验证*]()                                                                                                           |
+| [*注册验证*]()                                                                                                          |
 | [15/月-100G/月 LinkCube](https://711-cloud.net/)                                                                        |
-| [18/月-100G/月 CyberGuard](https://www.cyberguard.best/)                                                                        |
+| [18/月-100G/月 CyberGuard](https://www.cyberguard.best/)                                                                |
 | [20/月-120G/月 xgcloud](https://www.xgcloud.org/#/register)                                                             |
 | [22.99/月-80G/月 Bitz Net](https://www.bitzconnect.com/)                                                                |
 | [23/月-150G/月 Hutao](https://hutao.cloud/auth/register)                                                                |
@@ -185,7 +185,7 @@
 | [39/月-150G/月 FlowerCloud 花云](https://huacloud.dev/)                                                                 |
 | [42/月-300G/月 ENET](https://www.iplce.net)                                                                             |
 | [50/月-200G/月 Element](https://www.yuansu.app/)                                                                        |
-| [99/月-300G/月 V2 Network](https://v2cn.com/)                                                                       |
+| [99/月-300G/月 V2 Network](https://v2cn.com/)                                                                           |
 |                                                                                                                         |
 
 #### 限制在线
@@ -198,7 +198,7 @@
 | [- 10/月-100G/月 最萌の云](https://cutestcloud.com/#/register)                                   |
 | [- 10.9/月-150G/月 壹速云](https://www.suyun.one/) [](https://www.onesy.top/)                    |
 | [12.8/月-320G/月 喵酥云](https://www.miaosu.xyz/#/register)                                      |
-| [23/月-300G/月 飞毯加速](https://tanzfabu.com/)                                                 |
+| [23/月-300G/月 飞毯加速](https://tanzfabu.com/)                                                  |
 | [**************************************************]()                                           |
 | [**************************************************]()                                           |
 | [*注册验证*]()                                                                                   |
