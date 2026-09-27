@@ -70,6 +70,17 @@ sudo su -
 lib文件位置：/usr/lib
 ```
 ```shell
+# 更新系统
+apt update && apt full-upgrade -y
+# 安装常用基础工具
+apt install -y curl wget vim sudo ufw netcat-openbsd
+# 设置时区（可选）
+timedatectl set-timezone Asia/Shanghai
+# 建议创建普通用户做日常运维，避免直接用 root
+adduser deploy
+usermod -aG sudo deploy
+# 之后用 su - deploy 或重新登录该用户操作
+
 sudo apt install -y wget
 sudo apt install -y rpm
 # 推荐使用 apt

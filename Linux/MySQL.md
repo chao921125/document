@@ -1,5 +1,10 @@
 # Debian /usr/local
 ```shell
+# 在线安装
+wget https://dev.mysql.com/get/mysql-apt-config_0.8.40-1_all.deb
+dpkg -i mysql-apt-config_0.8.40-1_all.deb
+
+
 sudo apt install -y mysql-server
 
 sudo /etc/init.d/mysql start
@@ -24,7 +29,7 @@ sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf
 bind-address = 0.0.0.0
 
 # 自启动 mysql 服务
-sudo systemctl enable mysql
+sudo systemctl enable --now mysql
 # 启动 mysql 服务
 sudo systemctl start mysql
 # 关闭 mysql 服务

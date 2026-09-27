@@ -50,7 +50,7 @@ vim /etc/nginx/nginx.conf
 # 启动 Nginx 服务
 sudo systemctl start nginx
 # 设置开机自启动
-sudo systemctl enable nginx
+sudo systemctl enable --now nginx
 # 取消开机自启动
 sudo systemctl disabled nginx
 # 检查 Nginx 状态

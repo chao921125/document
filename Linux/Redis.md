@@ -25,7 +25,7 @@ sudo systemctl daemon-reload
 # 启动 redis 服务
 sudo systemctl start redis.service
 # 设置开机自启动 默认自动启
-sudo systemctl enable redis.service
+sudo systemctl enable --now redis.service
 # 取消开机自启动
 sudo systemctl disabled redis
 # 检查 redis 状态
