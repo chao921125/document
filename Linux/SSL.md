@@ -68,6 +68,7 @@ sudo apt install -y snapd
 sudo apt remove certbot
 
 # 继续
+sudo snap install core && sudo snap refresh core
 sudo snap install --classic certbot
 
 sudo ln -s /snap/bin/certbot /usr/bin/certbot
@@ -83,6 +84,11 @@ ln -s /usr/local/nginx/conf/ /etc/nginx
 sudo certbot --nginx
 # 或者，手动配置 nginx
 sudo certbot certonly --nginx
+
+# *** 直接插件管理 Nginx 用户
+sudo apt install certbot python3-certbot-nginx -y
+# *** 直接插件管理 Apache 用户
+sudo apt install certbot python3-certbot-apache -y
 
 # 自动续订
 sudo certbot renew --dry-run
@@ -104,9 +110,9 @@ sudo certbot run --nginx
 # RHEL /usr/local
 ```shell
 # 安装 snap
-sudo yum install epel-release
+sudo dnf install epel-release
 
-sudo yum install -y snapd
+sudo dnf install -y snapd
 
 sudo systemctl enable --now snapd.socket
 
@@ -116,15 +122,15 @@ sudo ln -s /var/lib/snapd/snap /snap
 shutdown -r now
 
 # 已经存在 删除
-sudo yum remove certbot
+sudo dnf remove certbot
 
 # 继续
 sudo snap install --classic certbot
 
 sudo ln -s /snap/bin/certbot /usr/bin/certbot
 
-sudo yum install -y certbot python3-certbot-nginx
-sudo yum install -y certbot python2-certbot-nginx
+sudo dnf install -y certbot python3-certbot-nginx
+sudo dnf install -y certbot python2-certbot-nginx
 
 ln -s /usr/local/nginx/sbin/nginx /usr/bin/nginx
 ln -s /usr/local/nginx/conf/ /etc/nginx
@@ -133,6 +139,15 @@ ln -s /usr/local/nginx/conf/ /etc/nginx
 sudo certbot --nginx
 # 或者，手动配置 nginx
 sudo certbot certonly --nginx
+
+# *** 直接插件管理
+sudo dnf install epel-release -y
+# CentOS 8 / Rocky Linux 8 使用 dnf
+sudo dnf install epel-release -y
+# *** 直接插件管理 Nginx 用户
+sudo dnf install certbot python3-certbot-nginx -y
+# *** 直接插件管理 Apache 用户
+sudo dnf install certbot python3-certbot-apache -y
 
 # 自动续订
 sudo certbot renew --dry-run

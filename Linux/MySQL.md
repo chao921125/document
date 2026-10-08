@@ -47,9 +47,9 @@ rpm -qa|grep -i mysql
 # 删除
 rpm -e --nodeps *
 # 或者使用
-yum list installed | grep mysql
-yum remove mysql mysql-server mysql-libs compat-mysql
-yum remove mysql-community-release
+dnf list installed | grep mysql
+dnf remove mysql mysql-server mysql-libs compat-mysql
+dnf remove mysql-community-release
 
 # 全量查找残留 mysql
 whereis mysql
@@ -67,12 +67,12 @@ chkconfig --del mysqld
 # 安装 mysql
 # [查看系统对应的安装文件](https://dev.mysql.com/downloads/repo/yum/)
 # 检查 mysql 安装包
-# yum list mysql*
+# dnf list mysql*
 # wget 安装
 wget -i -c https://dev.mysql.com/get/mysql84-community-release-el7-1.noarch.rpm
 rpm -ivh mysql84-community-release-el7-1.noarch.rpm
-yum install -y mysql84-community-release-el7-1.noarch.rpm
-yum install -y mysql-community-server
+dnf install -y mysql84-community-release-el7-1.noarch.rpm
+dnf install -y mysql-community-server
 
 # 在 /etc/my.cnf 
 vim /etc/my.cnf
@@ -130,7 +130,7 @@ lower_case_table_names=1
 sql_mode=STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
 
 # 启动如果报错 请安装一下 mariadb相关
-yum install mariadb mariadb-server mariadb-embedded mariadb-libs mariadb-bench
+dnf install mariadb mariadb-server mariadb-embedded mariadb-libs mariadb-bench
 systemctl start mariadb.service
 # 启动
 systemctl start mysqld.service

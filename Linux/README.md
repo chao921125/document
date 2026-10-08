@@ -2,24 +2,21 @@
 ## 服务器（免费）首选推荐
 | 服务器 & 桌面                                         |                     |
 |--------------------------------------------------|---------------------|
-| [ubuntu](https://ubuntu.com/)                    | Debian              |
 | [debian](https://www.debian.org/)                | Debian              |
+| [ubuntu](https://ubuntu.com/)                    | Debian              |
 | [mint](https://www.linuxmint.com/)               | Debian              |
 | [wubuntu](https://wubuntu.org/)                  | Debian              |
+| [kali](https://www.kali.org/get-kali/)           | Debian              |
 |                                                  |                     |
-| [centos stream](https://www.centos.org/)         | RHEL 上游分支更新频率 适中    |
-| [fedora](https://fedoraproject.org/)             | RHEL 上游分支更新频率快      |
-| [alma](https://almalinux.org/)                   | RHEL CenterOS 替代 社区 |
 | [rocky](https://rockylinux.org/)                 | RHEL CenterOS 替代 企业 |
+| [alma](https://almalinux.org/)                   | RHEL CenterOS 替代 社区 |
+| [fedora](https://fedoraproject.org/)             | RHEL 上游分支更新频率快      |
 | [oracle](https://www.oracle.com/cn/linux/)       | RHEL                |
 | [centos](https://www.centos.org/)                | RHEL 不再推荐使用         |
 |                                                  |                     |
 | [opensuse](https://www.opensuse.org/)            | Slackware           |
 | [slackware](http://www.slackware.com/index.html) | Slackware           |
 |                                                  |                     |
-| [gentoo](https://www.gentoo.org/)                | Gentoo              |
-|                                                  |                     |
-| [arch](https://archlinux.org/)                   | Other               |
 
 ## 其他
 [linux 社区](https://www.linux.org/pages/download/)
@@ -134,22 +131,22 @@ netstat -lnpt
 sudo netstat -tunlp | grep 22
 ```
 
-# RHEL 基本的依赖 yum/wget/openssl/rpm 建议装上，后续装服务的时候这些依赖不需要装了
+# RHEL 基本的依赖 dnf/wget/openssl/rpm 建议装上，后续装服务的时候这些依赖不需要装了
 ```shell
 netstat -tulpen
 ss -ntl
 
-sudo yum install -y wget
-sudo yum install -y rpm
+sudo dnf install -y wget
+sudo dnf install -y rpm
 # 升级所有包同时也升级软件和系统内核
-yum -y update
+dnf -y update
 # 只升级所有包，不升级软件和系统内核
-yum upgrade
+dnf upgrade
 
 # 安装 openssl
-yum install -y openssl openssl-devel gcc gcc-c++
-yum install -y zlib*
-yum install -y readline-devel
+dnf install -y openssl openssl-devel gcc gcc-c++
+dnf install -y zlib*
+dnf install -y readline-devel
 # https://www.tcl.tk/software/tcltk/
 ```
 
@@ -167,7 +164,7 @@ RHEL 7 是 systemctl
 ```shell
 # 设置防火墙
 systemctl start firewalld.service
-# 设置防火墙
+# 停止删除防火墙
 systemctl stop firewalld.service && systemctl disable firewalled;
 # 开放端口
 firewall-cmd --zone=public --add-port=3306/tcp --permanent
@@ -183,6 +180,6 @@ firewall-cmd --zone=public --list-ports
 # 查看防火墙状态
 firewall-cmd --state
 # 查看监听的端口
-yum install -y net-tools
+dnf install -y net-tools
 netstat -lnpt
 ```

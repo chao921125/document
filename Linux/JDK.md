@@ -39,8 +39,8 @@ rpm -qa|grep [java][jdk][gcj]
 # 删除
 rpm -e --nodeps *
 # 或者使用
-yum list installed | grep [java][jdk]
-yum remove "openjdk"
+dnf list installed | grep [java][jdk]
+dnf remove "openjdk"
 
 # 安装 JDK
 # 进入指定目录下 rpm 默认安装 /usr/local/java
@@ -65,6 +65,6 @@ source /etc/profile
 
 # Open-JDK
 # 查看可以安装的列表
-yum search java | grep -i --color jdk
-yum install -y java-1.8.0-openjdk*
+dnf search java | grep -i --color jdk
+dnf install -y java-1.8.0-openjdk*
 ```
