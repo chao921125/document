@@ -212,8 +212,8 @@ send(EVENT_NAMES.inited, { openDevTools: false, sources });
   CONFIG.kw.qualitys = { '128k': '128', '320k': '320', 'flac': 'flac' };
 
   const API_URL = "https://88.lxmusic.xn--fiqs8s";
-  const API_KEY = "lxmusic";
-  const SECRET_KEY = 'JaJ?a7Nwk_Fgj?2o:znAkst';
+  const API_KEY = (typeof process !== 'undefined' && process.env && process.env.LX_API_KEY) || "";
+  const SECRET_KEY = (typeof process !== 'undefined' && process.env && process.env.LX_SECRET_KEY) || "";
   const SCRIPT_MD5 = '1888f9865338afe6d5534b35171c61a4';
   const KG_QUALITY_LIST = ['master', 'flac24bit', 'flac', '320k', '128k'];
   const KW_QUALITY_LIST = ['flac', '320k', '128k'];
