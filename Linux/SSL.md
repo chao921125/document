@@ -74,8 +74,6 @@ sudo snap install --classic certbot
 sudo ln -s /snap/bin/certbot /usr/bin/certbot
 
 sudo apt install certbot python3-certbot-nginx
-# 这个一般不需要安装
-sudo apt install certbot python2-certbot-nginx
 
 ln -s /usr/local/nginx/sbin/nginx /usr/bin/nginx
 ln -s /usr/local/nginx/conf/ /etc/nginx
@@ -110,12 +108,11 @@ sudo certbot run --nginx
 # RHEL /usr/local
 ```shell
 # 安装 snap
-sudo dnf install epel-release
+sudo dnf install -y epel-release
+sudo dnf makecache
 
 sudo dnf install -y snapd
-
 sudo systemctl enable --now snapd.socket
-
 sudo ln -s /var/lib/snapd/snap /snap
 
 # 重启系统确保 snap 安装
@@ -130,7 +127,6 @@ sudo snap install --classic certbot
 sudo ln -s /snap/bin/certbot /usr/bin/certbot
 
 sudo dnf install -y certbot python3-certbot-nginx
-sudo dnf install -y certbot python2-certbot-nginx
 
 ln -s /usr/local/nginx/sbin/nginx /usr/bin/nginx
 ln -s /usr/local/nginx/conf/ /etc/nginx
@@ -150,6 +146,8 @@ sudo dnf install certbot python3-certbot-nginx -y
 sudo dnf install certbot python3-certbot-apache -y
 
 # 自动续订
+sudo systemctl list-timers | grep certbot
+sudo systemctl enable --now certbot-renew.timer
 sudo certbot renew --dry-run
 sudo certbot renew --pre-hook "service nginx stop" --post-hook "service nginx start" --dry-run
 
@@ -164,4 +162,12 @@ sudo certbot renew --pre-hook "service nginx stop" --post-hook "service nginx st
 
 # 新证书安装
 sudo certbot run --nginx
+
+# 自动重启 /etc/letsencrypt/renewal-hooks/deploy/reload-nginx.sh
+sudo mkdir -p /etc/letsencrypt/renewal-hooks/deploy
+sudo tee /etc/letsencrypt/renewal-hooks/deploy/reload-nginx.sh > /dev/null <<'EOF'
+#!/bin/bash
+systemctl reload nginx
+EOF
+sudo chmod +x /etc/letsencrypt/renewal-hooks/deploy/reload-nginx.sh
 ```
