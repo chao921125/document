@@ -298,6 +298,7 @@
 | [打开获取](https://mkshare3.github.io/)                                                                |
 | [复制地址](https://jD5FUH.mcsslk.xyz/dfa4b97631ba71eea0cc84863f8bd8db)                                 |
 | [复制地址](https://eUh4id.tosslk.xyz/a25ead870a92f97a70064bd1cb662ce9)                                 |
+| [复制地址](https://proxypool.link/)        |
 
 # 订阅转换地址
 | 订阅转换                                                      |
