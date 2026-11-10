@@ -1,0 +1,192 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>CANVAS简易绘图系统</title>
+    <link href="canvas.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <section id="content">
+        <!--工具区域-->
+        <ul id="tool">
+            <li>
+                <h3>图像</h3>
+                <hr />
+                <ul id="image">
+                    <li id="clearimg"><button onclick="clearimg()">清空画板</button></li>
+                    <li><button onclick="drawGrid( 'lightgray', 10, 10); ">网格</button></li>
+                    <li><button id="readout">坐标查看</button></li>
+
+                </ul>
+            </li>
+
+            <li style="width: 350px;">
+                <h3>形状</h3>
+                <hr />
+                <ul id="shape" class="shape">
+                    <li id="shape_line" onclick="drawLine(6)">
+                        <img src="images/line.png" />
+                    </li>
+                    <li id="shape_arc" onclick="drawArc(7)">
+                        <img src="images/arc.png" />
+                    </li>
+                    <li id="shape_rect" onclick="drawRect(8)">
+                        <img src="images/rect.png" />
+                    </li>
+                    <li id="shape_poly" onclick="drawPoly(9)">
+                        <img src="images/poly.png" />
+                    </li>
+                    <li id="shape_arcfill" onclick="drawArcFill(10)">
+                        <img src="images/arcfill.png" />
+                    </li>
+                    <li id="shape_rectfill" onclick="drawRectFill(11)">
+                        <img src="images/rectfill.png" />
+                    </li>
+                    <div id="shape_duo" class="duobianxing" style="float: left;width: 330px;margin-left: -50px;font-size: 12px;">
+                        <input type="button" name="" id="" onclick="drawduo()" value="多边形" style=" color: white;
+                        background-color: rgb(83, 165, 197);
+                        font-size: 15px;
+                        border: 1px solid #FFF;
+                        padding: 2px;"> 边框颜色<select id='strokeStyleSelect' style="width: 50px;">
+                            <option value='red'>red</option>
+                            <option value='green'>green</option>
+                            <option value='blue'>blue</option>
+                            <option value='orange'>orange</option>
+                            <option value='cornflowerblue' selected>cornflowerblue</option>
+                            <option value='goldenrod'>goldenrod</option>
+                            <option value='navy'>navy</option>
+                            <option value='purple'>purple</option>
+                        </select>填充颜色<select id='fillStyleSelect' style="width: 50px;">
+                            <option value='rgba(255,0,0,0.5)'>semi-transparent red</option>
+                            <option value='green'>green</option>
+                            <option value='rgba(0,0,255,0.5)'>semi-transparent blue</option>
+                            <option value='orange'>orange</option>
+                            <option value='rgba(100,140,230,0.5)'>semi-transparent cornflowerblue</option>
+                            <option value='goldenrod' selected>goldenrod</option>
+                            <option value='navy'>navy</option>
+                            <option value='purple'>purple</option>
+                        </select> 边数<select id='sidesSelect' style="width: 50px;">
+                            <option value=4 select>4</option>
+                            <option value=6>6</option>
+                            <option value=8>8</option>
+                            <option value=10>10</option>
+                            <option value=12>12</option>
+                            <option value=20>20</option>
+                        </select> 开始角度 <select id='startAngleSelect' style="width: 50px;">
+                            <option value=0 select>0</option>
+                            <option value=22.5>22.5</option>
+                            <option value=45>45</option>
+                            <option value=67.5>67.5</option>
+                            <option value=90>90</option>
+                        </select> 填充 <input id='fillCheckbox' type='checkbox' checked /> 橡皮筋导航线： <input id='guidewireCheckbox' type='checkbox' checked />
+                    </div>
+                </ul>
+            </li>
+            <li>
+                <h3>笔</h3>
+                <hr />
+                <ul id="size">
+                    <li id="width_1" onclick="setLineWidth(0)">
+                        <img src="images/line1px.png" />
+                    </li>
+                    <li id="width_3" onclick="setLineWidth(1)">
+                        <img src="images/line3px.png" />
+                    </li>
+                    <li id="width_5" onclick="setLineWidth(2)">
+                        <img src="images/line5px.png" />
+                    </li>
+                    <li id="width_8" onclick="setLineWidth(3)">
+                        <img src="images/line8px.png" />
+                    </li>
+                </ul>
+                <div>
+                    <button style="margin:10px;" onclick="drawBrush()">实线</button>
+
+                    <button onclick="drawDashedLine()">虚线</button>
+                </div>
+
+            </li>
+            <li>
+                <h3>颜色</h3>
+                <hr />
+                <ul id="color">
+                    <li id="red" onclick="setColor(this,0)"></li>
+                    <li id="green" onclick="setColor(this,1)"></li>
+                    <li id="blue" onclick="setColor(this,2)"></li>
+                    <li id="yellow" onclick="setColor(this,3)"></li>
+                    <li id="white" onclick="setColor(this,4)"></li>
+                    <li id="black" onclick="setColor(this,5)"></li>
+                    <li id="pink" onclick="setColor(this,6)"></li>
+                    <li id="purple" onclick="setColor(this,7)"></li>
+                    <li id="cyan" onclick="setColor(this,8)"></li>
+                    <li id="orange" onclick="setColor(this,9)"></li>
+                    <li id="gray" onclick="setColor(this,10)"></li>
+                    <li id="white" onclick="setColor(this,4)"></li>
+                    <li id="white" onclick="setColor(this,4)"></li>
+                    <li id="white" onclick="setColor(this,4)"></li>
+                    <li id="white" onclick="setColor(this,4)"></li>
+
+                </ul>
+            </li>
+        </ul>
+        <ul class="lie">
+            <li>
+                <h3>工具</h3>
+                <hr />
+                <ul id="means">
+                    <li id="means_brush" onclick="drawBrush(0)">
+                        <img src="images/笔.png" />
+                    </li>
+                    <li id="means_eraser" onclick="drawEraser(1)">
+                        <img src="images/橡皮.png" />
+                    </li>
+                    <li id="means_paint" onclick="drawPaint(2)">
+                        <img src="images/油漆桶.png" />
+                    </li>
+                    <li id="means_straw" onclick="drawStraw(3)">
+                        <img src="images/Straw.png" />
+                    </li>
+                    <li id="means_text" onclick="drawText(4)">
+                        <img src="images/文本.png" />
+                    </li>
+                    <li id="means_magnifier" onclick="drawMagnifier(5)"><img src="images/Magnifier.png" /></li>
+                    <li id="means_time" onclick="Time()">
+                        <img src="images/时钟.png" />
+                    </li>
+                    <li id="means_panel" onclick="drawpanel()">
+                        <img src="images/仪表盘.png" />
+                    </li>
+                    <li id="means_bs" onclick="drawbesaer()">
+                        <img src="images/三次贝塞尔.png" />
+                    </li>
+                    <li id="means_zb" onclick="drawzb()">
+                        <img src="images/坐标.png" />
+                    </li>
+                    <li id="means_rot" onclick="rotating()">
+                        <img src="images/旋转.png" />
+                    </li>
+                    <li id="means_more">
+                        <img src="images/更多.png" />
+                        <ul id="more">
+                            <li id="rotate_rec" onclick="rotrec()"> <img src="images/旋转举行.png" /></li>
+                            <li id="doraemen" onclick="doraemen()">
+                                <img src="images/哆啦.png" />
+                            </li>
+                            <li onclick="fangse()"> <img src="images/下载.png" /></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <!--绘图区域-->
+        <canvas id="canvas" width="880" height="610">
+            您的浏览器不支持canvas标签，请升级浏览器
+        </canvas>
+        <!--请在canvas标签之后连入JS文件--->
+    </section>
+    <script type="text/javascript" src="canvas.js"></script>
+</body>
+
+</html>

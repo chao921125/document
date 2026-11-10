@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+div,
+ul,
+li{
+    box-sizing: border-box;
+}
+
+ul,
+li{
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-weight: normal;
+}
+
+ing{
+    width: 100%;
+}

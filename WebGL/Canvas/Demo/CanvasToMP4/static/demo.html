@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+    #stage {
+        /* width: 1280px; */
+        width: 640px;
+        /* height: 720px; */
+        height: 360px;
+        border: 1px solid #000;
+        background: black;
+    }
+    </style>
+    <script src="../node_modules/ccapture.js/src/CCapture.js"></script>
+    <script src="../node_modules/ccapture.js/src/webm-writer-0.2.0.js"></script>
+    <script src="https://unpkg.com/spritejs@3/dist/spritejs.js"></script>
+    <script src="./js/gif.js"></script>
+    <script>
+        
+    const map = [{
+        id: 1,
+        name: '岳麓山东大门',
+        original: [985 / 2, 650 / 2],
+        imgs: [{
+            id: 'a1',
+            src: './img/a1.jpg',
+            enter: ['left', 'top'],
+            leave: ['right', 'bottom']
+        }, {
+            id: 'a2',
+            src: './img/a2.jpg',
+            enter: ['left', 'center'],
+            leave: ['right', 'center'],
+        }, {
+            id: 'a3',
+            src: './img/a3.jpg',
+            enter: ['left', 'bottom'],
+            leave: ['right', 'top'],
+        }]
+    }, {
+        id: 2,
+        name: '索道上站',
+        original: [870 / 2, 305 / 2],
+        imgs: [{
+            id: 'b1',
+            src: './img/b1.jpeg',
+            enter: ['left', 'top'],
+            leave: ['right', 'bottom']
+        }, {
+            id: 'b2',
+            src: './img/b2.jpg',
+            enter: ['left', 'center'],
+            leave: ['right', 'center'],
+        }, {
+            id: 'b3',
+            src: './img/b3.jpg',
+            enter: ['left', 'bottom'],
+            leave: ['right', 'top'],
+        }]
+    }, {
+        id: 3,
+        name: '禹王牌',
+        original: [730 / 2, 175 / 2]
+    }, {
+        id: 4,
+        name: '爱晚亭',
+        original: [577 / 2, 320 / 2]
+    }, {
+        id: 5,
+        name: '岳麓书院',
+        original: [600 / 2, 375 / 2]
+    }, {
+        id: 6,
+        name: '湖南大学',
+        original: [625 / 2, 470 / 2]
+    }];
+    </script>
+</head>
+
+<body>
+    <div id="stage"></div>
+    <div>
+        <video width="300" controls class="video"></video>
+    </div>
+    <button id="stopBtn">停止录制</button>
+    <button id="toMp4">转换mp4格式</button>
+    <button id="toGif">转换gif格式</button>
+    <button id="snapshot">创建快照</button>
+    <div class="download"></div>
+    <script>
+
+    // https://stackoverflow.com/questions/63891881/how-can-i-stream-through-ffmpeg-a-canvas-generated-in-node-js-to-youtube-any-oth
+    class Uitls {
+        // 获取两点坐标距离
+        lineDistance(x1, y1, x2, y2) {
+            const r = Math.pow((x1 - x2), 2) + Math.pow((y1 - y2), 2);
+            return Math.sqrt(r);
+        }
+
+        // 获取两点角度
+        getAngle(x1, y1, x2, y2) {
+            const x = Math.abs(x1 - x2);
+            const y = Math.abs(y1 - y2);
+            return Math.atan2(y, x) * (180 / Math.PI);
+        }
+
+        // 方位转坐标
+        directionToCoordinates(canvas, a, b) {
+            const { width, height } = canvas;
+
+            const coordinatesX = {
+                left: -width / 2,
+                center: -width / 2,
+                right: 1.5 * width
+            }
+            const coordinatesY = {
+                top: -height / 2,
+                center: height / 2,
+                bottom: 1.5 * height
+            }
+            return [coordinatesX[a], coordinatesY[b]]
+        }
+        // blob转换为buffer
+        blobToArrayBuffer(blob) {
+            if (!blob) blob = new Blob();
+            const fileReader = new FileReader();
+            fileReader.readAsArrayBuffer(blob);
+            return new Promise((resolve, reject) => {
+                fileReader.onload = () => {
+                    resolve(fileReader.result);
+                };
+            })
+        }
+
+        print(text) {
+            console.log('log:', text)
+        };
+    }
+    class Move extends Uitls {
+        constructor(spritejs) {
+            super(spritejs);
+            const { Scene, Sprite, Polyline, Rect } = spritejs;
+            this.Scene = Scene;
+            this.Sprite = Sprite;
+            this.Polyline = Polyline;
+            this.Rect = Rect;
+
+            this.layer = null;
+            this.bg = null;
+            this.robot = null;
+            this.mask = null;
+            this.timer = null;
+            this.map = null;
+            this.scene = null;
+            this.currentAddress = null;
+
+            this.recorder = null;
+            this.recorderData = [];
+            this.mp4Data = null;
+
+
+            this.width = 640;
+            this.height = 360;
+        }
+
+        async init(map = []) {
+            this.map = map;
+
+            const container = document.querySelector('#stage');
+            this.scene = new this.Scene({
+                container,
+                width: this.width,
+                height: this.height,
+                mode: 'stickyTop',
+                contextType: '2d',
+            });
+            this.layer = this.scene.layer();
+
+            this.drawBg();
+            this.bg.addEventListener('click', (e) => this.bgClickHandle(e));
+
+            await this.drawRobot();
+            let s = 0;
+            setInterval(() => {
+                console.log(++s, '------', this.robot.worldPosition);
+            }, 1000 / 25)
+
+            for (let i = 0; i < map.length; i++) {
+                this.currentAddress = map[i];
+                console.log(this.currentAddress.name);
+                await this.robotMove();
+                // await this.sceniCareaPlay();
+            }
+
+        }
+
+        // 景区照片播放动画
+        async sceniCareaPlay() {
+            const { imgs } = this.currentAddress;
+            if (!imgs || !imgs.length) return;
+            await this.showMask();
+            await this.scene.preload(...imgs);
+            for (let i = 0; i < imgs.length; i++) {
+                await this.drawScenicAreaImg(imgs[i].id, imgs[i].enter, imgs[i].leave);
+            }
+            await this.hiddenMask();
+        }
+
+        // 绘制背景
+        drawBg() {
+            this.bg = new this.Sprite('./img/bg.jpg');
+            this.bg.attr({
+                width: this.width,
+                height: this.height
+            });
+            this.layer.append(this.bg);
+        }
+        // 绘制路线图
+        drawRoute() {
+            // const points = [].concat(...this.map.map(item => item.original));
+            const points = [985, 650, 870, 305];
+            const distance = this.lineDistance(...points);
+            const angle = this.getAngle(...points);
+            const line = new this.Polyline({
+                points,
+                strokeColor: 'blue',
+                smooth: true,
+                lineWidth: 3,
+            });
+
+            const rect = new this.Rect({
+                anchor: [0, 0],
+                pos: [985, 650],
+                size: [3, 1],
+                rotate: 90 + angle,
+                fillColor: 'red',
+            });
+            rect.transition(1).attr({
+                scale: [1, distance],
+            })
+            this.layer.append(rect);
+
+            this.layer.append(line);
+        }
+
+        // 绘制机器人
+        async drawRobot() {
+            await this.scene.preload({
+                id: 'robot',
+                src: './img/2.png'
+            });
+            this.robot = new this.Sprite('robot');
+            const [width, height] = this.robot.contentSize
+            this.robot.attr({
+                anchor: [0.5, 1], // 元素运动参考点
+                pos: [50, 50], // 元素参考点在舞台中的位置
+                size: [width / 15, height / 15], // 元素大小
+                zIndex: 2,
+            });
+            this.robotAnimate(50, 50);
+            this.layer.append(this.robot);
+        }
+
+        // 监听背景图点击事件
+        async bgClickHandle({ originalX, originalY }) {
+            console.log('click', originalX, originalY);
+            // this.robot.deactivateAnimations();
+            await this.robot.transition(0.5).attr({
+                pos: [originalX, originalY]
+            });
+            this.robotAnimate(originalX, originalY);
+        };
+
+        // 机器人添加初始动画
+        robotAnimate(x, y, time = 600) {
+            this.robot.animate([
+                { pos: [x, y - 10] },
+                { pos: [x, y + 10] },
+            ], {
+                duration: time,
+                iterations: Infinity,
+                direction: 'alternate',
+            });
+        }
+
+        // 机器人移动
+        async robotMove() {
+            await new Promise((resolve) => {
+                this.timer = setTimeout(async () => {
+                    const [x, y] = this.currentAddress.original;
+                    await this.robot.transition(1.0).attr({
+                        pos: [x, y]
+                    });
+                    this.robotAnimate(x, y);
+                    resolve();
+                }, 1000);
+            })
+        }
+
+        // 遮罩显示
+        async showMask() {
+            const { width, height } = this.layer.canvas;
+            this.mask = new this.Sprite({
+                anchor: [0, 0],
+                size: [width, height],
+                bgcolor: 'black',
+                zIndex: 3,
+                opacity: 0
+            });
+            this.layer.append(this.mask);
+            await this.maskAnimate();
+        }
+
+        // 遮罩动画
+        async maskAnimate() {
+            await this.mask.transition(0.6).attr({
+                opacity: 0.7
+            });
+        }
+
+        // 隐藏遮罩
+        async hiddenMask() {
+            await this.mask.transition(0.6).attr({
+                opacity: 0
+            });
+            this.mask.remove();
+        }
+
+        // 绘制景区图片
+        async drawScenicAreaImg(id, enter = ['left', 'top'], leave = ['right', 'bottom']) {
+            const xFn = this.directionToCoordinates.bind(this, this.layer.canvas);
+            const img = new this.Sprite(id);
+            const { width, height } = this.layer.canvas;
+            const [imgWidth, imgHeight] = img.contentSize;
+            const size = [this.width / 2, imgHeight / (imgWidth / (this.width / 2))]; // 统一宽度
+            img.attr({
+                anchor: [0.5, 0.5],
+                zIndex: 4,
+                pos: xFn(...enter),
+                size
+            });
+            this.layer.append(img);
+
+            // 入场动画
+            await img.transition(1.0).attr({
+                pos: [width / 2, height / 2]
+            });
+            // 演出动画
+            await img.transition(2.0).attr({
+                pos: [width / 2, height / 2]
+            });
+            // 离场动画
+            await img.transition(1.0).attr({
+                pos: xFn(...leave)
+            });
+            // 移除元素
+            img.remove();
+        }
+
+        // 视频录制
+        recorderMove() {
+            const canvas = document.querySelector('#stage canvas')
+            const stream = canvas.captureStream();
+
+
+            // window.myStream = stream;
+            // console.log(5555, stream)
+            // const video = document.querySelector('.video');
+            // video.srcObject = stream;
+
+
+            // codecs=h264
+            this.recorder = new MediaRecorder(stream, { mimeType: 'video/webm' });
+
+            this.recorderData = [];
+            this.recorder.ondataavailable = (event) => {
+                if (event.data && event.data.size) {
+                    this.recorderData.push(event.data);
+                }
+            };
+
+            this.recorder.onstop = () => {
+                console.log(77777, this.recorderData)
+                const url = URL.createObjectURL(new Blob(this.recorderData, { type: 'video/webm' }));
+                document.querySelector("video").src = url;
+            };
+
+            this.recorder.start();
+        }
+        // 停止录制视频
+        stopRecorder() {
+            this.recorder.stop();
+        }
+        // webm转换为mp4
+        async webmTomp4() {
+            const res = await this.blobToArrayBuffer(this.recorderData[0])
+            const { print } = this;
+
+            const Module = {
+                print: print,
+                printErr: print,
+                files: [{
+                    data: new Uint8Array(res),
+                    name: 'video.webm'
+                }],
+                arguments: '-i video.webm -c:v mpeg4 -b:v 6400k -strict experimental output.mp4'.split(' '),
+                // arguments: '-i video.webm -vframes 300 -y -f gif a.gif'.split(' '),
+                TOTAL_MEMORY: 52428800
+            }
+
+            var time = Date.now();
+            console.log('startTime', time)
+            this.mp4Data = ffmpeg_run(Module);
+
+            var totalTime = Date.now() - time;
+            console.log('endTime', totalTime)
+
+            this.downloadMp4(this.mp4Data[0]);
+        }
+        // 下载mp4
+        downloadMp4(result, data) {
+            console.log(333, result, data);
+            const blob = new File([result.data], 'test.mp4', {
+                type: 'video/mp4'
+            });
+
+            console.log(result.data, blob);
+            const url = URL.createObjectURL(blob);
+            const content = document.querySelector('.download');
+            const span = document.createElement('span');
+            const a = `<a href="${url}" target="_blank" download="play.mp4" style="font-size:200%;color:red;">Download mp4</a>`;
+            span.innerHTML = a;
+            content.appendChild(span);
+        }
+        ccapture() {
+
+        }
+
+        imgToGif() {
+            this.gif = new GIF({
+                workers: 2,
+                quality: 500,
+                width: 640,
+                height: 360,
+                workerScript: './js/gif.worker.js'
+            });
+            let startTime = 0;
+
+            this.gif.on('start', () => {
+                startTime = Date.now();
+            })
+            this.timer2 = setInterval(() => {
+                const canvas = this.layer.canvas;
+                const url = canvas.toDataURL('image/jpeg', 0.1);
+                const img = new Image();
+                img.width = 640;
+                img.height = 360;
+                img.src = url;
+                img.onload = () => {
+                    this.gif.addFrame(img, { delay: 1000 / 30 });
+                }
+            }, 1000 / 30)
+
+            this.gif.on('finished', function(blob) {
+                const content = document.querySelector('.download');
+                const a = document.createElement('a');
+                a.href = URL.createObjectURL(blob);
+                a.innerHTML = "下载 gif"
+                a.download = 'name.gif';
+                content.appendChild(a);
+
+                console.log(Date.now() - startTime, 'ms');
+                console.log(666, blob);
+            })
+        }
+
+        snapshot() {
+            try {
+                const canvas = this.scene.snapshot();
+                const snapshot = new Image();
+
+                snapshot.src = canvas.toDataURL('image/jpeg');
+                console.log(6666, canvas)
+                document.body.appendChild(snapshot);
+            } catch (e) {
+                alert(e);
+            }
+        }
+    }
+
+    const move = new Move(spritejs);
+    move.init(map);
+    try {
+        move.recorderMove();
+    } catch (e) {
+        alert(e);
+    }
+
+
+    document.querySelector('#stopBtn').onclick = () => {
+        move.stopRecorder();
+    }
+
+    document.querySelector('#toMp4').onclick = () => {
+        move.webmTomp4();
+    }
+
+    // move.imgToGif();
+    document.querySelector('#toGif').onclick = () => {
+        clearInterval(move.timer2);
+        move.gif.render();
+    }
+    console.log(move);
+
+    // var capturer = new CCapture({
+    //     format: 'webm',
+    //     framerate: 60,
+    //     verbose: true
+    // });
+    // capturer.start();
+
+    // function render(){
+    //     requestAnimationFrame(render);
+    //     const canvas = move.layer.canvas;
+    //     capturer.capture(canvas);
+    // }
+    // render()
+
+    // 点击创建快照
+    document.querySelector('#snapshot').onclick = () => {
+        videoWriter.complete().then(res => {
+            console.log(555, res);
+        })
+        // capturer.save( function( blob ) {
+        //     console.log(5555, blob)
+        // } );
+        // clearInterval(t);
+        // move.snapshot();
+    }
+
+
+
+
+    // mask
+    </script>
+</body>
+<script src="./js/ffmpeg_asm.js"></script>
+
+</html>

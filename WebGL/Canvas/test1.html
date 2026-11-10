@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>mouse event</title>
+		<style>
+			body, div {
+				margin: 0;
+                padding: 0;
+			}
+		</style>
+	</head>
+	<body>
+        <p>side: <input id="side-input" value="8"></p>
+        <p>dragPattern: <input id="dragPattern-input" type="checkbox"></p>
+        <canvas id="my-canvas" width="500" height="500" style="border: solid 1px black">
+    
+        </canvas>
+		
+		<script type="text/javascript">
+			    const
+        canvas = document.getElementById('my-canvas'),
+        sideInput = document.getElementById('side-input'),
+        dragInput = document.getElementById('dragPattern-input');
+
+    const
+        canvasLeft = canvas.getBoundingClientRect().left,
+        canvasTop = canvas.getBoundingClientRect().top,
+        ctx = canvas.getContext('2d');
+
+    let
+        sideNum = sideInput.value, //绘制多边形的边数，默认为8
+        dragPattern = dragInput.checked,//模式选择，true为拖拽模式，false为绘制模式；默认为false
+        editIng = false, //是否正在画图
+        mouseStart = new Map([
+            ['x', null],
+            ['y', null]
+        ]),//记录鼠标点下位置
+        polygonArray = [], //记录多边形路径的数组
+        imageData = null, //用于getImageData()和putImageData()记录及绘制图像
+        draggingPolygon = null; //记录正在拖拽的多边形
+
+    // 多边形路径类定义
+    class Polygon {
+        constructor(centerX, centerY, sideNum, radius) {
+            this.centerX = centerX;
+            this.centerY = centerY;
+            this.sideNum = sideNum;
+            this.radius = radius;
+        }
+        createPath() {
+            drawPolygonPath(
+                this.sideNum,
+                this.radius,
+                this.centerX,
+                this.centerY, ctx);
+        }
+    }
+
+    /**
+     * 绘制多边形路径
+     * sideNum:边数
+     * radius：半径
+     * originX, originY原点位置
+     */
+    function drawPolygonPath(sideNum, radius, originX, originY, ctx) {
+        ctx.beginPath();
+        const unitAngle = Math.PI * 2 / sideNum; //计算单元角度
+
+        let
+            angle = 0, //初始角度
+            xLength, yLength;
+        // ctx.moveTo(originX, originY);
+        for (let i = 0; i < sideNum; i++) { //遍历计算点，并lineTo()绘制路径
+            xLength = radius * Math.cos(angle);
+            yLength = radius * Math.sin(angle);
+            ctx.lineTo(originX + xLength, originY - yLength);//绘制路径
+            angle += unitAngle;
+        }
+        ctx.closePath();//闭合路径，也可在for循环中多一次循环lineTo()至起点
+    }
+
+    //获取在canvas中的点击位置
+    function positionInCanvas(e, canvasLeft, canvasTop) {
+      console.log('clientX：',e.clientX);
+      console.log('clientY：',e.clientY);
+      console.log('canvasLeft：', canvasLeft);
+      console.log('canvasTop：', canvasTop);
+        return {
+            x: e.clientX - canvasLeft,
+            y: e.clientY - canvasTop
+        }
+    }
+
+    //获取两点直线距离
+    function getDistance(x1, y1, x2, y2) {
+        return Math.sqrt(
+            (x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2)
+        );
+    }
+
+    sideInput.oninput = function () {
+        sideNum = this.value;
+    }
+
+    dragInput.onchange = function () {
+        dragPattern = this.checked;
+    }
+
+    canvas.onmousedown = function (e) {
+        const pos = positionInCanvas(e, canvasLeft, canvasTop);//获取在canvas中的像素位置
+        //记录鼠标起始点s
+        mouseStart.set('x', pos.x);
+        mouseStart.set('y', pos.y);
+
+        if (dragPattern === false) {//画图模式
+            imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);//记录当前图像(帧)
+            editIng = true;//开始画图
+
+        } else {//拖拽模式
+            for (let polygon of polygonArray) {
+                polygon.createPath();
+                if (ctx.isPointInPath(mouseStart.get('x'), mouseStart.get('y'))) {
+                    draggingPolygon = polygon;
+                    return;
+                }
+            }
+        }
+    }
+    canvas.onmousemove = function (e) {
+        if (dragPattern === false && editIng === true) {//画图模式
+            // 获取位置及计算半径
+            const
+                pos = positionInCanvas(e, canvasLeft, canvasTop),
+                radius = getDistance(mouseStart.get('x'), mouseStart.get('y'), pos.x, pos.y);
+
+            ctx.putImageData(imageData, 0, 0); //绘制记录的图像(帧)
+            drawPolygonPath(sideNum, radius, mouseStart.get('x'), mouseStart.get('y'), ctx);//画路径
+            ctx.stroke();
+
+        } else if (draggingPolygon !== null && dragPattern === true) {//拖拽模式
+            const
+                pos = positionInCanvas(e, canvasLeft, canvasTop),
+                diff = new Map([
+                    ['offsetX', pos.x - mouseStart.get('x')],
+                    ['offsetY', pos.y - mouseStart.get('y')]
+                ]);
+
+            /**
+             * 处于mousemove阶段，拖拽是基于点击时的位置。
+             * 记录被拖拽多边形的初始中心位置，在绘制路径会复原
+             * 
+             * 在mouseup时再刷新新的中心位置
+             * 
+             * 这部分我实在难以描述😕通过下面两个位置的console.log(draggingPolygon)
+             * 就好理解了，也可以试试不复原会发生什么
+             */
+            let
+                tempCenterX = draggingPolygon.centerX,
+                tempCenterY = draggingPolygon.centerY;
+
+            draggingPolygon.centerX += diff.get('offsetX');
+            draggingPolygon.centerY += diff.get('offsetY');
+
+            console.log(draggingPolygon)
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            for (let polygon of polygonArray) {
+                drawPolygonPath(polygon.sideNum, polygon.radius, polygon.centerX, polygon.centerY, ctx);
+                ctx.stroke();
+            }
+
+            // 继续基于点击时的位置拖动，计算
+            draggingPolygon.centerX = tempCenterX;
+            draggingPolygon.centerY = tempCenterY;
+            console.log(draggingPolygon);
+        }
+    }
+
+    canvas.onmouseup = function (e) {
+        if (dragPattern === false && editIng === true) {//画图模式
+            const
+                pos = positionInCanvas(e, canvasLeft, canvasTop),
+                radius = getDistance(mouseStart.get('x'), mouseStart.get('y'), pos.x, pos.y);
+
+            const polygon = new Polygon(mouseStart.get('x'), mouseStart.get('y'), sideNum, radius);
+
+            polygonArray.push(polygon);//记录路径对象
+            editIng = false;//结束画图
+        } else if (draggingPolygon !== null) {
+            const
+                pos = positionInCanvas(e, canvasLeft, canvasTop),
+                offsetMap = new Map([
+                    ['offsetX', pos.x - mouseStart.get('x')],
+                    ['offsetY', pos.y - mouseStart.get('y')]
+                ]);
+            draggingPolygon.centerX += offsetMap.get('offsetX');
+            draggingPolygon.centerY += offsetMap.get('offsetY');
+            draggingPolygon = null;
+        }
+    }
+
+
+
+
+		</script>
+	</body>
+</html>

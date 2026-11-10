@@ -1,0 +1,126 @@
+{
+  "name": "@eleven.fe/ball-collision",
+  "version": "1.6.0",
+  "description": "canvas 绘制小球撞击动画。",
+  "keywords": [],
+  "main": "dist/ball-collision.js",
+  "module": "dist/ball-collision.es.js",
+  "unpkg": "dist/ball-collision.umd.js",
+  "typings": "dist/types/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "author": "Eleven <master@eleven.net.cn>",
+  "maintainers": [
+    "Eleven <master@eleven.net.cn>"
+  ],
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eleven-net-cn/ball-collision"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "start": "concurrently \"rollup -c --environment NODE_ENV:development -w\" \"tsc -p tsconfig.spec.json -w\"",
+    "build": "concurrently \"rollup -c --environment NODE_ENV:production\" \"tsc\"",
+    "demo": "cd demo && yarn start",
+    "test": "jest --coverage --watchAll",
+    "prepublishOnly": "npm run build",
+    "lint": "eslint \"src/**/*.{js?(x),ts?(x)}\"",
+    "lint:fix": "eslint \"src/**/*.{js?(x),ts?(x)}\" --fix",
+    "commit": "git-cz",
+    "postcommit": "yarn changelog",
+    "changelog": "standard-version -n"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged --allow-empty",
+    "commit-msg": "commitlint -E GIT_PARAMS"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  },
+  "lint-staged": {
+    "*.{js?(x),json,css,scss,less,html,md}": [
+      "prettier --write"
+    ],
+    "*.ts?(x)": [
+      "prettier --parser=typescript --write"
+    ],
+    "src/**/*.{js?(x),ts?(x)}": [
+      "npm run lint:fix"
+    ]
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "dependencies": {
+    "@babel/runtime-corejs3": "^7.13.10",
+    "lodash.debounce": "^4.0.8"
+  },
+  "peerDependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/plugin-proposal-decorators": "^7.10.5",
+    "@babel/plugin-transform-runtime": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.12.13",
+    "@babel/preset-typescript": "^7.10.4",
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "@rbnlffl/rollup-plugin-eslint": "^1.1.4",
+    "@rollup/plugin-alias": "^3.1.1",
+    "@rollup/plugin-babel": "^5.2.1",
+    "@rollup/plugin-commonjs": "^14.0.0",
+    "@rollup/plugin-eslint": "^8.0.1",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^11.0.0",
+    "@rollup/plugin-replace": "^2.4.2",
+    "@rollup/plugin-url": "^6.0.0",
+    "@types/jest": "^26.0.13",
+    "@types/lodash.debounce": "^4.0.6",
+    "@types/node": "^14.10.2",
+    "@umijs/fabric": "^2.5.7",
+    "camelcase": "^6.2.0",
+    "colors": "^1.4.0",
+    "commitizen": "^4.2.1",
+    "concurrently": "^5.3.0",
+    "coveralls": "^3.1.0",
+    "cross-env": "^7.0.2",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^7.21.0",
+    "jest": "^26.4.2",
+    "jest-config": "^26.4.2",
+    "lint-staged": "^10.3.0",
+    "prettier": "^2.2.1",
+    "prompt": "^1.0.0",
+    "replace-in-file": "^6.1.0",
+    "rollup": "^2.34.2",
+    "rollup-plugin-cleaner": "^1.0.0",
+    "rollup-plugin-filesize": "^9.0.2",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-terser": "^6.1.0",
+    "shelljs": "^0.8.4",
+    "standard-version": "^9.1.1",
+    "ts-jest": "^26.3.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3",
+    "yorkie": "^2.0.0"
+  },
+  "resolutions": {
+    "remark": "11.0.2"
+  }
+}

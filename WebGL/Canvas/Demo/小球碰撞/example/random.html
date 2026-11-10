@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Test ball-collision</title>
+
+    <style>
+      html,
+      body {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+      .wrapper {
+        max-width: 640px;
+        height: 100%;
+        margin: 0 auto;
+      }
+
+      /**
+       * canvas 画布应当指定样式宽、高，画布内容会随之缩放。
+       */
+      .canvas-wrapper {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- 先准备一个 canvas 标签。css 样式可以随意指定，画布内容会随之缩放。 -->
+      <canvas id="canvas_wrapper" class="canvas-wrapper"></canvas>
+    </div>
+
+    <script src="../dist/ball-collision.umd.js"></script>
+    <script>
+      var _canvas = document.getElementById('canvas_wrapper')
+      var _docEl = document.querySelector('.wrapper')
+      var ua = window.navigator.userAgent
+      var isIOS = /(ipad|iphone|ipod)/i.test(ua)
+      var isAndroid = /android/i.test(ua)
+      var isWinPhone = /windows phone/i.test(ua)
+      var isMobile = isIOS || isAndroid || isWinPhone
+      var designWidth = 375
+      var scaleInPC = false
+      var scaleRate = !scaleInPC && !isMobile ? 1 : _docEl.clientWidth / designWidth
+
+      // 初始化
+      new BallCollision({
+        canvas: _canvas,
+        balls: createRandomBalls(10, 30, 50),
+        speedMin: -5, // 单位：px
+        speedMax: 5, // 单位：px
+        bgColor: 'random', // bgColor支持随机，也可以指定（合法的颜色值）
+        docEl: _docEl,
+        designWidth: designWidth, // 设计稿的宽度，默认：375（所有配置的尺寸、位置等，都是指定宽度的设计稿数值）
+        scaleInPC: scaleInPC, // PC 端是否自动缩放（默认：true，在移动端和PC端都会自动缩放，如果 PC 端不需要缩放可以配置为 false 关闭）
+        resetOnResize: true, // 浏览器 resize 或移动端 orientationchange 事件触发时，是否重置画布，默认：true
+        resetOnlyWidth: false, // 浏览器 resize 或移动端 orientationchange 事件触发时，仅宽度有变化时，才会 reset，默认：true
+      })
+
+      /**
+       * 随机生成小球位置、大小、颜色
+       * @param {Number} ballCount 小球数量
+       * @param {Number} ballMin 小球半径最小值
+       * @param {Number} ballMax 小球半径最大值
+       */
+      function createRandomBalls(ballCount, ballMin, ballMax) {
+        var rectCanvas = _canvas.getBoundingClientRect()
+        var balls = []
+
+        while (balls.length < ballCount) {
+          balls.push(createBall(balls, ballMin, ballMax, rectCanvas))
+        }
+        return balls
+      }
+
+      function createBall(balls, ballMin, ballMax, rectCanvas) {
+        var r = random(ballMin, ballMax)
+        // 缩放是随机时需要特别考虑的因素
+        var x = random(r, rectCanvas.width/scaleRate - r)
+        var y = random(r, rectCanvas.height/scaleRate - r)
+        var bgColor = 'rgb(' + random(0, 255) + ',' + random(0, 255) + ',' + random(0, 255) + ')'
+
+        // 随机比较麻烦的是：考虑初始的位置重叠问题
+        for (var i = 0; i < balls.length; i++) {
+          var dx = balls[i].x - x
+          var dy = balls[i].y - y
+          var distance = Math.sqrt(dx * dx + dy * dy)
+
+          if (distance < balls[i].r + r) {
+            return createBall(balls, ballMin, ballMax, rectCanvas)
+          }
+        }
+
+        return {
+          x: x,
+          y: y,
+          r: r,
+          bgColor: bgColor,
+        }
+      }
+
+      function random(min, max) {
+        return Math.floor(Math.random() * (max - min) * 100) / 100 + min
+      }
+    </script>
+  </body>
+</html>

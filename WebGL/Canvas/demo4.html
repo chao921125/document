@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body style="text-align:center;">
+<canvas id="myCanvas" width="800" height="800" onclick="savedata()" onmousemove="showmouse()" style="background:#808080;margin-left:10px; "></canvas>
+<img src="../Basic/assets/images/MapGame/801.png" />
+<script>
+  //墙
+  var img = new Image();
+  img.src = "801.png";
+
+  //画布宽
+  var canWidth = 400;
+  //画布高
+  var canHeight = 800;
+  //墙块宽度
+  var canStoreWidth = 80;
+  //画布
+  var ctx;
+  //图片数据
+  var imageData;
+  //地图map
+  var mapJson = new Array();
+
+  window.onload = function ()
+  {
+    var canvas = document.getElementById('myCanvas');
+    ctx = canvas.getContext('2d');
+    savedata();
+  }
+
+  //获取到坐标所在的索引
+  function inlocation(x, y)
+  {
+    var xx = x / canStoreWidth;
+    var yy = y / canStoreWidth;
+
+    return {
+      x1: parseInt(xx) == xx ? xx : parseInt(xx) + 1,
+      y1: parseInt(xx) == yy ? yy : parseInt(yy) + 1
+    };
+  }
+
+  //1,将屏幕平均分割成分[10,20]
+  //2,每块大小40*40
+
+  //得到块区域
+  function getStore(indexX, indexY)
+  {
+    var x = 0;
+    var y = 0;
+    x = (indexX - 1) * canStoreWidth;
+    y = (indexY - 1) * canStoreWidth;
+    return { X: x, Y: y };
+  }
+
+  //绘制事件
+  function showmouse()
+  {
+    if (ctx)
+    {
+      setdata();
+      var e = event;
+      //绘制块
+      var xy1 = inlocation(e.offsetX, e.offsetY);
+      var location = getStore(xy1.x1, xy1.y1);
+
+      ctx.drawImage(img, location.X, location.Y, canStoreWidth, canStoreWidth);
+      //人物不可存在不可以移动的元素上面
+    }
+  }
+  //保存每次绘制的地图
+  function savedata()
+  {
+    if (ctx)
+    {
+      imageData = ctx.getImageData(0, 0, canWidth, canHeight);
+      //纪录当前点击的模块
+      var e = event;
+      if (e.type == "click")
+      {
+        //绘制块
+        var xy1 = inlocation(e.offsetX, e.offsetY);
+        mapJson.push(new Array(xy1.x1, xy1.y1));
+      }
+    }
+  }
+  //重绘保存好的图片
+  function setdata()
+  {
+    if (imageData)
+    {
+      ctx.putImageData(imageData, 0, 0);
+    }
+  }
+  //绘图太快有bug，不知道什么情况
+</script>
+</body>
+</html>

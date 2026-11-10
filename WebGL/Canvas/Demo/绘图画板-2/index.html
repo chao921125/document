@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,
+    minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover"
+    />
+    <title>画板</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <canvas id="canvas" width="100" height="100"></canvas>
+    <div class="operator">
+      <button id="painting" class="active" title="画笔">
+        <svg class="icon" aria-hidden="true">
+          <use xlink:href="#icon-painting"></use>
+        </svg>
+      </button>
+      <button id="eraser" title="橡皮擦">
+        <svg class="icon" aria-hidden="true">
+          <use xlink:href="#icon-earase"></use>
+        </svg>
+      </button>
+      <button id="clear" title="清空">
+        <svg class="icon" aria-hidden="true">
+          <use xlink:href="#icon-clear"></use>
+        </svg>
+      </button>
+      <button id="undo" title="撤销">
+        <svg class="icon" aria-hidden="true">
+          <use xlink:href="#icon-undo"></use>
+        </svg>
+      </button>
+      <button id="download" title="下载">
+        <svg class="icon" aria-hidden="true">
+          <use xlink:href="#icon-download"></use>
+        </svg>
+      </button>
+      <button id="thin" title="细线" value="1">
+        <svg class="icon" aria-hidden="true">
+          <use xlink:href="#icon-thin"></use>
+        </svg>
+      </button>
+      <button id="normal" class="active" title="中线" value="5">
+        <svg class="icon" aria-hidden="true">
+          <use xlink:href="#icon-normal"></use>
+        </svg>
+      </button>
+      <button id="strong" title="粗线" value="10">
+        <svg class="icon" aria-hidden="true">
+          <use xlink:href="#icon-strong"></use>
+        </svg>
+      </button>
+    </div>
+    <div class="colorSelect">
+      <ul>
+        <li
+          class="black active"
+          style="background-color: black"
+          title="黑"
+        ></li>
+        <li class="red" style="background-color: red" title="红"></li>
+        <li class="orange" style="background-color: orange" title="橙"></li>
+        <li class="yellow" style="background-color: yellow" title="黄"></li>
+        <li class="green" style="background-color: green" title="绿"></li>
+        <li class="blue" style="background-color: blue" title="蓝"></li>
+        <li class="indigo" style="background-color: indigo" title="靛"></li>
+        <li class="purple" style="background-color: purple" title="紫"></li>
+      </ul>
+    </div>
+    <script src="//at.alicdn.com/t/font_2959046_dvyzctzq4su.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

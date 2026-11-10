@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Insert title here</title>
+
+    <style>
+
+    </style>
+    <script src="../Basic/plugins/jquery3/jquery-3.6.0.js"></script>
+</head>
+<body>
+<canvas id="mapcv" width="768" height="768" style="border:1px solid #d3d3d3;" onclick="actiondeal(event)"></canvas>
+</body>
+<script type="text/javascript">
+  var mapcv = document.getElementById("mapcv");
+  var myctx = mapcv.getContext("2d");
+  // var xClipNum = 3;
+  // var yClipNum = 3;
+  arrx=['x1','x2','x3'];
+  arry=['y1','y2','y3'];
+  var TitlesArry = []
+  for(var i=0;i<arrx.length;i++){
+    for(var j=0;j<arry.length;j++){
+      var beauty = new Image();
+      // beauty.src = MapConfig.RootDir+level+"/"+(leftTopTitleRow+i)+"/"+(leftTopTitleCol+j)+".jpg";
+      beauty.src = "../Basic/assets/images/Map/"+(arrx[i])+(arry[j])+".jpg"
+      let TitleImg={
+        img:null,
+        x:0,
+        y:0
+      };
+      TitleImg.img=beauty;
+      TitleImg.x=TitleImg.x+256*i;
+      TitleImg.y=TitleImg.y+256*j;
+      TitlesArry.push(TitleImg);
+      TitleImg.img.onload = function(){
+        console.log(TitleImg.img,TitleImg)
+        myctx.drawImage(TitleImg.img, TitleImg.x, TitleImg.y);
+      }
+    }
+  }
+  // console.log(TitlesArry)
+  function actiondeal(e){
+    console.log(e.offsetX)
+    console.log(e.offsetY)
+  }
+</script>
+</html>

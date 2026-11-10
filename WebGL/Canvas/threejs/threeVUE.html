@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>three.js webgl - OBJLoader + MTLLoader</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	<link href="https://unpkg.com/vue-3d-loader@2.2.1/dist/style.css" />
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		#app {
+			width: 100%;
+			height: 100%;
+		}
+		#three-id {
+			width: 100vw;
+			height: 100vh;
+		}
+	</style>
+</head>
+
+<body>
+<div id="app">
+	<div>{{ dataObj.filePath }}</div>
+	<vue3dLoader
+		id="three-id"
+		:width="400"
+		:height="400"
+		:showFps="false"
+		:filePath="dataObj.filePath"
+		:fileType="dataObj.fileType"
+		:mtlPath="dataObj.mtlPath"
+		:backgroundColor="0xffffff"
+		:webGLRendererOptions="{
+				preserveDrawingBuffer: true
+			}"
+	></vue3dLoader>
+</div>
+
+<script type="importmap">
+	{
+		"imports": {
+        "vue": "https://unpkg.com/vue@3.3.12/dist/vue.esm-browser.prod.js",
+        "vue3dloader": "https://unpkg.com/vue-3d-loader@2.2.1/dist/vue-3d-loader.esm.js"
+		}
+	}
+</script>
+<!--?obj=&mtl=-->
+<script type="module">
+	import {createApp, reactive, ref} from "vue";
+	import { vue3dLoader } from "vue3dloader";
+
+	const app = createApp({
+		setup() {
+			const url = "https://metagaia-model.s3.ap-east-1.amazonaws.com/test/test-folder/output";
+			const dataObj = reactive({
+				fileType: "obj",
+				filePath: url + ".obj",
+				mtlPath: url + ".mtl",
+			});
+
+			return {
+				dataObj,
+			}
+		}
+	});
+	app.use(vue3dLoader);
+	app.mount('#app');
+</script>
+
+</body>
+</html>

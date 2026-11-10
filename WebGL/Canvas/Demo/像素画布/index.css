@@ -1,0 +1,14 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 1500px;
+    margin: 20px auto;
+    border: 1px solid #e8e8e8;
+}
+canvas{
+    margin: 0;
+    padding: 0;
+}

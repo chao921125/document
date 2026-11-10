@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>three.js webgl - OBJLoader + MTLLoader</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+	</style>
+</head>
+
+<body>
+<div id="info">
+</div>
+
+<script type="importmap">
+	{
+		"imports": {
+			"three": "https://unpkg.com/three@0.158.0/build/three.module.js",
+        "three/addons/": "https://unpkg.com/three@0.158.0/examples/jsm/"
+		}
+	}
+</script>
+
+<!--?obj=&mtl=-->
+<script type="module">
+	import * as THREE from 'three';
+
+	import { MTLLoader } from 'three/addons/loaders/MTLLoader.js';
+	import { OBJLoader } from 'three/addons/loaders/OBJLoader.js';
+	import {OrbitControls } from 'three/addons/controls/OrbitControls.js';
+
+	let camera, scene, renderer, threeObj, threeMtl;
+
+	(() => {
+		// let testUrl = "";
+		// // testUrl = "https://metagaia-model.s3.ap-east-1.amazonaws.com/prod/model-file/170204310599587EZLE/170204310599587EZLE.usdzoutput"
+		// testUrl = "https://metagaia-model.s3.ap-east-1.amazonaws.com/prod/model-file/1702032047715RGY5GF.usdzoutput"
+		// // testUrl = "https://metagaia-model.s3.ap-east-1.amazonaws.com/prod/model-file/1702343256151GD0ZYH/output"
+		// threeObj = testUrl + ".obj";
+		// threeMtl = testUrl + ".mtl";
+
+		const params = urlToObj(window.location.href);
+		threeObj = params.obj;
+		threeMtl = params.mtl;
+		if (params.obj && params.mtl) {
+			init();
+			animate();
+		}
+	})();
+
+	function urlToObj(url) {
+		let obj = {};
+		if (!url) return obj;
+		url = decodeURIComponent(url);
+		// @ts-ignore
+		url.replace(/([^?=&#]+)=([^?=&#]+)/g, (_, key, value) => (obj[key] = value));
+		// @ts-ignore
+		url.replace(/#([^?=&#]+)/g, (_, hash) => (obj["HASH"] = hash));
+		return obj;
+	}
+
+
+	function init() {
+		camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 0.01, 10 );
+		camera.position.x = 0;
+		camera.position.y = 0;
+		camera.position.z = 1;
+
+		// scene
+
+		scene = new THREE.Scene();
+
+		const ambientLight = new THREE.AmbientLight( 0xffffff );
+		scene.add( ambientLight );
+
+		const pointLight = new THREE.PointLight( 0xffffff, 5 );
+		camera.add( pointLight );
+		scene.add( camera );
+
+		// model
+		const onProgress = function ( xhr ) {
+			if ( xhr.lengthComputable ) {
+				const percentComplete = xhr.loaded / xhr.total * 100;
+				console.log( percentComplete.toFixed( 2 ) + '% downloaded' );
+			}
+		};
+
+		new MTLLoader()
+			.load( threeMtl, function ( materials ) {
+				materials.preload();
+				new OBJLoader()
+					.setMaterials( materials )
+					.load( threeObj, function ( object ) {
+						const box = new THREE.Box3().setFromObject(object);
+
+						// const boxHelper = new THREE.BoxHelper(object);
+						// boxHelper.geometry.computeBoundingBox();
+						// const box = boxHelper.geometry.boundingBox;
+
+						const x = (box.max.x - box.min.x);
+						const y = (box.max.y - box.min.y);
+						const z = (box.max.z - box.min.z);
+						const maxDiameter = Math.max(x, y, z);
+						const minDiameter = Math.min(x, y, z);
+
+						let scale = maxDiameter * (Math.tan(camera.fov * Math.PI / 360));
+						console.log(maxDiameter, minDiameter, scale);
+						while (scale < 1) {
+							scale = 10 * scale;
+						}
+						if (scale > 5) scale = scale / 2;
+						object.scale.setScalar(scale, scale, scale);
+
+						object.position.y = -1 * minDiameter;
+
+						console.log(maxDiameter, minDiameter, scale);
+
+						scene.add( object );
+
+					}, onProgress );
+
+			} );
+
+		//
+
+		renderer = new THREE.WebGLRenderer( { antialias: true } );
+		renderer.setPixelRatio( window.devicePixelRatio );
+		renderer.setSize( window.innerWidth, window.innerHeight );
+		document.body.appendChild( renderer.domElement );
+
+		//
+
+		const controls = new OrbitControls( camera, renderer.domElement );
+		controls.minDistance = 0.1;
+		controls.maxDistance = 999;
+
+		//
+
+		window.addEventListener( 'resize', onWindowResize );
+
+	}
+
+	function onWindowResize() {
+
+		camera.aspect = window.innerWidth / window.innerHeight;
+		camera.updateProjectionMatrix();
+
+		renderer.setSize( window.innerWidth, window.innerHeight );
+
+	}
+
+	//
+
+	function animate() {
+		requestAnimationFrame( animate );
+		renderer.render( scene, camera );
+	}
+</script>
+
+</body>
+</html>

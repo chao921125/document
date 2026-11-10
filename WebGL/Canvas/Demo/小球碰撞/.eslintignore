@@ -1,0 +1,12 @@
+**/node_modules
+/node_modules
+
+/doverage
+/demo
+/dist
+/docs
+
+.eslintrc.js
+
+babel.config.js
+rollup.config.js

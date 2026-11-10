@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title></title>
+        <link rel="stylesheet" type = 'text/css' href="css/common.css"/>
+        <link rel="stylesheet" href="css/canvas.css"/>
+    </head>
+    <body>
+            <div class="readProgressBarWarp">
+                    <div class="readProgressBar"></div>
+                  
+            </div>
+            <button class="pause">暂停</button>
+            <button class="cancel">取消</button>
+        <div class="wrap">
+          
+           
+            <div class="imgWarp">
+                <input type="file" id = 'fileInput'/>
+                <button id = 'savaButton'>保存</button>
+                <a href="" download = 'love.png'id="saveHref" style=" display: inline-block;background-color : red;  width :100px; height: 25px;;">
+                    确认
+                    <img src="" alt="" id="save_img"/>
+                </a>
+            </div>
+
+            <div class="canvasWrap">
+                <canvas class="canvas"  width="800" height="600"></canvas>
+            </div>
+            <div class="partWrap">
+                <ul class="partlist">
+                    <li class="list-item"data-config = 'red'>红笔</li>
+                    <li class="list-item"data-config = 'blue'>蓝笔</li>
+                    <li class="list-item"data-config = 'green'>绿笔</li>
+                    <li class="list-item"data-config = 'blank'>复位</li>
+                    <li class="list-item font-4"data-config = 'font-4'>
+                        <span data-config = 'font-4'></span>
+                    </li>
+                    <li class="list-item font-8"data-config = 'font-8'>
+                        <span data-config = 'font-8'></span>
+                    </li>
+                    <li class="list-item font-16"data-config = 'font-16'>
+                        <span data-config = 'font-16'></span>
+                    </li>
+                    <li class="list-item"data-config = 'reverse'>反向</li>
+                    <li class="list-item"data-config = 'grayscale'>灰度</li>
+                    <li class="list-item picker">拾色器</li>
+                </ul>
+            </div>
+            <div class="amplification">
+                    <canvas width="300px" height="150px" id = 'zoom'></canvas>
+            </div>
+            <label for="sawtooch" class = 'sawTooch'><!--label是使得内部的所有内容（相同的标签不行）都可以做成for id 的那个标签的效果-->
+                    <input type="checkbox" name="sawtooch" checked = 'checked' id="sawtooch"/>开启图像平缓
+                   <!---该标签不会失效，点击这个标签不会相当于点击label的那个id值 <button class="sawtooch">dasdas</button>-->
+            </label>
+        </div>
+        <script type = 'text/javascript' src ='js/canvas.js'></script>
+    </body>
+</html>

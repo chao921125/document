@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function canvasEvent(canvas, ctx) {
+
+        canvas.onmousewheel = (event) => {
+            // console.log("onmousewheel", event.offsetX, event.offsetY);
+            // let zoom = event.deltaY > 0 ? -0.01 : 0.01;
+            // zoomCurrent += zoom;
+            // if (zoomCurrent > zoomLimit[0] && zoomCurrent < zoomLimit[1]) {
+            //   canvasZoom(canvas, ctx, event.offsetX, event.offsetY, zoom);
+            // } else if (zoomCurrent < zoomLimit[0]) {
+            //   zoomCurrent = zoomLimit[0];
+            // } else if (zoomCurrent > zoomLimit[1]) {
+            //   zoomCurrent = zoomLimit[1];
+            // }
+        }
+    }
+    function canvasScale() {
+        let obj = {
+            fontX: 0,
+            fontY: 0,
+            fontZoom: 1,
+            curZoom: 1,
+            translateX: 0,
+            translateY: 0,
+        }
+        obj.curZoom = obj.fontZoom + scale;
+        obj.translateX = offsetX - (offsetX - obj.translateX) * obj.curZoom / obj.fontZoom;
+        obj.translateY = offsetY - (offsetY - obj.translateY) * obj.curZoom / obj.fontZoom;
+
+        // 不使用 translate + scale 个缩放 会存在某些问题。
+        ctx.translate(obj.translateX, obj.translateY);
+        ctx.scale(obj.curZoom, obj.curZoom);
+        ctx.clearRect(0, 0, canvas.width * zoomTimes, canvas.height * zoomTimes);
+        // 绘画网格
+        drawDragImg(canvas, ctx, 200, 200, 20);
+        drawImg(canvas, ctx);
+        // drawCanvasGrid(canvas, ctx);
+        ctx.restore();
+        obj.fontY = offsetY;
+        obj.fontX = offsetX;
+        obj.fontZoom = obj.curZoom;
+    }
+</script>
+</body>
+</html>

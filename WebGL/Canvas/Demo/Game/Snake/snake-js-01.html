@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>贪吃蛇</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <style type="text/css">
+    .backDiv {
+      text-align: center;
+      position:absolute;
+      top:20px;
+      left:300px;
+      width:820px;
+      height:550px;
+    }
+    .display {
+      position:absolute;
+      top:0px;
+      left:685px;
+      width:180px;
+      height:510px;
+      border: 5px solid black;
+      background-color: #ccffff;
+    }
+    #gamePanel table {
+      border-collapse: collapse;/*合并单元格边框*/
+      border: 5px solid black;
+      background-color: #f0f0f0;
+    }
+    #gamePanel td {
+      width:15px;
+      height:15px;
+    }
+    #scoreDiv {
+      position: absolute;
+      top: 20px;
+      left:20px;
+      text-align: left;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    #prompt {
+      position: absolute;
+      top: 180px;
+      left: 20px;
+      text-align: left;
+      font-weight: bold;
+    }
+    #operator {
+      position: absolute;
+      top:550px;
+      left:100px;
+    }
+    #result {
+      position: absolute;
+      top:200px;
+      left:220px;
+      background-color: #00ffff;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: left;
+      padding: 20px;
+    }
+  </style>
+  <script>
+    var snake = [];// 蛇数组
+    var barrers = [];// 障碍物数组
+    var game = {sizeX:"30",sizeY:"40",record:"0"};
+    var appearTime = disappearTime =  0;// 超级食物出现
+    var superFoodX = superFoodY = null;
+    var color = 0;// 食物颜色
+
+    function init(){
+      clearTimeout(game.time);
+      snake = [];
+      barrers = [];
+      game.x = 0;game.y = 1;
+      game.dir = null;
+      game.direction = "right";
+      game.rate = null;
+      game.lengths = 2;// 蛇的长度
+      game.score = 0;
+      $("scoreDiv").innerHTML = "得分："+game.score+"<br/><br/>长度："+ game.lengths+"<br/><br/>"+"最高分："+game.record;
+      $("pass").disabled = false;
+      $("rate").disabled = false;
+      $("start").disabled = false;
+      bord();// 设置界面
+      barrer();// 设置障碍物
+      $("result").style.visibility = "hidden";
+      snake.push("tb_" + game.x + "_" + (game.y-1));
+      snake.push("tb_" + game.x + "_" + game.y);// 蛇头
+    }
+    function $(id){
+      return document.getElementById(id);
+    }
+    // 表格
+    function bord(){
+      var panel = [];// 游戏面板
+      var proPanel = [];// 提示面板
+      panel.push("<table>");
+      for(var i=0; i<game.sizeX; i++){
+        panel.push("<tr>");
+        for(var j=0; j<game.sizeY; j++){
+          panel.push('<td id="tb_' + i + "_" + j + '" > </td>');
+        }
+        panel.push("</tr>");
+      }
+      panel.push("</table>");
+      $("gamePanel").innerHTML = panel.join("");
+      proPanel.push("<table>");
+      proPanel.push('<tr>'+'<td width="20px" height="20px" bgcolor="#ff3300"></td>' + '<td>&nbsp得分+10</td>'+'</tr>');
+      proPanel.push('<tr>'+'<td width="20px" height="20px" bgcolor="#33cc33"></td>' + '<td>&nbsp得分+30</td>'+'</tr>');
+      proPanel.push('<tr>'+'<td width="20px" height="20px" bgcolor="#99ff66"></td>' + '<td>&nbsp得分+50</td>'+'</tr>');
+      proPanel.push('<tr>'+'<td width="20px" height="20px" bgcolor="#ffff00"></td>' + '<td>&nbsp得分+100</td>'+'</tr>');
+      proPanel.push('<tr>'+'<td width="20px" height="20px" bgcolor="#006600"></td>' + '<td>&nbsp得分-30</td>'+'</tr>');
+      proPanel.push('<tr>'+'<td width="20px" height="20px" bgcolor="#000000"></td>' + '<td>&nbsp得分-50</td>');
+      proPanel.push("</table>");
+      $("prompt").innerHTML = proPanel.join("");
+    }
+    // 关卡障碍物设置
+    function barrer() {
+      var passValue = $("pass").value;
+      for(var i=0; i<barrers.length; i++) {
+        $(barrers[i]).style.backgroundColor = "";
+      }
+      barrers = [];
+      if(passValue == 2) {
+        for(var i=8; i<game.sizeX-8; i++) {
+          barrers.push("tb_" + i + "_" + 10);
+          barrers.push("tb_" + i + "_" + (game.sizeY-10));
+        }
+      }
+      if(passValue == 3) {
+        for(var i=8; i<game.sizeY-8; i++) {
+          barrers.push("tb_" + Math.floor(game.sizeX/2) + "_" + i);
+        }
+        for(var i=6; i<game.sizeX-6; i++) {
+          barrers.push("tb_" + i + "_" + Math.floor(game.sizeY/2));
+        }
+      }
+      if(passValue == 4) {
+        for(var i=12; i<game.sizeY-11; i++) {
+          barrers.push("tb_" + Math.floor(game.sizeX/2) + "_" + i);
+        }
+        for(var j=6; j<game.sizeX-6; j++) {
+          barrers.push("tb_" + j + "_" + Math.floor(game.sizeY/2+1));
+        }
+        for(var i=6; i<game.sizeX-6; i++) {
+          if(i < game.sizeX/2) {barrers.push("tb_"+i+"_"+12);}
+          else{barrers.push("tb_"+i+"_"+(game.sizeY-11));}
+        }
+        for(var j=12; j<game.sizeY-11; j++) {
+          if(j <= game.sizeY/2) {barrers.push("tb_"+(game.sizeX-7)+"_"+j);}
+          else {barrers.push("tb_"+6+"_"+(j+1));}
+        }
+      }
+      if(passValue == 5) {
+        for(var i=0; i<14; i++) {
+          barrers.push("tb_" + 7 + "_" + i);
+          barrers.push("tb_" + (game.sizeX-8) + "_" + (game.sizeY-i-1));
+        }
+        for(var i=15; i<25; i++) {
+          if(i < 18 || i > 21){
+            barrers.push("tb_"+10 +"_"+i);
+            barrers.push("tb_"+(game.sizeX-11)+"_"+i);
+          }
+        }
+        for(var i=0; i<9; i++) {
+          barrers.push("tb_" + i + "_" + (game.sizeY-13));
+          barrers.push("tb_" + (game.sizeX-i-1) + "_" + 12);
+        }
+        for(var i=11; i<19; i++) {
+          if(i < 13 || i > 16){
+            barrers.push("tb_"+i+"_"+15);
+            barrers.push("tb_"+i+"_"+(game.sizeY-16));
+          }
+        }
+      }
+      // 设置障碍物颜色
+      for(var i=0; i<barrers.length; i++) {
+        $(barrers[i]).style.backgroundColor = "#660033";
+      }
+    }
+    // 开始游戏
+    function startGame() {
+      food();
+      game.start = true;
+      $("pass").disabled = true;
+      $("rate").disabled = true;
+      $("start").disabled = true;
+      game.rate = $("rate").value;
+      $(snake[0]).style.backgroundColor = "#0066ff";
+      $(snake[1]).style.backgroundColor = "blue";
+      game.time = setTimeout(function(){
+        snakeMove();
+      },game.rate);
+      superFood();
+    }
+    // 蛇移动 速度，方向
+    function snakeMove() {
+      if(game.direction == "right") {game.y += 1; }// 右移
+      if(game.direction == "left") {game.y -= 1; }// 左移
+      if(game.direction == "up") {game.x -= 1; }// 上移
+      if(game.direction == "down") {game.x += 1; }// 下移
+      // 判断游戏是否结束
+      if(result() == true) {
+        clearTimeout(game.time); clearTimeout(appearTime); clearTimeout(disappearTime);
+        game.start = false;
+        var res = "游戏结束!<br/>";
+        if(game.score > game.record){
+          res += "恭喜你破纪录啦！<br/>";
+          $("scoreDiv").innerHTML = "得分：" + game.score + "<br/><br/>最高分：" + game.record;
+        }
+        res += "您的得分为：" + game.score + "<br/>长度:"+game.lengths;
+        $("result").style.visibility = "visible";
+        $("result").innerHTML = res;
+        return;
+      }
+      if(game.x==game.fx && game.y==game.fy) {eat(1);}
+      if(game.x==superFoodX && game.y==superFoodY) {eat(2);}
+      move();
+      game.time = setTimeout(function() {
+        snakeMove(game.rate,game.direction);
+      },game.rate);
+    }
+    function move() {
+      $(snake[0]).style.backgroundColor = "";
+      // 保留蛇当前的位置
+      for(var i=1; i<snake.length; i++) {
+        snake[i-1] = snake[i];
+      }
+      snake[snake.length-1] = "tb_" + game.x + "_" + game.y;// 蛇头位置
+      for(var i=0; i<snake.length-1; i++) {
+        $(snake[i]).style.backgroundColor = "#0066ff";
+      }
+      $(snake[i]).style.backgroundColor = "blue";
+    }
+    // 食物 位置随机且不能与蛇位置重复
+    function food() {
+      game.fx = Math.floor(Math.random(game.sizeX)*game.sizeX);
+      game.fy = Math.floor(Math.random(game.sizeY)*game.sizeY);
+      if($("tb_" + game.fx + "_" + game.fy).style.backgroundColor != "") {food(); }
+      else {$("tb_" + game.fx + "_" + game.fy).style.backgroundColor = "#ff3300"; }
+    }
+    // 超级食物出现
+    function superFood() {
+      appearTime = setTimeout(function(){
+        var n = Math.floor(Math.random(10)*10);
+        superFoodX = Math.floor(Math.random(game.sizeX)*game.sizeX);
+        superFoodY = Math.floor(Math.random(game.sizeY)*game.sizeY);
+        if($("tb_" + superFoodX + "_" + superFoodY).style.backgroundColor != "") {superFood(); }
+        else{
+          if(("tb_" + superFoodX + "_" + superFoodY) == ("tb_" + game.fx + "_" + game.fy)){superFood(); return ;}
+          if(n < 3){$("tb_" + superFoodX + "_" + superFoodY).style.backgroundColor = "#33cc33"; color = 0;}
+          else if(3 <= n && n < 5){$("tb_" + superFoodX + "_" + superFoodY).style.backgroundColor = "#006600"; color = 1;}
+          else if(5 <= n && n < 7){$("tb_" + superFoodX + "_" + superFoodY).style.backgroundColor = "#99ff66"; color = 2;}
+          else if(7 <= n && n < 9){$("tb_" + superFoodX + "_" + superFoodY).style.backgroundColor = "#000000"; color = 3;}
+          else {$("tb_" + superFoodX + "_" + superFoodY).style.backgroundColor = "#ffff00"; color = 4;}
+          clearTimeout(disappearTime);
+          superFood();
+          // 一定时间后超级食物消失
+          disappearTime = setTimeout(function(){
+            $("tb_" + superFoodX + "_" + superFoodY).style.backgroundColor = "";
+            superFoodX = superFoodY = null;
+          },game.rate*120-game.rate*50);
+        }
+      },game.rate*120);
+    }
+    // 蛇吃食物
+    function eat(ef) {
+      // 吃普通食物
+      if(ef == 1) {snake.push("tb_" + game.fx + "_" + game.fy); game.score += 10; food();}
+      // 吃超级食物
+      if(ef == 2) {
+        if(color == 0) {game.score += 30;}
+        else if(color == 1) {game.score -= 30;}
+        else if(color == 2) {game.score += 50;}
+        else if(color == 3) {game.score -= 50;}
+        else {game.score += 100;}
+        snake.push("tb_" + superFoodX + "_" + superFoodY);
+        if(game.score < 0) {game.score = 0;}
+        clearTimeout(disappearTime);
+      }
+      game.lengths += 1;
+      $("scoreDiv").innerHTML = "得分："+game.score+"<br/><br/>长度："+game.lengths+"<br/><br/>最高分："+game.record;
+    }
+    // 游戏结束
+    function result() {
+      var next = "tb_" + game.x + "_" + game.y;
+      if(game.x<0 || game.x>=game.sizeX || game.y<0 || game.y>=game.sizeY) {return true;}
+      for(var i=0; i<snake.length; i++) {if(next == snake[i]) {return true;}}
+      for(var i=0; i<barrers.length; i++) {if(next == barrers[i]) {return true;}}
+      return false;
+    }
+    // 键盘控制
+    function control(v) {
+      var evt = v;
+      game.dir = game.direction;
+      if(37 <= evt.keyCode && evt.keyCode <= 40 && game.start){
+        if(evt.keyCode == 37){game.dir=="right" ? game.direction = "right":game.direction = "left";}// 左
+        if(evt.keyCode == 38){game.dir=="down" ? game.direction = "down" : game.direction = "up";}// 上
+        if(evt.keyCode == 39){game.dir=="left" ? game.direction = "left" : game.direction = "right";}// 右
+        if(evt.keyCode == 40){game.dir=="up" ? game.direction = "up" : game.direction = "down";}// 下
+        if(game.dir != game.direction){clearTimeout(game.time); snakeMove(); }
+      }
+    }
+  </script>
+</head>
+<body onload="init();" onkeyup="control(event);" >
+<div class="backDiv">
+  <div class="display">
+    <div id="scoreDiv">分数：0</div><br/>
+    <div id="prompt"></div>
+  </div>
+  <div id="gamePanel" ></div><br/>
+  <div id="operator">
+    选择关卡：<select id="pass" onchange="barrer();">
+    <option value="1">关卡1</option>
+    <option value="2">关卡2</option>
+    <option value="3">关卡3</option>
+    <option value="4">关卡4</option>
+    <option value="5">关卡5</option>
+  </select>&nbsp&nbsp
+    速度：<select id="rate">
+    <option value="500">慢</option>
+    <option value="250">中</option>
+    <option value="100">快</option>
+  </select>&nbsp&nbsp
+    <input type="button" id="start" value="开始" onclick="startGame();" />&nbsp&nbsp
+    <input type="button" id="resets" value="重玩" onclick="init();" />
+  </div>
+  <div id="result"></div>
+</div>
+<div style="text-align:center;">
+  <p><a href="http://www.mycodes.net/" target="_blank">源码之家</a></p>
+</div>
+</body>
+</html>

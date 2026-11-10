@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script src="Aframe/aframe-v1.3.0.js"></script>
+    <script src="Aframe/aframe-extras-master/dist/aframe-extras.js"></script>
+</head>
+<body>
+<a-scene background="color: #007aff">
+    <a-assets>
+        <a-asset-item id="model" src="./source/glb-car.glb"></a-asset-item>
+    </a-assets>
+    <a-entity gltf-model="#model" modify-materials></a-entity>
+<!--    <a-assets>-->
+<!--        <a-asset-item id="model" src="./source/dongzuo.fbx"></a-asset-item>-->
+<!--    </a-assets>-->
+<!--    <a-entity fbx-model="#model" modify-materials></a-entity>-->
+</a-scene>
+
+<script>
+  AFRAME.registerComponent('modify-materials', {
+    init: function () {
+      // Wait for model to load.
+      this.el.addEventListener('model-loaded', () => {
+        // Grab the mesh / scene.
+        const obj = this.el.getObject3D('mesh');
+        // Go over the submeshes and modify materials we want.
+        obj.traverse(node => {
+          if (node.name.indexOf('ship') !== -1) {
+            node.material.color.set('red');
+          }
+        });
+      });
+    }
+  });
+</script>
+</body>
+</html>

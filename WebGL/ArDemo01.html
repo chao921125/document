@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Initialize the viewport -->
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+    <!-- Load the required dependencies: A-frame and AR.js -->
+    <script src="Aframe/aframe-v1.3.0.js"></script>
+    <script src="AR.js/aframe-ar.js"></script>
+
+    <!-- This is to load the A-frame extras, that contain the required components that are used to show the animations -->
+    <!-- of the 3D model of the robot -->
+    <script src="Aframe/aframe-extras-master/dist/aframe-extras.js"></script>
+
+    <!-- This is a hack because at the time of writing there are some distortions in the provided visuals until the  -->
+    <!-- system receives a resize event. The resize event must be triggered when everything has been loaded and the  -->
+    <!-- camera has been initialized. All the events I tried didn't work, so in the end I resorted using a 3 seconds -->
+    <!-- time-out after the load event. When this problem will be fixed in the AR.js library, this hack won't be necessary -->
+    <!-- anymore -->
+    <script>
+      window.onload = function(){
+        setTimeout(function(){
+          var resizeEvent = window.document.createEvent('UIEvents');
+          resizeEvent.initUIEvent('resize', true, false, window, 0);
+          window.dispatchEvent(resizeEvent);
+        }, 3000);
+      };
+    </script>
+</head>
+
+<body style='margin : 0; overflow: hidden;'>
+<!-- a-scene defines the scene that we are agoing to use. After arjs= there are various options that can be customized  -->
+<!-- depending on your needs. For now just stick with these ones -->
+<a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false;'>
+
+    <!-- Here we load the asset of the robot, pointing to its file. A-frame works with GLTF and GLB models. -->
+    <!-- We define a name for this asset, that is "robot" -->
+    <a-assets>
+        <!-- BrainStem model created by Keith Hunter and owned by Smith Micro Software, Inc. Exported from Poser and made available under clause (g) of “Legitimate Uses” as defined by the Poser Pro EULA. -->
+        <a-asset-item id="robot" src="./source/glb-car.glb"></a-asset-item>
+    </a-assets>
+
+    <!-- Defines the marker that we are going to use. Notice that we are not providing the image file, but the  -->
+    <!-- "compiled" .patt file that we got from the online tool. the marker MUST BE ACCESSIBLE VIA HTTPS -->
+    <a-marker preset='custom' type='pattern' url='https://skarredghost.com/AR/pattern-Skarredghost_marker_qr.patt'>
+
+        <!-- Here we define the content to show on the marker when it gets detected: the GLTF model of the robot that we specified above. -->
+        <!-- Notice the mention to the name robot that we specified above. -->
+        <!-- The animation-mixer is the A-frame component to control the animation of the 3D model. Since we are not specifiying any animation -->
+        <!-- name, it just loops all the animations of the model  -->
+        <!-- <a-entity position="0 0.5 0" scale="1.5 1.5 1.5" rotation="-160 0 0" gltf-model="static/gltf/naruto/scene.gltf"></a-entity> -->
+        <a-entity gltf-model="#robot" animation-mixer></a-entity>
+
+    </a-marker>
+
+    <!-- Define the camera of the scene -->
+    <a-entity camera></a-entity>
+</a-scene>
+</body>

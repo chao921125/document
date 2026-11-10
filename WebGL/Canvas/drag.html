@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Map Drag</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        html, body {
+            height: 100%;
+            width: 100%;
+        }
+        .map-box {
+            width: 100%;
+            height: 100%;
+            background-color: #262539;
+            display: flex;
+            display: -webkit-flex;
+            align-items: center;
+            justify-content: center;
+            transform: scale(1, 1);
+        }
+        canvas {
+            width: 100%;
+            height: 100%;
+            display: block;
+            background-color: #262539;
+            border: 1px solid #1D1C2D;
+            margin: 0 auto;
+            overflow: hidden;
+            /*scroll-behavior: unset;*/
+            /*transform: rotateX(180deg);*/
+        }
+    </style>
+</head>
+<body>
+
+<div class="map-box" id="mapBox">
+    <canvas id="canvas">你的浏览器不支持 canvas，请升级你的浏览器。</canvas>
+</div>
+
+</body>
+<script type="text/javascript">
+  // 定义状态枚举
+  const initConfig = {
+    // 初始状态
+    INIT: 0,
+    // 拖动状态
+    DRAG_START: 1,
+    DRAG_ING: 12,
+    // 移动状态
+    MOVE_START: 2,
+    MOVE_ING: 21,
+  };
+
+  // 操作的对象
+  let canvasTarget = {
+    // 清除画布
+    clear: 100,
+    // 全局标记是否拖拽
+    isDragFlag: false,
+    // 缩放倍数 默认 1
+    scale: 1,
+    // 缩放步长 默认 1
+    scaleStep: 0.1,
+    // 移动或缩放执行的最小距离
+    scaleStepNum: 5,
+    // 缩放倍数 最大
+    scaleMax: 2,
+    // 缩放倍数 最小
+    scaleMin: 0.5,
+    // 缩放 偏移量
+    scaleOffset: {
+      x: 0,
+      y: 0,
+    },
+    canvasOffset: {
+      x: 0,
+      y: 0,
+    },
+    // 操作对象是否开始拖拽、缩放
+    targetStatus: initConfig.INIT,
+    // 操作对象 最后一次的位置
+    targetLastPosition: {
+      x: 0,
+      y: 0,
+    },
+    // 操作对象的偏移量
+    targetOffsetPosition: {
+      x: 0,
+      y: 0,
+    },
+    // 拖拽对象
+    dragTarget: null,
+    // 拖拽对象的数据
+    dragTargetArray: [],
+  };
+
+  ;(() => {
+    resizeWindow();
+    window.onresize = () => {
+      resizeWindow();
+    };
+  })(window);
+
+  function resizeWindow() {
+    let cWidth = document.body.clientWidth;
+    let cHeight = document.body.clientHeight;
+    document.querySelector("#mapBox").setAttribute("width", cWidth.toString());
+    document.querySelector("#mapBox").setAttribute("height", cHeight.toString());
+    document.querySelector("#canvas").setAttribute("width", cWidth.toString());
+    document.querySelector("#canvas").setAttribute("height", cHeight.toString());
+    initDraw();
+  }
+
+  function initDraw() {
+    //获得画板
+    let canvas = document.querySelector("#canvas");
+    if(!canvas.getContext) return false;
+    //获得绘画环境
+    let ctx = canvas.getContext('2d');
+    ctx.save();
+
+    drawDragImg(canvas, ctx, 100, 100, 20);
+    canvasTarget.dragTargetArray.push({
+      x: 100,
+      y: 100,
+      r: 20
+    });
+    drawDragImg(canvas, ctx, 200, 200, 40);
+    canvasTarget.dragTargetArray.push({
+      x: 200,
+      y: 200,
+      r: 40
+    });
+    canvasEvent(canvas, ctx);
+  }
+
+  // 绘画 可拖动图形
+  function drawDragImg(canvas, ctx, cx, cy, r) {
+    ctx.save();
+    ctx.beginPath();
+
+    ctx.strokeStyle = "blue";
+    ctx.arc(cx, cy, r, 0, Math.PI * 2);
+    ctx.stroke();
+
+    ctx.closePath();
+    ctx.restore();
+  }
+
+  // 注册事件
+  function canvasEvent(canvas, ctx) {
+    canvas.onmousedown = (event) => {
+      canvasTarget.isDragFlag = false;
+      canvas.style.cursor = "grab";
+      // canvasDrag(canvas, ctx);
+      // 拖拽指定对象
+      const canvasPosition = getCanvasPosition(event, canvasTarget.scaleOffset, canvasTarget.scale);
+      const dragImgRef = isDragTarget(canvasPosition, canvasTarget.dragTargetArray);
+      // 点击对象的时候进行鼠标变形，同时记录数据
+      if (dragImgRef && canvasTarget.targetStatus === initConfig.INIT) {
+        canvas.style.cursor = "all-scroll";
+        canvasTarget.dragTarget = dragImgRef;
+
+        canvasTarget.targetStatus = initConfig.DRAG_START;
+        canvasTarget.targetLastPosition = canvasPosition;
+        canvasTarget.targetOffsetPosition = canvasPosition;
+      }
+    }
+    canvas.onmousemove = (event) => {
+      canvasTarget.isDragFlag = true;
+      const canvasPosition = getCanvasPosition(event, canvasTarget.scaleOffset, canvasTarget.scale);
+      if (canvasTarget.targetStatus === initConfig.DRAG_START && getDistance(canvasPosition, canvasTarget.targetLastPosition) > canvasTarget.scaleStepNum) {
+        canvasTarget.targetStatus = initConfig.DRAG_ING;
+        canvasTarget.targetOffsetPosition = canvasPosition;
+      } else if (canvasTarget.targetStatus === initConfig.DRAG_ING) {
+        canvasTarget.dragTarget.x += (canvasPosition.x - canvasTarget.targetOffsetPosition.x);
+        canvasTarget.dragTarget.y += (canvasPosition.y - canvasTarget.targetOffsetPosition.y);
+
+        ctx.clearRect(0, 0, canvas.width * canvasTarget.clear, canvas.height * canvasTarget.clear);
+        canvasTarget.dragTargetArray.forEach((item) => {drawDragImg(canvas, ctx, item.x, item.x, item.r);});
+        canvasTarget.targetOffsetPosition = canvasPosition;
+
+      }
+    }
+    canvas.onmouseup = (event) => {
+      canvas.style.cursor = "default";
+      if (canvasTarget.targetStatus !== initConfig.INIT) {
+        canvasTarget.targetStatus = initConfig.INIT;
+      }
+      if (canvasTarget.isDragFlag) {
+        console.log("drag");
+      } else {
+        console.log("no drag");
+      }
+    }
+    // 区分出来点击事件和拖拽事件
+    canvas.onclick = () => {
+      canvas.style.cursor = "default";
+    }
+    // 双击放大不做
+    canvas.ondblclick = () => {
+      canvas.style.cursor = "default";
+    }
+  }
+
+  // 获取鼠标点击的位置
+  function getCanvasPosition(event, offset = { x: 0, y: 0}, scale = 1) {
+    const offsetX = (event.offsetX - offset.x) / scale;
+    const offsetY = (event.offsetY - offset.y) / scale;
+    return {
+      x: offsetX < 0 ? 0 : offsetX,
+      y: offsetY < 0 ? 0 : offsetY,
+    }
+  }
+
+  // 获取鼠标的位置
+  function getMousePosition(event) {
+    return {
+      x: event.offsetX,
+      y: event.offsetY,
+    }
+  }
+
+  // 计算距离
+  function getDistance(pStart, pEnd) {
+    return Math.sqrt((pStart.x - pEnd.x) ** 2 + (pStart.y - pEnd.y) ** 2);
+  }
+
+  // 判断当前鼠标活动位置是否是图形还是画布
+  function isDragTarget(position, targetArray) {
+    if (targetArray) {
+      // 计算当前鼠标活动点与目标点的距离
+      for (let o of targetArray) {
+        if (getDistance(o, position) < o.r) return o;
+      }
+      return false;
+    }
+  }
+</script>
+</html>

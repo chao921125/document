@@ -1,0 +1,214 @@
+/*页面公共属性设置*/
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+body {
+    background: #d8d4d4
+}
+
+
+/*页面顶部属性设置*/
+
+#header {
+    width: 900px;
+    height: 80px;
+    font-size: 40px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 80px
+}
+
+
+/*页面中间部分(画图板)属性*/
+
+#content {
+    width: 880px;
+    height: 780px;
+    background: #598898;
+    margin: 0 auto;
+    padding: 10px
+}
+
+#tool {
+    height: 150px;
+    text-align: center
+}
+
+#tool li {
+    float: left;
+    width: 175px;
+    height: 140px;
+    background: #add5e2;
+    border-right: 1px solid rgb(253, 243, 243)
+}
+
+#image {
+    text-align: left;
+    padding-left: 25px;
+}
+
+#image li {
+    height: 25px;
+    width: 100px;
+    list-style: none;
+    border: 0;
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+#image li button:hover {
+    background: #add5e2;
+    border: 1px solid #FFF
+}
+
+#means,
+#shape {
+    padding: 10px;
+}
+
+.shape {
+    margin-left: 40px;
+}
+
+#means li,
+#shape li {
+    height: 15px;
+    width: 20px;
+    border: 1px solid #000;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+#means li:hover,
+#shape li:hover {
+    height: 15px;
+    width: 20px;
+    border: 1px solid #fff;
+    margin-bottom: 10px
+}
+
+#means img,
+#shape img {
+    height: 20px;
+    width: 20px
+}
+
+#means #means_more #more {
+    display: none;
+}
+
+#means #means_more:hover #more {
+    display: block;
+}
+
+#size {
+    padding: 10px
+}
+
+#size li {
+    height: 20px;
+    width: 100px;
+    border: 1px solid #f8fcfd
+}
+
+#size li:hover {
+    height: 20px;
+    width: 100px;
+    border: 1px solid #FFF
+}
+
+#color {
+    padding: 25px
+}
+
+#color li {
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgb(253, 238, 238);
+    margin-bottom: 10px;
+    margin-right: 3px
+}
+
+#color li:hover {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #fff;
+    margin-bottom: 10px;
+    margin-right: 3px
+}
+
+#color #red {
+    background: red
+}
+
+#color #green {
+    background: green
+}
+
+#color #blue {
+    background: blue
+}
+
+#color #yellow {
+    background: yellow
+}
+
+#color #white {
+    background: white
+}
+
+#color #black {
+    background: black
+}
+
+#color #pink {
+    background: pink
+}
+
+#color #purple {
+    background: purple
+}
+
+#color #cyan {
+    background: cyan
+}
+
+#color #orange {
+    background: orange
+}
+
+#color #gray {
+    background: gray
+}
+
+#canvas {
+    background: white
+}
+
+#canvas:hover {
+    cursor: crosshair
+}
+
+.lie {
+    position: absolute;
+    background-color: #add5e2;
+    text-align: center;
+}
+
+.lie means li {
+    display: none;
+}
+
+button {
+    color: white;
+    background-color: rgb(83, 165, 197);
+    font-size: 15px;
+    border: 1px solid #FFF;
+    padding: 2px;
+}

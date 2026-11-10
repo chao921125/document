@@ -1,0 +1,15 @@
+node_modules
+.nyc_output
+.DS_Store
+*.log
+# .vscode
+.idea
+compiled
+.awcache
+.rpt2_cache
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+dist

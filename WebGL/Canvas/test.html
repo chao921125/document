@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>canvas</title>
+    <style>
+        canvas{
+            border:1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+<canvas id="canvas" width="400" height="400"></canvas>
+<script type="text/javascript">
+  // (function(){
+  //   var c = document.getElementById("canvas");
+  //   var ctx = c.getContext("2d");
+  //   var ax,ay,r = 30,num=1;//绘制图形的参数
+  //   var timeOutEvent = 0;//区分拖拽和点击的参数
+  //   //创建图形
+  //   function createBlock(a,b,r){
+  //     ctx.beginPath();
+  //     ctx.fillStyle = "red";
+  //     ctx.arc(a,b,r,0,Math.PI*2);
+  //     ctx.fill();
+  //   }
+  //   createBlock(200,200,30);
+  //   c.onmousedown = function(ev){
+  //     var e = ev||event;
+  //     var x = e.clientX;
+  //     var y = e.clientY;
+  //     timeOutEvent = setTimeout("longPress()",500);
+  //     e.preventDefault();
+  //     drag(x,y,r);
+  //   };
+  //   //缩放
+  //   c.onmousewheel = function(ev){
+  //     var e = ev||event;
+  //     num += e.wheelDelta/1200;
+  //     r = 30*num;
+  //     ctx.clearRect(0,0,c.width,c.height);
+  //     if(ax == null || ay == null){
+  //       createBlock(200,200,r);
+  //     }else{
+  //       if(r>0){
+  //         createBlock(ax,ay,r);
+  //       }
+  //     }
+  //   };
+  //   //拖拽函数
+  //   function drag(x,y,r){
+  //     // 按下鼠标判断鼠标位置是否在圆上，当画布上有多个路径时，isPointInPath只能判断最后那一个绘制的路径
+  //     // if(ctx.isPointInPath(x,y)){
+  //       //路径正确，鼠标移动事件
+  //       c.onmousemove = function(ev){
+  //         var e = ev||event;
+  //         ax = e.clientX;
+  //         ay = e.clientY;
+  //         clearTimeout(timeOutEvent);
+  //         timeOutEvent = 0;
+  //         //鼠标移动每一帧都清楚画布内容，然后重新画圆
+  //         ctx.clearRect(0,0,c.width,c.height);
+  //         createBlock(ax,ay,r);
+  //       };
+  //       //鼠标移开事件
+  //       c.onmouseup = function(){
+  //         c.onmousemove = null;
+  //         c.onmouseup = null;
+  //         clearTimeout(timeOutEvent);
+  //         if(timeOutEvent!=0){
+  //           alert("你这是点击，不是拖拽");
+  //         }
+  //       }
+  //     // }
+  //   }
+  //   function longPress(){
+  //     timeOutEvent = 0;
+  //   }
+  // })()
+
+
+
+  /*
+canvas 可视化操作-拖拽&缩放&移动
+*/
+  // const canvas = document.getElementById('canvas');
+  // const ctx = canvas.getContext('2d');
+
+  // const stautsConfig = {
+  //   //拖拽开始
+  //   IDLE: 0,
+  //   //拖拽中
+  //   DRAG_START: 1,
+  //   //拖拽结束
+  //   DRAGGING: 2
+
+  // }
+  // //画布信息
+  // const canvasInfo = {
+  //   status: stautsConfig.IDLE,          //拖拽状态
+  //   dragTarget: null,                   //拖拽对象
+  //   lastEvtPos: { x: null, y: null },   //计算偏移量坐标
+  //   offsetEvtPos: { x: null, y: null }, //偏移事件位置
+  //   offset: { x: 0, y: 0 },             //缩放偏移
+  //   scale: 1,                           //缩放比例
+  //   scaleStep: 0.1,                     //每次缩放产生的变化量
+  //   maxScale: 2,                        //最大缩放倍数
+  //   minScale: 0.5                       //最小缩放倍数
+  // }
+  // const cirlces = [];
+  // //画圆
+  // const drawCircle = (ctx, cx, cy, r) => {
+  //   ctx.save();
+
+  //   ctx.beginPath();
+  //   ctx.strokeStyle = 'blue';
+  //   ctx.arc(cx, cy, r, 0, Math.PI*2);
+  //   ctx.stroke();
+
+  //   ctx.closePath();
+  //   ctx.restore();
+  // }
+  // // ctx.translate(100, 0);
+  // //视图层绘制
+  // drawCircle(ctx, 100, 100, 20);
+  // //数据层记录
+  // cirlces.push({
+  //   x: 100,
+  //   y: 100,
+  //   r: 20
+  // })
+  // drawCircle(ctx, 200, 200, 30);
+  // cirlces.push({
+  //   x: 200,
+  //   y: 200,
+  //   r: 30
+  // })
+
+  // /*————————————————拖拽———————————————————*/
+
+  // //画布位置
+  // const getCanvasPosition = e => {
+  //   return {
+  //     x: e.offsetX,
+  //     y: e.offsetY
+  //   }
+  // }
+
+  // //获取距离
+  // const getDistance = (p1, p2) => {
+  //   return Math.sqrt((p1.x - p2.x) ** 2 + (p1.y - p2.y) ** 2);
+  // }
+
+  // //判断是否在圆内
+  // const ifInCirlce = (pos) => {
+  //   for (let i = 0; i < cirlces.length; i++) {
+  //     //如果两个距离小于半径就返回
+  //     if (getDistance(cirlces[i], pos) < cirlces[i].r) {
+  //       return cirlces[i]
+  //     }
+  //   }
+  //   return false;
+
+  // }
+
+  // //鼠标按下
+  // canvas.addEventListener('mousedown', e => {
+  //   const canvasPosition = getCanvasPosition(e);
+  //   const cirlceRef = ifInCirlce(canvasPosition);
+  //   //如果拖拽对象条件成立，系统进入拖拽状态
+  //   if (cirlceRef) {
+  //     //记录拖拽目标、状态、偏移量位置、偏移事件位置
+  //     canvasInfo.dragTarget = cirlceRef;
+  //     canvasInfo.status = stautsConfig.DRAG_START;
+  //     canvasInfo.lastEvtPos = canvasPosition;
+  //     canvasInfo.offsetEvtPos = canvasPosition;
+  //   }
+  // })
+
+  // //鼠标移动
+  // canvas.addEventListener('mousemove', e => {
+  //   const canvasPosition = getCanvasPosition(e);
+  //   //如果在某个圆内，修改拖动中的鼠标样式
+  //   if (ifInCirlce(canvasPosition)) {
+  //     canvas.style.cursor = 'all-scroll';
+  //   } else {
+  //     canvas.style.cursor = ''
+  //   }
+  //   //如果第一次距离和第二次之间大于5，代表真正的拖动（防止抖动，一按下就移动的问题）
+  //   if (canvasInfo.status === stautsConfig.DRAG_START && getDistance(canvasPosition, canvasInfo.lastEvtPos) > 5) {
+  //     console.log('try');
+  //     canvasInfo.status = stautsConfig.DRAGGING;
+  //     //更新偏移事件位置
+  //     canvasInfo.offsetEvtPos = canvasPosition;
+  //   } else if (canvasInfo.status === stautsConfig.DRAGGING){
+  //     console.log('拖拽中');
+  //     const { dragTarget } = canvasInfo;
+  //     dragTarget.x += (canvasPosition.x - canvasInfo.offsetEvtPos.x);
+  //     dragTarget.y += (canvasPosition.y - canvasInfo.offsetEvtPos.y);
+  //     //拖拽时候清空并重绘圆
+  //     ctx.clearRect(0, 0, canvas.width, canvas.height);
+  //     cirlces.forEach(item => drawCircle(ctx, item.x, item.y, item.r));
+  //     canvasInfo.offsetEvtPos = canvasPosition;
+  //   }
+  // })
+
+  // //鼠标抬起
+  // canvas.addEventListener('mouseup', e => {
+  //   if (canvasInfo.status === stautsConfig.DRAGGING) canvasInfo.status = stautsConfig.IDLE;
+  // })
+
+  // /*————————————————滚轮缩放———————————————————*/
+  // canvas.addEventListener('wheel', e => {
+  //   e.preventDefault();
+  //   const canvasPosition = getCanvasPosition(e);
+  //   //计算出鼠标在画布的坐标位置
+  //   const realCanvasPosition = {
+  //     x: canvasPosition.x - canvasInfo.offset.x,
+  //     y: canvasPosition.y - canvasInfo.offset.y
+  //   }
+  //   //变化偏移量
+  //   const { scaleStep } = canvasInfo;
+  //   const deltaX = realCanvasPosition.x / canvasInfo.scale * scaleStep;
+  //   const deltaY = realCanvasPosition.y / canvasInfo.scale * scaleStep;
+  //   //上下滚轮分别赋值
+  //   if (e.wheelDelta > 0) {
+  //     canvasInfo.offset.x -= deltaX;
+  //     canvasInfo.offset.y -= deltaY;
+  //     canvasInfo.scale += scaleStep;
+  //   } else {
+  //     canvasInfo.offset.x += deltaX;
+  //     canvasInfo.offset.y += deltaY;
+  //     canvasInfo.scale -= scaleStep;
+  //   }
+  //   //通过矩阵变换重置当前的坐标系
+  //   ctx.setTransform(canvasInfo.scale, 0, 0, canvasInfo.scale, canvasInfo.offset.x, canvasInfo.offset.y);
+  //   ctx.clearRect(0, 0, canvas.width, canvas.height);
+  //   cirlces.forEach(item => drawCircle(ctx, item.x, item.y, item.r));
+  // })
+</script>
+
+</body>
+</html>

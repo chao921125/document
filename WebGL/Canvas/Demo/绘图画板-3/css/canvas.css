@@ -1,0 +1,92 @@
+
+.wrap{
+    position: relative;
+    height: 800px;
+    width: 800px;
+    margin: 100px auto;
+}
+
+.readProgressBarWarp{
+    position: relative;
+    width: 100px;
+    height: 130px;
+}
+
+.readProgressBarWarp .readProgressBar{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 0;
+    height: 100px;
+    background-color: rgba(0, 0,255, 0.6);
+}
+.canvasWrap{
+    height: 600px;
+    width: 800px; 
+    border: 1px solid #4f4f4f;
+}
+
+/*不能再css中设置canvas的宽高，% ，会导致canvas像素坐标不准
+.canvasWrap canvas{
+    height: 600px;
+    width: 800px;
+}*/
+
+.partWrap .list-item{
+    float: left;
+    height: 200px;
+    width: 50px;
+    line-height: 200px;
+    text-align: center;
+    border-left: 1px solid #4f4f4f;
+    border-bottom: 1px solid #4f4f4f;
+}
+
+.partWrap .list-item span{
+    display: block;
+    background-color: #4f4f4f
+}
+.partWrap .font-4 span{
+    margin: 98px 23px;
+    width: 4px;
+    height: 4px;
+}
+
+.partWrap .font-8 span{
+    margin: 96px 21px;
+    width: 8px;
+    height: 8px;
+}
+
+.partWrap .font-16 span{
+    margin: 94px 17px;
+    width: 16px;
+    height: 16px;
+}
+
+.amplification{
+    position: absolute;
+    right: 0px;
+    top:623px;
+    height: 150px;
+    width: 300px;
+    border-left: 1px solid #4f4f4f;
+    border-right: 1px solid #4f4f4f;
+    border-bottom: 1px solid #4f4f4f;
+}
+
+.sawTooch{
+    position:absolute;
+    right: 0px;
+    top:773px;
+    display: block;
+    height: 49px;
+    width: 298px;
+    text-align: center;
+    line-height: 50px;
+    border-left: 1px solid #4f4f4f;
+    border-right: 1px solid #4f4f4f;
+    border-bottom: 1px solid #4f4f4f;
+}
+
+

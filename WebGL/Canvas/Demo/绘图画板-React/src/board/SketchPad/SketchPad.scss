@@ -1,0 +1,53 @@
+:local(.sketchPad) {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+
+  &.hidden {
+    overflow: hidden;
+  }
+
+  :local(.canvas) {
+    z-index: 2;
+    background: transparent;
+    position: relative;
+    cursor: 'crosshair';
+  }
+
+  :local(.canvasBackground) {
+    background-color: #ffffff;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    :local(.selectedRect) {
+      position: absolute;
+
+      .rect {
+        width: 100%;
+        height: 100%;
+        stroke: #3dc476;
+        stroke-width: 1px;
+        stroke-dasharray: 10;
+        fill: rgba(61,196,118,.05);
+        stroke-dashoffset: 600;
+        animation: dash 5s linear infinite;
+      }
+    }
+  }
+
+  :local(.canvasTextArea) {
+    position: absolute;
+    display: none;
+    width: 200px;
+    height: 100px;
+    z-index: 10;
+  }
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}

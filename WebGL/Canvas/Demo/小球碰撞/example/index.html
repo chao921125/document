@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Test ball-collision</title>
+
+    <style>
+      html,
+      body {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+      .wrapper {
+        max-width: 640px;
+        height: 100%;
+        margin: 0 auto;
+      }
+
+      /**
+       * canvas 画布应当指定样式宽、高，画布内容会随之缩放。
+       */
+      .canvas-wrapper {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- 先准备一个 canvas 标签。css 样式可以随意指定，画布内容会随之缩放。 -->
+      <canvas id="canvas_wrapper" class="canvas-wrapper"></canvas>
+    </div>
+
+    <script src="../dist/ball-collision.umd.js"></script>
+    <script>
+      /**
+       * 1、配置 x、y、r 时，注意不要让小球的位置重叠
+       * 2、移动端设备，不需要考虑设备像素比，
+       *    即：x、y、r 等不需要乘 2、乘 3（因为，内部已自动做了canvas的适配）
+       * 3、所有配置的位置、尺寸等数值，与指定的宽度设计稿相匹配，可以通过 designWidth 参数指定设计稿宽度，默认：375。
+       */
+      var balls = [
+        {
+          r: 40, // 圆心 x 坐标，单位：px
+          x: 22 + 40, // 圆心 y 坐标，单位：px
+          y: 55, // 小球半径，单位：px
+          imgSrc: './images/bubble.png',
+        },
+        {
+          r: 37,
+          x: 109 + 37,
+          y: 55,
+          imgSrc: './images/bubble.png',
+        },
+        {
+          r: 228 / 3 / 2,
+          x: 193 + 38,
+          y: 55,
+          imgSrc: './images/bubble.png',
+        },
+        {
+          r: 37,
+          x: 276 + 37,
+          y: 55,
+          imgSrc: './images/bubble.png',
+        },
+        {
+          r: 37,
+          x: 35 + 37,
+          y: 138,
+          imgSrc: './images/bubble.png',
+        },
+        {
+          imgSrc: './images/bubble.png',
+          r: 37,
+          x: 116 + 37,
+          y: 138,
+        },
+        {
+          imgSrc: './images/bubble.png',
+          r: 37,
+          x: 200 + 37,
+          y: 138,
+        },
+        {
+          imgSrc: './images/bubble.png',
+          r: 37,
+          x: 10 + 37,
+          y: 220,
+        },
+        {
+          imgSrc: './images/bubble.png',
+          r: 37,
+          x: 279 + 37,
+          y: 138,
+        },
+        {
+          imgSrc: './images/bubble.png',
+          r: 37,
+          x: 89 + 37,
+          y: 220,
+        },
+        {
+          imgSrc: './images/bubble.png',
+          r: 33,
+          x: 169 + 33,
+          y: 220,
+        },
+        {
+          imgSrc: './images/bubble.png',
+          r: 30,
+          x: 240 + 30,
+          y: 220,
+        },
+        {
+          imgSrc: './images/bubble.png',
+          r: 30,
+          x: 305 + 30,
+          y: 220,
+        },
+      ]
+
+      /**
+       * 初始化（所有位置、尺寸，以 375 设计稿做参照，单位：px）
+       *  - 因为，canvas 只认 px，为了适配所有尺寸屏幕，内部实现类似 REM 的缩放效果。
+       *  - 移动端优先，所有的尺寸、速度等参数，均以 375 的设计稿为基准，通过 designWidth 参数指定设计稿宽度。
+       *  - 如果你的移动端页面，在 PC 端展示时，有设置页面的最大宽度（例如：640），那么此时，docEl 参数可以帮助你做适配。
+       */
+      new BallCollision({
+        canvas: document.getElementById('canvas_wrapper'),
+        balls: balls,
+        speedMin: -2, // 单位：px
+        speedMax: 2, // 单位：px
+        bgColor: '#4e9eff', // bgColor支持随机，也可以指定（合法的颜色值）
+        // docEl、designWidth 是自动处理页面尺寸适配的关键参数
+        // docEl: document.documentElement, // 页面节点（或可以视作页面实际承载容器的节点），默认：document.documentElement，如果页面有最大宽度，那么 docEl 在处理适宽时有用武之地
+        docEl: document.querySelector('.wrapper'),
+        designWidth: 375, // 设计稿的宽度，默认：375（所有配置的尺寸、位置等，都是指定宽度的设计稿数值）
+        scaleInPC: true, // PC 端是否自动缩放（默认： true，在移动端和PC端都会自动缩放，如果 PC 端不需要缩放可以配置为 false 关闭）
+        resetOnResize: true, // 浏览器 resize 或移动端 orientationchange 事件触发时，是否重置画布，默认：true
+        resetOnlyWidth: true, // 浏览器 resize 或移动端 orientationchange 事件触发时，仅宽度有变化时，才会 reset，默认：true
+      })
+    </script>
+  </body>
+</html>

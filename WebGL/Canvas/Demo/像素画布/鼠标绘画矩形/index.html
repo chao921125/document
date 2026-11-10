@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Canvas Demo</title>
+  <style>
+    canvas {
+      cursor: pointer;
+      border: 1px solid black;
+    }
+  </style>
+</head>
+
+<body>
+  <canvas id="canvas" width="400" height="300"></canvas>
+  <div>
+    <button onclick="save()">保存图片</button>
+    <button onclick="clearAll()">清空画布</button>
+    <button onclick="undo()">撤销</button>
+    <button onclick="redo()">前进</button>
+  </div>
+  <div id="img-container"></div>
+
+  <script src="./index.js"></script>
+  
+</body>
+
+</html>

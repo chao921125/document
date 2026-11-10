@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<canvas id="canvas" style="display: block; margin: 0 auto; border: 1px solid #aaa">
+    当前浏览器不支持canvas，请更换浏览器后再试
+</canvas>
+
+<script>
+    var WINDOW_WIDTH = 1920;
+    var WINDOW_HEIGHT = 1080;
+
+    // g:重力加速度， vx、vy 分别是x、y两个方向上的速度，用向量表示可以为负。
+    var ball = {x: 512, y: 100, r: 20, g: 2, vx: -4, vy: -10, color: "#005588"};
+
+    window.onload = function () {
+        var canvas = document.getElementById("canvas");
+        canvas.width = WINDOW_WIDTH;
+        canvas.height = WINDOW_HEIGHT;
+
+        var context = canvas.getContext("2d");
+        setInterval(function () {
+            render(context);
+            update();
+        }, 50);
+    }
+
+    function update() {
+        ball.x += ball.vx;
+        ball.y += ball.vy;
+        ball.vy += ball.g;
+        console.log("x:" + ball.x + ", y:" + ball.y + ", vx:" + ball.vx + ", vy:" + ball.vy)
+
+        //对小球进行4条边缘的碰撞实验
+        //小球碰到下边缘
+        if (ball.y >= WINDOW_HEIGHT - ball.r) {
+            ball.y = WINDOW_HEIGHT - ball.r;
+            // ball.vy = -ball.vy;
+            ball.vy = -ball.vy * 0.5; //加个阻力系数
+        }
+        //小球碰到上边缘
+        if (ball.y <= ball.r) {
+            ball.y = ball.r;
+            ball.vy = -ball.vy * 0.5;
+        }
+        //小球碰到左边缘
+        if (ball.x <= ball.r) {
+            ball.x = ball.r;
+            // ball.vx = -ball.vx;
+            ball.vx = -ball.vx * 0.5; //加个阻力系数
+        }
+        //小球碰到右边缘
+        if (ball.x >= WINDOW_WIDTH - ball.r) {
+            ball.x = WINDOW_WIDTH - ball.r;
+            ball.vx = -ball.vx * 0.5;
+        }
+    }
+
+    function render(context) {
+        context.clearRect(0, 0, context.canvas.width, context.canvas.height);
+
+        context.fillStyle = ball.color;
+        context.beginPath();
+        context.arc(ball.x, ball.y, ball.r, 0, 2 * Math.PI); //实际上就是在绘制一个实心圆
+        context.closePath();
+
+        context.fill();
+    }
+</script>
+</body>
+</html>

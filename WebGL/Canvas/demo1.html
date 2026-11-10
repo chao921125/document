@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Canvas</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    html, body {
+      height: 100%;
+      width: 100%;
+    }
+    .map-box {
+      width: 100%;
+      height: 100%;
+      background-color: #262539;
+      display: flex;
+      display: -webkit-flex;
+      align-items: center;
+      justify-content: center;
+      transform: scale(1, 1);
+    }
+    canvas {
+      display: block;
+      background-color: #262539;
+      border: 1px solid #1D1C2D;
+      margin: 0 auto;
+      /*transform: rotateX(180deg);*/
+    }
+  </style>
+</head>
+<body style="width: 100%;">
+<!-- canvas负责在网页中绘制图形 -->
+<!-- 图表 -->
+<!-- <canvas>标签只是图形容器你必须用脚本来绘制图形 -->
+<!-- API方法 -->
+<div class="map-box" id="mapBox">
+  <canvas id="canvas"></canvas>
+</div>
+
+<script type="text/javascript">
+  ;(() => {
+    resizeWindow();
+    window.onresize = () => {
+      resizeWindow();
+    };
+  })(window);
+
+  function resizeWindow() {
+    document.querySelector("#mapBox").setAttribute("width", document.body.clientWidth.toString());
+    document.querySelector("#mapBox").setAttribute("height", document.body.clientHeight.toString());
+    document.querySelector("#canvas").setAttribute("width", document.body.clientWidth.toString());
+    document.querySelector("#canvas").setAttribute("height", document.body.clientHeight.toString());
+    initDraw();
+  }
+
+  function initDraw() {
+    //获得画板
+    let canvas = document.getElementById('canvas');
+    if (!canvas.getContext) console.log("not support canvas");
+    //获得绘画环境
+    let ctx = canvas.getContext('2d');
+    // 注册事件
+    canvasEvent(canvas, ctx);
+    // 绘画网格
+    drawGrid(canvas, ctx,'#1D1C2D',5,5);
+
+    drawFace(canvas, ctx);
+  }
+
+  // 画底层网格背景
+  function drawGrid(canvas, ctx, color, stepX, stepY) {
+    // 保存
+    ctx.save();
+    ctx.strokeStyle = color;
+    // ctx.color = "black";
+    ctx.lineWidth = 0.5;
+
+    for (let i = stepX + 0.5; i < ctx.canvas.width; i += stepX) {
+      // 新建一条路径，生成之后，图形绘制命令被指向到路径上生成路径。
+      ctx.beginPath();
+      ctx.moveTo(i, 0);
+      ctx.lineTo(i, ctx.canvas.height);
+      ctx.stroke();
+    }
+
+    for (let i = stepY + 0.5; i < ctx.canvas.height; i += stepY) {
+      ctx.beginPath();
+      ctx.moveTo(0, i);
+      ctx.lineTo(ctx.canvas.width, i);
+      ctx.stroke();
+    }
+  }
+
+  // 事件绑定
+  function canvasEvent(canvas, ctx) {
+    canvas.onmousedown = (event) => {
+      canvas.style.cursor = "pointer";
+      event.preventDefault();
+      let z = event.deltaY > 0 ? -0.01 : 0.01;
+      canvasTranslate(canvas, ctx, event.offsetX, event.offsetY, z);
+    }
+    canvas.onmousewheel = (event) => {
+      let z = event.deltaY > 0 ? -0.01 : 0.01;
+      canvasScale(canvas, ctx, event.offsetX, event.offsetY, z);
+    }
+    canvas.ondblclick = (event) => {
+      console.log("ondblclick", event);
+      canvas.style.cursor = "default";
+    }
+    canvas.onclick = (event) => {
+      console.log("onclick", event.offsetX, event.offsetY);
+      canvas.style.cursor = "default";
+    }
+  }
+
+  // 缩放
+  function canvasScale(canvas, ctx, offsetX, offsetY, z) {
+    console.log(offsetX, offsetY);
+    const config = {
+      maxWidth: 2000,
+      minWidth: 600,
+    }
+    // 保存
+    ctx.save();
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    let obj = {
+      fontX: 0,
+      fontY: 0,
+      fontZoom: 1,
+      curZoom: 1,
+      translateX: 0,
+      translateY: 0,
+    }
+    obj.curZoom = obj.fontZoom + z;
+    obj.translateX = offsetX - (offsetX - obj.translateX) * obj.curZoom / obj.fontZoom;
+    obj.translateY = offsetY - (offsetY - obj.translateY) * obj.curZoom / obj.fontZoom;
+
+    ctx.translate(obj.translateX, obj.translateY)
+    ctx.scale(obj.curZoom, obj.curZoom);
+    // 绘画网格
+    drawGrid(canvas, ctx,'#1D1C2D',5,5);
+    console.log("======", canvas.width, canvas.height)
+    // drawFace(canvas, ctx);
+    ctx.restore();
+    obj.fontY = offsetY;
+    obj.fontX = offsetX;
+    obj.fontZoom = obj.curZoom;
+  }
+
+  // 拖拽
+  function canvasTranslate(canvas, ctx, offsetX, offsetY, z) {
+
+    canvas.onmouseup = (event) => {
+      console.log("onmouseup", event);
+      canvas.style.cursor = "default";
+    }
+    canvas.onmousemove = (event) => {
+      // console.log(event);
+      // let z = event.deltaY > 0 ? -0.01 : 0.01;
+      // canvasScale(canvas, ctx, event.offsetX, event.offsetY, z);
+      ctx.translate(offsetX, offsetY);
+      drawGrid(canvas, ctx,'#1D1C2D',5,5);
+    }
+    // 移动端
+    canvas.touchstart = (event) => {
+      console.log(event);
+    }
+    canvas.touchmove = (event) => {
+      console.log(event);
+    }
+    canvas.touchend = (event) => {
+      console.log(event);
+    }
+  }
+
+  function drawFace(canvas, ctx, offsetX, offsetY, z) {
+    ctx.restore();
+    ctx.lineWidth=1;
+
+    ctx.beginPath();
+    ctx.arc(75, 75, 50, 0, Math.PI * 2, true); // 绘制
+    ctx.moveTo(110, 75);
+    ctx.arc(75, 75, 35, 0, Math.PI, false);   // 口 (顺时针)
+    ctx.moveTo(65, 65);
+    ctx.arc(60, 65, 5, 0, Math.PI * 2, true);  // 左眼
+    ctx.moveTo(95, 65);
+    ctx.arc(90, 65, 5, 0, Math.PI * 2, true);  // 右眼
+    ctx.stroke();
+    // 闭合路径之后图形绘制命令又重新指向到上下文中。
+    ctx.closePath();
+  }
+
+</script>
+</body>
+</html>
