@@ -154,7 +154,6 @@
 | [*中转/BGP*]()                                                                                                          |
 |-------------------------------------------------------------------------------------------------------------------------|
 | [*注册无验证*]()                                                                                                        |
-| [* - 15/月-100G/月 飞鸟 FlyingBird 4](https://fbaff02.flyb-aff01.com/auth/register?code=GXsW) [](https://flyingbird.cc) |
 | [15/月-100G/月 龙猫云 Totoro Cloud 4](https://totorocloud.cc/register?code=8JnnPAyd)                                    |
 | [15.05/月-251G/月 prprCloud](https://prprcloud.com/)                                                                    |
 | [- 18/月-100G/月 Miaona](https://miaona.co/#/register)                                                                  |
