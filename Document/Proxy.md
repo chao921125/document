@@ -261,7 +261,6 @@
 | [29/月-500G/月 GLaDOS](https://glados.network/) [](https://glados.eu.org/)                                          |
 | [29/月-100G/月 海豚湾](https://hitun.io/)                                                                           |
 | [399.99/年-100G/月 xipCloud](https://xipcloudy.com/zh)                                                              |
-| [36/月-200G/月 YToo](https://y-too.com/)                                                                            |
 | [129.99/季-200G/月 ImmTelecom](https://immtele.com/index.php)                                                       |
 | [55/月-185G/月 Godetia](https://ssltd.xyz/#/login)                                                                  |
 | [* 57.5/月-300G/月 AmyTelecom 奶昔](https://www.amytele.net/index.php)                                              |
