@@ -26,7 +26,7 @@ dns:
     - 1.1.1.1
 
 # 节点统一由 proxy-providers 动态加载（订阅源固定更新）
-proxies:
+proxies: []
 
 proxy-providers:
   # 1. Pawdroid/Free-servers - 19.9k star，每 6 小时更新
