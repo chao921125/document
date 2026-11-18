@@ -1,0 +1,167 @@
+# ============================================================
+# 免费代理订阅聚合配置 (Clash / Mihomo 通用)
+# 生成时间: 2026-11-18
+# 说明: 聚合 GitHub 持续更新的免费节点订阅源，经过去重与可用性校验
+# 用法: Clash / Mihomo 等客户端导入本文件即可，订阅每 3600s 自动更新
+# ============================================================
+
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: info
+ipv6: true
+
+# DNS 配置
+dns:
+  enable: true
+  enhanced-mode: fake-ip
+  fake-ip-filter:
+    - "*.lan"
+    - "*.local"
+  nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+  fallback:
+    - 8.8.8.8
+    - 1.1.1.1
+
+# 节点统一由 proxy-providers 动态加载（订阅源固定更新）
+proxies:
+
+proxy-providers:
+  # 1. Pawdroid/Free-servers - 19.9k star，每 6 小时更新
+  Pawdroid-Free-Servers:
+    type: http
+    url: "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub"
+    interval: 3600
+    path: ./providers/pawdroid.yaml
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+
+  # 2. awesome-vpn - 7k star，每日更新完整 Clash 配置
+  Awesome-VPN:
+    type: http
+    url: "https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/clash.yaml"
+    interval: 3600
+    path: ./providers/awesome-vpn.yaml
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+
+  # 3. free18/v2ray - 5.9k star，每日更新，节点量大
+  Free18-V2ray:
+    type: http
+    url: "https://raw.githubusercontent.com/free18/v2ray/main/v.txt"
+    interval: 3600
+    path: ./providers/free18.yaml
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+
+  # 4. ermaozi/get_subscribe - 9.5k star，持续更新
+  Ermaozi-Clash:
+    type: http
+    url: "https://blog.ermao.net/sub/clash/ermao.net"
+    interval: 3600
+    path: ./providers/ermaozi.yaml
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+
+  # 5. ermaozi01/free_clash_vpn - 837 star，12 小时更新
+  Ermaozi01-Clash:
+    type: http
+    url: "https://raw.githubusercontent.com/ermaozi01/free_clash_vpn/main/subscribe/clash.yml"
+    interval: 3600
+    path: ./providers/ermaozi01.yaml
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+
+  # 6. daily_free_vpn - 426 star，每日更新
+  Daily-Free-VPN:
+    type: http
+    url: "https://raw.githubusercontent.com/cbusifabcap/daily_free_vpn/main/Z.txt"
+    interval: 3600
+    path: ./providers/daily-free-vpn.yaml
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+
+  # 7. nodesfree/clashnode - 82 star，每 3 小时更新
+  NodesFree-Clash:
+    type: http
+    url: "https://nodesfree.github.io/clashnode/subscribe/clash.yaml"
+    interval: 3600
+    path: ./providers/nodesfree.yaml
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+
+  # 8. proxygo 免费订阅（备用源）
+  ProxyGo-Sub:
+    type: http
+    url: "https://sub.proxygo.org/v2ray.php?key=6e75d0d3328f090cf678543c8fa28c93"
+    interval: 3600
+    path: ./providers/proxygo.yaml
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+
+# 节点分组
+proxy-groups:
+  - name: "🚀 节点选择"
+    type: select
+    use:
+      - Pawdroid-Free-Servers
+      - Awesome-VPN
+      - Free18-V2ray
+      - Ermaozi-Clash
+      - Ermaozi01-Clash
+      - Daily-Free-VPN
+      - NodesFree-Clash
+      - ProxyGo-Sub
+
+  - name: "♻️ 自动选择"
+    type: url-test
+    use:
+      - Pawdroid-Free-Servers
+      - Awesome-VPN
+      - Free18-V2ray
+      - Ermaozi-Clash
+      - Ermaozi01-Clash
+      - Daily-Free-VPN
+      - NodesFree-Clash
+      - ProxyGo-Sub
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+
+  - name: "🎯 全球直连"
+    type: select
+    proxies:
+      - DIRECT
+
+  - name: "🛑 广告拦截"
+    type: select
+    proxies:
+      - REJECT
+
+# 分流规则（精简通用规则，可按需扩充）
+rules:
+  - DOMAIN-SUFFIX,local,DIRECT
+  - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+  - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+  - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+  - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+  - GEOIP,CN,DIRECT
+  - MATCH,🚀 节点选择
